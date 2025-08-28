@@ -2,7 +2,7 @@ import argparse
 import sys
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--src",default="en","source language code")
+parser.add_argument("--src",default="en",help="source language code")
 parser.add_argument("--tgt",default="de",help="one target language code")
 parser.add_argument("--inputs",default=[],help="input files")
 parser.add_argument("--long",default=False, action="store_true",help="Whether the processing should be long-form.")
@@ -19,4 +19,4 @@ asr_model = nemo_asr.models.ASRModel.restore_from(restore_path="canaryv2/canary-
 
 transcriptions = asr_model.transcribe(args.inputs, source_lang=args.src, target_lang=args.tgt)
 
-print(transcriptions)
+print(transcriptions[0].text)

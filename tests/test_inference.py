@@ -20,9 +20,11 @@ class TestInference(unittest.TestCase):
     def test_read_in_out(self):
         in_data = [
             {"dataset_id": 0, "sample_id": 0, "src_audio": "fake.wav", "src_ref": "dummy",
-             "tgt_ref": "dummy", "src_lang": "en", "tgt_lang": "it", "benchmark_metadata": None},
+             "tgt_ref": "dummy", "src_lang": "en", "tgt_lang": "it",
+             "benchmark_metadata": {"context": "short"}},
             {"dataset_id": 0, "sample_id": 1, "src_audio": None, "src_ref": "dummy",
-             "tgt_ref": "dummy", "src_lang": "en", "tgt_lang": "it", "benchmark_metadata": None},
+             "tgt_ref": "dummy", "src_lang": "en", "tgt_lang": "it",
+             "benchmark_metadata": {"context": "short"}},
         ]
         out_data = [
             {"dataset_id": 0, "sample_id": 0, "src_lang": "en", "tgt_lang": "it", "model": "greatsys",

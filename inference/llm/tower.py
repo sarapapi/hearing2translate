@@ -5,7 +5,7 @@ import torch
 
 
 def load_model():
-    model_path = "Unbabel/TowerInstruct-13B-v0.2"
+    model_path = "Unbabel/Tower-Plus-9B"
     
     tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
     model = AutoModelForCausalLM.from_pretrained(

@@ -5,7 +5,7 @@ import torch
 
 
 def load_model():
-    model_path = "google/gemma-2-27b-it"
+    model_path = "google/gemma-3-12b-it"
     
     tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
     model = AutoModelForCausalLM.from_pretrained(

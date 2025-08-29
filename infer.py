@@ -107,16 +107,20 @@ def read_jsonl(path: str):
         for line in f:
             yield json.loads(line)
 
+
 def write_jsonl(file, data):
     for obj in data:
         file.write(json.dumps(obj, ensure_ascii=False) + "\n")
+
 
 def write_jsonl_to_file(path: str, data):
     with open(path, "w", encoding="utf-8") as f:
         write_jsonl(f, data)
 
+
 def write_jsonl_to_stdout(data):
     write_jsonl(sys.stdout, data)
+
 
 def get_model_input(modality, example, transcripts):
     if modality == "text":

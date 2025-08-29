@@ -11,6 +11,7 @@ set_seed(42)
 MODELS = [
     "aya-expanse-32b",
     "canary-v2",
+    "desta2",
     "gemma3-12b",
     "phi4multimodal",
     "towerplus-9b"
@@ -27,6 +28,7 @@ MODEL_MODULES = {
 
     # speechllms
     "phi4multimodal": "inference.speechllm.phi4multimodal",
+    "desta2": "inference.speechllm.desta2"
 }
 
 TEMPLATED_TEXT_PROMPT = \

@@ -1,18 +1,25 @@
 import os
 import unittest
 from unittest.mock import patch, MagicMock
+import argparse
+import json
 
-from inference import read_jsonl, load_model, load_prompt
+from infer import read_jsonl, load_model, load_prompt, get_model_input
 
 
 class TestInference(unittest.TestCase):
     def setUp(self):
         self.test_dir = os.path.dirname(os.path.abspath(__file__))
         self.inf_dir = os.path.join(self.test_dir, "..", "inference")
+        self.args = argparse.Namespace()
+        self.args.model = "phi4multimodal"
+        self.args.in_modality = "speech"
+        self.args.in_file = "dummy_in.jsonl"
+        self.args.out_file = "dummy.jsonl"
 
     def test_read_in_out(self):
         in_data = [
-            {"dataset_id": 0, "sample_id": 0, "src_audio": None, "src_ref": "dummy",
+            {"dataset_id": 0, "sample_id": 0, "src_audio": "fake.wav", "src_ref": "dummy",
              "tgt_ref": "dummy", "src_lang": "en", "tgt_lang": "it", "benchmark_metadata": None},
             {"dataset_id": 0, "sample_id": 1, "src_audio": None, "src_ref": "dummy",
              "tgt_ref": "dummy", "src_lang": "en", "tgt_lang": "it", "benchmark_metadata": None},
@@ -95,8 +102,29 @@ class TestInference(unittest.TestCase):
         with self.assertRaises(ValueError):
             load_prompt("speech", "lv", "it")
 
-    def test_main_inference(self):
-        pass
+    def test_get_model_in(self):
+        transcripts = {}
+        with open("dummy_out.jsonl", 'r', encoding='utf-8') as f:
+            for line in f:
+                entry = json.loads(line.strip())
+                # Use a tuple of (dataset_id, sample_id) as the key
+                key = (entry["dataset_id"], entry["sample_id"])
+                transcripts[key] = entry["output"]  # Store the 'output' field as the value
+
+        speech_inputs = []
+        for sample in read_jsonl("dummy_in.jsonl"):
+            speech_inputs.append(get_model_input("speech", sample, None))
+        self.assertEqual(speech_inputs, ["fake.wav", None])
+
+        text_inputs = []
+        for sample in read_jsonl("dummy_in.jsonl"):
+            text_inputs.append(get_model_input("text", sample, transcripts))
+        self.assertEqual(text_inputs, ["Output 1", "Output 2"])
+
+        with self.assertRaises(ValueError):
+            text_inputs = []
+            for sample in read_jsonl("dummy_in.jsonl"):
+                text_inputs.append(get_model_input("text", sample, None))
 
 
 if __name__ == '__main__':

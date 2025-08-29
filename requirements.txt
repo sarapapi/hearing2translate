@@ -1,5 +1,5 @@
-soundfile~=0.13.1
-numpy~=2.3.2
+soundfile
+numpy
 pytest
-transformers~=4.55.4
-tqdm~=4.67.1
+transformers
+tqdm

@@ -45,15 +45,13 @@ def load_model(model_name):
     module_name = MODEL_MODULES[model_name]
     module = importlib.import_module(module_name)
 
-    load_func_name = f"load_{model_name}"
-    generate_func = getattr(module, "generate", None)
+    load_func = getattr(module, "load_model", None)
+    if not load_func:
+        raise ImportError(f"Module {module_name} does not define `load_model`")
 
+    generate_func = getattr(module, "generate", None)
     if not generate_func:
         raise ImportError(f"Module {module_name} does not define `generate`")
-
-    load_func = getattr(module, load_func_name, None)
-    if not load_func:
-        raise ImportError(f"Module {module_name} does not define `{load_func_name}`")
 
     model = load_func()
     return model, generate_func
@@ -108,46 +106,54 @@ def write_jsonl(path: str, data):
             f.write(json.dumps(obj, ensure_ascii=False) + "\n")
 
 
-def main(args):
+def get_model_input(modality, example, transcripts):
+    if modality == "text":
+        try:
+            transcript = transcripts.get((example["dataset_id"], example["sample_id"]))
+        except:
+            raise ValueError(
+                f"No transcript found for {example["dataset_id"]}/{example["sample_id"]}, but "
+                f"modality is {modality}.")
+        return transcript
+    else:
+        return example.get("src_audio")
+
+
+def infer(args):
     logging.info(f"Loading model {args.model}")
     model, generate = load_model(args.model)
     modality = args.in_modality
 
+    transcripts = None
     if args.in_modality == "text":
-        logging.info("Loading transcripts...")
-        transcripts = []
+        logging.info("Loading transcripts")
+        transcripts = {}
         with open(args.transcript_file, 'r', encoding='utf-8') as f:
             for line in f:
-                transcripts.append(json.loads(line.strip()))
+                entry = json.loads(line.strip())
+                # Use a tuple of (dataset_id, sample_id) as the key
+                key = (entry["dataset_id"], entry["sample_id"])
+                transcripts[key] = entry["output"]  # Store the 'output' field as the value
 
     results = []
-    for example in tqdm(read_jsonl(args.in_file), desc="Generating Outputs"):
-        dataset_id = example["dataset_id"]
-        sample_id = example["sample_id"]
-        src_lang = example.get("src_lang")
-        tgt_lang = example.get("tgt_lang")
+    for sample in tqdm(read_jsonl(args.in_file), desc="Generating Outputs"):
+        src_lang = sample.get("src_lang")
+        tgt_lang = sample.get("tgt_lang")
         prompt = load_prompt(modality, src_lang, tgt_lang)
 
-        if modality == "text":
-            transcript = transcripts.get((dataset_id, sample_id))
-            if transcript is None:
-                logging.warning(f"No transcript found for {dataset_id}/{sample_id}, skipping.")
-                continue
-            model_input = transcript
-        else:
-            model_input = example.get("src_audio")
+        model_input = get_model_input(modality, sample, transcripts)
 
         output = generate(model, prompt, model_input).strip()
 
         results.append({
-            "dataset_id": dataset_id,
-            "sample_id": sample_id,
+            "dataset_id": sample["dataset_id"],
+            "sample_id": sample["sample_id"],
             "src_lang": src_lang,
             "tgt_lang": tgt_lang,
             "output": output
         })
 
-    logging.info(f"Writing results...")
+    logging.info(f"Writing results")
     write_jsonl(args.out_file, results)
     logging.info("Output written to %s", args.out_file)
 
@@ -155,16 +161,15 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Hearing to Translate output generation.")
     parser.add_argument("--model", choices=MODELS, required=True,
-                        help="Model to be used for inference")
+                             help="Model to be used for inference")
     parser.add_argument("--in-modality", choices=["speech", "text"], required=True,
-                        help="Input modality used for inference")
+                             help="Input modality used for inference")
     parser.add_argument("--in-file", required=True, help="Input JSONL file path")
     parser.add_argument("--out-file", required=True, help="Output JSONL file path")
     parser.add_argument("--transcript-file",
-                        help="Optional JSONL with transcripts for text modality")
-
+                             help="Optional JSONL with transcripts for text modality")
     args = parser.parse_args()
 
     logging.basicConfig(level=logging.INFO)
 
-    main(args)
+    infer(args)

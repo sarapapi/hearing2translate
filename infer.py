@@ -5,16 +5,10 @@ import json
 import os
 from tqdm import tqdm
 from transformers import set_seed
+import sys
 
 set_seed(42)
 
-MODELS = [
-    "aya-expanse-32b",
-    "canary-v2",
-    "gemma3-12b",
-    "phi4multimodal",
-    "towerplus-9b"
-]
 
 MODEL_MODULES = {
     # llms
@@ -28,6 +22,8 @@ MODEL_MODULES = {
     # speechllms
     "phi4multimodal": "inference.speechllm.phi4multimodal",
 }
+
+MODELS = sorted(list(MODEL_MODULES.keys()))
 
 TEMPLATED_TEXT_PROMPT = \
     ("You are a professional {src_lang}-to-{tgt_lang} translator. Your goal is to accurately convey "
@@ -108,10 +104,14 @@ def read_jsonl(path: str):
             yield json.loads(line)
 
 
-def write_jsonl(path: str, data):
+def write_jsonl_to_file(path: str, data):
     with open(path, "w", encoding="utf-8") as f:
         for obj in data:
             f.write(json.dumps(obj, ensure_ascii=False) + "\n")
+
+def write_jsonl_to_stdout(path: str, data):
+    for obj in data:
+        sys.stdout.write(json.dumps(obj, ensure_ascii=False) + "\n")
 
 
 def get_model_input(modality, example, transcripts):
@@ -170,7 +170,10 @@ def infer(args):
         })
 
     logging.info(f"Writing results")
-    write_jsonl(args.out_file, results)
+    if args.out_file:
+        write_jsonl_to_file(args.out_file, results)
+    else:
+        write_jsonl_to_stdout(results)
     logging.info("Output written to %s", args.out_file)
 
 
@@ -181,7 +184,7 @@ if __name__ == "__main__":
     parser.add_argument("--in-modality", choices=["speech", "text"], required=True,
                         help="Input modality used for inference")
     parser.add_argument("--in-file", required=True, help="Input JSONL file path")
-    parser.add_argument("--out-file", required=True, help="Output JSONL file path")
+    parser.add_argument("--out-file", required=False, help="Output JSONL file path. If not set: stdout.", default=None)
     parser.add_argument("--transcript-file",
                         help="Optional JSONL with transcripts for text modality")
     args = parser.parse_args()

@@ -18,6 +18,7 @@ MODEL_MODULES = {
     # speech foundation models
     "canary-v2": "inference.sfm.canaryv2",
     "whisper": "inference.sfm.whisper",
+    "seamlessm4t": "inference.sfm.seamlessm4t",
 
     # speechllms
     "desta2-8b": "inference.speechllm.desta2",

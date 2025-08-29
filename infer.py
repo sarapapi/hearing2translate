@@ -38,7 +38,7 @@ TEMPLATED_SPEECH_PROMPT = \
      "provided {src_lang} speech into {tgt_lang}:")
 
 
-def load_model(model_name):
+def setup_model(model_name):
     if model_name not in MODEL_MODULES:
         raise NotImplementedError(f"Model {model_name} currently not supported!")
 
@@ -121,7 +121,7 @@ def get_model_input(modality, example, transcripts):
 
 def infer(args):
     logging.info(f"Loading model {args.model}")
-    model, generate = load_model(args.model)
+    model, generate = setup_model(args.model)
     modality = args.in_modality
 
     transcripts = None

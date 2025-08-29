@@ -4,7 +4,7 @@ from unittest.mock import patch, MagicMock
 import argparse
 import json
 
-from infer import read_jsonl, load_model, load_prompt, get_model_input
+from infer import read_jsonl, setup_model, load_prompt, get_model_input
 
 
 class TestInference(unittest.TestCase):
@@ -41,10 +41,10 @@ class TestInference(unittest.TestCase):
         # Mock the module and its functions
         mock_module = MagicMock()
         mock_module.generate = MagicMock()
-        mock_module.load_phi4multimodal = MagicMock(return_value="mock_model")
+        mock_module.load_model = MagicMock(return_value="mock_model")
         mock_import.return_value = mock_module
 
-        model, generate_func = load_model("phi4multimodal")
+        model, generate_func = setup_model("phi4multimodal")
 
         mock_import.assert_called_once_with("inference.speechllm.phi4multimodal")
         self.assertEqual(model, "mock_model")
@@ -52,7 +52,7 @@ class TestInference(unittest.TestCase):
 
     def test_load_unsupported_model(self):
         with self.assertRaises(NotImplementedError) as context:
-            load_model("unsupported_model")
+            setup_model("unsupported_model")
         self.assertIn("currently not supported", str(context.exception))
 
     @patch('importlib.import_module')
@@ -62,19 +62,18 @@ class TestInference(unittest.TestCase):
         mock_import.return_value = mock_module
 
         with self.assertRaises(ImportError) as context:
-            load_model("phi4multimodal")
+            setup_model("phi4multimodal")
         self.assertIn("does not define `generate`", str(context.exception))
 
     @patch('importlib.import_module')
     def test_load_model_missing_load_func(self, mock_import):
         mock_module = MagicMock()
-        mock_module.generate = MagicMock()
-        del mock_module.load_phi4multimodal  # Remove load function
+        del mock_module.load_model  # Remove load function
         mock_import.return_value = mock_module
 
         with self.assertRaises(ImportError) as context:
-            load_model("phi4multimodal")
-        self.assertIn("does not define `load_phi4multimodal`", str(context.exception))
+            setup_model("phi4multimodal")
+        self.assertIn("does not define `load_model`", str(context.exception))
 
     def test_load_prompt(self):
         enit_speech_prompt = load_prompt("speech", "en", "it")

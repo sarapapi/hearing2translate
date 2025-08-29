@@ -10,10 +10,16 @@ set_seed(42)
 
 MODELS = [
     "phi4multimodal",
+    "aya",
+    "gemma", 
+    "tower",
 ]
 
 MODEL_MODULES = {
     # llms
+    "aya": "inference.llm.aya",
+    "gemma": "inference.llm.gemma",
+    "tower": "inference.llm.tower",
 
     # speech foundation models
 

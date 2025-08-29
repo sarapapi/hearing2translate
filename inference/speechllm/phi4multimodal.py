@@ -18,13 +18,13 @@ def load_model():
     return model, processor, generation_config
 
 
-def generate(model_processor_config, prompt, audio_path):
+def generate(model_processor_config, model_input):
     model, processor, generation_config = model_processor_config
 
-    composed_prompt = f"<|user|><|audio_1|>{prompt}<|end|><|assistant|>"
+    composed_prompt = f"<|user|><|audio_1|>{model_input["prompt"]}<|end|><|assistant|>"
 
     # Open audio file
-    audio, samplerate = sf.read(audio_path)
+    audio, samplerate = sf.read(model_input["audio_path"])
 
     # Process with the model
     inputs = processor(

@@ -7,11 +7,11 @@ def load_model():
         "microsoft/Phi-4-multimodal-instruct", trust_remote_code=True)
     model = AutoModelForCausalLM.from_pretrained(
         "microsoft/Phi-4-multimodal-instruct",
-        device_map="cuda",
+        device_map="auto",
         torch_dtype="auto",
         trust_remote_code=True,
         _attn_implementation="flash_attention_2",
-    ).cuda()
+    )
 
     generation_config = GenerationConfig.from_pretrained("microsoft/Phi-4-multimodal-instruct")
 
@@ -29,7 +29,7 @@ def generate(model_processor_config, model_input):
     # Process with the model
     inputs = processor(
         text=composed_prompt, audios=[(audio, samplerate)], return_tensors="pt"
-    ).to("cuda:0")
+    ).to(model.device)
 
     generate_ids = model.generate(
         **inputs,

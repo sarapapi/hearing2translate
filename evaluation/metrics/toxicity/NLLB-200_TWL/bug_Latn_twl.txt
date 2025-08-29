@@ -1,0 +1,364 @@
+acu
+ana' halluluk
+ana' harang
+anréi buaja
+assu
+balala
+balalamu
+balalana
+banta
+banta'
+banta'mu
+bantak
+bantakmu
+bantakna
+bantaq
+bata'na
+beleng
+beleng-beleng
+bencong
+bombi'
+bombik
+bombiq
+bongngo
+bongngo-bongngo
+buajamu
+buajana
+bullu
+bullu-bullu
+bulu bombi
+bulu combi
+buntu
+buntu-buntu
+béléng
+béléng-béléng
+béncong
+cakkindi
+cakkindi'-kindi'i
+cakkindi'-kindi'na
+cakkindi'i
+cakkindi'na
+cakkindi-kindi
+cakkindik
+cakkindik-kindik
+cakkuribang
+calabai
+calalai
+calleda
+calleda'
+calléda
+calléda'
+candolendoleng
+candolengdoleng
+candoléndoléng
+candoléng-doléng
+candoléngdoléng
+celle celle
+celle-celle
+cellé cellé
+cemu
+cemu-cemu
+cidda
+cidda'
+cidda'i
+cidda'ko
+ciddak
+ciddakko
+cilaka'
+cimu
+cippo
+cippo'
+collong cellé-celléna
+combi'
+combik
+combiq
+cému
+cému-cému
+donggomu di
+duppai
+duppaiko
+ee
+ee'
+eek
+eeq
+elomu sia
+elomu sia'
+elomu siak
+elomu siaq
+endu
+ettu
+ettu'
+icippo
+icippo'
+icippok
+iso laso'
+itoppo
+itoppo'
+itoppok
+jangengko
+jangengngi
+jemmeng
+jencemmu
+jenceng
+jencengna
+jencengngi
+jencenna
+jengceng
+jengcengngi
+kapuru ori
+kapuru' ori
+kapuruk ori
+kapuruq ori
+katawwang
+kikkiri gellang
+kikkiri' gellang
+komba
+komba'
+kombak
+lace'
+laco
+laibine
+laibiné
+lao mutai
+lase
+lase'
+lase'mu
+lase'na
+lasek
+lasekmu
+lasekna
+laseq
+laso
+lasék
+lawengsinjo'nale
+lawengsinjoknale
+lawéngsinjo'nalé
+lawéngsinjoknalé
+leda
+leda'
+leda'mu
+leda'na
+lege
+legemu
+legena
+lessi
+lessimu
+lessina
+lonte
+lonté
+losi massoso
+losi toppo'
+léda
+léda'
+léda'mu
+léda'na
+légé
+légému
+légéna
+mabalala
+mabalalai
+mabalalako
+mabbai
+mabbalu' cina
+mabbirang
+mabo'i
+mabo'ko
+mabok
+mabuaja
+mabuajai
+mabuajako
+mabuntu
+macilaka
+macilaka'
+maggoco
+maggoco'
+maggocok
+maggocoq
+maja messang
+majamessang
+majemmeng
+majenceng
+majengceng
+makkenda
+makkenda'
+makkendak
+makkendaq
+makkendu
+makkenru
+makkoco
+makkoco'
+makkocok
+makkocoq
+makkunrai betta
+makkunrai cakkindi'
+makkunrai cilaka
+makkénda
+makkénda'
+makkéndak
+makkéndaq
+makkéndu
+makkénru
+maleda
+maleda'
+maleda'i
+maledak'i
+malege
+malege-lege
+malege-legei
+malege-legeko
+malegei
+malegeko
+mallai
+maléda
+maléda'
+maléda'i
+malédak
+malédak'i
+malégé-légé
+malégé-légéi
+malégé-légéko
+malégéi
+malégéko
+mangure
+mangure'
+mangurek
+mangureq
+mannyonyo
+mappuda
+mappuda'
+mappudak
+mappudaq
+marantasa
+marantasa'
+marantasa'i
+marantasak
+marantasak'i
+mate sojo'i
+mate sojo'ko
+mate sojok
+matessojo'
+matessojo'i
+matessojo'ko
+mattappa lanceng
+mattappa lancéng
+maté sojo'
+maté sojo'i
+maté sojo'ko
+maté sojok
+matéssojo'
+matéssojo'i
+matéssojo'ko
+meja messang
+mejamessang
+mejencengngi
+mettu
+mettu' combi'na
+mettu' combikna
+mingki
+mingki'
+mingki'mu
+mingki'na
+mingkik
+mingkikmu
+mingkikna
+mingkiq
+mmabo'
+mmabok
+mucidda'i
+muduppai
+nacidda'i
+naduppai
+nanre sojok
+nanressojo'
+nanressojok
+nessana bulu dua
+ngure
+ngure'
+ngurek
+ngureq
+nyarabbalakang
+nyarang balakang
+nyarang metto
+ombi'
+ombik
+ombiq
+pada ceba
+pada céba
+panga yaro
+panga-panga
+panga-pangai
+panga-pangamu
+panga-pangana
+pangako
+pangolo
+parakang
+poncing lebba'
+poncing loppo
+rantasa
+rantasa'
+rantasa'i
+rantasa'mu
+rantasa'na
+rantasak
+rantasakmu
+rantasakna
+setang
+sicippo
+sicippo'
+sicippok
+sinjo'nale
+sinjo'nalé
+sinjoknale
+sinjoknalé
+sinting
+sintingko
+sintingngi
+sombong lebba'
+ssina indo'na
+ssinaindo'na
+ssinando'na
+ssu
+susu loppo
+sétang
+tae
+tahi
+tai
+tailaco
+tailacomu
+taillaco
+taillacomu
+talessi
+talessimu
+talessina
+tanrangna mangkasa
+tau asu
+tau donggo
+taé
+telaco
+telacomu
+tellaco
+tellacomu
+tete
+tetek
+teteq
+to jangeng
+tonang
+toppo
+toppok
+télaco
+télacomu
+téllaco
+téllacomu
+tété
+tété' loppo
+téték
+tétéq
+élomu sia
+élomu sia'
+élomu siak
+élomu siaq
+éndu
+éé
+éé'
+éék
+ééq

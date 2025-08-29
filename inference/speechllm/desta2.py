@@ -3,8 +3,7 @@ from transformers import AutoModel
 
 def load_model():
     model = AutoModel.from_pretrained(
-        "DeSTA-ntu/DeSTA2-8B-beta", trust_remote_code=True
-    ).to("cuda")
+        "DeSTA-ntu/DeSTA2-8B-beta", trust_remote_code=True, device_map="auto")
     return model
 
 

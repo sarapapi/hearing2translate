@@ -11,14 +11,16 @@ set_seed(42)
 MODELS = [
     "aya-expanse-32b",
     "canary-v2",
-    "gemma3-",
+    "gemma3-12b",
     "phi4multimodal",
-    "towerplus"
+    "towerplus-9b"
 ]
 
 MODEL_MODULES = {
     # llms
     "aya-expanse-32b": "inference.llm.aya",
+    "gemma3-12b": "inference.llm.gemma",
+    "towerplus-9b": "inference.llm.towerplus",
 
     # speech foundation models
     "canary-v2": "inference.sfm.canaryv2",

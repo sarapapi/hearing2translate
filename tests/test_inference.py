@@ -1,6 +1,5 @@
 import os
 import unittest
-import json
 from unittest.mock import patch, MagicMock
 
 from inference import read_jsonl, load_model, load_prompt
@@ -71,9 +70,33 @@ class TestInference(unittest.TestCase):
         self.assertIn("does not define `load_phi4multimodal`", str(context.exception))
 
     def test_load_prompt(self):
-        prompt = load_prompt("speech", "en", "it")
+        enit_speech_prompt = load_prompt("speech", "en", "it")
+        enit_text_prompt = load_prompt("text", "en", "it")
 
-        self.assertEqual(prompt, "")
+        self.assertEqual(
+            enit_text_prompt, "You are a professional English-to-Italian translator. Your goal is "
+                              "to accurately convey the meaning and nuances of the original "
+                              "English text while adhering to Italian grammar, vocabulary, and "
+                              "cultural sensitivities. Preserve the line breaks. Use precise "
+                              "terminology and a tone appropriate for academic or instructional "
+                              "materials. Produce only the Italian translation, without any "
+                              "additional explanations or commentary. Please translate the "
+                              "provided English text into Italian:")
+        self.assertEqual(
+            enit_speech_prompt, "You are a professional English-to-Italian translator. Your goal "
+                                "is to accurately convey the meaning and nuances of the original "
+                                "English speech while adhering to Italian grammar, vocabulary, and"
+                                " cultural sensitivities. Use precise terminology and a tone "
+                                "appropriate for academic or instructional materials. Produce only"
+                                " the Italian translation, without any additional explanations or "
+                                "commentary. Please translate the provided English speech into "
+                                "Italian:")
+
+        with self.assertRaises(ValueError):
+            load_prompt("speech", "lv", "it")
+
+    def test_main_inference(self):
+        pass
 
 
 if __name__ == '__main__':

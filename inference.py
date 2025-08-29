@@ -59,7 +59,7 @@ def load_model(model_name):
     return model, generate_func
 
 
-def load_prompt(modality: str, src_lang: str, ref_lang: str) -> str:
+def load_prompt(modality: str, src_lang: str, tgt_lang: str) -> str:
     """
     Load and fill the prompt template based on modality and language mapping.
 
@@ -78,16 +78,20 @@ def load_prompt(modality: str, src_lang: str, ref_lang: str) -> str:
         prompt = TEMPLATED_TEXT_PROMPT
 
     # Load the language mapping
-    mapping_path = os.path.join("inference", "language_mapping.json")
+    mapping_path = os.path.join(
+        os.path.dirname(os.path.abspath(__file__)), "inference", "language_mapping.json")
     with open(mapping_path, "r", encoding="utf-8") as f:
         lang_mapper = json.load(f)
 
     # Replace placeholders
-    filled_prompt = (
-        prompt
-        .replace("{src_lang}", lang_mapper.get(src_lang, src_lang))
-        .replace("{ref_lang}", lang_mapper.get(ref_lang, ref_lang))
-    )
+    try:
+        filled_prompt = (
+            prompt
+            .replace("{src_lang}", lang_mapper[src_lang])
+            .replace("{tgt_lang}", lang_mapper[tgt_lang])
+        )
+    except KeyError as e:
+        raise ValueError(f"Language not found in mapping: {e}") from e
 
     return filled_prompt
 

@@ -23,7 +23,13 @@ def generate(model, sample):
     task = "transcribe" if src == tgt else "translate"
     is_long = True # TODO
 
+    # this is probably wrong, needs to be worked on next time
+    # docs: 
+    # https://huggingface.co/facebook/seamless-m4t-v2-large
+    # https://huggingface.co/docs/transformers/model_doc/seamless_m4t_v2 
+
     inputs = processor(audios=sample["sample"], return_tensors="pt")
-    out = model.generate(**inputs, tgt_lang=tgt)[0].cpu().numpy().squeeze()
+
+    out = model.generate(**inputs, tgt_lang=tgt, generate_speech=False)[0].cpu().numpy().squeeze()
     print(out)
-    return transcriptions['text']
+    return out['text']

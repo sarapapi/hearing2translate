@@ -1,0 +1,2 @@
+{"dataset_id" : 0, "sample_id": 0, "src_lang": "en", "tgt_lang": "it", "model": "greatsys", "output": "Output 1", "translation": "dummy"}
+{"dataset_id" : 0, "sample_id": 1, "src_lang": "en", "tgt_lang": "it", "model": "greatsys", "output": "Output 2", "translation": "dummy"}

@@ -109,7 +109,7 @@ def write_jsonl_to_file(path: str, data):
         for obj in data:
             f.write(json.dumps(obj, ensure_ascii=False) + "\n")
 
-def write_jsonl_to_stdout(path: str, data):
+def write_jsonl_to_stdout(data):
     for obj in data:
         sys.stdout.write(json.dumps(obj, ensure_ascii=False) + "\n")
 
@@ -172,9 +172,9 @@ def infer(args):
     logging.info(f"Writing results")
     if args.out_file:
         write_jsonl_to_file(args.out_file, results)
+        logging.info("Output written to %s", args.out_file)
     else:
         write_jsonl_to_stdout(results)
-    logging.info("Output written to %s", args.out_file)
 
 
 if __name__ == "__main__":

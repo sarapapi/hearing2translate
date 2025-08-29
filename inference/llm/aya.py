@@ -9,10 +9,10 @@ def load_model():
     tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
     model = AutoModelForCausalLM.from_pretrained(
         model_path,
-        device_map="cuda",
+        device_map="auto",
         torch_dtype="auto",
         trust_remote_code=True,
-    ).cuda()
+    )
     
     # Set pad token if not present
     if tokenizer.pad_token is None:
@@ -30,7 +30,7 @@ def generate(model_tokenizer_config, model_input):
     full_prompt = f"{model_input["prompt"]}\n{model_input["sample"]}"
     
     # Tokenize input
-    inputs = tokenizer(full_prompt, return_tensors="pt").to("cuda:0")
+    inputs = tokenizer(full_prompt, return_tensors="pt").to(model.device)
     
     # Generate translation
     generate_ids = model.generate(

@@ -22,7 +22,8 @@ MODEL_MODULES = {
     # speechllms
     "desta2-8b": "inference.speechllm.desta2",
     "phi4multimodal": "inference.speechllm.phi4multimodal",
-    "qwen2audio-7b": "inference.speechllm.qwen2audio"
+    "qwen2audio-7b": "inference.speechllm.qwen2audio",
+    "voxtral-small-24b": "inference.speechllm.voxtral"
 }
 
 MODELS = sorted(list(MODEL_MODULES.keys()))

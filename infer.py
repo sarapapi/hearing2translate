@@ -9,13 +9,19 @@ from transformers import set_seed
 set_seed(42)
 
 MODELS = [
+    "aya-expanse-32b",
+    "canary-v2",
+    "gemma3-",
     "phi4multimodal",
+    "towerplus"
 ]
 
 MODEL_MODULES = {
     # llms
+    "aya-expanse-32b": "inference.llm.aya",
 
     # speech foundation models
+    "canary-v2": "inference.sfm.canaryv2",
 
     # speechllms
     "phi4multimodal": "inference.speechllm.phi4multimodal",
@@ -139,11 +145,19 @@ def infer(args):
     for sample in tqdm(read_jsonl(args.in_file), desc="Generating Outputs"):
         src_lang = sample.get("src_lang")
         tgt_lang = sample.get("tgt_lang")
+        context = sample.get("benchmark_metadata")["context"]
         prompt = load_prompt(modality, src_lang, tgt_lang)
 
-        model_input = get_model_input(modality, sample, transcripts)
+        sample_in = get_model_input(modality, sample, transcripts)
+        model_input = {
+            "src_lang": src_lang,
+            "tgt_lang": tgt_lang,
+            "prompt": prompt,   # prompt to be used by SpeechLLMs and LLMs
+            "sample": sample_in,    # either the audio path or the transcript to be translated
+            "context": context,  # "short" or "long" for short- or long-form
+        }
 
-        output = generate(model, prompt, model_input).strip()
+        output = generate(model, model_input).strip()
 
         results.append({
             "dataset_id": sample["dataset_id"],
@@ -161,13 +175,13 @@ def infer(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Hearing to Translate output generation.")
     parser.add_argument("--model", choices=MODELS, required=True,
-                             help="Model to be used for inference")
+                        help="Model to be used for inference")
     parser.add_argument("--in-modality", choices=["speech", "text"], required=True,
-                             help="Input modality used for inference")
+                        help="Input modality used for inference")
     parser.add_argument("--in-file", required=True, help="Input JSONL file path")
     parser.add_argument("--out-file", required=True, help="Output JSONL file path")
     parser.add_argument("--transcript-file",
-                             help="Optional JSONL with transcripts for text modality")
+                        help="Optional JSONL with transcripts for text modality")
     args = parser.parse_args()
 
     logging.basicConfig(level=logging.INFO)

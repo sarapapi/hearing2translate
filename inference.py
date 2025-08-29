@@ -137,7 +137,7 @@ def main(args):
         else:
             model_input = example.get("src_audio")
 
-        output = generate(prompt, model_input).strip()
+        output = generate(model, prompt, model_input).strip()
 
         results.append({
             "dataset_id": dataset_id,

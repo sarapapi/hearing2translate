@@ -22,6 +22,8 @@ MODEL_MODULES = {
     "tower": "inference.llm.tower",
 
     # speech foundation models
+    "whisper": "inference.sfm.whisper",
+    "canaryv2": "inference.sfm.canaryv2",
 
     # speechllms
     "phi4multimodal": "inference.speechllm.phi4multimodal",
@@ -113,13 +115,14 @@ def write_jsonl(path: str, data):
 
 
 def get_model_input(modality, example, transcripts):
+    print(example)
     if modality == "text":
         try:
             transcript = transcripts.get((example["dataset_id"], example["sample_id"]))
         except:
             raise ValueError(
-                f"No transcript found for {example["dataset_id"]}/{example["sample_id"]}, but "
-                f"modality is {modality}.")
+                f'No transcript found for {example["dataset_id"]}/{example["sample_id"]}, but '
+                f'modality is {modality}.')
         return transcript
     else:
         return example.get("src_audio")

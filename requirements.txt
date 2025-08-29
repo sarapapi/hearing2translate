@@ -4,3 +4,4 @@ pytest
 transformers
 tqdm
 nemo_toolkit[all]
+librosa

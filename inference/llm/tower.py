@@ -1,7 +1,6 @@
 from transformers.models.auto.modeling_auto import AutoModelForCausalLM
 from transformers.models.auto.tokenization_auto import AutoTokenizer
 from transformers.generation.configuration_utils import GenerationConfig
-import torch
 
 
 def load_model():

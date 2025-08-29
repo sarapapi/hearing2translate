@@ -24,11 +24,11 @@ def load_model():
     return model, tokenizer, generation_config
 
 
-def generate(model_tokenizer_config, prompt, model_input):
+def generate(model_tokenizer_config, model_input):
     model, tokenizer, generation_config = model_tokenizer_config
 
     # Concatenate prompt and input with newline
-    full_prompt = f"{prompt}\n{model_input}"
+    full_prompt = f"{model_input["prompt"]}\n{model_input["sample"]}"
     
     # Tokenize input
     inputs = tokenizer(full_prompt, return_tensors="pt").to("cuda:0")

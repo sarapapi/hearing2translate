@@ -24,7 +24,7 @@ def generate(model_processor_config, model_input):
     composed_prompt = f"<|user|><|audio_1|>{model_input["prompt"]}<|end|><|assistant|>"
 
     # Open audio file
-    audio, samplerate = sf.read(model_input["audio_path"])
+    audio, samplerate = sf.read(model_input["sample"])
 
     # Process with the model
     inputs = processor(

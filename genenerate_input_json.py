@@ -1,7 +1,7 @@
 import os
 from abc import ABC
-from dataclasses import dataclass
-from enum import Enum
+from dataclasses import dataclass, asdict
+from enum import Enum, auto
 from pathlib import Path
 
 
@@ -9,26 +9,24 @@ import jsonlines
 from datasets import load_dataset
 from dotenv import load_dotenv
 
-dataset_types = ["standard","gender"]
-class DatasetType(Enum):
-    STANDARD = 1
-    GENDER = 2
-    CODESWITCH = 3
-    CONVERSATION = 4
-    LONGFORM = 5
-    GENDERBIAS = 6
-    TOXICITY = 7
-    DIALECTACCENT = 8
-    TERMINOLOGY = 9
-    NONNATIVE = 10
-    #DISFLUENCIES = 
-    #NOISY = 
-langs = [""]
+class DatasetType(str, Enum):
+    STANDARD = "standard"
+    GENDER = "gender"
+    CODESWITCH = "code_switch"
+    CONVERSATION = "conversation"
+    LONGFORM = "longform"
+    GENDERBIAS = "gender_bias"
+    TOXICITY = "toxicity"
+    DIALECTACCENT = "accents"
+    TERMINOLOGY = "terminology"
+    NONNATIVE = "non_native"
+
+langs = ["es", "fr", "de", "zh",]
 
 @dataclass
 class InputJson:
     dataset_id: str
-    dataset_type: list
+    #dataset_type: list
     sample_id: int
     src_audio: Path | None
     src_ref: str | None
@@ -56,30 +54,28 @@ class CSFleurs(Dataset):
 
     @classmethod
     def generate(cls):
-        dataset = load_dataset("byan/cs-fleurs")
-        dataset_path = Path(f"./datasets/{cls.dataset_id}")
+        dataset = load_dataset("byan/cs-fleurs", split="test")
+        dataset_path = Path(f"./manifests/{cls.dataset_id}")
         dataset_path.mkdir(parents=True, exist_ok=True)
-        lang_pair = set(dataset["test"]["language"])
+        lang_pair = set(dataset["language"])
         for lp in lang_pair:
             src, tgt = lp.split("-")
-            samples = []
             #TODO Ask if json should be separated by json or if maybe we shoudl reconsider it
             dataset_path_json = dataset_path / f"{src}-{tgt}.jsonl"
             with jsonlines.open(dataset_path_json, mode="w") as writer:
-                for i, sample in enumerate(dataset["test"].filter(lambda x : x["language"] == lang_pair)):
-                    print(sample)
+                samples = []
+                for i, sample in enumerate(dataset.filter(lambda x : x["language"] == lp)):
                     samples.append(
-                            InputJson(
+                            asdict(InputJson(
                                 dataset_id=cls.dataset_id,
-                                dataset_type= DatasetType.CODESWITCH,
                                 sample_id=i, #TODO Over what for loop do we save the sample_id? Whole dataset o rlang_pair?
-                                src_audio=f"/read/test/audio/{src}/{id}.wav",
+                                src_audio=f"/read/test/audio/{src}/{sample['id']}.wav",
                                 src_ref="",
                                 tgt_ref="",
                                 src_lang= src,
                                 ref_lang= tgt,
-                                benchmark_metadata={"cs_lang" : [src,tgt]},
-                            )
+                                benchmark_metadata={"cs_lang" : [src,tgt], "dataset_type" : DatasetType.CODESWITCH }
+                            ))
                             )
                 writer.write_all(samples)
 

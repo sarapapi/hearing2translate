@@ -16,7 +16,7 @@ def generate(model, model_input):
 
     generated_ids = model.chat(
         messages, max_new_tokens=4096, do_sample=True, temperature=0.6, top_p=0.9
-    )
+    ).to(model.device)
 
     response = model.tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
     return response

@@ -14,9 +14,7 @@ def generate(model_processor, model_input):
 
     prompt = f"<|audio_bos|><|AUDIO|><|audio_eos|>{model_input["prompt"]}"
     audio, sr = librosa.load(model_input["sample"], sr=processor.feature_extractor.sampling_rate)
-    inputs = processor(text=prompt, audios=audio, return_tensors="pt")
-
-    inputs.input_ids = inputs.input_ids.to(model.device)
+    inputs = processor(text=prompt, audios=audio, return_tensors="pt").to(model.device)
 
     generate_ids = model.generate(**inputs, max_length=4096)
     generate_ids = generate_ids[:, inputs.input_ids.size(1):]

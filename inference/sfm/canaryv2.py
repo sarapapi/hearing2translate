@@ -11,5 +11,5 @@ def generate(model, sample):
     src = sample["src_lang"]
     tgt = sample["tgt_lang"]
     audio_path = sample["sample"]
-    transcriptions = model.transcribe(audio_path, source_lang=src, target_lang=tgt)
+    transcriptions = model.transcribe(audio_path, source_lang=src, target_lang=tgt, timestsamps=True)
     return transcriptions[0].text

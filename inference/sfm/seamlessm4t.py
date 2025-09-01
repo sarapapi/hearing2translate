@@ -1,4 +1,5 @@
 from transformers import AutoProcessor, SeamlessM4Tv2Model
+import librosa
 
 def load_model():
     model = SeamlessM4Tv2Model.from_pretrained("facebook/seamless-m4t-v2-large")
@@ -7,12 +8,13 @@ def load_model():
 
 seamless_lang_codes = {
     "en": "eng",
-    "de": "deu",
-    "fr": "fra",
     "es": "spa",       
+    "fr": "fra",
+    "de": "deu",
     "it": "ita",
-    "nl": "nld",                               
-    # TODO
+    "pt": "por",
+    "zh": "cmn",
+    "zh-cn": "cmn",
 }
 
 def generate(model, sample):
@@ -28,8 +30,11 @@ def generate(model, sample):
     # https://huggingface.co/facebook/seamless-m4t-v2-large
     # https://huggingface.co/docs/transformers/model_doc/seamless_m4t_v2 
 
-    inputs = processor(audios=sample["sample"], return_tensors="pt")
+    audio, sr = librosa.load(sample["sample"], sr=processor.feature_extractor.sampling_rate)
+    inputs = processor(audios=audio, return_tensors="pt")
 
     out = model.generate(**inputs, tgt_lang=tgt, generate_speech=False)[0].cpu().numpy().squeeze()
     print(out)
-    return out['text']
+
+    text = processor.decode(out, skip_special_tokens=True)
+    return text

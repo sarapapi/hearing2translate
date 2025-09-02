@@ -12,7 +12,7 @@ def load_model():
 def generate(model_processor, model_input):
     model, processor = model_processor
 
-    prompt = f"<|audio_bos|><|AUDIO|><|audio_eos|>{model_input["prompt"]}"
+    prompt = f"<|audio_bos|><|AUDIO|><|audio_eos|>{model_input['prompt']}"
     audio, sr = librosa.load(model_input["sample"], sr=processor.feature_extractor.sampling_rate)
     inputs = processor(text=prompt, audios=audio, return_tensors="pt").to(model.device)
 

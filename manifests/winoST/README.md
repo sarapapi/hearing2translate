@@ -1,12 +1,3 @@
-
-
-wget https://zenodo.org/records/4139080/files/WinoST.zip?download=1 -O ./WinoST.zip
-unzip -d extracted WinoST.zip && find extracted -name "*.wav.gz" -exec gunzip {} \;
-
-wget https://github.com/gabrielStanovsky/mt_gender/raw/refs/heads/master/data/aggregates/en.txt
-
-then run python generate.py
-
 # WinoST
 
 This repository provides scripts for downloading and preparing the **WinoST** dataset.

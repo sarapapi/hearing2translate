@@ -1,4 +1,4 @@
-# FLEURS Pairwise Audio+Text Exporter
+# FLEURS
 
 This script downloads selected splits of the **FLEURS** dataset from Hugging Face and builds, for each language pair and split, a JSONL file with source audio + aligned source/target transcriptions. It also exports the source-waveforms (`.wav`) to a local `audio/<src_lang>/` folder.
 

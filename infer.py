@@ -141,7 +141,7 @@ def infer(args):
         outfile = open(args.out_file, "w", encoding="utf-8")
     else:
         outfile = sys.stdout
-    for sample in tqdm(read_jsonl(args.in_file), desc="Generating Outputs"):
+    for sample in tqdm(list(read_jsonl(args.in_file)), desc="Generating Outputs"):
         src_lang = sample.get("src_lang")
         tgt_lang = sample.get("tgt_lang")
         context = sample.get("benchmark_metadata")["context"]

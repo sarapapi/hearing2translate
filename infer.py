@@ -107,6 +107,7 @@ def read_jsonl(path: str):
         for line in f:
             yield json.loads(line)
 
+
 def get_model_input(modality, example, transcripts):
     if modality == "text":
         try:
@@ -118,6 +119,7 @@ def get_model_input(modality, example, transcripts):
         return transcript
     else:
         return os.path.join(os.environ['H2T_DATADIR'], example.get("src_audio").lstrip(os.sep))
+
 
 def infer(args):
     logging.info(f"Loading model {args.model}")
@@ -149,8 +151,8 @@ def infer(args):
         model_input = {
             "src_lang": src_lang,
             "tgt_lang": tgt_lang,
-            "prompt": prompt,   # prompt to be used by SpeechLLMs and LLMs
-            "sample": sample_in,    # either the audio path or the transcript to be translated
+            "prompt": prompt,  # prompt to be used by SpeechLLMs and LLMs
+            "sample": sample_in,  # either the audio path or the transcript to be translated
             "context": context,  # "short" or "long" for short- or long-form
         }
 

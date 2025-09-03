@@ -13,7 +13,7 @@ LANGUAGE_PAIRS = [
 
 def process_winost_dataset():
 
-    audio_output_dir = './extracted/WinoST'
+    audio_output_dir = '/winoST/extracted/WinoST'
     txt_file_path = './en.txt'
 
     sentences_anti = [line.split("\t")[2] for line in open("./en_anti.txt", encoding="utf-8")]

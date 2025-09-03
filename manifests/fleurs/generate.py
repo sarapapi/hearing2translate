@@ -112,7 +112,7 @@ def process_fleurs_dataset():
                             "src_lang": src_lang,
                             "tgt_lang": tgt_lang,
                             "benchmark_metadata": {
-                                "gender": sample["gender"]
+                                "gender": sample["gender"], "context": "short"
                             }
                         }
 

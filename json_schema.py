@@ -11,16 +11,17 @@ class InputJson:
     tgt_ref: str | None | dict
     src_lang: str
     ref_lang: str
-    benchmark_metadata: dict | None
+    benchmark_metadata: dict | None #{"context":  ("short","long")}}
 
 
 @dataclass
 class OutputJson:
-    output : str
+    dataset_id: str
+    sample_id: str
     src_lang : str
     tgt_lang : str
-    dataset_id: str 
     model : str
+    output : str
 
 
 

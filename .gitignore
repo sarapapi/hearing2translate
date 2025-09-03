@@ -1,3 +1,5 @@
 .DS_Store
 */.DS_Store
 .ipynb_checkpoints/
+manifests/cs_fleurs/data
+__pycache__/

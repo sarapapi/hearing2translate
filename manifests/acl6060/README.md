@@ -16,12 +16,12 @@ The dataset provides metadata and references in JSONL, but the audio must be sav
 
 ```bash
 # Dev split
-python manifests/acl6060/save_audio.py \
+python manifests/acl6060/generate.py \
   --jsonl manifests/acl6060/en-de.jsonl \
   --split dev
 
 # Eval split
-python manifests/acl6060/save_audio.py \
+python manifests/acl6060/generate.py \
   --jsonl manifests/acl6060/en-de.jsonl \
   --split eval
 ```

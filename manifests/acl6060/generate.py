@@ -38,7 +38,6 @@ def main():
 
     # Base dir = the directory where this save_audio.py lives (root/manifests/acl6060)
     base_dir = Path(__file__).resolve().parent
-    # If audio_root is relative, make it relative to the script dir
 
     # Out directory is audio/{split}
     out_dir = base_dir / args.audio_root / args.split

@@ -36,8 +36,12 @@ def main():
     ap.add_argument("--audio_root", default="audio", help="Root directory to save audio")
     args = ap.parse_args()
 
+    # Base dir = the directory where this save_audio.py lives (root/manifests/acl6060)
+    base_dir = Path(__file__).resolve().parent
+    # If audio_root is relative, make it relative to the script dir
+
     # Out directory is audio/{split}
-    out_dir = Path(args.audio_root) / args.split
+    out_dir = base_dir / args.audio_root / args.split
     out_dir.mkdir(parents=True, exist_ok=True)
 
     # 1) Collect sample_ids we want to export

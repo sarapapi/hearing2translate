@@ -151,7 +151,10 @@ def infer(args):
                 key = (entry["dataset_id"], entry["sample_id"])
                 transcripts[key] = entry["output"]  # Store the 'output' field as the value
 
-    results = []
+    if args.out_file:
+        outfile = open(args.out_file, "w", encoding="utf-8")
+    else:
+        outfile = sys.stdout
     for sample in tqdm(read_jsonl(args.in_file), desc="Generating Outputs"):
         src_lang = sample.get("src_lang")
         tgt_lang = sample.get("tgt_lang")
@@ -169,20 +172,17 @@ def infer(args):
 
         output = generate(model, model_input).strip()
 
-        results.append({
+        result = {
             "dataset_id": sample["dataset_id"],
             "sample_id": sample["sample_id"],
             "src_lang": src_lang,
             "tgt_lang": tgt_lang,
             "output": output
-        })
-
-    logging.info(f"Writing results")
+        }
+        outfile.write(json.dumps(result, ensure_ascii=False) + "\n")
+        outfile.flush()
     if args.out_file:
-        write_jsonl_to_file(args.out_file, results)
-        logging.info("Output written to %s", args.out_file)
-    else:
-        write_jsonl_to_stdout(results)
+        outfile.close()
 
 
 if __name__ == "__main__":

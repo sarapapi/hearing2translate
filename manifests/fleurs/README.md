@@ -1,4 +1,4 @@
-# FLEURS
+# FLEURS Pairwise Audio+Text Exporter
 
 This script downloads selected splits of the **FLEURS** dataset from Hugging Face and builds, for each language pair and split, a JSONL file with source audio + aligned source/target transcriptions. It also exports the source-waveforms (`.wav`) to a local `audio/<src_lang>/` folder.
 
@@ -24,7 +24,7 @@ This script downloads selected splits of the **FLEURS** dataset from Hugging Fac
 {
   "dataset_id": "fleurs",
   "sample_id": "<string>",
-  "src_audio": "./audio/<src_lang>/<sample_id>.wav",
+  "src_audio": "/fleurs/audio/<src_lang>/<sample_id>.wav",
   "src_ref": "<source transcription>",
   "tgt_ref": "<target transcription>",
   "src_lang": "<two-letter ISO 639-1>",
@@ -64,4 +64,4 @@ python generate.py
 For each pair `<src>-<tgt>` and each split in `SPLITS`, you get:
 
 * `./<src>-<tgt>.<split>.jsonl` – metadata + paths to audio.
-* `./audio/<src>/<sample_id>.wav` – exported source audio for that pair.
+* `/fleurs/audio/<src>/<sample_id>.wav` – exported source audio for that pair.

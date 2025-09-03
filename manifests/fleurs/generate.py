@@ -35,7 +35,7 @@ LANG_CODE_TO_CONFIG = {
 
 # Define the splits to be used from the dataset
 # The FLEURS dataset on Hugging Face uses 'validation' and 'test'.
-SPLITS = ["validation", "test"]
+SPLITS = ["test"]
 
 
 def process_fleurs_dataset():
@@ -79,7 +79,7 @@ def process_fleurs_dataset():
                 tgt_transcriptions = {item['id']: item['transcription'] for item in tgt_dataset}
 
                 # 3. Create and write to the JSONL file
-                jsonl_filename = f"{src_lang}-{tgt_lang}.{split}.jsonl"
+                jsonl_filename = f"{src_lang}-{tgt_lang}.jsonl"
                 records_written = 0
                 with open(jsonl_filename, 'w', encoding='utf-8') as f:
                     for sample in src_dataset:
@@ -92,7 +92,7 @@ def process_fleurs_dataset():
                         # Define the audio file path
                         audio_filename = f"{sample_id}.wav"
                         audio_filepath = os.path.join(audio_output_dir, audio_filename)
-                        relative_audio_path = f"./{audio_filepath.replace(os.sep, '/')}"
+                        relative_audio_path = f"/fleurs/{audio_filepath.replace(os.sep, '/')}"
 
                         # Save the audio file only if it doesn't already exist
                         if not os.path.exists(audio_filepath):

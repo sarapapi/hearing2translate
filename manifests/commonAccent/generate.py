@@ -8,7 +8,7 @@ import soundfile as sf
 
 #As we have no target references anyways, we translate to all of them
 tgt_langs = [
-    'es','nl'
+    'es','nl',
     'fr','de',
     'zh','it',
     'pt'

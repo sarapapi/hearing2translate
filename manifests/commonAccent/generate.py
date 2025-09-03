@@ -1,4 +1,4 @@
-"""A script to generate the CommonAccent jsonl files"""
+"""A script to generate the CommonAccent jsonl files and save audios"""
 import json
 import os
 
@@ -8,7 +8,7 @@ import soundfile as sf
 
 #As we have no target references anyways, we translate to all of them
 tgt_langs = [
-    'es','nl'
+    'es','nl',
     'fr','de',
     'zh','it',
     'pt'
@@ -51,7 +51,7 @@ def build_jsonl():
                         #If the path to the audio doesn't exist, save it
                         audio_filename=f"{row['utt_id']}.wav"
                         audio_filepath = os.path.join(audio_output_dir, audio_filename)
-                        relative_audio_path = f"./{audio_filepath.replace(os.sep, '/')}"
+                        relative_audio_path = f"/commonAccent/{audio_filepath.replace(os.sep, '/')}"
 
                         if not os.path.exists(audio_filepath):
                             sf.write(
@@ -69,7 +69,8 @@ def build_jsonl():
                             "src_lang": src,
                             "tgt_lang": tgt,
                             "benchmark_metadata": {
-                                "acc": df[df['utt_id'] == row['utt_id']]['accent'].iloc[0]
+                                "acc": df[df['utt_id'] == row['utt_id']]['accent'].iloc[0],
+                                "context": "short"
                             }
                         }
 
@@ -84,7 +85,7 @@ def build_jsonl():
                     #If the path to the audio doesn't exist, save it
                     audio_filename=f"{row['utt_id']}.wav"
                     audio_filepath = os.path.join(audio_output_dir, audio_filename)
-                    relative_audio_path = f"./{audio_filepath.replace(os.sep, '/')}"
+                    relative_audio_path = f"/commonAccent/{audio_filepath.replace(os.sep, '/')}"
 
                     if not os.path.exists(audio_filepath):
                         sf.write(
@@ -102,7 +103,8 @@ def build_jsonl():
                         "src_lang": src,
                         "tgt_lang": tgt,
                         "benchmark_metadata": {
-                            "acc": df[df['utt_id'] == row['utt_id']]['accent'].iloc[0]
+                            "acc": df[df['utt_id'] == row['utt_id']]['accent'].iloc[0],
+                            "context": 'short'
                         }
                     }
 

@@ -29,8 +29,6 @@ MODEL_MODULES = {
 
 MODELS = sorted(list(MODEL_MODULES.keys()))
 
-DATADIR = os.environ['H2T_DATADIR']
-
 TEMPLATED_TEXT_PROMPT = \
     ("You are a professional {src_lang}-to-{tgt_lang} translator. Your goal is to accurately convey "
      "the meaning and nuances of the original {src_lang} text while adhering to {tgt_lang} grammar, "
@@ -134,7 +132,7 @@ def get_model_input(modality, example, transcripts):
                 f'modality is {modality}.')
         return transcript
     else:
-        return os.path.join(DATADIR, example.get("src_audio"))
+        return os.path.join(os.environ['H2T_DATADIR'], example.get("src_audio").lstrip(os.sep))
 
 
 def infer(args):

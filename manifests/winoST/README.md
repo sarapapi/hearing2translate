@@ -23,6 +23,8 @@ Download the aggregated English references from the **mt\_gender** repository:
 
 ```bash
 wget https://github.com/gabrielStanovsky/mt_gender/raw/refs/heads/master/data/aggregates/en.txt
+wget https://github.com/gabrielStanovsky/mt_gender/raw/refs/heads/master/data/aggregates/en_anti.txt
+wget https://github.com/gabrielStanovsky/mt_gender/raw/refs/heads/master/data/aggregates/en_pro.txt
 ```
 
 ## Generate Input Jsons

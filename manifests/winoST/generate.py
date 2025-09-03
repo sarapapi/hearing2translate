@@ -16,6 +16,9 @@ def process_winost_dataset():
     audio_output_dir = './extracted/WinoST'
     txt_file_path = './en.txt'
 
+    sentences_anti = [line.split("\t")[2] for line in open("./en_anti.txt", encoding="utf-8")]
+    sentences_pro  = [line.split("\t")[2] for line in open("./en_pro.txt", encoding="utf-8")]
+    
     for pair in LANGUAGE_PAIRS:
         src_lang, tgt_lang = pair.split('-')
         jsonl_filename = f"{src_lang}-{tgt_lang}.jsonl"
@@ -30,6 +33,13 @@ def process_winost_dataset():
 
                     parts = line.strip().split("\t")
                     gender, label, sentence, target = parts
+
+                    stereotype = None
+                    if sentence in sentences_anti:
+                        stereotype= 'anti'
+                    elif sentence in sentences_pro:
+                        stereotype= 'pro'
+
                     # Construct the JSON record
                     record = {
                         "dataset_id": "WinoST",
@@ -40,13 +50,12 @@ def process_winost_dataset():
                         "src_lang": src_lang,
                         "tgt_lang": tgt_lang,
                         "benchmark_metadata": {
-                            "gender": gender, "profession": target, "label": label
+                            "gender": gender, "profession": target, "label": label, "stereotype": stereotype, "context": "short"
                         }
                     }
 
                     f_json.write(json.dumps(record, ensure_ascii=False) + '\n')
-                
-
+            
 
 if __name__ == "__main__":
     

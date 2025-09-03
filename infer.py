@@ -29,8 +29,6 @@ MODEL_MODULES = {
 
 MODELS = sorted(list(MODEL_MODULES.keys()))
 
-DATADIR = os.environ['H2T_DATADIR']
-
 TEMPLATED_TEXT_PROMPT = \
     ("You are a professional {src_lang}-to-{tgt_lang} translator. Your goal is to accurately convey "
      "the meaning and nuances of the original {src_lang} text while adhering to {tgt_lang} grammar, "
@@ -111,9 +109,8 @@ def read_jsonl(path: str):
 
 
 def write_jsonl(file, data):
-    with open(file, "w", encoding="utf-8") as f:
-        for obj in data:
-            f.write(json.dumps(obj, ensure_ascii=False) + "\n")
+    for obj in data:
+        f.write(json.dumps(obj, ensure_ascii=False) + "\n")
 
 
 def write_jsonl_to_file(path: str, data):
@@ -135,7 +132,7 @@ def get_model_input(modality, example, transcripts):
                 f'modality is {modality}.')
         return transcript
     else:
-        return os.path.join(DATADIR, example.get("src_audio"))
+        return example.get("src_audio")
 
 
 def infer(args):

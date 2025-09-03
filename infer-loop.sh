@@ -6,7 +6,7 @@
 # ./infer-loop.sh | bash -v
 
 if [ -z "$H2T_DATADIR" ]; then
-	# define your env dir, if not set from outside
+	# define your env var if not set from outside
 	# (this is Dominik's default one)
 	H2T_DATADIR=manifests
 fi
@@ -21,9 +21,8 @@ else # the others don't use any
 fi
 
 
-# add or remove those who you want to run:
-#for dataset in fleurs ; do 
-for dataset in winoST ; do
+# add or remove the ones you want to run:
+for dataset in winoST fleurs ; do
 	# same with models
 	for model in whisper canary-v2 seamlessm4t ; do 
 		mkdir -p outputs/$model/$dataset/

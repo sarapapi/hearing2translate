@@ -134,7 +134,7 @@ def get_model_input(modality, example, transcripts):
                 f'modality is {modality}.')
         return transcript
     else:
-        return os.path.join(DATADIR, example.get("src_audio"))
+        return DATADIR + example.get("src_audio")
 
 
 def infer(args):

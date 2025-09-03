@@ -111,8 +111,9 @@ def read_jsonl(path: str):
 
 
 def write_jsonl(file, data):
-    for obj in data:
-        file.write(json.dumps(obj, ensure_ascii=False) + "\n")
+    with open(file, "w", encoding="utf-8") as f:
+        for obj in data:
+            f.write(json.dumps(obj, ensure_ascii=False) + "\n")
 
 
 def write_jsonl_to_file(path: str, data):

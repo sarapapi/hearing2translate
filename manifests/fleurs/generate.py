@@ -92,7 +92,7 @@ def process_fleurs_dataset():
                         # Define the audio file path
                         audio_filename = f"{sample_id}.wav"
                         audio_filepath = os.path.join(audio_output_dir, audio_filename)
-                        relative_audio_path = f"./{audio_filepath.replace(os.sep, '/')}"
+                        relative_audio_path = f"/fleurs/{audio_filepath.replace(os.sep, '/')}"
 
                         # Save the audio file only if it doesn't already exist
                         if not os.path.exists(audio_filepath):

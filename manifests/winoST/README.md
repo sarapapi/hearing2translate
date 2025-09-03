@@ -1,6 +1,6 @@
 # WinoST
 
-This repository provides scripts for downloading and preparing the **WinoST** dataset.
+Scripts for downloading and preparing the **WinoST** dataset.
 
 ## Download the dataset
 

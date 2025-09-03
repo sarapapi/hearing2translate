@@ -53,9 +53,7 @@ h2t/
 ├─ manifests/
 │  └─ acl6060/
 │     ├─ en-de.jsonl
-│     ├─ en-de.fixed.jsonl
 │     ├─ save_audio.py
-│     ├─ rewrite.py
 │     └─ audio/
 │        ├─ dev/
 │        │  ├─ 0.wav

@@ -15,9 +15,14 @@ LANGUAGE_PAIRS = [
     "en-it",
     "en-es",
     "en-zh",
+
+    "de-en",
     "fr-en",
+    "pt-en",
+    "nl-en",
     "it-en",
-    "de-en"
+    "es-en",
+    "zh-en",
 ]
 
 # This dictionary maps the two-letter language codes to the specific

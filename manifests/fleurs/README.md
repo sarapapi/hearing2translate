@@ -13,7 +13,7 @@ This script downloads selected splits of the **FLEURS** dataset from Hugging Fac
   * Writes `<src>-<tgt>.<split>.jsonl` containing one JSON record per sample with:
 
     * path to the exported **source audio** (`.wav`)
-    * **source transcription** (FLEURS field `transcription`)
+    * **source transcription** (FLEURS field `raw_transcription`)
     * **target transcription** looked up by the shared `id`
     * `src_lang`, `tgt_lang`, `benchmark_metadata` (currently `gender`)
   * Saves the **source audio** to `./audio/<src_lang>/<sample_id>.wav` if not already present.
@@ -25,8 +25,8 @@ This script downloads selected splits of the **FLEURS** dataset from Hugging Fac
   "dataset_id": "fleurs",
   "sample_id": "<string>",
   "src_audio": "/fleurs/audio/<src_lang>/<sample_id>.wav",
-  "src_ref": "<source transcription>",
-  "tgt_ref": "<target transcription>",
+  "src_ref": "<source raw_transcription>",
+  "tgt_ref": "<target raw_transcription>",
   "src_lang": "<two-letter ISO 639-1>",
   "tgt_lang": "<two-letter ISO 639-1>",
   "benchmark_metadata": {"gender": "0|1"}

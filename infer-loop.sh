@@ -1,9 +1,19 @@
 #!/bin/bash
 
-# this script prints commands that run inference on selected datasets
+# This script prints commands that run inference on selected datasets.
+# It's safe for multiprocessing. Every infer.py process is locked, the lock is checked
+# by others. Successful infer process is marked ok with `touch $out.ok`, so it can be
+# easily inspected.
 
-# Example usage:
+# Inspect by bare eyes what processes need to be run:
+# ./infer-loop.sh
+
+# Run the processes:
 # ./infer-loop.sh | bash -v
+
+# Multiprocessing, e.g.:
+# ./infer-loop.sh | bash -v & ./infer-loop.sh | bash -v
+
 
 if [ -z "$H2T_DATADIR" ]; then
 	# define your env var if not set from outside
@@ -22,15 +32,21 @@ fi
 
 
 # add or remove the ones you want to run:
-for dataset in winoST fleurs ; do
+#for dataset in winoST fleurs ; do
+for dataset in acl6060 ; do
 	# same with models
 	for model in whisper canary-v2 seamlessm4t ; do 
 		mkdir -p outputs/$model/$dataset/
 		for inf in manifests/$dataset/*.jsonl ; do 
 			b=$(basename $inf)
 			langpair=${b/.jsonl/}
+			# whisper is not from en, only into en
 			[[ $model = whisper ]] && [[ ! $langpair = *-en ]] && continue
-			echo "H2T_DATADIR=$H2T_DATADIR $HFTOKEN $p3""python3 infer.py --model $model --in-modality speech --in-file $inf --out-file outputs/$model/$dataset/$(basename $inf)"
+			out=outputs/$model/$dataset/$b
+			# filters out successful (ok) or running (locked)
+			if [ ! -f $out.ok ] && [ ! -d $out.lock ]; then
+				echo "if mkdir $out.lock ; then H2T_DATADIR=$H2T_DATADIR $HFTOKEN $p3""python3 infer.py --model $model --in-modality speech --in-file $inf --out-file $out  && touch $out.ok; rm -rf $out.lock ; fi"
+			fi
 		done
 	done
 done

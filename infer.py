@@ -143,7 +143,10 @@ def infer(args):
         outfile = sys.stdout
     for sample in tqdm(list(read_jsonl(args.in_file)), desc="Generating Outputs"):
         src_lang = sample.get("src_lang")
-        tgt_lang = sample.get("tgt_lang")
+        if args.asr:
+            tgt_lang = src_lang
+        else:
+            tgt_lang = sample.get("tgt_lang")
         context = sample.get("benchmark_metadata")["context"]
         prompt = load_prompt(modality, src_lang, tgt_lang)
 
@@ -181,6 +184,8 @@ if __name__ == "__main__":
     parser.add_argument("--out-file", required=False, help="Output JSONL file path. If not set: stdout.", default=None)
     parser.add_argument("--transcript-file",
                         help="Optional JSONL with transcripts for text modality")
+    parser.add_argument("--asr", default=False, action="store_true",
+                        help="If set, the speech model is used as ASR for the src lang. Tgt language is ignored.")
     args = parser.parse_args()
 
     logging.basicConfig(level=logging.INFO)

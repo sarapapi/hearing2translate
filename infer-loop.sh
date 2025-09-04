@@ -30,22 +30,47 @@ else # the others don't use any
 	HFTOKEN=""
 fi
 
+cmd() {
+	echo "if mkdir $out.lock ; then H2T_DATADIR=$H2T_DATADIR $HFTOKEN $p3""python3 infer.py --model $model --in-modality speech --in-file $inf --out-file $out $asr && touch $out.ok; rm -rf $out.lock ; fi"
+}
+
+
 
 # add or remove the ones you want to run:
-#for dataset in winoST fleurs ; do
-for dataset in acl6060 ; do
+for dataset in winoST fleurs ; do
+#for dataset in acl6060 ; do
 	# same with models
 	for model in whisper canary-v2 seamlessm4t ; do 
 		mkdir -p outputs/$model/$dataset/
+		# translation:
+		asr=""
 		for inf in manifests/$dataset/*.jsonl ; do 
 			b=$(basename $inf)
 			langpair=${b/.jsonl/}
+			# nl is not supported but some data are there
+			[[ $langpair = *-nl ]] && continue
 			# whisper is not from en, only into en
 			[[ $model = whisper ]] && [[ ! $langpair = *-en ]] && continue
 			out=outputs/$model/$dataset/$b
 			# filters out successful (ok) or running (locked)
 			if [ ! -f $out.ok ] && [ ! -d $out.lock ]; then
-				echo "if mkdir $out.lock ; then H2T_DATADIR=$H2T_DATADIR $HFTOKEN $p3""python3 infer.py --model $model --in-modality speech --in-file $inf --out-file $out  && touch $out.ok; rm -rf $out.lock ; fi"
+				cmd
+			fi
+		done
+		outdir=outputs/$model""_asr/$dataset/
+		mkdir -p $outdir
+		# ASR:
+		asr="--asr"
+		for inf in manifests/$dataset/*.jsonl ; do 
+			b=$(basename $inf)
+			langpair=${b/.jsonl/}
+			# nl is not supported but some data are there
+       			[[ $langpair = *-nl ]] && continue
+			# whisper is not from en, only into en
+			out=$outdir/$b
+			# filters out successful (ok) or running (locked)
+			if [ ! -f $out.ok ] && [ ! -d $out.lock ]; then
+				cmd
 			fi
 		done
 	done

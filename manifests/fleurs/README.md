@@ -50,10 +50,11 @@ This script downloads selected splits of the **FLEURS** dataset from Hugging Fac
 ```
 
 
-
 ## How to run
 
 ```bash
+export H2T_DATADIR='' #Path where the Fleurs dataset is stored.
+
 python generate.py
 ```
 

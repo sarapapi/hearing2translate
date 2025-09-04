@@ -59,7 +59,7 @@ def process_fleurs_dataset():
             tgt_config = LANG_CODE_TO_CONFIG[tgt_lang]
 
             # Create output directory for audio files (once per source language)
-            audio_output_dir = os.path.join("audio", src_lang)
+            audio_output_dir = os.path.join(os.environ['H2T_DATADIR'], "fleurs", "audio", src_lang)
             os.makedirs(audio_output_dir, exist_ok=True)
             print(f"Audio files for '{src_lang}' will be saved in: '{audio_output_dir}'")
 
@@ -76,7 +76,7 @@ def process_fleurs_dataset():
                 print(f"Loaded {len(tgt_dataset)} samples for target '{tgt_lang}' in split '{split}'.")
 
                 # 2. Create a dictionary for the target transcriptions for easy lookup
-                tgt_transcriptions = {item['id']: item['transcription'] for item in tgt_dataset}
+                tgt_transcriptions = {item['id']: item['raw_transcription'] for item in tgt_dataset}
 
                 # 3. Create and write to the JSONL file
                 jsonl_filename = f"{src_lang}-{tgt_lang}.jsonl"
@@ -92,7 +92,7 @@ def process_fleurs_dataset():
                         # Define the audio file path
                         audio_filename = f"{sample_id}.wav"
                         audio_filepath = os.path.join(audio_output_dir, audio_filename)
-                        relative_audio_path = f"/fleurs/{audio_filepath.replace(os.sep, '/')}"
+                        relative_audio_path = os.path.join("fleurs", "audio", src_lang, audio_filename)
 
                         # Save the audio file only if it doesn't already exist
                         if not os.path.exists(audio_filepath):
@@ -106,8 +106,8 @@ def process_fleurs_dataset():
                         record = {
                             "dataset_id": "fleurs",
                             "sample_id": sample_id,
-                            "src_audio": relative_audio_path,
-                            "src_ref": sample["transcription"],
+                            "src_audio": f"/{relative_audio_path}",
+                            "src_ref": sample["raw_transcription"],
                             "tgt_ref": tgt_transcriptions[sample_id],
                             "src_lang": src_lang,
                             "tgt_lang": tgt_lang,

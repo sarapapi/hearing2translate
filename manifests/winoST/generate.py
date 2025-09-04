@@ -9,6 +9,7 @@ LANGUAGE_PAIRS = [
     "en-fr",
     "en-it",
     "en-es",
+    "en-de"
 ]
 
 def process_winost_dataset():

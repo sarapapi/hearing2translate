@@ -8,6 +8,8 @@ Short form dataset
 
 # Dependencies
 Need datasets<=3.6.0 due to using a Huggignface dataset script (scripts are deprecated with versions>4.0.0)
+huggingface_hub[cli] is also needed for getting the correct path of the dataset for linking the audio files from HuggingFace cache.
+
 
 # Description
 The `generate.py` script downloads and prepares the 4 langs supported from the CS-FLEURS-READ subset of CS-FLEURS, a code-switeched version of the FLEURS dataset. 

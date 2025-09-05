@@ -3,3 +3,6 @@
 .ipynb_checkpoints/
 manifests/cs_fleurs/data
 __pycache__/
+*.egg-info/
+build/
+audio/

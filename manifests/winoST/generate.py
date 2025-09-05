@@ -9,16 +9,17 @@ LANGUAGE_PAIRS = [
     "en-fr",
     "en-it",
     "en-es",
-    "en-de"
+    "en-de",
+    "en-pt"
 ]
 
 def process_winost_dataset():
 
-    audio_output_dir = '/winoST/extracted/WinoST'
-    txt_file_path = './en.txt'
+    audio_output_dir = '/winoST/audio/en'
+    txt_file_path = os.path.join( os.environ['H2T_DATADIR'], "winoST", "en.txt" )
 
-    sentences_anti = [line.split("\t")[2] for line in open("./en_anti.txt", encoding="utf-8")]
-    sentences_pro  = [line.split("\t")[2] for line in open("./en_pro.txt", encoding="utf-8")]
+    sentences_anti = [line.split("\t")[2] for line in open(os.path.join( os.environ['H2T_DATADIR'], "winoST", "en_anti.txt"), encoding="utf-8")]
+    sentences_pro  = [line.split("\t")[2] for line in open(os.path.join( os.environ['H2T_DATADIR'], "winoST", "en_pro.txt"), encoding="utf-8")]
     
     for pair in LANGUAGE_PAIRS:
         src_lang, tgt_lang = pair.split('-')

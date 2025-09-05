@@ -1,85 +1,122 @@
-"""
-Save ACL-6060 audio files from a JSONL manifest.
-
-- Audio files are stored under audio/{split}/{sample_id}.wav
-- JSONL is used only to determine which sample_ids to export.
-"""
-
-import os, json, argparse
-from pathlib import Path
+import os
+import json
 import soundfile as sf
+from pathlib import Path
 from datasets import load_dataset, Audio
 
+# --- Configuration ---
+LANGUAGE_PAIRS = [
+    "en-de",
+    "en-fr",
+    "en-pt",
+    "en-zh",
+]
 
-def read_jsonl(path):
-    with open(path, "r", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if line:
-                yield json.loads(line)
-
-
-def to_int(x):
-    if x is None:
-        return None
-    if isinstance(x, int):
-        return x
-    if isinstance(x, str) and x.isdigit():
-        return int(x)
-    return None
+# ACL-6060 provides "dev" and "eval"
+SPLITS = ["eval"]
 
 
-def main():
-    ap = argparse.ArgumentParser(description="Save ACL-6060 audio to audio/{split}/{sample_id}.wav")
-    ap.add_argument("--jsonl", required=True, help="Path to JSONL manifest (with sample_id)")
-    ap.add_argument("--split", default="dev", choices=["dev", "eval"], help="Dataset split to use")
-    ap.add_argument("--audio_root", default="audio", help="Root directory to save audio")
-    args = ap.parse_args()
+def process_acl6060_dataset():
+    """
+    Downloads/processes the ACL-6060 dataset (HF: ymoslem/acl-6060) for specified language pairs.
+    For each pair and split, it creates a JSONL file with metadata and saves source English audio
+    to a local directory.
 
-    # Base dir = the directory where this save_audio.py lives (root/manifests/acl6060)
-    base_dir = Path(__file__).resolve().parent
+    Notes:
+    - Only English audio is available in this dataset.
+    - Target references come from fields like `text_de`, `text_fr`, `text_pt`, `text_zh`.
+    """
+    print("Starting ACL-6060 dataset processing...")
 
-    # Out directory is audio/{split}
-    out_dir = base_dir / args.audio_root / args.split
-    out_dir.mkdir(parents=True, exist_ok=True)
+    # 0) Check required environment variable (audio output root)
+    data_root = os.environ.get("H2T_DATADIR")
+    if not data_root:
+        raise EnvironmentError("H2T_DATADIR is not set")
 
-    # 1) Collect sample_ids we want to export
-    wanted = {}
-    for rec in read_jsonl(args.jsonl):
-        idx = to_int(rec.get("sample_id"))
-        if idx is not None:
-            wanted[idx] = True
-    if not wanted:
-        print("[ERR] No sample_id found in JSONL")
-        return
+    # 1) Create output directory for English audio (one shared dir for all pairs)
+    audio_output_dir = Path(data_root) / "acl6060" / "audio" / "en"
+    audio_output_dir.mkdir(parents=True, exist_ok=True)
+    print(f"English audio will be saved in: '{audio_output_dir}'")
+    
+    manifest_dir = Path("manifests") / "acl6060"
+    manifest_dir.mkdir(parents=True, exist_ok=True)
 
-    # 2) Load dataset with decoded audio
-    src_dataset = load_dataset("ymoslem/acl-6060", split=args.split)
-    src_dataset = src_dataset.cast_column("audio", Audio(decode=True))
-
-    saved, missed = 0, 0
-    for sample in src_dataset:
-        idx = sample.get("index")
-        if idx is None or idx not in wanted:
-            continue
-
-        audio_path = out_dir / f"{idx}.wav"
-        if audio_path.exists():
-            saved += 1
-            continue
-
+    for pair in LANGUAGE_PAIRS:
         try:
-            audio_array = sample["audio"]["array"]
-            sampling_rate = sample["audio"]["sampling_rate"]
-            sf.write(str(audio_path), audio_array, sampling_rate)
-            saved += 1
-        except Exception as e:
-            missed += 1
-            if missed <= 5:
-                print(f"[MISS_IO] index={idx} error={e}")
+            src_lang, tgt_lang = pair.split("-")
+            print(f"\nProcessing language pair: {src_lang} -> {tgt_lang}")
 
-    print(f"[DONE] split={args.split} saved={saved} missed={missed} -> {out_dir}")
+            if src_lang != "en":
+                print(f"Warning: Skipping pair '{pair}' (ACL-6060 has English audio only).")
+                continue
+
+            for split in SPLITS:
+                print(f"--- Processing split: {split} ---")
+
+                # 2) Load dataset once (decoded audio), same for all targets
+                print(f"Loading 'ymoslem/acl-6060' split='{split}' with decoded audio...")
+                dataset = load_dataset("ymoslem/acl-6060", split=split)
+                dataset = dataset.cast_column("audio", Audio(decode=True))
+                print(f"Loaded {len(dataset)} samples for split '{split}'.")
+
+                # 3) Prepare JSONL filename per pair & split
+                jsonl_filename = Path(manifest_dir) / f"{src_lang}-{tgt_lang}.jsonl"
+                records_written = 0
+
+                with open(jsonl_filename, "w", encoding="utf-8") as f:
+                    for sample in dataset:
+                        sample_id = sample.get("index")
+
+                        # Define audio filename to {index}.wav for consistency
+                        fname = f"{sample_id}.wav"
+
+                        audio_filepath = audio_output_dir / fname
+                        relative_audio_path = f"/acl6060/audio/en/{fname}"
+
+                        # Save the audio file only if it doesn't already exist
+                        if not audio_filepath.exists():
+                            sf.write(
+                                str(audio_filepath),
+                                sample["audio"]["array"],
+                                sample["audio"]["sampling_rate"]
+                            )
+
+                        # Build target text field name (e.g., 'text_de')
+                        tgt_field = f"text_{tgt_lang}"
+                        tgt_text = sample.get(tgt_field)
+                        if tgt_text is None:
+                            if records_written < 5:
+                                print(f"Warning: sample_id {sample_id} has no field '{tgt_field}', skipping.")
+                            continue
+
+                        # Construct JSON record
+                        record = {
+                            "dataset_id": "acl_6060",
+                            "sample_id": sample_id,
+                            "src_audio": relative_audio_path,
+                            "src_ref": sample["text_en"],
+                            "tgt_ref": tgt_text,
+                            "src_lang": src_lang,
+                            "tgt_lang": tgt_lang,
+                            "benchmark_metadata": {
+                                "context": "short",  # segmented utterances
+                                "dataset_type": "longform",
+                                "doc_id": None, # does not specified in the dataset
+                                "subset": split,
+                                "orginal_file": sample["audio"]["path"],
+                            },
+                        }
+
+                        f.write(json.dumps(record, ensure_ascii=False) + "\n")
+                        records_written += 1
+
+                print(f"Successfully created '{jsonl_filename}' with {records_written} records.")
+
+        except Exception as e:
+            print(f"An error occurred while processing pair '{pair}': {e}")
+
+    print("\nDataset processing finished.")
 
 
 if __name__ == "__main__":
-    main()
+    process_acl6060_dataset()

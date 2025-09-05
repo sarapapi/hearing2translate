@@ -6,3 +6,4 @@ tqdm
 librosa
 torch
 backoff
+datasets[audio]<4.0  # for acl6060

@@ -844,3 +844,521 @@
 {"dataset_id": "commonAccent", "sample_id": "18829192", "src_lang": "en", "tgt_lang": "pt", "output": "Ele era membro das academias de ciências francesas e prussianas."}
 {"dataset_id": "commonAccent", "sample_id": "18829193", "src_lang": "en", "tgt_lang": "pt", "output": "Foi o começo de uma longa e bem sucedida colaboração."}
 {"dataset_id": "commonAccent", "sample_id": "29491773", "src_lang": "en", "tgt_lang": "pt", "output": "No passado, \"Sephton\" era uma ortografia alternativa."}
+{"dataset_id": "commonAccent", "sample_id": "29492010", "src_lang": "en", "tgt_lang": "pt", "output": "\"No local, senhor\", disse Stephenson afectuosamente."}
+{"dataset_id": "commonAccent", "sample_id": "29492027", "src_lang": "en", "tgt_lang": "pt", "output": "A poluição do petróleo ameaça espécies com áreas de distribuição restritas ou populações já deprimidas."}
+{"dataset_id": "commonAccent", "sample_id": "29492028", "src_lang": "en", "tgt_lang": "pt", "output": "Historicamente, a necessidade de tokens surgiu da necessidade de moeda."}
+{"dataset_id": "commonAccent", "sample_id": "29492032", "src_lang": "en", "tgt_lang": "pt", "output": "O Archer sobreviveu ao cancro da próstata."}
+{"dataset_id": "commonAccent", "sample_id": "29492056", "src_lang": "en", "tgt_lang": "pt", "output": "Com o advento dos altares alados, também ocorreu uma mudança nas imagens."}
+{"dataset_id": "commonAccent", "sample_id": "29492058", "src_lang": "en", "tgt_lang": "pt", "output": "O Aeroporto Internacional de Trivandrum opera dois terminais."}
+{"dataset_id": "commonAccent", "sample_id": "29492074", "src_lang": "en", "tgt_lang": "pt", "output": "O sultão Ibrahim voltou para Johor no ano seguinte e expandiu as forças militares do estado."}
+{"dataset_id": "commonAccent", "sample_id": "29492076", "src_lang": "en", "tgt_lang": "pt", "output": "Os caminhões Delta logo foram ampliados para transportar quatro rodas traseiras e, mais tarde, seis."}
+{"dataset_id": "commonAccent", "sample_id": "29492077", "src_lang": "en", "tgt_lang": "pt", "output": "Ocasionalmente, também são usadas guitarras e ukuleles europeus."}
+{"dataset_id": "commonAccent", "sample_id": "29492078", "src_lang": "en", "tgt_lang": "pt", "output": "O Prêmio Masursky e a Palestra Masursky também são nomeados em sua homenagem."}
+{"dataset_id": "commonAccent", "sample_id": "29492109", "src_lang": "en", "tgt_lang": "pt", "output": "Atualmente, ela está treinando em Tenero, na Suíça, com Guennadi Touretski como treinador."}
+{"dataset_id": "commonAccent", "sample_id": "19120757", "src_lang": "en", "tgt_lang": "pt", "output": "O distrito de Qingpu tem três subdistritos e oito cidades."}
+{"dataset_id": "commonAccent", "sample_id": "19120760", "src_lang": "en", "tgt_lang": "pt", "output": "A Oposição de Direita é liderada por David Gamkrelidze do Partido dos Novos Direitos."}
+{"dataset_id": "commonAccent", "sample_id": "19120808", "src_lang": "en", "tgt_lang": "pt", "output": "Os residentes brancos de longa data também tentaram forçar os pobres moradores negros a sair da cidade."}
+{"dataset_id": "commonAccent", "sample_id": "19120815", "src_lang": "en", "tgt_lang": "pt", "output": "O slogan de Dreft é \"Para uma limpeza em que você pode confiar\"."}
+{"dataset_id": "commonAccent", "sample_id": "19952785", "src_lang": "en", "tgt_lang": "pt", "output": "O direito sindical varia de país para país, assim como a função dos sindicatos."}
+{"dataset_id": "commonAccent", "sample_id": "19952786", "src_lang": "en", "tgt_lang": "pt", "output": "MacNeil nasceu em Antigonish, Nova Escócia."}
+{"dataset_id": "commonAccent", "sample_id": "19952787", "src_lang": "en", "tgt_lang": "pt", "output": "A maioria da população é islâmica, principalmente de origem javanesa e malaia."}
+{"dataset_id": "commonAccent", "sample_id": "19952815", "src_lang": "en", "tgt_lang": "pt", "output": "Uma vez examinadas as provas, o programa revela os resultados."}
+{"dataset_id": "commonAccent", "sample_id": "19952817", "src_lang": "en", "tgt_lang": "pt", "output": "Hoje, a primeira língua dos Meherrin é o inglês."}
+{"dataset_id": "commonAccent", "sample_id": "19952818", "src_lang": "en", "tgt_lang": "pt", "output": "Está aproximadamente a meio caminho entre Columbia e Saint Louis."}
+{"dataset_id": "commonAccent", "sample_id": "19952819", "src_lang": "en", "tgt_lang": "pt", "output": "Alahis foi morto em batalha."}
+{"dataset_id": "commonAccent", "sample_id": "25321780", "src_lang": "en", "tgt_lang": "pt", "output": "Por último, foram instalados travões de tambor em vez de travões de banda de rodagem convencionais."}
+{"dataset_id": "commonAccent", "sample_id": "25321781", "src_lang": "en", "tgt_lang": "pt", "output": "O centímetro cúbico ainda é usado para este propósito na coleção de carros clássicos."}
+{"dataset_id": "commonAccent", "sample_id": "25321783", "src_lang": "en", "tgt_lang": "pt", "output": "Já fiz isto, se me perguntares."}
+{"dataset_id": "commonAccent", "sample_id": "25321784", "src_lang": "en", "tgt_lang": "pt", "output": "Ele trabalhou como assistente médico por um ano e como professor universitário."}
+{"dataset_id": "commonAccent", "sample_id": "25321785", "src_lang": "en", "tgt_lang": "pt", "output": "Os interesses de West se concentraram em estilos literários incomuns, bem como em conteúdos incomuns."}
+{"dataset_id": "commonAccent", "sample_id": "25321786", "src_lang": "en", "tgt_lang": "pt", "output": "Eventualmente, porém, Bisley foi selecionado."}
+{"dataset_id": "commonAccent", "sample_id": "25321787", "src_lang": "en", "tgt_lang": "pt", "output": "Todas as músicas são gravadas em estéreo, exceto onde indicado."}
+{"dataset_id": "commonAccent", "sample_id": "25321788", "src_lang": "en", "tgt_lang": "pt", "output": "Bey mais tarde atribuiu uma conexão direta entre os dois eventos consecutivos."}
+{"dataset_id": "commonAccent", "sample_id": "25321789", "src_lang": "en", "tgt_lang": "pt", "output": "O produto é feito pela Digital Innovations."}
+{"dataset_id": "commonAccent", "sample_id": "25321790", "src_lang": "en", "tgt_lang": "pt", "output": "Berkman tem sido muito franco sobre suas crenças cristãs ao longo de sua carreira."}
+{"dataset_id": "commonAccent", "sample_id": "25321791", "src_lang": "en", "tgt_lang": "pt", "output": "A publicidade foi falsa."}
+{"dataset_id": "commonAccent", "sample_id": "25321793", "src_lang": "en", "tgt_lang": "pt", "output": "Tentámos muito, mas isso não importa porque falhámos."}
+{"dataset_id": "commonAccent", "sample_id": "25321794", "src_lang": "en", "tgt_lang": "pt", "output": "Recentemente, a cervejaria é uma empresa bem-sucedida e lucrativa."}
+{"dataset_id": "commonAccent", "sample_id": "18278188", "src_lang": "en", "tgt_lang": "pt", "output": "Podíamos ser responsáveis."}
+{"dataset_id": "commonAccent", "sample_id": "18607244", "src_lang": "en", "tgt_lang": "pt", "output": "Estou aqui para a entrevista de emprego."}
+{"dataset_id": "commonAccent", "sample_id": "18607247", "src_lang": "en", "tgt_lang": "pt", "output": "Isto vai obstruir a fuga."}
+{"dataset_id": "commonAccent", "sample_id": "19667926", "src_lang": "en", "tgt_lang": "pt", "output": "O modelo não foi usado desde então, e atualmente está localizado em Trollywood."}
+{"dataset_id": "commonAccent", "sample_id": "19667927", "src_lang": "en", "tgt_lang": "pt", "output": "Muitas fábricas os usam para entregar peças rapidamente em grandes campi."}
+{"dataset_id": "commonAccent", "sample_id": "19667928", "src_lang": "en", "tgt_lang": "pt", "output": "Estes são agentes oxidantes versáteis e podem ser utilizados para a epoxidação de olefinas."}
+{"dataset_id": "commonAccent", "sample_id": "19667929", "src_lang": "en", "tgt_lang": "pt", "output": "Esta versão do jogo é gratuita."}
+{"dataset_id": "commonAccent", "sample_id": "30171268", "src_lang": "en", "tgt_lang": "pt", "output": "Ele foi nomeado \"Estrela do Amanhã\" pela Screen International."}
+{"dataset_id": "commonAccent", "sample_id": "30171285", "src_lang": "en", "tgt_lang": "pt", "output": "O clube foi rebaixado para a segunda divisão no final da temporada."}
+{"dataset_id": "commonAccent", "sample_id": "30171286", "src_lang": "en", "tgt_lang": "pt", "output": "Stevenson jogou rugby para o London Scottish."}
+{"dataset_id": "commonAccent", "sample_id": "30171288", "src_lang": "en", "tgt_lang": "pt", "output": "O peso pesado classificado seria o italiano Lorenzo Zanon."}
+{"dataset_id": "commonAccent", "sample_id": "30172439", "src_lang": "en", "tgt_lang": "pt", "output": "O Texas foi o último território confederado alcançado pelo exército da União."}
+{"dataset_id": "commonAccent", "sample_id": "30172473", "src_lang": "en", "tgt_lang": "pt", "output": "A maioria dos asteróides são pretos."}
+{"dataset_id": "commonAccent", "sample_id": "30172474", "src_lang": "en", "tgt_lang": "pt", "output": "O ator Blair Underwood é o diretor executivo e narrador do filme."}
+{"dataset_id": "commonAccent", "sample_id": "30172478", "src_lang": "en", "tgt_lang": "pt", "output": "Verlinden competiu em dois campeonatos mundiais."}
+{"dataset_id": "commonAccent", "sample_id": "30172479", "src_lang": "en", "tgt_lang": "pt", "output": "Henry Levin e Bill Starr eram os capitães da equipe."}
+{"dataset_id": "commonAccent", "sample_id": "30172501", "src_lang": "en", "tgt_lang": "pt", "output": "Já foi."}
+{"dataset_id": "commonAccent", "sample_id": "30172561", "src_lang": "en", "tgt_lang": "pt", "output": "A canção liderou as paradas na Malásia e em Cingapura."}
+{"dataset_id": "commonAccent", "sample_id": "30172562", "src_lang": "en", "tgt_lang": "pt", "output": "As famílias e ramos linguísticos na área linguística são os seguintes."}
+{"dataset_id": "commonAccent", "sample_id": "18792705", "src_lang": "en", "tgt_lang": "pt", "output": "Isto refere-se a uma poça de água, que aponta para o pântano de turfa nas proximidades."}
+{"dataset_id": "commonAccent", "sample_id": "18792706", "src_lang": "en", "tgt_lang": "pt", "output": "O próprio Ichiro logo chega em um barco diferente."}
+{"dataset_id": "commonAccent", "sample_id": "18792707", "src_lang": "en", "tgt_lang": "pt", "output": "O nome Westwood One foi inicialmente mantido para a maioria das programações esportivas."}
+{"dataset_id": "commonAccent", "sample_id": "18792708", "src_lang": "en", "tgt_lang": "pt", "output": "As referências à prática religiosa doméstica muitas vezes emparelham os Lares com os Penates."}
+{"dataset_id": "commonAccent", "sample_id": "18792709", "src_lang": "en", "tgt_lang": "pt", "output": "Sejamos honestos, bons defensores apanhavam-no fora de campo toda vez."}
+{"dataset_id": "commonAccent", "sample_id": "18792710", "src_lang": "en", "tgt_lang": "pt", "output": "Vattel também publicou obras além de sua \"magnum opus\"."}
+{"dataset_id": "commonAccent", "sample_id": "18792711", "src_lang": "en", "tgt_lang": "pt", "output": "Há uma rede emaranhada de simetrias e relações na tabela acima."}
+{"dataset_id": "commonAccent", "sample_id": "18792712", "src_lang": "en", "tgt_lang": "pt", "output": "Estes, juntamente com os rios Sahtaneh e Muskwa, constituem os principais afluentes."}
+{"dataset_id": "commonAccent", "sample_id": "18792718", "src_lang": "en", "tgt_lang": "pt", "output": "A Swedavia, a empresa sueca de gestão de aeroportos, tem a sua sede na propriedade do aeroporto."}
+{"dataset_id": "commonAccent", "sample_id": "18792719", "src_lang": "en", "tgt_lang": "pt", "output": "Esses homens tornaram-se conhecidos como \"pombos de Vaughan\"."}
+{"dataset_id": "commonAccent", "sample_id": "18792720", "src_lang": "en", "tgt_lang": "pt", "output": "Por fim, foi estabelecido um tribunal dos Estados Unidos para o Território do Noroeste."}
+{"dataset_id": "commonAccent", "sample_id": "18792721", "src_lang": "en", "tgt_lang": "pt", "output": "Ele nasceu em Milford, Delaware."}
+{"dataset_id": "commonAccent", "sample_id": "18792722", "src_lang": "en", "tgt_lang": "pt", "output": "Ay nasceu filha de imigrantes alemães em Ephrata, Pensilvânia."}
+{"dataset_id": "commonAccent", "sample_id": "564707", "src_lang": "en", "tgt_lang": "pt", "output": "Um homem contempla seus papéis no canto com uma mala preta ao lado."}
+{"dataset_id": "commonAccent", "sample_id": "564708", "src_lang": "en", "tgt_lang": "pt", "output": "Dois jovens de calções curtos e camisetas jogam basquete em uma quadra urbana ao ar livre."}
+{"dataset_id": "commonAccent", "sample_id": "564710", "src_lang": "en", "tgt_lang": "pt", "output": "Três jovens a jogar cartas e a rir."}
+{"dataset_id": "commonAccent", "sample_id": "564711", "src_lang": "en", "tgt_lang": "pt", "output": "Um menino está nas costas de outra pessoa que está usando um chapéu."}
+{"dataset_id": "commonAccent", "sample_id": "564712", "src_lang": "en", "tgt_lang": "pt", "output": "Uma mulher vestindo cores brilhantes gira um hula hoop em público"}
+{"dataset_id": "commonAccent", "sample_id": "564714", "src_lang": "en", "tgt_lang": "pt", "output": "Uma mulher lá fora nas ruas da cidade vestindo uma camisa preta a falar ao telefone."}
+{"dataset_id": "commonAccent", "sample_id": "564715", "src_lang": "en", "tgt_lang": "pt", "output": "Duas pessoas estão caminhando ao lado de uma parede com graffiti."}
+{"dataset_id": "commonAccent", "sample_id": "564716", "src_lang": "en", "tgt_lang": "pt", "output": "Uma criança pequena usando uma mochila segue um adulto enquanto caminham pelas árvores."}
+{"dataset_id": "commonAccent", "sample_id": "564717", "src_lang": "en", "tgt_lang": "pt", "output": "Uma criança está olhando para um adulto enquanto está sentada em um carrinho de bebê em uma calçada da cidade."}
+{"dataset_id": "commonAccent", "sample_id": "564718", "src_lang": "en", "tgt_lang": "pt", "output": "Uma mãe e um filho caminham juntos enquanto o filho carrega uma bandeira."}
+{"dataset_id": "commonAccent", "sample_id": "564719", "src_lang": "en", "tgt_lang": "pt", "output": "Um cão caminha através de uma poça de água em Las Vegas."}
+{"dataset_id": "commonAccent", "sample_id": "18893803", "src_lang": "en", "tgt_lang": "pt", "output": "Na prática, no entanto, a maioria dos programas de Comunicação Total usa alguma forma de Comunicação Simultânea."}
+{"dataset_id": "commonAccent", "sample_id": "18893804", "src_lang": "en", "tgt_lang": "pt", "output": "O município de Gretna foi estabelecido para abrigar os trabalhadores deste estabelecimento."}
+{"dataset_id": "commonAccent", "sample_id": "18893805", "src_lang": "en", "tgt_lang": "pt", "output": "A seção quebrada foi recuperada pela equipe do museu."}
+{"dataset_id": "commonAccent", "sample_id": "18893806", "src_lang": "en", "tgt_lang": "pt", "output": "Devido à sua lealdade ao lado perdedor, os títulos da família Howard foram confiscados."}
+{"dataset_id": "commonAccent", "sample_id": "18893807", "src_lang": "en", "tgt_lang": "pt", "output": "Os crimes cometidos a leste da linha Curzon não poderiam ser processados pelos tribunais poloneses."}
+{"dataset_id": "commonAccent", "sample_id": "18893814", "src_lang": "en", "tgt_lang": "pt", "output": "Para conexões e distâncias, ver o diagrama de rota."}
+{"dataset_id": "commonAccent", "sample_id": "18893815", "src_lang": "en", "tgt_lang": "pt", "output": "Também são ministrados cursos de educação superior em desporto e turismo."}
+{"dataset_id": "commonAccent", "sample_id": "18893816", "src_lang": "en", "tgt_lang": "pt", "output": "A estação de propriedade da Entercom transmite um formato de rádio esportivo."}
+{"dataset_id": "commonAccent", "sample_id": "18893817", "src_lang": "en", "tgt_lang": "pt", "output": "A identidade do espécime está a ser mantida em segredo pelo Harlan."}
+{"dataset_id": "commonAccent", "sample_id": "18923782", "src_lang": "en", "tgt_lang": "pt", "output": "Há duas casas de retiro perto da abadia."}
+{"dataset_id": "commonAccent", "sample_id": "18923784", "src_lang": "en", "tgt_lang": "pt", "output": "Em julho e agosto, os estados do centro-norte tornam-se os mais favoráveis."}
+{"dataset_id": "commonAccent", "sample_id": "18923785", "src_lang": "en", "tgt_lang": "pt", "output": "O casal também passou uma quantidade significativa de tempo em Genebra e Paris."}
+{"dataset_id": "commonAccent", "sample_id": "18923786", "src_lang": "en", "tgt_lang": "pt", "output": "Alguns softwares também têm outros requisitos para um desempenho adequado."}
+{"dataset_id": "commonAccent", "sample_id": "23774988", "src_lang": "en", "tgt_lang": "pt", "output": "Ele perdeu para o atual Ike Leggett nas primárias do Partido Democrata."}
+{"dataset_id": "commonAccent", "sample_id": "23774989", "src_lang": "en", "tgt_lang": "pt", "output": "O Justin passou algum tempo a jogar bola independente."}
+{"dataset_id": "commonAccent", "sample_id": "23774990", "src_lang": "en", "tgt_lang": "pt", "output": "Como resultado desta especialização, os carros-tanque geralmente foram carros \"de um só sentido\"."}
+{"dataset_id": "commonAccent", "sample_id": "23774991", "src_lang": "en", "tgt_lang": "pt", "output": "O Glen recebeu o nome do rio Coe que o atravessa."}
+{"dataset_id": "commonAccent", "sample_id": "23774992", "src_lang": "en", "tgt_lang": "pt", "output": "Além disso, havia uma falta de simpatia pública pela situação dos músicos da orquestra."}
+{"dataset_id": "commonAccent", "sample_id": "23774993", "src_lang": "en", "tgt_lang": "pt", "output": "Quem vos avisou para fugir da ira que está por vir?"}
+{"dataset_id": "commonAccent", "sample_id": "23774995", "src_lang": "en", "tgt_lang": "pt", "output": "Francesco Granacci é outro de seus alunos."}
+{"dataset_id": "commonAccent", "sample_id": "23774998", "src_lang": "en", "tgt_lang": "pt", "output": "Ele e suas empresas foram processados várias vezes por enviar em massa anúncios não solicitados."}
+{"dataset_id": "commonAccent", "sample_id": "23775000", "src_lang": "en", "tgt_lang": "pt", "output": "O seu secretário-geral é Michel Thooris."}
+{"dataset_id": "commonAccent", "sample_id": "23775001", "src_lang": "en", "tgt_lang": "pt", "output": "Eles tinham um \"monopólio licenciado\" para imprimir dinheiro de papel, o que reduziu a concorrência."}
+{"dataset_id": "commonAccent", "sample_id": "23775002", "src_lang": "en", "tgt_lang": "pt", "output": "As palavras inglesas de origem germânica são geralmente preservadas relativamente inalteradas."}
+{"dataset_id": "commonAccent", "sample_id": "23775004", "src_lang": "en", "tgt_lang": "pt", "output": "Em Londres, o governo polonês no exílio protestou."}
+{"dataset_id": "commonAccent", "sample_id": "23775005", "src_lang": "en", "tgt_lang": "pt", "output": "Quase imediatamente começaram a dividir-se em igrejas separadas."}
+{"dataset_id": "commonAccent", "sample_id": "23775006", "src_lang": "en", "tgt_lang": "pt", "output": "Também inclui colinas de floresta de madeira dura do nordeste, campos abertos e um pântano de cedro branco."}
+{"dataset_id": "commonAccent", "sample_id": "19020914", "src_lang": "en", "tgt_lang": "pt", "output": "Era também a sua residência."}
+{"dataset_id": "commonAccent", "sample_id": "19020915", "src_lang": "en", "tgt_lang": "pt", "output": "O evento estava esgotado."}
+{"dataset_id": "commonAccent", "sample_id": "19020916", "src_lang": "en", "tgt_lang": "pt", "output": "Ambos os exércitos receberam reforços adicionais naquela primavera."}
+{"dataset_id": "commonAccent", "sample_id": "19590662", "src_lang": "en", "tgt_lang": "pt", "output": "As maiores lojas principais são conhecidas como lojas Outdoor World."}
+{"dataset_id": "commonAccent", "sample_id": "19590663", "src_lang": "en", "tgt_lang": "pt", "output": "Depois de um longo atraso, foi instalado um sinal de nevoeiro."}
+{"dataset_id": "commonAccent", "sample_id": "19590664", "src_lang": "en", "tgt_lang": "pt", "output": "Os Cubs foram a melhor equipa para a qual o Smith jogou na sua carreira."}
+{"dataset_id": "commonAccent", "sample_id": "19590665", "src_lang": "en", "tgt_lang": "pt", "output": "Sherry nasceu em Los Angeles, Califórnia."}
+{"dataset_id": "commonAccent", "sample_id": "19590666", "src_lang": "en", "tgt_lang": "pt", "output": "Lucullo estava na Cilícia e imediatamente partiu para enfrentar o exército pôntico."}
+{"dataset_id": "commonAccent", "sample_id": "19590697", "src_lang": "en", "tgt_lang": "pt", "output": "A comédia baseia-se no forragem típico de Elton."}
+{"dataset_id": "commonAccent", "sample_id": "19590698", "src_lang": "en", "tgt_lang": "pt", "output": "É também um local turístico popular."}
+{"dataset_id": "commonAccent", "sample_id": "19590699", "src_lang": "en", "tgt_lang": "pt", "output": "A maior parte da população da cidade ganhava a vida na indústria da dança."}
+{"dataset_id": "commonAccent", "sample_id": "19590700", "src_lang": "en", "tgt_lang": "pt", "output": "A influência de Chabad desde a Segunda Guerra Mundial tem sido de longo alcance entre os judeus do mundo."}
+{"dataset_id": "commonAccent", "sample_id": "19590701", "src_lang": "en", "tgt_lang": "pt", "output": "Desde esses shows, Karnats tornou-se o guitarrista oficial da banda, substituindo Ben."}
+{"dataset_id": "commonAccent", "sample_id": "19590722", "src_lang": "en", "tgt_lang": "pt", "output": "As cenas de estabelecimento podem ser usadas para mostrar ao público o contexto da história."}
+{"dataset_id": "commonAccent", "sample_id": "19590723", "src_lang": "en", "tgt_lang": "pt", "output": "Embora altamente apreciado por cavaleiros e homens de armas, o destróier não era muito comum."}
+{"dataset_id": "commonAccent", "sample_id": "19590726", "src_lang": "en", "tgt_lang": "pt", "output": "Ele caminhou em ponta dos pés para a porta, e deu um batido suave."}
+{"dataset_id": "commonAccent", "sample_id": "19590729", "src_lang": "en", "tgt_lang": "pt", "output": "Devemos pensar seriamente nesta possibilidade."}
+{"dataset_id": "commonAccent", "sample_id": "19590731", "src_lang": "en", "tgt_lang": "pt", "output": "Ele foi um dos primeiros milionários da República Turca."}
+{"dataset_id": "commonAccent", "sample_id": "19590742", "src_lang": "en", "tgt_lang": "pt", "output": "Ele também era um suplente do Pro Bowl."}
+{"dataset_id": "commonAccent", "sample_id": "19590743", "src_lang": "en", "tgt_lang": "pt", "output": "A mãe dele era de Middlesbrough."}
+{"dataset_id": "commonAccent", "sample_id": "19590744", "src_lang": "en", "tgt_lang": "pt", "output": "Os carregamentos de fábrica são menos potentes do que os carregamentos manuais para o cartucho."}
+{"dataset_id": "commonAccent", "sample_id": "19590745", "src_lang": "en", "tgt_lang": "pt", "output": "Kazzazi tem um irmão, chamado Rachid Kazzazi."}
+{"dataset_id": "commonAccent", "sample_id": "19590746", "src_lang": "en", "tgt_lang": "pt", "output": "Hoje está na Sala Oval Norte."}
+{"dataset_id": "commonAccent", "sample_id": "19590747", "src_lang": "en", "tgt_lang": "pt", "output": "Ambos estão na Liga Palestina Divisão Um."}
+{"dataset_id": "commonAccent", "sample_id": "19590748", "src_lang": "en", "tgt_lang": "pt", "output": "Após a Segunda Guerra Mundial, Maxwell se casou com Mary Lindsay."}
+{"dataset_id": "commonAccent", "sample_id": "19590749", "src_lang": "en", "tgt_lang": "pt", "output": "Cada tipo de selecção contém os mesmos princípios, mas é ligeiramente diferente."}
+{"dataset_id": "commonAccent", "sample_id": "19590750", "src_lang": "en", "tgt_lang": "pt", "output": "Eles competem na Liga Nacional de Hóquei no Gelo."}
+{"dataset_id": "commonAccent", "sample_id": "19590751", "src_lang": "en", "tgt_lang": "pt", "output": "Deneuve era especialmente dedicado a trabalhar em seu instrumento chamado \"Crystal\"."}
+{"dataset_id": "commonAccent", "sample_id": "19590752", "src_lang": "en", "tgt_lang": "pt", "output": "Nesse mesmo ano, ela apareceu em \"Yankee Doodle Dandy\" como recepcionista."}
+{"dataset_id": "commonAccent", "sample_id": "19590753", "src_lang": "en", "tgt_lang": "pt", "output": "Chirac argumentou que \"o salário não é o inimigo do emprego\"."}
+{"dataset_id": "commonAccent", "sample_id": "19590754", "src_lang": "en", "tgt_lang": "pt", "output": "Simplificando, digitalizar é substituir um objeto por um conjunto discreto de seus pontos."}
+{"dataset_id": "commonAccent", "sample_id": "19590755", "src_lang": "en", "tgt_lang": "pt", "output": "A pista está localizada a aproximadamente quinze milhas a leste de Lincoln, Nebraska."}
+{"dataset_id": "commonAccent", "sample_id": "19590756", "src_lang": "en", "tgt_lang": "pt", "output": "Muitas vezes se acredita que comer maçãs cozidas cruas vai deixar uma pessoa doente."}
+{"dataset_id": "commonAccent", "sample_id": "19590757", "src_lang": "en", "tgt_lang": "pt", "output": "Um homicídio é cometido e a culpa é transferida para a rapariga."}
+{"dataset_id": "commonAccent", "sample_id": "19590758", "src_lang": "en", "tgt_lang": "pt", "output": "Sua capital é Ouargla."}
+{"dataset_id": "commonAccent", "sample_id": "19590759", "src_lang": "en", "tgt_lang": "pt", "output": "Seus assentamentos no Alabama eram conhecidos como as Cidades Baixas."}
+{"dataset_id": "commonAccent", "sample_id": "19590760", "src_lang": "en", "tgt_lang": "pt", "output": "No entanto, devido ao alto custo de implementação, eles existem principalmente em rodovias."}
+{"dataset_id": "commonAccent", "sample_id": "19590761", "src_lang": "en", "tgt_lang": "pt", "output": "Após a guerra, o estaleiro continuou a operar construindo muitos arrastões e balsas de pesca."}
+{"dataset_id": "commonAccent", "sample_id": "19590762", "src_lang": "en", "tgt_lang": "pt", "output": "A replicação viral é citoplasmática."}
+{"dataset_id": "commonAccent", "sample_id": "19590763", "src_lang": "en", "tgt_lang": "pt", "output": "Grande parte de seus comentários é sobre questões locais."}
+{"dataset_id": "commonAccent", "sample_id": "19590764", "src_lang": "en", "tgt_lang": "pt", "output": "A empresa originalmente comercializava madeira de sândalo com a China."}
+{"dataset_id": "commonAccent", "sample_id": "19590765", "src_lang": "en", "tgt_lang": "pt", "output": "Estas não são listas exaustivas."}
+{"dataset_id": "commonAccent", "sample_id": "19590766", "src_lang": "en", "tgt_lang": "pt", "output": "Ele tem duas irmãs e um irmão, o falecido Bachir Gemayel."}
+{"dataset_id": "commonAccent", "sample_id": "19590767", "src_lang": "en", "tgt_lang": "pt", "output": "Em todos os casos, o tratamento inicial é seguido de vigilância."}
+{"dataset_id": "commonAccent", "sample_id": "19590768", "src_lang": "en", "tgt_lang": "pt", "output": "Tinha uma inscrição em latim e era amplamente difundida na Itália."}
+{"dataset_id": "commonAccent", "sample_id": "19590769", "src_lang": "en", "tgt_lang": "pt", "output": "Requer um receptor Nagravision e um cartão de visualização."}
+{"dataset_id": "commonAccent", "sample_id": "19590770", "src_lang": "en", "tgt_lang": "pt", "output": "Mais tarde, suas respostas aos nazistas incluíram a \"Tercera Noite de Walpurgis\"."}
+{"dataset_id": "commonAccent", "sample_id": "19590977", "src_lang": "en", "tgt_lang": "pt", "output": "Ele era considerado parte do coletivo multimídia sueco Lucky People Center, agora encerrado."}
+{"dataset_id": "commonAccent", "sample_id": "19590979", "src_lang": "en", "tgt_lang": "pt", "output": "Foi lá que aprendi que era bom em alguma coisa."}
+{"dataset_id": "commonAccent", "sample_id": "19590980", "src_lang": "en", "tgt_lang": "pt", "output": "As espécies de aves encontradas no parque incluem o snipe de madeira e o barwing de garganta."}
+{"dataset_id": "commonAccent", "sample_id": "19590981", "src_lang": "en", "tgt_lang": "pt", "output": "O rei era o maior proprietário de terras e as fronteiras das parcelas eram registradas."}
+{"dataset_id": "commonAccent", "sample_id": "19590992", "src_lang": "en", "tgt_lang": "pt", "output": "O \"The New York Times\" relatou a sua triste partida."}
+{"dataset_id": "commonAccent", "sample_id": "19590993", "src_lang": "en", "tgt_lang": "pt", "output": "A página foi bloqueada na manhã seguinte."}
+{"dataset_id": "commonAccent", "sample_id": "19590994", "src_lang": "en", "tgt_lang": "pt", "output": "A confiança de Meca rapidamente começou a se dissolver à medida que os muçulmanos varriam suas fileiras."}
+{"dataset_id": "commonAccent", "sample_id": "19590995", "src_lang": "en", "tgt_lang": "pt", "output": "Wu se baseia no simbolismo animal ao longo do filme."}
+{"dataset_id": "commonAccent", "sample_id": "19590996", "src_lang": "en", "tgt_lang": "pt", "output": "Foi gradualmente reconstruído e atualizado ao longo dos três séculos seguintes pelas forças reais."}
+{"dataset_id": "commonAccent", "sample_id": "19591005", "src_lang": "en", "tgt_lang": "pt", "output": "O nome é derivado de um riacho que flui nas proximidades."}
+{"dataset_id": "commonAccent", "sample_id": "19591006", "src_lang": "en", "tgt_lang": "pt", "output": "As linhas Bakerloo e Northern do metrô de Londres servem a área a partir da Estação Elephant e Castle."}
+{"dataset_id": "commonAccent", "sample_id": "19591007", "src_lang": "en", "tgt_lang": "pt", "output": "Condict passou a servir como cirurgião na Guerra Revolucionária Americana."}
+{"dataset_id": "commonAccent", "sample_id": "19591009", "src_lang": "en", "tgt_lang": "pt", "output": "As subidas guiadas são populares durante os meses de verão."}
+{"dataset_id": "commonAccent", "sample_id": "19591024", "src_lang": "en", "tgt_lang": "pt", "output": "John Collie tornou-se um fotógrafo de alguma nota que exibiu seu trabalho amplamente."}
+{"dataset_id": "commonAccent", "sample_id": "19591025", "src_lang": "en", "tgt_lang": "pt", "output": "Os produtores executivos do filme incluíam Lana Del Rey."}
+{"dataset_id": "commonAccent", "sample_id": "19591026", "src_lang": "en", "tgt_lang": "pt", "output": "Existem várias teorias quanto à sua identidade."}
+{"dataset_id": "commonAccent", "sample_id": "19591027", "src_lang": "en", "tgt_lang": "pt", "output": "Mais tarde, ele se tornou um patrono da cidade de Vologda."}
+{"dataset_id": "commonAccent", "sample_id": "19591028", "src_lang": "en", "tgt_lang": "pt", "output": "Comer uma fruta inteira tem uma surpresa com a combinação de doce e azedo."}
+{"dataset_id": "commonAccent", "sample_id": "19591044", "src_lang": "en", "tgt_lang": "pt", "output": "Quando Nechita se formou, ela deu aos seus professores uma pintura especial que ela tinha pintado."}
+{"dataset_id": "commonAccent", "sample_id": "19591045", "src_lang": "en", "tgt_lang": "pt", "output": "Camisas Paisley e satélites."}
+{"dataset_id": "commonAccent", "sample_id": "19591047", "src_lang": "en", "tgt_lang": "pt", "output": "Mario Calabresi é o editor-chefe do diário."}
+{"dataset_id": "commonAccent", "sample_id": "19591048", "src_lang": "en", "tgt_lang": "pt", "output": "Ele leva o nome do ex-senador estadual Reuben Carlton."}
+{"dataset_id": "commonAccent", "sample_id": "19591074", "src_lang": "en", "tgt_lang": "pt", "output": "Foi o primeiro navio a receber o nome de Samuel Chester Reid."}
+{"dataset_id": "commonAccent", "sample_id": "19591075", "src_lang": "en", "tgt_lang": "pt", "output": "Da mesma forma, os estados pré-racionais podem ser mal identificados como estados pós-racionais."}
+{"dataset_id": "commonAccent", "sample_id": "19591076", "src_lang": "en", "tgt_lang": "pt", "output": "Não se pode deixar de suspeitar que a linguagem está aqui a revoltar-se."}
+{"dataset_id": "commonAccent", "sample_id": "19591077", "src_lang": "en", "tgt_lang": "pt", "output": "O castelo contém um restaurante com uma bela vista do país."}
+{"dataset_id": "commonAccent", "sample_id": "19591078", "src_lang": "en", "tgt_lang": "pt", "output": "A eletrônica giratória de Fuxa e os ritmos atmosféricos são sugeridos para evocar uma paisagem transitória esquecida."}
+{"dataset_id": "commonAccent", "sample_id": "19591104", "src_lang": "en", "tgt_lang": "pt", "output": "Hoje, o trabalho de Cournot é reconhecido na econometria."}
+{"dataset_id": "commonAccent", "sample_id": "19591105", "src_lang": "en", "tgt_lang": "pt", "output": "No começo, Colleen assume que eles são jogadores de papéis."}
+{"dataset_id": "commonAccent", "sample_id": "19591107", "src_lang": "en", "tgt_lang": "pt", "output": "O plano vai mal, e Fait e a gangue têm de sair de mãos vazias."}
+{"dataset_id": "commonAccent", "sample_id": "19591108", "src_lang": "en", "tgt_lang": "pt", "output": "Na Suécia, Erwin é mais conhecido como Tempestade Gudrun."}
+{"dataset_id": "commonAccent", "sample_id": "19591119", "src_lang": "en", "tgt_lang": "pt", "output": "As reações cruzadas envolvem parceiros que diferem por mais do que seus estados de oxidação."}
+{"dataset_id": "commonAccent", "sample_id": "19591120", "src_lang": "en", "tgt_lang": "pt", "output": "Suscon está localizado na parte oriental do município de Pittston."}
+{"dataset_id": "commonAccent", "sample_id": "19591121", "src_lang": "en", "tgt_lang": "pt", "output": "Ele também contribuiu para o desenvolvimento de outros consoles e unidades de jogos de consumo."}
+{"dataset_id": "commonAccent", "sample_id": "19591122", "src_lang": "en", "tgt_lang": "pt", "output": "O município superior é governado sob a forma de governo do município."}
+{"dataset_id": "commonAccent", "sample_id": "19591123", "src_lang": "en", "tgt_lang": "pt", "output": "De acordo com o seu site, GetUp!"}
+{"dataset_id": "commonAccent", "sample_id": "19591124", "src_lang": "en", "tgt_lang": "pt", "output": "Ele se tornou proeminente como curandeiro de fé."}
+{"dataset_id": "commonAccent", "sample_id": "19591125", "src_lang": "en", "tgt_lang": "pt", "output": "Faz parte da Área Estatística Metropolitana de Columbia, Carolina do Sul."}
+{"dataset_id": "commonAccent", "sample_id": "19591126", "src_lang": "en", "tgt_lang": "pt", "output": "As cartas entre Dismorr e Lewis estão agora na Universidade de Cornell."}
+{"dataset_id": "commonAccent", "sample_id": "19591127", "src_lang": "en", "tgt_lang": "pt", "output": "Ele assinou com o New York Giants no final da temporada."}
+{"dataset_id": "commonAccent", "sample_id": "19591128", "src_lang": "en", "tgt_lang": "pt", "output": "Uma alternativa a uma mesa óptica é uma placa de pão óptica."}
+{"dataset_id": "commonAccent", "sample_id": "19591129", "src_lang": "en", "tgt_lang": "pt", "output": "McDonald nasceu e cresceu em Duluth, Minnesota."}
+{"dataset_id": "commonAccent", "sample_id": "19591130", "src_lang": "en", "tgt_lang": "pt", "output": "As limitações aplicam-se aos itens devidos a partes relacionadas, incluindo despesas de juros e royalties."}
+{"dataset_id": "commonAccent", "sample_id": "19591131", "src_lang": "en", "tgt_lang": "pt", "output": "Por exemplo, a posição das cabeças em frases é determinada por um parâmetro."}
+{"dataset_id": "commonAccent", "sample_id": "19591132", "src_lang": "en", "tgt_lang": "pt", "output": "A ilha já foi o lar de papagaios e Manx shearwater."}
+{"dataset_id": "commonAccent", "sample_id": "19591133", "src_lang": "en", "tgt_lang": "pt", "output": "Um dia, Long começou a chorar."}
+{"dataset_id": "commonAccent", "sample_id": "19591148", "src_lang": "en", "tgt_lang": "pt", "output": "O rosto dele estava carmesim, os olhos sangrentos."}
+{"dataset_id": "commonAccent", "sample_id": "19591149", "src_lang": "en", "tgt_lang": "pt", "output": "A maioria dos analistas diz que o movimento Kajang foi um grande fracasso."}
+{"dataset_id": "commonAccent", "sample_id": "19591150", "src_lang": "en", "tgt_lang": "pt", "output": "Os Aints foram rapidamente adicionados a este ciclo de lançamento."}
+{"dataset_id": "commonAccent", "sample_id": "19591151", "src_lang": "en", "tgt_lang": "pt", "output": "De todos os que o ouviram, apenas Alma ficou comovido com as palavras de Abinadi."}
+{"dataset_id": "commonAccent", "sample_id": "19591152", "src_lang": "en", "tgt_lang": "pt", "output": "De acordo com uma entrevista, Goodman culpou o fechamento de sua empresa em Midway."}
+{"dataset_id": "commonAccent", "sample_id": "19591158", "src_lang": "en", "tgt_lang": "pt", "output": "O clube foi treinado pelo medalhista de ouro de tiro dos Jogos da Commonwealth, Dave Steen."}
+{"dataset_id": "commonAccent", "sample_id": "19591159", "src_lang": "en", "tgt_lang": "pt", "output": "Na maioria das vezes, só é especificado um grupo de notícias."}
+{"dataset_id": "commonAccent", "sample_id": "19591160", "src_lang": "en", "tgt_lang": "pt", "output": "A cidade é o lar das Escolas Públicas Shidler Lutando contra Tigres."}
+{"dataset_id": "commonAccent", "sample_id": "19591161", "src_lang": "en", "tgt_lang": "pt", "output": "Pareciam estar a esticar-se à luz da lua."}
+{"dataset_id": "commonAccent", "sample_id": "19591162", "src_lang": "en", "tgt_lang": "pt", "output": "Os ônibus de transporte passavam da Estação do Aeroporto em vez do serviço de metrô."}
+{"dataset_id": "commonAccent", "sample_id": "27862456", "src_lang": "en", "tgt_lang": "pt", "output": "Em termos concisos, deve ser possível separar \"X\" e \"f\" com bairros desligados."}
+{"dataset_id": "commonAccent", "sample_id": "676091", "src_lang": "en", "tgt_lang": "pt", "output": "Mas nunca tivemos uma oportunidade real."}
+{"dataset_id": "commonAccent", "sample_id": "676092", "src_lang": "en", "tgt_lang": "pt", "output": "Ela também anunciará o candidato do terceiro partido à presidência."}
+{"dataset_id": "commonAccent", "sample_id": "676093", "src_lang": "en", "tgt_lang": "pt", "output": "Ela nunca confiou em mim!"}
+{"dataset_id": "commonAccent", "sample_id": "17287699", "src_lang": "en", "tgt_lang": "pt", "output": "Tentei muito afastar-me das tuas palhaçadas."}
+{"dataset_id": "commonAccent", "sample_id": "17287700", "src_lang": "en", "tgt_lang": "pt", "output": "Não havia muita neve quando eu estava lá."}
+{"dataset_id": "commonAccent", "sample_id": "678304", "src_lang": "en", "tgt_lang": "pt", "output": "Sai agora e chegarás a tempo."}
+{"dataset_id": "commonAccent", "sample_id": "678305", "src_lang": "en", "tgt_lang": "pt", "output": "Uma espécie de novo tipo de design."}
+{"dataset_id": "commonAccent", "sample_id": "678306", "src_lang": "en", "tgt_lang": "pt", "output": "Por favor, não me toque."}
+{"dataset_id": "commonAccent", "sample_id": "27143390", "src_lang": "en", "tgt_lang": "pt", "output": "A comunidade não incorporada de Lutheran Hill está localizada parcialmente na cidade."}
+{"dataset_id": "commonAccent", "sample_id": "27143391", "src_lang": "en", "tgt_lang": "pt", "output": "Sua mãe e seu irmão eram conselheiros em Barnet e Westminster, respectivamente."}
+{"dataset_id": "commonAccent", "sample_id": "27143392", "src_lang": "en", "tgt_lang": "pt", "output": "A última edição também está disponível para ser vista novamente no site \"Midlands Today\"."}
+{"dataset_id": "commonAccent", "sample_id": "19039413", "src_lang": "en", "tgt_lang": "pt", "output": "Para uma lista completa de inductees, veja Lista de Pro Rodeo Hall of Fame inductees."}
+{"dataset_id": "commonAccent", "sample_id": "19039414", "src_lang": "en", "tgt_lang": "pt", "output": "No entanto, a literatura médica registra poucos, se algum, casos de auto-amputação real."}
+{"dataset_id": "commonAccent", "sample_id": "19039416", "src_lang": "en", "tgt_lang": "pt", "output": "Ele acreditava que os romanos não estavam dispostos a viver um estilo de vida militar mais duro."}
+{"dataset_id": "commonAccent", "sample_id": "191984", "src_lang": "en", "tgt_lang": "pt", "output": "Uma garota de camisola rosa quente está pulando pelo ar."}
+{"dataset_id": "commonAccent", "sample_id": "191985", "src_lang": "en", "tgt_lang": "pt", "output": "Dois homens estão a ter uma discussão numa sala de aula."}
+{"dataset_id": "commonAccent", "sample_id": "191986", "src_lang": "en", "tgt_lang": "pt", "output": "Um menino está pendurado em barras de macaco."}
+{"dataset_id": "commonAccent", "sample_id": "20440678", "src_lang": "en", "tgt_lang": "pt", "output": "Cyril e Methodius estavam interessados em Scotchie."}
+{"dataset_id": "commonAccent", "sample_id": "20440680", "src_lang": "en", "tgt_lang": "pt", "output": "Em paralelo a isso, houve o crescimento das sociedades de criação em clubes."}
+{"dataset_id": "commonAccent", "sample_id": "20440681", "src_lang": "en", "tgt_lang": "pt", "output": "Desde então, viveu num endereço secreto."}
+{"dataset_id": "commonAccent", "sample_id": "11727949", "src_lang": "en", "tgt_lang": "pt", "output": "Levar uma vida de gato e cão."}
+{"dataset_id": "commonAccent", "sample_id": "32684995", "src_lang": "en", "tgt_lang": "pt", "output": "Leeds foi representada por um membro da Assembleia Legislativa."}
+{"dataset_id": "commonAccent", "sample_id": "32684997", "src_lang": "en", "tgt_lang": "pt", "output": "Ela usou camisa vermelha na sua primeira temporada na universidade."}
+{"dataset_id": "commonAccent", "sample_id": "32685827", "src_lang": "en", "tgt_lang": "pt", "output": "O filme acabou sendo bombardeado criticamente e comercialmente."}
+{"dataset_id": "commonAccent", "sample_id": "28134647", "src_lang": "en", "tgt_lang": "pt", "output": "Esta abertura atraiu milhares de pedestres para participar nas ações do grupo."}
+{"dataset_id": "commonAccent", "sample_id": "28134649", "src_lang": "en", "tgt_lang": "pt", "output": "No final, ela disse ao jornal: \"Nós deixamos de nos divertir\"."}
+{"dataset_id": "commonAccent", "sample_id": "28134652", "src_lang": "en", "tgt_lang": "pt", "output": "O atual presidente é o Dr. Hoang Duq Yeol."}
+{"dataset_id": "commonAccent", "sample_id": "26971837", "src_lang": "en", "tgt_lang": "pt", "output": "A mina de Mount Morgan desde então tornou-se uma das minas mais ricas da Austrália."}
+{"dataset_id": "commonAccent", "sample_id": "26971891", "src_lang": "en", "tgt_lang": "pt", "output": "Trinta e três por cento declararam que usam qualquer um, dependendo da situação."}
+{"dataset_id": "commonAccent", "sample_id": "26971896", "src_lang": "en", "tgt_lang": "pt", "output": "As senhoras da moda geralmente os preferiam a óculos."}
+{"dataset_id": "commonAccent", "sample_id": "26966211", "src_lang": "en", "tgt_lang": "pt", "output": "As partidas regulares de críquete no campo não ocorreram."}
+{"dataset_id": "commonAccent", "sample_id": "26966213", "src_lang": "en", "tgt_lang": "pt", "output": "Fica a uma curta distância ao sul da fronteira com o estado de Bahia."}
+{"dataset_id": "commonAccent", "sample_id": "26966217", "src_lang": "en", "tgt_lang": "pt", "output": "Em particular, ele tinha lido a Mente de Lewis e a Ordem Mundial muitas vezes."}
+{"dataset_id": "commonAccent", "sample_id": "19599185", "src_lang": "en", "tgt_lang": "pt", "output": "A maioria dos seus conteúdos está disponível apenas em papel."}
+{"dataset_id": "commonAccent", "sample_id": "19599189", "src_lang": "en", "tgt_lang": "pt", "output": "Seus principais rivais são a Olimpia e a Libertad."}
+{"dataset_id": "commonAccent", "sample_id": "19599191", "src_lang": "en", "tgt_lang": "pt", "output": "Todos os náufragos aparecem como outros personagens dentro do sonho."}
+{"dataset_id": "commonAccent", "sample_id": "19599193", "src_lang": "en", "tgt_lang": "pt", "output": "Ainda assim, a maioria das minas terrestres estão agora limpas."}
+{"dataset_id": "commonAccent", "sample_id": "26320004", "src_lang": "en", "tgt_lang": "pt", "output": "Esta é a substância peculiar da qual o cérebro e os nervos são compostos."}
+{"dataset_id": "commonAccent", "sample_id": "26320005", "src_lang": "en", "tgt_lang": "pt", "output": "Durante este período, ela foi considerada uma das poucas rivais de Lillian Russell."}
+{"dataset_id": "commonAccent", "sample_id": "26320006", "src_lang": "en", "tgt_lang": "pt", "output": "A Virgínia colonial forneceu um potencial mercado de plantações ricas."}
+{"dataset_id": "commonAccent", "sample_id": "26320007", "src_lang": "en", "tgt_lang": "pt", "output": "Em torno dele há uma varanda branca contendo várias células."}
+{"dataset_id": "commonAccent", "sample_id": "19083871", "src_lang": "en", "tgt_lang": "pt", "output": "Bordaberry então voltou para seu rancho."}
+{"dataset_id": "commonAccent", "sample_id": "19083872", "src_lang": "en", "tgt_lang": "pt", "output": "Os testes mais comuns são os de conservação."}
+{"dataset_id": "commonAccent", "sample_id": "19083873", "src_lang": "en", "tgt_lang": "pt", "output": "Os sais de luteício solúveis são ligeiramente tóxicos, mas os insolúveis não."}
+{"dataset_id": "commonAccent", "sample_id": "19083875", "src_lang": "en", "tgt_lang": "pt", "output": "Chesterfield diminuiu em população, enquanto Grace e Bancroft sobreviveram."}
+{"dataset_id": "commonAccent", "sample_id": "18682280", "src_lang": "en", "tgt_lang": "pt", "output": "Latimer é consistentemente avaliado como tendo um baixo risco de ofensa real."}
+{"dataset_id": "commonAccent", "sample_id": "19762166", "src_lang": "en", "tgt_lang": "pt", "output": "O veículo também ganhou água, repelente, escudo de vinho e um vidro lateral."}
+{"dataset_id": "commonAccent", "sample_id": "4561565", "src_lang": "en", "tgt_lang": "pt", "output": "Deslize a nota entre as duas folhas."}
+{"dataset_id": "commonAccent", "sample_id": "19647545", "src_lang": "en", "tgt_lang": "pt", "output": "Na Segunda Guerra Mundial, a ilha foi ocupada pelo exército."}
+{"dataset_id": "commonAccent", "sample_id": "19531689", "src_lang": "en", "tgt_lang": "pt", "output": "Ele foi enterrado em um túmulo na Catedral de Aldeburgh."}
+{"dataset_id": "commonAccent", "sample_id": "18838805", "src_lang": "en", "tgt_lang": "pt", "output": "O local onde esses colonos estavam situados perto das montanhas costumava ser chamado de Conventa."}
+{"dataset_id": "commonAccent", "sample_id": "26466285", "src_lang": "en", "tgt_lang": "pt", "output": "Este sentimento foi reforçado pelas atrocidades horríveis cometidas pelas bandas anarquistas contra as comunidades menonitas."}
+{"dataset_id": "commonAccent", "sample_id": "23609781", "src_lang": "en", "tgt_lang": "pt", "output": "Confio sinceramente que não viverei tanto tempo."}
+{"dataset_id": "commonAccent", "sample_id": "32639149", "src_lang": "en", "tgt_lang": "pt", "output": "As músicas para o filme foram compostas por Prithvi Kumar."}
+{"dataset_id": "commonAccent", "sample_id": "17255904", "src_lang": "en", "tgt_lang": "pt", "output": "Depois de escrever um relatório de bug, deve-se verificar regularmente se alguém respondeu."}
+{"dataset_id": "commonAccent", "sample_id": "33572626", "src_lang": "en", "tgt_lang": "pt", "output": "A revolta foi rapidamente reprimida pelas tropas coloniais."}
+{"dataset_id": "commonAccent", "sample_id": "17798574", "src_lang": "en", "tgt_lang": "pt", "output": "O que vai acontecer com ele?"}
+{"dataset_id": "commonAccent", "sample_id": "17832074", "src_lang": "en", "tgt_lang": "pt", "output": "O queijo é feito de leite, bem como muitos outros produtos lácteos."}
+{"dataset_id": "commonAccent", "sample_id": "20037488", "src_lang": "en", "tgt_lang": "pt", "output": "Ele também jogou quatro jogos para a equipe B da Inglaterra."}
+{"dataset_id": "commonAccent", "sample_id": "696712", "src_lang": "en", "tgt_lang": "pt", "output": "(FELIPE CANTANDO) Não, não, não, não, não, não, não, não, não, não, não, não, não, não."}
+{"dataset_id": "commonAccent", "sample_id": "26955417", "src_lang": "en", "tgt_lang": "pt", "output": "Ele se mudou para a Nova Zelândia com seus pais aos dois anos de idade."}
+{"dataset_id": "commonAccent", "sample_id": "17789645", "src_lang": "en", "tgt_lang": "pt", "output": "Estou a chegar a isso."}
+{"dataset_id": "commonAccent", "sample_id": "32092505", "src_lang": "en", "tgt_lang": "pt", "output": "Nenhum distrito muda de mãos."}
+{"dataset_id": "commonAccent", "sample_id": "33273522", "src_lang": "en", "tgt_lang": "pt", "output": "O governo Sindh também proibiu o filme."}
+{"dataset_id": "commonAccent", "sample_id": "18707945", "src_lang": "en", "tgt_lang": "pt", "output": "Eles têm dois filhos, Eric e Alexandra."}
+{"dataset_id": "commonAccent", "sample_id": "19112583", "src_lang": "en", "tgt_lang": "pt", "output": "O governador de Tuba, Marwan Tubasi, é cristão."}
+{"dataset_id": "commonAccent", "sample_id": "27257379", "src_lang": "en", "tgt_lang": "pt", "output": "No entanto, não se traduz com precisão em nada."}
+{"dataset_id": "commonAccent", "sample_id": "32865842", "src_lang": "en", "tgt_lang": "pt", "output": "Nick Pavetta começou pelo Boston e Zach Grenke começou pelo Houston."}
+{"dataset_id": "commonAccent", "sample_id": "17840246", "src_lang": "en", "tgt_lang": "pt", "output": "O crédito ganho pela mentira morre depressa."}
+{"dataset_id": "commonAccent", "sample_id": "159722", "src_lang": "en", "tgt_lang": "pt", "output": "Não conseguiríamos em uma semana!"}
+{"dataset_id": "commonAccent", "sample_id": "19212042", "src_lang": "en", "tgt_lang": "pt", "output": "Ela ofereceu-se para arrecadar fundos e supervisionar a construção do hospital."}
+{"dataset_id": "commonAccent", "sample_id": "26174049", "src_lang": "en", "tgt_lang": "pt", "output": "Planeio viajar para o estrangeiro no próximo ano."}
+{"dataset_id": "commonAccent", "sample_id": "19026481", "src_lang": "en", "tgt_lang": "pt", "output": "Vatal já se tornou uma cidade."}
+{"dataset_id": "commonAccent", "sample_id": "21615063", "src_lang": "en", "tgt_lang": "pt", "output": "Ele não terminou a competição."}
+{"dataset_id": "commonAccent", "sample_id": "322482", "src_lang": "en", "tgt_lang": "pt", "output": "O carvalho é forte e também dá sombra."}
+{"dataset_id": "commonAccent", "sample_id": "19729561", "src_lang": "en", "tgt_lang": "pt", "output": "Ela trabalhou muito, muito duro."}
+{"dataset_id": "commonAccent", "sample_id": "26964279", "src_lang": "en", "tgt_lang": "pt", "output": "O Embaixador do Hindustão é, mais uma vez, uma visão familiar nas estradas da Índia."}
+{"dataset_id": "commonAccent", "sample_id": "21858027", "src_lang": "en", "tgt_lang": "pt", "output": "Outros meios são efeitos como a cera."}
+{"dataset_id": "commonAccent", "sample_id": "34012989", "src_lang": "en", "tgt_lang": "pt", "output": "Sua co-estrela Colin Croft apareceu em seu programa de variedades."}
+{"dataset_id": "commonAccent", "sample_id": "21294317", "src_lang": "en", "tgt_lang": "pt", "output": "O chão interior é marcado por algumas pequenas crateras."}
+{"dataset_id": "commonAccent", "sample_id": "18243933", "src_lang": "en", "tgt_lang": "pt", "output": "Apenas pegue um kit de primeiros socorros para restaurar sua saúde."}
+{"dataset_id": "commonAccent", "sample_id": "21268757", "src_lang": "en", "tgt_lang": "pt", "output": "Wimmer não jogou hóquei profissional desde então."}
+{"dataset_id": "commonAccent", "sample_id": "22399740", "src_lang": "en", "tgt_lang": "pt", "output": "As vítimas mais numerosas foram os sérvios."}
+{"dataset_id": "commonAccent", "sample_id": "33437398", "src_lang": "en", "tgt_lang": "pt", "output": "A criação da nova divisão elevou o número de divisões para seis."}
+{"dataset_id": "commonAccent", "sample_id": "27619474", "src_lang": "en", "tgt_lang": "pt", "output": "A orogenia ocorreu em duas fases."}
+{"dataset_id": "commonAccent", "sample_id": "651325", "src_lang": "en", "tgt_lang": "pt", "output": "Cada compra é um voto."}
+{"dataset_id": "commonAccent", "sample_id": "17865774", "src_lang": "en", "tgt_lang": "pt", "output": "O Fantasma da Ópera é o único musical que já vi."}
+{"dataset_id": "commonAccent", "sample_id": "17255702", "src_lang": "en", "tgt_lang": "pt", "output": "Ótimo, podes mostrá-los-me?"}
+{"dataset_id": "commonAccent", "sample_id": "15733861", "src_lang": "en", "tgt_lang": "pt", "output": "Sim, este é o lugar certo."}
+{"dataset_id": "commonAccent", "sample_id": "21374777", "src_lang": "en", "tgt_lang": "pt", "output": "Tal ignomínia nunca pode ser apagada."}
+{"dataset_id": "commonAccent", "sample_id": "17904824", "src_lang": "en", "tgt_lang": "pt", "output": "Quem te disse isso?"}
+{"dataset_id": "commonAccent", "sample_id": "26976595", "src_lang": "en", "tgt_lang": "pt", "output": "O show teve duas músicas de abertura durante sua história."}
+{"dataset_id": "commonAccent", "sample_id": "19769662", "src_lang": "en", "tgt_lang": "pt", "output": "O respeitável jovem inglês que ela conheceu no último não a atraiu."}
+{"dataset_id": "commonAccent", "sample_id": "17363890", "src_lang": "en", "tgt_lang": "pt", "output": "Vou ter de perguntar ao Ian sobre isso."}
+{"dataset_id": "commonAccent", "sample_id": "30565433", "src_lang": "en", "tgt_lang": "pt", "output": "Foi então dividido em três bairros."}
+{"dataset_id": "commonAccent", "sample_id": "19539213", "src_lang": "en", "tgt_lang": "pt", "output": "Seu avô tinha servido anteriormente no mesmo corpo."}
+{"dataset_id": "commonAccent", "sample_id": "26955603", "src_lang": "en", "tgt_lang": "pt", "output": "Foi confundido por \"Florus anoriosus\" com o Leiri em Campania."}
+{"dataset_id": "commonAccent", "sample_id": "27135690", "src_lang": "en", "tgt_lang": "pt", "output": "Ele é conhecido por inventar a lanterna."}
+{"dataset_id": "commonAccent", "sample_id": "18099367", "src_lang": "en", "tgt_lang": "pt", "output": "O meu instrutor disse-me para usar um fio de nichromo para queimar sólidos metálicos."}
+{"dataset_id": "commonAccent", "sample_id": "34346766", "src_lang": "en", "tgt_lang": "pt", "output": "O agregador de críticas literárias Bookmarks observou que as críticas do romance foram em sua maioria positivas."}
+{"dataset_id": "commonAccent", "sample_id": "23813868", "src_lang": "en", "tgt_lang": "pt", "output": "A sede do condado é Granburne."}
+{"dataset_id": "commonAccent", "sample_id": "18323970", "src_lang": "en", "tgt_lang": "pt", "output": "A Jenny foi para a Itália no ano passado."}
+{"dataset_id": "commonAccent", "sample_id": "32940140", "src_lang": "en", "tgt_lang": "pt", "output": "Este navio em particular foi construído pela California Shipbuilding Corporation em Los Angeles."}
+{"dataset_id": "commonAccent", "sample_id": "18849407", "src_lang": "en", "tgt_lang": "pt", "output": "As flores de muitas espécies são polinizadas por vinho, com as sementes geralmente contendo escorça."}
+{"dataset_id": "commonAccent", "sample_id": "32296806", "src_lang": "en", "tgt_lang": "pt", "output": "O Turner foi forçado a usar a camisa vermelha na sua primeira temporada."}
+{"dataset_id": "commonAccent", "sample_id": "19668421", "src_lang": "en", "tgt_lang": "pt", "output": "Normalmente, as velocidades são indicadas em palavras por minuto."}
+{"dataset_id": "commonAccent", "sample_id": "21400996", "src_lang": "en", "tgt_lang": "pt", "output": "Ele combina elementos de programação funcional e lógica, incluindo integração de programação de restrições."}
+{"dataset_id": "commonAccent", "sample_id": "136405", "src_lang": "en", "tgt_lang": "pt", "output": "A hora mais escura é antes do amanhecer."}
+{"dataset_id": "commonAccent", "sample_id": "19819850", "src_lang": "en", "tgt_lang": "pt", "output": "A versão mais popular foi gravada pelos irmãos Ames."}
+{"dataset_id": "commonAccent", "sample_id": "24601943", "src_lang": "en", "tgt_lang": "pt", "output": "As atuais fontes comerciais de tocotrienol são o arroz e a palmeira."}
+{"dataset_id": "commonAccent", "sample_id": "19988706", "src_lang": "en", "tgt_lang": "pt", "output": "O topo geralmente apresenta uma bacia de lábios inflamada para ajudar a derramar o conteúdo."}
+{"dataset_id": "commonAccent", "sample_id": "19222168", "src_lang": "en", "tgt_lang": "pt", "output": "O aeroporto também serve como o principal heliporto para a indústria petrolífera offshore escocesa."}
+{"dataset_id": "commonAccent", "sample_id": "19939176", "src_lang": "en", "tgt_lang": "pt", "output": "Isso o ocuparia pelo resto de sua vida."}
+{"dataset_id": "commonAccent", "sample_id": "25031275", "src_lang": "en", "tgt_lang": "pt", "output": "Outro significado de Samoros é \"maverick\"."}
+{"dataset_id": "commonAccent", "sample_id": "27535749", "src_lang": "en", "tgt_lang": "pt", "output": "Seus olhos estavam tão quietos atrás de seus vizinhos eternos."}
+{"dataset_id": "commonAccent", "sample_id": "28828149", "src_lang": "en", "tgt_lang": "pt", "output": "Os espelhos toroidais são usados em telescópios Yola e monocromadores ópticos."}
+{"dataset_id": "commonAccent", "sample_id": "442796", "src_lang": "en", "tgt_lang": "pt", "output": "Onde estão as chaves?"}
+{"dataset_id": "commonAccent", "sample_id": "19825401", "src_lang": "en", "tgt_lang": "pt", "output": "Esta vista tem muito no seu sabor."}
+{"dataset_id": "commonAccent", "sample_id": "18100938", "src_lang": "en", "tgt_lang": "pt", "output": "Acredite ou não, esta manteiga de amendoim é caseira."}
+{"dataset_id": "commonAccent", "sample_id": "33271899", "src_lang": "en", "tgt_lang": "pt", "output": "O trabalho com o pincel tornou-se mais pessoal e expressivo."}
+{"dataset_id": "commonAccent", "sample_id": "19933238", "src_lang": "en", "tgt_lang": "pt", "output": "O Papa, que vem da revelação, não tem jurisdição sobre a natureza."}
+{"dataset_id": "commonAccent", "sample_id": "25716466", "src_lang": "en", "tgt_lang": "pt", "output": "Eu só esperava, mas as coisas ainda não iam bem."}
+{"dataset_id": "commonAccent", "sample_id": "27709191", "src_lang": "en", "tgt_lang": "pt", "output": "A sua sede está na cidade de Madrid."}
+{"dataset_id": "commonAccent", "sample_id": "22758330", "src_lang": "en", "tgt_lang": "pt", "output": "O texto de Nessel Alond é também o padrão para o trabalho acadêmico em estudos do Novo Testamento."}
+{"dataset_id": "commonAccent", "sample_id": "17730790", "src_lang": "en", "tgt_lang": "pt", "output": "Poesia e verdade."}
+{"dataset_id": "commonAccent", "sample_id": "660793", "src_lang": "en", "tgt_lang": "pt", "output": "Diz-me se vai chover no Quirguistão."}
+{"dataset_id": "commonAccent", "sample_id": "18509135", "src_lang": "en", "tgt_lang": "pt", "output": "O Pierre abraça-me quando estamos juntos."}
+{"dataset_id": "commonAccent", "sample_id": "17250431", "src_lang": "en", "tgt_lang": "pt", "output": "Vermicelli Um trio, ou uma peça musical para três vozes ou instrumentos."}
+{"dataset_id": "commonAccent", "sample_id": "17843117", "src_lang": "en", "tgt_lang": "pt", "output": "Tens o número de telefone da Isabella?"}
+{"dataset_id": "commonAccent", "sample_id": "19933183", "src_lang": "en", "tgt_lang": "pt", "output": "Mais tarde, ela foi nomeada membro do Parlamento não eleitoral."}
+{"dataset_id": "commonAccent", "sample_id": "17258255", "src_lang": "en", "tgt_lang": "pt", "output": "Eles são muito impressionantes, admito."}
+{"dataset_id": "commonAccent", "sample_id": "18977842", "src_lang": "en", "tgt_lang": "pt", "output": "Os Natal Brancos estão se tornando raros na Polônia."}
+{"dataset_id": "commonAccent", "sample_id": "22544247", "src_lang": "en", "tgt_lang": "pt", "output": "Ela frequentou a Mercy High School em Farmington Hills, Michigan."}
+{"dataset_id": "commonAccent", "sample_id": "17810374", "src_lang": "en", "tgt_lang": "pt", "output": "O ganso foi trazido diretamente do antigo mercado."}
+{"dataset_id": "commonAccent", "sample_id": "24000925", "src_lang": "en", "tgt_lang": "pt", "output": "No entanto, ela é considerada bastante liberal pelos padrões democráticos nacionais."}
+{"dataset_id": "commonAccent", "sample_id": "25327412", "src_lang": "en", "tgt_lang": "pt", "output": "As linhas telefónicas são fornecidas por tecnologia analógica normal."}
+{"dataset_id": "commonAccent", "sample_id": "17820439", "src_lang": "en", "tgt_lang": "pt", "output": "Uma vassoura nua limpa o espelho do rapaz."}
+{"dataset_id": "commonAccent", "sample_id": "17789468", "src_lang": "en", "tgt_lang": "pt", "output": "É mais fácil destruir do que construir."}
+{"dataset_id": "commonAccent", "sample_id": "20015291", "src_lang": "en", "tgt_lang": "pt", "output": "A aldeia é o local do cemitério da Unidade."}
+{"dataset_id": "commonAccent", "sample_id": "34011945", "src_lang": "en", "tgt_lang": "pt", "output": "Lily Tomlin e Jane Wagner servem como produtoras executivas."}
+{"dataset_id": "commonAccent", "sample_id": "17904706", "src_lang": "en", "tgt_lang": "pt", "output": "Agora temos uma nova base para o transporte."}
+{"dataset_id": "commonAccent", "sample_id": "25683132", "src_lang": "en", "tgt_lang": "pt", "output": "Os planos de Workman normalmente lidam com primitivos na forma de quadrados e círculos simétricos."}
+{"dataset_id": "commonAccent", "sample_id": "18238070", "src_lang": "en", "tgt_lang": "pt", "output": "Depois que o império voltou a ter um governo estável, a cidade foi recuperada."}
+{"dataset_id": "commonAccent", "sample_id": "18218583", "src_lang": "en", "tgt_lang": "pt", "output": "Enviá-lo agora em grandes quantidades é mau."}
+{"dataset_id": "commonAccent", "sample_id": "31206949", "src_lang": "en", "tgt_lang": "pt", "output": "A cor é principalmente vermelha com destaques amarelos perto da coroa."}
+{"dataset_id": "commonAccent", "sample_id": "17298946", "src_lang": "en", "tgt_lang": "pt", "output": "O que mais poderia ser?"}
+{"dataset_id": "commonAccent", "sample_id": "17298948", "src_lang": "en", "tgt_lang": "pt", "output": "E não conseguiu libertá-lo?"}
+{"dataset_id": "commonAccent", "sample_id": "19547888", "src_lang": "en", "tgt_lang": "pt", "output": "Os produtos químicos enchem o céu de fumaça, causando problemas respiratórios."}
+{"dataset_id": "commonAccent", "sample_id": "19547898", "src_lang": "en", "tgt_lang": "pt", "output": "Saint Albans, a sede do Condado de Franklin, fica ao norte."}
+{"dataset_id": "commonAccent", "sample_id": "17882304", "src_lang": "en", "tgt_lang": "pt", "output": "O que é que queres pesquisar?"}
+{"dataset_id": "commonAccent", "sample_id": "17882305", "src_lang": "en", "tgt_lang": "pt", "output": "A Angela está grávida, ela disse-me."}
+{"dataset_id": "commonAccent", "sample_id": "21401014", "src_lang": "en", "tgt_lang": "pt", "output": "De acordo com ele, tanto Iodame quanto Atena eram filhas de Etínos."}
+{"dataset_id": "commonAccent", "sample_id": "21401015", "src_lang": "en", "tgt_lang": "pt", "output": "Assim, a Mesopotâmia exigiu um novo projeto de escrita para a banda."}
+{"dataset_id": "commonAccent", "sample_id": "700697", "src_lang": "en", "tgt_lang": "pt", "output": "Ela era linda por trás, mas ele ainda não conseguia ver o rosto dela."}
+{"dataset_id": "commonAccent", "sample_id": "995167", "src_lang": "en", "tgt_lang": "pt", "output": "Os botões faziam um ruído de clique estranho quando pressionados."}
+{"dataset_id": "commonAccent", "sample_id": "30676706", "src_lang": "en", "tgt_lang": "pt", "output": "Rebellion então desenvolveu e lançou \"Evil Genius Online\"."}
+{"dataset_id": "commonAccent", "sample_id": "30676708", "src_lang": "en", "tgt_lang": "pt", "output": "Ele supervisionou a transmissão de uma marinha dinamarquesa de vela para o poder de fluxo inicial."}
+{"dataset_id": "commonAccent", "sample_id": "20685731", "src_lang": "en", "tgt_lang": "pt", "output": "Ele pode fazer muitas coisas."}
+{"dataset_id": "commonAccent", "sample_id": "20685733", "src_lang": "en", "tgt_lang": "pt", "output": "É a sede do condado e a maior cidade de Moline."}
+{"dataset_id": "commonAccent", "sample_id": "19214185", "src_lang": "en", "tgt_lang": "pt", "output": "Ele foi admitido no Distrito de Columbia e Oklahoma."}
+{"dataset_id": "commonAccent", "sample_id": "19214190", "src_lang": "en", "tgt_lang": "pt", "output": "A área de Bogcastle é atravessada pela ferrovia Brescia-Farma."}
+{"dataset_id": "commonAccent", "sample_id": "21367754", "src_lang": "en", "tgt_lang": "pt", "output": "A Segunda Batalha da Guerra dos Bôeres do Rio Mator ocorreu aqui."}
+{"dataset_id": "commonAccent", "sample_id": "21367755", "src_lang": "en", "tgt_lang": "pt", "output": "Os habitantes teriam preferido permanecer como municípios independentes."}
+{"dataset_id": "commonAccent", "sample_id": "16030401", "src_lang": "en", "tgt_lang": "pt", "output": "Boris, o leão, chorou como um jumento."}
+{"dataset_id": "commonAccent", "sample_id": "16030412", "src_lang": "en", "tgt_lang": "pt", "output": "Atira o cordão e supera o ouro."}
+{"dataset_id": "commonAccent", "sample_id": "17285889", "src_lang": "en", "tgt_lang": "pt", "output": "Suspeito que seja alguém novo a dar-se a conhecer."}
+{"dataset_id": "commonAccent", "sample_id": "17285890", "src_lang": "en", "tgt_lang": "pt", "output": "Ovos, leite e farinha são os principais ingredientes das panquecas."}
+{"dataset_id": "commonAccent", "sample_id": "682344", "src_lang": "en", "tgt_lang": "pt", "output": "A confissão aberta é boa para a alma."}
+{"dataset_id": "commonAccent", "sample_id": "17914760", "src_lang": "en", "tgt_lang": "pt", "output": "O antigo armazém já não armazena produtos químicos nocivos."}
+{"dataset_id": "commonAccent", "sample_id": "17914762", "src_lang": "en", "tgt_lang": "pt", "output": "Uma espessa crosta de gelo tornou impossível puxar a âncora."}
+{"dataset_id": "commonAccent", "sample_id": "18340485", "src_lang": "en", "tgt_lang": "pt", "output": "Os sites devem respeitar a privacidade dos seus utilizadores."}
+{"dataset_id": "commonAccent", "sample_id": "18340487", "src_lang": "en", "tgt_lang": "pt", "output": "A escola é cancelada devido ao dinossauro de 50 pés a devastar a área."}
+{"dataset_id": "commonAccent", "sample_id": "19729842", "src_lang": "en", "tgt_lang": "pt", "output": "Kushin e Anderson continuam a servir como co-presidente da empresa."}
+{"dataset_id": "commonAccent", "sample_id": "19729843", "src_lang": "en", "tgt_lang": "pt", "output": "Pauley é em grande parte uma comunidade de dormitórios."}
+{"dataset_id": "commonAccent", "sample_id": "22495699", "src_lang": "en", "tgt_lang": "pt", "output": "Existem duas espécies descritas, ambas endêmicas do Brasil."}
+{"dataset_id": "commonAccent", "sample_id": "22495717", "src_lang": "en", "tgt_lang": "pt", "output": "Ela foi premiada com uma honra de batalha."}
+{"dataset_id": "commonAccent", "sample_id": "22968575", "src_lang": "en", "tgt_lang": "pt", "output": "Não há estatuto intermediário; ninguém nas mãos de nenhum inimigo pode estar fora da lei."}
+{"dataset_id": "commonAccent", "sample_id": "22968579", "src_lang": "en", "tgt_lang": "pt", "output": "Algumas dançarinas mostram principalmente uma única influência."}
+{"dataset_id": "commonAccent", "sample_id": "17281451", "src_lang": "en", "tgt_lang": "pt", "output": "Fica zangado devagar, há muito tempo."}
+{"dataset_id": "commonAccent", "sample_id": "17281452", "src_lang": "en", "tgt_lang": "pt", "output": "Não sei bem o que está envolvido nisso."}
+{"dataset_id": "commonAccent", "sample_id": "32672551", "src_lang": "en", "tgt_lang": "pt", "output": "O primeiro episódio de \"Dead Water Fell\" recebeu críticas positivas dos críticos."}
+{"dataset_id": "commonAccent", "sample_id": "18828400", "src_lang": "en", "tgt_lang": "pt", "output": "Eles exigem o movimento do glottus durante a pronúncia e têm um som staccato."}
+{"dataset_id": "commonAccent", "sample_id": "18828401", "src_lang": "en", "tgt_lang": "pt", "output": "Para mais barões, veja Duque de Abercorn."}
+{"dataset_id": "commonAccent", "sample_id": "20928833", "src_lang": "en", "tgt_lang": "pt", "output": "Ela pegou seu chapéu e o colocou."}
+{"dataset_id": "commonAccent", "sample_id": "20928834", "src_lang": "en", "tgt_lang": "pt", "output": "Através de sua enteada, ele era sogro do político trabalhista Raymond Johnson."}
+{"dataset_id": "commonAccent", "sample_id": "32367812", "src_lang": "en", "tgt_lang": "pt", "output": "Em um \"Orestes japonicus\" semelhante, o mesonotum é paralelo e o metanotum é quadrado."}
+{"dataset_id": "commonAccent", "sample_id": "32367814", "src_lang": "en", "tgt_lang": "pt", "output": "Os pôneis só podem competir numa divisão inteira na final."}
+{"dataset_id": "commonAccent", "sample_id": "26945276", "src_lang": "en", "tgt_lang": "pt", "output": "Columba tornou-se a patrona de Andorra."}
+{"dataset_id": "commonAccent", "sample_id": "26945278", "src_lang": "en", "tgt_lang": "pt", "output": "No nosso próprio país, os clubes de esqui estão a florescer."}
+{"dataset_id": "commonAccent", "sample_id": "18754521", "src_lang": "en", "tgt_lang": "pt", "output": "Foi construído em terras onde ele era detido por Mattach Jaques."}
+{"dataset_id": "commonAccent", "sample_id": "18754523", "src_lang": "en", "tgt_lang": "pt", "output": "A população rural viu a velha ordem religiosa em perigo."}
+{"dataset_id": "commonAccent", "sample_id": "18813644", "src_lang": "en", "tgt_lang": "pt", "output": "Seus lançamentos foram principalmente com Ravindra Ravan."}
+{"dataset_id": "commonAccent", "sample_id": "18813645", "src_lang": "en", "tgt_lang": "pt", "output": "Ele estrelou Hawks, Jack D, John McKegan, Ben Miller, Alistair McCogan e Charlotte Page."}
+{"dataset_id": "commonAccent", "sample_id": "17732764", "src_lang": "en", "tgt_lang": "pt", "output": "Eles optaram por construir fortes muralhas de pedra ao redor da cidade."}
+{"dataset_id": "commonAccent", "sample_id": "26110325", "src_lang": "en", "tgt_lang": "pt", "output": "Os navios melhor equipados tinham até quatro bombas por mastro."}
+{"dataset_id": "commonAccent", "sample_id": "26110329", "src_lang": "en", "tgt_lang": "pt", "output": "Compramos um frango no mercado."}
+{"dataset_id": "commonAccent", "sample_id": "17285500", "src_lang": "en", "tgt_lang": "pt", "output": "Que tal o Egito?"}
+{"dataset_id": "commonAccent", "sample_id": "17285501", "src_lang": "en", "tgt_lang": "pt", "output": "Está bem, concordo que pode ser o caso."}
+{"dataset_id": "commonAccent", "sample_id": "26945177", "src_lang": "en", "tgt_lang": "pt", "output": "O australiano terminou em nono lugar."}
+{"dataset_id": "commonAccent", "sample_id": "26948303", "src_lang": "en", "tgt_lang": "pt", "output": "Sua máquina virtual faz uso de threading de cordas."}
+{"dataset_id": "commonAccent", "sample_id": "19613455", "src_lang": "en", "tgt_lang": "pt", "output": "Aysel, West Berkshire, fica a uma curta distância do Bulbrook Sub-Antique."}
+{"dataset_id": "commonAccent", "sample_id": "19613456", "src_lang": "en", "tgt_lang": "pt", "output": "Há também algumas lojas menores ao longo da Old Cleveland Road."}
+{"dataset_id": "commonAccent", "sample_id": "24564414", "src_lang": "en", "tgt_lang": "pt", "output": "Foi a quinta subida de Tallinn."}
+{"dataset_id": "commonAccent", "sample_id": "24564417", "src_lang": "en", "tgt_lang": "pt", "output": "Foi usado no filme \"Sliding Doors\"."}
+{"dataset_id": "commonAccent", "sample_id": "17277022", "src_lang": "en", "tgt_lang": "pt", "output": "Verificaste o teu laser?"}
+{"dataset_id": "commonAccent", "sample_id": "19666439", "src_lang": "en", "tgt_lang": "pt", "output": "Washington é, portanto, uma das maiores cidades onde a discagem de sete dígitos ainda é possível."}
+{"dataset_id": "commonAccent", "sample_id": "19666442", "src_lang": "en", "tgt_lang": "pt", "output": "A Suécia ganhou o grupo e avançou para as quartas de final junto com a Dinamarca."}
+{"dataset_id": "commonAccent", "sample_id": "26970470", "src_lang": "en", "tgt_lang": "pt", "output": "Dois membros do elenco tiveram que adivinhar o título da canção com base em sua rotina."}
+{"dataset_id": "commonAccent", "sample_id": "26970472", "src_lang": "en", "tgt_lang": "pt", "output": "Nunca o vi, mas sei que ela o tem."}
+{"dataset_id": "commonAccent", "sample_id": "23835356", "src_lang": "en", "tgt_lang": "pt", "output": "Ele também compôs a canção tema \"Bit by Bit\", cantada por Stephanie Mills."}
+{"dataset_id": "commonAccent", "sample_id": "23835357", "src_lang": "en", "tgt_lang": "pt", "output": "Outro convidado da casa foi Walter Hayes, vice-presidente da Ford da Europa."}
+{"dataset_id": "commonAccent", "sample_id": "22334089", "src_lang": "en", "tgt_lang": "pt", "output": "Foram usadas tesouras elétricas, uma bola de quebra e tochas de oxocetileno."}
+{"dataset_id": "commonAccent", "sample_id": "22334090", "src_lang": "en", "tgt_lang": "pt", "output": "Ele permaneceu no set ao vivo do grupo após a partida de Halliwell."}
+{"dataset_id": "commonAccent", "sample_id": "18354220", "src_lang": "en", "tgt_lang": "pt", "output": "Hoje em dia, temos menos fazendas, mas maiores."}
+{"dataset_id": "commonAccent", "sample_id": "18354223", "src_lang": "en", "tgt_lang": "pt", "output": "A Jacqueline tem uma úlcera no lábio inferior."}
+{"dataset_id": "commonAccent", "sample_id": "20556516", "src_lang": "en", "tgt_lang": "pt", "output": "Estêvão I, o primeiro rei da Hungria, fundou um episcopado lá."}
+{"dataset_id": "commonAccent", "sample_id": "20556517", "src_lang": "en", "tgt_lang": "pt", "output": "Dunbar toma uma ação, mas também toma uma bala, deixando-o cego."}
+{"dataset_id": "commonAccent", "sample_id": "32642568", "src_lang": "en", "tgt_lang": "pt", "output": "Ele se formou na Woburn High School."}
+{"dataset_id": "commonAccent", "sample_id": "32642572", "src_lang": "en", "tgt_lang": "pt", "output": "Desde então, ele atua na Comissão de Assuntos Constitucionais."}
+{"dataset_id": "commonAccent", "sample_id": "19971615", "src_lang": "en", "tgt_lang": "pt", "output": "Bem, a entrada tem de ser um relatório sobre o nosso sindicato."}
+{"dataset_id": "commonAccent", "sample_id": "19971616", "src_lang": "en", "tgt_lang": "pt", "output": "Há escolas primárias, médias e secundárias separadas."}
+{"dataset_id": "commonAccent", "sample_id": "32826922", "src_lang": "en", "tgt_lang": "pt", "output": "Ele era um dos defensores da Escola Rouen."}
+{"dataset_id": "commonAccent", "sample_id": "32826924", "src_lang": "en", "tgt_lang": "pt", "output": "Logo depois que a cidade removeu a casa do clube da lista de propriedades para venda."}
+{"dataset_id": "commonAccent", "sample_id": "30410941", "src_lang": "en", "tgt_lang": "pt", "output": "Clark estuda como a função cerebral afeta o comportamento."}
+{"dataset_id": "commonAccent", "sample_id": "30410942", "src_lang": "en", "tgt_lang": "pt", "output": "Ele falhou o corte."}
+{"dataset_id": "commonAccent", "sample_id": "19100980", "src_lang": "en", "tgt_lang": "pt", "output": "Ambas as características dificultaram a portação direta do núcleo para outras arquiteturas."}
+{"dataset_id": "commonAccent", "sample_id": "19100981", "src_lang": "en", "tgt_lang": "pt", "output": "Bradford e as suas conquistas."}
+{"dataset_id": "commonAccent", "sample_id": "25378342", "src_lang": "en", "tgt_lang": "pt", "output": "Ele atraiu pela primeira vez atenção significativa em \"Sweet Lavender\" de Arthur Wing Pinero."}
+{"dataset_id": "commonAccent", "sample_id": "25378349", "src_lang": "en", "tgt_lang": "pt", "output": "Acho que às vezes posso ser um pouco psicologicamente dependente dos outros."}
+{"dataset_id": "commonAccent", "sample_id": "22588810", "src_lang": "en", "tgt_lang": "pt", "output": "Estou mais intrigado com a experiência \"psicológica\": a desorientação, o absurdo, o terror."}
+{"dataset_id": "commonAccent", "sample_id": "22588894", "src_lang": "en", "tgt_lang": "pt", "output": "O quebra-cabeça em si foi projetado por Paul Hoffman sob o pseudônimo \"Doctor Crypton\"."}
+{"dataset_id": "commonAccent", "sample_id": "32638968", "src_lang": "en", "tgt_lang": "pt", "output": "Ela é apelidada de \"Army Q\", \"Mãe Q\" pelas comunidades militares."}
+{"dataset_id": "commonAccent", "sample_id": "32638970", "src_lang": "en", "tgt_lang": "pt", "output": "O Brit é careca."}
+{"dataset_id": "commonAccent", "sample_id": "33531513", "src_lang": "en", "tgt_lang": "pt", "output": "Katsonis propôs que os materiais poderiam ser usados para microfluidos ou robótica macia."}
+{"dataset_id": "commonAccent", "sample_id": "33531703", "src_lang": "en", "tgt_lang": "pt", "output": "Durante vários anos, ele também representou a região de Nyamaqualand no Parlamento do Velho Cabo."}
+{"dataset_id": "commonAccent", "sample_id": "23852945", "src_lang": "en", "tgt_lang": "pt", "output": "Quarenta foram mortos pela falha da barragem de Laurel Run."}
+{"dataset_id": "commonAccent", "sample_id": "23852947", "src_lang": "en", "tgt_lang": "pt", "output": "Nas cidades, a velocidade de condução é definida pela faixa em que o condutor está."}
+{"dataset_id": "commonAccent", "sample_id": "18723995", "src_lang": "en", "tgt_lang": "pt", "output": "Keller então se tornou um treinador de hóquei."}
+{"dataset_id": "commonAccent", "sample_id": "18723998", "src_lang": "en", "tgt_lang": "pt", "output": "O hino foi escrito em holandês."}
+{"dataset_id": "commonAccent", "sample_id": "123648", "src_lang": "en", "tgt_lang": "pt", "output": "Olha só o que fizeste."}
+{"dataset_id": "commonAccent", "sample_id": "123649", "src_lang": "en", "tgt_lang": "pt", "output": "As botas da Samantha pareciam pesadas e o peito dela estava a apertar."}
+{"dataset_id": "commonAccent", "sample_id": "25260", "src_lang": "en", "tgt_lang": "pt", "output": "É porque não nasceste."}
+{"dataset_id": "commonAccent", "sample_id": "25261", "src_lang": "en", "tgt_lang": "pt", "output": "Ainda nos restam dois dólares!"}
+{"dataset_id": "commonAccent", "sample_id": "25845292", "src_lang": "en", "tgt_lang": "pt", "output": "No entanto, a canção não foi usada até It's Hard!"}
+{"dataset_id": "commonAccent", "sample_id": "25845294", "src_lang": "en", "tgt_lang": "pt", "output": "Ele está localizado no promontório geográfico e rodeia a cidade de Sisters Beach."}
+{"dataset_id": "commonAccent", "sample_id": "18276812", "src_lang": "en", "tgt_lang": "pt", "output": "Que estranha cor laranja!"}
+{"dataset_id": "commonAccent", "sample_id": "18276842", "src_lang": "en", "tgt_lang": "pt", "output": "O Adrian sabe conduzir."}
+{"dataset_id": "commonAccent", "sample_id": "603726", "src_lang": "en", "tgt_lang": "pt", "output": "Uma criança pequena está segurando um esfregão ao lado de uma máquina de lavar e secar."}
+{"dataset_id": "commonAccent", "sample_id": "603727", "src_lang": "en", "tgt_lang": "pt", "output": "O Dalai Lama, durante uma recepção onde os participantes trouxeram cravos, pára-solos e bandeiras de oração."}
+{"dataset_id": "commonAccent", "sample_id": "17259866", "src_lang": "en", "tgt_lang": "pt", "output": "A porta estava fechada, trancada e trancada também."}
+{"dataset_id": "commonAccent", "sample_id": "17272411", "src_lang": "en", "tgt_lang": "pt", "output": "De alguma forma, a cor roxa desapareceu para o cinza."}
+{"dataset_id": "commonAccent", "sample_id": "17272412", "src_lang": "en", "tgt_lang": "pt", "output": "Ele enviou os figos, mas manteve as cerejas maduras."}
+{"dataset_id": "commonAccent", "sample_id": "26951522", "src_lang": "en", "tgt_lang": "pt", "output": "Ele então passou as duas temporadas seguintes com os Diamondbacks."}
+{"dataset_id": "commonAccent", "sample_id": "26951525", "src_lang": "en", "tgt_lang": "pt", "output": "Os freios de disco dianteiros foram agora instalados."}
+{"dataset_id": "commonAccent", "sample_id": "17291039", "src_lang": "en", "tgt_lang": "pt", "output": "A Cosecha está à tua espera, condutor imprudente!"}
+{"dataset_id": "commonAccent", "sample_id": "17291041", "src_lang": "en", "tgt_lang": "pt", "output": "Sim, estive em cadeira de rodas durante meses."}
+{"dataset_id": "commonAccent", "sample_id": "27171404", "src_lang": "en", "tgt_lang": "pt", "output": "A própria fábrica de Wisom foi desativada um ano depois."}
+{"dataset_id": "commonAccent", "sample_id": "27171405", "src_lang": "en", "tgt_lang": "pt", "output": "O livro examinou criticamente as alegações de somnolência, homeopatia, parapsicologia, movimento perpétuo e ufologia."}
+{"dataset_id": "commonAccent", "sample_id": "32068279", "src_lang": "en", "tgt_lang": "pt", "output": "O enorme piso térreo é muito visível por causa de sua decoração rústica."}
+{"dataset_id": "commonAccent", "sample_id": "32068280", "src_lang": "en", "tgt_lang": "pt", "output": "Ela é mais conhecida por seu desempenho interpretando Lisa em \"Cable Girls\"."}
+{"dataset_id": "commonAccent", "sample_id": "17268506", "src_lang": "en", "tgt_lang": "pt", "output": "Quais são os factos?"}
+{"dataset_id": "commonAccent", "sample_id": "17268507", "src_lang": "en", "tgt_lang": "pt", "output": "Senhoras e senhores, esta carroça vai ser desligada."}
+{"dataset_id": "commonAccent", "sample_id": "18250600", "src_lang": "en", "tgt_lang": "pt", "output": "Ele é um Expatriado."}
+{"dataset_id": "commonAccent", "sample_id": "18250601", "src_lang": "en", "tgt_lang": "pt", "output": "Este é o candidato mais forte para o papel."}
+{"dataset_id": "commonAccent", "sample_id": "573140", "src_lang": "en", "tgt_lang": "pt", "output": "O meu colega de quarto causa sempre o caos."}
+{"dataset_id": "commonAccent", "sample_id": "573141", "src_lang": "en", "tgt_lang": "pt", "output": "Eu fui a Tóquio há vários anos."}
+{"dataset_id": "commonAccent", "sample_id": "26984718", "src_lang": "en", "tgt_lang": "pt", "output": "Sua proposta foi aceita."}
+{"dataset_id": "commonAccent", "sample_id": "26984797", "src_lang": "en", "tgt_lang": "pt", "output": "Seu nome hebraico era \"Hel-Joseph\", em homenagem ao seu avô paterno."}
+{"dataset_id": "commonAccent", "sample_id": "463886", "src_lang": "en", "tgt_lang": "pt", "output": "O paramédico cansado entregou seu paciente para cirurgia."}
+{"dataset_id": "commonAccent", "sample_id": "463888", "src_lang": "en", "tgt_lang": "pt", "output": "Alinhe o seu carro ortogonal ao estacionamento."}
+{"dataset_id": "commonAccent", "sample_id": "17297655", "src_lang": "en", "tgt_lang": "pt", "output": "Como é que conseguiste isso?"}
+{"dataset_id": "commonAccent", "sample_id": "18556", "src_lang": "en", "tgt_lang": "pt", "output": "Ele sentou-se olhando para o céu por muito tempo."}
+{"dataset_id": "commonAccent", "sample_id": "21780812", "src_lang": "en", "tgt_lang": "pt", "output": "O grande caribú de quarenta milhas ouviu tambores perto da rodovia."}
+{"dataset_id": "commonAccent", "sample_id": "21780825", "src_lang": "en", "tgt_lang": "pt", "output": "Alguns indivíduos podem ver uma diminuição dos seus sintomas dentro de semanas ou meses."}
+{"dataset_id": "commonAccent", "sample_id": "335847", "src_lang": "en", "tgt_lang": "pt", "output": "O tamanho do dia."}
+{"dataset_id": "commonAccent", "sample_id": "335848", "src_lang": "en", "tgt_lang": "pt", "output": "Sempre quis viajar pelo mundo."}
+{"dataset_id": "commonAccent", "sample_id": "348928", "src_lang": "en", "tgt_lang": "pt", "output": "A procrastinação é o ladrão de tempo."}
+{"dataset_id": "commonAccent", "sample_id": "26980014", "src_lang": "en", "tgt_lang": "pt", "output": "Nestes assuntos, o Executivo Nacional geralmente nota linhas faccionais."}
+{"dataset_id": "commonAccent", "sample_id": "32642851", "src_lang": "en", "tgt_lang": "pt", "output": "Esta foi a sétima janela produzida por John Blythe na paróquia."}
+{"dataset_id": "commonAccent", "sample_id": "32642865", "src_lang": "en", "tgt_lang": "pt", "output": "Ele também declarou que era a favor de melhores relações com a União Europeia."}
+{"dataset_id": "commonAccent", "sample_id": "17274999", "src_lang": "en", "tgt_lang": "pt", "output": "Olá, Benjamin. Como está?"}
+{"dataset_id": "commonAccent", "sample_id": "17275001", "src_lang": "en", "tgt_lang": "pt", "output": "Phil, queres tomar um estandarte deste, mãe?"}
+{"dataset_id": "commonAccent", "sample_id": "26932785", "src_lang": "en", "tgt_lang": "pt", "output": "É a norte de Boston."}
+{"dataset_id": "commonAccent", "sample_id": "26932786", "src_lang": "en", "tgt_lang": "pt", "output": "Na França, os generais do exército são nomeados após o tipo de funeral que comandam."}
+{"dataset_id": "commonAccent", "sample_id": "516191", "src_lang": "en", "tgt_lang": "pt", "output": "Porque não revistamos os quartos deles?"}
+{"dataset_id": "commonAccent", "sample_id": "474450", "src_lang": "en", "tgt_lang": "pt", "output": "Exagerar engana-se a si mesmo."}
+{"dataset_id": "commonAccent", "sample_id": "31767559", "src_lang": "en", "tgt_lang": "pt", "output": "Vemos-o a namorar duas senhoras enquanto os malvados o perseguem."}
+{"dataset_id": "commonAccent", "sample_id": "31767561", "src_lang": "en", "tgt_lang": "pt", "output": "Não houve vítimas a bordo do \"Seta\"."}
+{"dataset_id": "commonAccent", "sample_id": "26950398", "src_lang": "en", "tgt_lang": "pt", "output": "Muitos texanos, incluindo o governo, derrubaram suas casas na sucata da pista."}
+{"dataset_id": "commonAccent", "sample_id": "26950410", "src_lang": "en", "tgt_lang": "pt", "output": "Ele sobreviveu, e mais tarde fez amizade com Aquaman, o rei às vezes excluído de Atlântida."}
+{"dataset_id": "commonAccent", "sample_id": "32798505", "src_lang": "en", "tgt_lang": "pt", "output": "O focinho é relativamente longo."}
+{"dataset_id": "commonAccent", "sample_id": "32798507", "src_lang": "en", "tgt_lang": "pt", "output": "Foi também o primeiro grande monumento criado inteiramente por artesãos russos."}
+{"dataset_id": "commonAccent", "sample_id": "31948408", "src_lang": "en", "tgt_lang": "pt", "output": "Alguns dos apartamentos foram desenvolvidos pela própria empresa."}
+{"dataset_id": "commonAccent", "sample_id": "31948413", "src_lang": "en", "tgt_lang": "pt", "output": "Cobre conflitos navais durante a Guerra do Pacífico."}
+{"dataset_id": "commonAccent", "sample_id": "13483770", "src_lang": "en", "tgt_lang": "pt", "output": "O que é que fizeste?"}
+{"dataset_id": "commonAccent", "sample_id": "13483785", "src_lang": "en", "tgt_lang": "pt", "output": "Salta a cerca e mergulha."}
+{"dataset_id": "commonAccent", "sample_id": "21265378", "src_lang": "en", "tgt_lang": "pt", "output": "Vardania foi educado nas escolas de Tournai."}
+{"dataset_id": "commonAccent", "sample_id": "21265383", "src_lang": "en", "tgt_lang": "pt", "output": "Deveria haver bares e espaços abertos ligados por calçadas."}
+{"dataset_id": "commonAccent", "sample_id": "32798369", "src_lang": "en", "tgt_lang": "pt", "output": "Bob's Lakes também é alinhado com acampamentos como transbordamento e é abastecido com truta."}
+{"dataset_id": "commonAccent", "sample_id": "32798371", "src_lang": "en", "tgt_lang": "pt", "output": "A sede da revista semanal estava em Copenhague."}
+{"dataset_id": "commonAccent", "sample_id": "30121828", "src_lang": "en", "tgt_lang": "pt", "output": "O clã mais tarde mudou sua lealdade à corte do norte e ao shogunato de Ashikaga."}
+{"dataset_id": "commonAccent", "sample_id": "30121833", "src_lang": "en", "tgt_lang": "pt", "output": "Estuda a saúde pública e os determinantes sociais da saúde."}
+{"dataset_id": "commonAccent", "sample_id": "29540099", "src_lang": "en", "tgt_lang": "pt", "output": "Dou-lhe um minuto para decidir."}
+{"dataset_id": "commonAccent", "sample_id": "29540105", "src_lang": "en", "tgt_lang": "pt", "output": "Várias funções dentro da família de Filadélfia começaram a conspirar para trair o envelhecido Bruno."}
+{"dataset_id": "commonAccent", "sample_id": "17261384", "src_lang": "en", "tgt_lang": "pt", "output": "O que é que achas dele?"}
+{"dataset_id": "commonAccent", "sample_id": "17261386", "src_lang": "en", "tgt_lang": "pt", "output": "A maionese é feita de ovos, óleo, vinagre e mostarda."}
+{"dataset_id": "commonAccent", "sample_id": "595872", "src_lang": "en", "tgt_lang": "pt", "output": "Duas pessoas num país estrangeiro a falar."}
+{"dataset_id": "commonAccent", "sample_id": "595873", "src_lang": "en", "tgt_lang": "pt", "output": "Uma pessoa está equilibrando um objeto em sua cabeça"}
+{"dataset_id": "commonAccent", "sample_id": "512011", "src_lang": "en", "tgt_lang": "pt", "output": "Beber e conduzir é irresponsável."}

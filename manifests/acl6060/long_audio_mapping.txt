@@ -1,0 +1,5 @@
+2022.acl-long.111	sample_id=416	file=2022.acl-long.111.wav
+2022.acl-long.410	sample_id=417	file=2022.acl-long.410.wav
+2022.acl-long.468	sample_id=418	file=2022.acl-long.468.wav
+2022.acl-long.567	sample_id=419	file=2022.acl-long.567.wav
+2022.acl-long.597	sample_id=420	file=2022.acl-long.597.wav

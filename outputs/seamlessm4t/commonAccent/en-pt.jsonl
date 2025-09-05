@@ -1362,3 +1362,10 @@
 {"dataset_id": "commonAccent", "sample_id": "595872", "src_lang": "en", "tgt_lang": "pt", "output": "Duas pessoas num país estrangeiro a falar."}
 {"dataset_id": "commonAccent", "sample_id": "595873", "src_lang": "en", "tgt_lang": "pt", "output": "Uma pessoa está equilibrando um objeto em sua cabeça"}
 {"dataset_id": "commonAccent", "sample_id": "512011", "src_lang": "en", "tgt_lang": "pt", "output": "Beber e conduzir é irresponsável."}
+{"dataset_id": "commonAccent", "sample_id": "20529053", "src_lang": "en", "tgt_lang": "pt", "output": "Foi o primeiro uso bem sucedido da defesa nos Estados Unidos."}
+{"dataset_id": "commonAccent", "sample_id": "20529061", "src_lang": "en", "tgt_lang": "pt", "output": "Remover o trabalho é destruir o trabalho\"."}
+{"dataset_id": "commonAccent", "sample_id": "19935458", "src_lang": "en", "tgt_lang": "pt", "output": "O Shen foi dizer ao Davis que estava feito, mas era tarde demais."}
+{"dataset_id": "commonAccent", "sample_id": "19935663", "src_lang": "en", "tgt_lang": "pt", "output": "A remoção do tumor de mastócitos por cirurgia é o tratamento de escolha."}
+{"dataset_id": "commonAccent", "sample_id": "32640129", "src_lang": "en", "tgt_lang": "pt", "output": "Era a casa dos prefeitos."}
+{"dataset_id": "commonAccent", "sample_id": "32640132", "src_lang": "en", "tgt_lang": "pt", "output": "Ele serviu como prefeito do refeitório enquanto estava na Escola Opocho Ware."}
+{"dataset_id": "commonAccent", "sample_id": "123942", "src_lang": "en", "tgt_lang": "pt", "output": "Mas estás a forçar-me a olhar para riquezas e para horizontes que nunca conheci."}

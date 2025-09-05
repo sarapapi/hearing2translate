@@ -1077,3 +1077,7 @@
 {"dataset_id": "commonAccent", "sample_id": "32684995", "src_lang": "en", "tgt_lang": "it", "output": "Leeds era rappresentata da un membro dell'Assemblea Legislativa."}
 {"dataset_id": "commonAccent", "sample_id": "32684997", "src_lang": "en", "tgt_lang": "it", "output": "Ha indossato la camicia rossa nella sua prima stagione con l'università."}
 {"dataset_id": "commonAccent", "sample_id": "32685827", "src_lang": "en", "tgt_lang": "it", "output": "Il film è stato bombardato dalla critica e dal commercio."}
+{"dataset_id": "commonAccent", "sample_id": "28134647", "src_lang": "en", "tgt_lang": "it", "output": "Questa apertura ha attirato migliaia di pedoni a partecipare alle azioni del gruppo."}
+{"dataset_id": "commonAccent", "sample_id": "28134649", "src_lang": "en", "tgt_lang": "it", "output": "Alla fine, ha detto al giornale: \"Abbiamo smesso di divertirci\"."}
+{"dataset_id": "commonAccent", "sample_id": "28134652", "src_lang": "en", "tgt_lang": "it", "output": "L'attuale presidente è il dottor Hoang Duq Yeol."}
+{"dataset_id": "commonAccent", "sample_id": "26971837", "src_lang": "en", "tgt_lang": "it", "output": "La miniera di Mount Morgan è diventata una delle miniere più ricche d'Australia."}

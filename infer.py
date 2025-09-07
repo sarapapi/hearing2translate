@@ -10,11 +10,6 @@ import sys
 set_seed(42)
 
 MODEL_MODULES = {
-    # llms
-    "aya-expanse-32b": "inference.llm.aya",
-    "gemma3-12b": "inference.llm.gemma",
-    "towerplus-9b": "inference.llm.towerplus",
-
     # speech foundation models
     "canary-v2": "inference.sfm.canaryv2",
     "whisper": "inference.sfm.whisper",
@@ -46,7 +41,24 @@ TEMPLATED_SPEECH_PROMPT = \
      "provided {src_lang} speech into {tgt_lang}:")
 
 
-def setup_model(model_name):
+def setup_model(model_name, modality):
+    # For text modality, use the unified HuggingFace LLMs module
+    if modality == "text":
+        module = importlib.import_module("inference.llm.hf_llms")
+        
+        load_func = getattr(module, "load_model", None)
+        if not load_func:
+            raise ImportError("HF LLMs module does not define `load_model`")
+
+        generate_func = getattr(module, "generate", None)
+        if not generate_func:
+            raise ImportError("HF LLMs module does not define `generate`")
+
+        # Pass the model name to the hf_llms module - let it validate and handle
+        model = load_func(model_name)
+        return model, generate_func
+    
+    # For other modalities, use the existing MODULE_MODULES mapping
     if model_name not in MODEL_MODULES:
         raise NotImplementedError(f"Model {model_name} currently not supported!")
 
@@ -123,8 +135,8 @@ def get_model_input(modality, example, transcripts):
 
 def infer(args):
     logging.info(f"Loading model {args.model}")
-    model, generate = setup_model(args.model)
     modality = args.in_modality
+    model, generate = setup_model(args.model, modality)
 
     transcripts = None
     if args.in_modality == "text":

@@ -5,7 +5,6 @@
 # It prepares the data, runs fast_align, and then generates predictions
 # for different dataset variations (neutral, pro-stereotypical, anti-stereotypical).
 #
-# Usage: ./your_script_name.sh <system_name> <output_jsonl_path> <input_jsonl_path> <tgt_language>
 # Example: sh eval_winoST.sh seamlessm4t /outputs/seamlessm4t/winoST/en-it.jsonl /manifests/winoST/en-it.jsonl it
 # ----------------
 

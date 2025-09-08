@@ -34,7 +34,7 @@ After running the steps above, your directory layout will be:
 
 ```
 ${H2T_DATADIR}/
-└─ FLEURS/
+└─ fleurs/
    └─ audio/
       └─ en/
       │  ├─ 14738234113419638776.wav

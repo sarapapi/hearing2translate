@@ -32,19 +32,20 @@ This tool generates both short- and long-form manifests for the **ACL-6060** dat
      - Parse `<lang>.xml`.  
      - Concatenate segment texts per `docid` with `"\n"`.  
      - Append one JSONL line (`context = "long"`) to `en-<lang>.jsonl`.
-
-4. **Mapping file**  
-   Create a mapping file linking each `doc_id` to its assigned long-form `sample_id` and the corresponding long audio filename.  
+   - A mapping file links each `doc_id` to its assigned long-form `sample_id` and the corresponding long audio filename.  
+   
+       ```
+        2022.acl-long.111	sample_id=416	file=2022.acl-long.111.wav
+        2022.acl-long.410	sample_id=417	file=2022.acl-long.410.wav
+        2022.acl-long.468	sample_id=418	file=2022.acl-long.468.wav
+        2022.acl-long.567	sample_id=419	file=2022.acl-long.567.wav
+        2022.acl-long.597	sample_id=420	file=2022.acl-long.597.wav
+       ```
 
    > **Note:** Long-form audio files must be manually downloaded from the [GitHub release](https://github.com/sarapapi/hearing2translate/releases/tag/data-share-acl6060).  
-   > Place them under:  
-   > ```
-   > H2T_DATADIR/acl6060/audio/en/
-   > ```  
-   > Then rename the files according to the mapping provided in:  
-   > ```
-   > manifests/acl6060/long_audio_mapping.txt
-   > ```
+   >
+   > Place them manually under:  
+   > ```H2T_DATADIR/acl6060/audio/en/```
 
 ---
 
@@ -58,9 +59,6 @@ This tool generates both short- and long-form manifests for the **ACL-6060** dat
 - **Long-form manifests**  
   - Appended at the end of each JSONL file.
 
-- **Audio mapping file**  
-  - `manifests/acl6060/long_audio_mapping.txt`
-
 ---
 
 ## Environment
@@ -68,3 +66,4 @@ This tool generates both short- and long-form manifests for the **ACL-6060** dat
 - Install dependencies:  
   ```bash
   pip install "datasets[audio]<4.0" soundfile
+  ```

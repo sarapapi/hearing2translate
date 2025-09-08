@@ -1,5 +1,6 @@
 """
 Generate ACL-6060 manifests from HF (short-form) and manual download (long-form).
+Uses an existing long_audio_mapping.txt (if present) to map doc_id -> actual long wav filename (e.g. 416.wav).
 """
 
 import os
@@ -13,6 +14,10 @@ import xml.etree.ElementTree as ET
 import soundfile as sf
 from datasets import load_dataset, Audio
 
+ROOT_DIR = os.environ.get("H2T_DATADIR")
+if not ROOT_DIR:
+    raise EnvironmentError("H2T_DATADIR is not set")
+        
 # -------------------- Config --------------------
 SPLIT = "eval"
 SRC_LANG = "en"
@@ -110,14 +115,59 @@ def get_last_sample_id(jsonl_path: Path) -> int:
         return -1
     return last_id
 
+# -------------------- Long audio mapping --------------------
+def load_long_audio_mapping(path: Path) -> Dict[str, str]:
+    """Load mapping: {doc_id: sample_id.wav}"""
+    mapping = {}
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            parts = line.strip().split("\t")
+            if len(parts) < 3:
+                continue
+            doc_id, sample_id_part, file_part = parts
+            try:
+                sample_id = sample_id_part.split("=")[1]
+                mapping[doc_id] = f"{sample_id}.wav"
+            except IndexError:
+                continue
+    return mapping
+
+def mapping_doc_id(en_docs, manifest_dir):
+    user_mapping_path = Path(ROOT_DIR) / "manifests" / "acl6060" / "long_audio_mapping.txt"
+    existing_map = load_long_audio_mapping(user_mapping_path)
+
+    # docid_to_sampleid and docid_to_filename (actual file used, eg "416.wav")
+    docid_to_sampleid: Dict[str, int] = {}
+    docid_to_filename: Dict[str, str] = {}
+
+    # If existing_map provided, fill those in first and compute next cur_id appropriately
+    used_ids = set()
+    for docid, fname in existing_map.items():
+        stem = Path(fname).stem
+        try:
+            sid = int(stem)
+            docid_to_sampleid[docid] = sid
+            docid_to_filename[docid] = fname  # use filename as-is (e.g., "416.wav")
+            used_ids.add(sid)
+        except Exception:
+            # if filename doesn't parse to int, we still set filename but sample id will be assigned later
+            docid_to_filename[docid] = fname
+
+    # Ensure docid_to_sampleid matches docid_to_filename where possible (safety)
+    for docid, fname in docid_to_filename.items():
+        stem = Path(fname).stem
+        if stem.isdigit():
+            sid = int(stem)
+            # if sample id differs from our assigned one, overwrite assigned to follow filename
+            if docid_to_sampleid.get(docid) != sid:
+                logger.info("Adjusting sample_id for %s to match mapping file filename %s", docid, fname)
+                docid_to_sampleid[docid] = sid
+    return docid_to_sampleid, docid_to_filename
+
 # -------------------- Main ----------------------
 def main():
     # Directories
-    data_root = os.environ.get("H2T_DATADIR")
-    if not data_root:
-        raise EnvironmentError("H2T_DATADIR is not set")
-
-    audio_out_dir = Path(data_root) / "acl6060" / "audio" / SRC_LANG
+    audio_out_dir = Path(ROOT_DIR) / "acl6060" / "audio" / SRC_LANG
     audio_out_dir.mkdir(parents=True, exist_ok=True)
 
     manifest_dir = Path("manifests") / "acl6060"
@@ -147,7 +197,7 @@ def main():
     text_map_tgt: Dict[str, Dict[int, str]] = {lang: {} for lang in TGT_LANGS}
     max_sample_id = -1
 
-    # -------- write SHORT records --------
+    # -------- write SHORT records (and save short audio as {sample_id}.wav) --------
     for sample in ds:
         sample_id = sample.get("index")
         if isinstance(sample_id, str) and sample_id.isdigit():
@@ -212,18 +262,9 @@ def main():
     logger.info("Finished short records. Now appending long-form records per doc_id...")
 
     # ===== 1) Assign global long-form sample_id per doc_id (shared across languages) =====
-    all_docids_sorted = sorted(en_docs.keys())
-    last_ids_in_files = [get_last_sample_id(manifest_dir / f"en-{lang}.jsonl") for lang in TGT_LANGS]
-    last_across_files = max([-1] + last_ids_in_files)
-    global_start_id = max(max_sample_id, last_across_files) + 1
+    docid_to_sampleid, docid_to_filename = mapping_doc_id(en_docs, manifest_dir)
 
-    docid_to_sampleid: Dict[str, int] = {}
-    cur_id = global_start_id
-    for docid in all_docids_sorted:
-        docid_to_sampleid[docid] = cur_id
-        cur_id += 1
-
-    # ===== 2) Write long-form records per language (using the shared sample_id) =====
+    # ===== 2) Write long-form records per language (using the shared sample_id and actual filenames) =====
     total_appended = 0
     for lang in TGT_LANGS:
         tgt_xml = xml_dir / f"{lang}.xml"
@@ -248,12 +289,15 @@ def main():
                 src_concat = "\n".join(en_texts)
                 tgt_concat = "\n".join(tgt_texts)
 
-                sid_long = docid_to_sampleid[docid]  # shared across languages
+                #sid_long = docid_to_sampleid[docid]  # shared across languages
+                mapped_fname = docid_to_filename[docid]
+                src_audio_path = f"/acl6060/audio/{SRC_LANG}/{mapped_fname}"
+
                 new_record = {
                     "dataset_id": "acl_6060",
                     "doc_id": docid,
-                    "sample_id": sid_long,
-                    "src_audio": f"/acl6060/audio/{SRC_LANG}/{sid_long}.wav",  # placeholder
+                    "sample_id": docid_to_sampleid[docid],
+                    "src_audio": src_audio_path,
                     "src_ref": src_concat,
                     "tgt_ref": tgt_concat,
                     "src_lang": SRC_LANG,
@@ -269,15 +313,6 @@ def main():
         total_appended += appended
         logger.info("Appended %d long-form records to %s (lang=%s)", appended, jsonl_path, lang)
 
-    # ===== 3) Emit a unique mapping file (no duplication across languages) =====
-    mapping_path = manifest_dir / "long_audio_mapping.txt"
-    with open(mapping_path, "w", encoding="utf-8") as mf:
-        for docid in all_docids_sorted:
-            sid_long = docid_to_sampleid[docid]
-            real_filename = f"{docid}.wav"  # actual long audio assumed docid-based
-            mf.write(f"{docid}\tsample_id={sid_long}\tfile={real_filename}\n")
-
-    logger.info("Wrote long audio mapping file (unique): %s", mapping_path)
     logger.info("Manifests generated (short + long-form).")
 
 if __name__ == "__main__":

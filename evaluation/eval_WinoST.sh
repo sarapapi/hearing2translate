@@ -1,15 +1,11 @@
-#!/bin/bash
-
 # --- USAGE ---
 # Description: This script processes translation data for a given system.
 # It prepares the data, runs fast_align, and then generates predictions
 # for different dataset variations (neutral, pro-stereotypical, anti-stereotypical).
 #
-# Example: sh eval_winoST.sh seamlessm4t /outputs/seamlessm4t/winoST/en-it.jsonl /manifests/winoST/en-it.jsonl it
-# ----------------
+# Example: sh eval_WinoST.sh seamlessm4t /outputs/seamlessm4t/winoST/en-it.jsonl /manifests/winoST/en-it.jsonl it awesome_align
 
-# Define FastAlign binary files
-FAST_ALIGN_BASE=""
+# ----------------
 
 # 1. VALIDATE INPUT ARGUMENTS
 if [ "$#" -ne 5 ]; then
@@ -54,11 +50,12 @@ python ./metrics/winoMT/prepare_winoST_data.py \
   --output-jsonl $INPUT_JSONL \
   --txt-out "${BILINGUAL_TXT_PATH}"
 
-# --- Run fast_align ---
+# --- Run alignments ---
 ALIGNED_PATH="${DIR_SAVE}/${DIRECTION_PAIR}.aligned"
 
 if [ $ALIGNMENT_METHOD = "fast_align" ]; then
-
+  # Define FastAlign binary files
+  FAST_ALIGN_BASE=""
   echo "Step 2: Generating alignments with fast_align at ${ALIGNED_PATH}"
   "${FAST_ALIGN_BASE}/build/fast_align" -i "${BILINGUAL_TXT_PATH}" -d -o -v > "${ALIGNED_PATH}"
 
@@ -76,7 +73,7 @@ fi;
 
 # 4. GENERATE PREDICTIONS FOR EACH DATASET
 # --- Loop through each dataset type ---
-echo "Step 3: Generating prediction CSVs in ${OUT_FOLDER}"
+echo "Step 3: Generating prediction JSONL in ${OUT_FOLDER}"
 for ds_name in "${DATASET_NAMES[@]}"; do
   # Construct the full path for the source dataset
   dataset_en_path="${BASE_DATA_PATH}/${ds_name}.txt"

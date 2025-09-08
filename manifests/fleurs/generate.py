@@ -94,7 +94,7 @@ def process_fleurs_dataset():
                             continue
 
                         # Define the audio file path
-                        audio_filename = f"{sample_id}.wav"
+                        audio_filename = sample['path'].split('/')[-1] #f"{sample_id}.wav"
                         audio_filepath = os.path.join(audio_output_dir, audio_filename)
                         relative_audio_path = os.path.join("fleurs", "audio", src_lang, audio_filename)
 

@@ -1,0 +1,1 @@
+{"lang": "es", "trans_fn": "phi4multimodal_en_anti", "acc": 18.7, "f1_male": 42.1, "f1_female": 7.2, "del_g": 35, "unk_male": 499, "unk_female": 560, "unk_neutral": 0}

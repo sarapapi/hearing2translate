@@ -1,30 +1,60 @@
 # FLEURS
 
-This script downloads selected splits of the **FLEURS** dataset from Hugging Face and builds, for each language pair and split, a JSONL file with source audio + aligned source/target transcriptions. It also exports the source-waveforms (`.wav`) to a local `audio/<src_lang>/` folder.
+## Overview
 
----
+FLEURS (Few-shot Learning Evaluation of Universal Representations of Speech), is a benchmark dataset for speech research. The dataset is an n-way parallel speech dataset that includes 102 languages and is based on the machine translation FLoRes-101 benchmark. It contains approximately 12 hours of speech per language. The FLEURS benchmark enables the evaluation of various speech tasks, including Automatic Speech Recognition (ASR), Speech Language Identification (Speech LangID), Translation, and Retrieval.
 
-## What the script does
+```bibtex
+@article{fleurs2022arxiv,
+  title = {FLEURS: Few-shot Learning Evaluation of Universal Representations of Speech},
+  author = {Conneau, Alexis and Ma, Min and Khanuja, Simran and Zhang, Yu and Axelrod, Vera and Dalmia, Siddharth and Riesa, Jason and Rivera, Clara and Bapna, Ankur},
+  journal={arXiv preprint arXiv:2205.12446},
+  url = {https://arxiv.org/abs/2205.12446},
+  year = {2022}
+}
+```
 
-* Iterates over `LANGUAGE_PAIRS` like `en-de`, `fr-en`, etc.
-* For each split in `SPLITS` (default: `test`):
+## Instructions
 
-  * Loads the corresponding FLEURS configs for source and target (e.g., `en_us`, `de_de`).
-  * Writes `<src>-<tgt>.<split>.jsonl` containing one JSON record per sample with:
+Define the path where **FLEURS** will be stored:
 
-    * path to the exported **source audio** (`.wav`)
-    * **source transcription** (FLEURS field `raw_transcription`)
-    * **target transcription** looked up by the shared `id`
-    * `src_lang`, `tgt_lang`, `benchmark_metadata` (currently `gender`)
-  * Saves the **source audio** to `./audio/<src_lang>/<sample_id>.wav` if not already present.
+```bash
+export H2T_DATADIR=""
+```
 
-### JSONL schema (per line)
+Run the Python script to generate the processed data:
+
+```bash
+python generate.py
+```
+
+## Expected Output
+
+After running the steps above, your directory layout will be:
+
+```
+${H2T_DATADIR}/
+└─ FLEURS/
+   └─ audio/
+      └─ en/
+      │  ├─ 14738234113419638776.wav
+      │  ├─ 17498257810809617374.wav
+      │  └─ ...
+      └─ de/
+      │  ├─ 2835934118517986318.wav
+      │  ├─ 14644395854086367094.wav
+      │  └─ ...
+      └─ ...
+```
+
+If your generate.py script writes manifests, you should get JSONL files (one per language pair) under your chosen output path (e.g., ./manifests/Fleurs/). A jsonl entry looks like:
+
 
 ```json
 {
   "dataset_id": "fleurs",
   "sample_id": "<string>",
-  "src_audio": "/fleurs/audio/<src_lang>/<sample_id>.wav",
+  "src_audio": "/fleurs/audio/<src_lang>/<audio file>",
   "src_ref": "<source raw_transcription>",
   "tgt_ref": "<target raw_transcription>",
   "src_lang": "<two-letter ISO 639-1>",
@@ -33,34 +63,6 @@ This script downloads selected splits of the **FLEURS** dataset from Hugging Fac
 }
 ```
 
-### Example output
+## License
 
-```
-.
-├── audio/
-│   ├── en/
-│   │   ├── 1271.wav
-│   │   ├── 1272.wav
-│   │   └── ...
-│   └── fr/
-│       └── ...
-├── en-de.jsonl
-├── en-fr.jsonl
-└── ...
-```
-
-
-## How to run
-
-```bash
-export H2T_DATADIR='' #Path where the Fleurs dataset is stored.
-
-python generate.py
-```
-
-## What it generates
-
-For each pair `<src>-<tgt>` you get:
-
-* `./<src>-<tgt>.jsonl` – metadata + paths to audio.
-* `/fleurs/audio/<src>/<sample_id>.wav` – exported source audio for that pair.
+All datasets are licensed under the Creative Commons license (CC-BY).

@@ -48,7 +48,7 @@ langs = {"en", "es", "fr", "de", "it", "pt" }
 not_used = {"pl", "ro", "nl"}
 
 def generate_europarl_st():
-    print("Generating cs_fleurs dataset")
+    print("Generating europarl_st dataset")
     dataset_id = "europarl_st"
 
     dataset_path = Path(__file__).parent 
@@ -57,19 +57,19 @@ def generate_europarl_st():
     extract_dir = dataset_path / Path("europarl-st-v1.1")
 
     # Download if not already present
-    #if not filename.exists() and not extract_dir.exists():
-    #    print("Downloading...")
-    #    with TqdmUpTo(unit = 'B', unit_scale = True, unit_divisor = 1024, miniters = 1, desc = str(filename)) as t:
-    #        urllib.request.urlretrieve(url, filename, reporthook= t.update_to)
+    if not filename.exists() and not extract_dir.exists():
+        print("Downloading...")
+        with TqdmUpTo(unit = 'B', unit_scale = True, unit_divisor = 1024, miniters = 1, desc = str(filename)) as t:
+            urllib.request.urlretrieve(url, filename, reporthook= t.update_to)
 
-    ## Extract if not already extracted
-    #if not os.path.exists(extract_dir):
-    #    print("Extracting...")
-    #    with tarfile.open(filename, "r:gz") as tar:
-    #        tar.extractall()
-    #    print("Done.")
-    #else:
-    #    print("Already downloaded and extracted Europarl-ST")
+    # Extract if not already extracted
+    if not os.path.exists(extract_dir):
+        print("Extracting...")
+        with tarfile.open(filename, "r:gz") as tar:
+            tar.extractall()
+        print("Done.")
+    else:
+        print("Already downloaded and extracted Europarl-ST")
 
     extract_dir = Path("/scratch/translectures/data/Europarl-ST/RELEASES/v1.1/")
     for src in langs:

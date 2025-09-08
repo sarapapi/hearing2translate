@@ -1,69 +1,21 @@
 # ACL-6060
 
-## Overview
-This tool generates both short- and long-form manifests for the **ACL-6060** dataset by combining:
+The short- and long- form of the dataset are obtained independently from a different source:
 
 - **Hugging Face dataset**: [`ymoslem/acl-6060`](https://huggingface.co/datasets/ymoslem/acl-6060) (split: `eval`)  
-  Provides segmented audio, transcripts, and translations.  
-- **Manually downloaded files**: [GitHub release](https://github.com/sarapapi/hearing2translate/releases/tag/data-share-acl6060)  
-  `manifests/acl6060/long/<lang>.xml` defines document boundaries and long-form transcripts.
+  
+- **Manually downloaded**: [ACL Anthology](https://aclanthology.org/2023.iwslt-1.2)  
+  `manifests/acl6060/long/<lang>.xml`
+  
+--
 
----
+## What to do
+1. Set `H2T_DATADIR` and run the script.
+```
+python manifests/acl6060/generate.py
+```
 
-## Pipeline
-1. **Build mapping**  
-   Parse `long/en.xml` to build a `seg_id → doc_id` mapping.  
-   - Note: `seg_id` in XML corresponds to `sample_id - 1` in the HF dataset.
+2. Download additional long-form audio files from [GitHub release](https://github.com/sarapapi/hearing2translate/releases/tag/data-share-acl6060), and place them under `$H2T_DATADIR/manifests/acl/en`.
 
-2. **Short-form records**  
-   - Iterate through the HF dataset.  
-   - Save each utterance as:  
-     ```
-     {H2T_DATADIR}/acl6060/audio/en/{sample_id}.wav
-     ```  
-   - Write one JSONL line per target language (`context = "short"`) to:  
-     ```
-     manifests/acl6060/en-<lang>.jsonl
-     ```
 
-3. **Long-form records**  
-   - Assign one global long-form `sample_id` per `doc_id` (shared across all languages).  
-   - For each language:  
-     - Parse `<lang>.xml`.  
-     - Concatenate segment texts per `docid` with `"\n"`.  
-     - Append one JSONL line (`context = "long"`) to `en-<lang>.jsonl`.
-   - A mapping file links each `doc_id` to its assigned long-form `sample_id` and the corresponding long audio filename.  
-   
-       ```
-        2022.acl-long.111	sample_id=416	file=2022.acl-long.111.wav
-        2022.acl-long.410	sample_id=417	file=2022.acl-long.410.wav
-        2022.acl-long.468	sample_id=418	file=2022.acl-long.468.wav
-        2022.acl-long.567	sample_id=419	file=2022.acl-long.567.wav
-        2022.acl-long.597	sample_id=420	file=2022.acl-long.597.wav
-       ```
-
-   > **Note:** Long-form audio files must be manually downloaded from the [GitHub release](https://github.com/sarapapi/hearing2translate/releases/tag/data-share-acl6060).  
-   >
-   > Place them manually under:  
-   > ```H2T_DATADIR/acl6060/audio/en/```
-
----
-
-## Outputs
-- **Short-form manifests**  
-  - `manifests/acl6060/en/en-de.jsonl`  
-  - `manifests/acl6060/en/en-fr.jsonl`  
-  - `manifests/acl6060/en/en-pt.jsonl`  
-  - `manifests/acl6060/en/en-zh.jsonl`
-
-- **Long-form manifests**  
-  - Appended at the end of each JSONL file.
-
----
-
-## Environment
-- Required environment variable: `H2T_DATADIR`  
-- Install dependencies:  
-  ```bash
-  pip install "datasets[audio]<4.0" soundfile
-  ```
+3. Run inference of your model.

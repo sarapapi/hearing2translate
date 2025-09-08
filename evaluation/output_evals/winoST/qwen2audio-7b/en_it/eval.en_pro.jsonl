@@ -1,0 +1,1 @@
+{"lang": "it", "trans_fn": "qwen2audio-7b_en_pro", "acc": 60.5, "f1_male": 72.4, "f1_female": 40.6, "del_g": 32, "unk_male": 33, "unk_female": 52, "unk_neutral": 0}

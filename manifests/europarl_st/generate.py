@@ -18,6 +18,7 @@ import tarfile
 import urllib.request
 import csv
 from tqdm import tqdm
+import argparse
 
 import librosa
 from pydub import AudioSegment
@@ -57,19 +58,19 @@ def generate_europarl_st():
     extract_dir = dataset_path / Path("europarl-st-v1.1")
 
     # Download if not already present
-    if not filename.exists() and not extract_dir.exists():
-        print("Downloading...")
-        with TqdmUpTo(unit = 'B', unit_scale = True, unit_divisor = 1024, miniters = 1, desc = str(filename)) as t:
-            urllib.request.urlretrieve(url, filename, reporthook= t.update_to)
+    #if not filename.exists() and not extract_dir.exists():
+    #    print("Downloading...")
+    #    with TqdmUpTo(unit = 'B', unit_scale = True, unit_divisor = 1024, miniters = 1, desc = str(filename)) as t:
+    #        urllib.request.urlretrieve(url, filename, reporthook= t.update_to)
 
-    # Extract if not already extracted
-    if not os.path.exists(extract_dir):
-        print("Extracting...")
-        with tarfile.open(filename, "r:gz") as tar:
-            tar.extractall()
-        print("Done.")
-    else:
-        print("Already downloaded and extracted Europarl-ST")
+    ## Extract if not already extracted
+    #if not os.path.exists(extract_dir):
+    #    print("Extracting...")
+    #    with tarfile.open(filename, "r:gz") as tar:
+    #        tar.extractall()
+    #    print("Done.")
+    #else:
+    #    print("Already downloaded and extracted Europarl-ST")
 
     extract_dir = Path("/scratch/translectures/data/Europarl-ST/RELEASES/v1.1/")
     for src in langs:
@@ -94,8 +95,8 @@ def generate_europarl_st():
                 with jsonlines.open(dataset_path/f"{src}-{tgt}.jsonl", mode="w") as writer:
                     samples = []
                     for i, (doc, src_ref, tgt_ref) in enumerate(zip(file_list, df_full_src, df_full_tgt, strict=True)):
-                        sample_path = (Path(__file__).parent / "audio" / src / doc).with_suffix(".m4a")
-                        sample_path_json = (Path(dataset_id) / "audio" / src / doc).with_suffix(".wav")
+                        #sample_path = (Path(__file__).parent / "audio" / src / doc).with_suffix(".wav")
+                        sample_path_json = Path(dataset_id) / "audio" / src / f"{doc}.wav"
 
                         samples.append(
                                 asdict(InputJson(
@@ -109,15 +110,24 @@ def generate_europarl_st():
                                     benchmark_metadata={"context" : "long", "doc_id" : doc, "dataset_type" : DatasetType.LONGFORM }
                                 ))
                                 )
-                        if not sample_path.is_file():
-                            sample_path.symlink_to( audios.absolute() / f"{doc}.m4a")
+                        #if not sample_path.is_file():
+                        #    sample_path.symlink_to( audios.absolute() / f"{doc}.m4a")
                     writer.write_all(samples)
-                #for f, document_tgt_text in tqdm(df_full_tgt.items()):
-                #    #save long-form compressed
-                #    audio = AudioSegment.from_file(f)
-                #    audio = audio.set_frame_rate(16000)
-                #    audio = audio.set_channels(1)
-                #    audio.export(f"{str(save)}/{f.stem}.wav", format="wav")
+
+            print("Tranforming m4a to wav files...")
+            #for f, _ in tqdm(df_full_tgt.items()):
+            for wav_f in tqdm(file_list):
+                #Using pydub to read m4a
+                audio_path = dataset_path / "audio" / src / f"{wav_f}.wav"
+                if audio_path.is_file():
+                    continue
+                audio = AudioSegment.from_file(audios.absolute() / f"{wav_f}.m4a")
+                audio = audio.set_frame_rate(16000)
+                audio = audio.set_channels(1)
+                audio.export(audio_path, format="wav")
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--skip-download')
+    args = parser.parse_args()
     generate_europarl_st()

@@ -11,7 +11,7 @@ Can be used for both as short form (sentence level) and long form (document/inte
 No aditional dependencies are needed
 
 # Description
-The `generate.py` script downloads and prepares the dataset from the original upluad for the langs supported by this repo. It needs to download the whole dataset, including training, which is around 20 GBs
+The `generate.py` script downloads and prepares the dataset from the original upluad for the langs supported by this repo. It needs to download the whole dataset, including training, which is around 20 GBs. Data is resampled to 16Hz and changed into .wav for easier processing of later models.
 
 
 ```bash

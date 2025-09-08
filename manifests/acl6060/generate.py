@@ -133,7 +133,7 @@ def load_long_audio_mapping(path: Path) -> Dict[str, str]:
     return mapping
 
 def mapping_doc_id(en_docs, manifest_dir):
-    user_mapping_path = Path(ROOT_DIR) / "manifests" / "acl6060" / "long_audio_mapping.txt"
+    user_mapping_path = Path(manifest_dir) / "long_audio_mapping.txt"
     existing_map = load_long_audio_mapping(user_mapping_path)
 
     # docid_to_sampleid and docid_to_filename (actual file used, eg "416.wav")

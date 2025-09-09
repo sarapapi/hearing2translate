@@ -1,5 +1,4 @@
 import numpy as np
-from metrics.bleurt.metric import BLEURT
 from metrics.comet.metric import BaseCOMET
 from metrics.comet_kiwi.metric import COMETKiwi
 from metrics.xcomet.metric import XCOMET, XCOMET_QE
@@ -10,8 +9,6 @@ import fasttext
 
 from dataclasses import dataclass, asdict
 from typing import List, Dict, Any, Optional
-
-BLEURT_CK_NAME='lucadiliello/BLEURT-20-D12'
 
 # note that downloading Comet models requires HF token and gated access
 COMET_CK_NAME='Unbabel/wmt22-comet-da'
@@ -145,17 +142,6 @@ class Evaluator:
     # Metric Evaluation Functions
     # --------------------------------------------------------------------------
 
-    def evaluate_bleurt(self):
-        """Evaluates the outputs using BLEURT."""
-        self.bleurt = BLEURT(BLEURT_CK_NAME)
-        batch_size = 8
-
-        targets = [ item.tgt_ref for item in self.data]
-        translations = [item.output for item in self.data]
-
-        bleurt_result = self.bleurt.evaluate(translations, targets, batch_size)
-        return bleurt_result["system_score"], bleurt_result['segments_scores']
-
     def evaluate_comet(self):
         """Evaluates the outputs using BaseCOMET."""
         self.comet = BaseCOMET(COMET_CK_NAME)
@@ -166,7 +152,7 @@ class Evaluator:
         translations = [item.output for item in self.data]
 
         comet_result = self.comet.evaluate(translations, targets, sources, batch_size )
-        return comet_result["system_score"], comet_result["segments_scores"]
+        return round(comet_result["system_score"], 4), comet_result["segments_scores"]
 
     def evaluate_comet_kiwi(self):
         """Evaluates the outputs using COMETKiwi (QE metric)."""
@@ -177,7 +163,7 @@ class Evaluator:
         translations = [item.output for item in self.data]
 
         comet_kiwi_result = self.comet_kiwi.evaluate(translations, sources, batch_size)
-        return comet_kiwi_result["system_score"], comet_kiwi_result["segments_scores"]
+        return round(comet_kiwi_result["system_score"], 4), comet_kiwi_result["segments_scores"]
 
 
     def evaluate_xcomet(self):
@@ -190,7 +176,7 @@ class Evaluator:
         translations = [item.output for item in self.data]
 
         xcomet_result = self.xcomet.evaluate(translations, targets, sources, batch_size)
-        return xcomet_result["system_score"], xcomet_result["segments_scores"]
+        return round(xcomet_result["system_score"], 4), xcomet_result["segments_scores"]
 
 
     def evaluate_xcomet_qe(self):
@@ -202,7 +188,7 @@ class Evaluator:
         translations = [item.output for item in self.data]
 
         xcomet_qe_result = self.xcomet_qe.evaluate(translations, [], sources, batch_size)
-        return xcomet_qe_result["system_score"], xcomet_qe_result["segments_scores"]
+        return round(xcomet_qe_result["system_score"], 4), xcomet_qe_result["segments_scores"]
 
 
     def evaluate_ref_metricx(self):
@@ -217,7 +203,7 @@ class Evaluator:
         ref_metricx_result = self.ref_metricx.evaluate(
             hypotheses=translations, references=targets, sources=sources
         )
-        return ref_metricx_result["system_score"], ref_metricx_result["segments_scores"]
+        return round(ref_metricx_result["system_score"], 4), ref_metricx_result["segments_scores"]
 
 
     def evaluate_qe_metricx(self):
@@ -231,7 +217,7 @@ class Evaluator:
         qe_metricx_result = self.qe_metricx.evaluate(
             hypotheses=translations, sources=sources, references=[]
         )
-        return qe_metricx_result["system_score"], qe_metricx_result["segments_scores"]
+        return round(qe_metricx_result["system_score"], 4), qe_metricx_result["segments_scores"]
 
     
     def evaluate_sacrebleu(self):
@@ -240,7 +226,7 @@ class Evaluator:
         hypotheses = [item.output for item in self.data]
         references = [item.tgt_ref for item in self.data]
 
-        tgt_language = self.data[0]['tgt_lang']
+        tgt_language = self.data[0].tgt_lang
 
         if tgt_language == 'zh': # if chinese, we use chinese tokenizer
             corpus_score = sacrebleu.corpus_bleu(hypotheses, [references], tokenize='zh').score
@@ -261,7 +247,7 @@ class Evaluator:
                 for hyp, ref in zip(hypotheses, references)
             ]
 
-        return corpus_score, segment_scores
+        return round(corpus_score, 4), segment_scores
 
     def evaluate_chrf(self):
         """Evaluates the outputs using sacrebleu's chrF."""
@@ -278,7 +264,7 @@ class Evaluator:
             for hyp, ref in zip(hypotheses, references)
         ]
 
-        return corpus_score, segment_scores
+        return round(corpus_score, 4), segment_scores
 
     def evaluate_off_target_translations(self):
         """
@@ -293,7 +279,7 @@ class Evaluator:
 
         glotlid_model = fasttext.load_model(GlotLID_PATH)
 
-        translations = [item.output for item in self.data]
+        translations = [item.output.replace('\n', '') for item in self.data]
         target_langs = [item.tgt_lang for item in self.data]
 
         if not translations:
@@ -315,7 +301,7 @@ class Evaluator:
         total_samples = len(translations)
         system_score = (off_target_count / total_samples) * 100 if total_samples > 0 else 0.0
 
-        return system_score, segment_scores
+        return round(system_score,4), segment_scores
 
     def evaluate_blaser(self):
         # TO DO
@@ -344,7 +330,6 @@ class Evaluator:
         metric_mapping = {
             'bleu': (self.evaluate_sacrebleu, "SacreBLEU"),
             'chrf': (self.evaluate_chrf, "chrF"),
-            'bleurt': (self.evaluate_bleurt, "BLEURT"),
             'comet': (self.evaluate_comet, "COMET"),
             'comet_kiwi': (self.evaluate_comet_kiwi, "COMET-Kiwi"),
             'xcomet': (self.evaluate_xcomet, "XCOMET"),
@@ -353,7 +338,8 @@ class Evaluator:
             'metricx_qe': (self.evaluate_qe_metricx, "QEMetricX_24"),
             'glotlid': (self.evaluate_off_target_translations, "GlotLID")
         }
-
+        
+        system_scores = {}
         for metric_key, should_compute in metrics_to_compute.items():
             if should_compute:
                 if metric_key in metric_mapping:
@@ -361,7 +347,7 @@ class Evaluator:
                     print(f"Running {metric_name} evaluation...")
                     try:
                         system_score, segment_scores = eval_function()
-
+                        system_scores[metric_name] = system_score
                         # Add the segment-level score for the current metric
                         # to each sample's dictionary in the results list.
                         for i, score in enumerate(segment_scores):
@@ -373,4 +359,4 @@ class Evaluator:
                 else:
                     print(f"Warning: Metric '{metric_key}' is requested but no evaluation function is mapped.")
 
-        return results_per_sample
+        return results_per_sample, system_scores

@@ -19,6 +19,7 @@ MODEL_MODULES = {
     "canary-v2": "inference.sfm.canaryv2",
     "whisper": "inference.sfm.whisper",
     "seamlessm4t": "inference.sfm.seamlessm4t",
+    "owsm4.0-ctc" : "inference.sfm.owsm",
 
     # speechllms
     "desta2-8b": "inference.speechllm.desta2",

@@ -76,7 +76,7 @@ Data for three of the source langauges (it, pt, and zh) could be obtained from H
 
 Once this is done:
 
-Define the path where commonAccent will be stored:
+Define the path where covost2 will be stored:
 
 ```bash
 export H2T_DATADIR=""
@@ -114,7 +114,7 @@ cat covost_es.zip.part-* > covost_es.zip
 unzip covost_es.zip
 ```
 
-You can then move the langauge specific audio dir to the expected dir for inference ()`${H2T_DATADIR}/covost2/audio/`) and proceed with inference. 
+You can then move the langauge specific audio dir to the expected dir for inference (`${H2T_DATADIR}/covost2/audio/`) and proceed with inference. 
 
 ## Expected Output
 

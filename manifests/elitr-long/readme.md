@@ -60,6 +60,7 @@ python manifests/elitr/generate.py
 ## Expected Output
 The process generates 48 audio files and 7 En-to-X manifest files. Target translations are provided for German.
 
+```
 .
 ├── elitr-long
 │   └── audio/
@@ -74,7 +75,7 @@ The process generates 48 audio files and 7 En-to-X manifest files. Target transl
 │       ├── en-fr.jsonl
 │       ├── ...
 
-
+```
 
 ## License
 CC BY

@@ -45,6 +45,7 @@ export H2T_DATADIR='/path/to/data'
 ## Expected Output
 The process produces 5 audio files and 7 En-to-X manifest files. Target translations are available for German, French, Portuguese, and Chinese.
 
+```
 .
 ├── acl6060-long
 │   └── audio/
@@ -59,7 +60,7 @@ The process produces 5 audio files and 7 En-to-X manifest files. Target translat
 │       ├── en-fr.jsonl
 │       ├── ...
 
-
+```
 
 ## License
 CC BY 4.0

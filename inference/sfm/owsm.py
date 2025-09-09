@@ -43,5 +43,4 @@ def generate(model, sample):
         batch_size=batch_size,
         context_len_in_secs=context_len_in_secs,
     )
-    print(text)
     return text

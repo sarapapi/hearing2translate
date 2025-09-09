@@ -10,7 +10,7 @@ CUR_DIR = Path(__file__).resolve().parent
 TOOLS_DIR = (CUR_DIR.parent / "acl6060-short").resolve()
 sys.path.append(str(TOOLS_DIR))
 
-from tools import build_talkid_to_allsegs  # -> {doc_id: "seg1 seg2 ..."}
+from tools import build_talkid_to_allsegs, create_empty_tgt_ref
 
 # -------------------- Config --------------------
 ROOT_DIR = os.environ.get("H2T_DATADIR")
@@ -128,7 +128,13 @@ def main() -> None:
         print(f"[INFO] Wrote {len(records)} records → {out_jsonl}")
 
     print("[INFO] Finished long-form manifests.")
+    
+    ende_jsonl = MANIFEST_DIR / "en-de.jsonl"
+    create_empty_tgt_ref(ende_jsonl, TGT_LANGS)
+    
 
 
 if __name__ == "__main__":
     main()
+    
+    

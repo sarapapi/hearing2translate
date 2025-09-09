@@ -9,7 +9,7 @@ from typing import Dict, List, Tuple
 import soundfile as sf
 from datasets import load_dataset, Audio
 
-from tools import build_segtext_to_talkid  # { seg_text: talkid }
+from tools import build_segtext_to_talkid, create_empty_tgt_ref
 
 
 # -------------------- Config --------------------
@@ -34,10 +34,10 @@ def get_data_dirs() -> Tuple[Path, Path, Path]:
     root = Path(root_dir).resolve()
 
     audio_out_dir = root / SUB_DIR / "audio" / SRC_LANG
-    manifest_dir  = Path("manifests") / SUB_DIR
+    MANIFEST_DIR  = Path("manifests") / SUB_DIR
     audio_out_dir.mkdir(parents=True, exist_ok=True)
-    manifest_dir.mkdir(parents=True, exist_ok=True)
-    return root, audio_out_dir, manifest_dir
+    MANIFEST_DIR.mkdir(parents=True, exist_ok=True)
+    return root, audio_out_dir, MANIFEST_DIR
 
 
 def norm_seg_key(s: str) -> str:
@@ -67,9 +67,9 @@ def write_jsonl(records: List[dict], path: Path) -> None:
 # -------------------- Main --------------------
 def main() -> None:
     # Dirs
-    _, audio_out_dir, manifest_dir = get_data_dirs()
+    _, audio_out_dir, MANIFEST_DIR = get_data_dirs()
     log.info("Audio out:     %s", audio_out_dir)
-    log.info("Manifests dir: %s", manifest_dir)
+    log.info("Manifests dir: %s", MANIFEST_DIR)
 
     # HF dataset (decoded audio)
     log.info("Loading dataset ymoslem/acl-6060 split=%s ...", SPLIT)
@@ -130,7 +130,7 @@ def main() -> None:
 
     #Write JSONL
     for lang, recs in out_buffers.items():
-        out_path = manifest_dir / f"en-{lang}.jsonl"
+        out_path = MANIFEST_DIR / f"en-{lang}.jsonl"
         write_jsonl(recs, out_path)
         log.info("Wrote %d records → %s", len(recs), out_path)
 
@@ -139,6 +139,10 @@ def main() -> None:
 
     log.info("Finished short records.")
 
+    # create empty tgt_ref files
+    ende_jsonl = MANIFEST_DIR / "en-de.jsonl"
+    create_empty_tgt_ref(ende_jsonl, TGT_LANGS)
+    
 
 if __name__ == "__main__":
     main()

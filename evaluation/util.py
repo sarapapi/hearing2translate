@@ -3,19 +3,33 @@ from metrics.bleurt.metric import BLEURT
 from metrics.comet.metric import BaseCOMET
 from metrics.comet_kiwi.metric import COMETKiwi
 from metrics.xcomet.metric import XCOMET, XCOMET_QE
-from metrics.metricx.metric import RefMetricX, QEMetricX
+from metrics.metricx.metric import RefMetricX_24, QEMetricX_24
 import sacrebleu
-import random
 import json
+import fasttext
 
 from dataclasses import dataclass, asdict
 from typing import List, Dict, Any, Optional
 
-BLEURT_CK_NAME=''
-COMET_CK_NAME=''
+BLEURT_CK_NAME='lucadiliello/BLEURT-20-D12'
+
+# note that downloading Comet models requires HF token and gated access
+COMET_CK_NAME='Unbabel/wmt22-comet-da'
 COMET_KIWI_CK_NAME='Unbabel/wmt22-cometkiwi-da'
-XCOMET_CK_NAME=''
-METRICX_CK_NAME=''
+XCOMET_CK_NAME='Unbabel/XCOMET-XL' #Unbabel/XCOMET-XL
+
+METRICX_CK_NAME='google/metricx-24-hybrid-large-v2p6'
+METRICX_TOKENIZER='google/mt5-xl'
+
+# we need to downlad the fasttext model
+GlotLID_PATH=''
+
+
+MAPPING_TO_FASTTEXT_LABEL = {
+    'it': 'ita_Latn', 'es':'spa_Latn', 'de':'deu_Latn', 'zh':'cmn', 
+    'pt': 'por_Latn', 'en':'eng_Latn', 'fr':'fra_Latn', 'nl': 'nld_Latn'
+}
+
 
 @dataclass
 class InputJson:
@@ -136,7 +150,7 @@ class Evaluator:
         self.bleurt = BLEURT(BLEURT_CK_NAME)
         batch_size = 8
 
-        targets = [[item.tgt_ref] for item in self.data]
+        targets = [ item.tgt_ref for item in self.data]
         translations = [item.output for item in self.data]
 
         bleurt_result = self.bleurt.evaluate(translations, targets, batch_size)
@@ -147,8 +161,8 @@ class Evaluator:
         self.comet = BaseCOMET(COMET_CK_NAME)
         batch_size = 8
 
-        sources = [[item.src_ref] for item in self.data]
-        targets = [[item.tgt_ref] for item in self.data]
+        sources = [ item.src_ref for item in self.data]
+        targets = [ item.tgt_ref for item in self.data]
         translations = [item.output for item in self.data]
 
         comet_result = self.comet.evaluate(translations, targets, sources, batch_size )
@@ -172,7 +186,7 @@ class Evaluator:
         batch_size = 8
 
         sources = [item.src_ref for item in self.data]
-        targets = [[item.tgt_ref] for item in self.data]
+        targets = [ item.tgt_ref for item in self.data]
         translations = [item.output for item in self.data]
 
         xcomet_result = self.xcomet.evaluate(translations, targets, sources, batch_size)
@@ -192,30 +206,30 @@ class Evaluator:
 
 
     def evaluate_ref_metricx(self):
-        """Evaluates the outputs using RefMetricX."""
-        self.ref_metricx = RefMetricX(METRICX_CK_NAME)
+        """Evaluates the outputs using RefMetricX_24."""
+        self.ref_metricx = RefMetricX_24(METRICX_TOKENIZER, METRICX_CK_NAME)
         batch_size = 8
 
         sources = [item.src_ref for item in self.data]
-        targets = [[item.tgt_ref] for item in self.data]
+        targets = [item.tgt_ref for item in self.data]
         translations = [item.output for item in self.data]
 
         ref_metricx_result = self.ref_metricx.evaluate(
-            translations=translations, references=targets, sources=sources, batch_size=batch_size
+            hypotheses=translations, references=targets, sources=sources
         )
         return ref_metricx_result["system_score"], ref_metricx_result["segments_scores"]
 
 
     def evaluate_qe_metricx(self):
-        """Evaluates the outputs using QEMetricX (QE metric)."""
-        self.qe_metricx = QEMetricX(METRICX_CK_NAME)
+        """Evaluates the outputs using QEMetricX_24 (QE metric)."""
+        self.qe_metricx = QEMetricX_24(METRICX_TOKENIZER, METRICX_CK_NAME)
         batch_size = 8
 
         sources = [item.src_ref for item in self.data]
         translations = [item.output for item in self.data]
 
         qe_metricx_result = self.qe_metricx.evaluate(
-            translations=translations, sources=sources, batch_size=batch_size
+            hypotheses=translations, sources=sources, references=[]
         )
         return qe_metricx_result["system_score"], qe_metricx_result["segments_scores"]
 
@@ -224,7 +238,7 @@ class Evaluator:
         """Evaluates the outputs using sacrebleu."""
         
         hypotheses = [item.output for item in self.data]
-        references = [[item.tgt_ref] for item in self.data]
+        references = [item.tgt_ref for item in self.data]
 
         tgt_language = self.data[0]['tgt_lang']
 
@@ -233,7 +247,7 @@ class Evaluator:
 
             # Calculate segment-level BLEU scores
             segment_scores = [
-                sacrebleu.sentence_bleu(hyp, ref, tokenize='zh').score
+                sacrebleu.corpus_bleu( [hyp], [[ref]], tokenize='zh' ).score
                 for hyp, ref in zip(hypotheses, references)
             ]
 
@@ -243,15 +257,65 @@ class Evaluator:
 
             # Calculate segment-level BLEU scores
             segment_scores = [
-                sacrebleu.sentence_bleu(hyp, ref).score
+                sacrebleu.corpus_bleu( [hyp], [[ref]] ).score
                 for hyp, ref in zip(hypotheses, references)
             ]
 
         return corpus_score, segment_scores
 
+    def evaluate_chrf(self):
+        """Evaluates the outputs using sacrebleu's chrF."""
+        
+        hypotheses = [item.output for item in self.data]
+        references = [item.tgt_ref for item in self.data]
+
+        # Calculate corpus-level chrF score. The .score attribute is used to get the float value.
+        corpus_score = sacrebleu.corpus_chrf(hypotheses, [references]).score
+
+        # Calculate segment-level chrF scores
+        segment_scores = [
+            sacrebleu.corpus_chrf( [hyp], [[ref]] ).score
+            for hyp, ref in zip(hypotheses, references)
+        ]
+
+        return corpus_score, segment_scores
+
     def evaluate_off_target_translations(self):
-        # TO DO
-        pass
+        """
+        Evaluates off-target translations using GlotLID.
+        An output is considered off-target if the predicted language
+        does not match the expected target language.
+
+        Returns:
+            A tuple containing the system-level off-target rate (in %) and
+            a list of segment-level scores (1 for off-target, 0 for on-target).
+        """
+
+        glotlid_model = fasttext.load_model(GlotLID_PATH)
+
+        translations = [item.output for item in self.data]
+        target_langs = [item.tgt_lang for item in self.data]
+
+        if not translations:
+            return 0.0, []
+
+        predictions = [glotlid_model.predict(tr) for tr in translations]
+        predicted_langs = [pred[0][0] for pred in predictions]
+
+        off_target_count = 0
+        segment_scores = []
+        for i in range(len(translations)):
+            # Check if the predicted language matches the expected target language
+            is_off_target = 1 if MAPPING_TO_FASTTEXT_LABEL[target_langs[i]] not in predicted_langs[i] else 0
+            segment_scores.append( (is_off_target, predicted_langs[i].replace('__label__', '') ) )
+            if is_off_target:
+                off_target_count += 1
+        
+        # Calculate the overall off-target rate as a percentage
+        total_samples = len(translations)
+        system_score = (off_target_count / total_samples) * 100 if total_samples > 0 else 0.0
+
+        return system_score, segment_scores
 
     def evaluate_blaser(self):
         # TO DO
@@ -279,13 +343,15 @@ class Evaluator:
         # Mapping from metric key to its evaluation function and a user-friendly name
         metric_mapping = {
             'bleu': (self.evaluate_sacrebleu, "SacreBLEU"),
+            'chrf': (self.evaluate_chrf, "chrF"),
             'bleurt': (self.evaluate_bleurt, "BLEURT"),
             'comet': (self.evaluate_comet, "COMET"),
             'comet_kiwi': (self.evaluate_comet_kiwi, "COMET-Kiwi"),
             'xcomet': (self.evaluate_xcomet, "XCOMET"),
             'xcomet_qe': (self.evaluate_xcomet_qe, "XCOMET-QE"),
-            'metricx': (self.evaluate_ref_metricx, "RefMetricX"),
-            'metricx_qe': (self.evaluate_qe_metricx, "QEMetricX"),
+            'metricx': (self.evaluate_ref_metricx, "RefMetricX_24"),
+            'metricx_qe': (self.evaluate_qe_metricx, "QEMetricX_24"),
+            'glotlid': (self.evaluate_off_target_translations, "GlotLID")
         }
 
         for metric_key, should_compute in metrics_to_compute.items():

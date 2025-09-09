@@ -69,4 +69,4 @@ If your generate.py script writes manifests,, you should get JSONL files for the
 
 ## License
 
-The license is not specified
+For non-commercial use under a CC BY-NC 3.0 license.

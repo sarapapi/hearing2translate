@@ -20,7 +20,7 @@ def create_empty_tgt_ref(ende_jsonl: Path, tgt_langs: list):
     with ende_jsonl.open("r", encoding="utf-8") as jf:
         records = [json.loads(line) for line in jf if line.strip()]
 
-    all_tgt_langs = ["de", "fr", "pt", "it", "nl", "zh"]
+    all_tgt_langs = ["de", "fr", "pt", "it", "nl", "zh", "es"]
 
     for lang in all_tgt_langs:
         if lang in tgt_langs:

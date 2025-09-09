@@ -75,6 +75,28 @@ def build_groups_by_key(subdir_path: Path):
         groups[stem_key(p)].append(p)
     return groups
 
+def create_empty_tgt_ref(ende_jsonl: Path, tgt_langs: list):
+    with ende_jsonl.open("r", encoding="utf-8") as jf:
+        records = [json.loads(line) for line in jf if line.strip()]
+
+    all_tgt_langs = ["de", "fr", "pt", "it", "nl", "zh", "es"]
+
+    for lang in all_tgt_langs:
+        if lang in tgt_langs:
+            continue  
+
+        out_name = ende_jsonl.with_name(ende_jsonl.name.replace("en-de", f"en-{lang}"))
+        out_name.parent.mkdir(parents=True, exist_ok=True)
+
+        with out_name.open("w", encoding="utf-8") as f:
+            for rec in records:
+                rec_out = dict(rec)
+                rec_out["tgt_lang"] = lang
+                rec_out["tgt_ref"] = "" 
+                f.write(json.dumps(rec_out, ensure_ascii=False) + "\n")
+
+        print(f"[INFO] Wrote {len(records)} records → {out_name}")
+
 # -------------------- main process --------------------
 def main():
     print(f"Starting ELITR dataset processing for {SRC_LANG} -> {TGT_LANG} ...")
@@ -169,25 +191,9 @@ def main():
     print(f"\nDataset processing finished. Records written: {records_written}")
     print(f"JSONL: {JSONL_PATH}")
     print(f"WAV out: {WAV_OUT_DIR}")
+    
+    create_empty_tgt_ref(JSONL_PATH, TGT_LANG)
 
     
 if __name__ == "__main__":
     main()
-
-    # Create empty tgt_ref manifests
-    records = []
-    with JSONL_PATH.open("r", encoding="utf-8") as jf:
-        records = [json.loads(line) for line in jf if line.strip()]
-
-    tgt_langs = ["fr", "pt", "it", "nl", "zh"]
-
-    for lang in tgt_langs:
-        out_name = JSONL_PATH.with_name(JSONL_PATH.name.replace("en-de", f"en-{lang}"))
-        out_name.parent.mkdir(parents=True, exist_ok=True)
-
-        with out_name.open("w", encoding="utf-8") as f:
-            for rec in records:
-                rec_out = dict(rec) 
-                rec_out["tgt_lang"] = lang
-                rec_out["tgt_ref"] = "" 
-                f.write(json.dumps(rec_out, ensure_ascii=False) + "\n")

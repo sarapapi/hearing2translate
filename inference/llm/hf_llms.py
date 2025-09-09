@@ -1,6 +1,11 @@
 from transformers.models.auto.modeling_auto import AutoModelForCausalLM
 from transformers.models.auto.tokenization_auto import AutoTokenizer
 from transformers.generation.configuration_utils import GenerationConfig
+from transformers.trainer_utils import set_seed
+import torch
+
+# Set seed for reproducible generation
+set_seed(42)
 
 
 def load_model(model_name):
@@ -61,4 +66,4 @@ def generate(model_tokenizer_config, model_input):
         generate_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False
     )[0]
     
-    return translation
+    return translation.strip()  # Clean whitespace

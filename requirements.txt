@@ -6,4 +6,5 @@ tqdm
 librosa
 torch
 backoff
-datasets[audio]<4.0  # for acl6060
+datasets==3.6
+pydub

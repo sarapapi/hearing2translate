@@ -19,7 +19,7 @@ TGT_LANG = "de"
 WAV_OUT_DIR = ROOT_DIR / "elitr" / "audio" / SRC_LANG
 WAV_OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-JSONL_PATH = Path("manifests") / "elitr" / f"{SRC_LANG}-{TGT_LANG}.jsonl"
+JSONL_PATH = Path("manifests") / "elitr-long" / f"{SRC_LANG}-{TGT_LANG}.jsonl"
 JSONL_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 # -------------------- excluded directory --------------------
@@ -170,5 +170,24 @@ def main():
     print(f"JSONL: {JSONL_PATH}")
     print(f"WAV out: {WAV_OUT_DIR}")
 
+    
 if __name__ == "__main__":
     main()
+
+    # Create empty tgt_ref manifests
+    records = []
+    with JSONL_PATH.open("r", encoding="utf-8") as jf:
+        records = [json.loads(line) for line in jf if line.strip()]
+
+    tgt_langs = ["fr", "pt", "it", "nl", "zh"]
+
+    for lang in tgt_langs:
+        out_name = JSONL_PATH.with_name(JSONL_PATH.name.replace("en-de", f"en-{lang}"))
+        out_name.parent.mkdir(parents=True, exist_ok=True)
+
+        with out_name.open("w", encoding="utf-8") as f:
+            for rec in records:
+                rec_out = dict(rec) 
+                rec_out["tgt_lang"] = lang
+                rec_out["tgt_ref"] = "" 
+                f.write(json.dumps(rec_out, ensure_ascii=False) + "\n")

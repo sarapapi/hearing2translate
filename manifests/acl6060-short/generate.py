@@ -46,10 +46,6 @@ def norm_seg_key(s: str) -> str:
 
 
 def build_segtext_index() -> Dict[str, str]:
-    """
-    tools.build_segtext_to_talkid() 결과(원문 키)를
-    정규화 키로 재매핑해서 조회 안정성 확보.
-    """
     mapping_raw = build_segtext_to_talkid()  # {seg_text_raw: talkid}
     idx: Dict[str, str] = {}
     for seg_raw, talkid in mapping_raw.items():

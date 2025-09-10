@@ -21,6 +21,14 @@ The corpus was collected remotely using participant-controlled smartphone record
 
 ## Instructions
 
+**To get the files in this manifest**
+
+Download the data from:
+
+```bash
+https://osf.io/fgv4w/files/osfstorage
+```
+
 Define the path where **ManDi** will be stored
 
 ```bash
@@ -32,6 +40,8 @@ Run the Python script to generate the processed data:
 ```bash
 python generate.py
 ```
+
+
 
 ## Expected Output
 

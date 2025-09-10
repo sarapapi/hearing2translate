@@ -21,7 +21,7 @@ The corpus was collected remotely using participant-controlled smartphone record
 
 ## Instructions
 
-**To get the files in this manifest**
+**To get the Audio for manifest**
 
 Download the data from:
 
@@ -38,7 +38,7 @@ export H2T_DATADIR=""
 Run the Python script to generate the processed data:
 
 ```bash
-python generate.py
+python generate.py --in_dir="<PATH TO DOWNLOADED OSF DIRECTORY>"
 ```
 
 

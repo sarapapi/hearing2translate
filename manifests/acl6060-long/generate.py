@@ -129,8 +129,8 @@ def main() -> None:
 
     print("[INFO] Finished long-form manifests.")
     
-    ende_jsonl = MANIFEST_DIR / "en-de.jsonl"
-    create_empty_tgt_ref(ende_jsonl, TGT_LANGS)
+    #ende_jsonl = MANIFEST_DIR / "en-de.jsonl"
+    #create_empty_tgt_ref(ende_jsonl, TGT_LANGS)
     
 
 

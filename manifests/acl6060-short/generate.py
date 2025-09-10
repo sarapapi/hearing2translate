@@ -136,8 +136,8 @@ def main() -> None:
     log.info("Finished short records.")
 
     # create empty tgt_ref files
-    ende_jsonl = MANIFEST_DIR / "en-de.jsonl"
-    create_empty_tgt_ref(ende_jsonl, TGT_LANGS)
+    #ende_jsonl = MANIFEST_DIR / "en-de.jsonl"
+    #create_empty_tgt_ref(ende_jsonl, TGT_LANGS)
     
 
 if __name__ == "__main__":

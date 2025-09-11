@@ -9,7 +9,6 @@ import fasttext
 import os
 from lingua import LanguageDetectorBuilder
 import torch
-
 import logging
 from dataclasses import dataclass, asdict
 from typing import List, Dict, Any, Optional
@@ -95,10 +94,10 @@ class Evaluator:
                 for line in f:
                     data.append(json.loads(line.strip()))
         except FileNotFoundError:
-            print(f"Error: File not found at {file_path}")
+            logging.info(f"Error: File not found at {file_path}")
             return []
         except json.JSONDecodeError:
-            print(f"Error: Could not decode JSON in {file_path}")
+            logging.info(f"Error: Could not decode JSON in {file_path}")
             return []
         return data
 
@@ -111,7 +110,7 @@ class Evaluator:
         output_data_raw = self._load_jsonl(self.output_path)
 
         if len(input_data_raw) != len(output_data_raw):
-            print(
+            logging.info(
                 f"Warning: Input file has {len(input_data_raw)} lines, but "
                 f"output file has {len(output_data_raw)} lines. "
                 "Merging will only proceed for the minimum length."
@@ -135,7 +134,7 @@ class Evaluator:
                 )
                 merged_data.append(merged_entry)
             except KeyError as e:
-                print(f"Warning: Missing key {e} in data at line index {i}. Skipping this entry.")
+                logging.info(f"Warning: Missing key {e} in data at line index {i}. Skipping this entry.")
 
         return merged_data
 
@@ -149,25 +148,25 @@ class Evaluator:
 
     def evaluate_comet(self):
         """Evaluates the outputs using BaseCOMET."""
-        self.comet = BaseCOMET(COMET_CK_NAME)
+        comet = BaseCOMET(COMET_CK_NAME)
         batch_size = 8
 
         sources = [ item.src_ref for item in self.data]
         targets = [ item.tgt_ref for item in self.data]
         translations = [item.output for item in self.data]
 
-        comet_result = self.comet.evaluate(translations, targets, sources, batch_size )
+        comet_result = comet.evaluate(translations, targets, sources, batch_size )
         return round(comet_result["system_score"], 4), comet_result["segments_scores"]
 
     def evaluate_comet_kiwi(self):
         """Evaluates the outputs using COMETKiwi (QE metric)."""
-        self.comet_kiwi = COMETKiwi(COMET_KIWI_CK_NAME)
+        comet_kiwi = COMETKiwi(COMET_KIWI_CK_NAME)
         batch_size = 8
 
         sources = [item.src_ref for item in self.data]
         translations = [item.output for item in self.data]
 
-        comet_kiwi_result = self.comet_kiwi.evaluate(translations, sources, batch_size)
+        comet_kiwi_result = comet_kiwi.evaluate(translations, sources, batch_size)
         return round(comet_kiwi_result["system_score"], 4), comet_kiwi_result["segments_scores"]
 
 
@@ -209,7 +208,6 @@ class Evaluator:
     def evaluate_ref_metricx(self):
         """Evaluates the outputs using RefMetricX_24."""
         ref_metricx = RefMetricX_24(METRICX_TOKENIZER, METRICX_CK_NAME)
-        batch_size = 1
 
         sources = [item.src_ref for item in self.data]
         targets = [item.tgt_ref for item in self.data]
@@ -218,6 +216,9 @@ class Evaluator:
         ref_metricx_result = ref_metricx.evaluate(
             hypotheses=translations, references=targets, sources=sources
         )
+
+        del ref_metricx
+        torch.cuda.empty_cache()
 
         return round(ref_metricx_result["system_score"], 4), ref_metricx_result["segments_scores"]
 
@@ -232,6 +233,9 @@ class Evaluator:
         qe_metricx_result = qe_metricx.evaluate(
             hypotheses=translations, sources=sources, references=[]
         )
+
+        del qe_metricx
+        torch.cuda.empty_cache()
 
         return round(qe_metricx_result["system_score"], 4), qe_metricx_result["segments_scores"]
 
@@ -358,24 +362,15 @@ class Evaluator:
 
     def run_evaluations(self, metrics_to_compute: Dict[str, bool]) -> List[Dict[str, Any]]:
         """
-        Runs selected evaluation metrics based on the input dictionary and aggregates
-        the results into a list of dictionaries, one for each sample.
+        Runs selected evaluation metrics, including strict scoring for off-target translations.
         """
-        # Initialize a list of dictionaries with base information for each sample.
-        # This will be populated with scores as they are computed.
         results_per_sample = [
-            {
-                "dataset_id": item.dataset_id,
-                "sample_id": item.sample_id,
-                "src_lang": item.src_lang,
-                "tgt_lang": item.tgt_lang,
-                "output": item.output,
-                "metrics": {}
-            }
+            {"dataset_id": item.dataset_id, "sample_id": item.sample_id,
+            "src_lang": item.src_lang, "tgt_lang": item.tgt_lang,
+            "output": item.output, "metrics": {}}
             for item in self.data
         ]
 
-        # Mapping from metric key to its evaluation function and a user-friendly name
         metric_mapping = {
             'bleu': (self.evaluate_sacrebleu, "SacreBLEU"),
             'chrf': (self.evaluate_chrf, "chrF"),
@@ -386,26 +381,54 @@ class Evaluator:
             'metricx': (self.evaluate_ref_metricx, "RefMetricX_24"),
             'metricx_qe': (self.evaluate_qe_metricx, "QEMetricX_24"),
             'glotlid': (self.evaluate_off_target_translations_glotLID, "GlotLID"),
-            'linguapy': (self.evaluate_off_target_translations_linguapy, "linguapy")
+            'linguapy': (self.evaluate_off_target_translations_linguapy, "LinguaPy")
         }
         
+        # --- Run all requested metrics ---
         system_scores = {}
         for metric_key, should_compute in metrics_to_compute.items():
-            if should_compute:
-                if metric_key in metric_mapping:
-                    eval_function, metric_name = metric_mapping[metric_key]
-                    print(f"Running {metric_name} evaluation...")
+            if should_compute and metric_key in metric_mapping:
+                eval_function, metric_name = metric_mapping[metric_key]
+                logging.info(f"Running {metric_name} evaluation...")
 
-                    system_score, segment_scores = eval_function()
-                    system_scores[metric_name] = system_score
-                    # Add the segment-level score for the current metric
-                    # to each sample's dictionary in the results list.
-                    for i, score in enumerate(segment_scores):
-                        results_per_sample[i]["metrics"][f'{metric_key}_score'] = score
-                    
-                    print(f"-> {metric_name} system score: {system_score:.4f}")
+                system_score, segment_scores = eval_function()
+                system_scores[metric_name] = system_score
 
-                else:
-                    print(f"Warning: Metric '{metric_key}' is requested but no evaluation function is mapped.")
+                for i, score in enumerate(segment_scores):
+                    results_per_sample[i]["metrics"][f'{metric_key}_score'] = score
+                
+                logging.info(f"-> {metric_name} system score: {system_score:.4f}")
+
+        # --- Calculate strict scores using a language detector ---
+        logging.info("Calculating strict system scores if applicable...")
+        penalty_by_metric = {
+            'metricx': 25, 'metricx_qe': 25, 
+            'comet': 0, 'comet_kiwi': 0, 
+            'xcomet': 0, 'xcomet_qe': 0
+        }
+
+        preprocess_score = lambda score, off_target, metric: score if off_target == 0 else penalty_by_metric[metric]
+        strict_metrics = penalty_by_metric.keys()
+        
+        for detector in ['linguapy', 'glotlid']:
+            if metrics_to_compute.get(detector, False):
+                logging.info(f"Using {detector} for strict scoring...")
+                # Loop through metrics that need a strict score
+                for metric_key in strict_metrics:
+                    # Check if the metric to be penalized was actually computed
+                    if metrics_to_compute.get(metric_key, False):
+                        _, metric_name = metric_mapping[metric_key]
+                        
+                        strict_scores = [
+                            preprocess_score(
+                                res["metrics"][f'{metric_key}_score'], 
+                                res["metrics"][f'{detector}_score'][0], # The flag is the first element of the tuple
+                                metric_key
+                            ) for res in results_per_sample
+                        ]
+                        
+                        mean_score = round(np.mean(strict_scores), 4)
+                        system_scores[f"{metric_name}-Strict-{detector}"] = mean_score
+                        logging.info(f"-> {metric_name}-Strict-{detector} system score: {mean_score:.4f}")
 
         return results_per_sample, system_scores

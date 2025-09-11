@@ -11,12 +11,12 @@ EVALUATION_MODES: Dict[str, Dict[str, bool]] = {
     'ref_free_only': {
         'bleu': False, 'chrf': False, 'comet': False, 
         'comet_kiwi': False, 'xcomet': False, 'xcomet_qe': True, 
-        'metricx': False, 'metricx_qe': True, 'glotlid': True
+        'metricx': False, 'metricx_qe': True, 'glotlid': False, 'linguapy': True
     },
     'ref_free_and_ref_based': {
         'bleu': True, 'chrf': True, 'comet': False, 
         'comet_kiwi': False, 'xcomet': True, 'xcomet_qe': True, 
-        'metricx': True, 'metricx_qe': True, 'glotlid': True
+        'metricx': True, 'metricx_qe': True, 'glotlid': False, 'linguapy': True
     },
 }
 
@@ -54,7 +54,13 @@ def main():
     parser.add_argument('--manifest-path', type=Path, required=True, help='Path to the manifest file (input data).')
     parser.add_argument('--output-path', type=Path, required=True, help='Path to the file with model predictions.')
     parser.add_argument('--model-name', type=str, required=True, help='Name of the model being evaluated.')
-    parser.add_argument('--eval-type', type=str, required=True,choices=EVALUATION_MODES.keys(),help='Type of evaluation to run.')
+    parser.add_argument(
+        '--eval-type', 
+        type=str, 
+        required=True,
+        choices=EVALUATION_MODES.keys(),
+        help='Type of evaluation to run.'
+    )
     parser.add_argument('--results-file', type=Path, required=True, help='Output file for detailed results (JSONL).')
     parser.add_argument('--summary-file', type=Path, required=True, help='Output file for summary results (JSONL).')
     

@@ -6,27 +6,32 @@ from metrics.metricx.metric import RefMetricX_24, QEMetricX_24
 import sacrebleu
 import json
 import fasttext
+import os
+from lingua import LanguageDetectorBuilder
+import torch
 
+import logging
 from dataclasses import dataclass, asdict
 from typing import List, Dict, Any, Optional
 
 # note that downloading Comet models requires HF token and gated access
-COMET_CK_NAME='Unbabel/wmt22-comet-da'
-COMET_KIWI_CK_NAME='Unbabel/wmt22-cometkiwi-da'
-XCOMET_CK_NAME='Unbabel/XCOMET-XL' #Unbabel/XCOMET-XL
+COMET_CK_NAME=''
+COMET_KIWI_CK_NAME=''
 
-METRICX_CK_NAME='google/metricx-24-hybrid-large-v2p6'
-METRICX_TOKENIZER='google/mt5-xl'
-
-# we need to downlad the fasttext model
-GlotLID_PATH=''
-
+XCOMET_CK_NAME=os.environ.get("XCOMET_CK_NAME")
+METRICX_CK_NAME = os.environ.get("METRICX_CK_NAME")
+METRICX_TOKENIZER = os.environ.get("METRICX_TOKENIZER")
+GlotLID_PATH = os.environ.get("GLOTLID_PATH")
 
 MAPPING_TO_FASTTEXT_LABEL = {
     'it': 'ita_Latn', 'es':'spa_Latn', 'de':'deu_Latn', 'zh':'cmn', 
     'pt': 'por_Latn', 'en':'eng_Latn', 'fr':'fra_Latn', 'nl': 'nld_Latn'
 }
 
+MAPPING_TO_LINGUA_LABEL = {
+    'it': 'ITALIAN', 'es':'SPANISH', 'de':'GERMAN', 'zh':'CHINESE', 
+    'pt': 'PORTUGUESE', 'en':'ENGLISH', 'fr':'FRENCH', 'nl': 'DUTCH'
+}
 
 @dataclass
 class InputJson:
@@ -168,55 +173,66 @@ class Evaluator:
 
     def evaluate_xcomet(self):
         """Evaluates the outputs using XCOMET."""
-        self.xcomet = XCOMET(XCOMET_CK_NAME)
+        xcomet = XCOMET(XCOMET_CK_NAME)
         batch_size = 8
 
         sources = [item.src_ref for item in self.data]
         targets = [ item.tgt_ref for item in self.data]
         translations = [item.output for item in self.data]
 
-        xcomet_result = self.xcomet.evaluate(translations, targets, sources, batch_size)
+        xcomet_result = xcomet.evaluate(translations, targets, sources, batch_size)
+
+        xcomet.model.to('cpu')
+        del xcomet
+        torch.cuda.empty_cache()
+
         return round(xcomet_result["system_score"], 4), xcomet_result["segments_scores"]
 
 
     def evaluate_xcomet_qe(self):
         """Evaluates the outputs using XCOMET_QE (QE metric)."""
-        self.xcomet_qe = XCOMET_QE(XCOMET_CK_NAME)
+        xcomet_qe = XCOMET_QE(XCOMET_CK_NAME)
         batch_size = 8
 
         sources = [item.src_ref for item in self.data]
         translations = [item.output for item in self.data]
 
-        xcomet_qe_result = self.xcomet_qe.evaluate(translations, [], sources, batch_size)
+        xcomet_qe_result = xcomet_qe.evaluate(translations, [], sources, batch_size)
+
+        xcomet_qe.model.to('cpu')
+        del xcomet_qe
+        torch.cuda.empty_cache()
+
         return round(xcomet_qe_result["system_score"], 4), xcomet_qe_result["segments_scores"]
 
 
     def evaluate_ref_metricx(self):
         """Evaluates the outputs using RefMetricX_24."""
-        self.ref_metricx = RefMetricX_24(METRICX_TOKENIZER, METRICX_CK_NAME)
-        batch_size = 8
+        ref_metricx = RefMetricX_24(METRICX_TOKENIZER, METRICX_CK_NAME)
+        batch_size = 1
 
         sources = [item.src_ref for item in self.data]
         targets = [item.tgt_ref for item in self.data]
         translations = [item.output for item in self.data]
 
-        ref_metricx_result = self.ref_metricx.evaluate(
+        ref_metricx_result = ref_metricx.evaluate(
             hypotheses=translations, references=targets, sources=sources
         )
+
         return round(ref_metricx_result["system_score"], 4), ref_metricx_result["segments_scores"]
 
 
     def evaluate_qe_metricx(self):
         """Evaluates the outputs using QEMetricX_24 (QE metric)."""
-        self.qe_metricx = QEMetricX_24(METRICX_TOKENIZER, METRICX_CK_NAME)
-        batch_size = 8
+        qe_metricx = QEMetricX_24(METRICX_TOKENIZER, METRICX_CK_NAME)
 
         sources = [item.src_ref for item in self.data]
         translations = [item.output for item in self.data]
 
-        qe_metricx_result = self.qe_metricx.evaluate(
+        qe_metricx_result = qe_metricx.evaluate(
             hypotheses=translations, sources=sources, references=[]
         )
+
         return round(qe_metricx_result["system_score"], 4), qe_metricx_result["segments_scores"]
 
     
@@ -266,7 +282,7 @@ class Evaluator:
 
         return round(corpus_score, 4), segment_scores
 
-    def evaluate_off_target_translations(self):
+    def evaluate_off_target_translations_glotLID(self):
         """
         Evaluates off-target translations using GlotLID.
         An output is considered off-target if the predicted language
@@ -278,12 +294,10 @@ class Evaluator:
         """
 
         glotlid_model = fasttext.load_model(GlotLID_PATH)
+        logging.info('glotlid model loaded!')
 
         translations = [item.output.replace('\n', '') for item in self.data]
         target_langs = [item.tgt_lang for item in self.data]
-
-        if not translations:
-            return 0.0, []
 
         predictions = [glotlid_model.predict(tr) for tr in translations]
         predicted_langs = [pred[0][0] for pred in predictions]
@@ -294,6 +308,41 @@ class Evaluator:
             # Check if the predicted language matches the expected target language
             is_off_target = 1 if MAPPING_TO_FASTTEXT_LABEL[target_langs[i]] not in predicted_langs[i] else 0
             segment_scores.append( (is_off_target, predicted_langs[i].replace('__label__', '') ) )
+            if is_off_target:
+                off_target_count += 1
+        
+        # Calculate the overall off-target rate as a percentage
+        total_samples = len(translations)
+        system_score = (off_target_count / total_samples) * 100 if total_samples > 0 else 0.0
+
+        return round(system_score,4), segment_scores
+
+    def evaluate_off_target_translations_linguapy(self):
+        """
+        Evaluates off-target translations using LinguaPY.
+        An output is considered off-target if the predicted language
+        does not match the expected target language.
+
+        Returns:
+            A tuple containing the system-level off-target rate (in %) and
+            a list of segment-level scores (1 for off-target, 0 for on-target).
+        """
+
+        lingua_model = LanguageDetectorBuilder.from_all_spoken_languages().build()
+        logging.info('Lingua model loaded!')
+
+        translations = [item.output.replace('\n', '') for item in self.data]
+        target_langs = [item.tgt_lang for item in self.data]
+
+        predictions = [lingua_model.detect_language_of(tr) for tr in translations]
+        predicted_langs = [pred.name for pred in predictions]
+
+        off_target_count = 0
+        segment_scores = []
+        for i in range(len(translations)):
+            # Check if the predicted language matches the expected target language
+            is_off_target = 1 if MAPPING_TO_LINGUA_LABEL[target_langs[i]] not in predicted_langs[i] else 0
+            segment_scores.append( (is_off_target, predicted_langs[i] ) )
             if is_off_target:
                 off_target_count += 1
         
@@ -336,7 +385,8 @@ class Evaluator:
             'xcomet_qe': (self.evaluate_xcomet_qe, "XCOMET-QE"),
             'metricx': (self.evaluate_ref_metricx, "RefMetricX_24"),
             'metricx_qe': (self.evaluate_qe_metricx, "QEMetricX_24"),
-            'glotlid': (self.evaluate_off_target_translations, "GlotLID")
+            'glotlid': (self.evaluate_off_target_translations_glotLID, "GlotLID"),
+            'linguapy': (self.evaluate_off_target_translations_linguapy, "linguapy")
         }
         
         system_scores = {}
@@ -345,17 +395,16 @@ class Evaluator:
                 if metric_key in metric_mapping:
                     eval_function, metric_name = metric_mapping[metric_key]
                     print(f"Running {metric_name} evaluation...")
-                    try:
-                        system_score, segment_scores = eval_function()
-                        system_scores[metric_name] = system_score
-                        # Add the segment-level score for the current metric
-                        # to each sample's dictionary in the results list.
-                        for i, score in enumerate(segment_scores):
-                            results_per_sample[i]["metrics"][f'{metric_key}_score'] = score
-                        
-                        print(f"-> {metric_name} system score: {system_score:.4f}")
-                    except Exception as e:
-                        print(f"Error during {metric_name} evaluation: {e}")
+
+                    system_score, segment_scores = eval_function()
+                    system_scores[metric_name] = system_score
+                    # Add the segment-level score for the current metric
+                    # to each sample's dictionary in the results list.
+                    for i, score in enumerate(segment_scores):
+                        results_per_sample[i]["metrics"][f'{metric_key}_score'] = score
+                    
+                    print(f"-> {metric_name} system score: {system_score:.4f}")
+
                 else:
                     print(f"Warning: Metric '{metric_key}' is requested but no evaluation function is mapped.")
 

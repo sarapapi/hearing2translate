@@ -4,6 +4,7 @@ import torch
 from .models import MT5ForRegression
 from datasets import Dataset
 from transformers import AutoTokenizer
+import logging
 
 class BaseMetricX():
     def __init__(self, tokenizer: str, model: str, **kwargs) -> None:
@@ -48,32 +49,49 @@ class BaseMetricX():
             example["input_ids"] = example["input_ids"][:-1]
             example["attention_mask"] = example["attention_mask"][:-1]
             return example
-
+        
         samples = self.make_samples(
             sources=sources, hypotheses=hypotheses, references=references
         )
-        ds = Dataset.from_list(samples)
-        ds = ds.map(self._make_input)
-        ds = ds.map(_tokenize)
-        ds = ds.map(_remove_eos)
-        ds.set_format(
-            type="torch",
-            columns=["input_ids", "attention_mask"],
-            device=self.device,
-            output_all_columns=True,
-        )
-        with torch.no_grad():
-            predictions = [
-                self.model(
-                    sample["input_ids"], sample["attention_mask"]
-                ).predictions.item()
-                for sample in ds.iter(batch_size=1)
-            ]
-        metricx_result =  {
-                "system_score": sum(predictions) / len(predictions),
-                "segments_scores": predictions,
-            }
-        
+
+        N = len(samples)
+        scores = []
+        for i in range(0, N):
+            logging.info(f"Predicting batch : {i}. Num samples: {N}")
+
+            _prompts = self._make_input(samples[i])['input']
+
+            tokens = self.tokenizer(
+                _prompts,
+                truncation=True,
+                padding=True,
+                max_length=1536,
+                return_tensors="pt",
+            )
+
+            # remove eos token
+            tokens["input_ids"] = tokens["input_ids"][:, :-1]
+            tokens["attention_mask"] = tokens["attention_mask"][:, :-1]
+
+            # move tokens to cuda device
+            tokens["input_ids"] = tokens["input_ids"].to("cuda")
+            tokens["attention_mask"] = tokens["attention_mask"].to("cuda")
+
+            with torch.no_grad():
+                outputs = self.model(**tokens)
+
+            _scores = outputs.predictions.cpu().tolist()
+            scores.extend(_scores)
+
+        metricx_result = {
+            "system_score": float(sum(scores) / max(len(scores), 1)),
+            "segments_scores": scores,
+        }
+
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+
+        del self.model 
         return metricx_result
 
 

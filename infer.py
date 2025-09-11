@@ -4,10 +4,8 @@ import importlib
 import json
 import os
 from tqdm import tqdm
-from transformers import set_seed
 import sys
 
-set_seed(42)
 
 MODEL_MODULES = {
     # llms
@@ -50,6 +48,10 @@ TEMPLATED_SPEECH_PROMPT = \
 def setup_model(model_name):
     if model_name not in MODEL_MODULES:
         raise NotImplementedError(f"Model {model_name} currently not supported!")
+    if model_name != "test_dataset":
+        logging.info("Setting transformers seed to 42 for reproducibility.")
+        from transformers import set_seed
+        set_seed(42)
 
     module_name = MODEL_MODULES[model_name]
     module = importlib.import_module(module_name)
@@ -174,9 +176,7 @@ def infer(args):
     if args.out_file:
         outfile.close()
 
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Hearing to Translate output generation.")
+def add_infer_args(parser):
     parser.add_argument("--model", choices=MODELS, required=True,
                         help="Model to be used for inference")
     parser.add_argument("--in-modality", choices=["speech", "text"], required=True,
@@ -187,6 +187,12 @@ if __name__ == "__main__":
                         help="Optional JSONL with transcripts for text modality")
     parser.add_argument("--asr", default=False, action="store_true",
                         help="If set, the speech model is used as ASR for the src lang. Tgt language is ignored.")
+    return parser
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Hearing to Translate output generation.")
+    parser = add_infer_args(parser)
     args = parser.parse_args()
 
     logging.basicConfig(level=logging.INFO)

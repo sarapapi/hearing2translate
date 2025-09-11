@@ -31,13 +31,14 @@ else # the others don't use any
 fi
 
 cmd() {
-	echo "if mkdir $out.lock ; then H2T_DATADIR=$H2T_DATADIR $HFTOKEN $p3""python3 infer.py --model $model --in-modality speech --in-file $inf --out-file $out $asr 2>&1 | tee $out.err && touch $out.ok; rm -rf $out.lock ; fi"
+	echo "if [ ! -f $out.ok ] && mkdir $out.lock ; then H2T_DATADIR=$H2T_DATADIR $HFTOKEN $p3""python3 infer.py --model $model --in-modality speech --in-file $inf --out-file $out $asr --continue 2> $out.err && touch $out.ok; rm -rf $out.lock ; fi"
 }
 
 
 
 # add or remove the ones you want to run:
-for dataset in winoST fleurs commonAccent ; do
+#for dataset in winoST fleurs commonAccent acl6060 ; do
+for dataset in fleurs commonAccent acl6060-long acl6060-short winoST; do
 #for dataset in acl6060 ; do
 	# same with models
 	for model in whisper canary-v2 seamlessm4t ; do 

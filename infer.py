@@ -140,11 +140,24 @@ def infer(args):
                 key = (entry["dataset_id"], entry["sample_id"])
                 transcripts[key] = entry["output"]  # Store the 'output' field as the value
 
-    if args.out_file:
+
+    inlines = list(read_jsonl(args.in_file))
+    if vars(args)["continue"]:
+        if not args.out_file:
+            raise ValueError("To continue, --out-file must be set.")
+        if not os.path.exists(args.out_file):
+            outlines = []
+        else:
+            with open(args.out_file, "r") as f:
+                outlines = f.readlines()
+        logging.info(f"Continuing from {args.out_file}, skipping {len(outlines)} already processed inputs.")
+        inlines = inlines[len(outlines):]
+        outfile = open(args.out_file, "a", encoding="utf-8")
+    elif args.out_file:
         outfile = open(args.out_file, "w", encoding="utf-8")
     else:
         outfile = sys.stdout
-    for sample in tqdm(list(read_jsonl(args.in_file)), desc="Generating Outputs"):
+    for sample in tqdm(inlines, desc="Generating Outputs"):
         src_lang = sample.get("src_lang")
         if args.asr:
             tgt_lang = src_lang
@@ -187,6 +200,8 @@ def add_infer_args(parser):
                         help="Optional JSONL with transcripts for text modality")
     parser.add_argument("--asr", default=False, action="store_true",
                         help="If set, the speech model is used as ASR for the src lang. Tgt language is ignored.")
+    parser.add_argument("--continue", default=False, action="store_true",
+                        help="If set, append new outputs to existing out-file, skipping already processed inputs.")
     return parser
 
 

@@ -9,3 +9,5 @@ backoff
 datasets==3.6
 pydub
 jsonlines
+langcodes
+dotenv

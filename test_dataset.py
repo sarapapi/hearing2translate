@@ -32,6 +32,7 @@ infer.MODEL_MODULES["test_dataset"] = "tests.test_dataset_module"
 
 ifiles = args.in_file
 kw = vars(args)
+kw["continue"] = False
 for i in ifiles:
     kw["in_file"] = i
     print("Testing file:", i, file=sys.stderr)

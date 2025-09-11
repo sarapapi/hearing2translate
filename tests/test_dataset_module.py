@@ -5,6 +5,6 @@ def load_model():
 
 def generate(model, sample):
     audio = sample["sample"]
-#    if not os.path.exists(audio):
-#        raise FileNotFoundError(f"Audio file {audio} does not exist.")
-    return f"{audio} in {sample['tgt_lang']} exists"
+    if not os.path.exists(audio):
+        raise FileNotFoundError(f"Audio file {audio} does not exist.")
+    return f"{audio} for {sample['src_lang']} to {sample['tgt_lang']} exists"

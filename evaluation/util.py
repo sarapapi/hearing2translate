@@ -339,7 +339,11 @@ class Evaluator:
         target_langs = [item.tgt_lang for item in self.data]
 
         predictions = [lingua_model.detect_language_of(tr) for tr in translations]
-        predicted_langs = [pred.name for pred in predictions]
+
+        try:
+            predicted_langs = [pred.name for pred in predictions]
+        except:
+            predicted_langs = [getattr(pred, 'name', 'UNKNOWN') for pred in predictions]
 
         off_target_count = 0
         segment_scores = []

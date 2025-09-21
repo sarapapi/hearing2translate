@@ -36,7 +36,7 @@ def main():
             print("[WARN] Output JSONL row missing 'sample_id'; skipping.", file=sys.stderr)
             continue
         sid = obj["sample_id"]
-        hyp = obj.get('output')
+        hyp = obj.get('output').strip().replace('\n', '')
         if hyp is None:
             print(f"[WARN] sample_id={sid} has no output key; skipping.", file=sys.stderr)
             continue

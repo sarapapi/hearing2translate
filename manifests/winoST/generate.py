@@ -23,7 +23,7 @@ def process_winost_dataset():
     
     for pair in LANGUAGE_PAIRS:
         src_lang, tgt_lang = pair.split('-')
-        jsonl_filename = f"{src_lang}-{tgt_lang}.jsonl"
+        jsonl_filename = f"./manifests/winoST/{src_lang}-{tgt_lang}.jsonl"
 
         with open(jsonl_filename, 'w', encoding='utf-8') as f_json:
 

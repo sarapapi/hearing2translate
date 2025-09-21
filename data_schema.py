@@ -10,7 +10,7 @@ class InputJson:
     src_ref: str | None
     tgt_ref: str | None | dict
     src_lang: str
-    ref_lang: str
+    tgt_lang: str
     benchmark_metadata: dict | None #{"context":  ("short","long")}}
 
 
@@ -36,3 +36,4 @@ class DatasetType(str, Enum):
     DIALECTACCENT = "accents"
     TERMINOLOGY = "terminology"
     NONNATIVE = "non_native"
+    EMOTION = "emotion"

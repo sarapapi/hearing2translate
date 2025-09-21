@@ -20,11 +20,13 @@ src_langs = [
     'de','es'
 ]
 
+base_dir = os.environ.get("H2T_DATADIR")
+
 def build_jsonl():
     """Build the jsonl files containing datapoints for each src-tgt pair in CommonAccent"""
     for src in src_langs:
         #Get comAcc specific data points
-        df = pd.read_csv(f'./eval_csv/{src}_test.csv', encoding='utf-8', header=0)
+        df = pd.read_csv(f'./manifests/commonAccent/eval_csv/{src}_test.csv', encoding='utf-8', header=0)
         df['utt_id'] = df['utt_id'].astype(str)
         #load common voice:
         cv = load_dataset("mozilla-foundation/common_voice_11_0", src, streaming=False, split=['train','validation','test'])
@@ -39,19 +41,19 @@ def build_jsonl():
             batched=True, 
             batch_size=10000 
         )
-        audio_output_dir = os.path.join("audio", src)
+        audio_output_dir = os.path.join(base_dir, 'commonAccent', 'audio', src)
         os.makedirs(audio_output_dir, exist_ok=True)
 
         #English centric lang pairs
         if src == 'en':
             for tgt in tgt_langs:
-                json_out = f"{src}-{tgt}.jsonl"
+                json_out = f"manifests/commonAccent/{src}-{tgt}.jsonl"
                 with open(json_out,'w',encoding='utf-8') as f:
                     for row in cv_filtered:
                         #If the path to the audio doesn't exist, save it
                         audio_filename=f"{row['utt_id']}.wav"
                         audio_filepath = os.path.join(audio_output_dir, audio_filename)
-                        relative_audio_path = f"/commonAccent/{audio_filepath.replace(os.sep, '/')}"
+                        relative_audio_path = f"/commonAccent/audio/{src}/{audio_filename}"
 
                         if not os.path.exists(audio_filepath):
                             sf.write(
@@ -79,13 +81,13 @@ def build_jsonl():
         else:
             #With non-english src languages, we translate into en only
             tgt = 'en'
-            json_out = f"{src}-{tgt}.jsonl"
+            json_out = f"manifests/commonAccent/{src}-{tgt}.jsonl"
             with open(json_out,'w',encoding='utf-8') as f:
                 for row in cv_filtered:
                     #If the path to the audio doesn't exist, save it
                     audio_filename=f"{row['utt_id']}.wav"
                     audio_filepath = os.path.join(audio_output_dir, audio_filename)
-                    relative_audio_path = f"/commonAccent/{audio_filepath.replace(os.sep, '/')}"
+                    relative_audio_path = f"/commonAccent/audio/{src}/{audio_filename}"
 
                     if not os.path.exists(audio_filepath):
                         sf.write(

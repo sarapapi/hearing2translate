@@ -1,0 +1,416 @@
+{"dataset_id": "acl_6060", "sample_id": 0, "src_lang": "en", "tgt_lang": "zh", "output": "大家好，今天我要介绍的是我们的研究成果：通过学习推理，数学问题解决可以看作是复杂的推理抽象。"}
+{"dataset_id": "acl_6060", "sample_id": 1, "src_lang": "en", "tgt_lang": "zh", "output": "我是来自BydonsAI Lab的Alan,这是与来自德克萨斯大学奥斯汀分校的Chery和来自SUED的Wei Lu的联合工作。"}
+{"dataset_id": "acl_6060", "sample_id": 2, "src_lang": "en", "tgt_lang": "zh", "output": "首先,我想谈谈我们对推理的动机。"}
+{"dataset_id": "acl_6060", "sample_id": 3, "src_lang": "en", "tgt_lang": "zh", "output": "在这里,我们展示了多步推理有用的例子。"}
+{"dataset_id": "acl_6060", "sample_id": 4, "src_lang": "en", "tgt_lang": "zh", "output": "这个数字取自论文,他们在短期学习场景中执行提示来解决数学问题。"}
+{"dataset_id": "acl_6060", "sample_id": 5, "src_lang": "en", "tgt_lang": "zh", "output": "因此，在NetPad上,我们可以看到,如果我们只给出一些问题和答案的示例,我们可能无法获得正确的答案。"}
+{"dataset_id": "acl_6060", "sample_id": 6, "src_lang": "en", "tgt_lang": "zh", "output": "但是如果我们给出更多的推理描述，模型就能够预测推理描述并且在这里做出正确的预测。"}
+{"dataset_id": "acl_6060", "sample_id": 7, "src_lang": "en", "tgt_lang": "zh", "output": "因此,具有可解释的多步推理输出是有益的。"}
+{"dataset_id": "acl_6060", "sample_id": 8, "src_lang": "en", "tgt_lang": "zh", "output": "我们也认为数学问题是评估这种推理能力的直接应用。"}
+{"dataset_id": "acl_6060", "sample_id": 9, "src_lang": "en", "tgt_lang": "zh", "output": "因此，在我们的问题设置中,鉴于问题,我们需要解决这个问题并获得数字答案。"}
+{"dataset_id": "acl_6060", "sample_id": 10, "src_lang": "en", "tgt_lang": "zh", "output": "所以在我们的数据集中,我们也得到了导致这个特定答案的数学表达式。"}
+{"dataset_id": "acl_6060", "sample_id": 11, "src_lang": "en", "tgt_lang": "zh", "output": "因此，某些假设也适用于之前的工作。"}
+{"dataset_id": "acl_6060", "sample_id": 12, "src_lang": "en", "tgt_lang": "zh", "output": "我们假设数量的精度是已知的。"}
+{"dataset_id": "acl_6060", "sample_id": 13, "src_lang": "en", "tgt_lang": "zh", "output": "我们只考虑基本运算符，如加法、减法、乘法、除法和指数运算。"}
+{"dataset_id": "acl_6060", "sample_id": 14, "src_lang": "en", "tgt_lang": "zh", "output": "此外,复杂的运算符实际上可以分解为这些基本运算符。"}
+{"dataset_id": "acl_6060", "sample_id": 15, "src_lang": "en", "tgt_lang": "zh", "output": "因此，在方法问题解决方面的先前工作实际上可以分为序列到序列和序列到树模型。"}
+{"dataset_id": "acl_6060", "sample_id": 16, "src_lang": "en", "tgt_lang": "zh", "output": "因此，传统的序列到序列模型将表达转换为特定的生成序列。"}
+{"dataset_id": "acl_6060", "sample_id": 17, "src_lang": "en", "tgt_lang": "zh", "output": "它很容易实现，可以推广到许多不同的复杂问题。"}
+{"dataset_id": "acl_6060", "sample_id": 18, "src_lang": "en", "tgt_lang": "zh", "output": "但是性能的缺点是，通常不比结构模型好，预测的可解释性不足。"}
+{"dataset_id": "acl_6060", "sample_id": 19, "src_lang": "en", "tgt_lang": "zh", "output": "但实际上这个方向仍然很受欢迎,因为变形器模型。"}
+{"dataset_id": "acl_6060", "sample_id": 20, "src_lang": "en", "tgt_lang": "zh", "output": "因此,在基于树的模型中,我们实际上以树形结构对这些表达进行结构化,并遵循树生成中的预先排序遍历。"}
+{"dataset_id": "acl_6060", "sample_id": 21, "src_lang": "en", "tgt_lang": "zh", "output": "所以在这里,我们不断生成运算符,直到我们到达叶子,叶子是数量。"}
+{"dataset_id": "acl_6060", "sample_id": 22, "src_lang": "en", "tgt_lang": "zh", "output": "所以这里的好处是它实际上给了我们这个二叉树结构,但实际上它是相当的,因为我们首先生成运算符,然后在最后生成数量。"}
+{"dataset_id": "acl_6060", "sample_id": 23, "src_lang": "en", "tgt_lang": "zh", "output": "第二个是它还包含一些重复的计算。"}
+{"dataset_id": "acl_6060", "sample_id": 24, "src_lang": "en", "tgt_lang": "zh", "output": "所以在这里,如果我们看一下这个表达式8*3+3,它实际上是生成了两次,但实际上我们应该重用结果。"}
+{"dataset_id": "acl_6060", "sample_id": 25, "src_lang": "en", "tgt_lang": "zh", "output": "因此，在我们的提议方法中,我们希望以逐步和可解释的方式解决这些问题。"}
+{"dataset_id": "acl_6060", "sample_id": 26, "src_lang": "en", "tgt_lang": "zh", "output": "例如，在第二步中,我们可以获得这个除数，即27。"}
+{"dataset_id": "acl_6060", "sample_id": 27, "src_lang": "en", "tgt_lang": "zh", "output": "We can also refer back to the original questions to find the relevant contents."}
+{"dataset_id": "acl_6060", "sample_id": 28, "src_lang": "en", "tgt_lang": "zh", "output": "在这些步骤中,我们获得了除数。"}
+{"dataset_id": "acl_6060", "sample_id": 29, "src_lang": "en", "tgt_lang": "zh", "output": "所以在第三步我们得到商数。"}
+{"dataset_id": "acl_6060", "sample_id": 30, "src_lang": "en", "tgt_lang": "zh", "output": "好的，在这三个步骤之后，我们实际上可以使用第二步的结果，然后获得第四步的结果。最后，我们可以获得股息。"}
+{"dataset_id": "acl_6060", "sample_id": 31, "src_lang": "en", "tgt_lang": "zh", "output": "因此，我们实际上直接生成整个表达式，而不是生成单个运算符或量。"}
+{"dataset_id": "acl_6060", "sample_id": 32, "src_lang": "en", "tgt_lang": "zh", "output": "所以这使得过程更加准确。"}
+{"dataset_id": "acl_6060", "sample_id": 33, "src_lang": "en", "tgt_lang": "zh", "output": "所以在我们的归纳系统中,我们首先从问题中提出的一堆数量以及一些常数作为我们的初始值开始。"}
+{"dataset_id": "acl_6060", "sample_id": 34, "src_lang": "en", "tgt_lang": "zh", "output": "所以这个表达式是由eijop表示的。"}
+{"dataset_id": "acl_6060", "sample_id": 35, "src_lang": "en", "tgt_lang": "zh", "output": "我们从QI执行操作到QJ,这样的表达实际上是有方向的。"}
+{"dataset_id": "acl_6060", "sample_id": 36, "src_lang": "en", "tgt_lang": "zh", "output": "所以我们这里也有减法符号来表示相反的方向。"}
+{"dataset_id": "acl_6060", "sample_id": 37, "src_lang": "en", "tgt_lang": "zh", "output": "这与关系提取非常相似。"}
+{"dataset_id": "acl_6060", "sample_id": 38, "src_lang": "en", "tgt_lang": "zh", "output": "因此，在形式推导系统中,在时间步长T上,我们在QI和QJ对之间应用运算符,然后获得此新表达式。"}
+{"dataset_id": "acl_6060", "sample_id": 39, "src_lang": "en", "tgt_lang": "zh", "output": "我们将其添加到下一个阶段，成为新的数量。"}
+{"dataset_id": "acl_6060", "sample_id": 40, "src_lang": "en", "tgt_lang": "zh", "output": "所以这些幻灯片实际上是对状态的演变进行可视化的地方,我们不断地在当前状态中添加表达式。"}
+{"dataset_id": "acl_6060", "sample_id": 41, "src_lang": "en", "tgt_lang": "zh", "output": "因此，在我们的模型实现中，我们首先使用预训练的语言模型，可以是鸟类或机器人，然后我们编码句子，然后我们获得这些数量表示。"}
+{"dataset_id": "acl_6060", "sample_id": 42, "src_lang": "en", "tgt_lang": "zh", "output": "所以一旦我们得到数量的表示，我们就可以开始做推理了。"}
+{"dataset_id": "acl_6060", "sample_id": 43, "src_lang": "en", "tgt_lang": "zh", "output": "在这里,我们展示了一个示例,以获得Q1的代表性，然后将其除以Q2，然后乘以Q3。"}
+{"dataset_id": "acl_6060", "sample_id": 44, "src_lang": "en", "tgt_lang": "zh", "output": "首先,我们得到对偶表示,它基本上只是Q1和Q2之间的串联,然后我们应用一个feedforward网络,该网络由操作符参数化。"}
+{"dataset_id": "acl_6060", "sample_id": 45, "src_lang": "en", "tgt_lang": "zh", "output": "最后，我们得到表达式表示 q1 除以 q2。"}
+{"dataset_id": "acl_6060", "sample_id": 46, "src_lang": "en", "tgt_lang": "zh", "output": "但是在实践中，在推理阶段，我们也可能会得到不正确的表达。"}
+{"dataset_id": "acl_6060", "sample_id": 47, "src_lang": "en", "tgt_lang": "zh", "output": "所以这里所有可能的表达式等于三个操作数。"}
+{"dataset_id": "acl_6060", "sample_id": 48, "src_lang": "en", "tgt_lang": "zh", "output": "所以这里的好处是我们可以很容易地添加约束来控制搜索空间。"}
+{"dataset_id": "acl_6060", "sample_id": 49, "src_lang": "en", "tgt_lang": "zh", "output": "例如,如果此表达式不允许,我们可以简单地从搜索空间中删除此表达式。"}
+{"dataset_id": "acl_6060", "sample_id": 50, "src_lang": "en", "tgt_lang": "zh", "output": "所以在第二步中，我们做同样的事情，但唯一的区别是我们需要多买一件。"}
+{"dataset_id": "acl_6060", "sample_id": 51, "src_lang": "en", "tgt_lang": "zh", "output": "这个数量来自前面的计算表达式。"}
+{"dataset_id": "acl_6060", "sample_id": 52, "src_lang": "en", "tgt_lang": "zh", "output": "所以最后我们可以得到这个最终表达式Q3。"}
+{"dataset_id": "acl_6060", "sample_id": 53, "src_lang": "en", "tgt_lang": "zh", "output": "\"times q4. And we can also see the number of all the possible expression is different from the previous step.\""}
+{"dataset_id": "acl_6060", "sample_id": 54, "src_lang": "en", "tgt_lang": "zh", "output": "因此，这种差异使得很难应用beam search,因为这两个步骤之间的概率分布是不平衡的。"}
+{"dataset_id": "acl_6060", "sample_id": 55, "src_lang": "en", "tgt_lang": "zh", "output": "因此,训练过程类似于对序列到序列模型进行训练,其中我们在每个时间步长上优化损失。"}
+{"dataset_id": "acl_6060", "sample_id": 56, "src_lang": "en", "tgt_lang": "zh", "output": "在这里,我们也使用这个tau来表示我们应该终止生成过程的时间。"}
+{"dataset_id": "acl_6060", "sample_id": 57, "src_lang": "en", "tgt_lang": "zh", "output": "在这里，空间与序列不同，因为空间在每次迭代时都不同。在传统的序列到序列模型中，它是词汇的数量。"}
+{"dataset_id": "acl_6060", "sample_id": 58, "src_lang": "en", "tgt_lang": "zh", "output": "它还允许我们从先验知识中施加某些约束。"}
+{"dataset_id": "acl_6060", "sample_id": 59, "src_lang": "en", "tgt_lang": "zh", "output": "因此，我们对常用的数学问题数据集进行了实验：MAWPS、Math23K、MathQA和SWEM。"}
+{"dataset_id": "acl_6060", "sample_id": 60, "src_lang": "en", "tgt_lang": "zh", "output": "在这里,我们简要地展示了与以前的最佳方法相比的结果。"}
+{"dataset_id": "acl_6060", "sample_id": 61, "src_lang": "en", "tgt_lang": "zh", "output": "所以我们表现最好的变量是robberta的推理推理器。"}
+{"dataset_id": "acl_6060", "sample_id": 62, "src_lang": "en", "tgt_lang": "zh", "output": "事实上,我们不使用beam search。与使用beam search的其他方法相比。"}
+{"dataset_id": "acl_6060", "sample_id": 63, "src_lang": "en", "tgt_lang": "zh", "output": "好的,最好的方法通常是树基模型。"}
+{"dataset_id": "acl_6060", "sample_id": 64, "src_lang": "en", "tgt_lang": "zh", "output": "因此,总的来说,我们的推理器能够显著地超过这个基于树的模型。"}
+{"dataset_id": "acl_6060", "sample_id": 65, "src_lang": "en", "tgt_lang": "zh", "output": "但是我们可以看到，MathQ&A或SWEM上的绝对数量并不高。"}
+{"dataset_id": "acl_6060", "sample_id": 66, "src_lang": "en", "tgt_lang": "zh", "output": "所以我们进一步调查了这些结果。"}
+{"dataset_id": "acl_6060", "sample_id": 67, "src_lang": "en", "tgt_lang": "zh", "output": "\"Swamp and this dataset is challenging because the author tried to manually add something to confuse the NLP model, such as adding irrelevant information and extra quantities.\""}
+{"dataset_id": "acl_6060", "sample_id": 68, "src_lang": "en", "tgt_lang": "zh", "output": "因此，在我们的预测中,我们发现一些中间值实际上是负数。"}
+{"dataset_id": "acl_6060", "sample_id": 69, "src_lang": "en", "tgt_lang": "zh", "output": "例如，在这个问题中,我们问杰克有多少个苹果。"}
+{"dataset_id": "acl_6060", "sample_id": 70, "src_lang": "en", "tgt_lang": "zh", "output": "但是我们有一些额外的信息,比如十七个更少的音高,史蒂文有八个音高,这完全是无关紧要的。"}
+{"dataset_id": "acl_6060", "sample_id": 71, "src_lang": "en", "tgt_lang": "zh", "output": "所以我们的模型会做出这样的预测,即产生负值。"}
+{"dataset_id": "acl_6060", "sample_id": 72, "src_lang": "en", "tgt_lang": "zh", "output": "我们观察了这两个表达式。"}
+{"dataset_id": "acl_6060", "sample_id": 73, "src_lang": "en", "tgt_lang": "zh", "output": "因此，我们实际上可以通过删除那些结果是负面的来限制此搜索空间,以便我们可以使答案正确。"}
+{"dataset_id": "acl_6060", "sample_id": 74, "src_lang": "en", "tgt_lang": "zh", "output": "所以我们进一步发现这种约束实际上对一些模型有很大改善作用。"}
+{"dataset_id": "acl_6060", "sample_id": 75, "src_lang": "en", "tgt_lang": "zh", "output": "例如,对于鸟类,我们提高了七分,然后对于基于机器人模型的模型,我们实际上提高了两分。"}
+{"dataset_id": "acl_6060", "sample_id": 76, "src_lang": "en", "tgt_lang": "zh", "output": "所以更好的语言模型具有更好的语言理解能力,因此Roberta的数字在这里更高，而BERT的数字更低。"}
+{"dataset_id": "acl_6060", "sample_id": 77, "src_lang": "en", "tgt_lang": "zh", "output": "And we also try to analyze the difficulty behind these BPP."}
+{"dataset_id": "acl_6060", "sample_id": 78, "src_lang": "en", "tgt_lang": "zh", "output": "我们假设未使用数量可以在这里被视为无关信息。"}
+{"dataset_id": "acl_6060", "sample_id": 79, "src_lang": "en", "tgt_lang": "zh", "output": "所以在这里我们可以看到,我们有样本的百分比,我们使用的数量和swamp数据集有最大的比例。"}
+{"dataset_id": "acl_6060", "sample_id": 80, "src_lang": "en", "tgt_lang": "zh", "output": "And here we also show the overall performance."}
+{"dataset_id": "acl_6060", "sample_id": 81, "src_lang": "en", "tgt_lang": "zh", "output": "对于那些没有未使用数量的样本,所以整体性能实际上比整体性能高。"}
+{"dataset_id": "acl_6060", "sample_id": 82, "src_lang": "en", "tgt_lang": "zh", "output": "但是那些未使用的样本实际上比那些使用的样本要差得多。"}
+{"dataset_id": "acl_6060", "sample_id": 83, "src_lang": "en", "tgt_lang": "zh", "output": "For M and WPS, we don't really have too many desk cases, so I just ignore this part."}
+{"dataset_id": "acl_6060", "sample_id": 84, "src_lang": "en", "tgt_lang": "zh", "output": "因此,最后,我们要通过一个问题观察示例来展示可解释性。"}
+{"dataset_id": "acl_6060", "sample_id": 85, "src_lang": "en", "tgt_lang": "zh", "output": "所以在这里,我们的模型实际上在第一步时就做出了错误的预测。"}
+{"dataset_id": "acl_6060", "sample_id": 86, "src_lang": "en", "tgt_lang": "zh", "output": "所以我们实际上可以将这个表达与这里的句子联系起来。"}
+{"dataset_id": "acl_6060", "sample_id": 87, "src_lang": "en", "tgt_lang": "zh", "output": "因此,我们认为这句话可能会误导模型进行错误的预测。"}
+{"dataset_id": "acl_6060", "sample_id": 88, "src_lang": "en", "tgt_lang": "zh", "output": "所以在这里，植入另一个35使模型认为它应该是一个加法运算符。"}
+{"dataset_id": "acl_6060", "sample_id": 89, "src_lang": "en", "tgt_lang": "zh", "output": "因此,我们尝试修改句子，使其类似于梨树的数量比苹果树少五棵。"}
+{"dataset_id": "acl_6060", "sample_id": 90, "src_lang": "en", "tgt_lang": "zh", "output": "因此,我们使其传达更准确的语义,以便模型能够正确进行预测。"}
+{"dataset_id": "acl_6060", "sample_id": 91, "src_lang": "en", "tgt_lang": "zh", "output": "这项研究表明,可解释的预测有助于我们理解模型的行为。"}
+{"dataset_id": "acl_6060", "sample_id": 92, "src_lang": "en", "tgt_lang": "zh", "output": "所以为了结束我们的工作，我们的模型实际上是相当有效的。"}
+{"dataset_id": "acl_6060", "sample_id": 93, "src_lang": "en", "tgt_lang": "zh", "output": "And we are able to provide interpretable solving procedure."}
+{"dataset_id": "acl_6060", "sample_id": 94, "src_lang": "en", "tgt_lang": "zh", "output": "我们可以轻松地将一些先验知识作为约束,这可以帮助提高性能。"}
+{"dataset_id": "acl_6060", "sample_id": 95, "src_lang": "en", "tgt_lang": "zh", "output": "最后一件事是,底层机制不仅适用于矩阵问题解决任务,还适用于涉及多步推理的任务。"}
+{"dataset_id": "acl_6060", "sample_id": 96, "src_lang": "en", "tgt_lang": "zh", "output": "但是我们也有一定的局限性。"}
+{"dataset_id": "acl_6060", "sample_id": 97, "src_lang": "en", "tgt_lang": "zh", "output": "如果我们有大量的运算符或常量,那么内存消耗可能会非常高。"}
+{"dataset_id": "acl_6060", "sample_id": 98, "src_lang": "en", "tgt_lang": "zh", "output": "第二个问题是,正如我所提到的,因为概率分布在不同时间步长之间不平衡,因此应用光束搜索也非常具有挑战性。"}
+{"dataset_id": "acl_6060", "sample_id": 99, "src_lang": "en", "tgt_lang": "zh", "output": "所以这是演讲的结束，欢迎提问。谢谢。"}
+{"dataset_id": "acl_6060", "sample_id": 100, "src_lang": "en", "tgt_lang": "zh", "output": "你好，我叫Antoine，我来自马斯特里赫特大学。"}
+{"dataset_id": "acl_6060", "sample_id": 101, "src_lang": "en", "tgt_lang": "zh", "output": "我将与杰里一起介绍我的John工作,关于新数据集用于法定文章检索。"}
+{"dataset_id": "acl_6060", "sample_id": 102, "src_lang": "en", "tgt_lang": "zh", "output": "法律问题是许多人生活中不可或缺的一部分。"}
+{"dataset_id": "acl_6060", "sample_id": 103, "src_lang": "en", "tgt_lang": "zh", "output": "但是大多数公民对他们的权利和基本法律程序知之甚少。"}
+{"dataset_id": "acl_6060", "sample_id": 104, "src_lang": "en", "tgt_lang": "zh", "output": "As a result, many vulnerable citizens who cannot afford the costly assistance of a legal expert are left unprotected or, worse, exploited."}
+{"dataset_id": "acl_6060", "sample_id": 105, "src_lang": "en", "tgt_lang": "zh", "output": "Our work aims to bridge the gap between people and the law by developing an effective retrieval system for statutory articles."}
+{"dataset_id": "acl_6060", "sample_id": 106, "src_lang": "en", "tgt_lang": "zh", "output": "这样的系统可以为不熟练的人提供免费的专业法律帮助服务。"}
+{"dataset_id": "acl_6060", "sample_id": 107, "src_lang": "en", "tgt_lang": "zh", "output": "在深入研究本研究的主要贡献之前,让我们先描述一下法定条文检索的问题。"}
+{"dataset_id": "acl_6060", "sample_id": 108, "src_lang": "en", "tgt_lang": "zh", "output": "给定一个关于法律问题的简单问题，例如，如果我违反职业机密，我会面临什么风险?"}
+{"dataset_id": "acl_6060", "sample_id": 109, "src_lang": "en", "tgt_lang": "zh", "output": "需要一个模型来从大量立法中检索所有相关的法定条款。"}
+{"dataset_id": "acl_6060", "sample_id": 110, "src_lang": "en", "tgt_lang": "zh", "output": "这个信息检索任务带有一套独特的挑战。"}
+{"dataset_id": "acl_6060", "sample_id": 111, "src_lang": "en", "tgt_lang": "zh", "output": "首先，它处理两种类型的语言。"}
+{"dataset_id": "acl_6060", "sample_id": 112, "src_lang": "en", "tgt_lang": "zh", "output": "Common natural language for the questions and complex legal language for the statutes."}
+{"dataset_id": "acl_6060", "sample_id": 113, "src_lang": "en", "tgt_lang": "zh", "output": "这种语言分布的差异使得系统更难找到合适的候选人，因为它间接地需要一个内在的解释系统，该系统可以将自然问题转换为与法规术语相匹配的法律问题。"}
+{"dataset_id": "acl_6060", "sample_id": 114, "src_lang": "en", "tgt_lang": "zh", "output": "此外，法定法并不是一堆独立的文章，可以像新闻或食谱一样作为单独的信息来源。"}
+{"dataset_id": "acl_6060", "sample_id": 115, "src_lang": "en", "tgt_lang": "zh", "output": "相反，它是一个结构化的法律条款集合，在整体上下文中才具有完整的意义。也就是说，与其邻近条款的补充信息、它们所属的字段和子字段以及它们在法律结构中的位置一起考虑。"}
+{"dataset_id": "acl_6060", "sample_id": 116, "src_lang": "en", "tgt_lang": "zh", "output": "最后，法定条款是一个小段落,通常是大多数检索工作中的典型检索单元。"}
+{"dataset_id": "acl_6060", "sample_id": 117, "src_lang": "en", "tgt_lang": "zh", "output": "Here, they are long documents that may be up to six."}
+{"dataset_id": "acl_6060", "sample_id": 118, "src_lang": "en", "tgt_lang": "zh", "output": "最近的NLP进展引起了许多法律任务的极大兴趣，例如法律判决预测或自动合同审查。"}
+{"dataset_id": "acl_6060", "sample_id": 119, "src_lang": "en", "tgt_lang": "zh", "output": "但是,由于缺乏大量高质量的标记数据集,法定条款检索仍然主要未受影响。"}
+{"dataset_id": "acl_6060", "sample_id": 120, "src_lang": "en", "tgt_lang": "zh", "output": "在这项工作中,我们提出了一个新的法语本土公民中心数据集,以研究检索模型是否可以接近法律专家在法定条文检索任务中的效率和可靠性。"}
+{"dataset_id": "acl_6060", "sample_id": 121, "src_lang": "en", "tgt_lang": "zh", "output": "Our Belgian statutory article retrieval data set, psaltz, consists of more than one thousand one hundred articles."}
+{"dataset_id": "acl_6060", "sample_id": 122, "src_lang": "en", "tgt_lang": "zh", "output": "这些问题涵盖了广泛的主题，从家庭、住房、金钱到工作和社会保障。"}
+{"dataset_id": "acl_6060", "sample_id": 123, "src_lang": "en", "tgt_lang": "zh", "output": "每个都被经验丰富的法学家标记，并引用了来自超过两万两千六百篇文章的相关文章。"}
+{"dataset_id": "acl_6060", "sample_id": 124, "src_lang": "en", "tgt_lang": "zh", "output": "Belgian codes of law. Let's now talk about how we collected these data sets."}
+{"dataset_id": "acl_6060", "sample_id": 125, "src_lang": "en", "tgt_lang": "zh", "output": "首先,我们从编译大量的法律文章开始。"}
+{"dataset_id": "acl_6060", "sample_id": 126, "src_lang": "en", "tgt_lang": "zh", "output": "我们考虑了三十二个公开可用的比利时代码,并提取了所有文章以及相应的部分标题。"}
+{"dataset_id": "acl_6060", "sample_id": 127, "src_lang": "en", "tgt_lang": "zh", "output": "然后,我们收集了有关相关法规的法律问题。"}
+{"dataset_id": "acl_6060", "sample_id": 128, "src_lang": "en", "tgt_lang": "zh", "output": "为此,我们与一家比利时律师事务所合作，该事务所每年收到大约四千封来自比利时公民的电子邮件,这些公民寻求有关个人法律问题的建议。"}
+{"dataset_id": "acl_6060", "sample_id": 129, "src_lang": "en", "tgt_lang": "zh", "output": "我们很幸运能够访问他们的网站,在那里他们的经验丰富的律师团队解决比利时最常见的法律问题。"}
+{"dataset_id": "acl_6060", "sample_id": 130, "src_lang": "en", "tgt_lang": "zh", "output": "我们收集了数以千计的问题，并用类别、子类别和相关法规的法律参考来注释。"}
+{"dataset_id": "acl_6060", "sample_id": 131, "src_lang": "en", "tgt_lang": "zh", "output": "最后，我们通过法律引用并过滤掉那些引用的参考资料不是我们考虑的任何法律代码中的文章的问题。"}
+{"dataset_id": "acl_6060", "sample_id": 132, "src_lang": "en", "tgt_lang": "zh", "output": "The remaining references were matched and converted to the corresponding article IDs from all corpus."}
+{"dataset_id": "acl_6060", "sample_id": 133, "src_lang": "en", "tgt_lang": "zh", "output": "We eventually ended up with 1108 questions, each carefully labeled with the IDs of the relevant articles from the"}
+{"dataset_id": "acl_6060", "sample_id": 134, "src_lang": "en", "tgt_lang": "zh", "output": "此外,每个问题都附有一个主要类别和子类别的连字符。"}
+{"dataset_id": "acl_6060", "sample_id": 135, "src_lang": "en", "tgt_lang": "zh", "output": "每篇文章都附有其子序列标题在低结构的串联。"}
+{"dataset_id": "acl_6060", "sample_id": 136, "src_lang": "en", "tgt_lang": "zh", "output": "此额外信息未用于当前工作,但可能对未来关于法律信息检索或法律文本分类的研究有兴趣。"}
+{"dataset_id": "acl_6060", "sample_id": 137, "src_lang": "en", "tgt_lang": "zh", "output": "让我们来看看我们的数据集的一些特征。"}
+{"dataset_id": "acl_6060", "sample_id": 138, "src_lang": "en", "tgt_lang": "zh", "output": "The questions are between five and 44 words long, with a median of 40 words."}
+{"dataset_id": "acl_6060", "sample_id": 139, "src_lang": "en", "tgt_lang": "zh", "output": "The articles are much longer, with a median length of 77 words, with 140"}
+{"dataset_id": "acl_6060", "sample_id": 140, "src_lang": "en", "tgt_lang": "zh", "output": "Two of them exceeding one."}
+{"dataset_id": "acl_6060", "sample_id": 141, "src_lang": "en", "tgt_lang": "zh", "output": "如前所述，这个问题涵盖了广泛的主题，其中大约85%是关于家庭、住房、金钱或正义的。"}
+{"dataset_id": "acl_6060", "sample_id": 142, "src_lang": "en", "tgt_lang": "zh", "output": "而剩下的百分之十五则涉及社会保障、外国人或工作。"}
+{"dataset_id": "acl_6060", "sample_id": 143, "src_lang": "en", "tgt_lang": "zh", "output": "这些条款也非常多样化，因为它们来自32个不同的比利时法规,涵盖了大量的法律主题。"}
+{"dataset_id": "acl_6060", "sample_id": 144, "src_lang": "en", "tgt_lang": "zh", "output": "这是从这些比利时代码中收集的文章的总数。"}
+{"dataset_id": "acl_6060", "sample_id": 145, "src_lang": "en", "tgt_lang": "zh", "output": "在这22633篇文章中，只有1612篇被认为至少有一定的相关性。"}
+{"dataset_id": "acl_6060", "sample_id": 146, "src_lang": "en", "tgt_lang": "zh", "output": "\"One question in the data sets. And around 80% of these cited articles come from either the civil code, judicial codes, criminal investigation codes, or penal codes.\""}
+{"dataset_id": "acl_6060", "sample_id": 147, "src_lang": "en", "tgt_lang": "zh", "output": "同时,三十二条代码中有十八条提到的文章少于五篇,并且与至少一个问题相关。"}
+{"dataset_id": "acl_6060", "sample_id": 148, "src_lang": "en", "tgt_lang": "zh", "output": "这可以通过这些代码关注较少于个人及其关注的事实来解释。"}
+{"dataset_id": "acl_6060", "sample_id": 149, "src_lang": "en", "tgt_lang": "zh", "output": "总的来说，这些被引用的文章的引用次数的中位数是2，而其中不到25%是。"}
+{"dataset_id": "acl_6060", "sample_id": 150, "src_lang": "en", "tgt_lang": "zh", "output": "使用我们的数据集,我们对包括词法和稠密架构在内的几种检索方法进行了基准测试。"}
+{"dataset_id": "acl_6060", "sample_id": 151, "src_lang": "en", "tgt_lang": "zh", "output": "给定一个查询和一个文章,一个词法模型为查询-文章对分配一个分数,通过计算查询项中每个项的权重之和来计算。"}
+{"dataset_id": "acl_6060", "sample_id": 152, "src_lang": "en", "tgt_lang": "zh", "output": "我们对标准的tfidf和BM25排名函数进行了实验。"}
+{"dataset_id": "acl_6060", "sample_id": 153, "src_lang": "en", "tgt_lang": "zh", "output": "这些方法的主要问题是它们只能检索包含查询中出现的关键字的文章。"}
+{"dataset_id": "acl_6060", "sample_id": 154, "src_lang": "en", "tgt_lang": "zh", "output": "为了克服这一限制,我们尝试使用一种基于神经网络的架构,该架构可以捕获查询和文章之间的语义关系。"}
+{"dataset_id": "acl_6060", "sample_id": 155, "src_lang": "en", "tgt_lang": "zh", "output": "我们使用B-encoder模型将查询和文章映射到高维向量表示中,并通过嵌入的相似性计算查询-文章对之间的相关性。"}
+{"dataset_id": "acl_6060", "sample_id": 156, "src_lang": "en", "tgt_lang": "zh", "output": "这些嵌入通常是由单词嵌入模型输出的池化操作产生的。"}
+{"dataset_id": "acl_6060", "sample_id": 157, "src_lang": "en", "tgt_lang": "zh", "output": "首先,我们研究了泰语 b-encoders 在零射击评估设置中的有效性,这意味着预训练的语音编码模型是预先应用的,无需任何额外的微调。"}
+{"dataset_id": "acl_6060", "sample_id": 158, "src_lang": "en", "tgt_lang": "zh", "output": "我们对上下文独立的文本编码器进行实验，即 word2vec 和 fastText，以及上下文依赖的嵌入模型，即 Roberta 和更具体地说，Camembert，这是一个法国的 Roberta 模型。"}
+{"dataset_id": "acl_6060", "sample_id": 159, "src_lang": "en", "tgt_lang": "zh", "output": "此外,我们训练了自己的基于camembert的模型Beyond Quarters。"}
+{"dataset_id": "acl_6060", "sample_id": 160, "src_lang": "en", "tgt_lang": "zh", "output": "在所有数据集上,请注意,对于训练,我们尝试了Biancoduo架构的两种风味。"}
+{"dataset_id": "acl_6060", "sample_id": 161, "src_lang": "en", "tgt_lang": "zh", "output": "Siamese, which uses a unique word embedding model that maps the query and article together in a shared dense vector space, and Tutoire, which uses two independent word embedding models that encode the query and article separately into different embedding spaces."}
+{"dataset_id": "acl_6060", "sample_id": 162, "src_lang": "en", "tgt_lang": "zh", "output": "我们对均值、最大值和CLS池化以及点积和余弦进行了实验,以计算相似性。"}
+{"dataset_id": "acl_6060", "sample_id": 163, "src_lang": "en", "tgt_lang": "zh", "output": "这是我们在测试集上的基线结果。"}
+{"dataset_id": "acl_6060", "sample_id": 164, "src_lang": "en", "tgt_lang": "zh", "output": "使用上面提到的词法方法,中间的西米语B编码器评估为零冲突设置,下面的精心调整的B编码器。"}
+{"dataset_id": "acl_6060", "sample_id": 165, "src_lang": "en", "tgt_lang": "zh", "output": "总的来说,经过微调的V-Encoder显著优于所有其他基线。"}
+{"dataset_id": "acl_6060", "sample_id": 166, "src_lang": "en", "tgt_lang": "zh", "output": "双塔模型在召回率为100时比其西马尼亚变体有改进,但在其他指标上表现相似。"}
+{"dataset_id": "acl_6060", "sample_id": 167, "src_lang": "en", "tgt_lang": "zh", "output": "尽管BM25在性能上明显低于B-Yankee,但其表现表明它仍然是域特定检索的强大基线。"}
+{"dataset_id": "acl_6060", "sample_id": 168, "src_lang": "en", "tgt_lang": "zh", "output": "关于SiameseBEncoder的零射击评估,我们发现,直接使用预训练的camembert模型的嵌入式,而不针对信息检索任务进行优化,会给出不好的结果,这与之前的发现一致。"}
+{"dataset_id": "acl_6060", "sample_id": 169, "src_lang": "en", "tgt_lang": "zh", "output": "此外,我们观察到基于word2vec的bEncoder显著优于fastText和基于bird的模型,这表明当使用自带时,可能预训练的单词级嵌入比字符级或子词级嵌入更适合该任务。"}
+{"dataset_id": "acl_6060", "sample_id": 170, "src_lang": "en", "tgt_lang": "zh", "output": "虽然这些结果令人鼓舞，但与能够最终检索出所有相关文章以回答任何问题并因此获得完美分数的技能良好的专家相比，这些结果表明了巨大的改进空间。"}
+{"dataset_id": "acl_6060", "sample_id": 171, "src_lang": "en", "tgt_lang": "zh", "output": "让我们最后讨论一下数据集的两个限制。"}
+{"dataset_id": "acl_6060", "sample_id": 172, "src_lang": "en", "tgt_lang": "zh", "output": "首先，本文集仅限于从三十二个被认为的比利时法典中收集的文章,这并不涵盖整个比利时法律,因为缺少了法令、指令和法令的文章。"}
+{"dataset_id": "acl_6060", "sample_id": 173, "src_lang": "en", "tgt_lang": "zh", "output": "在数据集构建过程中，所有引用这些未收集文章的引用都被忽略了，这导致一些问题，最终只剩下最初数量的一小部分相关文章。"}
+{"dataset_id": "acl_6060", "sample_id": 174, "src_lang": "en", "tgt_lang": "zh", "output": "这个信息损失意味着剩余相关文章中的答案可能不完整,尽管它仍然完全适当。"}
+{"dataset_id": "acl_6060", "sample_id": 175, "src_lang": "en", "tgt_lang": "zh", "output": "其次，我们应该注意到并非所有法律问题都可以仅凭法律法规来解决。"}
+{"dataset_id": "acl_6060", "sample_id": 176, "src_lang": "en", "tgt_lang": "zh", "output": "例如,我可以驱逐租户，如果他们制造太多噪音吗?"}
+{"dataset_id": "acl_6060", "sample_id": 177, "src_lang": "en", "tgt_lang": "zh", "output": "可能没有在法规中详细规定,在特定的噪声阈值下,驱逐的量化。"}
+{"dataset_id": "acl_6060", "sample_id": 178, "src_lang": "en", "tgt_lang": "zh", "output": "相反，借款人可能应该更多地依靠案例法，并找到与当前情况类似的先例。"}
+{"dataset_id": "acl_6060", "sample_id": 179, "src_lang": "en", "tgt_lang": "zh", "output": "For example, the tenant makes two parties a week until two weeks."}
+{"dataset_id": "acl_6060", "sample_id": 180, "src_lang": "en", "tgt_lang": "zh", "output": "因此,有些问题比其他问题更适合法律条款检索任务,而不太适合的任务的域仍待确定。"}
+{"dataset_id": "acl_6060", "sample_id": 181, "src_lang": "en", "tgt_lang": "zh", "output": "我们希望所有的工作能引起人们对开发实用且可靠的法定条文检索模型的兴趣。"}
+{"dataset_id": "acl_6060", "sample_id": 182, "src_lang": "en", "tgt_lang": "zh", "output": "That can help improve access to justice for all."}
+{"dataset_id": "acl_6060", "sample_id": 183, "src_lang": "en", "tgt_lang": "zh", "output": "您可以在以下链接处查看我们的论文。谢谢。"}
+{"dataset_id": "acl_6060", "sample_id": 184, "src_lang": "en", "tgt_lang": "zh", "output": "您好，我们很高兴地向您展示我们关于VOWELS的工作，这是一个针对特定语言现象的任务独立基准测试视觉和语言模型。"}
+{"dataset_id": "acl_6060", "sample_id": 185, "src_lang": "en", "tgt_lang": "zh", "output": "为什么我们在设置这个基准时要费心呢?"}
+{"dataset_id": "acl_6060", "sample_id": 186, "src_lang": "en", "tgt_lang": "zh", "output": "好吧，在过去的几年里，我们看到了基于变形器的视觉和语言模型的爆炸式增长，这些模型在大量的图像文本对上进行了预训练。"}
+{"dataset_id": "acl_6060", "sample_id": 187, "src_lang": "en", "tgt_lang": "zh", "output": "每一个这样的模型都在视觉和语言任务上推动了最新的技术，例如视觉问题回答、视觉常识推理、图像检索、短语定位。"}
+{"dataset_id": "acl_6060", "sample_id": 188, "src_lang": "en", "tgt_lang": "zh", "output": "因此,我们得到了一个信息,即这些任务特定基准测试的准确性正在稳步提高。"}
+{"dataset_id": "acl_6060", "sample_id": 189, "src_lang": "en", "tgt_lang": "zh", "output": "但是,我们是否知道模型实际上学到了什么呢?"}
+{"dataset_id": "acl_6060", "sample_id": 190, "src_lang": "en", "tgt_lang": "zh", "output": "What is it that a vision and language transformer understood when assigning a high score for this image and this sentence to match?"}
+{"dataset_id": "acl_6060", "sample_id": 191, "src_lang": "en", "tgt_lang": "zh", "output": "and the low score for this one."}
+{"dataset_id": "acl_6060", "sample_id": 192, "src_lang": "en", "tgt_lang": "zh", "output": "Do vision and language models focus on the right thing?"}
+{"dataset_id": "acl_6060", "sample_id": 193, "src_lang": "en", "tgt_lang": "zh", "output": "还是他们关注偏见,如前作所示?"}
+{"dataset_id": "acl_6060", "sample_id": 194, "src_lang": "en", "tgt_lang": "zh", "output": "为了进一步阐明这一方面,我们提出了一个更具任务无关性的方向,并引入了测试视觉和语言模型对特定语言现象敏感性的任务。"}
+{"dataset_id": "acl_6060", "sample_id": 195, "src_lang": "en", "tgt_lang": "zh", "output": "我们目标存在多重性计数空间关系动作和实体核心引用。"}
+{"dataset_id": "acl_6060", "sample_id": 196, "src_lang": "en", "tgt_lang": "zh", "output": "但是,我们如何测试视觉和语言模型是否捕捉到了这些现象呢?"}
+{"dataset_id": "acl_6060", "sample_id": 197, "src_lang": "en", "tgt_lang": "zh", "output": "通过foiling, 以前用于视觉和语言模型的一个方法,仅用于名词短语，由Ravi Shankar和合作者以及我们在以前的工作中进行计数。"}
+{"dataset_id": "acl_6060", "sample_id": 198, "src_lang": "en", "tgt_lang": "zh", "output": "foiling基本上意味着我们取一个图像的标题并通过改变标题使其不再描述图像来制作一个foil。"}
+{"dataset_id": "acl_6060", "sample_id": 199, "src_lang": "en", "tgt_lang": "zh", "output": "我们通过关注六个特定的部分来进行这些短语的变化，例如存在、复数、计数、空间关系、动作和实体同指，其中每个部分可以由一个或多个工具组成。在我们发现了多个有趣的创建foil实例的情况下。"}
+{"dataset_id": "acl_6060", "sample_id": 200, "src_lang": "en", "tgt_lang": "zh", "output": "例如，在动作片段的情况下,我们有两个工具,一个是将动作动词更改为不同的动作,另一个是交换动作时态。"}
+{"dataset_id": "acl_6060", "sample_id": 201, "src_lang": "en", "tgt_lang": "zh", "output": "Counting and co-reference also are pieces that have more than one instrument."}
+{"dataset_id": "acl_6060", "sample_id": 202, "src_lang": "en", "tgt_lang": "zh", "output": "我们通过确保它们不能描述图像，确保它们是语法正确且无其他问题的句子来创建这些foil。"}
+{"dataset_id": "acl_6060", "sample_id": 203, "src_lang": "en", "tgt_lang": "zh", "output": "这并不容易做到,因为错误的标题可能比原始标题更不可能。"}
+{"dataset_id": "acl_6060", "sample_id": 204, "src_lang": "en", "tgt_lang": "zh", "output": "例如，虽然不可能，但从统计学上讲，植物切割人类的可能性比人类切割植物的可能性要小。大型视觉和语言模型可以解决这个问题。"}
+{"dataset_id": "acl_6060", "sample_id": 205, "src_lang": "en", "tgt_lang": "zh", "output": "因此，为了获得有效的错误，我们必须采取行动。"}
+{"dataset_id": "acl_6060", "sample_id": 206, "src_lang": "en", "tgt_lang": "zh", "output": "首先,我们利用强语言模型提出了错误。"}
+{"dataset_id": "acl_6060", "sample_id": 207, "src_lang": "en", "tgt_lang": "zh", "output": "Second, we use natural language inference or short NLI to filter out foils that could be still describing the image, since when constructing foils, we need to ensure that they fail to describe the image."}
+{"dataset_id": "acl_6060", "sample_id": 208, "src_lang": "en", "tgt_lang": "zh", "output": "To test this automatically, we apply natural language inference with the following rationale."}
+{"dataset_id": "acl_6060", "sample_id": 209, "src_lang": "en", "tgt_lang": "zh", "output": "我们认为图像是前提，而它的标题是所暗示的假设。"}
+{"dataset_id": "acl_6060", "sample_id": 210, "src_lang": "en", "tgt_lang": "zh", "output": "此外,我们认为标题是前提，而幻灯片是其假设。"}
+{"dataset_id": "acl_6060", "sample_id": 211, "src_lang": "en", "tgt_lang": "zh", "output": "如果NLI模型预测的FoIL与标题相矛盾或中立,我们将其视为有效FoIL的指标。"}
+{"dataset_id": "acl_6060", "sample_id": 212, "src_lang": "en", "tgt_lang": "zh", "output": "如果一个NLI预测该片段将被标题所包含，那么它不可能是一个好的片段,因为通过传递性，它将给出图像的真实描述。我们过滤掉这些片段。"}
+{"dataset_id": "acl_6060", "sample_id": 213, "src_lang": "en", "tgt_lang": "zh", "output": "但是这个过程并不完美。它只是有效fouls的一个指标。"}
+{"dataset_id": "acl_6060", "sample_id": 214, "src_lang": "en", "tgt_lang": "zh", "output": "因此,作为生成有效foils的第三种措施,我们聘请人类注释者来验证用于vulns的使用的数据。"}
+{"dataset_id": "acl_6060", "sample_id": 215, "src_lang": "en", "tgt_lang": "zh", "output": "因此,经过筛选和人工评估,我们有了本表中所描述的许多测试实例。"}
+{"dataset_id": "acl_6060", "sample_id": 216, "src_lang": "en", "tgt_lang": "zh", "output": "注意,VALZ只提供测试数据,而不是任何训练数据。"}
+{"dataset_id": "acl_6060", "sample_id": 217, "src_lang": "en", "tgt_lang": "zh", "output": "由于它仅是一个零射击测试基准，因此它旨在利用预训练后的视觉和语言模型的现有功能。"}
+{"dataset_id": "acl_6060", "sample_id": 218, "src_lang": "en", "tgt_lang": "zh", "output": "微调只会使模型利用数据中的伪影或统计偏差。"}
+{"dataset_id": "acl_6060", "sample_id": 219, "src_lang": "en", "tgt_lang": "zh", "output": "我们都知道这些模型喜欢作弊和走捷径。"}
+{"dataset_id": "acl_6060", "sample_id": 220, "src_lang": "en", "tgt_lang": "zh", "output": "正如我们所说,我们有兴趣评估预训练后的分支和语言模型具有哪些能力。"}
+{"dataset_id": "acl_6060", "sample_id": 221, "src_lang": "en", "tgt_lang": "zh", "output": "We experiment with five vision and language models on VOWELS, namely with CLIP, ALXLmert, Vilbert, Vilbert12in1, and Visualbert."}
+{"dataset_id": "acl_6060", "sample_id": 222, "src_lang": "en", "tgt_lang": "zh", "output": "我们两个最重要的评估指标是模型在对图像句子对进行分类时的准确性。"}
+{"dataset_id": "acl_6060", "sample_id": 223, "src_lang": "en", "tgt_lang": "zh", "output": "也许更相关的是这个视频,我们将展示我们的更宽松的指标-pairwise accuracy,它衡量图像句子对齐分数是否大于正确图像文本对齐分数。"}
+{"dataset_id": "acl_6060", "sample_id": 224, "src_lang": "en", "tgt_lang": "zh", "output": "For more metrics and results on them, do check out our paper."}
+{"dataset_id": "acl_6060", "sample_id": 225, "src_lang": "en", "tgt_lang": "zh", "output": "对齐精度的结果显示在这里,它们与我们从其他指标中获得的结果一致。最好的零次射击性能是由Vilbert12in1实现的,其次是Vilbertalexmertclip,最后是Visualbert。"}
+{"dataset_id": "acl_6060", "sample_id": 226, "src_lang": "en", "tgt_lang": "zh", "output": "值得注意的是，专注于单个对象的工具，如存在和名词短语，几乎都被Wilbert 12在1解决了,强调模型能够识别图像中的命名对象及其存在。"}
+{"dataset_id": "acl_6060", "sample_id": 227, "src_lang": "en", "tgt_lang": "zh", "output": "然而,在我们的对抗性欺骗设置中,没有剩余的部分可以可靠地解决。"}
+{"dataset_id": "acl_6060", "sample_id": 228, "src_lang": "en", "tgt_lang": "zh", "output": "我们从计数工具的精度看出，视觉和语言模型在区分单个对象和多个对象的引用或在图像中计数它们方面存在困难。"}
+{"dataset_id": "acl_6060", "sample_id": 229, "src_lang": "en", "tgt_lang": "zh", "output": "The relation piece shows that they have difficulties in correctly classifying a named spatial relation between objects in an image."}
+{"dataset_id": "acl_6060", "sample_id": 230, "src_lang": "en", "tgt_lang": "zh", "output": "他们也有难以区分行为并识别参与者的困难，即使有道义偏见的支持,如我们在行动部分看到的。"}
+{"dataset_id": "acl_6060", "sample_id": 231, "src_lang": "en", "tgt_lang": "zh", "output": "从参考片段中我们发现,使用代词来追踪图像中同一对象的多个引用对视觉和语言模型来说也很困难。"}
+{"dataset_id": "acl_6060", "sample_id": 232, "src_lang": "en", "tgt_lang": "zh", "output": "作为一个sanity check,因为它是一个有趣的实验,我们还对两个文本模型GPT1和GPT2进行了比较,以评估Voss是否可以通过这些单模模型来解决,通过计算正确和错误的标题的困惑和预测具有最低困惑的条目。"}
+{"dataset_id": "acl_6060", "sample_id": 233, "src_lang": "en", "tgt_lang": "zh", "output": "如果foil的困惑程度更高,我们将其视为foiledcaption可能受到plausibilitybias或其他语言偏见的影响的迹象。"}
+{"dataset_id": "acl_6060", "sample_id": 234, "src_lang": "en", "tgt_lang": "zh", "output": "在某些情况下，文本仅的GPT模型已经比视觉和语言模型更好地捕捉了世界的可能性。"}
+{"dataset_id": "acl_6060", "sample_id": 235, "src_lang": "en", "tgt_lang": "zh", "output": "所以，总之，VLAS是一个基准，它利用语言结构的视角来帮助社区通过严格测试来改进视觉和语言模型的视觉基础能力。"}
+{"dataset_id": "acl_6060", "sample_id": 236, "src_lang": "en", "tgt_lang": "zh", "output": "我们的实验表明，视觉和语言模型能够很好地识别图像中存在的命名物体，这一点在存在部分得到了充分的展示。然而，当它们被迫遵守语言指示时，它们在视觉场景中很难确立其相互依存和关系。"}
+{"dataset_id": "acl_6060", "sample_id": 237, "src_lang": "en", "tgt_lang": "zh", "output": "We would really like to encourage the community to use VAlues for measuring progress towards language grounding with vision and language models."}
+{"dataset_id": "acl_6060", "sample_id": 238, "src_lang": "en", "tgt_lang": "zh", "output": "而且更重要的是，瓦尔斯可以用作数据集的间接评估，因为模型可以在训练或微调之前和之后进行评估，以查看数据集是否有助于模型在测试的任何方面都能提高。"}
+{"dataset_id": "acl_6060", "sample_id": 239, "src_lang": "en", "tgt_lang": "zh", "output": "如果您有兴趣，请查看 GitHub 上的 Valls 数据，如果您有任何问题，请随时与我们联系。"}
+{"dataset_id": "acl_6060", "sample_id": 240, "src_lang": "en", "tgt_lang": "zh", "output": "Hello, my name is Kamijima from the University of Tokyo."}
+{"dataset_id": "acl_6060", "sample_id": 241, "src_lang": "en", "tgt_lang": "zh", "output": "我将介绍一篇题为《RNSum: Large Scale Dataset for Automatic Recurrent Neural Network Curation via Commit Log Summarization》的论文。"}
+{"dataset_id": "acl_6060", "sample_id": 242, "src_lang": "en", "tgt_lang": "zh", "output": "我将按照这个顺序解释。"}
+{"dataset_id": "acl_6060", "sample_id": 243, "src_lang": "en", "tgt_lang": "zh", "output": "首先，我将介绍我们在本研究中正在研究的自动短语生成。"}
+{"dataset_id": "acl_6060", "sample_id": 244, "src_lang": "en", "tgt_lang": "zh", "output": "Release note是一个技术文档,总结了每个软件产品版本的发行所带来的变化。"}
+{"dataset_id": "acl_6060", "sample_id": 245, "src_lang": "en", "tgt_lang": "zh", "output": "The image shows the reason note for Baojun 2.6."}
+{"dataset_id": "acl_6060", "sample_id": 246, "src_lang": "en", "tgt_lang": "zh", "output": "US library. These nodes play an important role in open source development, but they are time-consuming to prepare manually."}
+{"dataset_id": "acl_6060", "sample_id": 247, "src_lang": "en", "tgt_lang": "zh", "output": "因此,能够自动生成高质量的发布节点将非常有用。"}
+{"dataset_id": "acl_6060", "sample_id": 248, "src_lang": "en", "tgt_lang": "zh", "output": "我将引用前两项关于自动风险评估的研究。"}
+{"dataset_id": "acl_6060", "sample_id": 249, "src_lang": "en", "tgt_lang": "zh", "output": "第一个是一个叫做Arena的系统，发布于2014年。"}
+{"dataset_id": "acl_6060", "sample_id": 250, "src_lang": "en", "tgt_lang": "zh", "output": "它采用基于规则的方法。例如，使用更改提取器提取版本之间差异的核心差异、库更改和文档更改，最后将它们组合在一起。"}
+{"dataset_id": "acl_6060", "sample_id": 251, "src_lang": "en", "tgt_lang": "zh", "output": "这个系统最显著的特点是右上角的问题提取器。"}
+{"dataset_id": "acl_6060", "sample_id": 252, "src_lang": "en", "tgt_lang": "zh", "output": "Which must be linked to Jira, the issue tracking system, and can only be applied to projects that use Jira."}
+{"dataset_id": "acl_6060", "sample_id": 253, "src_lang": "en", "tgt_lang": "zh", "output": "换言之，它不能用于 GitHub 上的许多项目。"}
+{"dataset_id": "acl_6060", "sample_id": 254, "src_lang": "en", "tgt_lang": "zh", "output": "The second is grief, recently announced in 2021."}
+{"dataset_id": "acl_6060", "sample_id": 255, "src_lang": "en", "tgt_lang": "zh", "output": "2020. It is available on the internet and can be installed via pip."}
+{"dataset_id": "acl_6060", "sample_id": 256, "src_lang": "en", "tgt_lang": "zh", "output": "这个系统有一个简单的基于学习的文本分类模型,并为每个输入提交消息输出五个问题之一,例如功能或bug修复。"}
+{"dataset_id": "acl_6060", "sample_id": 257, "src_lang": "en", "tgt_lang": "zh", "output": "图像是一个示例用法,返回一个集体或修复错误的级别。"}
+{"dataset_id": "acl_6060", "sample_id": 258, "src_lang": "en", "tgt_lang": "zh", "output": "QFES训练数据相当少，大约五千个,将在下面描述的实验中展示。"}
+{"dataset_id": "acl_6060", "sample_id": 259, "src_lang": "en", "tgt_lang": "zh", "output": "文本分类模型的性能不是很高。"}
+{"dataset_id": "acl_6060", "sample_id": 260, "src_lang": "en", "tgt_lang": "zh", "output": "我介绍两个相关的研究，但它们存在有限适用性和数据资源不足的问题。"}
+{"dataset_id": "acl_6060", "sample_id": 261, "src_lang": "en", "tgt_lang": "zh", "output": "我们的论文解决了这两个问题,并自动生成高质量的释放节点。"}
+{"dataset_id": "acl_6060", "sample_id": 262, "src_lang": "en", "tgt_lang": "zh", "output": "对于可扩展性有限的问题,我们提出了一个高质量的聚类摘要方法,仅使用提交消息作为输入。"}
+{"dataset_id": "acl_6060", "sample_id": 263, "src_lang": "en", "tgt_lang": "zh", "output": "这个提议的方法可以用于所有英语期刊。"}
+{"dataset_id": "acl_6060", "sample_id": 264, "src_lang": "en", "tgt_lang": "zh", "output": "对于第二个问题，即数据资源不足,我们构建了一个包含大约八万两千个数据片段的R和SUM数据集,通过使用GitHub API从公共GitHub仓库中收集数据。"}
+{"dataset_id": "acl_6060", "sample_id": 265, "src_lang": "en", "tgt_lang": "zh", "output": "Next, I describe our dataset."}
+{"dataset_id": "acl_6060", "sample_id": 266, "src_lang": "en", "tgt_lang": "zh", "output": "Here is an example of data."}
+{"dataset_id": "acl_6060", "sample_id": 267, "src_lang": "en", "tgt_lang": "zh", "output": "左侧是提交消息，右侧是列表节点。"}
+{"dataset_id": "acl_6060", "sample_id": 268, "src_lang": "en", "tgt_lang": "zh", "output": "这些节点被标记为面孔的改进等。"}
+{"dataset_id": "acl_6060", "sample_id": 269, "src_lang": "en", "tgt_lang": "zh", "output": "我们已经设置了一个任务，该任务将提交消息作为输入，并输出标记的节点。"}
+{"dataset_id": "acl_6060", "sample_id": 270, "src_lang": "en", "tgt_lang": "zh", "output": "这可以被视为总结性任务。"}
+{"dataset_id": "acl_6060", "sample_id": 271, "src_lang": "en", "tgt_lang": "zh", "output": "我们已经预定义了四个级别：功能、改进、错误修复、重复、删除和中断更改。"}
+{"dataset_id": "acl_6060", "sample_id": 272, "src_lang": "en", "tgt_lang": "zh", "output": "这些值是基于先前的研究和其他实践设定的。"}
+{"dataset_id": "acl_6060", "sample_id": 273, "src_lang": "en", "tgt_lang": "zh", "output": "the lease note on the bottom right and extracted from the lease note shown on the bottom left."}
+{"dataset_id": "acl_6060", "sample_id": 274, "src_lang": "en", "tgt_lang": "zh", "output": "在此时，必须检测到提前设置的四个标签。"}
+{"dataset_id": "acl_6060", "sample_id": 275, "src_lang": "en", "tgt_lang": "zh", "output": "但是标签并不总是与每个标签一致。"}
+{"dataset_id": "acl_6060", "sample_id": 276, "src_lang": "en", "tgt_lang": "zh", "output": "例如，改进水平包括改进、增强、优化等。"}
+{"dataset_id": "acl_6060", "sample_id": 277, "src_lang": "en", "tgt_lang": "zh", "output": "我们准备了一个关于每个这些注释变体的研究标签的词汇表。"}
+{"dataset_id": "acl_6060", "sample_id": 278, "src_lang": "en", "tgt_lang": "zh", "output": "使用它来检测 release_note 类并收集 release_note 句子中的 release_note 之后的文本。"}
+{"dataset_id": "acl_6060", "sample_id": 279, "src_lang": "en", "tgt_lang": "zh", "output": "接下来是一个committumessage。"}
+{"dataset_id": "acl_6060", "sample_id": 280, "src_lang": "en", "tgt_lang": "zh", "output": "Commit messages are not tied to each release."}
+{"dataset_id": "acl_6060", "sample_id": 281, "src_lang": "en", "tgt_lang": "zh", "output": "如下图所示，如果当前版本为2.5.19，则需要进行升级。"}
+{"dataset_id": "acl_6060", "sample_id": 282, "src_lang": "en", "tgt_lang": "zh", "output": "The previous release version 2.5 to 18 and get it deep. This is a bit tedious and it is not enough to just get a list of releases and look at the before and after."}
+{"dataset_id": "acl_6060", "sample_id": 283, "src_lang": "en", "tgt_lang": "zh", "output": "我们创建了一个启发式匹配规则来获取前一个和下一个版本。"}
+{"dataset_id": "acl_6060", "sample_id": 284, "src_lang": "en", "tgt_lang": "zh", "output": "Day set analysis."}
+{"dataset_id": "acl_6060", "sample_id": 285, "src_lang": "en", "tgt_lang": "zh", "output": "最终，七千二百个存储库。"}
+{"dataset_id": "acl_6060", "sample_id": 286, "src_lang": "en", "tgt_lang": "zh", "output": "此外,发布节点令牌的平均数量为63,这对于总结任务来说相当高。"}
+{"dataset_id": "acl_6060", "sample_id": 287, "src_lang": "en", "tgt_lang": "zh", "output": "此外，独特代币的数量相当大，达到八千八百三十万。"}
+{"dataset_id": "acl_6060", "sample_id": 288, "src_lang": "en", "tgt_lang": "zh", "output": "Due to the large number of unique class and method names found in the library."}
+{"dataset_id": "acl_6060", "sample_id": 289, "src_lang": "en", "tgt_lang": "zh", "output": "接下来，我将解释所提出的方法。"}
+{"dataset_id": "acl_6060", "sample_id": 290, "src_lang": "en", "tgt_lang": "zh", "output": "类宽度提取然后抽象总结模型由两个神经模块组成。"}
+{"dataset_id": "acl_6060", "sample_id": 291, "src_lang": "en", "tgt_lang": "zh", "output": "A classifier using BART or CodeBERT and a generator using BART."}
+{"dataset_id": "acl_6060", "sample_id": 292, "src_lang": "en", "tgt_lang": "zh", "output": "首先，CES使用分类器对每个提交消息进行分类，分为五类：功能、改进、bug修复、删除和其他。"}
+{"dataset_id": "acl_6060", "sample_id": 293, "src_lang": "en", "tgt_lang": "zh", "output": "分类为\"其他\"的提交消息将被忽略。"}
+{"dataset_id": "acl_6060", "sample_id": 294, "src_lang": "en", "tgt_lang": "zh", "output": "然后，CETAS应用该生成器到四个不同的文档中，并为每个类生成列表节点。"}
+{"dataset_id": "acl_6060", "sample_id": 295, "src_lang": "en", "tgt_lang": "zh", "output": "在此任务中,提交消息和理由节点之间的直接对应关系是不明的。"}
+{"dataset_id": "acl_6060", "sample_id": 296, "src_lang": "en", "tgt_lang": "zh", "output": "因此，为了训练分类器，我们使用每个提交消息的前十个字符为每个提交消息分配两个级别。"}
+{"dataset_id": "acl_6060", "sample_id": 297, "src_lang": "en", "tgt_lang": "zh", "output": "我们通过两种不同的方法对类级别的抽象总结进行建模。"}
+{"dataset_id": "acl_6060", "sample_id": 298, "src_lang": "en", "tgt_lang": "zh", "output": "第一个模型,我们称之为ga-single,由一个单一的单向网络组成,并生成一个单一的错误是 nodetext,给出输入 commit 消息的串联。"}
+{"dataset_id": "acl_6060", "sample_id": 299, "src_lang": "en", "tgt_lang": "zh", "output": "输出文本可以根据特定的类特定终端示例对其进行分类。"}
+{"dataset_id": "acl_6060", "sample_id": 300, "src_lang": "en", "tgt_lang": "zh", "output": "第二种方法,我们称之为csmatch,由四种不同的段到段网络组成，每个网络对应于一个列表节点类。"}
+{"dataset_id": "acl_6060", "sample_id": 301, "src_lang": "en", "tgt_lang": "zh", "output": "好的，让我解释一下这个实验。"}
+{"dataset_id": "acl_6060", "sample_id": 302, "src_lang": "en", "tgt_lang": "zh", "output": "五种方法比较：CAS、CAS单、CAS多、聚类和先前研究格里夫。"}
+{"dataset_id": "acl_6060", "sample_id": 303, "src_lang": "en", "tgt_lang": "zh", "output": "关于评估,在某些情况下,这些节点会在多个句子中输出。"}
+{"dataset_id": "acl_6060", "sample_id": 304, "src_lang": "en", "tgt_lang": "zh", "output": "由于计算句子数量很困难，因此将它们与空格组合在一起，并将其视为一个长句子。"}
+{"dataset_id": "acl_6060", "sample_id": 305, "src_lang": "en", "tgt_lang": "zh", "output": "The view is panoramic when the system outputs a short sentence."}
+{"dataset_id": "acl_6060", "sample_id": 306, "src_lang": "en", "tgt_lang": "zh", "output": "这个惩罚导致实验结果下调了蓝值。接下来描述。"}
+{"dataset_id": "acl_6060", "sample_id": 307, "src_lang": "en", "tgt_lang": "zh", "output": "最后，我们还计算了特异性,因为如果释放节点为空,则无法计算出粗糙和蓝色。"}
+{"dataset_id": "acl_6060", "sample_id": 308, "src_lang": "en", "tgt_lang": "zh", "output": "高特异性意味着模型正确输出空的文本，在读取节点假设为空的情况下。"}
+{"dataset_id": "acl_6060", "sample_id": 309, "src_lang": "en", "tgt_lang": "zh", "output": "Here are the results."}
+{"dataset_id": "acl_6060", "sample_id": 310, "src_lang": "en", "tgt_lang": "zh", "output": "由于 dayset 包含电子邮件地址、哈希值等内容，我们还评估了清理后的 dayset，该清理后的 dayset 中不包含这些内容。"}
+{"dataset_id": "acl_6060", "sample_id": 311, "src_lang": "en", "tgt_lang": "zh", "output": "CAS和CAS在L scores上实现了比基线高出十分的优势。"}
+{"dataset_id": "acl_6060", "sample_id": 312, "src_lang": "en", "tgt_lang": "zh", "output": "特别是在干净的测试集上，提议的方法和基础方法之间的分数差距跳跃到超过20%。"}
+{"dataset_id": "acl_6060", "sample_id": 313, "src_lang": "en", "tgt_lang": "zh", "output": "These results indicate that GHS and GHS have significant effects."}
+{"dataset_id": "acl_6060", "sample_id": 314, "src_lang": "en", "tgt_lang": "zh", "output": "CAS 得到了一个比 CAS 更好的鲁氏分数,这表明结合分类器和生成器在使用伪随机变量训练分类器时是有效的。"}
+{"dataset_id": "acl_6060", "sample_id": 315, "src_lang": "en", "tgt_lang": "zh", "output": "高覆盖率的CAS可以得到保证，因为分类器可以专注于每个类的相关提交消息。"}
+{"dataset_id": "acl_6060", "sample_id": 316, "src_lang": "en", "tgt_lang": "zh", "output": "在大多数情况下，单曲的价格往往高于专辑的价格。"}
+{"dataset_id": "acl_6060", "sample_id": 317, "src_lang": "en", "tgt_lang": "zh", "output": "suggesting that it is also effective to independently develop differently abstractive summarization models for each e-s notebook class."}
+{"dataset_id": "acl_6060", "sample_id": 318, "src_lang": "en", "tgt_lang": "zh", "output": "在这里进行错误分析。"}
+{"dataset_id": "acl_6060", "sample_id": 319, "src_lang": "en", "tgt_lang": "zh", "output": "CS方法往往输出的句子比人类参考句子短。"}
+{"dataset_id": "acl_6060", "sample_id": 320, "src_lang": "en", "tgt_lang": "zh", "output": "在右边的图中，参考句子有三到四个句子，而CS只有一个句子。"}
+{"dataset_id": "acl_6060", "sample_id": 321, "src_lang": "en", "tgt_lang": "zh", "output": "这个模型的回避的原因是，在训练数据中，只有百分之三十三的句子出现在特征级别上，百分之四十在改进级别上。"}
+{"dataset_id": "acl_6060", "sample_id": 322, "src_lang": "en", "tgt_lang": "zh", "output": "此外,CAS方法在没有额外信息的情况下无法生成准确的节点。"}
+{"dataset_id": "acl_6060", "sample_id": 323, "src_lang": "en", "tgt_lang": "zh", "output": "右边的顶部示例是一个非常混乱的提交消息示例。完成的句子不能在没有参考相应的pull请求或问题的情况下生成。"}
+{"dataset_id": "acl_6060", "sample_id": 324, "src_lang": "en", "tgt_lang": "zh", "output": "下面的示例显示，输入中的两个提交消息是相关的，应该合并为一条消息，但它未能做到这一点。"}
+{"dataset_id": "acl_6060", "sample_id": 325, "src_lang": "en", "tgt_lang": "zh", "output": "Finally, a conclusion."}
+{"dataset_id": "acl_6060", "sample_id": 326, "src_lang": "en", "tgt_lang": "zh", "output": "我们构建了一个新的数据集,用于自动语音节点生成。"}
+{"dataset_id": "acl_6060", "sample_id": 327, "src_lang": "en", "tgt_lang": "zh", "output": "我们还制定了输入提交消息并对其进行总结的任务，以便适用于所有以英语编写的项目。"}
+{"dataset_id": "acl_6060", "sample_id": 328, "src_lang": "en", "tgt_lang": "zh", "output": "我们的实验表明,该提议的方法在覆盖率更高的情况下生成的读数更少,比基线要少。"}
+{"dataset_id": "acl_6060", "sample_id": 329, "src_lang": "en", "tgt_lang": "zh", "output": "请看看我们的设计在GitHub上。"}
+{"dataset_id": "acl_6060", "sample_id": 330, "src_lang": "en", "tgt_lang": "zh", "output": "Thank you."}
+{"dataset_id": "acl_6060", "sample_id": 331, "src_lang": "en", "tgt_lang": "zh", "output": "Hello, my name is Safar Ali."}
+{"dataset_id": "acl_6060", "sample_id": 332, "src_lang": "en", "tgt_lang": "zh", "output": "我将介绍我们的论文《通过微调变换器架构实现短表数据增强》。"}
+{"dataset_id": "acl_6060", "sample_id": 333, "src_lang": "en", "tgt_lang": "zh", "output": "Data scientists analyze data and mainly focus on manipulating the data's existing features."}
+{"dataset_id": "acl_6060", "sample_id": 334, "src_lang": "en", "tgt_lang": "zh", "output": "但是有时这些功能是有限制的。"}
+{"dataset_id": "acl_6060", "sample_id": 335, "src_lang": "en", "tgt_lang": "zh", "output": "使用其他数据源进行特征生成可能会添加大量信息。"}
+{"dataset_id": "acl_6060", "sample_id": 336, "src_lang": "en", "tgt_lang": "zh", "output": "Our research goal is automatic tabular data enrichment using external sources of free text."}
+{"dataset_id": "acl_6060", "sample_id": 337, "src_lang": "en", "tgt_lang": "zh", "output": "假设我们有一个表数据集和一个知识库。"}
+{"dataset_id": "acl_6060", "sample_id": 338, "src_lang": "en", "tgt_lang": "zh", "output": "We need an automatic process which involve entity linking and text analysis to extract new features from the knowledge base free text."}
+{"dataset_id": "acl_6060", "sample_id": 339, "src_lang": "en", "tgt_lang": "zh", "output": "我们的框架首先就是这个自动过程。"}
+{"dataset_id": "acl_6060", "sample_id": 340, "src_lang": "en", "tgt_lang": "zh", "output": "让我们看一个示例。在数据集中，输入太快。"}
+{"dataset_id": "acl_6060", "sample_id": 341, "src_lang": "en", "tgt_lang": "zh", "output": "在这个例子中，数据集是大学数据集。"}
+{"dataset_id": "acl_6060", "sample_id": 342, "src_lang": "en", "tgt_lang": "zh", "output": "当其目标是将大学分为低排名大学和高排名大学时。"}
+{"dataset_id": "acl_6060", "sample_id": 343, "src_lang": "en", "tgt_lang": "zh", "output": "As knowledge base, we use Wikipedia."}
+{"dataset_id": "acl_6060", "sample_id": 344, "src_lang": "en", "tgt_lang": "zh", "output": "第一个阶段是实体链接。"}
+{"dataset_id": "acl_6060", "sample_id": 345, "src_lang": "en", "tgt_lang": "zh", "output": "当每个实体在此示例中，大学名称与知识库中的实体相关联。"}
+{"dataset_id": "acl_6060", "sample_id": 346, "src_lang": "en", "tgt_lang": "zh", "output": "Knowledge base entity texts are extracted and added to the dataset."}
+{"dataset_id": "acl_6060", "sample_id": 347, "src_lang": "en", "tgt_lang": "zh", "output": "在这个例子中，文本是维基百科页面摘要。"}
+{"dataset_id": "acl_6060", "sample_id": 348, "src_lang": "en", "tgt_lang": "zh", "output": "现在我们需要从检索文本中生成或提取特征。"}
+{"dataset_id": "acl_6060", "sample_id": 349, "src_lang": "en", "tgt_lang": "zh", "output": "所以我们需要一个包括文本分析的特征提取阶段。"}
+{"dataset_id": "acl_6060", "sample_id": 350, "src_lang": "en", "tgt_lang": "zh", "output": "这是本文的主要内容，我将在接下来的幻灯片中深入探讨。"}
+{"dataset_id": "acl_6060", "sample_id": 351, "src_lang": "en", "tgt_lang": "zh", "output": "在提取特征之后，有一个特征生成阶段，我们使用提取的特征来生成一小批新特征。"}
+{"dataset_id": "acl_6060", "sample_id": 352, "src_lang": "en", "tgt_lang": "zh", "output": "首先,在原始数据集的类数中生成特征。"}
+{"dataset_id": "acl_6060", "sample_id": 353, "src_lang": "en", "tgt_lang": "zh", "output": "在这个例子中,原始数据集有两个类。"}
+{"dataset_id": "acl_6060", "sample_id": 354, "src_lang": "en", "tgt_lang": "zh", "output": "所以它快速生成了两个新特征。"}
+{"dataset_id": "acl_6060", "sample_id": 355, "src_lang": "en", "tgt_lang": "zh", "output": "但是,如果数据集有五个类,则首先生成五个新特征。"}
+{"dataset_id": "acl_6060", "sample_id": 356, "src_lang": "en", "tgt_lang": "zh", "output": "每个特征都表示每个类的可能性。"}
+{"dataset_id": "acl_6060", "sample_id": 357, "src_lang": "en", "tgt_lang": "zh", "output": "To analyze the text, we use the current state of the art of text analysis, which are transformer-based language models such as bert, gpt, xlnet, etc."}
+{"dataset_id": "acl_6060", "sample_id": 358, "src_lang": "en", "tgt_lang": "zh", "output": "But it is not likely that we can train language model using the input datasets."}
+{"dataset_id": "acl_6060", "sample_id": 359, "src_lang": "en", "tgt_lang": "zh", "output": "因此，NaiveApproach将成为目标任务的微调。"}
+{"dataset_id": "acl_6060", "sample_id": 360, "src_lang": "en", "tgt_lang": "zh", "output": "因此，在特征提取阶段,我们可以下载双语言模型,并在目标数据集上微调语言模型。"}
+{"dataset_id": "acl_6060", "sample_id": 361, "src_lang": "en", "tgt_lang": "zh", "output": "在这个示例中，微调语言模型以将文本分类为类，抽象为类，低或高。"}
+{"dataset_id": "acl_6060", "sample_id": 362, "src_lang": "en", "tgt_lang": "zh", "output": "接收语言模型输出，即每个类的可能性，并将其用作新特征。"}
+{"dataset_id": "acl_6060", "sample_id": 363, "src_lang": "en", "tgt_lang": "zh", "output": "这种方法的问题是数据集可能只有少数不同的实体类型。"}
+{"dataset_id": "acl_6060", "sample_id": 364, "src_lang": "en", "tgt_lang": "zh", "output": "在我们的实验中，几乎一半的数据集包含的样本数量小于 400 个，最小的数据集包含 35 个样本。"}
+{"dataset_id": "acl_6060", "sample_id": 365, "src_lang": "en", "tgt_lang": "zh", "output": "因此，在此数据集上对语言模型进行微调将是无效的。"}
+{"dataset_id": "acl_6060", "sample_id": 366, "src_lang": "en", "tgt_lang": "zh", "output": "但是我们可以使用关于预分析数据集的先验知识。"}
+{"dataset_id": "acl_6060", "sample_id": 367, "src_lang": "en", "tgt_lang": "zh", "output": "因为 fast 是我们在多个数据集上应用 fast 的，所以我们可以使用 n-1 数据集来收集有关 n-1 数据集的信息，并在分析第 n 个数据集时使用这些信息。"}
+{"dataset_id": "acl_6060", "sample_id": 368, "src_lang": "en", "tgt_lang": "zh", "output": "我们建议添加另一个微调阶段。"}
+{"dataset_id": "acl_6060", "sample_id": 369, "src_lang": "en", "tgt_lang": "zh", "output": "Preliminary multi-task fine-tuning phase."}
+{"dataset_id": "acl_6060", "sample_id": 370, "src_lang": "en", "tgt_lang": "zh", "output": "当你在N个数据集上调整语言模型时。"}
+{"dataset_id": "acl_6060", "sample_id": 371, "src_lang": "en", "tgt_lang": "zh", "output": "然后我们执行另一个微调阶段，即目标任务微调。当我们在第n个目标数据集上微调语言模型时。"}
+{"dataset_id": "acl_6060", "sample_id": 372, "src_lang": "en", "tgt_lang": "zh", "output": "在多任务微调中最先进的状态称为MTDN。"}
+{"dataset_id": "acl_6060", "sample_id": 373, "src_lang": "en", "tgt_lang": "zh", "output": "In MT-DNN, MT-DNN maintains a heads in the number of tasks in the training set."}
+{"dataset_id": "acl_6060", "sample_id": 374, "src_lang": "en", "tgt_lang": "zh", "output": "在这个示例中，训练集中有四个任务,所以mtcnn和保持四个头部,如图所示。"}
+{"dataset_id": "acl_6060", "sample_id": 375, "src_lang": "en", "tgt_lang": "zh", "output": "它从训练集中随机抽取一个批次。"}
+{"dataset_id": "acl_6060", "sample_id": 376, "src_lang": "en", "tgt_lang": "zh", "output": "如果运行批处理属于例如单句分类任务,它执行前向和后向通过第一个头。"}
+{"dataset_id": "acl_6060", "sample_id": 377, "src_lang": "en", "tgt_lang": "zh", "output": "如果随机批次属于对偶排名任务，则通过最后一个头执行向后路径。"}
+{"dataset_id": "acl_6060", "sample_id": 378, "src_lang": "en", "tgt_lang": "zh", "output": "在我们的场景中,一个数据集的表格位于类的数量。"}
+{"dataset_id": "acl_6060", "sample_id": 379, "src_lang": "en", "tgt_lang": "zh", "output": "所以有很多任务。"}
+{"dataset_id": "acl_6060", "sample_id": 380, "src_lang": "en", "tgt_lang": "zh", "output": "Ntdnn maintains the number of class heads and output layers."}
+{"dataset_id": "acl_6060", "sample_id": 381, "src_lang": "en", "tgt_lang": "zh", "output": "此外，mtddn还需要为一个具有新任务的新数据集初始化新的头。"}
+{"dataset_id": "acl_6060", "sample_id": 382, "src_lang": "en", "tgt_lang": "zh", "output": "我们的方法称为任务重构微调。在我们的方法中，任务重构微调。相反于维护多个头部,我们将每个数据集重构为一个句子。每个分类问题都是两个类任务。"}
+{"dataset_id": "acl_6060", "sample_id": 383, "src_lang": "en", "tgt_lang": "zh", "output": "让我们看一个例子。"}
+{"dataset_id": "acl_6060", "sample_id": 384, "src_lang": "en", "tgt_lang": "zh", "output": "\"Here is our input dataset, which consists of entities, features, text, and classes.\""}
+{"dataset_id": "acl_6060", "sample_id": 385, "src_lang": "en", "tgt_lang": "zh", "output": "我们将重新表述任务，从将文本分类为低和高，转变为将文本、摘要和类分为真或假。"}
+{"dataset_id": "acl_6060", "sample_id": 386, "src_lang": "en", "tgt_lang": "zh", "output": "或者换句话说,我们训练语言模型来对抽象的n类进行分类，判断抽象是否属于该类。"}
+{"dataset_id": "acl_6060", "sample_id": 387, "src_lang": "en", "tgt_lang": "zh", "output": "因此，在这种情况下，标签向量始终保持着两个类的组成。"}
+{"dataset_id": "acl_6060", "sample_id": 388, "src_lang": "en", "tgt_lang": "zh", "output": "这是我们重新制定的微调方法的算法。"}
+{"dataset_id": "acl_6060", "sample_id": 389, "src_lang": "en", "tgt_lang": "zh", "output": "O, let's see the full framework."}
+{"dataset_id": "acl_6060", "sample_id": 390, "src_lang": "en", "tgt_lang": "zh", "output": "A dataset fades in too fast."}
+{"dataset_id": "acl_6060", "sample_id": 391, "src_lang": "en", "tgt_lang": "zh", "output": "然后是快速执行实体链接阶段。"}
+{"dataset_id": "acl_6060", "sample_id": 392, "src_lang": "en", "tgt_lang": "zh", "output": "它从知识库中提取文本，在本例中是维基百科页面的摘要。"}
+{"dataset_id": "acl_6060", "sample_id": 393, "src_lang": "en", "tgt_lang": "zh", "output": "然后它将任务重新表述为一个句子,一个句子分类任务。"}
+{"dataset_id": "acl_6060", "sample_id": 394, "src_lang": "en", "tgt_lang": "zh", "output": "将语言模型应用于新任务，并对每个类的输出可能性进行输出。"}
+{"dataset_id": "acl_6060", "sample_id": 395, "src_lang": "en", "tgt_lang": "zh", "output": "注意，该语言模型已在N-1个数据集上进行预liminary多任务微调。"}
+{"dataset_id": "acl_6060", "sample_id": 396, "src_lang": "en", "tgt_lang": "zh", "output": "然后我们使用语言模型的输出向量作为新生成的特征在类数中。"}
+{"dataset_id": "acl_6060", "sample_id": 397, "src_lang": "en", "tgt_lang": "zh", "output": "为了评估我们的框架,我们使用了一个17个类别的表格数据集,其大小、特征、平衡、域和初始性能各不相同。"}
+{"dataset_id": "acl_6060", "sample_id": 398, "src_lang": "en", "tgt_lang": "zh", "output": "And as knowledge base we use Wikipedia."}
+{"dataset_id": "acl_6060", "sample_id": 399, "src_lang": "en", "tgt_lang": "zh", "output": "我们设计的实验是，离开一个评估当我们在十六个数据集上快速训练并应用到第十七个数据集时。"}
+{"dataset_id": "acl_6060", "sample_id": 400, "src_lang": "en", "tgt_lang": "zh", "output": "We also split each data set into folds and apply a cross-validation."}
+{"dataset_id": "acl_6060", "sample_id": 401, "src_lang": "en", "tgt_lang": "zh", "output": "然后,我们生成新的特征并使用五个评估分类器对它们进行评估。"}
+{"dataset_id": "acl_6060", "sample_id": 402, "src_lang": "en", "tgt_lang": "zh", "output": "我们在实验中使用基于bird的架构。"}
+{"dataset_id": "acl_6060", "sample_id": 403, "src_lang": "en", "tgt_lang": "zh", "output": "以下是我们实验的结果。"}
+{"dataset_id": "acl_6060", "sample_id": 404, "src_lang": "en", "tgt_lang": "zh", "output": "你可以看到,我们将我们的框架与目标数据集进行微调，目标任务微调和MT-DNN初步微调进行比较。"}
+{"dataset_id": "acl_6060", "sample_id": 405, "src_lang": "en", "tgt_lang": "zh", "output": "And our reformulated fine-tuning achieve the best result, the best performance."}
+{"dataset_id": "acl_6060", "sample_id": 406, "src_lang": "en", "tgt_lang": "zh", "output": "而MTDNN在目标数据集的微调上实现了百分之二的改进。"}
+{"dataset_id": "acl_6060", "sample_id": 407, "src_lang": "en", "tgt_lang": "zh", "output": "Our poach achieved 6% improvement."}
+{"dataset_id": "acl_6060", "sample_id": 408, "src_lang": "en", "tgt_lang": "zh", "output": "当我们观察小数据集时，我们可以看到，MTDN 的性能下降，而初步多任务微调阶段的改进下降到 1.5%。"}
+{"dataset_id": "acl_6060", "sample_id": 409, "src_lang": "en", "tgt_lang": "zh", "output": "但是我们的表现提高了11%与目标任务的微调相比。"}
+{"dataset_id": "acl_6060", "sample_id": 410, "src_lang": "en", "tgt_lang": "zh", "output": "For summing, fast enables few-shot enrichment from thirty-five samples in our experiment."}
+{"dataset_id": "acl_6060", "sample_id": 411, "src_lang": "en", "tgt_lang": "zh", "output": "它使用一个架构来处理所有任务数据集。"}
+{"dataset_id": "acl_6060", "sample_id": 412, "src_lang": "en", "tgt_lang": "zh", "output": "And he keeps the head of the model."}
+{"dataset_id": "acl_6060", "sample_id": 413, "src_lang": "en", "tgt_lang": "zh", "output": "But it adds a reformulation phase."}
+{"dataset_id": "acl_6060", "sample_id": 414, "src_lang": "en", "tgt_lang": "zh", "output": "It's augmented train set and it's needs a target value with semantic meaning so we can feed it into the language model and use it in the sentence pair classification problem."}
+{"dataset_id": "acl_6060", "sample_id": 415, "src_lang": "en", "tgt_lang": "zh", "output": "Thank you."}

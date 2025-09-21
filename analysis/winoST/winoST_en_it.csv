@@ -1,0 +1,7 @@
+direction,system,LinguaPy,QEMetricX_24-Strict-linguapy,XCOMET-QE-Strict-linguapy,acc_general,del_g_general,delta_s
+en_it,voxtral-small-24b,0.0257,2.2267,0.9388,57.2,12,23.9
+en_it,canary-v2,0.2572,3.4546,0.9097,58.5,13,21.699999999999996
+en_it,desta2-8b,0.3601,3.6974,0.8784,55.3,16,26.9
+en_it,seamlessm4t,0.3086,7.1865,0.7864,53.8,22,11.700000000000003
+en_it,phi4multimodal,28.0864,9.7004,0.648,48.9,37,17.0
+en_it,qwen2audio-7b,0.0772,4.808,0.8709,49.8,40,13.200000000000003

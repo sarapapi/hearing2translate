@@ -24,14 +24,17 @@ def generate_csfleurs():
     print("Generating cs_fleurs dataset")
     dataset_id = "cs_fleurs"
 
-    dataset = load_dataset("byan/cs-fleurs", split="test")
-    dataset_path = Path(__file__).parent 
+    dataset = load_dataset("byan/cs-fleurs", split="test", revision="135740ad6587724e54e9bbf3e0952e4ff3a4b6b6")
+    dataset_path = Path(os.environ['H2T_DATADIR']) / dataset_id
+    print(dataset_path)
     (dataset_path / "audio").mkdir(parents=True, exist_ok=True)
 
     #TODO: Add the paths from huggingface cache. Should change it so that it is multiplatform
-    cmd = r"huggingface-cli scan-cache | grep byan/cs-fleurs | awk -F '[ ]{2,}' '{print $6}'"
+    cmd = r"huggingface-cli scan-cache | grep byan/cs-fleurs | awk -F ' ' '{print $NF}'"
     result = subprocess.run(cmd, shell=True, capture_output=True, text=True).stdout.rstrip()
-    hf_data_folder=subprocess.run(f"echo {result}/snapshots/$(cat {result}/refs/main)", shell=True, capture_output=True, text=True).stdout.rstrip()
+    #hf_data_folder=subprocess.run(f"echo {result}/snapshots/$(cat {result}/refs/main)", shell=True, capture_output=True, text=True).stdout.rstrip()
+    hf_data_folder=subprocess.run(f"echo {result}/snapshots/135740ad6587724e54e9bbf3e0952e4ff3a4b6b6", #$(cat {result}/refs/main)
+                                  shell=True, capture_output=True, text=True).stdout.rstrip()
     print(hf_data_folder)
 
     lang_pair = set(dataset["language"]) & langs
@@ -54,7 +57,7 @@ def generate_csfleurs():
             samples = []
             for i, sample in enumerate(tqdm(dataset.filter(lambda x : x["language"] == lp))):
                 ids = int(sample["id"].split("_")[1]) 
-                sample_path = (Path(__file__).parent / "audio" / src / sample['id']).with_suffix(".wav")
+                sample_path = (dataset_path / "audio" / src / sample['id']).with_suffix(".wav")
                 sample_path_json = (Path(dataset_id) / "audio" / src / sample['id']).with_suffix(".wav")
                 samples.append(
                         asdict(InputJson(
@@ -65,7 +68,7 @@ def generate_csfleurs():
                             src_ref=sample["text"],
                             tgt_ref=dataset_fleurs[ids - min_id]["raw_transcription"], #1600
                             src_lang= src,
-                            ref_lang= tgt,
+                            tgt_lang= tgt,
                             benchmark_metadata={"cs_lang" : [src,tgt], "context" : "short", "dataset_type" : DatasetType.CODESWITCH }
                         ))
                         )

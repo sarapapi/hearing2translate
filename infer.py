@@ -4,16 +4,15 @@ import importlib
 import json
 import os
 from tqdm import tqdm
-from transformers import set_seed
 import sys
 
-set_seed(42)
 
 MODEL_MODULES = {
     # speech foundation models
     "canary-v2": "inference.sfm.canaryv2",
     "whisper": "inference.sfm.whisper",
     "seamlessm4t": "inference.sfm.seamlessm4t",
+    "owsm4.0-ctc" : "inference.sfm.owsm",
 
     # speechllms
     "desta2-8b": "inference.speechllm.desta2",
@@ -61,6 +60,10 @@ def setup_model(model_name, modality):
     # For other modalities, use the existing MODULE_MODULES mapping
     if model_name not in MODEL_MODULES:
         raise NotImplementedError(f"Model {model_name} currently not supported!")
+    if model_name != "test_dataset":
+        logging.info("Setting transformers seed to 42 for reproducibility.")
+        from transformers import set_seed
+        set_seed(42)
 
     module_name = MODEL_MODULES[model_name]
     module = importlib.import_module(module_name)
@@ -149,11 +152,24 @@ def infer(args):
                 key = (entry["dataset_id"], entry["sample_id"])
                 transcripts[key] = entry["output"]  # Store the 'output' field as the value
 
-    if args.out_file:
+
+    inlines = list(read_jsonl(args.in_file))
+    if vars(args)["continue"]:
+        if not args.out_file:
+            raise ValueError("To continue, --out-file must be set.")
+        if not os.path.exists(args.out_file):
+            outlines = []
+        else:
+            with open(args.out_file, "r") as f:
+                outlines = f.readlines()
+        logging.info(f"Continuing from {args.out_file}, skipping {len(outlines)} already processed inputs.")
+        inlines = inlines[len(outlines):]
+        outfile = open(args.out_file, "a", encoding="utf-8")
+    elif args.out_file:
         outfile = open(args.out_file, "w", encoding="utf-8")
     else:
         outfile = sys.stdout
-    for sample in tqdm(list(read_jsonl(args.in_file)), desc="Generating Outputs"):
+    for sample in tqdm(inlines, desc="Generating Outputs"):
         src_lang = sample.get("src_lang")
         if args.asr:
             tgt_lang = src_lang
@@ -185,9 +201,7 @@ def infer(args):
     if args.out_file:
         outfile.close()
 
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Hearing to Translate output generation.")
+def add_infer_args(parser):
     parser.add_argument("--model", choices=MODELS, required=True,
                         help="Model to be used for inference")
     parser.add_argument("--in-modality", choices=["speech", "text"], required=True,
@@ -198,6 +212,14 @@ if __name__ == "__main__":
                         help="Optional JSONL with transcripts for text modality")
     parser.add_argument("--asr", default=False, action="store_true",
                         help="If set, the speech model is used as ASR for the src lang. Tgt language is ignored.")
+    parser.add_argument("--continue", default=False, action="store_true",
+                        help="If set, append new outputs to existing out-file, skipping already processed inputs.")
+    return parser
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Hearing to Translate output generation.")
+    parser = add_infer_args(parser)
     args = parser.parse_args()
 
     logging.basicConfig(level=logging.INFO)

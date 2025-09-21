@@ -1,0 +1,1 @@
+{"SacreBLEU": 37.2093, "chrF": 31.0912, "XCOMET": 0.8205, "XCOMET-QE": 0.8065, "RefMetricX_24": 2.7911, "QEMetricX_24": 2.91, "LinguaPy": 0.9465, "RefMetricX_24-Strict-linguapy": 2.8942, "QEMetricX_24-Strict-linguapy": 2.9889, "XCOMET-Strict-linguapy": 0.8136, "XCOMET-QE-Strict-linguapy": 0.7991}

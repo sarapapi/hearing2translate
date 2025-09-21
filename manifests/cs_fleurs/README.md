@@ -1,41 +1,71 @@
-# How to use CS-FLEURS (Codeswitched FLEURS)
+# CS-FLEURS (Codeswitched FLEURS)
 
-# Task
-- Primary: Code-switching
-- Secondaty: Gender-bias
+## Overview
 
-Short form dataset
+CS-FLEURS is a **code-switched** version of the FLEURS dataset designed for:
 
-# Dependencies
-Need datasets<=3.6.0 due to using a Huggignface dataset script (scripts are deprecated with versions>4.0.0)
-huggingface_hub[cli] is also needed for getting the correct path of the dataset for linking the audio files from HuggingFace cache.
+* **Primary Task:** Code-switching research.
+* **Secondary Task:** Gender-bias analysis.
 
+This is a **short-form dataset** derived from the **CS-FLEURS-READ-TEST** subset, which supports **14 directions in total** (`XXX-eng`). In this release, **4 language directions** are provided.
 
-# Description
-The `generate.py` script downloads and prepares the 4 langs supported from the CS-FLEURS-READ subset of CS-FLEURS, a code-switeched version of the FLEURS dataset. 
+From the original article:
 
-** CS-FLEURS-READ has 14 supported directions in total -> XXX-eng
-
-From the article
 > "...for each code-switched pair, one language, referred to as Matrix,
-provides grammatical structure while a second language, re-
-ferred to as Embedded, provides words or morphological units
-that are inserted within the sentence. We refer to language pairs
-as Matrix-Embedded; for instance, Mandarin-English refers to
-a Mandarin matrix sentence with English words embedded..."
+> provides grammatical structure while a second language, referred to as Embedded, provides words or morphological units
+> that are inserted within the sentence. We refer to language pairs
+> as Matrix-Embedded; for instance, Mandarin-English refers to
+> a Mandarin matrix sentence with English words embedded..."
 
-For all our languages, **English** is the embedded langaugue and **target** language.
+For all supported directions here, **English** is both the **embedded** and **target** language.
 
-```bash
-python generate.py 
+* [Interspeech 2025 Paper](https://www.isca-archive.org/interspeech_2025/yan25c_interspeech.html)
+* [Hugging Face Dataset](https://huggingface.co/datasets/byan/cs-fleurs)
+```bibtex
+@inproceedings{yan25c_interspeech,
+  title     = {{CS-FLEURS: A Massively Multilingual and Code-Switched Speech Dataset}},
+  author    = {Brian Yan and Injy Hamed and Shuichiro Shimizu and Vasista Sai Lodagala and William Chen and Olga Iakovenko and Bashar Talafha and Amir Hussein and Alexander Polok and Kalvin Chang and Dominik Klement and Sara Althubaiti and Puyuan Peng and Matthew Wiesner and Thamar Solorio and Ahmed Ali and Sanjeev Khudanpur and Shinji Watanabe},
+  year      = {2025},
+  booktitle = {{Interspeech 2025}},
+  pages     = {743--747},
+  doi       = {10.21437/Interspeech.2025-2247},
+  issn      = {2958-1796},
+}
 ```
-# Languages directions
-- de-en
-- es-en
-- fr-en
-- zh-en
+---
 
+## Instructions
 
-# Reference and Links
-https://www.isca-archive.org/interspeech_2025/yan25c_interspeech.html
-https://huggingface.co/datasets/byan/cs-fleurs
+1. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Run the `generate.py` script to download and prepare the dataset:
+
+   ```bash
+   python generate.py
+   ```
+3. The script will:
+
+   * Download and prepare the **4 supported languages** from the **CS-FLEURS-READ** subset.
+   * Link the audio files from the Hugging Face cache.
+
+---
+
+## Expected Output
+
+* A processed CS-FLEURS dataset containing the 4 supported code-switched language directions, ready for use in code-switching and gender-bias tasks.
+
+Supported directions:
+
+* `de-en`
+* `es-en`
+* `fr-en`
+* `zh-en`
+
+---
+
+## License
+
+CS-Fleurs is released under a Creative Commons Attribution Non Commercial 4.0 license (cc-by-nc-4.0).

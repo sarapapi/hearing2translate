@@ -22,7 +22,14 @@ from languages.gendered_article import GenderedArticlePredictor, \
     get_german_determiners, GERMAN_EXCEPTION
 from evaluate import evaluate_bias
 from languages.stanza_support import StanzaPredictor
+from lingua import LanguageDetectorBuilder
+from languages.util import GENDER, WB_GENDER_TYPES
 #=-----
+
+MAPPING_TO_LINGUA_LABEL = {
+    'it': 'ITALIAN', 'es':'SPANISH', 'de':'GERMAN', 'zh':'CHINESE', 
+    'pt': 'PORTUGUESE', 'en':'ENGLISH', 'fr':'FRENCH', 'nl': 'DUTCH'
+}
 
 LANGAUGE_PREDICTOR= {
     "es": lambda: SpacyPredictor("es"),
@@ -251,6 +258,19 @@ if __name__ == "__main__":
                                       tgt_inds,
                                       map(lambda ls:min(ls, default = -1), tgt_inds),
                                       ds))]
+
+    lingua_model = LanguageDetectorBuilder.from_all_spoken_languages().build()
+    predictions = [ lingua_model.detect_language_of( tr.replace('\n', '') ) for tr in target_sentences ]
+    try:
+        predicted_langs = [pred.name for pred in predictions]
+    except:
+        predicted_langs = [getattr(pred, 'name', 'UNKNOWN') for pred in predictions]
+
+    TGT_LANG = MAPPING_TO_LINGUA_LABEL[lang]
+    off_targets = [ 1 if lang != TGT_LANG else 0 for lang in predicted_langs]
+
+    # set to ignore those genders predicted when there was an off-target translation
+    gender_predictions = [i if off_target != 1 else GENDER.ignore for i, off_target in zip(gender_predictions, off_targets)]
 
     orig_genders = list(map(itemgetter(0), ds))
     tgt_prof = list(map(itemgetter(3), ds))

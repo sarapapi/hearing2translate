@@ -83,7 +83,7 @@ def process_fleurs_dataset():
                 tgt_transcriptions = {item['id']: item['raw_transcription'] for item in tgt_dataset}
 
                 # 3. Create and write to the JSONL file
-                jsonl_filename = f"{src_lang}-{tgt_lang}.jsonl"
+                jsonl_filename = f"./manifests/fleurs/{src_lang}-{tgt_lang}.jsonl"
                 records_written = 0
                 with open(jsonl_filename, 'w', encoding='utf-8') as f:
                     for sample in src_dataset:
@@ -94,7 +94,7 @@ def process_fleurs_dataset():
                             continue
 
                         # Define the audio file path
-                        audio_filename = f"{sample_id}.wav"
+                        audio_filename = sample['path'].split('/')[-1] #f"{sample_id}.wav"
                         audio_filepath = os.path.join(audio_output_dir, audio_filename)
                         relative_audio_path = os.path.join("fleurs", "audio", src_lang, audio_filename)
 

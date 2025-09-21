@@ -1,0 +1,3 @@
+direction,system,SacreBLEU,chrF,XCOMET,XCOMET-QE,RefMetricX_24,QEMetricX_24,LinguaPy,RefMetricX_24-Strict-linguapy,QEMetricX_24-Strict-linguapy,XCOMET-Strict-linguapy,XCOMET-QE-Strict-linguapy
+de_en,qwen2audio-7b,27.5195,54.0637,0.7669,0.7317,6.7382,6.1235,5.7805,7.7034,7.1252,0.7263,0.6914
+de_en,phi4multimodal,37.5324,61.3456,0.8952,0.8808,4.7501,4.6742,12.76,6.9298,6.771,0.7796,0.7631

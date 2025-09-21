@@ -4,8 +4,11 @@ from comet import download_model, load_from_checkpoint
 
 class XCOMET():
     def __init__(self, model: str):
-
-        model_path = download_model(model)
+        
+        if model in ['Unbabel/XCOMET-XXL', 'Unbabel/XCOMET-XL']:
+            model_path = download_model(model)
+        else:
+            model_path = model
         self.model = load_from_checkpoint(model_path)
         self.model.eval()
 

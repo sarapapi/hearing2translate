@@ -11,3 +11,7 @@ pydub
 jsonlines
 langcodes
 dotenv
+spirelm @ git+https://github.com/utter-project/SpireLM@e0b3744
+sentencepiece
+protobuf
+accelerate

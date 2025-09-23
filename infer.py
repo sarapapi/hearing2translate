@@ -4,15 +4,16 @@ import importlib
 import json
 import os
 from tqdm import tqdm
+from transformers import set_seed
 import sys
 
+set_seed(42)
 
 MODEL_MODULES = {
     # speech foundation models
     "canary-v2": "inference.sfm.canaryv2",
     "whisper": "inference.sfm.whisper",
     "seamlessm4t": "inference.sfm.seamlessm4t",
-    "owsm4.0-ctc" : "inference.sfm.owsm",
 
     # speechllms
     "desta2-8b": "inference.speechllm.desta2",
@@ -57,13 +58,9 @@ def setup_model(model_name, modality):
         model = load_func(model_name)
         return model, generate_func
     
-    # For other modalities, use the existing MODULE_MODULES mapping
+    # For speech modality, validate model is in supported list
     if model_name not in MODEL_MODULES:
-        raise NotImplementedError(f"Model {model_name} currently not supported!")
-    if model_name != "test_dataset":
-        logging.info("Setting transformers seed to 42 for reproducibility.")
-        from transformers import set_seed
-        set_seed(42)
+        raise NotImplementedError(f"Model {model_name} currently not supported for {modality} modality! Supported models: {', '.join(MODELS)}")
 
     module_name = MODEL_MODULES[model_name]
     module = importlib.import_module(module_name)
@@ -201,9 +198,11 @@ def infer(args):
     if args.out_file:
         outfile.close()
 
-def add_infer_args(parser):
-    parser.add_argument("--model", choices=MODELS, required=True,
-                        help="Model to be used for inference")
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Hearing to Translate output generation.")
+    parser.add_argument("--model", required=True,
+                        help="Model to be used for inference. For text modality: any HuggingFace model name. For speech modality: " + ", ".join(MODELS))
     parser.add_argument("--in-modality", choices=["speech", "text"], required=True,
                         help="Input modality used for inference")
     parser.add_argument("--in-file", required=True, help="Input JSONL file path")
@@ -214,12 +213,6 @@ def add_infer_args(parser):
                         help="If set, the speech model is used as ASR for the src lang. Tgt language is ignored.")
     parser.add_argument("--continue", default=False, action="store_true",
                         help="If set, append new outputs to existing out-file, skipping already processed inputs.")
-    return parser
-
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Hearing to Translate output generation.")
-    parser = add_infer_args(parser)
     args = parser.parse_args()
 
     logging.basicConfig(level=logging.INFO)

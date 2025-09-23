@@ -4,16 +4,15 @@ import importlib
 import json
 import os
 from tqdm import tqdm
-from transformers import set_seed
 import sys
 
-set_seed(42)
 
 MODEL_MODULES = {
     # speech foundation models
     "canary-v2": "inference.sfm.canaryv2",
     "whisper": "inference.sfm.whisper",
     "seamlessm4t": "inference.sfm.seamlessm4t",
+    "owsm4.0-ctc" : "inference.sfm.owsm",
 
     # speechllms
     "desta2-8b": "inference.speechllm.desta2",
@@ -44,6 +43,10 @@ TEMPLATED_SPEECH_PROMPT = \
 def setup_model(model_name, modality):
     # For text modality, use the unified HuggingFace LLMs module
     if modality == "text":
+        logging.info("Setting transformers seed to 42 for reproducibility.")
+        from transformers.trainer_utils import set_seed
+        set_seed(42)
+        
         module = importlib.import_module("inference.llm.hf_llms")
         
         load_func = getattr(module, "load_model", None)
@@ -61,6 +64,11 @@ def setup_model(model_name, modality):
     # For speech modality, validate model is in supported list
     if model_name not in MODEL_MODULES:
         raise NotImplementedError(f"Model {model_name} currently not supported for {modality} modality! Supported models: {', '.join(MODELS)}")
+
+    if model_name != "test_dataset":
+        logging.info("Setting transformers seed to 42 for reproducibility.")
+        from transformers.trainer_utils import set_seed
+        set_seed(42)
 
     module_name = MODEL_MODULES[model_name]
     module = importlib.import_module(module_name)
@@ -84,7 +92,7 @@ def load_prompt(modality: str, src_lang: str, tgt_lang: str) -> str:
     Args:
         modality: either "speech" or "text"
         src_lang: source language code (e.g., 'en')
-        ref_lang: target language code (e.g., 'es')
+        tgt_lang: target language code (e.g., 'es')
 
     Returns:
         str: prompt with placeholders replaced
@@ -94,6 +102,8 @@ def load_prompt(modality: str, src_lang: str, tgt_lang: str) -> str:
         prompt = TEMPLATED_SPEECH_PROMPT
     elif modality == "text":
         prompt = TEMPLATED_TEXT_PROMPT
+    else:
+        raise ValueError(f"Unknown modality: {modality}")
 
     # Load the language mapping
     mapping_path = os.path.join(
@@ -199,8 +209,7 @@ def infer(args):
         outfile.close()
 
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Hearing to Translate output generation.")
+def add_infer_args(parser):
     parser.add_argument("--model", required=True,
                         help="Model to be used for inference. For text modality: any HuggingFace model name. For speech modality: " + ", ".join(MODELS))
     parser.add_argument("--in-modality", choices=["speech", "text"], required=True,
@@ -213,6 +222,12 @@ if __name__ == "__main__":
                         help="If set, the speech model is used as ASR for the src lang. Tgt language is ignored.")
     parser.add_argument("--continue", default=False, action="store_true",
                         help="If set, append new outputs to existing out-file, skipping already processed inputs.")
+    return parser
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Hearing to Translate output generation.")
+    parser = add_infer_args(parser)
     args = parser.parse_args()
 
     logging.basicConfig(level=logging.INFO)

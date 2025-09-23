@@ -102,8 +102,6 @@ def load_prompt(modality: str, src_lang: str, tgt_lang: str) -> str:
         prompt = TEMPLATED_SPEECH_PROMPT
     elif modality == "text":
         prompt = TEMPLATED_TEXT_PROMPT
-    else:
-        raise ValueError(f"Unknown modality: {modality}")
 
     # Load the language mapping
     mapping_path = os.path.join(

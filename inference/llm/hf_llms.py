@@ -97,7 +97,7 @@ def generate(model_tokenizer_config, model_input):
         
         generate_ids = model.generate(
             **inputs,
-            max_new_tokens=512,
+            max_new_tokens=4096,
             do_sample=False,
             num_beams=1,
             pad_token_id=tokenizer.eos_token_id,

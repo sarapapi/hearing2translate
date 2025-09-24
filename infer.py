@@ -67,7 +67,10 @@ def setup_model(model_name, modality):
 
     if model_name != "test_dataset":
         logging.info("Setting transformers seed to 42 for reproducibility.")
-        from transformers.trainer_utils import set_seed
+        try:
+                from transformers.trainer_utils import set_seed
+        except ImportError:
+                from transformers import set_seed
         set_seed(42)
 
     module_name = MODEL_MODULES[model_name]

@@ -106,6 +106,7 @@ def main() -> None:
         base_record = {
             "dataset_id": "mcif_v1.0",
             "sample_id": idx,
+            "doc_id": fname,
             "src_audio": str(new_audio_path.relative_to(ROOT_PATH)),  # mcif-long/audio/en/0.wav
             "src_ref": src_ref,
             "src_lang": SRC_LANG,
@@ -113,7 +114,7 @@ def main() -> None:
                 "context": "long",
                 "dataset_type": "unseen",
                 "subset": "test",
-                "original_id": fname,
+                #"original_id": fname,
             },
         }
 

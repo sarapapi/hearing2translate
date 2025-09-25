@@ -8,4 +8,5 @@ build/
 audio/
 manifests/elitr-long
 manifests/edacc
-
+manifests/mcif-short/tmp
+manifests/mcif/_evaluate.py

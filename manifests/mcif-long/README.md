@@ -1,7 +1,7 @@
 # MCIF Long
 
 ## Overview
-This repository provides instructions for downloading and preparing the MCIF v1.0 dataset.
+This repository provides instructions for downloading and preparing the MCIF v1.0 Long dataset.
 The dataset is released as part of the [GitHub release](https://github.com/sarapapi/hearing2translate/releases/tag/data-share-mcif) and can be directly used for model inference.
 
 ```bibtex

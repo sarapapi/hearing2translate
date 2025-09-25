@@ -117,6 +117,8 @@ def main():
                         help='Output file path for segmented model outputs (JSONL).')
     parser.add_argument('--tokenizer-path', type=Path, required=True,
                         help='Path to the SentencePiece model for tokenization.')
+    parser.add_argument('--join-output-by-docid', action='store_true',
+                        help='Join output model by doc id as a pre-processing step')
     args = parser.parse_args()
 
     # --- 1. Load Data ---
@@ -140,6 +142,7 @@ def main():
     # Use a dictionary for faster, more robust lookup of model outputs by a unique ID.
     output_by_id = {item['sample_id']: item for item in model_output}
     
+    DATASETID, SRCLANG, TGTLANG = None, None, None
     merged_data: List[MergedData] = []
     for input_item in long_manifest:
         sample_id = input_item['sample_id']
@@ -153,6 +156,11 @@ def main():
         references_segmented = {
             item.get('src_ref', ''): item.get('tgt_ref', '') for item in short_segments
         }
+        
+        if DATASETID is None:
+            DATASETID = output_item['dataset_id']
+            SRCLANG = output_item['src_lang']
+            TGTLANG = output_item['tgt_lang']
 
         merged_data.append(
             MergedData(
@@ -166,6 +174,54 @@ def main():
                 **{k: input_item.get(k) for k in ['src_ref', 'tgt_ref', 'src_audio', 'benchmark_metadata']}
             )
         )
+
+    # --- Optional - Join by DocID ---
+    if args.join_output_by_docid:
+        logging.info("Joining model outputs by doc_id as a pre-processing step...")
+
+        # Group data by the document ID
+        grouped_by_docid = defaultdict(list)
+        for item in merged_data:
+            # Ensure item has a doc_id before grouping
+            if item.doc_id:
+                grouped_by_docid[item.doc_id].append(item)
+
+        joined_data = []
+        for doc_id, items in grouped_by_docid.items():
+            if not items:
+                continue
+
+            # Take metadata from the first item in the group
+            first_item = items[0]
+            
+            # Concatenate the relevant string fields with a space
+            concatenated_output = " ".join(item.output for item in items)
+            concatenated_src_ref = " ".join(item.src_ref for item in items if item.src_ref)
+            concatenated_tgt_ref = " ".join(item.tgt_ref for item in items if item.tgt_ref)
+
+            # Create a new sample_id by joining the individual IDs
+            joined_sample_id = "_".join(str(item.sample_id) for item in items)
+
+            # Create a new MergedData object with the concatenated/merged data
+            joined_item = MergedData(
+                dataset_id=first_item.dataset_id,
+                sample_id=joined_sample_id,
+                src_lang=first_item.src_lang,
+                tgt_lang=first_item.tgt_lang,
+                output=concatenated_output,
+                doc_id=doc_id,
+                references_segmented=first_item.references_segmented,
+                src_ref=concatenated_src_ref,
+                tgt_ref=concatenated_tgt_ref,
+                # Non-string fields like audio paths are taken from the first item
+                src_audio=first_item.src_audio,
+                benchmark_metadata=first_item.benchmark_metadata,
+                )
+            joined_data.append(joined_item)
+
+        # Replace the original list with the newly joined data
+        merged_data = joined_data
+        logging.info(f"Data joined. Number of items is now {len(merged_data)}.")
 
     # --- 3. Perform Alignment ---
     logging.info(f"Initializing tokenizer from {args.tokenizer_path}...")
@@ -194,10 +250,10 @@ def main():
             continue
         
         final_output_data.append({
-            "dataset_id": item['dataset_id'],
-            "sample_id": item['sample_id'],
-            "src_lang": item['src_lang'],
-            "tgt_lang": item['tgt_lang'],
+            "dataset_id": item.get('dataset_id', DATASETID),
+            "sample_id": item.get('sample_id', None),
+            "src_lang": item.get('src_lang', SRCLANG),
+            "tgt_lang": item.get('tgt_lang', TGTLANG),
             "output": aligned_output
         })
 

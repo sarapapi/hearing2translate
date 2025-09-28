@@ -21,7 +21,7 @@ def load_model():
         "utter-project/SpireFull", padding_side="left", model_max_length=2048
     )
     model = AutoModelForCausalLM.from_pretrained(
-        "utter-project/SpireFull", device_map="auto", torch_dtype="auto"
+        "utter-project/SpireFull", device_map="auto", torch_dtype="bfloat16"
     )
     model.eval()
 

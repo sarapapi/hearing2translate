@@ -57,6 +57,7 @@ def generate(model_tokenizer_labeler, model_input):
         max_new_tokens=4096,
         eos_token_id=tokenizer.eos_token_id,
         pad_token_id=tokenizer.pad_token_id,
+        num_beams=5
     )
     outputs = outputs[:, inputs["input_ids"].shape[1] :]
     response = tokenizer.batch_decode(

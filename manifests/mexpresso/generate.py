@@ -39,8 +39,15 @@ def generate_mexpresso():
     print(hf_data_folder)
 
     langs = {"cmn","deu","fra","ita","spa"}
-    for l in tqdm(langs):
-        dataset_subset = dataset.filter(lambda x : x["tgt_text"][l]).map(lambda x : x | {"tgt_text": x["tgt_text"][l] })
+    #langs = set()
+    non_tgt_langs = {"nl","pt"}
+
+    for l in tqdm(langs | non_tgt_langs):
+        if l in langs:
+            dataset_subset = dataset.filter(lambda x : x["tgt_text"][l]).map(lambda x : x | {"tgt_text": x["tgt_text"][l] })
+        else:
+            dataset_subset = dataset
+
         if l == "cmn":
             l = "zh"
         src, tgt = Language.get("en").language, Language.get(l).language
@@ -59,7 +66,7 @@ def generate_mexpresso():
                             sample_id=i,
                             src_audio=str(sample_path_json),
                             src_ref=sample["src_text"],
-                            tgt_ref=sample["tgt_text"], 
+                            tgt_ref=sample["tgt_text"] if tgt not in non_tgt_langs else None, 
                             src_lang= src,
                             tgt_lang= tgt,
                             benchmark_metadata={"context" : "short", "emotion" : sample["label"], "dataset_type" : DatasetType.EMOTION }

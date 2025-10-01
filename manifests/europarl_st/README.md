@@ -12,8 +12,9 @@ Europarl-ST is a multilingual speech translation dataset based on European Parli
 
 Supported language directions:
 
-* `en → {es, fr, pt, it, de}`
+* `en → {es, fr, pt, it, de, nl}`
 * `{es, fr, pt, it, de} → en`
+* `en → zh with no tgt based on the en-de split is also generated for easy non-reference based evaluation`
 
 More information:
 

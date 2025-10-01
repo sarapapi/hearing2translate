@@ -1,96 +1,97 @@
-#!/usr/bin/env python3
-import argparse, json, os, re, sys, shutil
+import argparse
+import json
+import os
+import re
+import shutil
+import sys
 from pathlib import Path
+
+# HARD-CODED CONFIG
+DATASET_ID = "uclass2"
+SRC_LANG = "en"
+TGT_LANGS = ["es", "it", "fr", "de", "nl", "pt"]
 
 
 CTX_KEYWORDS = {
     "reading": ["reading", "read", "passage"],
     "monolog": ["monolog", "mono"],
-    "conversation": ["conversation", "dialog", "dialogue", "conv"]
+    "conversation": ["conversation", "dialog", "dialogue", "conv"],
 }
 
-def guess_context_from_path(p: Path) -> str:
+def guess_context_from_path(p):
+    """Return context string based on filename/path; default 'unknown'."""
     s = str(p).lower()
     for ctx, kws in CTX_KEYWORDS.items():
-        if any(k in s for k in kws):
-            return ctx
+        for k in kws:
+            if k in s:
+                return ctx
     return "unknown"
 
-def guess_participant_id(text: str) -> str | None:
+def guess_participant_id(text):
     m = re.search(r"(?:spk|speaker|child|kid|p|s)\s*[-_]*\s*(\d{1,3})", text, re.I)
     return m.group(1) if m else None
 
+def collect_wavs(src_root):
+    return sorted(src_root.rglob("*.wav"))
 
-def main():
-    ap = argparse.ArgumentParser(description="Stage WAVs and build JSONL manifest")
-    ap.add_argument("--audio_dir", required=True,
-                    help="Source directory containing downloaded .wav files (searched recursively)")
-    ap.add_argument("--dataset_id", default="uclass2")
-    ap.add_argument("--src_lang", default="en")
-    ap.add_argument("--tgt_lang", default="null")
-    ap.add_argument("--output", default=None,
-                    help="Output JSONL path (default: manifests/<dataset_id>/<src>.jsonl)")
-    ap.add_argument("--stage_dir", default=None,
-                    help="Folder to copy wavs into (default: DATA/<dataset_id>/audio/<src_lang>/)")
-    ap.add_argument("--prefix", default=None,
-                    help="Prefix placed in 'src_audio' (default: /<dataset_id>/audio/<src_lang>/)")
-    ap.add_argument("--id_width", type=int, default=6, help="Zero-pad width for sample_id")
-    ap.add_argument("--keep_name", action="store_true",
-                    help="Keep original filename instead of <sample_id>.wav")
-    ap.add_argument("--overwrite", action="store_true",
-                    help="Overwrite staged audio if it already exists")
-    args = ap.parse_args()
-
-
-    src_root = Path(args.audio_dir).resolve()
-    if not src_root.exists():
-        print(f"ERROR: audio_dir not found: {src_root}", file=sys.stderr)
+def build_manifests_by_context(audio_dir, base_dir, overwrite=False):
+    src_root = Path(audio_dir).resolve()
+    if not src_root.exists() or not src_root.is_dir():
+        print(f"ERROR: audio_dir not found or not a directory: {src_root}", file=sys.stderr)
         sys.exit(1)
 
-    stage_dir = (Path("DATA") / args.dataset_id / "audio" / args.src_lang) if args.stage_dir is None else Path(args.stage_dir)
-    stage_dir.mkdir(parents=True, exist_ok=True)
-
-    out_path = (Path("manifests") / args.dataset_id / f"{args.src_lang}.jsonl") \
-               if args.output is None else Path(args.output)
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-
-    rel_prefix = args.prefix or f"/{args.dataset_id}/audio/{args.src_lang}/"
-
-    # Collect and sort .wav files for stable IDs
-    wavs = sorted(src_root.rglob("*.wav"))
+    # gather all wavs
+    wavs = collect_wavs(src_root)
     if not wavs:
         print(f"WARNING: no .wav files found under {src_root}", file=sys.stderr)
 
-    n_written = 0
-    with out_path.open("w", encoding="utf-8") as fout:
-        for i, src_wav in enumerate(wavs, start=1):
-            sample_id = str(i).zfill(args.id_width)
+    # group by context
+    by_ctx = {}
+    for wav in wavs:
+        ctx = guess_context_from_path(wav)
+        by_ctx.setdefault(ctx, []).append(wav)
 
-            # Choose staged filename
-            staged_name = src_wav.name if args.keep_name else f"{sample_id}.wav"
+    total_records = 0
+
+    for ctx, files in sorted(by_ctx.items()):
+        # create stage dir for this context
+        stage_dir = Path(base_dir) / DATASET_ID / "audio" / ctx
+        stage_dir.mkdir(parents=True, exist_ok=True)
+
+        # manifests dir for this context
+        manifests_ctx_dir = Path("manifests") / DATASET_ID / ctx
+        manifests_ctx_dir.mkdir(parents=True, exist_ok=True)
+
+        # dynamic ID width for this context
+        id_width = max(1, len(str(len(files))))
+
+        base_records = []
+        for i, src_wav in enumerate(files, start=1):
+            sample_id = str(i).zfill(id_width)
+            staged_name = src_wav.name  # keep original filename
             dst_wav = stage_dir / staged_name
 
-            # Copy if needed
-            if dst_wav.exists() and not args.overwrite:
-                pass
-            else:
-                dst_wav.parent.mkdir(parents=True, exist_ok=True)
-                shutil.copy2(src_wav, dst_wav)
+            # copy file
+            try:
+                if not dst_wav.exists() or overwrite:
+                    dst_wav.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copy2(src_wav, dst_wav)
+            except Exception as e:
+                print(f"ERROR copying {src_wav} -> {dst_wav}: {e}", file=sys.stderr)
+                continue
 
-            # Infer metadata
-            context = guess_context_from_path(src_wav)
-            pid = (guess_participant_id(src_wav.name)
-                   or guess_participant_id(str(src_wav.parent))
-                   or None)
+            context = ctx
+            pid = guess_participant_id(src_wav.name) or guess_participant_id(str(src_wav.parent)) or None
 
-            record = {
-                "dataset_id": "UClass2",
+        
+            base_record = {
+                "dataset_id": DATASET_ID,
                 "sample_id": sample_id,
-                "src_audio": f"{rel_prefix}{dst_wav.name}",
+                "src_audio": "/{}/{}/audio/{}/{}".format(DATASET_ID, "", ctx, staged_name).replace("//", "/"),
                 "src_ref": None,
                 "tgt_ref": None,
-                "src_lang": args.src_lang,
-                "tgt_lang": args.tgt_lang,
+                "src_lang": SRC_LANG,
+                # tgt_lang inserted later to ensure order
                 "benchmark_metadata": {
                     "native_acc": None,
                     "spoken_acc": None,
@@ -98,11 +99,60 @@ def main():
                     "context": context
                 }
             }
-            fout.write(json.dumps(record, ensure_ascii=False) + "\n")
-            n_written += 1
+            base_records.append(base_record)
 
-    print(f"Staged audio dir : {stage_dir.resolve()}")
-    print(f"Manifest written : {out_path.resolve()}  (records: {n_written})")
+        # write per-target manifests for this context
+        written_ctx = 0
+        for tgt in TGT_LANGS:
+            out_path = manifests_ctx_dir / f"{SRC_LANG}-{tgt}.jsonl"
+            written = 0
+            with out_path.open("w", encoding="utf-8") as outf:
+                for rec in base_records:
+                    # Rebuild ordered record so tgt_lang is immediately after src_lang
+                    ordered = {
+                        "dataset_id": rec["dataset_id"],
+                        "sample_id": rec["sample_id"],
+                        "src_audio": rec["src_audio"],
+                        "src_ref": rec["src_ref"],
+                        "tgt_ref": rec["tgt_ref"],
+                        "src_lang": rec["src_lang"],
+                        "tgt_lang": tgt,
+                        "benchmark_metadata": rec["benchmark_metadata"],
+                    }
+                    outf.write(json.dumps(ordered, ensure_ascii=False) + "\n")
+                    written += 1
+            print(f"Wrote {written} records to {out_path.resolve()}")
+            written_ctx += written
+
+        total_records += written_ctx
+        print("Staged audio dir for context '{}': {}".format(ctx, stage_dir.resolve()))
+        print("Manifest folder for context '{}': {}".format(ctx, manifests_ctx_dir.resolve()))
+        print("----")
+
+    print("\nDone.")
+    print("Total manifest records written across contexts:", total_records)
+
+
+def main():
+    base_dir = os.environ.get("H2T_DATADIR")
+    if not base_dir:
+        print("ERROR: environment variable H2T_DATADIR is not set.", file=sys.stderr)
+        print("In PowerShell set it like: $env:H2T_DATADIR = 'C:\\path\\to\\folder'", file=sys.stderr)
+        sys.exit(1)
+
+    try:
+        Path(base_dir).mkdir(parents=True, exist_ok=True)
+    except Exception as e:
+        print(f"ERROR creating base directory {base_dir}: {e}", file=sys.stderr)
+        sys.exit(1)
+
+    parser = argparse.ArgumentParser(description="Stage WAVs by context and build JSONL manifests per-context")
+    parser.add_argument("--audio_dir", required=True, help="Directory containing .wav files (recursive search)")
+    parser.add_argument("--overwrite", action="store_true", help="Overwrite staged audio files if they already exist")
+    args = parser.parse_args()
+
+    build_manifests_by_context(args.audio_dir, base_dir, overwrite=args.overwrite)
+
 
 if __name__ == "__main__":
     main()

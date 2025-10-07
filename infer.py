@@ -8,6 +8,9 @@ import sys
 
 
 MODEL_MODULES = {
+    # llms
+    "gemma-3-12b-it": "inference.llm.gemma",
+
     # speech foundation models
     "canary-v2": "inference.sfm.canaryv2",
     "whisper": "inference.sfm.whisper",
@@ -41,8 +44,32 @@ TEMPLATED_SPEECH_PROMPT = \
 
 
 def setup_model(model_name, modality):
-    # For text modality, use the unified HuggingFace LLMs module
-    if modality == "text":
+    # Check if model is in the specific model modules 
+    if model_name in MODEL_MODULES:
+        if model_name != "test_dataset":
+            logging.info("Setting transformers seed to 42 for reproducibility.")
+            try:
+                from transformers.trainer_utils import set_seed
+            except ImportError:
+                from transformers import set_seed
+            set_seed(42)
+
+        module_name = MODEL_MODULES[model_name]
+        module = importlib.import_module(module_name)
+
+        load_func = getattr(module, "load_model", None)
+        if not load_func:
+            raise ImportError(f"Module {module_name} does not define `load_model`")
+
+        generate_func = getattr(module, "generate", None)
+        if not generate_func:
+            raise ImportError(f"Module {module_name} does not define `generate`")
+
+        model = load_func()
+        return model, generate_func
+    
+    # For text modality with arbitrary HuggingFace models, use the unified module
+    elif modality == "text":
         logging.info("Setting transformers seed to 42 for reproducibility.")
         from transformers.trainer_utils import set_seed
         set_seed(42)
@@ -61,31 +88,9 @@ def setup_model(model_name, modality):
         model = load_func(model_name)
         return model, generate_func
     
-    # For speech modality, validate model is in supported list
-    if model_name not in MODEL_MODULES:
+    else:
+        # Unknown model for speech modality
         raise NotImplementedError(f"Model {model_name} currently not supported for {modality} modality! Supported models: {', '.join(MODELS)}")
-
-    if model_name != "test_dataset":
-        logging.info("Setting transformers seed to 42 for reproducibility.")
-        try:
-                from transformers.trainer_utils import set_seed
-        except ImportError:
-                from transformers import set_seed
-        set_seed(42)
-
-    module_name = MODEL_MODULES[model_name]
-    module = importlib.import_module(module_name)
-
-    load_func = getattr(module, "load_model", None)
-    if not load_func:
-        raise ImportError(f"Module {module_name} does not define `load_model`")
-
-    generate_func = getattr(module, "generate", None)
-    if not generate_func:
-        raise ImportError(f"Module {module_name} does not define `generate`")
-
-    model = load_func()
-    return model, generate_func
 
 
 def load_prompt(modality: str, src_lang: str, tgt_lang: str) -> str:
@@ -212,7 +217,7 @@ def infer(args):
 
 def add_infer_args(parser):
     parser.add_argument("--model", required=True,
-                        help="Model to be used for inference. For text modality: any HuggingFace model name. For speech modality: " + ", ".join(MODELS))
+                        help="Model to be used for inference. Specific models: " + ", ".join(MODELS) + ". For other text models: any HuggingFace model name.")
     parser.add_argument("--in-modality", choices=["speech", "text"], required=True,
                         help="Input modality used for inference")
     parser.add_argument("--in-file", required=True, help="Input JSONL file path")

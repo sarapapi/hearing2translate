@@ -46,7 +46,7 @@ def generate(model_tokenizer_config, model_input):
         
         with torch.inference_mode():
             generation = model.generate(
-                inputs,
+                **inputs,
                 max_new_tokens=4096,
                 do_sample=False,
                 pad_token_id=tokenizer.eos_token_id,

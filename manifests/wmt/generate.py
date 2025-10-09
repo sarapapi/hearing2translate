@@ -6,7 +6,6 @@ import tempfile
 import io
 import zipfile
 import shutil
-import tarfile
 import collections
 # pip install ffmpeg-python
 import ffmpeg
@@ -85,16 +84,11 @@ zipfile.ZipFile(
     )).extractall(dir_tmp)
 
 
-print("WARNING: using temporary location which will change in October 2025")
-with open(f"{dir_tmp}/TMP_Sep08-wmt25-genmt-humeval.jsonl.gz", 'wb') as f:
-    f.write(requests.get("https://vilda.net/t/wmt25/TMP_Sep08-wmt25-genmt-humeval.jsonl.gz").content)
-
-with tarfile.open(f"{dir_tmp}/TMP_Sep08-wmt25-genmt-humeval.jsonl.gz") as tar:
-    tar.extractall(dir_tmp)
-
-with open(f"{dir_tmp}/data/TMP_Sep08-wmt25-genmt-humeval.jsonl", "r") as f:
-    data = [json.loads(line) for line in f]
-    data = [line for line in data if "_#_speech_#_" in line["doc_id"]]
+data = [
+    json.loads(x)
+    for x in requests.get("https://raw.githubusercontent.com/wmt-conference/wmt25-general-mt/refs/heads/main/data/wmt25-genmt.jsonl").content.decode("utf-8").splitlines()
+]
+data = [line for line in data if "_#_speech_#_" in line["doc_id"] and line["dataset_id"] == "wmttest2025"]
 
 print("Processing WMT25...")
 for langs in ["en-zh_CN", "en-de_DE", "en-it_IT"]:
@@ -103,22 +97,24 @@ for langs in ["en-zh_CN", "en-de_DE", "en-it_IT"]:
     lang1, lang2 = langs.split("-")
 
     for line in data_local:
-        wav_file = f"{dir_root}/wmt/audio/en/{line['doc_id'].split('_#_')[2]}.wav"
+        # should be a single line
+        assert "\n\n" not in line["src_text"]
 
+        wav_file = f"{dir_root}/wmt/audio/en/{line['doc_id'].split('_#_')[2]}.wav"
         # convert MP4 to WAV using ffmpeg-python
         if not os.path.exists(wav_file):
             mp4_file = f"{dir_tmp}/assets/en/speech/{line['doc_id'].split('_#_')[2]}.mp4"
-            ffmpeg.input(mp4_file).output(wav_file, vn=None).run()
+            ffmpeg.input(mp4_file).output(wav_file, vn=None, ac=1).run()
 
         dataset_out[langs].append({
             "dataset_id": "wmt25",
             "sample_id": len(dataset_out[langs]),
             "src_audio": "/" + wav_file.removeprefix(dir_root+"/"),
             "src_ref": line["src_text"],
-            "tgt_ref": line["tgt_text"]["refA"] if "refA" in line["tgt_text"] else None,
+            "tgt_ref": line["refs"]["refA"]["ref"] if "refA" in line["refs"] else None,
             "src_lang": lang1,
             "tgt_lang": lang2,
-            "benchmark_metadata": {"doc_id": line["doc_id"], "context": "short"},
+            "benchmark_metadata": {"doc_id": line["doc_id"] + "_#_0", "context": "short"},
         })
 
 # mock other languages on WMT25 without references

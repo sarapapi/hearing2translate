@@ -38,7 +38,11 @@ cmd() {
 
 # add or remove the ones you want to run:
 #for dataset in winoST fleurs commonAccent acl6060 ; do
-for dataset in fleurs commonAccent acl6060-long acl6060-short winoST; do
+#for dataset in fleurs commonAccent acl6060-long acl6060-short winoST; do
+#for dataset in fleurs winoST mandi mcif-long mcif-short covost2 ; do
+#for dataset in wmt mexpresso cs-dialogue libristutter ; do
+for dataset in wmt mexpresso cs-dialogue libristutter europarl_st noisy_fleurs_ambient noisy_fleurs_babble emotiontalk; do
+
 #for dataset in acl6060 ; do
 	# same with models
 	for model in whisper canary-v2 seamlessm4t ; do 
@@ -48,8 +52,6 @@ for dataset in fleurs commonAccent acl6060-long acl6060-short winoST; do
 		for inf in manifests/$dataset/*.jsonl ; do 
 			b=$(basename $inf)
 			langpair=${b/.jsonl/}
-			# nl is not supported but some data are there
-			[[ $langpair = *-nl ]] && continue
 			# whisper is not from en, only into en
 			[[ $model = whisper ]] && [[ ! $langpair = *-en ]] && continue
 			out=outputs/$model/$dataset/$b
@@ -65,8 +67,6 @@ for dataset in fleurs commonAccent acl6060-long acl6060-short winoST; do
 		for inf in manifests/$dataset/*.jsonl ; do 
 			b=$(basename $inf)
 			langpair=${b/.jsonl/}
-			# nl is not supported but some data are there
-       			[[ $langpair = *-nl ]] && continue
 			# whisper is not from en, only into en
 			out=$outdir/$b
 			# filters out successful (ok) or running (locked)

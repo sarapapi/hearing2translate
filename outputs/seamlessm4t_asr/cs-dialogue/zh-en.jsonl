@@ -1,0 +1,1028 @@
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_2", "src_lang": "zh", "tgt_lang": "zh", "output": "哈哈很高兴认识你啊"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_7", "src_lang": "zh", "tgt_lang": "zh", "output": "我叫贝拉嗯叫贝拉就行好嗨嗯那你平时会做哪些比如说在你业余时间会做哪些呃你感兴趣的爱好啥的可以介绍一下吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_34", "src_lang": "zh", "tgt_lang": "zh", "output": "哦OKIONIANDERSTAIN呃那我们再来就是聊一聊关于童年的回忆吧这样子既然YouHaveAlready嗯TalkAboutTheChildhood那我们来聊一聊童年的回忆嗯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_36", "src_lang": "zh", "tgt_lang": "zh", "output": "那我先来说说我的吧嗯你刚刚提到了桑肾树呃CUSIACTUALLYALSOHAVESOM一些密切的一些关系和桑肾因为我小时候嗯养过嗯养过那个吃桑肾树的那个虫子你知道叫什么吗HOWHOWDOUTHETHINKABOUT"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_40", "src_lang": "zh", "tgt_lang": "zh", "output": "对你答对了Yes就是残宝宝我When I Was a Child我养过残宝宝然后我觉得残宝宝It's Really Cute非常白白胖胖的然后平常就是有一件非常AMAZING的事情就是我在嗯春天我在春天养的残宝宝And When It Comes to Alter秋天的时候他没有什么动静但是等到嗯冬天然后他就已经就是生下了残宝宝It's Like a Little Baby然后他等到在一个春天的时候In The Spring这个残宝宝就非常非常的密集非常非常多"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_41", "src_lang": "zh", "tgt_lang": "zh", "output": "呃It's about like a hundredth of those worms 然后我当时就非常的震惊 It's really surprising 嗯我就我就惊呆了因为当时呃I just have a few worms就只有几条但是后来它就成了几百条然后我就嗯不知道拿它干什么然后我就出去Sell Them就是On the street I sell to the strangers 我希望有人可以买下他们然后我觉得这个就是我一个Memory About My Childhood 我觉得非常有呃非常Meaningful 然后你可以Share一下你的就是呃我我再问一下就是童年的事情"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_42", "src_lang": "zh", "tgt_lang": "zh", "output": "那我们再来说一下你平时会嗯对你自己是呃你平时会做一些什么事情来取悦你自己呢就make you self feel happy"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_67", "src_lang": "zh", "tgt_lang": "zh", "output": "好你好"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_87", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯明白了对嗯我看我对于黑互相山庄的一个印象也是一个悲剧那看来咱们俩还挺投机的最近看的都是就非常剧情非常离奇然后又有一些悲剧色彩的一些小说那嗯我们已经谈到了就是一些引人入胜的一些情节那嗯除了就是我们最近看了这几本书那你觉得就是从你过往阅读的一些呃所有的一些Like的Literature"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_88", "src_lang": "zh", "tgt_lang": "zh", "output": "我What Kind of a MEMORIBLE CHARACTER是你最喜欢然后你最印象深刻嗯有这样子的一些呃记忆吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_90", "src_lang": "zh", "tgt_lang": "zh", "output": "Okey 嗯嗯对于我来说我觉得那本书里边我觉得很多那本书叫做飘我觉得那那本那本书的女主叫做赫斯加的呃是非常Memorable的因为为什么这么说呢因为他出身于一个非常呃Rich的家庭但是后来由于一些社会的一些呃动荡Like的Fight of the American Fight of the South and the North Fight of the War"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_91", "src_lang": "zh", "tgt_lang": "zh", "output": "然后让他就是家呃家破人亡他的呃Family MembersParents都都丧失在那个逃亡当中但是呃赫斯家的Brave Woman他没有放弃对他的一些理想的一些追求的Pursuit他依然就是重振旗鼓然后嗯非常顽强的去Fire Back to the嗯Destiny然后取得了一些比较成就呃比较大的成就最后让嗯他的家庭"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_93", "src_lang": "zh", "tgt_lang": "zh", "output": "Become Rich Again然后我觉得在这个小说中的嗯的我的的FEMELActress和四家是非常的有嗯值得值得学习的地方然后"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_109", "src_lang": "zh", "tgt_lang": "zh", "output": "okay since you said your favorite author is Yuhua and therefore definitely you read a lot of Yuhua's books so I'm going to recommend another author's book for you maybe you can read in my favorite author's book like it's her has so I will recommend Damien to you or yeah or see see Zado yeah"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_119", "src_lang": "zh", "tgt_lang": "zh", "output": "好的嗨嗨凯莉也再一次见到你非常开心"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_143", "src_lang": "zh", "tgt_lang": "zh", "output": "呃是的在我准备一些课后作业的时候 Sometimes I didn't arrange my time very well So我在这个时候呢就会嗯 overdue 我会错过一些 that time 这个时候嗯我觉得对于 for my self 的这些事情也不是经常发生 frequency 原因I am a person 非常有对一些任务来说我是比较嗯 Anxious 就是一旦有一些比较重要然后嗯 Emergency 的任务我就会觉得非常的嗯 Worry"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_144", "src_lang": "zh", "tgt_lang": "zh", "output": "然后我就会提前做一些plan让我能在Deadline之前提前完成所以这个事情一般的话我都会在赶在Deadline之前完成如果一定就是说在这之后有没有这种情况因为可能是因为一些生病啊一些其他的一些行程耽误了我觉得也是有这种情况发生的我觉得这种发生这种情况It's really bad我觉得我的感受就是一旦发生这样子错过一些Deadline的事情"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_145", "src_lang": "zh", "tgt_lang": "zh", "output": "就会非常的焦虑ReallyAnxiousEnd会责怪我自己然后进而会产生一些NEGATIVEEMOTIONS所以我觉得我们尽量还是要Avoid这种KIND OFTHINGS然后你呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_175", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯就是我我之前有找过一些兼职因为我我本科我对语言非常感兴趣然后我就一直有在嗯学然后我之前的工作就是也是我因为我想运用到语言这个东西然后我就会做一些相关的工作比如说呃英文的直播带货就是我觉得这个是非常有意思的一个兼职我当时就是有在呃亚马逊以及在TikTok是有直播过但是不是带货后来在亚马逊和ShopShop这两个平台上有一些直播带货的经历然后我觉得这个经历是非常锻炼人的他不但是说要锻炼我的英语口语表达能力"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_178", "src_lang": "zh", "tgt_lang": "zh", "output": "哦天哪那好那那非常巧合非常巧合我也是卖珠宝的就是我在但是我不是在Tiktok我是在ShopShops那个平台上卖就是珠宝"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_190", "src_lang": "zh", "tgt_lang": "zh", "output": "哦我GET那就是说你在主要工作之后还会从事一些part timejobs我觉得这个也是非常就是非常能够MakeoverLife感到更充实的一个事情然后对那嗯我觉得就是之前有聊到说少儿英语我觉得少儿英语的Challenges是非常大的尤其是那么小的小朋友然后我觉得是要非常有PassionPatience然后已经有嗯有一颗非常童真的嗯HART我觉得这个是非常很多人难以做到的我觉得你能做到一件非常Meaningful然后又是非常嗯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_192", "src_lang": "zh", "tgt_lang": "zh", "output": "啊Amazing的事情嗯对然后我之前也有朋友是做做嗯Teachers是关于关于幼儿园Kindergarten看关于老师这一块的然后我觉得对有一点点了解就是说这个这个Career是值得长期发展的It's worth putting your time and energy我觉得这个是非常有意义的一件事情以及一个嗯职业是培养我们祖国的Little Flowers我觉得非常有意义"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_194", "src_lang": "zh", "tgt_lang": "zh", "output": "我嗯Content什么呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_196", "src_lang": "zh", "tgt_lang": "zh", "output": "哦我觉得关于我的工作方面来说我就是没有再继续这份上一份的实习我现在Didn't haveJob然后我都是在待待在Campus里面就是嗯prepare一下我的EFS然后就是出去HangoutWith我的呃Friend然后我觉得现在的工作啊不现在的那个生活状态我还是比较满意的但是吧嗯可能之后就要嗯GoToWork我觉得到时候我就不知道说我我会是一个怎样的一个嗯Status我希望我能更好的BalanceMyLifeAndWork"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_200", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我觉得就是这个我还没有很很大的就是一些plan因为我觉得How to Balance这个事情还是非常的我现在还是非常需要一个Mindset非常有心境或者说一定成熟度就是I'm Didn't That Mature 我觉得当我经历了一些XMOREExperiences我就会觉得我就会更加的沉沉稳坐事以及以及和人相处啊嗯这些各个OASPECTS会更加的嗯得心应手我觉得到时候我在就是"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_201", "src_lang": "zh", "tgt_lang": "zh", "output": "我觉得这个最主要就是一个心态就是如何在工作的时候trymybest然后在休息的时候也trymybest"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_202", "src_lang": "zh", "tgt_lang": "zh", "output": "我我有时候就是无法平衡是因为我在休息的时候Think too much aboutWORKWORREL too much aboutWORK这个时候就无法做到生活与嗯WORK的一个平衡"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_204", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯哦How about you?"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_207", "src_lang": "zh", "tgt_lang": "zh", "output": "学习,做兼职工作,做实习,所以我必须处理这些事情."}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_217", "src_lang": "zh", "tgt_lang": "zh", "output": "哦那我们其实也差不多嗯比起就是骑自行车我可能更喜欢走路一点就是散步就是City Walk就是纯Walk的那种就是相当于就是就绕着大街小巷啊然后走走走然后看普通的空景然后平时室内的话我喜欢游泳对游泳是一个非常嗯非常好的非常好的一个运动方式我觉得它它它是一个游泳运动然后嗯把四肢和腰部呃对腰部特别好因为在水里的话就是有扶力然后我们的腰椎就不会就是相当于非常放松我们的腰椎然后也是伸展四肢我觉得游泳是一个可以就是嗯长期就持续下去的一个运动"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_245", "src_lang": "zh", "tgt_lang": "zh", "output": "对嗯I agree就是平常的时候嗯我以前DISN'TLikeSports但是后来我就慢慢的养成了这个习惯的HAPPY之后我就会越来越感受到嗯Sports带给我们的一些能量然后让我就是换人一新每次嗯Finish的Sports之后之后我会感到非常的开心"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_247", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯对那之后你会有一些新的尝试吗New Sports"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_249", "src_lang": "zh", "tgt_lang": "zh", "output": "哦明白了那真的是一个非常不错的一个新的尝试那对于我来说I think the valuable is a new sport嗯对于我来说因为其实也不是很new因为在我读初中的时候I play basketballVery Frequently因为当时我中考体育中考Is play play basketballSory play play play then我就有在打打排球和我的队友一起打排球嗯然后我我觉得我要重新实行这个Voluable这个Sports因为它是一个团队运动不是个人运动这对于我来说是非常Atractive的我觉得这嗯就是能更好的嗯配合他人然后也更compact的更加刺激"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_251", "src_lang": "zh", "tgt_lang": "zh", "output": "就是因为我得到伤害会得到伤害我只能说什么我们可以做"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_255", "src_lang": "zh", "tgt_lang": "zh", "output": "嘿你能听我吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_298", "src_lang": "zh", "tgt_lang": "zh", "output": "我觉得现在的科技发展对于我们比较迫切比较困难的就是说科技会不会取代就是AI人工智能或者一些机器人会不会取代呃人类比如说一些服务行业一些嗯文字工作者他们如果被取代了那他们的呃工作或者他们的生活他们的生存应该怎么样得到解决这个的话就是对于我们现在关于人类和人工智能的一个矛盾点我觉得这个呃也是需要非常就是一个持续争议下去的一个话题然后另一个就是科技比如说一些医疗或者说科技的改善然后可以把死去的一些动物嗯克农出来"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_303", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯文化背景肯定会Shape我的Worldview嗯但是应该不会就是我不是很"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_304", "src_lang": "zh", "tgt_lang": "zh", "output": "对于湖南湖南的文化背景来说I don't think这个背景ReallyInfluenceMeThatMuch我觉得更多的来说是我们的整个中国文化背景"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_305", "src_lang": "zh", "tgt_lang": "zh", "output": "我觉得中国中国中华文化对于我的一个行为的或者思思考的一个塑造塑造是非常大的影响非常大的It's Different Like All the Western Culture Chinese Culture 然后我觉得中国比较注重的就是一个儒家文化的Confucius We Learn From Our Childhood 我们一直都有在学习儒家文化如何去保持一个与人为善的心态如何急促不欲无食于人然后这对我们中国人的这是刻在我们中国人骨子里的所以我觉得很多情况下"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0017_S0_306", "src_lang": "zh", "tgt_lang": "zh", "output": "我们会以一个嗯Fear and the Equal Eyes to嗯对待别人我觉得我们很多大部分的中国人都是非常Kind然后非常Considerate我觉得这就是文化对我们的一个影响嗯How about youHow do you think"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_32", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯但当然"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_52", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我我AlwaysGOTOTHE商场呃Sometimes当我呃比如说拿到我的SALARY的时候呢我就会GOTOTHEMALLAND买一些非常好看的clothes"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_54", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯比如说我最喜欢去买的就是一些Dress呃就是尤其是那种Tiny Little的Dress一些小小的裙子啊Also我还会买一些比如说戴在头发上的或者是比如说Necklace或者是这个Earrings这些都是我特别喜欢的东西"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_55", "src_lang": "zh", "tgt_lang": "zh", "output": "呃Always呃Sometimes有些时候我还会去吃一些好吃的food嗯还去一些啊Popular餐厅网红餐厅去吃饭这些都是我喜欢做的一些Things是的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_88", "src_lang": "zh", "tgt_lang": "zh", "output": "你好啊白了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_108", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯At Top of My Head我第一个想到的就是The Famous Novelty From China红楼梦里面的贾宝玉我觉得那个是真的很MEMORABLE的CARACTER他为什么MEMORABLE呢是因为这个贾宝玉他是一个很诗情的人他很多情同时呢他又很呃Very Breathless"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_109", "src_lang": "zh", "tgt_lang": "zh", "output": "他也是一个非常绝情的人为什么因为在那个NOVELTY在红楼梦里面他起码有HUNDRED或者是呃起码有一个THIRDYORFORDYLOVERS吧他起码有很多个情人无论是从这个啊main character林黛玉或者是这个second character呃薛宝或者是EvenTHIRDORFIRSTLYKENOTMAINCARATERS宫女啊什么女仆啊THEMADE他都有跟他们有RELATIONSHIP呃我觉得这个呃CARATER就挺MEMORABLE的就挺难忘的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_110", "src_lang": "zh", "tgt_lang": "zh", "output": "但是我为什么要说他很痴情呢因为呃IZNOVEZN他最后是MARY去薛宝但是他最想娶的就是他的呃OLDERSISTER林黛玉"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_111", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯所以他就没有得到一个呃HAPPY ENDING"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_112", "src_lang": "zh", "tgt_lang": "zh", "output": "所以他郁郁寡欢一辈子呃也没有得到一个善终你觉得这个CARATER就挺MEMORABLE的那你觉得呢你觉得哪个角色你觉得最MEMORABLE"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_114", "src_lang": "zh", "tgt_lang": "zh", "output": "哦是的啊哎呀呃我understand了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_115", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我也觉得这个Scarlett也是一个很MEMORABLE的CAREER啊Like you said就像你说的她很STORONGASWOMEN她是一个非常勇敢的女人呃敢爱敢恨吧也嗯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_183", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯那我的经验就是我就拿我学习英语的这个经验吧这个就是要背单词然后呢效率要快一点我可以在我吃饭的时候或者是在走路的时候听那个音频我的英语就是这样学的那我还想问一下呃就是你每天每天都有一个 deadline 比如说你在考研就是现在在研二嘛在学习的时候呃You have a deadline你有没有错过一个homework deadline有没有这样的Experience"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_187", "src_lang": "zh", "tgt_lang": "zh", "output": "就是呃Very interesting thing我上这个大二的时候我给我们了一个Mission就是让我们去Translate一本书把它从呃ChineseTranslate到我们的母语就是为玩儿语那你就看这个NOVALTY它是很BIG的它是很HAVE的它是很大的很多的一个内容那它让我们把这个NOVALTY呃转变成这个语言的转变这是一个很大的一个WORK就怎么想都想不到就是感觉NEVERGOINGTOMakeIt"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_188", "src_lang": "zh", "tgt_lang": "zh", "output": "Everybody like working on it就开始做那个事情但是我有一个呃 six cents six cents 就感觉那个Professor永远不会去追究这个homework 那我就偷懒我就很lazy 我就DIDN'TDOITAndAt the end of the semesterTheProfessor真的把它给Forget了然后我们所有学生所有同学我的Classmates都Translate小说了但是就我没做就是一个这样的一个很有趣的事情我觉得有时候偷懒也是个很Amazing的事情"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_215", "src_lang": "zh", "tgt_lang": "zh", "output": "是的呃那你就是这这方面好像我们有点相似因为我中间也在一个呃TikTok公司也做过这个卖货我们当时是卖戒指的给东南亚市场对的对的是同行对的对的嗯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_238", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯好的谢谢嗯那我想就我有个QUESTION你现在CONTENTVISUAL目前做的事情吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_240", "src_lang": "zh", "tgt_lang": "zh", "output": "就是你呃你DUFELHAPPY就是你现在做的事情"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_244", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯那你嗯你那时候你有什么plan吗你怎么balance你的生活和Job"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_270", "src_lang": "zh", "tgt_lang": "zh", "output": "然后到大三大四的时候我们学校旁边一个学校有那个游泳馆那我就喜欢去游泳所以提呃那有时候我还喜欢玩这个羽毛球你呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_300", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我也觉得因为我就是我感觉这个心情和我们的运动是真的息息相关比如说我在运动的时候会感觉很轻松呃很开心比如说我有一次就说一个我的一个XXperience吧我跟我的Boyfriend吵架了然后呢我也ignoreHim然后他也ignoreMe就是互相不干涉的那种那我们就是坐在一个Park里面然后谁跟谁也不Talk也不进行Conversation我就我就我很Angry他也很Angry他我们就玩自己的那个FON"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_301", "src_lang": "zh", "tgt_lang": "zh", "output": "但是后来我看那边有两个人在玩那个Badminton然后我就想加入他们那我加入他们的team有两个啊Go就是第一个就是想Make My Boyfriend Angry and the second啊我想我确实想玩那个Badminton嘛然后呢我就join他们的team然后我们就三个人一起Play那个Badminton然后玩了About Ten MinutesI Find Myself很开心就是以前那个Angry的情绪也没了我也不内耗了我就感觉Sport真的可以让人感觉很轻松而且很Positive Energy对"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_305", "src_lang": "zh", "tgt_lang": "zh", "output": "呃我前面说我I like swimming呃我喜欢玩儿Badminton我喜欢骑Bicycle但是我后面呃尝试了那个呃Basketball就是因为那个就是感觉很优雅嘛很Elegant我就想尝试一下这个Basketball但后来发现我身高确实不够而且我力量我的Power不是很太够"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_306", "src_lang": "zh", "tgt_lang": "zh", "output": "就是篮球其实是一个很好的Sport它可以啊Exercise我们的这个手臂和我们的这个LEG都是一个非常好的一种运动所以说如果呃只要坚持我们就可以很好的Play这个呃篮球的这个运动是一个很好的Sport我我会把它继续下去"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_308", "src_lang": "zh", "tgt_lang": "zh", "output": "是的那我们在Sport在我们Exercise的时候呢啊难免会有一些事情X等存在"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_309", "src_lang": "zh", "tgt_lang": "zh", "output": "就是比如说我们会get呃injury会getharm那这个时候whatcanwedo"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_317", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯是的我我能所以你像有没有听说过从运动之前"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_347", "src_lang": "zh", "tgt_lang": "zh", "output": "好的Beginning呀嗯那我就是你YouYou are from the Hunan Province你刚才说你来自我们的这个湖南Province你觉得呃你的湖南Province这个呃这个文化背景有没有啊CausEar那个Worldwide的You are世界观三观有没有影响的有没有Affect到你的这个三观"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_355", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯呃我来自新疆这个Province嗯我觉得新疆对我的这个Affection也挺大的为什么呢因为我们这个Culture我们这个呃我们我这个呃MINORITY叫维吾尔族那我们作为少数民族我们有自己的这个Culture呃在我们的Culture里面我们很RESPECT这个Food我们是很RESPECT这个食物的比如说呃我们不能StepOnTheFood我们不能踩在这个食物上面我们不能呃"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0018_S0_356", "src_lang": "zh", "tgt_lang": "zh", "output": "这个就呃就是disrespect the food是不可以的然后呢我们要respect our old age 啊我们还要去呃care for our like children or something so that make my personality very soft养养成了我这个非常呃怎么说呢比较软的一个性格吧那我觉得这个我这个维吾尔族啊culture 对我的affection也是挺 heavy 的是的挺 heavy 的那我"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_28", "src_lang": "zh", "tgt_lang": "zh", "output": "哦我是这样子的就是我觉得你可以不用说羡慕我因为确实他这个骑车或者是跳舞他都是很好的兴趣然后我自己在跳舞的话是因为我从小就在跳舞了但是的话骑车对你来说是一个很好的兴趣本身来说有自己擅长的一个skills或者是什么我觉得已经是值得骄傲的事情了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_30", "src_lang": "zh", "tgt_lang": "zh", "output": "反而没有因为我在家里其实只有我和爸爸妈妈然后我们就是呃会有family day像是我们一起去吃火锅或者是一起去晒晒太阳因为哦我现在家乡的靠然后就是比较这是一个比较小的CT所以我们平常的话就是会聚在一起可能下下棋然后一起看一下MOVIE什么的你平常也会看什么样的电影或者是你会看电影吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_40", "src_lang": "zh", "tgt_lang": "zh", "output": "God it's这也是我羡慕你的点刚刚听你问起我有没有PAS的时候我就在想你估计家里应该是有养小PAS的就是我家你说的没有错我自己本身也非常非常的爱SUNSET还有SUNRISEOnce我有一次就是和我的家里人和朋友我们一起去嗯SEASIDE然后我们看了一下SUNSET然后整片整一个天空都是PINK的就是那种超ROMANTIC的PINK"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_44", "src_lang": "zh", "tgt_lang": "zh", "output": "也这也是我在香港感受到的就是感受到大家生活节奏非常非常的FAST就是根本跟不上他们连走路都像在跑一样我想这个也是你感受到的东西吧但是我好像心里说起来我才发现自己根本没有见过海鸥呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_50", "src_lang": "zh", "tgt_lang": "zh", "output": "不当然不我喜欢旅行很多所以我去到城市的名字是你不知道黄河洛是"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_64", "src_lang": "zh", "tgt_lang": "zh", "output": "海鲜"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_90", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯完全明白像是你刚刚嗯就是提到提到过就是有一些书它比较复杂就是我觉得太早的去给我们这一些嗯到Weightless我觉得是有点太过于OFFER了像是有很多书一些比较Classic的很多人喜爱的书包括呃月亮呃月亮语六遍是I don't know have you ever heardBefore然后但是它就是很经典但是我在自己在读的时候我就觉得啊I don't know what is saying about就是很怪然后我就读不下去然后可能对我来说还是有点OFFER就是太复杂了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_92", "src_lang": "zh", "tgt_lang": "zh", "output": "Yes exactly就是刚好六个月就是虽然感觉上好像挺长的但是我自己当时在俄罗斯的时候就觉得时间飞得太快了然后以至于我好像嗯干了很多事情但同时也没有干很多事情然后一下子就回来过呃回到中国然后但是还是一段非常非常值得纪念的就是一段经历Because当时我在俄罗斯的时候也去到了不同的就是俄罗斯的国家我当时去的是圣彼得堡然后嗯当时在周边还有一些其他的City然后我也去到这些地方嗯做一个Travel"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_93", "src_lang": "zh", "tgt_lang": "zh", "output": "然后认识了很多不同的陌生人但是但是他们就是非常的友好比如说我们认识一些俄罗斯人他们可能我们只能在news或者是internet上认识但是当你真的是面对面和一个外国人去对谈的时候是非常不一样的但是他们的共同点都是非常的KIND就是他们给你给我展示的就是善意所以我当在那里度过非常愉快的SexMoms"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_95", "src_lang": "zh", "tgt_lang": "zh", "output": "有的有的比如说当时跟我同学说起来超级好笑哦小车一个Joke但是当时就是问他就是我走在路上因为我们可能印象中对俄罗斯的印象就是嗯满大街可能会有贝尔到处走然后当时我的同学就是他是一个俄罗斯人然后他就拉维米拉维奥劳德然后就是说你怎么会这样子想因为像中国现在也不会路上突然跳出一个穿着清朝服装的人然后这也是Impossible然后像是不过你刚刚说的超臭SHOCK或者是另一方面让我对他们的刻板印象更加的深的是一点是他们真的很爱酒精像是嗯一些初中生他们可能都已经在SMOKING然后就是手上拿的就是酒精"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_96", "src_lang": "zh", "tgt_lang": "zh", "output": "然后这个完全全程跟我们的刻板印象就是一样的但是我在想他们可能就因为我接触的毕竟只是一部分的呃俄罗斯人拜利维他们还有很多很多的人不是我一句话就是俄罗斯人就可以概括的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_150", "src_lang": "zh", "tgt_lang": "zh", "output": "但是就是因为走得太极端了所以才会有这样子的想法包括我身边很多的同学也是就是有很呃他们的目标都是父母给的所以他们在进入大学之后就是好像是所有目标都没有了他们没有自己的兴趣没有自己的想法他们所有的想法都是Idea都是来自于父母就是告诉他们嗯你要考一个Top的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_151", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯就是研究生再考一个他考进一就是或者是面试进一个TOP的公司然后你要就是走到那个TOP的职位这样你才可以赚更多的MONEY然后可以就是SUPORT你自己还有SUPORT你的父母也就是他们是说话者"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_155", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯嗯范刘伟嗯嗯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_159", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯嗯对因为我觉得这个还是说到教育资源的Unfair的问题就是像你刚刚说到一些在呃Country里面的人他们就是因为没有得到就是均等的教育资源所以他们才不得不去EnEntertain这个高考嘛所以这个也是背后有更大的社会Problem的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_173", "src_lang": "zh", "tgt_lang": "zh", "output": "Yes Scorpio 那你刚刚我们提过就是因为我们在交换都是为了去探索更多的不可能性嘛就是或者是更多的自己的可能性吧然后那你在就是毕业之后想到去外国读书的话那你有想过你的工作吗因为我自己其实我在考虑呃就是我排除自己去外国的就是后面研究生不想去外国的原因就是因为我的亲人还有像我的对象朋友等等都在国内我是一个比较需要亲密关系的人然后我就不太想要去外国因为太远了尤其是在呃有时差的情况下包括生活啊什么的都会完全错开然后我会希望我在我的工作或者是在研究生之后的工作的话还可以保持着有自己的生活"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_184", "src_lang": "zh", "tgt_lang": "zh", "output": "我完全能懂就是刚刚你说到的翻译因为其实我们两个的环境还挺像的都是呃就是学关于语言还有可以说对外交流吧然后关于这个翻译因为其实我自己也比较有兴趣所以也接触过一些就是觉得他做得非常的不到位包括我自己在看一些电影的时候我也会就包括国内还有国外的电影我也会关注到这个翻译的事情就是他很多的中文他现在只能以一个拼音的形式但是呃我自己会理解为就是有一些他的拼音的存在可以算是一种呃文化说出像是现在的龙他呃就是已经尝试着对外说的时候不是dragon而是龙"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_202", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯嗯我真的是不能更认同你的Idea就是BX哦我也有这样子的经验不能说经验但是我见过有非常多非常优秀的Outstanding的女老师但是她们就是在怀孕的时候能看得出来她们就是根本就是力不从心Even就是只是Standing她们能看得出来她们非常的吃力然后但是就是在心疼的同时会觉得为什么她们不能给予更多的呃就是同理心"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_203", "src_lang": "zh", "tgt_lang": "zh", "output": "就是在这样子的特殊的情况下因为可以生育不是呃Women的一个弱点而是我们的一个就是嗯上天的一个给予吧这样子的机会但是他们就完全没有顾及Consider到我们有这么样什么样的需要然后没有 meet我们的这样子的需求所以就是非常的不公平这也是整个Society的问题我觉得"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_204", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯甚至像一些啊一些东西有些地方那是那么危险的甚至男人不能啊去啊去啊去啊去啊"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_231", "src_lang": "zh", "tgt_lang": "zh", "output": "健身的话其实我是在俄罗斯才第一次健身的因为当时刚好我们学校有自己的嗯就是健身房然后当当好就是刚好比较安提就是人比较少所以就可以我可以比较free的去进行一个锻炼然后但是回到水就是回到北京的话还是人比较多然后我自己是比较怕crowded就是所以我就比较少去健身房了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_232", "src_lang": "zh", "tgt_lang": "zh", "output": "然后但是我平常还是会去游泳因为我们刚好学校里面有一个泳池虽然不是很大但是就是作为一个人就是去运动的话还是刚刚好就是还是挺费的然后不过因为游泳它就是步骤比较麻烦嘛毕竟就是还要花一段时间去洗漱什么就是打理好自己然后比较的不是那么的跟V年所以就是也少了一些但是还是很珍惜就是每一次运动的机会因为这个就是体质然后还是要自己制造的像是在课间本来以为两个小时应该不是很Insuff但是时间嘛就是极极总是有的所以还是尽可能的嗯SICAN然后我就会去游泳然后还买了游泳卡这样子"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_242", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯I'm so sorry for your Bicycle就是我完全懂但是就是像你说的其实它不是那么的被设备去规范的因为像是嗯Bicycle的话一般的共享的单车也可以去骑车但是还是祝福你也可以嗯As soon as possible的去获得自己的新的单车"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_259", "src_lang": "zh", "tgt_lang": "zh", "output": "May be因为就是在俄罗斯我住的城市因为是St. Petersburg嘛就是一个比较比较现代然后包容性特别高的一个城市它就是里面有非常非常的不一样的Ways of Ways就是包括中国人在也是在那个CITY里面非常的分布了比较多所以那里的人都比较有包容性然后对我们也非常的KIND所以我比较少感受到这个但是我对你就是刚刚你说的我觉得非常的GREY是因为嗯这个城市的发展或者说这个世界的一个Development不应该是在嗯新生一小Group的人的一个BASIC上去发展的吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_260", "src_lang": "zh", "tgt_lang": "zh", "output": "然后最最最痛心的就是尤其是我们身边就有这样子的所谓的弱势一些的Group像是我们的呃弟弟妹妹或者是特别小的那种BABY然后或者是你年纪特别大的爷爷奶奶然后他们就是没有没有这个能力没有这个Capacity去保护自己的然后所以就理所应当的就成为这样子一个全球发展的一个Offer甚至是一个制品就祭品就是牺牲吧然后我希望是能够尽自己的能力去尽量的STOP这样子的趋势的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0031_S0_265", "src_lang": "zh", "tgt_lang": "zh", "output": "非常非常非常认同因为像你刚刚说到其实他们单纯只是出门也是一个非常非常大的问题像是他们路上都会有那么多的obstacle所以就是非常的困难by the way which is show like more compassion and empathy to them like"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_14", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我感觉要是在语言方面继续读研究生的话感觉发展的前途并不是很大因为现在国内的AI和人工智能都这么的先进我看我考虑以后会出国然后去转专业去就读一些新闻传媒类的一些东西因为我上学期正好非常有幸去英国进行交换在英国生活经历我就感觉他们那边一些文化传播的方面嗯对他跟他们来相比的话我觉得中国还有很多地方可以改善我感觉你平常生活特别的忙那你平时怎么放松自己啊"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_27", "src_lang": "zh", "tgt_lang": "zh", "output": "你刚刚说你经常会想家那你家里有人有什么PATS吗就比如说Dogs呀Cats呀这样子的嘛"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_29", "src_lang": "zh", "tgt_lang": "zh", "output": "会的会的我经常去去看一些电影但是你刚刚讲你家在马考那等于你们家是在海边啊你像北京就没有河啊海啊什么的就真的很枯燥你像我前几天去天津我们开车开了一个半小时才到天津然后那个地方就有海啊哦你就每次到海边的时候你可以看一些什么Sunrise啊Sunset啊就感觉真的非常的治愈你像北京就完全没有这样的机会然后说到宠物的话我觉得我我我再一点点的把我们家变成一个动物因为我从小就很喜欢动物所以现在我们家有TWO CATS花花草草这样的东西还有一个RABBIT那个RABIT是最近新来的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_30", "src_lang": "zh", "tgt_lang": "zh", "output": "因为正好我有一个NEBER他们家刚有小BABY然后那个小BABY好像对兔子的毛有一点点小过敏所以也NEBER就在群里问你们谁有没有想要小兔子的我们就说啊那好可爱他真的SOQ然后我们就说我们可以养一下然后非常惊讶就是猫猫跟兔兔也不会打架他们相处得还真的蛮和谐的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_32", "src_lang": "zh", "tgt_lang": "zh", "output": "我一说到这个就想到上学期在英国因为我住在曼彻斯特旁边但是曼彻斯特旁边它离那个西海岸很近嘛所以我经常会坐火车去有一个叫做布拉库的地方它其实就是就叫黑潭是它就是海边然后它叫黑潭因为它的那个海边有很多很多的洛克所以你很多时候海水其实是黑色的但其实我过去感觉并不是然后它那边真的那个海鸥特别特别多然后我看到栏杆上四处都有贴那种sticker就是当地人落搞的一些sticker叫海鸥你不要再叫了什么的但是每次我去的时候都会带一点面包啊什么的他们不经常说嗯海鸥经常会去到那个码头边上去 fetch一点薯条啊什么的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_33", "src_lang": "zh", "tgt_lang": "zh", "output": "啊他们那边Fish and chips真的很多很多而且海鸥也特别喜欢吃Fish and chips我记得我每次写论文写到崩溃的时候就TOKA train然后去去海边看那个CGO然后看三SET然后再偶尔给海鸥喂一点Chips呀什么的就感觉很开心很快乐我觉得在北京北京就是一个生活节奏特别快的一个城市感觉这里的所有人都在特别像赶火车赶飞机一样Everyday每天都是这样子的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_65", "src_lang": "zh", "tgt_lang": "zh", "output": "是的是都托托言的三这个说的太特别有道理但是你刚刚说你有留学的经验所以你去俄罗斯的时候因为我也旅游去俄罗斯过但是你我觉得你留学肯定待的时间更长了你在那里待了多久就六个月差不多"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_67", "src_lang": "zh", "tgt_lang": "zh", "output": "那那你有没有经历过什么卡车冲击呀有没有什么你觉得不太适应的地方或者觉得哇他们居然是这样子的跟跟咱们ANDERSTEIN的一点都不一样或者有没有打破一些什么刻板印象"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_69", "src_lang": "zh", "tgt_lang": "zh", "output": "我感觉我在英国也经历了特别特别多的文化冲击"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_93", "src_lang": "zh", "tgt_lang": "zh", "output": "我觉得这样确实是有点问题但是我感觉对于很多人来讲这这就是这就是Destiny因为其实很大程度上来说讲Education其实可以是作为转变你命运的一把钥匙因为因为我男朋友从就是他放假嘛然后带着他好兄弟一起回北京来然后他的好兄弟就是在呃从湖南一个CountrySide医院来的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_94", "src_lang": "zh", "tgt_lang": "zh", "output": "然后那他们就是我觉得像尤其是对一些CountrySide呀一些我或者是经济不太发达的一些地区来讲我感觉有时候高考是他们就真的是像之前呃那个那个女子高中的那个老师说的那样就是我真的就是唯一改变人生的唯一的一条PATH你只有通过进入一个特别好的一个College一个University你才可能有机会去接触到一些呃学术界呀或者是一些国际上的一些Internacional等的事情"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_95", "src_lang": "zh", "tgt_lang": "zh", "output": "因为我因为我身边也有很多从PROVALD地区来的一些同学然后有时候跟他们交流他们就会觉得啊你出生在北京你出生在一个大城市你就已经呃已经已经至少跑赢了一代人就确实感觉你尤其是贫富教贫富差距带来的这些教育的问题真的很严重但是我觉得这也是一个国际化的一个话题"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_96", "src_lang": "zh", "tgt_lang": "zh", "output": "因为我在一些就是因为我们我们那个Translation的课上会有很多很多不不同的Material嘛然后有一次我们有一个Venezuela老师给我们放了一个TITLE那个TITLE就是呃TheFONDER OF THE呃TheFONDER OF THE呃DOLINGO他其实是一个他其实好像也是一个呃Venezuela人应该是然后他就说为什么要创造多LINGO这样的一个FreeAPP他就是为了想让更多的人去学习英语因为它里面介绍到说你像在国外的话你像在国外的话有时候呃你想去学英语你可能要花好几十美元或者是几百美元才能上一节一节Class"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_97", "src_lang": "zh", "tgt_lang": "zh", "output": "然后就是好有钱人有钱人通过比如说美国尤其在美国有一些privat school有一些私立学校他们一步一步商量到了哈佛耶鲁但是一些嗯比较穷的一些人他们可能没有办法去提供更好的educationopportunity他们最后就只能上一些比如说Church School或者一些呃Continue University呃College这样子的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_98", "src_lang": "zh", "tgt_lang": "zh", "output": "就感觉对金钱带来的教育上的烦恼但是我觉得你说的很有道理如果要想改变这样的现状的话去 change 我们的这个就是教育的初心还是蛮重要的所以现在也有也有很多嘛就是北京要在座很多的比如说把各个把把小学的各个资源评分掉比如说一些特别呃失重点的一些一些小学他们会呃 average 到各个其他的一些小学去比如是去派一些teaching assistant去每周去教育工作啊去指导啊然后或者是嗯国家去发一些资金啊奖金啊去激励一些呃更好的年轻人更好的TENAGE TEACHER去到乡村里面去教学这样子的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_113", "src_lang": "zh", "tgt_lang": "zh", "output": "我觉得你说的非常没有非常非常对我觉得现在职场确实虽然一直都在呼吁说啊我们要对女性呃就是更多的关照我们要怎么怎么样但是其实这样的歧视一直存一直是存在的比如说我就经常觉得有很多的很多的Lady有很多的呃女生他们在找工作的时候你可能用人公司并不会在表面上表示啊You are not the right person或者是什么的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_114", "src_lang": "zh", "tgt_lang": "zh", "output": "但是他们都会有考量尤其是有很多尤其是我我们最近刚刚有一个老师她要去生孩子了但是我们真的我们所有的学生都觉得她她真的非常的辛苦真的我们觉得我们至少我们学校这一点做得是特别特别的不好因为CUSEHE'S FRAGNANT AND CHEESE来去年十二的时候她就已经怀孕五个月五个月了然后等于一直算下来到今年APREL的时候她已经怀孕八九个月了我们都震惊了居然怀孕八九个月的人还要来上班"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_115", "src_lang": "zh", "tgt_lang": "zh", "output": "我的天呐就是他的那个肚子大到就是我因为我们呃学语言嘛班上基本上发女生你知道只有一个男生但是那个男生也比较体贴我们都觉得我的天呐他是不是下一秒就要生了我们每个人上课的时候都都非常的还都非常的有有点担心但是也同时觉得唉这样的workwise真的不适合"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_116", "src_lang": "zh", "tgt_lang": "zh", "output": "然后我们就觉得她每天都真的超级辛苦有时候她都会很可能站着给我们来Have class有时候可能就是Wander around站一会儿然后坐一会儿什么的我觉得真的我觉得这样真的好辛苦但是同时另外一方面来讲的话很多的就是employesemployers她就会觉得啊你你是个女生你以后会Get married你会以后会GIVEFAST然后你又咔落下了这么一个Project你没有办法跟进了或者是我们这边正在开着开着会的你突然你突然怀孕了你要去孕吐"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_117", "src_lang": "zh", "tgt_lang": "zh", "output": "呃就感觉他们真的顾虑很多但是我觉得这需要一个工作他们需要考虑到这样就是我们有这样的生活有这样的环境是正常的但是同时他们也不能说因为你是一个女生所以我不想把这个Opportunity给你因为我知道就是之前在公司的一些招聘网站上这样看到如果比如说像咱们学语言就会面临一个外派的这样一个选择嘛他很多Overseas的这种工作都会选择男生他们就觉得啊You are man you are capable you are strong you don't need to care about your family you are able to live alone and handle everything"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_134", "src_lang": "zh", "tgt_lang": "zh", "output": "确实我特别认同这种观点就是商业商业上面带来的一些就是它是必要的但同时他又感觉很可恶感觉像玷污了这种体育的环境玷污了纯粹的热爱一样但是我看我看你要感觉身材表现得我看你身材也非常的好那你平常会有做一些运动吗你会去去到一些健身里面去吗你会见日常健身吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_137", "src_lang": "zh", "tgt_lang": "zh", "output": "我真的太羡慕你们了我们学校有一个游泳池但是特别可惜它只对有SubscriptionClasses还有一些SubscriptionTrainingTeam他们开放它不对我们普通学生开放所以我虽然很喜欢游泳但是我一直就只能每次路过的时候我看着里面正在游泳的人隔着窗户感到非常的叹息而且因为我刚刚说我也特别喜欢Cycling了但是Cycling现在对我来说也是一个遥不可及的事情因为就像我刚讲的我去我去Exchange了一个学期然后我的车我就锁在了学校然后他们可能是做一个Overall的一个CleaningUp他们就觉得啊你这样尽量可爱的小Bike放在这里面一个Moss都没有人要了那就是没有人要了我们就收走了所以我回去的时候就不见了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_138", "src_lang": "zh", "tgt_lang": "zh", "output": "哦真的It's so it's so sad and so so dramatic it's but you can't do anything because it's past it's possible like smash and you don't know when you don't know you don't know anything so我现在有一点点小小的攒钱计划我想给自己买一辆新的车我觉得我而且而且我觉得很多像很多像体育运动都是入门你有你要有很有一些 equipment"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_139", "src_lang": "zh", "tgt_lang": "zh", "output": "你感觉你有这个Equipment之后你就反而去有动力去激励自己去做一些运动毕竟买都买了不可能让那让他放在那里吃灰我觉得这也是一项反向的激励但是我就很苦恼因为因为需要减肥嘛然后大家都说大家都就是就是也是为自己健康考虑嘛就是不是说追求一个怎么怎么样的一个身材要用到特别的Sliming或者是怎么样的但是嗯他们有很多人就说我我大概一周我I don't know one day I just drink water这样就真的很可怕还有那种他们说我只吃WEDGEBOW我不吃米子我也不吃碳水我也不吃RICENUDLE"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_140", "src_lang": "zh", "tgt_lang": "zh", "output": "我觉得这样真的很可怕因为我本身我本身我也我也是一个我我不是我是一个吃苦我看到一些什么螺丝粉啊臭豆腐啊我就挪不动我觉得真的太好吃了为什么会有人去拒绝这样的美食但同时我也很羡慕那些每天都能去嗯坚持每天去跑个大概半个小时啊三十三分钟啊一个小时这样子我觉得他们真的非常有毅力我觉得能能KeepUp能坚持下来就真的已经是一个特别了不起的事情了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_156", "src_lang": "zh", "tgt_lang": "zh", "output": "我觉得你说的非常有道理就是我觉得社会发展它就不应该的就像扶贫一样要富起来大家就一起富起来每个人都应该在这个富起来的道路上找到一个属于他们的一个作用的点那我觉得社会发展也是一样的科技发展再怎么发展也都是为了人类如果你如果你服务不好这个社会的一小部分人群那那你能怎么说这个社会发展呢对吧就是你每一个group你都要照顾得到不管是老人还是The Elder还是The Young你都要去照顾到因为毕竟The Senior我觉得他们非常有权利他们"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_157", "src_lang": "zh", "tgt_lang": "zh", "output": "他们创造了一个环境让我们去更好地去发展科技我们把科技发展起来了反而顾及不到他们的感受我觉得呢这样的话这个Society是没有温度的而且我我不知道你在俄罗斯有没有遭遇过一些什么种族问题俄罗斯有很多很多的SNS或者是就是黑人黄众人这样子的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_160", "src_lang": "zh", "tgt_lang": "zh", "output": "我觉得你说有非常有道理除了一些AJING的一些问题的话我觉得对于DISABLEITY来讲也是也是非常有挑战性的因为我去英国我看他们有很多的SIDewalk上面都会有一些给残疾人铺设的一些道路但是回到国内我就看所有的道路上基本上都摆了共享单车而且有的标识都也不明显你像很多电梯里面嗯它有一些给给那个Blind People设置的一些电梯的一些button它都没有嗯一些很好的东西还有一些听障的朋友我在英国经常看到有一个小蓝标识就是听障的朋友把耳机放在那个地方就可以听到一个比如说更大的一个Speaker或者是一个怎样子的我在中国我就很少见到这样子的设施"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0032_S0_161", "src_lang": "zh", "tgt_lang": "zh", "output": "就而且而且我为什么会觉得英国他们做这种设施做得很好是因为我在街上我在看球赛的时候我都能看到很多很多的DISABLEPERSON就是你甚至都能在街上看到他们而在中国你在街上看不到DISABLEPERSON不是说中国的DISABLEPERSON就特别少到你上街都看不到而是这些DISABLEPERSON他们根本就没有足够多的能力能够去出门去适应这个SOCIETY"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_87", "src_lang": "zh", "tgt_lang": "zh", "output": "你懂得You know"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_91", "src_lang": "zh", "tgt_lang": "zh", "output": "哦我昨天去玩的时候感觉我的整个脸都要裂开了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_93", "src_lang": "zh", "tgt_lang": "zh", "output": "呀呀呀确实因为南方UNO啊SUMANINGRENINGDAYS就非常的湿热很适合咱们这种从小南方生长的孩子"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_95", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯呃I come from江西呃呃你知道这个城市吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_99", "src_lang": "zh", "tgt_lang": "zh", "output": "姐哦I know离我那儿应该还挺近的我是瘦肉的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_101", "src_lang": "zh", "tgt_lang": "zh", "output": "对嗯我觉得江西是一个比较嗯怎么说比较趋于CT因为就是我感觉江西人都比较能吃辣对吧就是一些"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_103", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯对我特别爱吃spicyfood我在北京一般吃都是吃啊特辣那种或者吃中辣"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_105", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯确实我觉得北京真是一个美食荒漠的DISERTYUNO所以我觉得北京最好吃的其实是麦克唐纳麦当劳"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_107", "src_lang": "zh", "tgt_lang": "zh", "output": "莉吃得完了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_111", "src_lang": "zh", "tgt_lang": "zh", "output": "不会是嗨T吧洗茶"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_113", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯其实我觉得魏公村那边也有挺多Deliciousfood比如说你吃过那个吗呃文昌乔布斯粉"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_115", "src_lang": "zh", "tgt_lang": "zh", "output": "是是你吃得正常"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_119", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯确实是这样的嗯所以DUYULAK呃NOODLEOSORYSTNOODLEOS"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_124", "src_lang": "zh", "tgt_lang": "zh", "output": "哦嗯如果你喜欢Rice noodles我建议你千万不要错过江西的Rice noodles"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_198", "src_lang": "zh", "tgt_lang": "zh", "output": "然后你说这你倒说对了啊主题是你说到万圣节这个我又想起了广州长龙啊那边他每每年都会有那种主啊万圣节主题的那种活动然后里面就不是说会请一些啊帅哥来到那个来到扮演一些那种角色吗然后就会有很多NPC像我们这样的NPC就会去"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_207", "src_lang": "zh", "tgt_lang": "zh", "output": "哦你说对了因为我在韩国忘经那边哦做了牙齿矫正所以我每个月都会去那边啊就是就是复诊一次然后每次都会路过忘经那儿就是尤其是搜货啊以及那一块儿那里有很多的含料店然后因为因为韩国人比较多所以含料店也多但是目前我还没有哦尝过那里的含料我觉得下次在我去门诊的时候我应该去尝一次"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_216", "src_lang": "zh", "tgt_lang": "zh", "output": "Iredbike对我觉得还是骑自行车比较方便啊一来你可以锻炼啊二来就是比较近方便呀"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_218", "src_lang": "zh", "tgt_lang": "zh", "output": "Yes哦所以你知道嗯那个你开通了北京一卡通吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_220", "src_lang": "zh", "tgt_lang": "zh", "output": "那因为它有学生折扣"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_224", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯I think you are right我觉得你说得很对你怎么一说嗯现在因为很多其实对于我们研究生来说其实学生正在很多啊场所或者场景都已经不太适用了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_225", "src_lang": "zh", "tgt_lang": "zh", "output": "别别别别别别别别别别"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_227", "src_lang": "zh", "tgt_lang": "zh", "output": "呃RESTAURANT嗯WELCOMETOUSFORCEMPLE海底捞他原来接受我们的这个研究生学生证所以我还是很喜欢去海底捞"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_229", "src_lang": "zh", "tgt_lang": "zh", "output": "呀先嗯所以你打算就是毕业了就直接去找工作了对吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_231", "src_lang": "zh", "tgt_lang": "zh", "output": "哦Weir我可以问一下哪的城市呀哦我去过哪儿啊It's a very beautiful city"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_237", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯Yes嗯我觉得那里给我留下了就是挺深刻的印象嗯Because啊It'sNearTheSea对你每天就是能看见大海SeoYouWillFeelVeryRelaxRelaxed对所以我好羡慕呀"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_241", "src_lang": "zh", "tgt_lang": "zh", "output": "对啊你看我说Ride back to the sea"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_245", "src_lang": "zh", "tgt_lang": "zh", "output": "呀然后再WISEYOUFRENDS嗯然后再放一点MUSIC然后带上一些SNEX然后对非常的ENJOYABLE"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_286", "src_lang": "zh", "tgt_lang": "zh", "output": "哦是这样的我们嗯我们学校的话就是得刷学生卡就是用那个门禁对然后因为就是有门禁这个呃缘故所以我录手了一个带NPC功能的小米手环然后我把我的学生证ID输了进去我每次手环就是手往那一靠就低一声我就能进校了也是很方便我觉得"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_319", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯不想被时代淘汰我们就只能跟着时代跟着科技往前走还是要多了解相关领域的一些前沿知识尤其是这个AI语言类其实嗯和语言像我们翻译或者说英语类专业还是挺就是结合会挺密切的比如说什么ChatGPT四呀其实现在已经出现了第五代了这个对对但是我第四代还没用上呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_330", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯是的其实我嗯我今年这一学期就有在学这门课程但是相比于他这个名字听上去啊我这门课更多的是偏理论一些啊并没有实践性并没有那么强啊主要是课上呢老师会给我们介绍很多啊现在比较先沿前沿的那种先进的那种啊科技领域的技术啊去跟我们说怎么去和这个语言服务相结合呢我们可以利用这个科技就是怎么把这个语言服务给它再提升一个Level One的这样子"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_338", "src_lang": "zh", "tgt_lang": "zh", "output": "哦我觉得你说得很对尤其是现在很多岗位他们的招聘啊要求他们那个JobDiscription里面都很有很多都说到了需要你要什么很强的什么数据分析能力然后会什么PersonalDriving什么优先每次看到这个我就打扰了Excuse me"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_349", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯其实我之前入职的时候嗯因为我做的那份工作就是我之前是零经验进去的是和运营相关啊其实那些他要求的技能其实我就是也没啥经验然后但是入职进去之后呢感觉差不多一个星期左右我基本上就能handle我那些主要的工作啦然后然后我在工作的时候呢我其实也是挺多利用了那个TechnologyToHelpMe"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_353", "src_lang": "zh", "tgt_lang": "zh", "output": "因为就是技术可以帮助你去节省时间"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_357", "src_lang": "zh", "tgt_lang": "zh", "output": "对嗯是这样的我就想起我们老师呃TELASA说就是我们文科生的话就是呃对因为指令是我们人给那些机器的给那些RAPORT的所以怎么去发出正确的指令啊是我们需要去学习的一个比较重要的SKILES"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_390", "src_lang": "zh", "tgt_lang": "zh", "output": "文心一言Created by百度And顺普青年呃Created by清华"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_419", "src_lang": "zh", "tgt_lang": "zh", "output": "其实我感觉我们这个学期的课程还是比较偏理论的就主要你懂得就是英专生有很多的PREY很多的PPT很多的效果"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_463", "src_lang": "zh", "tgt_lang": "zh", "output": "特别onest还是有一些用挤的啦"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_465", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯因为我觉得啊我觉得就是From the MAP就是你从那个地图上来看啊在海淀圈儿的学院学校里我们学校应该算是中等的吧不会特别小但也不会特别大"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_469", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯是这样子的嗯我就想起了MYHISCOOL就是我的高中呃就是就是我那个高中哈它是有分新老校区然后我一直是其实是在老校区读的因为新校区是在我毕业了以后才建好的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_470", "src_lang": "zh", "tgt_lang": "zh", "output": "所以新校区会比较modern一些然后里面有很多的technologies啊就会比较科技化一些但是我其实我是更喜欢新校区我也去过就是毕业后回去看过但说实话嗯I like the old one better"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_473", "src_lang": "zh", "tgt_lang": "zh", "output": "对所以呃在那个里面有嗯你可以看见Lakes啊还可以看见很多的那种嗯嗯architectures然后比较那种偏Classic对所以我觉得还是就是风景很好嗯还是就是一边是那种嗯学校然后就是古典和现代的相结合所以我觉得我更喜欢里欧的老校区"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_479", "src_lang": "zh", "tgt_lang": "zh", "output": "I can understand you feeling因为我觉得其实也是这样子的那呃To be friendly啊I prefer which I enjoy now"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_480", "src_lang": "zh", "tgt_lang": "zh", "output": "我是一个比较就是享受当下的这么一个状态的人因为而且UNOULASTTHREEYEARS嗯PANDAMIC"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_481", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯PandemicH啊疫情就是带走了太多本该属于我们比较呃美好BUTTIFUL的那种SCOOL LIFE"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_482", "src_lang": "zh", "tgt_lang": "zh", "output": "所以Last three years嗯我并没有感受到就是那种很美好的就是像那种校园距离一样的那种比较惬意的那种或者说比较normal的schoollife因为我们毕竟还在线上就是上过网课onlineclass对吧但是其实虽然我现在还是有一点怀念网课啦"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_483", "src_lang": "zh", "tgt_lang": "zh", "output": "这样子其实你其实会有更多的free timeto dosome things啊you enjoy"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_489", "src_lang": "zh", "tgt_lang": "zh", "output": "因啊LastYear就就过去一年就是我做了很多就是之前大学里从没有做过的事情啊For example嗯ITravelAllonAndI"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_491", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯对就是就是有很多不一样的体验就是很多事情我就我不再开始是就是非要就是好几个人就是要找个人跟我一起怎么怎么样我就是可以呃DoDoWhatILikeAllong对就是JustEnjoyMYSELF"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_548", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯实习经历嗯我觉得收获的话可能就是嗯因为其实怎么说就是当时我的那个嗯Mantel吧就是他其实我跟他见得次数不多然后他对我的培训也不是很多然后我中途还就是就是更换了Mantel所以我感觉在这段实习经历中我更多是自学或者说是自己独立的做自己的工作啊对就是在逐渐锻炼自我的这么一种感觉然后可能一开始对自己的这个工作没什么概念就是没什么理解每天就是在做好自己重复性的那种工作然后但是就是到后面的话可能就是啊理解会稍微深一点这样子"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_580", "src_lang": "zh", "tgt_lang": "zh", "output": "对就是两者对我来说我觉得都可以就是我本身其实是一个比较嗯爱的人对我的MBTI对其实就是一个爱人然后我但是我不排斥去MakeFriendWithOther嗯我也乐意去MakeFriendWithNewPeople对啊所以就是但是我还是比较被动的那种就是在交朋友的过程中如果就是呃XSomeone就是嗯像我试好或者说嗯WantToMakeFriendWithMeAndExpressHillOohHillOoh"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_582", "src_lang": "zh", "tgt_lang": "zh", "output": "就是他的那种想法或者意愿的话我我就是会稍微更主动一点对就反正我不会先主动第一步但是如果你先向我迈上第一步的话我就会迎合上去YES LET ME"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_590", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我觉得你说得很对嗯BecausemyMentor嗯嗯怎么说呢但是他可能就是呃怎么说因为我们组嗯除了我之外呃LeaveAreTwoOther呃"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_593", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯可能当时我只在线下就是工作了一个月吧当时跟他们的交流也不是特别多SEE I OWN"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_597", "src_lang": "zh", "tgt_lang": "zh", "output": "对就是我感觉可能因为他们现在现在都是在线下我这是在线上其实我们并没有什么更加DIPPER的interaction呃或者是communication所以嗯我们之间的这种connection我感觉并不是特别的紧密对"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_686", "src_lang": "zh", "tgt_lang": "zh", "output": "但事实上我只是一个只是一个门外汉了就是只不过是嗯HaveSomeInTEC所以也会稍微了解一点"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_688", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯是这样子的嗯因为我觉得就是运动真的能给你带来嗯Pressure以及一些呃HappyFeeling啊就是通过运动你可以就是RememberManning呃TravelsOhWorries啊然后你就可以像是暂时的就是EscapeFromTheWorldAndEnterTwoEnterAnotherWorld"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_689", "src_lang": "zh", "tgt_lang": "zh", "output": "And this word you can just enjoy alone"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_690", "src_lang": "zh", "tgt_lang": "zh", "output": "然后像我的话啊如果就是呃因为我目前还没有找过教练去跟练所以我都是LEN FRONT的比利比利"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_694", "src_lang": "zh", "tgt_lang": "zh", "output": "也就是锻炼的时候嗯TakemyIpad然后PlayOnBillyBilly点开一个运动视频跟着练"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_698", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯I agree with you哈你说得很对确实就是反正就是我觉得对身心都是有好处的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_703", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我从来没有试过找一些像我这样的人在Jesse Far"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_705", "src_lang": "zh", "tgt_lang": "zh", "output": "确实因为我就感觉自己进入了MYELVERD然后其他人我都看不见"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0033_S0_707", "src_lang": "zh", "tgt_lang": "zh", "output": "因为我只是为自己而做,我不想被别人所负担,"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_102", "src_lang": "zh", "tgt_lang": "zh", "output": "确实我觉得北京这个维也纳真的非常的折磨人"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_104", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我以前在南方都不怎么用护肤品的相对来说但是在北方经常要查一点啊洛生什么的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_108", "src_lang": "zh", "tgt_lang": "zh", "output": "确实那你老家是哪里的呀WHERE IS YOUR HONEST"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_112", "src_lang": "zh", "tgt_lang": "zh", "output": "哎哦哦我的妈的也来自江西"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_116", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯哦我有听说过这个CT"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_118", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯确实我刚刚想问你能不能吃SPACYFOOD因为我感觉广东人还挺"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_120", "src_lang": "zh", "tgt_lang": "zh", "output": "确实我感觉我天天在北京吃呃DishesFrom下呃四川重庆这些地方"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_124", "src_lang": "zh", "tgt_lang": "zh", "output": "很有道理我记得你的嗯Unyversity附近好像也挺多好吃的洋快餐店的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_130", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯for example哦看到有新开的奶茶店还是有咖啡店吧好像"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_136", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯yes"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_138", "src_lang": "zh", "tgt_lang": "zh", "output": "哦文春六路四INODAD是不是在那个地下美食街的店"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_140", "src_lang": "zh", "tgt_lang": "zh", "output": "我去过去过挺多次的不过那个我四十我只去过一次因为嗯那里总是排很长队"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_143", "src_lang": "zh", "tgt_lang": "zh", "output": "呃IpreferRiceNudlesAndIthink呃新疆炒米粉很好吃真的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_297", "src_lang": "zh", "tgt_lang": "zh", "output": "确实嗯而且这个非常cheap不像你打听什么的就比较花钱"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_303", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯感觉也是在Encourage我们多出去走走看看吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_307", "src_lang": "zh", "tgt_lang": "zh", "output": "切尔西IHAVEHEARD ABOUTIT我觉得嗯看来我要珍惜最后这一小段时间多利用一下我的学生证"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_327", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我我那天我之前在夏大夏令营的时候那个时候我就发现学校Near the Sea基本上你走出学校就是可以看海"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_329", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我觉得这还挺浪漫的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_331", "src_lang": "zh", "tgt_lang": "zh", "output": "这不错看我还得去学一下游泳不然感觉有点浪费这个海"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_477", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我之前也想着大四就学一些呃Language of the Computer比如什么PythonJava之类的但是我也就是入门了几天然后我就觉得非常的BORRY哦然后我就有点放弃了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_481", "src_lang": "zh", "tgt_lang": "zh", "output": "但是我也觉得有时候可能他就是形容得很difficult看起来很难handle但实际上可能你过了一些硬气门槛进去之后你发现你干的活都跟这些大不太上边"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_483", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我是一方面我自己找工作的时候有一点感想然后另一方面是我身边有一些呃The Friends of my friends啊就比如说有呃我有一个认识的朋友的朋友他在美国工作了然后他就是文科生但是他后面转码做这种Programming之类的工作呃但是呢他其实也不太会写他就是入职的时候啊让他的对象帮他呃线上帮他通过了那个面试然后他惊奇地每天就让TGPT帮他WORK去写那些代码"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_497", "src_lang": "zh", "tgt_lang": "zh", "output": "哎呀,I think so.We can we should use the S helpers 而不是被他们所操纵"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_499", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯很有道理那我觉得我们文科生可能就更需要嗯study on how to useit可能这是我们需要擅长比较擅长的方面因为我们学人文的嘛"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_501", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯确实嗯我之前也被鼓我想学计算机语言的时候就被鼓励过嗯myfriendsTOLD me that sinceI am anEnglish learnerIt will be嗯KIND OF EASY EASIER for us to learn those programming languagesfor that's all communicationbut just in a different way"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_645", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯那你更喜欢B的还是SMOOL的学校呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_655", "src_lang": "zh", "tgt_lang": "zh", "output": "我感觉我因为我从小学到大学都是特别small的campus然后我就很我也很希望能去一个比较big的学校体验一下不同的校园生活因为感觉那个Invironment是很不一样的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_679", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我懂你的意思感觉很多新校区虽然它比较你也有比较摩尔的但是它的设计可能会更千篇一律一点而且也没有那么深的底蕴我们学校也是这样"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_681", "src_lang": "zh", "tgt_lang": "zh", "output": "更喜欢那我喜欢的话肯定是选其实小学和大学都很好它各有不同就是呃In呃ElementarySchool呢就是因为你还很天真所以你就不会觉得嗯有很多的束缚在身上而到了university就不会啊就是你实际上获得了更多的自由"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_819", "src_lang": "zh", "tgt_lang": "zh", "output": "确实我懂你的意思了所以你比较prefer嗯比较松缓的然后大家之间关系比较融洽的那种workplace对吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_821", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯美超嗯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_823", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯那你比较喜欢我还有一种选项就是呃一边是比较Warm and politely friendly但是他呃可能还会想跟你发展一些工作之外的交流然后另外一种就是他可能平时呃看起来比较GREEN比较严肃比较SERIOUS但是他可能工作之外他不会跟你有过多的交际connection你觉得你喜欢哪种"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_841", "src_lang": "zh", "tgt_lang": "zh", "output": "哦唉IC我大概知道你的意思了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_843", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我觉得我跟你的嗯personality可能还有点相似然后我在职场里面也是这样子的感觉像我的Mentor他就是比较Outgoing的那种然后他来跟我交流的话我都是非常Willing去和他一起做讨论或者是嗯聊一些可能跟工作无关的话题但是我自己嗯不太会主动的去嗯像他PUTFORWARD一些话题怎么样的我觉得但是他愿意来跟我CommunityKid我觉得很好"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_847", "src_lang": "zh", "tgt_lang": "zh", "output": "哦啊我觉得你的Mentor也是比较Responsible的啊他没有很好的把你带入到这个工作的小圈子里面"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_851", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我理解你的意思那你后面如果还想嗯连一些internship的话你会想找线上还是线下的呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_990", "src_lang": "zh", "tgt_lang": "zh", "output": "我觉得很好啊兴趣就是最好的TITER嘛大家都这么说"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_1002", "src_lang": "zh", "tgt_lang": "zh", "output": "哦又是科技的好处"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_1004", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯挺不错的感觉嗯我感觉XS可以让人变得更加SELFDISPRAY如果你坚持做的话我觉得他其实不光锻炼的是你的PISICAL STATUS也是你的一种MENTALITY"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_1007", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我之前还听SOMEBODYSEYDAT嗯他们会选择去健身房这个地方找他们嗯FUTURECOUPLE就是他们的未来对象因为可能更容易找到跟着一样比较呃比较上进的比较积极的SELFDISCIPLINE的人"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_1009", "src_lang": "zh", "tgt_lang": "zh", "output": "唉I guess你在健身房的时候从来不Pay attentionto其他其他健身的人对吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_1013", "src_lang": "zh", "tgt_lang": "zh", "output": "那就是你有没有携带更多的意念而来你是纯粹的为了锻炼"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0034_S0_1017", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯I think that's great挺好的像嗯其实我最开始嗯进健身房的时候I have worried about就是我有时候会担心因为我是新人嘛我就担心我可能我的Movement不会很到位或者说我的嗯就做得不够好可能会被别人嘲笑然后后来发现大家都是Pay Attention To ThemSelfs我就觉得很Relax"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_15", "src_lang": "zh", "tgt_lang": "zh", "output": "啊请叫史蒂文就好了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_17", "src_lang": "zh", "tgt_lang": "zh", "output": "你好艾拉你好很高兴认识你"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_32", "src_lang": "zh", "tgt_lang": "zh", "output": "我兴趣爱好啊比较多我比较爱运动然后比较喜欢运动然后音乐我有爱听但是我觉得我自己表达音乐的方式不是很强所以我只是听很多歌对然后我平时喜欢看一些啊教育类的一些东西我喜欢在网上看那种博客然后因为我平时在国外生活然后我也喜欢啊看一些比如说播客然后比如说啊一些采访类的节目比较喜欢看"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_34", "src_lang": "zh", "tgt_lang": "zh", "output": "好那平时你有什么别的爱好吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_36", "src_lang": "zh", "tgt_lang": "zh", "output": "哦那很好OK那"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_39", "src_lang": "zh", "tgt_lang": "zh", "output": "对好那你的性格是怎么样的呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_41", "src_lang": "zh", "tgt_lang": "zh", "output": "文和嗯OK嗯文和我"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_51", "src_lang": "zh", "tgt_lang": "zh", "output": "对对对然后我的生活的轨迹也是从因为我小时候家里也是北京的然后在一个大城市长大这样然后现在去了国外那种比较小的地方然后感觉这种生活这种生活风格的改变也比较大就是然后这次回来北京回来探亲啊回来玩感觉大城市的改变真的就是跟我离开的时候的北京是完全不一样的可能我上一次回来还在疫情还没有开始之前但是感觉这四年的改变就非常的大然后感到这种大城市的科技各种服务在大城市感觉哇简直就是让我震惊到了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_63", "src_lang": "zh", "tgt_lang": "zh", "output": "对啊我有去过我去过澳洲各个的那种动物园都有看过然后澳大利亚的那种生活的话就是你跟自然是很容易一体的然后呢如果你经常开车去工作啊去生活这种你经常会有时候我其实我个人还在开车的时候有撞到过野生动物有发生过几次那样对因为这个在国外就是在那种偏远的地方野生动物比较多是很常见的事情对一开始还有点有点有点震惊到就觉得哦怎么感觉自己杀身了对但是后来慢慢就习惯了因为这种事情就是说常常会发生那种对但是挺有意思的然后在那边就是也会也会吃到就是有机会吃到各种野生动物的肉然后在那边有吃到过袋鼠的肉然后有吃到过鳄鱼的肉"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_68", "src_lang": "zh", "tgt_lang": "zh", "output": "那那那你方不方便讲一下你在北京这座城市的lifestyle是怎么样的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_76", "src_lang": "zh", "tgt_lang": "zh", "output": "对因为在这种啊春季到夏季之间的时候然后树它会有很多的这种花粉然后呢它会引起人们的这种哮喘这种反应是一种过敏的反应那很多严重的人呢需要靠那种药物啊像啊因为我啊像那种叫SUBITMO啊很多别的药物然后来抗过敏这个确实感觉对生活影响挺大的对"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_82", "src_lang": "zh", "tgt_lang": "zh", "output": "所以现在是冬天中旬的冬天所以是早上的四摄氏度所以是真的冷的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_84", "src_lang": "zh", "tgt_lang": "zh", "output": "也对就是对这种南半球和北半球的这种温差呀气候的改变其实蛮大的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_88", "src_lang": "zh", "tgt_lang": "zh", "output": "对我生活在一个内陆的城市在墨尔本它那边的就是一天一天你会经历四季因为它是很靠近海洋它就是那种海洋气候可能这一分钟你还在晴空万里然后下一分钟瓢泼大雨就已经淋到你的身上了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_89", "src_lang": "zh", "tgt_lang": "zh", "output": "对所以我其实其实就我现在住的居住的城市和北京一样就是都是那种内陆城市我还是比较喜欢这样的对气候比较比较可预测"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_95", "src_lang": "zh", "tgt_lang": "zh", "output": "对我觉得生活在海边的一个优势就是说哇you have哇first of allyou got access to the oceanI meanif you like scuba divingif you like surfing"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_98", "src_lang": "zh", "tgt_lang": "zh", "output": "对对因为呃我在之前的几年自己去考了那个scuba diving license所以我可以去我也有我也可以自己去跟朋友一起去scuba diving然后啊我最近有想去学surfing我觉得surfing也是一个很有趣的运动对我觉得对这样YesPretty good lifestyleOver there"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_100", "src_lang": "zh", "tgt_lang": "zh", "output": "好吧那嗯你在这边所以你的家人都在北京这边吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_105", "src_lang": "zh", "tgt_lang": "zh", "output": "好吧嗯你有没有时候会感觉到LONELY就是因为家人没有在身边虽然有很多朋友了但是家人的感觉可能还是不一样"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_138", "src_lang": "zh", "tgt_lang": "zh", "output": "哦泰坦尼克呃中文名字是泰泰坦尼克号"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_142", "src_lang": "zh", "tgt_lang": "zh", "output": "对那是很经典的一部爱情片我也非常喜欢这部电影对然后他的男主演啊莱昂纳多迪卡普里奥是我最喜欢的电影演员之一也是我觉得他非"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_155", "src_lang": "zh", "tgt_lang": "zh", "output": "哦CATCHMEIFYOU CAN对那个那个也是我非常喜欢的代言之一"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_160", "src_lang": "zh", "tgt_lang": "zh", "output": "OK那你比较会啊比如说你是会比如说坐飞机去别的城市坐火车去别的城市或者说比如说开车到你城市附近的别的景点去游游玩还是说你会去办签证出国去别的国家体验一种更不一样的生活呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_206", "src_lang": "zh", "tgt_lang": "zh", "output": "那边就是自然放光就是比较美到惊艳那种啊IFII also watch some the movies about New Zealand before"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_209", "src_lang": "zh", "tgt_lang": "zh", "output": "呀黄旺很多的Reigns是嗯我觉得 one of the most successful like like"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_211", "src_lang": "zh", "tgt_lang": "zh", "output": "You know like like fiction movie like about like you know all the elves all the gods and all the different tribes and how they fold each other but there's this part about you know like the beautiful hometown就是霍比特人那个美丽的家乡然后呢那个这个电影纸皇王原来他拍摄的地点就在新西兰所以我觉得我去就是想看看那些自然风光"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_215", "src_lang": "zh", "tgt_lang": "zh", "output": "好那你在旅行的时候有没有回去跟朋友一起看一部电影"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_217", "src_lang": "zh", "tgt_lang": "zh", "output": "对哦我也我也超喜欢宫崎君的Spirited Away千语千寻是他的很多的电影都是很有寓意而且他是属于都是他的作品都是用很传统的方式他都是一笔一笔画出来每一帧他电影里的每一帧我觉得这种"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_222", "src_lang": "zh", "tgt_lang": "zh", "output": "对就像很多中国古代的经典名著一样Each time you watch itGives you something newKeep on getting more details from that movieor you know that book"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_228", "src_lang": "zh", "tgt_lang": "zh", "output": "呃那你有没有因为看到一部电影然后你就想去一个地方watch a movie and you like wow this place I I I I like it so much I got to be there because of that specific movie"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_238", "src_lang": "zh", "tgt_lang": "zh", "output": "我觉得那种就是这个电影的情节你给我描述的就已经让我很感兴趣就是在那种CAUTION的背景下然后你会有在维也纳因为他是之前经历过二战的各种创伤然后一个美国的学生和一个法国的学生然后一起去那里玩儿哦简直我觉得会有一些很有意思的一些文化的交流和碰撞感觉应该很有趣"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_242", "src_lang": "zh", "tgt_lang": "zh", "output": "好吧那你觉得现在咱们这些科技的发展像现在有很多翻译的软件啊像比如说有这种图片的翻译图片计时的翻译啊有这种语音计时的翻译那你觉得这种会在你旅行的时候给你带来更多的便利吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_246", "src_lang": "zh", "tgt_lang": "zh", "output": "哇,这很棒你怎么走进一个地方,你不知道这个语言,你只需要打开手机,基本上就扫描照片,然后告诉你这里的一切"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_252", "src_lang": "zh", "tgt_lang": "zh", "output": "哦对我记得好像以前有看到过那种它就像一个subtitle一样但我不知道以后会不会转换成就直接语音但是现在是一个就像一个movie subtitle如果SomeoneSpeakingOverThereAndWellUnderGagleUnderGagleThatYouWearAndThat'sBasicallyYouKnowEverythingTapDownAndWowThatIsAmazingTrueAmazing"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_285", "src_lang": "zh", "tgt_lang": "zh", "output": "好的我的话我会在我财力所能允许的范围内去尽量多的去去购买新的科技然后使用新的科技因为我觉得这是一种提升人生产效率的一个最好的一个方式就是用新的科技啊我用个人用人工智能AI人工智能用的很多啊他能虽然他现在有种种缺陷就是比如说有时候他回答的信息不够严谨然后他有时候会提供一些胜过错误的信息但是他有时候能帮我就是就像一个就像你有一个小助手一样他会帮我整理我的思维我会把我的想法真实地告诉他"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_286", "src_lang": "zh", "tgt_lang": "zh", "output": "然后呢他有时候会帮我去BrainStorm出一些新的Ideas新的新的主意这样对嗯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_296", "src_lang": "zh", "tgt_lang": "zh", "output": "那对于电脑这种就是运行系统的话你有没有一些个人的preference就比如说你是喜欢UsingMacBook还是Windows啊现在其实还有一些别的系统像啊有像谷歌有出过ChromeOS这个系统这可能我觉得现在是三大操作系统吧你自己用哪个比较多"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_298", "src_lang": "zh", "tgt_lang": "zh", "output": "啊因为Windows比较多OK我的话很有意思因为我在几年前买过一个Macbook的笔记本电脑然后所以我当我用Laptop的时候我是用Mac然后但是我在家里用DeskTop的时候我就用Windows嗯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_300", "src_lang": "zh", "tgt_lang": "zh", "output": "哦其实刚开始刚开始有一点点不习惯了但是后来其实还好其实很多东西对但是有些东西不能直接电脑和电脑之间转就是要通过我的EMAIL啊通过别的东西转确实有一点SOMETIME feels likeYESCOMPLICATED"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_304", "src_lang": "zh", "tgt_lang": "zh", "output": "对Mac其实他有自己的一些Advantage对但是其实生活中很多对啊WellLikeForExample如果你比如说你有一个文件然后你要签名的话我就觉得Mac那个系统它那种PDF的软件很好用很好签名对对但是Mac的缺点是LikeForWallIfYouGamerIfYouPlayWhetherIt'sPCGameOrYou knowOnlineGamesYou knowTheMacisVeryUnfriendlyToYou"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_308", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯现在很多科技的这种东西都有一个Compatibility的问题就是就像很多而且有些这种大的科技公司它会IntentionallyYou knowMake Your Life More Miserable 因为他们会他们会因为自己的一些专利然后呢然后来让你哦必须你必须要使用这一款充电线充电插头它其实明明不是一个最优的解决但是因为它自己的利益它会让你使用那个不方便的东西我觉得在这一点苹果苹果公司他们做了很多这方面的事情"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_311", "src_lang": "zh", "tgt_lang": "zh", "output": "对啊因为我现在用的手机对我现在用的手机还是iPhone十三它用的这种插头呢就是还是原来的苹果的LightningCable但是其实现在市面上充电最好科技最优的是这种USBTypeC"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_313", "src_lang": "zh", "tgt_lang": "zh", "output": "对但是苹果可以有这个TechnologyLikeYearS ago但是他们选择不用他们就用自己的LightningCable"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_322", "src_lang": "zh", "tgt_lang": "zh", "output": "呃这个但是大的科技公司他们都会有自己的这种呃运算方式对他们都会说我我DETRINADOESTOMAXIMIZEERPROFITWellDETONTCAREABOUTYOUNOUSENUISER"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_324", "src_lang": "zh", "tgt_lang": "zh", "output": "对因为其实这是对这是也是无可厚非的一点因为你会想我作为消费者你作为大的科技公司你要先照顾好我的Intrest但是作为大的科技公司他们想的是OKIANCETOMYSHAEHOLDERS我去我对我要照顾好我股东的利益而不是照顾好你作为一个CUSTOMER的利益"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_328", "src_lang": "zh", "tgt_lang": "zh", "output": "对它会苹果会会试着differentiatethe productfromthe other things on the market"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_331", "src_lang": "zh", "tgt_lang": "zh", "output": "对YesI knowRightISLYKES我我用的很我基本上我的移动设备都是Apple的OK我有我有Macbook我有iPad我有iPhone但是我的MacBook和iPad用的是USUSBtypeC的充电器然后我的手机是用的Lightning的充电器"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_333", "src_lang": "zh", "tgt_lang": "zh", "output": "即使他们都是苹果的product"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_337", "src_lang": "zh", "tgt_lang": "zh", "output": "也也也也AlsoHow much的这些科技公司就是他们想用他们的Patents来赚你的钱这个也是他们很黑心的一面真的是他们就是靠这些Patents然后呢因为EveryPatentHasLeft span来WHYISDIFFERENTINDIFERENTCOUNTRY就是在大多数国家可能Patent有个几十年的这样的一个有效期然后呢companies就是试图用在Patent的有效期间内然后能赚到足够多的钱"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_366", "src_lang": "zh", "tgt_lang": "zh", "output": "你有没有这种技术的经验"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_386", "src_lang": "zh", "tgt_lang": "zh", "output": "对我觉得他其实可能中方东方文化是受儒家思想那种影响吧就是觉得人应该更努力更拼一点对而西方国家就是说对对对西方国家就觉得你可以Layback可以放松一下"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_433", "src_lang": "zh", "tgt_lang": "zh", "output": "我上学的时候也有参加一些社团可能我当时对文学类的社团参加的比较少一点因为我更喜欢个人自己去阅读一些但是可能我参加的体育活动比较多然后啊我自己有一些很喜欢的Sports 嗯LikeForExampleI play likeTennis,Badminton,I play volleyballWell those things like I participate more as I get older when I was in like High School and University at that stage"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_437", "src_lang": "zh", "tgt_lang": "zh", "output": "As I get older I feel like I should participate in something you know you know give you like more opportunity to you know really you know build up like good body you know cause in for like table tennis you pretty much stand there you know swing the pedal yeah and and it is also like it has that kind of confirm your stereotype that as a Chinese I feel like in especially abroad later I don't like playing ping pong that is to say if you play well they will say yes of course because you Chinese"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_443", "src_lang": "zh", "tgt_lang": "zh", "output": "对但是我非常能理解你说这种感觉因为有时如果你被迫做一些事情或者你像你做一些事情或者然后你说我真的不想做这个但是如果你有选择做那你知道你更倾向于做一些事情"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_444", "src_lang": "zh", "tgt_lang": "zh", "output": "让他们自己去想那些对他们有益的健康的事情"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_451", "src_lang": "zh", "tgt_lang": "zh", "output": "啊我在我现在的university的话我会比较喜欢参加那种就是各个那种节日的庆庆祝我觉得那种对因为在他本国节日的庆祝的话他会有更多的人参加会比较有气氛"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_453", "src_lang": "zh", "tgt_lang": "zh", "output": "对对对然后也会有各种就是说有各种美食啊会有人来分享就是一般感觉学校会spendyou knowsome moneyyou know去you knowpreparesome kind of foodforusyou knowwhether they like to either like cook it themselves or you know to buy from some restaurant chain"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_459", "src_lang": "zh", "tgt_lang": "zh", "output": "对我觉得那种Schoolperformance会非常好IS他对他对那种BuildingTeam是非常有好处的对"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_462", "src_lang": "zh", "tgt_lang": "zh", "output": "对我记得以前在学校的足球队踢球的时候对大家那种感情会非常的好对会彼此帮助啊然后会会比正常那种友情要更坚固普通的友情更坚固"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_466", "src_lang": "zh", "tgt_lang": "zh", "output": "那你喜不喜欢去做那种春游啊那种春游秋游那种school trips"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_470", "src_lang": "zh", "tgt_lang": "zh", "output": "yeah i love school trips 呃 the feeling is like you are going to school but you also not因为你跟同学一起啊这一天去上学了但是今天我 we are not in sitting in the classroom 我们一起出去游玩这种感觉就像啊我其实是上了一天学但是我是放假的心态去了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_472", "src_lang": "zh", "tgt_lang": "zh", "output": "这种状态就好比如说你领导跟你说OK今天咱们公司啊放一天假但是你们的工资照发"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_516", "src_lang": "zh", "tgt_lang": "zh", "output": "对我觉得给人讲课是一个非常rewarding的一个experience就是在你给别人教授知识传授知识讲课的时候你同时自己也在不断对事物产生一个新的理解就像一部很好的电影再去看一遍的感觉"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_522", "src_lang": "zh", "tgt_lang": "zh", "output": "OK那就是其实差不多了就是说其实我觉得在每申请一个新的职位包括或者说你申请一个新的学校的时候我觉得怎么去介绍自己是一个很重要的一步就是一方面是你自己的能力你的学习能力和你的技能但是还有一些方面就是怎么让别人去了解你我觉得这是我对这是我比较弱的一些方面其实我一直不是很擅长把自己的技能和特点写在一份简历里但是我觉得用人工智能人工智能能很好地帮助我去啊让我来把自己表达清楚这样"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_532", "src_lang": "zh", "tgt_lang": "zh", "output": "我找工作的经历就是其实我一开始会感觉蛮受到挫折的因为自己不太会写简历不太会写CoverLetter然后但是后来我逐渐提升自己的技能以后然后我就会变得越来越擅长表达自己"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_544", "src_lang": "zh", "tgt_lang": "zh", "output": "对就像你说的随着人工智能的发展以后社会上很多职位其实会被人工智能所替代然后呢其实社会上很宝贵的一个资源就是人力资源就是你怎么去整合人的因为即使科技再发达其实很多一些创意性的东西还是要人去做的然后你怎么去整合这个人力资源就是通过沟通的方式然后然后来有一个teamwork这样是非常重要的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_552", "src_lang": "zh", "tgt_lang": "zh", "output": "对我也有我也有像类似的经验像你之前我有时候就会有那种面临就是因为人经常会面临很多选择然后有时候有一份工作会哇这一份会给你更好的 pay but in the long term it doesn't really provide you with career development"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_554", "src_lang": "zh", "tgt_lang": "zh", "output": "也 as you know young people 这个经常我们是被 taking advantage of 就是有时候雇主会觉得我们想要更好的职业发展然后他们不给我们一个fair 的工资那这样这种时候我们既要争取那个有好发展的职位但是同时我觉得We have to be assertive We have to tell the employer you know like we worth this much so you know you can pay me unfairly"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_561", "src_lang": "zh", "tgt_lang": "zh", "output": "然后我每天上班的通勤的时间可能十分钟这样然后这对我来说是一个非常重要的一个考量就是对如果说你要一个多小时去上班然后一个多小时去下班那可能你一天你HaveLikeThree HoursYou knowBasicallyJustWastedOnTheRoadThat'sEquivalentAsWorkingForThree Extra HoursBasically"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_571", "src_lang": "zh", "tgt_lang": "zh", "output": "对就有时候一个很好的Job他会PROVIDE有更好的这种职业升迁的机会"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_575", "src_lang": "zh", "tgt_lang": "zh", "output": "OK我的Experience的话就会啊当"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_576", "src_lang": "zh", "tgt_lang": "zh", "output": "我有时候不能选择就是住的地方和The Place at Work"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_577", "src_lang": "zh", "tgt_lang": "zh", "output": "我试着去做的就是 utilize my time while I'm on the transport. So like 就举个例子比如说我坐火车或者是 while I drive to work. So I can listen to some like audiobooks 我可以去听一些podcasts 我可以去试着用那个时间然后通过一些音频的方式然后来让自己吸收更多的 information"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_579", "src_lang": "zh", "tgt_lang": "zh", "output": "对Exactly这个现在的这个社会给我们很多的Convenience然后有些时候我们可能要自己更聪明一点还要LearnTOUtilizeOurTimeBetter"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_581", "src_lang": "zh", "tgt_lang": "zh", "output": "对我感觉现在很多大的公司都开始Explore不同的这种雇佣的员工和雇主的关系之间像像你之前说的Work from home这是一种还有现在很流行的一个Idea就是Four Day Working Week就是你一周去工作四天The other three daysIn other wordsWeekend这种的话其实数据上显示他们的效率他们会在四天的时间内做出比原来更多的工作这样"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_669", "src_lang": "zh", "tgt_lang": "zh", "output": "对弥补一下然后它给人们带来这种健康的benefit是很多的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_671", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯那你在你你有试过去跳绳吗跳Proof这个运动我觉得是这是童年一个非常非常经常跟小朋友一起做的一个事情"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_675", "src_lang": "zh", "tgt_lang": "zh", "output": "对Sports Injury在运动中是比较常见的比比较常发生的一个事情吧但是呢同时呢其实是大多数情况是可以通过正面的教育来避免这些东西很多时候是人们对于一些Routine的一些疏忽就比如说Warm Up是很重要的在运动前你一定要把自己的对把自己的Stretch Body比如Tendons然后你的肌肉你的软组织这些都是很重要的对"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_681", "src_lang": "zh", "tgt_lang": "zh", "output": "对我觉得我们很幸运的是真的是我们有很多ScientificData然后来支持我们有一个更Healthy的Lifestyle"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_683", "src_lang": "zh", "tgt_lang": "zh", "output": "我们可以通过对读一些文献啊一些研究包括社交媒体上的一些BLOG啊一些PODcast它会帮助我们了解更多科学了解更多关于HELS的这些信息然后来帮助我们增加我们的锻炼但同时更好地保护我们TO Avoid INJURY FROM EXERCISE AND Sports"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_685", "src_lang": "zh", "tgt_lang": "zh", "output": "对对现在有这些新的technology啊然后有很多一些非常delicate designsYou know help you to啊来就是像for example的很小那种东西就比如说一个背在背上然后帮助你拿你的手机的这么一个东西它既可以帮助你记录你的运动OK然后同时你不用You knowCarry your phoneEverywhereYou knowWhile you may be hiking or runningYou know in the wild"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_689", "src_lang": "zh", "tgt_lang": "zh", "output": "OK那你有没有会比较喜欢去野外去做Hiking的这种Sports"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_693", "src_lang": "zh", "tgt_lang": "zh", "output": "Yes like I like hiking too 包括 camping 也是一个非常有意思的一个运动 呃可以算是一个 Activity吧 因为 camping 的话就是更像是一个 Group Activity 然后 like 这些一般在 camping的时候 People pull the resources Together 然后人们会会 Assign Task For example If we have五个人在这个 Group OK 我 Someone will go by I say maybe charcoal 买一些煤炭 然后我们晚上烧烤用 有一些人去买 Water and Drink 然后可能会有一些人去买 Meat 会买肉 然后有些人会买 Vegetable"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_694", "src_lang": "zh", "tgt_lang": "zh", "output": "然后对大家各司其职然后来完成一个也是一个非常好的一个天建的一个活动然后我经常跟人去一起去海金和露营"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_698", "src_lang": "zh", "tgt_lang": "zh", "output": "呃OK我有试过Few Times"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_701", "src_lang": "zh", "tgt_lang": "zh", "output": "啊I have to admit水上运动不是我很擅长的一个事情可能因为You knowfromwhereIgroupYou knowWe don'thaveanOcean"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_705", "src_lang": "zh", "tgt_lang": "zh", "output": "呃我I'm not particularly particularly bad as游泳这件运动Actually I am"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_707", "src_lang": "zh", "tgt_lang": "zh", "output": "开始很很年龄很小的时候就开始去游泳但是呢我一直没有把这件运动做得很好"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0043_S0_708", "src_lang": "zh", "tgt_lang": "zh", "output": "I think is I think I like when I get into the water I'm just like not so没有非常coordinated 然后相比较我在路上运动的时候所以我我一直考虑到你知道Otherwatersports是我的一个弱点"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_10", "src_lang": "zh", "tgt_lang": "zh", "output": "好的史蒂文你好你可以叫我艾拉"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_88", "src_lang": "zh", "tgt_lang": "zh", "output": "听起来不是非常Delicious"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_90", "src_lang": "zh", "tgt_lang": "zh", "output": "啊说实话最近我不是非常Like北京这个城市因为因为因为你回来应该也能就是Feel到Air里面有非常多柳絮和杨絮然后这些柳絮杨絮其实对就是会HurtOurBodies就是会对我们的呼吸道对我们的口腔什么的都会造成一些负面影响SoSoIReallyHateThisEnvironmentRightNow"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_96", "src_lang": "zh", "tgt_lang": "zh", "output": "Yes 嗯I Raised You Some Medicine来就是治疗我的一些过敏的症状比如说就是皮肤会痒然后会咳嗽就都是北京这些柳絮和杨旭引起的一些症状嗯那你回来就是你觉得你适应吗就是现在的这种气候感觉还挺different对"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_102", "src_lang": "zh", "tgt_lang": "zh", "output": "呀他又"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_110", "src_lang": "zh", "tgt_lang": "zh", "output": "哦哦它需要很长时间"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_113", "src_lang": "zh", "tgt_lang": "zh", "output": "那我那我刚好是Opposite因为我的轰炸是青岛然后是比较典型的那种MARINCLIMATE所以我更适应那样的CLIMATE是的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_129", "src_lang": "zh", "tgt_lang": "zh", "output": "我的家人都在青岛生活我是在北京上学对所以我的Friends都都是在北京认识的目前身边的一些朋友"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_133", "src_lang": "zh", "tgt_lang": "zh", "output": "那我觉得Thank you technologyI can嗯就是Chat with my familyThrough myPhoneSo我不会经常感觉到孤独因为我一旦就是想爸爸妈妈了我就可以用我的Telephone去给他们打个电话或者做一个这种视频聊天所以非常方便就不会担心联系不到他们我觉得对"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_267", "src_lang": "zh", "tgt_lang": "zh", "output": "诺瑞利"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_271", "src_lang": "zh", "tgt_lang": "zh", "output": "哦我也觉得那边自然风光应该会非常美丽"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_273", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯会的我和朋友就是比如说我们在PLAN或者在春影然后我们在通行的过程中就会一起选择一部我们都喜欢的MOVIE然后一起看一看比如说龚琦俊的一些卡通FILM我们觉得都是比较经典的然后也很适合在旅途中作为放松休闲的对电影来看是的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_295", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯Have you heard the moviecalledBefore sunrise中文是爱在黎明破晓前所以他讲的是对"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_297", "src_lang": "zh", "tgt_lang": "zh", "output": "也是一个讲述了一个比较短暂但是灿烂的爱情的一个电影就是一个美国青年和一个法国女学生他们偶遇然后一起就是在维也纳玩了一天然后就是整个电影就是展现了维也纳非常多的风貌比如说路边有人在辛桑然后也有人来算命什么的就非常多有趣的情节可以体现那里的一些文化然后我觉得很有意思然后让我也非常想去那边感受一下那种和中国非常不一样的文化状态"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_301", "src_lang": "zh", "tgt_lang": "zh", "output": "是的就是他们两个人的谈吐什么的都能展现出一定的代表性就是法国的那个学生就是她是那种比较文艺的女性然后她会就是讲述非常多女性主义相关的内容然后美国的男性可能她更多的是比较的一级各位影比较的善于聆听吧对就是两种比较不同的人格"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_305", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯当然当然比如说一些对于PICTURE的翻译可以让我在点餐的时候能看得懂MANU"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_311", "src_lang": "zh", "tgt_lang": "zh", "output": "Exactly可能以前我走到一个就是完全Strange的地方会感觉到非常恐惧因为没有办法跟那边的人CommunicateBut现在的话你有一个手机在手你就会安心很多因为你知道就是哪怕你听不懂他们说话你可以用你的Telephone然后记录一下他们的声音然后通过翻译理解他们都说了什么我觉得这个非常方便"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_313", "src_lang": "zh", "tgt_lang": "zh", "output": "是的我之前还在网上看到已经出现了一种眼镜就是可以你可以通过这个Glasses然后别人说的话会直接变成一种语言就是你熟悉的语言然后展现在眼镜上我觉得这个非常非常Unbearable"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_323", "src_lang": "zh", "tgt_lang": "zh", "output": "所以非常多留学生都用这个技术来拿他们的课"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_430", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯嗯是的我最近也有在尝试用AI来就是写一些文章或者是整理一些思路虽然它就是有一些错误吧但是其实人工是可以修改的相比于你自己独立的来完成其实我觉得借用AI这种科技手段来完成是效率的确会提高非常多"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_446", "src_lang": "zh", "tgt_lang": "zh", "output": "用户Windows 试试"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_458", "src_lang": "zh", "tgt_lang": "zh", "output": "也因为感觉这两个系统他们的一些比如说标符的位置打开的方式都不太一样然后我用惯了Windows我就不会再去考虑有MAC的系统了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_460", "src_lang": "zh", "tgt_lang": "zh", "output": "#hm 范德森波"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_472", "src_lang": "zh", "tgt_lang": "zh", "output": "啊我不太就是PlayGame所以对电脑的要求可能没有这么高就是只要能处理文档其实对我来说就已经够了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_492", "src_lang": "zh", "tgt_lang": "zh", "output": "对你太实"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_494", "src_lang": "zh", "tgt_lang": "zh", "output": "OK最后受伤的是我们消费者"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_506", "src_lang": "zh", "tgt_lang": "zh", "output": "是是是"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_517", "src_lang": "zh", "tgt_lang": "zh", "output": "呀这带给我非常多不方便比如说我出门要带手机和平板的话我就需要再为我的平板找一根充电线要带两根充电线非常的不肯用YEAH"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_527", "src_lang": "zh", "tgt_lang": "zh", "output": "是的而且之前我朋友就是丢了一根线结果就是他他呃LOST这根线之后他要重新去BYONE然后发现其实价格还不是很便宜如果你要买原装的话其实非常Expensive"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_535", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯嗯我们也只能接受它"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_679", "src_lang": "zh", "tgt_lang": "zh", "output": "很有意思确实这个运动还带着有一些文化的色彩在里面"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_683", "src_lang": "zh", "tgt_lang": "zh", "output": "对我现在回想起来就是在我的中小学阶段其实学校会强迫我们在就是课间休息在课间的时候就是强制你到户外去然后做一些运动比如说同学们站成一队然后Run on the playground我觉得这是一种当时觉得不可理解为什么一定要强迫Everybody to do sports但是现在想一想其实这种教育理念其实是好的可以就是Build our body and help us grow more healthily"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_691", "src_lang": "zh", "tgt_lang": "zh", "output": "呀想到"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_693", "src_lang": "zh", "tgt_lang": "zh", "output": "对其实我觉得运动是HUMAN的比就是一种本能其实大家都会就是在做久了之后在上了一天的课之后会想要出去嗯TAKE A WORKORPlayWITH YOUR FRIENDS但如果你就是强迫STEELENS去做做这些事情那可能他们就会产生抵抗心理了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_695", "src_lang": "zh", "tgt_lang": "zh", "output": "对对对是的那你就是比较喜欢学校安排的哪些活动或者是一些事情"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_705", "src_lang": "zh", "tgt_lang": "zh", "output": "我觉得在我初高中学校也会比较喜欢举办像合唱类的比赛就是不同的ClassmanClassClass之间然后进行一场Competition然后我觉得这也非常有意思就是大家可以短暂的停止学习然后去投入到一个合唱的准备当中然后每个人都各自起旨对"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_713", "src_lang": "zh", "tgt_lang": "zh", "output": "大家之间的那种感情的邦德也会更加的坚固"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_719", "src_lang": "zh", "tgt_lang": "zh", "output": "是的而且在这种疑问里面其实很多人他们一些别人不知道的才能在这里就是说就会发挥出来比如有的人唱歌很好他指挥很好那在这种大型的competition里面我们就可以发现他的这种talent我觉得这也是给他们一个展示的一个chance"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_721", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯很喜欢我觉得我觉得这也是一个比较好的OpportunityTo呃CommunicateWithYourClassMates而且在这个Trip的过程中嗯大家也可以就是一起玩耍然后也非常放松很舒服WhataboutYouDoYouLikeSchoolTrip"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_769", "src_lang": "zh", "tgt_lang": "zh", "output": "呀Exactly对我的室友"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_832", "src_lang": "zh", "tgt_lang": "zh", "output": "我觉得可能都要看重吧我可能更看重的是我工作的状态就是如果这个工作会让我觉得很愉快那其实他的薪资和未来发展就没有很重要但如果这个工作他让我觉得是一个比较枯燥比较乏味的工作那我可能就要考量他的薪资是否值得我这样做对所以所以I have to consider both of this relevant element"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_834", "src_lang": "zh", "tgt_lang": "zh", "output": "所以我的你呢嗯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_856", "src_lang": "zh", "tgt_lang": "zh", "output": "YesExactly然后我觉得最近我觉得Location也是一个就是值得考虑的一个找工作的视角因为我发现就是Communicate通勤的成本其实也是可以算在我们这个工作的时间里面的所以如果这个公司Very Far From OurHome我应该就不会再考虑它因为我觉得嗯去工作如果需要非常耽误我的通勤时间的话我会觉得比较浪费时间的感觉对你会考虑吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_866", "src_lang": "zh", "tgt_lang": "zh", "output": "但是确实通行是当下这个社会大家普遍会遇到的一个问题因为嗯for exampleFUworkin北京像这样的一个大城市的话你不得不就是早上挤地铁然后晚上挤地铁来GOTOYOURCOMPANY其实是非常非常耽误时间而且路上也非常折磨人因为要有堵车啊有各种各样的事情发生所以我觉得非常不容易在一些大城市工作的话"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_870", "src_lang": "zh", "tgt_lang": "zh", "output": "索玛嗯嗯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_872", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯呀"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_874", "src_lang": "zh", "tgt_lang": "zh", "output": "So我觉得呃像在大城市可能大家会为了一个BetterJob选择一个EXE moreExpensive嗯HOMETHEWILLRENTEACHMUCHMOREXPENSIVEHOMESO他们可以在早上可能可以多睡一会儿然后再去公司然后晚上回家也可以更近一些"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_880", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯And with the technology development我相信呃In the near future我们或许都可以在家里进行工作而不是一定要跑到公司里面来上班我觉得现在这种线上的Job也越来越多了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_886", "src_lang": "zh", "tgt_lang": "zh", "output": "呀I've heard that很多公司都会就是提供比如说一个周你可以一天或者两天是work at home我觉得这就非常好就是让大家有更灵活的时间你可以在工作之余还能在家里嗯A Company Your Family我觉得这是很不错的选择"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_896", "src_lang": "zh", "tgt_lang": "zh", "output": "所以,你在专业环境中如何为团队工作做出贡献?"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_1019", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯所以一定上可以弥补它的disadvantage"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_1023", "src_lang": "zh", "tgt_lang": "zh", "output": "是的是的在我们 childhood 的时候就已经开始就是跳绳了然后学校也有各种各样的跳绳的competeition但是我目前现在的话我不会选择跳绳这种Sport因为我觉得它可能需要一些专业的指导因为我发现如果你跳绳的数量过多的话会对你的膝盖造成一定的Hurt所以可能还是需要专业的学习了正确的跳绳的一些方式和Skills才你才能去拿它作为一个健康的生活方式不然的话可能就会Hurt Yourself"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_1031", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯暖上拉伸你的身体"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_1033", "src_lang": "zh", "tgt_lang": "zh", "output": "是的是的对而且现在非常Convenient就是有非常多的软件可以帮助我们去LearnHowToStretchYourBody你可以跟着视频里的人来做运动就比较方便有非常多的博主他们专门做这种跟练的VIDEOS你这些WatchVIDEOS就可以了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_1041", "src_lang": "zh", "tgt_lang": "zh", "output": "是的而且现在有非常多的呃TechnologyEquipmentForExample运动手环然后一些检测你心率检测你运动状态然后还可以记录你消耗了多少的卡路里我觉得也是非常方便的一些方式"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_1047", "src_lang": "zh", "tgt_lang": "zh", "output": "YES 而且我觉得运动其实对人的精神意志对人的性格心态有非常好的Influence像我们通过运动可以锻炼我们的毅力让我们可以坚持Insist On Your Purpose比如说我今天一定要跑多少公里然后这样也可以帮助你的心态获得一定的GROWTH"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_1049", "src_lang": "zh", "tgt_lang": "zh", "output": "是是的我非常喜欢去山登去爬山我觉得就是爬山的过程是一个逐渐爬到更高处的呃然后逐渐能看到更广阔的View然后能呼吸到更加Fresh的Air的一个过程"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_1065", "src_lang": "zh", "tgt_lang": "zh", "output": "YES而且大家也可以晚上一起聊天一起chat然后一起SINGSONS我觉得都是非常惬意"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_1071", "src_lang": "zh", "tgt_lang": "zh", "output": "你有没有尝试过通过Rowing然后作为一个运动的方式呢划船"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0044_S0_1111", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯呀"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_63", "src_lang": "zh", "tgt_lang": "zh", "output": "啊我当然知道NBA然后我的很多身边的呃男性朋友也很喜欢篮球还有足球之类的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_64", "src_lang": "zh", "tgt_lang": "zh", "output": "然后呃我想问一下你在university读的你的内在是什么呀"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_80", "src_lang": "zh", "tgt_lang": "zh", "output": "是我我一个高中很好的罗妹现在就在北京师范大学哦我的专业是呃ZEROZEROTMAGENEMENT用中文就是戏剧管理"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_82", "src_lang": "zh", "tgt_lang": "zh", "output": "然后我的专业课程就包括了营销呃DirectingAndActingAndSoOn然后甚至关于啊Makeup然后舞台的Lighting啊AndSUN都需要我们去学习是一个非常全面的一个美智"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_84", "src_lang": "zh", "tgt_lang": "zh", "output": "因为因为他他大类还是属于art嘛然后我当时也是通过了通过了artexamination然后加上了college entranceexamennation呃进入的中心所以说我们的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_86", "src_lang": "zh", "tgt_lang": "zh", "output": "对是的但是其实呃因为我们那一年有疫情所以说最后我们的艺考就cancel了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_87", "src_lang": "zh", "tgt_lang": "zh", "output": "我们虽然是一个艺术学生的身份但是到了最后因为疫情把所有的艺术艺术考试都取消了最后我们是按照高考的高考的SCORE去录取"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_89", "src_lang": "zh", "tgt_lang": "zh", "output": "但是我觉得高考是呃thethe呃themostfairway到呃enterthecollege"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_91", "src_lang": "zh", "tgt_lang": "zh", "output": "非常公平然后也给了所有人一个一个挑战一个机会去嗯进入很好的大学都是靠自己的努力得来的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_95", "src_lang": "zh", "tgt_lang": "zh", "output": "是竞争非常大It's very competitive"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_184", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我知道BlackPink但第二个组合没有听说过"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_192", "src_lang": "zh", "tgt_lang": "zh", "output": "明白我其实小的时候也比较喜欢听韩国男团的歌就是一些我觉得当时小女生可能都会喜欢吧然后就EXO然后BBAN然后还有一个叫什么我不太记得了但是他们的歌很好听"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_204", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯I like呃Maybe山依纯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_208", "src_lang": "zh", "tgt_lang": "zh", "output": "YesI think嗯他的歌歌曲的style比较的Relax然后也比较的温暖"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_216", "src_lang": "zh", "tgt_lang": "zh", "output": "徐志谦徐志谦呃DISMOND在五月二十四号呃在大连他的康塞尔康塞尔TicketISALSOHARDTOBAY"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_218", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯YesCareSweet我在小的时候会喜欢贾斯汀比伯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_222", "src_lang": "zh", "tgt_lang": "zh", "output": "Yes and我我觉得他非常HIS呃HISUNSTAYLISPECIAL然后我觉得他也非常有这方面的TALENT"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_224", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯非常special的一种生命然后我就是觉得很有"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_226", "src_lang": "zh", "tgt_lang": "zh", "output": "天赋吧然后然后我觉得他可能就是注定要成为一个新新STAR成为一个新GIRL"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_228", "src_lang": "zh", "tgt_lang": "zh", "output": "呃但是我上了初中之后我成为一个SINIER呃JUNIERHYPERGROUP学生之后啊贾森比伯就好像被曝出吸毒然后我就没有那么LIKE他了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_240", "src_lang": "zh", "tgt_lang": "zh", "output": "是的但我觉得它可能不是一个单纯的秀吧因为呃Crazy Horse Show象征的是一种男权的文化吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_241", "src_lang": "zh", "tgt_lang": "zh", "output": "所以说可能是一些呃TheTheLastCentury然后一些上世纪的一些文化可能WeChinesePeople认为它是一种对女性的凝视或者说是在消费女性"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_243", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯他可能背后的内涵会导致这样一个RESULT我确实呃RECENT里没有再看到过丽莎的信息了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_247", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯艾艾莱克森谈秀YES呃有一个综艺有一个TV秀叫脱口秀大会然后我很喜欢其中的一些选手"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_249", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我其实没有听过李丹讲talk show但是庞博我有听过然后有一个我非常喜欢的talk showactor叫鸟鸟"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_255", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我觉得他的脸上经常会有一种呃you knowsadfaceand的呃loose"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_289", "src_lang": "zh", "tgt_lang": "zh", "output": "然后当时就是学校里有一个小朋友感染然后以至于我幼儿园的最后一年是没有上的我在家里相当于我很很早就拥有了自己的GAPYY然后在家里待了一年就直接去上了小学然后小学我是在成都市沙半路小学上的所以他也是一个属于铁路铁路怎么说呢就是铁路工作者的一个他叫铁二小"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_319", "src_lang": "zh", "tgt_lang": "zh", "output": "我们我们的教育经历其实还蛮像的我当时呃CollegeEntranceExamination的时候我考的是"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_321", "src_lang": "zh", "tgt_lang": "zh", "output": "全省三千九百,在巴尔的加."}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_323", "src_lang": "zh", "tgt_lang": "zh", "output": "呃I'm not very clear但是我觉得文科的人肯定会少很多应该是呃We totally haveSixteenSixteenFive"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_325", "src_lang": "zh", "tgt_lang": "zh", "output": "呃MillionStudentBUT呃只有二十五万还是十五万是文科的Student"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_327", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯但是其实我是作为一个艺术学生嘛我的高三只上了一个月其他时间都在prepareformyart exam"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_328", "src_lang": "zh", "tgt_lang": "zh", "output": "呃虽然最后文科对对对对最虽然说最后没有通过ARTEXAMTWOENTERTHECENTRALCAPITAL那个专业呃BICASOF疫情但是呃我还是挺庆幸因为我是一个好学校的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_329", "src_lang": "zh", "tgt_lang": "zh", "output": "学生选择了艺考而不是一个呃成绩不好的啊YesNot呃"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_331", "src_lang": "zh", "tgt_lang": "zh", "output": "呃然后只能选择艺考所以说我认为好好学习还是可以有So many so many ways啊So many chances to enter the university you like"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_333", "src_lang": "zh", "tgt_lang": "zh", "output": "哦那我们其实比例还蛮均衡的我们这边文科要少很多我们高中呃MaybeWeHaveTenTenClassTenClassInOneGradBUTOLINETWOClassIS"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_421", "src_lang": "zh", "tgt_lang": "zh", "output": "我觉得这就比较像呃比如OurChinaChineseGameOf乒乓球ISMAY呃So manypeopleSINK呃我们自己国内的乒乓比赛会比"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_422", "src_lang": "zh", "tgt_lang": "zh", "output": "奥运会更更激烈因为The Top players are all we Chinese"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_424", "src_lang": "zh", "tgt_lang": "zh", "output": "哎我想其实我想问呃前段时间MaybeA few months ago嗯Mexi come to China and yes yes there is something happened嗯你对梅西对中国球迷的一些呃bad attitude or cool attitude or do you think do you still like like him"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0065_S0_430", "src_lang": "zh", "tgt_lang": "zh", "output": "那我可以理解为你比较喜欢这个Player的Ability但而不是把它当成一个IDL或者是STAR去追嗯INO"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_56", "src_lang": "zh", "tgt_lang": "zh", "output": "哦好"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_60", "src_lang": "zh", "tgt_lang": "zh", "output": "哦我平常喜欢做运动SOMETHINGLYKBASKETBALL足球TABLE TENNISENSWIMING然后我也经常去健身房和一些STOWMAN交流一下运动技巧然后我最喜欢的运动应该是BASKETBALL"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_61", "src_lang": "zh", "tgt_lang": "zh", "output": "然后我很喜欢看篮球比赛像美国的篮球比赛NBADOYOUNOWNBA"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_65", "src_lang": "zh", "tgt_lang": "zh", "output": "哦我的Major是Electrical Engineering翻译过来就是电子工程然后"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_67", "src_lang": "zh", "tgt_lang": "zh", "output": "听起来听起来很高级是吧然后我的学校是一个理工类学校嘛可能跟你艺术类学校差别还是挺大的然后InmyInmyuniversity呃男生会比女生多很多呃SOASRESULT呃我们会经常找隔壁的学校"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_68", "src_lang": "zh", "tgt_lang": "zh", "output": "去做一些联谊活动然后我们隔壁的学校是北京NORMALUNIVERSITY然后我们戏称它叫北京普通大学你可以猜猜它的名字是什么"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_72", "src_lang": "zh", "tgt_lang": "zh", "output": "NoExcel呃InChineseExcelVeryChange呃InEnglishImeans呃北京师范大学那个师范就翻译成了Normal所以那个学校的我那个学校的朋友就经常跟我们西城他们是北京普通大学"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_78", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯你的专业听起来比我的要INTRESTING我的专业比较波比较BORY"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_88", "src_lang": "zh", "tgt_lang": "zh", "output": "哦那你非常Excellent啊"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_94", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯但是呢我觉得高考非常stressful他就是觉得压力比较大吧可能相对来说特别是在四川广东这种人口大上population very very difficult"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_115", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯 when many graduates from our university is in Baidu Alibaba and字节跳动 yeah and our majors since since web"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_169", "src_lang": "zh", "tgt_lang": "zh", "output": "哦对我比较喜欢我最近比较喜欢听韩国的流行音乐也就是Kpop"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_172", "src_lang": "zh", "tgt_lang": "zh", "output": "然后像韩国最近比较喜欢的音乐组合有呃布莱平还有纽詹斯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_176", "src_lang": "zh", "tgt_lang": "zh", "output": "哦New Jens他翻译过来叫新的牛仔裤他属于对他的音乐就不是那种很吵的他属于比较清新的那一种我我建议你可以回去听一下然后对"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_190", "src_lang": "zh", "tgt_lang": "zh", "output": "哦薛之谦的歌我也听过几首像他的周可是吗是叫这一首吗周周可小丑"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_192", "src_lang": "zh", "tgt_lang": "zh", "output": "哦我对他的印象还停留在那首很Agrimmonster叫什么丑八怪"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_196", "src_lang": "zh", "tgt_lang": "zh", "output": "哦WATSMOORE你还有更多喜欢的歌手吗除了薛之谦"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_202", "src_lang": "zh", "tgt_lang": "zh", "output": "是的,还有我喜欢的另一位R&amp;B歌手,名叫陶杰,你知道吗?陶杰"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_204", "src_lang": "zh", "tgt_lang": "zh", "output": "也嗯他最近在做很多performance然后他下个月在北京"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_206", "src_lang": "zh", "tgt_lang": "zh", "output": "呃有一个演唱会康塞特有他HAS一个康塞特在北京TheTicketIt's hard to buy那个票完全抢不到It'sExpensive它很贵就是"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_214", "src_lang": "zh", "tgt_lang": "zh", "output": "哦YesHitSaws啊他的声音听起来很有刺心"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_220", "src_lang": "zh", "tgt_lang": "zh", "output": "哦也我觉得就是这种ATTITUE中国和外国好像都比较different也像我很喜欢BRAPING中的一位成员叫丽莎"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_222", "src_lang": "zh", "tgt_lang": "zh", "output": "他但她dance very good but she join a show then Crazy Horse风马秀 and some chinese don't like don't like her and呃limit limit her to做一些business在中国对但实际上我觉得就是她的表演还是非常非常good"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_232", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我看看我的Show that always make you love你有什么就是喜欢看的喜剧吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_236", "src_lang": "zh", "tgt_lang": "zh", "output": "唉李李丹"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_238", "src_lang": "zh", "tgt_lang": "zh", "output": "莱克李丹庞博"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_242", "src_lang": "zh", "tgt_lang": "zh", "output": "哦我认识她他来自北京大学对吗?然后她看起来很伤心"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_244", "src_lang": "zh", "tgt_lang": "zh", "output": "呀那是买的那个蓝色的Girl在迪士尼"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_248", "src_lang": "zh", "tgt_lang": "zh", "output": "哦是的.我的最喜欢的喜剧电影是乔辛奇的电影你知道乔辛奇吗?啊导演和演员是的他是一位来自香港的演员"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_289", "src_lang": "zh", "tgt_lang": "zh", "output": "对因为我觉得就是这个学费还挺贵的一年可能好几万就对我的家庭来说并不是一笔小的费用所以我最后选择去一个民办的学校那个学校是在南海区嗯InMyMiddleSchool在我的初中经历里面呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_290", "src_lang": "zh", "tgt_lang": "zh", "output": "我参我又令我比较深刻的一个经历是我参加了一个编程的队伍CALLING啊就是PROGRAMER我觉得这个这个这个经历在我选择大学的时候其实也挺有关系的就是ATDY"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_291", "src_lang": "zh", "tgt_lang": "zh", "output": "哦我就已经开始学习西嘉嘉了然后我参加了很多很多比赛"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_293", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯然后在我初三的时候我也是参加一个当地的一个综合Competition然后也是获得了就是全区的ThefirstPRICE"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_294", "src_lang": "zh", "tgt_lang": "zh", "output": "然后我是获得了保送当地一个很好的高中的机会原来I mean that我我不需要中考也也可以读一个很好的高中或者说我中考只要有个分就可以了所以在我的初三EXERelaxing然后我就直接开摆嗯ADDINATEDINATEDINATEDYER然后我到最后"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_295", "src_lang": "zh", "tgt_lang": "zh", "output": "几个几个月嗯我们老师还是跟我说就是学习态度什么学习态度study attitude什么的然后我觉得还是要考好就是还是要学一学考一考吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_296", "src_lang": "zh", "tgt_lang": "zh", "output": "然后最后我考了嗯满分是七百IIforget然后最后考了六百N七十"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_297", "src_lang": "zh", "tgt_lang": "zh", "output": "呀所以我其实我的那个我的那个成绩已经足够我Enter的Middle School了就是我最好的那个高中然后Inmy嗯MyMiddle SchoolNameIs石门Middle School呃IsItIsRelatedOn珠江ItIsNearNearTo广州YESInMyDormitory"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_298", "src_lang": "zh", "tgt_lang": "zh", "output": "呃In the middle school就是在我高中我的宿舍我是在Floor sevenFloor seven哦Floor eightI forgot就是最顶层的top of the building"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_299", "src_lang": "zh", "tgt_lang": "zh", "output": "炎然后我我呃然后我就可以看见The Tower of Guangzhou就是The Tower of Guangzhou就是广州塔就是小蛮腰那个造型YENNISWELL"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_300", "src_lang": "zh", "tgt_lang": "zh", "output": "Yes 当天气是SUNNY AND BINDYI CAN SEETH TURVEL OF GANZHOU CLEARLY所以这是一个很特别的经历然后我的高我在高中的时候参加了一个Olimpick Chemistry就是Olimpick化学竞赛然后那时候学化学学了很多然后获得了一个呃The second prize"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_301", "src_lang": "zh", "tgt_lang": "zh", "output": "in广东就是广东省的二等奖but the prize is not enough to enter a good university so I need to高考"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_303", "src_lang": "zh", "tgt_lang": "zh", "output": "所以所以对所以我最后还是得高考然后InMy高考我考了全省大概二十七十万人嘛我考了大概FourThousand就是四千名左右然后I Can Come to北京 and Study in BUPT就去北约嗯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_317", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯你看这个文科和理科的比例在广东省呃isaboutfiftyfifty就是差不多是一半的也"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_361", "src_lang": "zh", "tgt_lang": "zh", "output": "对大羽毛球也也是跟体育比赛相关像的奥林匹克有那个林丹嘛就是那时候林丹SuperDame他在外国的称呼是SuperDame超级Dame然后InChineseInSOSLY炒鸡蛋就是Fire Egg"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_363", "src_lang": "zh", "tgt_lang": "zh", "output": "然后那时候我们也是随机领单就是打球然后就是我们会有一个GANE就是我们会有一个RANK就是我们每一次打比赛就是会积分看谁的分更更HIGHER谁就越厉害然后当就是我们可能一个月或者几周SOMEVIKE会组织一次OrganizeAGAINANRANK"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_364", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯Who is the topYeah他就是全校最厉害的那个人然后男生的竞竞技欲望就非常强烈非常Strong然后我们就会相互Competent就是经常做ExerciseToMakeTheBodyStronger"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_365", "src_lang": "zh", "tgt_lang": "zh", "output": "然后到了高中之后嗯In theTwo Thousand and Fourteen就是The World Cup世界杯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_366", "src_lang": "zh", "tgt_lang": "zh", "output": "and I am my favourite足球足球玩家啊 one is麦克西 and another is克里斯罗纳尔多就是我们常说的梅西和西罗嘛然后在一四年的时候呃Iwatch的Final Game就是决赛呃It's between Argentina and Germany"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_367", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯Finally的阿根廷呢嗯的梅西斯队就是梅西的队伍最后输了然后那个时候我还挺可惜的因为我觉得呃At that timeMessiisnotyoung"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_368", "src_lang": "zh", "tgt_lang": "zh", "output": "然后我觉得他可能不会再赢了就是他呃He has no chance to win theWORLD WORLD CUP的呃在二零二二年的世界杯上面"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_369", "src_lang": "zh", "tgt_lang": "zh", "output": "YES he come to find again again and win the red cup 就是他在Nearly forty Age forty 就是他将近四十岁之后拿完成了他的世界杯的梦想所以I'm proud of him and another player就是Christiano Ronaldo就是他的名字太长了所以中国人都叫他Ciro"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_370", "src_lang": "zh", "tgt_lang": "zh", "output": "恩西洛呃HASE a strong bodyHIS MUSCLEISVERY TRUNFOLE就是他的身材特别好就是男生都喜欢的那种程度"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_371", "src_lang": "zh", "tgt_lang": "zh", "output": "然后他的主要比赛都是在欧洲就是都是在欧洲那一边然后呃TheEurope Cup呃呃TheEuroGameIsNotBetweenCountryAndCountry就是他的欧洲杯的比赛呢就是欧冠"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_373", "src_lang": "zh", "tgt_lang": "zh", "output": "对就是他的比赛不是不是国家对国家的是Club betweenClubs就是俱乐部之间的你看然后The most呃ExcellentPlayerIsInTheClub就是最优秀的球员就是一个最好的队伍就是各个前锋中锋最好的队伍都是在Club里面的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_374", "src_lang": "zh", "tgt_lang": "zh", "output": "所以有很多人认为的欧洲冠军呃ISISBETTERDANDEWORLDCAPP就是很多人认为欧冠的含金量是比世界杯要强的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_375", "src_lang": "zh", "tgt_lang": "zh", "output": "所以曼嗯所以Many足球足球fansthinksChris Ronaldoisbetter thanMexi就是很多人会"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_376", "src_lang": "zh", "tgt_lang": "zh", "output": "觉得西罗比梅西要更强但是呃MostChineseWatchTheWorkerInsteadOfTheEuropeChampionsGame"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_377", "src_lang": "zh", "tgt_lang": "zh", "output": "所以大部分中国人可能只看世界杯所以他们会觉得梅西更强所以这两家的粉丝经常吵架经常经常TALKONDINTERNET他们就经常吵架"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_382", "src_lang": "zh", "tgt_lang": "zh", "output": "是吗?我好吃"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_390", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯I think嗯嗯A person他有good一面有bad一面嘛嗯我更注重就是Player在球场上的就是表现当然我觉得梅西这个事情做的NotFendly就是YESYES"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0066_S0_392", "src_lang": "zh", "tgt_lang": "zh", "output": "Yes Yes I just appreciate I just appreciate his action in the soccer feat就是我比较欣赏他在球场上的表现但我对他个人的什么Mental就是品德上可能不会太在意对不会太在意"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_1", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯哈你好我叫小梅然后你也可以叫我美美"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_63", "src_lang": "zh", "tgt_lang": "zh", "output": "I mean you know as I am accounting 我们平时的工作我相信不管是在EVERYCOMPANYISINALOWPAYMENTI meanWE CAN'TCOMPAREWITH业务部门因为他们会给公司增加很多的INCOME"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_64", "src_lang": "zh", "tgt_lang": "zh", "output": "所以他们的SALARY平时会特别特别的呃会根据他们的项目Performance去进行相应的INPREW"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_65", "src_lang": "zh", "tgt_lang": "zh", "output": "但是我们呃康廷是公司的职能Department所以"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_67", "src_lang": "zh", "tgt_lang": "zh", "output": "我们的SALARY并没有他们的那么HIGH"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_69", "src_lang": "zh", "tgt_lang": "zh", "output": "呃I mean the average salary per month就不是那么理想他可能达不到我的expect来level吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_71", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯I guess that's why我想要继续学习"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_75", "src_lang": "zh", "tgt_lang": "zh", "output": "呃I guess our employing welfare还是可以的因为毕竟是一个stateowned company嘛我们我们可以在公司吃一日三餐我们YESFORFREEWE DONT HAVE TO PAY ANYTHING"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_77", "src_lang": "zh", "tgt_lang": "zh", "output": "然后平时过节的时候我们也有一些啊GIVET比如说马上就端午节了一般都会都会GIVEUS粽子"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_79", "src_lang": "zh", "tgt_lang": "zh", "output": "现在怎么样你"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_84", "src_lang": "zh", "tgt_lang": "zh", "output": "所以你没有咖啡厅你没有餐厅在你的公司"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_87", "src_lang": "zh", "tgt_lang": "zh", "output": "所以你那么你的work location is not in首都机场you work outside首都机场对"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_89", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯那比如说你的工作有没有一些 other area you are very满意的呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_95", "src_lang": "zh", "tgt_lang": "zh", "output": "哦所以你喜欢做你自己的社交媒体为公司或者不是为你的部门"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_101", "src_lang": "zh", "tgt_lang": "zh", "output": "我觉得YearworkSounds非常有趣"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_105", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯嗯因为我们是一个State Owned的Company嘛然后我们平时啊我作为一个Accountant我同时也会做一些呃出纳的工作I mean微商"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_107", "src_lang": "zh", "tgt_lang": "zh", "output": "Money in or outI will I can帮助出纳去做一些比较basic的Job因为我们有一条规则是"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_202", "src_lang": "zh", "tgt_lang": "zh", "output": "哦那很漂亮我觉得如果你花很多时间去见人房"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_208", "src_lang": "zh", "tgt_lang": "zh", "output": "哎呀哎呀That's trueI mean for me呃YI坚持练习瑜伽for one yearis because thatGIM thatYogaClub离我之前的房子特别近It only takes like two minutes"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_210", "src_lang": "zh", "tgt_lang": "zh", "output": "走路就能到那个尤加克"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_212", "src_lang": "zh", "tgt_lang": "zh", "output": "Yeah so I so for a whole year 我基本上都是一周能去Five Times"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_214", "src_lang": "zh", "tgt_lang": "zh", "output": "但是那段时间我并没有呃CANTROLWATIET所以我可能并没有真正的去LOOSEWIGHT"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_220", "src_lang": "zh", "tgt_lang": "zh", "output": "哎SometimesIfeelTired但是你知道瑜伽I meanURLYAfter我们练习FINISH"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_221", "src_lang": "zh", "tgt_lang": "zh", "output": "在整个练习之后,"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_222", "src_lang": "zh", "tgt_lang": "zh", "output": "So you can get a really deep relax in these five minutes your teacher will guide you to do these five minutes of the big relax"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_226", "src_lang": "zh", "tgt_lang": "zh", "output": "他们会用他们的语言去Guide你进入一个冥想的状态下"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_230", "src_lang": "zh", "tgt_lang": "zh", "output": "是的比如说你的Class是One Hour的一般的YogaClass是都是One Hour的然后这个这个最后五分钟的时间就是这个大休息"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_232", "src_lang": "zh", "tgt_lang": "zh", "output": "对然后我还发现differentyogateacherwill havedifferentkindsofRelax方法"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_234", "src_lang": "zh", "tgt_lang": "zh", "output": "For example有一次我遇到了一个teacher 他不仅仅会他I mean otherteacherZevell播放音乐butShe自己带了乐器TOPLYFORUS他带的乐器就是"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_236", "src_lang": "zh", "tgt_lang": "zh", "output": "一个非常有趣的波它会用一个骨锤敲这个波"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_238", "src_lang": "zh", "tgt_lang": "zh", "output": "It's not that kind of drum it's just something it's like a ball.就像我们平时吃的每一个碗,but in different kind of material it's a metal one"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_240", "src_lang": "zh", "tgt_lang": "zh", "output": "哦很"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_244", "src_lang": "zh", "tgt_lang": "zh", "output": "玩钢琴可以这样吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0073_S0_246", "src_lang": "zh", "tgt_lang": "zh", "output": "艾维尔注意这件事情"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0074_S0_42", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯你们会有一些bonus吗Eli and the year"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0074_S0_46", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯I thinkSOTO你们公司会有一些呃"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0074_S0_48", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯其他方面的福利嘛比如说有呃交通补助餐补安桑咖啡店"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0074_S0_50", "src_lang": "zh", "tgt_lang": "zh", "output": "佛瑞是免费的吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0074_S0_54", "src_lang": "zh", "tgt_lang": "zh", "output": "哦We can have our coffee for free every day嗯嗯以及我们每个月会发一定比例的餐主啊餐补SoWe can嗯Eat the breakfast and lunch for free免费吃早饭和午饭"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0074_S0_56", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯有的我们是嗯办公楼一整栋楼里有好几家公司都可以在呃福尔福嗯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0074_S0_57", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯咖啡CateringONLYFIRSTFORE去吃饭"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0074_S0_59", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯Outside的首都机场把Near非常靠近首都机场的航站楼所以去机场呃GoinSide的机场非常方便"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0074_S0_61", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我同时做一些我们部门的宣传工作嗯所以有时候我会嗯TECHSON啊PICTUREZFOTOSANDMACESONVIDEOS呃给我们的部门做一些宣传工作"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0074_S0_64", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯noton the social media嗯只是在公司内部"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0074_S0_66", "src_lang": "zh", "tgt_lang": "zh", "output": "对也是时不时总结一下嗯部门近期的一些WORK一些工作"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0074_S0_68", "src_lang": "zh", "tgt_lang": "zh", "output": "哦别这么说我觉得你可以多哦Introducing your job啊这类的嘛"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0074_S0_120", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯We have a gym但是我们的健身房会在办公地点外面所以也不是特别近我一般还是会选择到家附近的健身房健身啊THEARSREEOFFOREJIMESNEARMYHAUSE所以啊我可以回家之后去附近的健身房走路过去就可以"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0074_S0_122", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯但那是好way啊to walk to the健身房因为你在路上就可以做一些热身或者是运动之后的放松你就不用额外花时间去健身房里面放松"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0074_S0_128", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯那你觉得你在做完瑜伽之后嗯就觉得Tired"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0074_S0_132", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯所以那是呃的yogacoursepart oftheyogacourse是瑜伽课的最后一个section"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0074_S0_134", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯那所有的团课基本上都有这个环节就是最后会有可能五五到十分钟的这个休息的Section"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0074_S0_136", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯你能多说一些吗多介绍一些啊我开的嗯嗯为对还"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0074_S0_139", "src_lang": "zh", "tgt_lang": "zh", "output": "是那个空灵鼓吗Island啊Mexico Instrumentcalled空灵鼓"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0074_S0_141", "src_lang": "zh", "tgt_lang": "zh", "output": "OK嗯你知道吗其实嗯play的musicalInstrument也是一个长肌肉的好方法"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0074_S0_143", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我觉得他他可以劝劝到我们的公三头鸡"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0074_S0_145", "src_lang": "zh", "tgt_lang": "zh", "output": "比如说嗯啊呃对不起比如说嗯play the piano and play the古筝啊It's a good way there are two good ways to train our公三投机"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0074_S0_147", "src_lang": "zh", "tgt_lang": "zh", "output": "是的就我的经验来看弹钢琴的人那The People Who Play The PianoHave呃嗯比较好看的工商投资"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0074_S0_151", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯你自己啊什么帮助你在谈话之后重新清醒"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_1", "src_lang": "zh", "tgt_lang": "zh", "output": "哈你好"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_5", "src_lang": "zh", "tgt_lang": "zh", "output": "你可以叫我的英文名克莱尔"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_52", "src_lang": "zh", "tgt_lang": "zh", "output": "哦我最喜欢的歌手是艾弗罗的FEN你知道你知道艾弗罗吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_54", "src_lang": "zh", "tgt_lang": "zh", "output": "啊他有很多之前非常WELLNOW的WELLNOW的歌儿嗯比如说TEGATER啊比如说GIRLFRIEND这些都是很耳熟能详的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_55", "src_lang": "zh", "tgt_lang": "zh", "output": "呃很多人都知道的一些作品ManypeopleNOWAboutHERANDHERSONSDUHAVESOM有一些什么你喜欢的歌手吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_57", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯周杰伦是一个非常Famous的Singer嗯我身边也有很多朋友特别喜欢他比如说有时候嗯呃和朋友聊天的时候他们会说嗯他们抢了周杰伦的演唱会的票然后也确实很难抢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_58", "src_lang": "zh", "tgt_lang": "zh", "output": "然后以及他们也会就是会买火车去会拜桑TKTREINTTREINTKTS去专门看他的这种演唱会那你呃那你最喜欢他的哪些歌呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_60", "src_lang": "zh", "tgt_lang": "zh", "output": "你意思你喜欢他的歌比乔吉伦的更喜欢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_62", "src_lang": "zh", "tgt_lang": "zh", "output": "啊就是你更喜欢桑斯啊王丽红吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_64", "src_lang": "zh", "tgt_lang": "zh", "output": "那你知道艾德姆兰伯特吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_66", "src_lang": "zh", "tgt_lang": "zh", "output": "他是呃他是Queen乐队的主唱然后昨天晚上播的歌手里面呃He's Coming to China去赵安妮的Show呃然后我这两天在刷比如像微博啊还有小红书一些网站的时候"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_67", "src_lang": "zh", "tgt_lang": "zh", "output": "也看到了他的其他的一些INTERVIEW嗯比如说他在国外的一些INTERVIEW他说他NEXTMANDY就会来到中国"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_68", "src_lang": "zh", "tgt_lang": "zh", "output": "然后要准备参加这个这个节目了然后呢我也是看到其实网上有关于他的很多讨论包括之前很多的Friends也问有没有也会互相讨论说嗯这个人是不是呃就是第一期里面最后的悬念是不是他但是一直也没有一个非常准确的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_71", "src_lang": "zh", "tgt_lang": "zh", "output": "呃EverybodyLocksLikeVerySurprisedAnd呃微博上那些热搜词条直接就爆了嗯我也是很期待在下一次节目里看到更多SINER的演绎"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_73", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯因为他的到来也希望其他歌手也能有比较稳定的发挥同时呢Inprove their abilitiesAt the same time因为现在其实有很多的呃讨论PEOPLETALK ABOUT这些歌手的在节目里的Performance"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_74", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯一些人确实说很多的中呃节目里的一些中国歌手的表现不尽如人意所以我们也确实嗯希望中国的歌手也能够提高他们的歌唱的SINERABILITYSANDSINERSKILLS"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_105", "src_lang": "zh", "tgt_lang": "zh", "output": "哈哈哈哈哈Which是啊Which有一些Famous Actors在它如Deng Chao Chen He和Luhan啊DESDES"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_107", "src_lang": "zh", "tgt_lang": "zh", "output": "yeah and they are really funny in that show and especially when don chao"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_109", "src_lang": "zh", "tgt_lang": "zh", "output": "尤其当邓超跳舞跳舞啊与不同音乐像啊不同啊音乐厅"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_159", "src_lang": "zh", "tgt_lang": "zh", "output": "我去过健身房呃SOMETIMEIGOTY的GIM在我的公司里"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_161", "src_lang": "zh", "tgt_lang": "zh", "output": "我就是呃随便练练XCISYRANDOMLY没有特别一个PARTISPACE一个没有一个特别的部位专门去锻炼主要还是以嗯日常RELACKS为主吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_163", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯这真是一个很好的习惯嗯那你觉得呃哪种activity是MOSTEffective来进行锻炼的呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_165", "src_lang": "zh", "tgt_lang": "zh", "output": "哦OKINOWBATY那你刚才说很喜欢篮球和足球那你平时会有时间去玩篮球玩足球吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_167", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯好欧文好欧文就去踢足球"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_169", "src_lang": "zh", "tgt_lang": "zh", "output": "那你平时会有时间去打一打篮球吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_171", "src_lang": "zh", "tgt_lang": "zh", "output": "那你在你的WORKOUT路径里面最喜欢的PART是什么呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_175", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯说到运动其实今年也是一个呃很重要的体育赛事的一年因为今年有巴黎奥运会嗯你知道这件事儿吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_177", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯有一些你期待的运动员要参加奥特加姆斯吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_179", "src_lang": "zh", "tgt_lang": "zh", "output": "这里面呃有哪些阿斯莱特是你比较喜欢的吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_181", "src_lang": "zh", "tgt_lang": "zh", "output": "那比如说像现在呃中国比较擅长的一些PROGRAM嗯像像Swimming嗯有一些然后以及同时游泳赛事也现在出了很多FEMINESATHLETT这个里面有哪些你比较喜欢的运动员吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0077_S0_183", "src_lang": "zh", "tgt_lang": "zh", "output": "这次呃奥运会是在巴黎举办很多人都非常的期待嗯但是前段时间看新闻说塞纳河有一些呃污染嗯还是希望他们能够好好的治理啊"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0078_S0_6", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯好的你好克莱尔"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0078_S0_56", "src_lang": "zh", "tgt_lang": "zh", "output": "好的那么呃一般你会去看什么SINGER呃或者是呃看什么比如比如说呃你最喜欢的SINGER呃是谁呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0078_S0_58", "src_lang": "zh", "tgt_lang": "zh", "output": "yeah i know i know about her about her"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0078_S0_60", "src_lang": "zh", "tgt_lang": "zh", "output": "呃YEAIHAVE呃A LOT OFSINGERSI LIKE呃比如说呃MYFAVORITE歌手呃是那个嗯比如说呃MYFAVORITE歌手是周杰伦嗯他的歌儿你应该也听过很多吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0078_S0_62", "src_lang": "zh", "tgt_lang": "zh", "output": "呃我最喜欢的是他的first album他的first album的Every sound is pretty good他的所有歌都很好听嗯除了周杰伦呃My呃我最喜欢我第二喜欢的歌手是呃王立红呃他的他的Age是SIMILARLike周杰伦呃BUT"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0078_S0_63", "src_lang": "zh", "tgt_lang": "zh", "output": "难道GUR是最大的JOE DAVID DAVID的GUR?"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0078_S0_67", "src_lang": "zh", "tgt_lang": "zh", "output": "呃NO呃周杰伦的SANS呃虽然没有王立宏的多但是呃周杰伦的SANS呃ARMORE"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0078_S0_68", "src_lang": "zh", "tgt_lang": "zh", "output": "呃呃呃Forme他的Songs呃对我来说更加的悦耳动听"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0078_S0_76", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯是的他的Adam Lambert他的嗓音Very HighAndHeSons听起来也非常的动听非常的有感情我也希望HeWillComeToChina来给我们献上一次非常动听的音乐现场吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0078_S0_80", "src_lang": "zh", "tgt_lang": "zh", "output": "你喜欢什么节目真的有趣"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0078_S0_121", "src_lang": "zh", "tgt_lang": "zh", "output": "是的唐小是个有趣的人我喜欢他非常"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0078_S0_139", "src_lang": "zh", "tgt_lang": "zh", "output": "呃蓝呃篮球一般我会选择去看NBA的比赛呃NBA一般我会去看呃我比较喜欢的球员是呃库里就是金州勇士队的比赛"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0078_S0_175", "src_lang": "zh", "tgt_lang": "zh", "output": "好的嗯那你一般会喜欢练哪些部位呢呃for example chest or back or leg呃你最喜欢练的是哪一个部位"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0078_S0_177", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯OK呃我比较喜欢锻炼我的 chest嗯Because呃 chest可以让我去推更重的重量嗯会让我的身材显得更加的beautiful"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0078_S0_179", "src_lang": "zh", "tgt_lang": "zh", "output": "呃MostXEffectiveActivity呃我觉得是如果你想Lose weight呃你可以去跑步机上跑步"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0078_S0_180", "src_lang": "zh", "tgt_lang": "zh", "output": "如果你想让你的 muscles look more beautiful, you should lift or squat and do some用很重的重量去进行exercise"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0078_S0_182", "src_lang": "zh", "tgt_lang": "zh", "output": "呃有的我之前会有时有时会去玩足球"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0078_S0_186", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯呃usuallyplay足球嗯一个月两次左右吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0078_S0_188", "src_lang": "zh", "tgt_lang": "zh", "output": "呃YES我喜欢和我的朋友去玩Basketball因为呃Some friendsPlaytogether是一件非常有趣的事而且足球需要的人数所以更好的去凑齐人数进行一些这些这些运动吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0078_S0_190", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我最喜欢的PART是呃比如说是呃练腿部肌肉的呃LEGMASCLE对"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0078_S0_192", "src_lang": "zh", "tgt_lang": "zh", "output": "呃BICUS呃你嗯BICUS呃In this day你的腿部肌肉可以获得很大的训练然后嗯呃You can lose weight呃ATL呃At the same time你的你的体质率和你的呃热量都会得到很好的消耗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0078_S0_198", "src_lang": "zh", "tgt_lang": "zh", "output": "呃还是有的嗯比如说中国的田径队还有中国的跳水队还有中国的呃呃SWIMMINGTEAM都是比较我比较关注的一些领域吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0078_S0_200", "src_lang": "zh", "tgt_lang": "zh", "output": "我比较喜欢的阿斯莱特是呃中国田径队的苏炳天嗯我觉得他很有力量感而且HEATSVERYFAST"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0078_S0_202", "src_lang": "zh", "tgt_lang": "zh", "output": "索里关于这个问题我对中国的游泳队不是特别的了解所以我是想在这次奥运会我要借此机会去更多的去呃NOW ABOUT ABOUTTHE CHINESE SWIMING TEAM"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0089_S0_26", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我就是土生土长的一个北京人所以我总是觉得我家乡NOVERYSPACEAL就是康佩尔其他人的一些家乡我觉得我的家乡就是很很NORMAL就是让人觉得很多人可能会愿意来北京但是对于我这种人来说我觉得就是EverydaySameDay就没有什么特别的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0089_S0_27", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯但是如果你要让我介绍的话其实就是LFElirybodyNothin'Fair北京其实是一个就是首都嘛它其实是有很多的文化景点那MyPersonalFavorite我就是会是比如说像呃南北古像那是一个非常Popular的地方"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0089_S0_28", "src_lang": "zh", "tgt_lang": "zh", "output": "很多人会去一个地方打卡拍照片呀而且那些地方有非常非常有趣的一些东西比如说呃像一些有一个呃一些小店或者是说我之前记得那个地方有很多呃Thick或者是FoodPeopleLikeToTry所以这些地方我是比较建议你去"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0089_S0_29", "src_lang": "zh", "tgt_lang": "zh", "output": "然后同时的话我觉得北京可能绝大多数的话它就是一些嗯古人文古迹然后像园明园啊之类的你可以过去嗯Take a photo或者是说你可以跟你的朋友去过去比如说就是呃Take a look就是去逛一逛看一看然后看看那边的景致"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0089_S0_30", "src_lang": "zh", "tgt_lang": "zh", "output": "其实我是真的觉得北京不是一个很special的地方它不是非常的有趣非常的intresting它就是一个呃每个人每天会上班的地方会工作的地方会是Have A Career的地方那你的家乡呢你的hometown有什么就是让大家觉得比较有意思的地方吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0089_S0_32", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我最喜欢的Fairy the Dish很多People会说是北京的就是北京烤鸭但是特别onest这个事情其实现在很多的这些菜它都已经不是我们那种Traditional味就是不是我们喜欢的比如ChildhoodMemory里的这些记忆里的味道了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0089_S0_33", "src_lang": "zh", "tgt_lang": "zh", "output": "现在的话可能我还是会很喜欢一些北京的食物呃呃呃特别 Honest Most Of Them已经不是我原来喜欢的味道了已经不是我记忆中的味道了我其实现在现在还是说去希望就是探索更多的这种东西"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0089_S0_55", "src_lang": "zh", "tgt_lang": "zh", "output": "我认为对于这个新兴产物它是一个Two Side of ThingOn the One Side就是它会让你就是说能学到很多东西就是就像是电影一样We Can Enjoy Other People's Life或者是我们可以去参与到他们的DIFFERENT EXPERIENCE里面它这些视频很短暂但是它可以包含大量的Information它可以去比如说它可以展示一个View"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0089_S0_56", "src_lang": "zh", "tgt_lang": "zh", "output": "或者是展示一个风景或者是它可以展示一个习惯或者是它可以去记录比如说某一个MOMENT MOVEMOMENT OR MEBEHAPPYMOMENT就是它非常的有效它在一个很短暂的时间内它就可以给你带来视觉冲击脑力冲击它不需要去积累或者是说它不需要说它就是在依赖这个屏障或者说依赖这些自媒体短视频但是ON THE OTHER HAND这个事情又不是说"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0089_S0_57", "src_lang": "zh", "tgt_lang": "zh", "output": "一直都是那么positive way就是有时候他可能会首先因为它是短信息它可以给予你更大的一个视觉冲击所以MostPeopleWillTrustIt就是会相信他会去依赖他有的时候比如说他还有上面登录一些FakeNews那MostPeople也会去相信他或者是说嗯说比如说我这个自媒体这个自媒体社交媒体上面他就是说ShowAppeal"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0089_S0_58", "src_lang": "zh", "tgt_lang": "zh", "output": "这只是一个APPINEN它不可能不是说非常的就是说有道理或者是RELIABLE但是很多人还是会去相信这个事情所以我觉得它是一个双刃剑INDESOY那你怎么去想呢WHATFORAPPINEN"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0089_S0_60", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我我认为比较就是我觉得比较知名的Influencers他们大部分哈是源自于比利比利这个呃Platform上面他其实我用他的时间会是比较早I'm an early user但是现在的来看的话嗯MyFavoriteInfluencerswill be嗯木鱼水星"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0089_S0_61", "src_lang": "zh", "tgt_lang": "zh", "output": "他是一个怎么讲呢是一个MOVIERACKMENDER是可能或者是一个愿意去推荐电影的人所以说从这个角度上讲我认为他是嗯他推荐的很多MOVIE其实是就是他会删减到很多没有用的地方然后只Keep的有趣的地方或者是说认为就是说有深度的地方来给我们看所以我觉得就是看他的电影就是看他的推荐非常的Efficiency"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0089_S0_62", "src_lang": "zh", "tgt_lang": "zh", "output": "同时的话你也可以去学习他的偏点听他的观点他的偏点有的时候是非常的就是有深度非常的Deep然后会让你从中学到很多的不仅是学到很多的知识包括我特别喜欢他讲那种就是类似于History的Movie这种就就是涉及到这些点的这些Movie吧就是我能学到很多这种小知识比如说关于不同的Period of LifePeriod of History这些东西都会让我觉得很有趣"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0089_S0_63", "src_lang": "zh", "tgt_lang": "zh", "output": "而且他是一个就是坚持去做Long video的这么一个Influencer他的视频一般都是在半个小时到One Hour所以这样的一个人我是觉得就是他很多就是不同于现在很多做Short video或者是就是做这种短视频的人他还是致力于去做那种长而有效的视频长而有效的视频所以从这个角度我是我本人是非常AdmirerHim"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0089_S0_65", "src_lang": "zh", "tgt_lang": "zh", "output": "所以从这个角度上讲我就是还是认为其实也同意你的一些观点就是说社交媒体还是有一些positive influence.So how about do you do you first when we talk about social media there are some hashtags you know so do you think that hashtags help you because to me that mostly the hashtags help me to find out what kind of topic I like"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0090_S0_4", "src_lang": "zh", "tgt_lang": "zh", "output": "我叫小猪我的中我的英文名字叫Fred你可以啊怎么称呼我都可以啊"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0090_S0_15", "src_lang": "zh", "tgt_lang": "zh", "output": "还是在我们放松的时候呢我都是会跟我的朋友们去找一些感兴趣的话题比如说像最近的话我们会讨论一些篮球方面的一些奇闻异事包括现在在进行的NBA总决赛这些都是我们茶余饭后的一些话题我也希望能有机会跟你在一起将这些话题进行进一步的这样一个延伸讨论一下我们关于羽毛球的下一步计划"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0090_S0_22", "src_lang": "zh", "tgt_lang": "zh", "output": "那么逐渐到后来呢也是呃更加关注比如说一些人文的像一些比如说啊这种啊纪录片儿比如说DOCUMENTS还比如说像一些呃喜剧片或者是一些悲剧片比如说COMMONDY啊啊TRAGEDY啊这些都是我目前比较喜欢的一些啊电影"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0090_S0_23", "src_lang": "zh", "tgt_lang": "zh", "output": "那对于这种平时的一些娱乐活动呢我比较喜欢一些嗯Activities比如说像我们的一些桌游啊我会邀请我的啊几个好友啊DIFFERENT FRIENDS啊像PARTNERS啊去一起去玩一些比较有兴趣的一些智力游戏啊那在这个过程中呢我们大家伙儿呢可以组一个party然后呢可以进行一些啊ActivitiesSingSomeSongs"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0090_S0_26", "src_lang": "zh", "tgt_lang": "zh", "output": "我现在认为我有两家乡那我出生的地方呢在我们的Eastern North在我们中国的东北部的这样一个省份Premise它的名字叫做吉林省长春市那在我的Hometown呢我还我有很多的这种啊童年的这样一个回忆比如说像我比较喜欢的一些Forest Park还有比如说像我喜欢的一些啊SalemonsGalleries"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0090_S0_27", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯像我还比较喜欢的一些野生动物像我们有很多的这种动物啊动物园什么的动物植物公园都是我比较啊喜欢的这样一个地方那么我的家乡可以被誉为是Salemons City啊Vehicle City就是电影城和汽车城这都是啊在我们中国大时代背景下一个非常突出且非常Special的这样一个城市"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0090_S0_28", "src_lang": "zh", "tgt_lang": "zh", "output": "那我的第二故乡呢也是跟你来自同样一个地方我希望把它称之为北京我们的captain capital像我们的北京的话呢我也去过很多地方像刚才你提到的Summer Palace我在上啊University的时候呢我也会跟我的啊RoommatesClassmates去划一些船啊RoadBoat"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0090_S0_29", "src_lang": "zh", "tgt_lang": "zh", "output": "啊还有的时候呢我也会去这个book啊Ticket去的呃Forbidden Cities啊在这个紫禁城里啊可以看到不同Dynasty的Culture然后在这里呢能够感受到我们不同的古风和古迹那还有的时候呢我会起喜欢去一些SHOPING CENTERS啊像这个三里屯儿啊像这个啊国贸啊像这个西丹"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0090_S0_30", "src_lang": "zh", "tgt_lang": "zh", "output": "啊这些地方呢也是给我留下了Anfor unforgettable的Memories因为在这些地方呢我能够真正的感受到一个Big City的一个状态和面貌所以说呢在我的家乡呢我有两个家乡第一个家乡呢是我长春的这样一个家乡它给了我一个美好的自然的这样一个环境啊自然的这样一个Environment"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0090_S0_31", "src_lang": "zh", "tgt_lang": "zh", "output": "然后另一个家乡呢就是我们的北京首都Capitol那我在这个地方呢能够感受到不同的这样一个CULTURE和不同的这样一个文化那说到这个我想请问一下小简那对于你来讲你最喜欢你家乡的这样一道菜是什么我想听一听"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0090_S0_42", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯谈到社交媒体啊确实是它很大程度上改变了我们人们的这样一个生活那就像外国人他们比较喜欢用一些比如说啊像推特像脸书啊像Inks等等一样一些这样的一些社交媒体那么在我们中国主要还是以这个微信为主那我认为哦微信在极大程度上是改变了我们人们的这样一个生活"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0090_S0_43", "src_lang": "zh", "tgt_lang": "zh", "output": "那微信的功能是比较强大的那么我们通过这样一个APP呢就可以实现比如说我们的啊短信功能比如说我们的通话比如说我们的视频聊天啊甚至还可以解决我们的一些支付问题我们日常生活中的各类账单啊比如说电费水费交通费以及我们的这样一个通信费等等我们都可以通过啊微信上的这样一个小程序去解决我们的这样一个账单的这样一个支付问题"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0090_S0_52", "src_lang": "zh", "tgt_lang": "zh", "output": "那说到这个那我不知道你对这个呃对这个短视频嗯怎么样有没有什么呃理解比如说现在网上有一些VMEDIAL就是一些自媒体我想听听你对这些VMEDIAL的这些呃媒体是怎么样看的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0090_S0_56", "src_lang": "zh", "tgt_lang": "zh", "output": "就是MYAPENISEDACTION我认为很多的这种社交媒体啊它其实是让我们的生活更transparent and clear啊让我们的生活更加的透明和清晰那对于我们人和人之间的这种边界感会降低因为我们更加的去熟悉其他人的生活"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0090_S0_57", "src_lang": "zh", "tgt_lang": "zh", "output": "然后他们会更加的Encourage more and more people去加入到这个VMEDIUM的这样一个队伍中来那同时呢对于很多的这种自媒体来讲呢他们通过这种GIVING RIVORTS的这种方式啊通过打赏的这种方式呢啊去进一步的激励我们这些主播去进行一些CREATIVE"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0090_S0_58", "src_lang": "zh", "tgt_lang": "zh", "output": "那同时呢我们也可以看到在这个过程中呢我们会产生一些啊参差不齐的一些Anchor啊一些创作者一些CreativeTavors但是在这个过程中我们也会发现我们也涌现出一些非常优秀的这样一些知识产权以及我们一些主播啊像我比较关注一些啊BDD的一些啊SHOTSHOTS啊SHOTMEDIA"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0090_S0_59", "src_lang": "zh", "tgt_lang": "zh", "output": "有一些非常好的一些knowledge的一些主播它就是传递了很多一些正能量啊包括像我们刚才聊到的一些呃Movies就是这些嗯主播去呃Recommend给我的还有一些比如说呃很多的一些知识啊像我一些工作中的一些Skills啊Technology我也是啊LearnFromDEM"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U0090_S0_60", "src_lang": "zh", "tgt_lang": "zh", "output": "所以说我认为在社交媒体的这样一个过程中呢也是去呃通过这种Vmedium自媒体的方式去推动我们进步的所以说我也是prefer去利用好这样一个方式去更好的去通过Vmedium的方式去学习然后进一步的去精进自己的一些呃认知啊包括我的一些workactivitiesandwork skills"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_14", "src_lang": "zh", "tgt_lang": "zh", "output": "我的工作是外贸,你做什么?"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_51", "src_lang": "zh", "tgt_lang": "zh", "output": "安弗朗·长杜哈瓦丘"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_55", "src_lang": "zh", "tgt_lang": "zh", "output": "好地方你有任何爱好吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_97", "src_lang": "zh", "tgt_lang": "zh", "output": "还好了就是我已经把那个租出去了就是就每个月的这个租金就已经可以Cover了就Cover了贷款了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_105", "src_lang": "zh", "tgt_lang": "zh", "output": "啊没有没有就只有一个 just one"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_117", "src_lang": "zh", "tgt_lang": "zh", "output": "理论上大概可能二十年吧但是肯定的因为你签的时候都是欠的这个三十年长期贷款嘛你不签这么多你的每你的月工资每个月就会高很多MUCH HARRY YOU KNOW"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_167", "src_lang": "zh", "tgt_lang": "zh", "output": "苏苏对对对"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_248", "src_lang": "zh", "tgt_lang": "zh", "output": "对对对对但曲子呢就是如果没有词呢你会有更多的这个就是自由想象的空间但是如果就是配上这个曲子了相得一张的话哈那就是我觉得就是他们会有一个就一加一大于二的效果你知道"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_254", "src_lang": "zh", "tgt_lang": "zh", "output": "我知道但就就像你说的那种就是他他到了他的那种境界的话就是他仅仅靠他的这个编曲他就能够就这个传达他的这个你猫性知道吗就你能玩就不需要词你就能够感觉到或者是他想表达一个什么东西所以就这样子"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_256", "src_lang": "zh", "tgt_lang": "zh", "output": "包括现在的这些很多那种电子音乐对吧我也听这个就是徐梦源的还有那个EDMLO就是Electric dance music对吧他他只是需要节奏和这个MELODY他也没有歌词但是你一样会觉得很嗨是吧就像那个DBA里面那些什么如果我是DJ这样子"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_262", "src_lang": "zh", "tgt_lang": "zh", "output": "不不不有有很好听的像我说的国内的就是有一个叫徐梦源嘛对吧然后国外的话我最喜欢的那个那个叫那个DJ是在那个挪威还是芬兰的一个叫温森托"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_264", "src_lang": "zh", "tgt_lang": "zh", "output": "不是不是哪一个就是另一个叫他是叫VEXENTO叫我把裤鞋翻成那个叫纹身脱吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_268", "src_lang": "zh", "tgt_lang": "zh", "output": "反而就是那种最火的那些什么呃那些个我反而不是很那个像你说你说比如说嗨的那个叫那个什么呃澳洲的还是谁那个叫叫TIMYTIMYTRUNPITE知道吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_270", "src_lang": "zh", "tgt_lang": "zh", "output": "那个就是就是非常嗨的那种但但他很喜欢他非常适合就是那应该叫就是什么party music那种就是很喜欢很适合派对来播放"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_272", "src_lang": "zh", "tgt_lang": "zh", "output": "还有英国的一个叫卡尔文哈里斯据说是个富二代对对对但是他的有有些歌比如说什么Girls对吧I like什么各种各样的Girls你看他的歌词就是比较那个的但是他还就是还有叫是太放的那种感觉"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_278", "src_lang": "zh", "tgt_lang": "zh", "output": "我总我只记得一个叫什么什么PARTYTREAM不知道是不是哈什么东西上面经常放的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_334", "src_lang": "zh", "tgt_lang": "zh", "output": "因为我不光喜欢曲子哈我还会提取就是说去看他的这个作词水平比如说什么花州对吧那个解释老中医专制吹牛逼这纯纯粹的就是网络口水歌也就是听了就一笑而过但是好听的比如说像那个碧洋黄家居写的那些对吧长城大地农民那些那些歌词就是真的他创创传唱四五十年都还是一直有他的生命力在的这就是非常了不起和厉害的那个乐队这是我的看法"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_379", "src_lang": "zh", "tgt_lang": "zh", "output": "哦Lake ISC的我意思是说这些是我们人类的黑暗面但是如果就是你说的AI是足够呃公正或者叫正义的话他对吧他会觉得我们人类就是一个无可救药的好战种族那他们把我们所有的人类都清除掉了对吧那怎么办呢QQQQQ是怎么办"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_530", "src_lang": "zh", "tgt_lang": "zh", "output": "OK let's take to下一个就是中音混合的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_548", "src_lang": "zh", "tgt_lang": "zh", "output": "那那有没有考虑比如说你在国内学习像什么嗯SKILL啊对啊CookSheep什么的按摩都可以啊"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_558", "src_lang": "zh", "tgt_lang": "zh", "output": "就那种GAPYER嘛间隔年"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_560", "src_lang": "zh", "tgt_lang": "zh", "output": "哦就是USA吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_568", "src_lang": "zh", "tgt_lang": "zh", "output": "但是现在你想找工作真的不容易我给你讲又需要LOW YOUR EXPECTATION"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_570", "src_lang": "zh", "tgt_lang": "zh", "output": "相当于成都图尔是吧对"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_616", "src_lang": "zh", "tgt_lang": "zh", "output": "有很多像我觉得你英语还OK的话可以去找一找像什么APPWORK啊还有什么新加坡那边儿的什么东西都很多的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_686", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我们就现在把这个先过一遍嘛OK"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_762", "src_lang": "zh", "tgt_lang": "zh", "output": "也没有嗯大学不谈恋爱不会觉得很遗憾吗PT"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_768", "src_lang": "zh", "tgt_lang": "zh", "output": "那那你有喜欢的这种什么偶像啊或者偶像之类的没"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_778", "src_lang": "zh", "tgt_lang": "zh", "output": "或者是说去出家Be monk, priest"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_797", "src_lang": "zh", "tgt_lang": "zh", "output": "有时候就我就已经开始相信这个DESTINY了唉"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_801", "src_lang": "zh", "tgt_lang": "zh", "output": "因为我从小到大别人给我这种FortuneTaler都说的是我其他方面都还OK但就是婚姻这一块不行包括我自己我都会去看这个紫薇斗树什么的算出来确实也也有这么一点杀破狼的命格嘛然后夫妻共确实也不大行那种"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_807", "src_lang": "zh", "tgt_lang": "zh", "output": "这就是一个理想和现实当中的这个DIFFERENCE嘛但是你肯定也想要去尽量去这个弥合他们这可能都是摆在我们所有人面前的一个问题"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_833", "src_lang": "zh", "tgt_lang": "zh", "output": "也不是你看他不是说保守的反对就是你要考虑到这个东西的一个叫什么后果嘛对不对包括之前的那个AI的发展嘛他们不是说有一群科学家连明星就说要限制就是给那个AI的一个投位和发展嘛对不对"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1005_S0_840", "src_lang": "zh", "tgt_lang": "zh", "output": "我说那比如说那嗯嗯那如果就是比如说AI机器人对吧都能够代替我们工作了我们人类什么也不用干了那后面我们又该又该做啥呢有没有想过这个问题"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1006_S0_95", "src_lang": "zh", "tgt_lang": "zh", "output": "所以你有两套豪斯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1006_S0_115", "src_lang": "zh", "tgt_lang": "zh", "output": "但是为什么一定要买一个House呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1006_S0_205", "src_lang": "zh", "tgt_lang": "zh", "output": "所以按照你的这个逻辑来看的话你应该很少会去听古典音乐吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1006_S0_207", "src_lang": "zh", "tgt_lang": "zh", "output": "但是很多古典音乐没有歌词"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1006_S0_211", "src_lang": "zh", "tgt_lang": "zh", "output": "但是你说你举的这些什么EDM都是那种非常非常LOW的非常低端的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1006_S0_223", "src_lang": "zh", "tgt_lang": "zh", "output": "他好像和很多女女歌手都合作了好多歌"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1006_S0_225", "src_lang": "zh", "tgt_lang": "zh", "output": "像是那个杜瓦利帕的那个什么万凯斯万凯斯那首歌还有还有艾利古丁的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1006_S0_231", "src_lang": "zh", "tgt_lang": "zh", "output": "派对吹那首歌你能不能哼一下"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1006_S0_251", "src_lang": "zh", "tgt_lang": "zh", "output": "我觉得TikTok上面流行的就还好"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1006_S0_313", "src_lang": "zh", "tgt_lang": "zh", "output": "就是你刚刚说的那些黑暗面AI做那些事儿人类都做过"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1006_S0_315", "src_lang": "zh", "tgt_lang": "zh", "output": "那他们也有可能会教育在亚"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1006_S0_317", "src_lang": "zh", "tgt_lang": "zh", "output": "既然他都有那种康修斯了那他肯定也会有教育这方面的意识"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1006_S0_431", "src_lang": "zh", "tgt_lang": "zh", "output": "也但是尽量避免吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1006_S0_451", "src_lang": "zh", "tgt_lang": "zh", "output": "你你可以给阿皮尔去也可以工作几年去看你看你什么时候适合去只要你在那个年龄之前就可以"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1006_S0_463", "src_lang": "zh", "tgt_lang": "zh", "output": "差不多吧我来我刚来第一天就去了动物园但是就像我刚刚说的Like MountainLikeC什么都没看到只看到人"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1006_S0_473", "src_lang": "zh", "tgt_lang": "zh", "output": "哦对了你的工作是那个什么生意Foreign Business"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1006_S0_493", "src_lang": "zh", "tgt_lang": "zh", "output": "哦你说你说那种自由伦是吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1006_S0_495", "src_lang": "zh", "tgt_lang": "zh", "output": "弗里兰斯啊自由职业者"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1006_S0_601", "src_lang": "zh", "tgt_lang": "zh", "output": "没有我只喜欢一个女歌手莫达娜"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1006_S0_605", "src_lang": "zh", "tgt_lang": "zh", "output": "他们喜欢的他们喜欢那些女偶像呀女明星呀男偶像呀我一个都盖得不到一个没觉得有什么好看的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1006_S0_638", "src_lang": "zh", "tgt_lang": "zh", "output": "我宁愿相信AI都不相信人类"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_39", "src_lang": "zh", "tgt_lang": "zh", "output": "OK那你选呃你辽宁啥的好吃的哦辽宁有什么好吃的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_57", "src_lang": "zh", "tgt_lang": "zh", "output": "哦这这是错的你不能叫我黄渤啊这是我孩子的名所以我能知道你的年龄是听起来有点冒犯的但但你知道"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_65", "src_lang": "zh", "tgt_lang": "zh", "output": "哦可以我叫你阿姨阿姨十"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_79", "src_lang": "zh", "tgt_lang": "zh", "output": "什么样的地方你喜欢去你喜欢去的有一些四川考古或一些当地点"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_83", "src_lang": "zh", "tgt_lang": "zh", "output": "那是TUMENYLANDMARKSINSTITUTIONLYK建门关LYK俄眉山呃LYK武侯祠"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_85", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯It's not too farmaybe the natural science a little bit far but武侯池It's in the city It's in the downtown"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_91", "src_lang": "zh", "tgt_lang": "zh", "output": "我经常出去旅游经常啊出出成都市也好去阿德普罗文斯也好啊戈尔波尔的也好就我可能一年啊要戈尔波尔两三次这样"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_97", "src_lang": "zh", "tgt_lang": "zh", "output": "呃他他那比较自由吧就是资本主义你知道就就他只要你有钱你你可以做你想"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_99", "src_lang": "zh", "tgt_lang": "zh", "output": "呃我在亚利桑那在在一个在一个smalltown在在Scottsdale你我知道你听听没有听说过它Famous with Bank啊Banking Industry就是有很多银行家在那边儿"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_100", "src_lang": "zh", "tgt_lang": "zh", "output": "所以所以说那个那个小镇比较有钱就是他的他的capital是啊凤凰城就是太阳队桑丁就你知道NBA吗NBA桑丁主他们的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_101", "src_lang": "zh", "tgt_lang": "zh", "output": "就是那儿的主队但是没有看到啊当时没有没有去看到太阳队的比赛啊你知道那儿的呃ASU吗就是就是我去访学那个大学叫亚利桑那州立大学是詹姆斯詹姆斯哈登的母校你知道詹姆斯哈登吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_103", "src_lang": "zh", "tgt_lang": "zh", "output": "呃他他是一个NBA星他是呃一个打得分后卫的他是当我去美国是呃Twenty Eighteen那个时候他是呃SuperstarInTheNeck"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_105", "src_lang": "zh", "tgt_lang": "zh", "output": "呃但他现在现在好像不太厉害了现在因为他毕竟TOODE呃ININDESPORTSGAME"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_108", "src_lang": "zh", "tgt_lang": "zh", "output": "No no no it's呃呃这是一个内陆的一个城市它的名字叫菲尼克斯但是我不我没有住在菲尼克斯我在菲尼克斯呃隔壁的一个small town在叫斯科斯代尔叫斯科特代尔好像叫这个名字"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_112", "src_lang": "zh", "tgt_lang": "zh", "output": "还去过日本日本就我和我和我的朋友去去日本就因为他是二次元但是I'm not the good fanOOET我我对那个完全不感兴趣就嗯就陪他去吃了一下那他的NOCODE什么的然后玩的什么的其实真的我没有什么我觉得没有什么好玩的还是美国好玩一点West Coast is better"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_114", "src_lang": "zh", "tgt_lang": "zh", "output": "呀呀呀那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那那"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_196", "src_lang": "zh", "tgt_lang": "zh", "output": "呃就因为他们的Culture儿不一样所以他们的就是文学作品啊还有包括他们的人文人文艺术历史都会有很大的DifferentUNOW"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_198", "src_lang": "zh", "tgt_lang": "zh", "output": "就是当你习惯了呃当你getuse到呃 one kind of culture like China然后你要"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_199", "src_lang": "zh", "tgt_lang": "zh", "output": "然后你要去想想尝尝点新的东西就是你去东南亚发现啊都一样的就就你都没有没有什么兴趣了你又想搞点不一样的东西你又想去体验一下呃完全Totally Different的呃一种生活方式和生活态度你看"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_201", "src_lang": "zh", "tgt_lang": "zh", "output": "啊当当然东亚会更卷一点东南亚相对而言没有那么的卷他们会东南亚会稍微Nazy一点不过你知道欧洲欧洲他们的生活方式更Nazy因为他们"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_202", "src_lang": "zh", "tgt_lang": "zh", "output": "经历一个Capitol 的一个时期的啊原始积累导致他们现在不用那么Hard Work也可以有一个很不错的Welfare就所以你就想去体验一下就是在欧洲啊就怎么怎么摆难怎么躺平就不用去Hardworking就想去过一下那样的生活"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_206", "src_lang": "zh", "tgt_lang": "zh", "output": "Totally totally definitely就是而且你要怎么深入他们就是要从文化和娱乐这两个方式就不单单的是啊你要去工作学习你要或者是走马观花的旅游你要上去了解他们的哦文学呃了解他们的艺术了解他们的政治历史"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_212", "src_lang": "zh", "tgt_lang": "zh", "output": "这我在墨我就是我在小红书上在马斯克上就看看马斯克也有类似的东西"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_214", "src_lang": "zh", "tgt_lang": "zh", "output": "哦有机会可以一起去土耳其土耳其现在是不是就不用签证就能去了不用签证就能去了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_216", "src_lang": "zh", "tgt_lang": "zh", "output": "好那还挺好的如果不用VISA就能去的话那还是一个挺不错的地方的因为在中国办签证好像好麻烦"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_220", "src_lang": "zh", "tgt_lang": "zh", "output": "I got the idea就是你可以在一个国家停留一段时间然后你再去另外一个免签国然后你就来一回反复横跳"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_222", "src_lang": "zh", "tgt_lang": "zh", "output": "波黑吧波波利维亚和黑黑是黑海吗I don't know the exact name"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_228", "src_lang": "zh", "tgt_lang": "zh", "output": "啊WHATEVER反正呃也是个不同对不也不是能出去它是一个不同的文化呃就TOTIFIFINE就不需要什么一定要哪个指定哪个国家一定要是一个Developing COUNTRY哦Development COUNTRY"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_230", "src_lang": "zh", "tgt_lang": "zh", "output": "啊小小地"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_318", "src_lang": "zh", "tgt_lang": "zh", "output": "呃是的就是现在我的毕业毕业的Paper非常的难搞"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_322", "src_lang": "zh", "tgt_lang": "zh", "output": "你能来秀碰我吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_324", "src_lang": "zh", "tgt_lang": "zh", "output": "You can help me the format你可以帮我修改格式"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_330", "src_lang": "zh", "tgt_lang": "zh", "output": "所以呃因为因为老师每一届就只叫一个人然后这个老师他已经呃NOSEABILITY OF科研所以他就没有能力去招弟子他没有呃没有基金他没有钱所以就没有学生所以就没有课题所以就没有实验"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_332", "src_lang": "zh", "tgt_lang": "zh", "output": "但是他是一个NACKYPERSON就是他在这个规则出来之前就有了呃非常正式的编制他现在会把重心转到TECHING上去他现在他现在工作中的重点就不是RESEARCH"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_334", "src_lang": "zh", "tgt_lang": "zh", "output": "所以他只需要完成他的本职的呃Task就可以了就可以了他不需要去呃PUBLISH呃一些很重要的PAPER对"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_336", "src_lang": "zh", "tgt_lang": "zh", "output": "对而且他的TITLE也很高呀他现在已经是教授了他是一个正正直的教授他是一个教授嗯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_342", "src_lang": "zh", "tgt_lang": "zh", "output": "所以他没有钱他只能他他的收入只有一些基本工资没有科研基金没有没有放的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_344", "src_lang": "zh", "tgt_lang": "zh", "output": "它也没有一些横向的一些项目它只能完成科研所以整个课题组都非常的PORR"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_348", "src_lang": "zh", "tgt_lang": "zh", "output": "呃目前看来是去GOTOWORKFIND A NICE JOB就因为你没有很好的科研背景你的导师是个摸鱼怪所以你没有办法呃去得到他的推荐对现在有Offer了但是不想去现在想想去一个更好一点的平台啊NikeForeign CompanyNikeGovernment"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_349", "src_lang": "zh", "tgt_lang": "zh", "output": "我不想去一些PrivacyPrivateCompany就就就没有意思我就想去一个呃BiggerPlanet"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_351", "src_lang": "zh", "tgt_lang": "zh", "output": "啊好就就现在这个Invironment来说的话外企的外企的待遇会好一点私企私企的待遇呃看起来会很高不不不他的工作会会很多"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_353", "src_lang": "zh", "tgt_lang": "zh", "output": "靠近我的房子的阿奇亚."}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1019_S0_359", "src_lang": "zh", "tgt_lang": "zh", "output": "啊我之前在上海就是有过一段工作时间呃一段工作经历所以啊想体验一下留在hometown"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_52", "src_lang": "zh", "tgt_lang": "zh", "output": "我的名字是萨拉,你可以叫我徐云,这是我的中文名字."}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_100", "src_lang": "zh", "tgt_lang": "zh", "output": "哇Really啊那你都去过哪些国家了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_102", "src_lang": "zh", "tgt_lang": "zh", "output": "哦那你觉得相比之下美国和成都哪一个更适合你生活呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_104", "src_lang": "zh", "tgt_lang": "zh", "output": "哦那那你觉得美国生活是哪一点最吸引你的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_118", "src_lang": "zh", "tgt_lang": "zh", "output": "就你刚才描述这个嗯The City你刚才说到提到的名字我已经忘了在SUNDLAYS呃上海那种"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_120", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯那你除了除了美国那你还要哪个啊Wish Country呃呃让你非常Impressive呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_124", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯所以这lifestyleisdifferent对在日本的话他们应该是一个很悠闲"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_206", "src_lang": "zh", "tgt_lang": "zh", "output": "哦所以你的这种旅行的初衷是更想你Deep Into their lifeDaily Life就是不只是走满瓜走马观花而是想要深入的具体哦"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_210", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我没有太了解那些但是你刚刚才提到了土耳其Right嗯我之前有在小红书上看到哦好像土耳其的哈布伦就是那种大的热气球就非常的出片儿那好像很有名"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_214", "src_lang": "zh", "tgt_lang": "zh", "output": "是的我刚才就想说也许你可以先考虑一下土耳其BICOS嗯它是免签的好像是近年才出台的这个新的规定"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_218", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯但也许你需要去了解一下它的嗯Time Limit嗯那那ONLY的PRICEYES就是你要旅行签它可以停留多长时间因为你刚才说你想去体会他们的LIFESTYLE所以说如果时间太短的话我觉得可能NOT MATCHOR需求"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_220", "src_lang": "zh", "tgt_lang": "zh", "output": "哦是的就是我有看到他们有一些人就是专门挑这些地方好像还有一个国家叫做黑海还是黑什么然后包括斯里兰卡在DEAR ALWAYS FREE所以而且都在那一片区域所以你就可以Travel Round butWithoutVisa哦Right"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_222", "src_lang": "zh", "tgt_lang": "zh", "output": "然后就我就记得名我就记得名字里有个黑但是你你你can take it into your plan对"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_228", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯但是如果一个国家其实没有那么发达的话你在出行的时候同时需要考虑到SICUREITY要SEFTY因为可能会比较乱嘛然后就可能会面临一些危险"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_245", "src_lang": "zh", "tgt_lang": "zh", "output": "啊我这个人吧他比较所以说我恨不得他们全都融合到一起我只能舍得充一个APP的钱"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_251", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我觉得因为他最大的竞争公司应该是QQ音乐嘛他妈好像平分秋色吧我最开始不选择QQ音乐单纯是因为它的设计太丑了我觉得字好大就看起来好幼稚觉得不够间接"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_254", "src_lang": "zh", "tgt_lang": "zh", "output": "你像他们最近你像他们最近就那个屏幕上的广告上就说他们签约了韩国一个叫嗯梅伦吧应该是就是"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_255", "src_lang": "zh", "tgt_lang": "zh", "output": "他们的一个榜单上面的所有的音源就是音乐资源都可以在网易云听到那你像这种的话他就不可能在QQ音乐上听到并且我平时会看日漫嘛就是动漫动漫的很多的曲子他也是要出专辑的然后有这种类型大部分就会在QQ音乐上"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_311", "src_lang": "zh", "tgt_lang": "zh", "output": "啊你你你你不是好为什么为什么"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_317", "src_lang": "zh", "tgt_lang": "zh", "output": "啊所以说我感觉你好像HAVESOME DIFFICULTYWITHYOUR TEACHER"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_319", "src_lang": "zh", "tgt_lang": "zh", "output": "那是你现在进行到哪一步了呢还有什么东西你HAVEN'TPREPAIRED"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_321", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯嗯没有别人Help you吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_325", "src_lang": "zh", "tgt_lang": "zh", "output": "我可以我能够帮助你什么呢我我有什么我能帮得上吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_327", "src_lang": "zh", "tgt_lang": "zh", "output": "啊也许可以他并不需要any嗯TechnicalSKILLSYES那我很乐意"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_333", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯那你的老师会被辞退吗因为我听说高校去留职的话需要Very High LevelTREACHDAN YOU CANSTAY"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_341", "src_lang": "zh", "tgt_lang": "zh", "output": "佩珀斯赖哦那他真的是非常的幸运他也没有都他pressure没有科研的压力了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_347", "src_lang": "zh", "tgt_lang": "zh", "output": "教授,不是其他副教授就哇天啊"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_353", "src_lang": "zh", "tgt_lang": "zh", "output": "唉那就祝你能够顺利毕业吧那你已经准备好呃你是要接着呃呃去升学呢还是要够图沃尔克了呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1020_S0_361", "src_lang": "zh", "tgt_lang": "zh", "output": "但是但是私企的话不是待遇也挺好吗你加呃RichPayment"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1069_S0_33", "src_lang": "zh", "tgt_lang": "zh", "output": "我喜欢成都努达斯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1069_S0_73", "src_lang": "zh", "tgt_lang": "zh", "output": "Yes yes嗯我有我有三三个"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1069_S0_79", "src_lang": "zh", "tgt_lang": "zh", "output": "Yes我们非人我们关系还比较好"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1069_S0_104", "src_lang": "zh", "tgt_lang": "zh", "output": "那你现在是做的什么工作Riding"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1069_S0_112", "src_lang": "zh", "tgt_lang": "zh", "output": "It's okay只能这么说然后"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1069_S0_118", "src_lang": "zh", "tgt_lang": "zh", "output": "我嗯那是Fair还可以吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1069_S0_132", "src_lang": "zh", "tgt_lang": "zh", "output": "东西的名称 Animals"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1069_S0_158", "src_lang": "zh", "tgt_lang": "zh", "output": "啊对对对还是S够吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1069_S0_254", "src_lang": "zh", "tgt_lang": "zh", "output": "在R E"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1069_S0_333", "src_lang": "zh", "tgt_lang": "zh", "output": "他是一个MYFAVORITESTAR可以说是"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1069_S0_341", "src_lang": "zh", "tgt_lang": "zh", "output": "它就是一个PICK一个山峰一个不能逾越的山峰了现在是"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1069_S0_347", "src_lang": "zh", "tgt_lang": "zh", "output": "现在就他的黑曼巴精神还激励着我们TheBlackMemberSpirit永远记得这个"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1069_S0_360", "src_lang": "zh", "tgt_lang": "zh", "output": "他的那个甩球确实很厉害我看他每次接球就感觉有种嗯有种自信那种自信感就嗯就很很想学习他那种自信的感觉"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1069_S0_362", "src_lang": "zh", "tgt_lang": "zh", "output": "#hm yes"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1069_S0_370", "src_lang": "zh", "tgt_lang": "zh", "output": "我就从中感觉最对我最大的就是Be Yourself做你自己就很有自信的感觉"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1069_S0_373", "src_lang": "zh", "tgt_lang": "zh", "output": "他有很多tutor可以帮助他就学习新的东西吧他也很愿意学习"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1069_S0_379", "src_lang": "zh", "tgt_lang": "zh", "output": "选择选择,成为一个更好的人."}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1069_S0_393", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯对就还有ManyThanks"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1069_S0_399", "src_lang": "zh", "tgt_lang": "zh", "output": "锻炼"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_52", "src_lang": "zh", "tgt_lang": "zh", "output": "翠哦翠饭的给对吧其实我平时也跟你一样喜欢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_54", "src_lang": "zh", "tgt_lang": "zh", "output": "就旅游自家开车给给个K"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_64", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯那你当神一定还好吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_66", "src_lang": "zh", "tgt_lang": "zh", "output": "就平时工作之外就喜欢没事儿画画喷嚏然后拍照拍照和朋友一起聊聊天"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_68", "src_lang": "zh", "tgt_lang": "zh", "output": "咸的啊切子"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_70", "src_lang": "zh", "tgt_lang": "zh", "output": "有我最喜欢的话也就比卡索因为他的话"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_74", "src_lang": "zh", "tgt_lang": "zh", "output": "尤哈我塞塞斯特你们兄弟姐妹嘛"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_78", "src_lang": "zh", "tgt_lang": "zh", "output": "那你们的friendship应该够的吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_80", "src_lang": "zh", "tgt_lang": "zh", "output": "我唉好我我有一个呃Sister and the brother"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_82", "src_lang": "zh", "tgt_lang": "zh", "output": "平时非常喜欢和他们一起玩Games and the Take Photo"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_84", "src_lang": "zh", "tgt_lang": "zh", "output": "是的我是最近CANFRAM最近就CANFRI来到成都的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_88", "src_lang": "zh", "tgt_lang": "zh", "output": "是比较喜欢后面有时间可以脱衣服"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_90", "src_lang": "zh", "tgt_lang": "zh", "output": "就是说"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_92", "src_lang": "zh", "tgt_lang": "zh", "output": "这是个好主意."}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_102", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯那你的work找得怎么样"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_110", "src_lang": "zh", "tgt_lang": "zh", "output": "那你觉得这份儿work好包"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_156", "src_lang": "zh", "tgt_lang": "zh", "output": "忒上一中和来"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_282", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯你有喜欢的运动员吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_292", "src_lang": "zh", "tgt_lang": "zh", "output": "我之前比较喜欢那个篮球PLAYER比如说那Kobe嘛"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_294", "src_lang": "zh", "tgt_lang": "zh", "output": "对然后以前特别喜欢看他的PlayGames"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_308", "src_lang": "zh", "tgt_lang": "zh", "output": "谢谢Ting Tan Canada,Play Games"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_310", "src_lang": "zh", "tgt_lang": "zh", "output": "好像我们中国人打很多人都来可以是吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_314", "src_lang": "zh", "tgt_lang": "zh", "output": "因为他的Story非常很卡尔杰卡尔杰尔嘛非常鼓励我们"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_320", "src_lang": "zh", "tgt_lang": "zh", "output": "莱克曼吧挺不错的钱都"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_324", "src_lang": "zh", "tgt_lang": "zh", "output": "那是他那段时间还用Blackman吧嗯这个这个词特别喜欢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_328", "src_lang": "zh", "tgt_lang": "zh", "output": "马龙就特别喜欢在之前看他在日本的比什么你嗯酒饭就有点"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_330", "src_lang": "zh", "tgt_lang": "zh", "output": "对在在就看的比赛"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_336", "src_lang": "zh", "tgt_lang": "zh", "output": "对确实信心信心It's very important"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_338", "src_lang": "zh", "tgt_lang": "zh", "output": "所以说SPOIL确实能带给我们很多东西比如说HAPPYCONFIDENCE"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_347", "src_lang": "zh", "tgt_lang": "zh", "output": "对TECHER其实这是一次IMPORTANCE在我们的不管是做什么当中吧不管是在WORK AND LIFE"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_353", "src_lang": "zh", "tgt_lang": "zh", "output": "所以说斯波尔的从古至今心理上"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_358", "src_lang": "zh", "tgt_lang": "zh", "output": "你平时会Sport吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_360", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯那你一般在什么时候Sports"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_362", "src_lang": "zh", "tgt_lang": "zh", "output": "哦那一般都是下完之后Sport"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_364", "src_lang": "zh", "tgt_lang": "zh", "output": "对其实下班其实都挺很晚嘛然后在Sport的其实也挺泰尔尼嘛"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_366", "src_lang": "zh", "tgt_lang": "zh", "output": "我经常也是在不上班的时候会Sports比如说篮球呀罗林的看病"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_368", "src_lang": "zh", "tgt_lang": "zh", "output": "因为我经常经常啊sport是吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_370", "src_lang": "zh", "tgt_lang": "zh", "output": "对通过XSS我减肥减肥成功"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_374", "src_lang": "zh", "tgt_lang": "zh", "output": "那你之后会坚持锻炼坚持体育吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_380", "src_lang": "zh", "tgt_lang": "zh", "output": "那可以有时间一起思维民"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1070_S0_386", "src_lang": "zh", "tgt_lang": "zh", "output": "对我之前在健身馆学过苏维埃民的学学了一个阿特多威嘛对"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_9", "src_lang": "zh", "tgt_lang": "zh", "output": "我来自苏沙省我是当地人我比你老四年"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_56", "src_lang": "zh", "tgt_lang": "zh", "output": "也我我喜欢吃那些French fries呃是呃但是怎么说呢比起KFC我更喜欢金果门就你你经常吃麦当劳吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_58", "src_lang": "zh", "tgt_lang": "zh", "output": "也呃你觉得哪边的汉堡更好吃一点"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_60", "src_lang": "zh", "tgt_lang": "zh", "output": "哦嗯怎么说呢就其实这些食物曾经被认为是junk food嘛但是嗯随随着现在就是大家就是越来越信息化越来越现代化就网上会很多跟它屁谣嘛其实像汉堡啊这些还有就是FENCHEFENCHETOMATO对吧这些嗯它其实相对还是比较健康的就它本身也就是一些一些主食嘛对吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_62", "src_lang": "zh", "tgt_lang": "zh", "output": "所以所以所以你get到就是那个Double cooked meat到底是指什么吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_77", "src_lang": "zh", "tgt_lang": "zh", "output": "呃那那那我我我我"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_79", "src_lang": "zh", "tgt_lang": "zh", "output": "我都是我有时候是一个人吃有时候是呃威斯呃那些什么瑞瑞森格斯就是我跟陌生人吃大部分百分之九十是跟陌生人吃"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_81", "src_lang": "zh", "tgt_lang": "zh", "output": "他他是他是有那种的你都不好奇我为什么可以吃这么多吗因为一顿火锅其实可能上要一百上下到两百不等嘛对吧这么一个吃我就其实也很很非盲理的他我我"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_83", "src_lang": "zh", "tgt_lang": "zh", "output": "对就是就是那就是那种呃那那那都不是打折我就是这这一段时间两个月可能吃的有四十多顿多顿火锅但是我花的钱没有一块钱"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_87", "src_lang": "zh", "tgt_lang": "zh", "output": "对帮他们getphotos也然后他们就"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_91", "src_lang": "zh", "tgt_lang": "zh", "output": ",TikTok,Weibo,AndBillyBilly,这这这这几个"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_93", "src_lang": "zh", "tgt_lang": "zh", "output": "呃我我我的话还好吧我我我我I just have my own personal account我仅仅是有个号而已别的就没有了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_100", "src_lang": "zh", "tgt_lang": "zh", "output": "对对对也"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_102", "src_lang": "zh", "tgt_lang": "zh", "output": "呃all kinds of就我而且而且IOftenMakeHotPots在我的家啊AtHomeYea"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_134", "src_lang": "zh", "tgt_lang": "zh", "output": "哦哦你觉得其实一般对吧OKOK"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_175", "src_lang": "zh", "tgt_lang": "zh", "output": "第二第二个第二个就是运动嘛运动生活是吧OK"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_177", "src_lang": "zh", "tgt_lang": "zh", "output": "运动OKOK运动运动反正就能扯到生活"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_219", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯可以就是嗯嗯IIPO分IOP分就是教别人所以"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_221", "src_lang": "zh", "tgt_lang": "zh", "output": "没有没有我我我我其实是就是比较水吧但是嗯我就是自己游的也就是加实的瘦瘦了那但是对于教别人游我就好为人事嘛对于教别人游还是有心的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_224", "src_lang": "zh", "tgt_lang": "zh", "output": "对吧他是SoProfessional的然后他当时是教教的我游泳然后嗯I No SwimmingFromHim呃嗯但是呃怎么说呢我可能有的就是说就是一个级格水平但是对于如何去教比但是对NONONOIJUSTTELLTHETHERTH嗯TOBEHONEST好吧啊就是"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_226", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯他其实我觉得两者不矛盾吧他应该就都有他就是一套完整的游泳体系然后就是说你现在现在市场上市面上有很多的游泳班和游泳教练嘛然后稍微就是说有那种游泳证潜水证啊这些的他的呃费收费对吧可能在一个海海海海莱维可能对你你你你可能会花两到三三千块钱去学一个游泳"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_227", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯但是我这边的话我之前主要是交我的一些朋友同事同学这种他们我都免费后面他们都觉得我交得Very goodVery well然后我就去"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_233", "src_lang": "zh", "tgt_lang": "zh", "output": "呃入入场的费是呃twenty然后对然后我我就是我交别人的一直的那个收费啊就一直是Five Hundred"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_245", "src_lang": "zh", "tgt_lang": "zh", "output": "可以可以可以比如说你想去游的话我现在就可以教你啊很可能你比游得比我好然后没有你你你开始说的那个点就很对就是说克服对那个水的那种费儿恐惧然后不要TERROR对"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_251", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯那是那么那是那么危险就YES因为就是ASASHUMAN病嘛对吧你人类的本能你是不具有水性的然后你这种方法的话不仅不太容易让他学会还会就是增加他对水的恐惧适得其反吧因为尤其是小孩子学这个游泳讲究的就是一个循序渐进"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1073_S0_254", "src_lang": "zh", "tgt_lang": "zh", "output": "呃阿尤基丁你训练是不是谋杀"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_16", "src_lang": "zh", "tgt_lang": "zh", "output": "你喜欢Thuen Thai吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_52", "src_lang": "zh", "tgt_lang": "zh", "output": "好的那不如我们说一说我们吃KFC的时候最喜欢点的一些东西呢比如说我之前提到的我之前提到的French fries呀那些hamburgers还有那些你你你在吃French fries的时候你喜欢点那些sauce吗比如说"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_58", "src_lang": "zh", "tgt_lang": "zh", "output": "哦我懂我懂麦克麦当劳啊我知道麦克麦当劳嗯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_60", "src_lang": "zh", "tgt_lang": "zh", "output": "我觉得麦克唐纳的汉堡还不错那那个双层集市双层Cheese汉堡还可以"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_64", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯其实嗯是的哪怕是像那种淀粉酸菜之前也被屁谣过新闻说里面还有一些Chicken BonesLike That也嗯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_68", "src_lang": "zh", "tgt_lang": "zh", "output": "哦原来我还不太清楚他是叫DWCOOKEDMIND我以为是叫RETURNTOPOT"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_70", "src_lang": "zh", "tgt_lang": "zh", "output": "按我按我执意的说法我就觉得他应该叫ReturnTwoPART就因为执意嘛回去嘛"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_72", "src_lang": "zh", "tgt_lang": "zh", "output": "啊是你你你是直接看不出来嗯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_77", "src_lang": "zh", "tgt_lang": "zh", "output": "是嗯因为唉每个人的消化的这消化系统呃可能不会承受太多那种东西就是很油的嘛也都"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_79", "src_lang": "zh", "tgt_lang": "zh", "output": "那你一定那你一定Have have a lot of friends是吧看看看GET啊你一般是陪一个人吃吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_85", "src_lang": "zh", "tgt_lang": "zh", "output": "你是参加了那种酷酷朋酷朋活动嘛类似于那种打折的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_87", "src_lang": "zh", "tgt_lang": "zh", "output": "哦I guess that I guess你是那种干干那种太电的你你有"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_89", "src_lang": "zh", "tgt_lang": "zh", "output": "那那你是上传那些视频然后把它们发送到比如说像的Tiktok或者是快手之类的吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_91", "src_lang": "zh", "tgt_lang": "zh", "output": "哦哦你有自己的个人号哇那还那是kind of amazing"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_95", "src_lang": "zh", "tgt_lang": "zh", "output": "啊这这可以解释它这这可以 make sense so怎么你能吃很多的hot pot 啊 in in week eight times okay okay我我知道了我知道了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_99", "src_lang": "zh", "tgt_lang": "zh", "output": "对对对我之前盖到你说的那个我觉得就像就像清水锅一样这种不太像火锅了家庭式的家庭式的啊family style"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_101", "src_lang": "zh", "tgt_lang": "zh", "output": "主要是自己自己在家里吃嘛就你不担心它的胃口问题然后你也能吃得很开心你可以FreelyPickSome Kind of VegetablesYouLike"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_107", "src_lang": "zh", "tgt_lang": "zh", "output": "啊呀呀呀呀嗯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_109", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯Of courseOf courseGATE嗯那么关于火锅我想一想你喜欢吃那种油点的也就是说在你家里不是那种北方的麻将式的那种是吧你如果自己挑战料的话哦都是吃油点"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_214", "src_lang": "zh", "tgt_lang": "zh", "output": "我我我我一直查过那种的视频在比利比利或克雷什奥尔多因所以这体育人他们骑克罗斯克罗斯的成都和到其他国家那是种非常累的你知道的和你你的能量你的能量会被耗尽在快速的步伐"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_234", "src_lang": "zh", "tgt_lang": "zh", "output": "所以你有一些一些"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_242", "src_lang": "zh", "tgt_lang": "zh", "output": "所以你之前提到的这一套这个教学的方法It's a set of card five swimming moment"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_244", "src_lang": "zh", "tgt_lang": "zh", "output": "Its all the kind of tricks all the crucial points you need to remember I don't know这个它是一套这个完整的动作体系还是说我们只是需要记住这个游泳中你需要掌握的一些要点这个我不太清楚"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_246", "src_lang": "zh", "tgt_lang": "zh", "output": "呀肯定很高啊也Rade Rade High Rade High"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1074_S0_248", "src_lang": "zh", "tgt_lang": "zh", "output": "一般你去教他们都是在那种就是公用的那种PUBLIC游泳池嘛就是我像我我记得在蒙锥湾就有一个类似的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_2", "src_lang": "zh", "tgt_lang": "zh", "output": "嗨,我的名字是德兰德,你可以叫我迷人的德兰德,我的中文名字是李玉豪,我来自中国,来自重庆,那么你怎么样?"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_10", "src_lang": "zh", "tgt_lang": "zh", "output": "我现在是二十四岁,现在是七年级的中青中学的高级生"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_11", "src_lang": "zh", "tgt_lang": "zh", "output": "我来这里是在2018年高中毕业后,我的家乡是重庆长寿,这在重庆很有名,好吧?"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_72", "src_lang": "zh", "tgt_lang": "zh", "output": "对对对色色杂啊嗯色杂"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_74", "src_lang": "zh", "tgt_lang": "zh", "output": "对,我同意你的观点,卡德姆,这取决于人民."}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_84", "src_lang": "zh", "tgt_lang": "zh", "output": "我的Lifestyle说实话比较单一但就是偶尔其实也有我感觉不太健康的就是有时候我会因为那Stay Up To 熬夜嘛Two To One Or Two O'Clock这样的我会就是啊晚上尤其是晚上的作息吧现在是有一点点的不规律就是也没有还没有去调整它吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_85", "src_lang": "zh", "tgt_lang": "zh", "output": "现在现在是但是像我平常其他的my other lifestyle就是运动啊打球啊我有时候会起来去Due Morning Running就晨跑啊或者去有时候会去参加一些篮球比赛然后经常现在去运动这也是我觉得一一个好的一个习惯在坚持着"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_92", "src_lang": "zh", "tgt_lang": "zh", "output": "这样对我但我最近在选择去就是现在因为马上要闭塞了马上要选择去学习可能会去选择学习一些新的东西然后就是像我可能会去考一个东西考一个Certification包括的PTE就是一个关于一个出国的一个证书跟亚斯托夫同类的类类别的一种证书"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_95", "src_lang": "zh", "tgt_lang": "zh", "output": "对那莫儿对对对比给不莫莫儿那你嗯你可以讲一下你的其他的比如家乡啊之类的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_100", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯王伟三"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_102", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯阿克特里"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_118", "src_lang": "zh", "tgt_lang": "zh", "output": "呃曼哈顿也是长寿对在长寿的在重庆长寿啊是一个LIFELONG嘛就是在最开始的时候那边可能有一些对比较常识的老年老人啊去到了那个地方然后后来就取名叫长寿了然后呢那边会有一些SOMEOURATTRACTIONTOURIST"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_119", "src_lang": "zh", "tgt_lang": "zh", "output": "旅游就是有一些比较著名的一些景点比如像那个我们的普蒂山包括我们的苍梭湖普蒂山它也是一个山那边的人大概爬上去的话海平面也没有那么高但是爬上去也需要将近一个多小时然后那个对大家的话当地人的Local People很多人都会去爬山然后去锻炼身体这样的然后上来上去一个小时嘛也不会大概特别多的时间"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_120", "src_lang": "zh", "tgt_lang": "zh", "output": "所以那是我们比较一个著名的景点然后还有一个是长寿湖那边的话每年都会有人去钓鱼啊包括很多赛事活动像铁人香香啊跑步啊马拉松啊那儿A lot of race对对很多样那边环境比较好像这种比较Summer就夏天的话我们都会去那边去游泳啊包括那边也会有很多的游乐园就很有意思"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_162", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯对盘判断对对对我还没见过我还没看过现场看过"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_185", "src_lang": "zh", "tgt_lang": "zh", "output": "可以那边其实还有很多好的地方呢对好的我们可以到下一个话题嘛Next TopicSports是吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_200", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯好所以每天晚上我去游乐场和朋友玩,可以强化我们的身体,精神可以保持好身体"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_212", "src_lang": "zh", "tgt_lang": "zh", "output": "单只卡呀"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_249", "src_lang": "zh", "tgt_lang": "zh", "output": "啊Good Sports can do a lot of can bring you a lot of benefits对给你带来很多好处嘛对然后我当时状态慢慢都会回暖嘛因为我之前是孕育的Because的COFYLATINE当时得了新冠然后得了新冠之后整体的状态说实话确实不太好因为对对对然后我感觉明显感觉"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_251", "src_lang": "zh", "tgt_lang": "zh", "output": "对I can feelReallyApparently就是我的身体明显没有治愈好了然后我可能就一跑啊就很喘气那种所以After"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_252", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯是的然后在我最开始我IKeep的三公里RunningAlmost就是最开始三公里跑的时候可能跑个二十几分钟甚至三十分钟就很喘而且我是在家里面跑的那种但是坚持Stick to Running for almostHalf a monthOver a month就半个月一个月之后我发现就越来越快了然后心肺功能越来越好了整体的状态越来越好了恢复的越来越好了然后吃得越来越好了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_253", "src_lang": "zh", "tgt_lang": "zh", "output": "然后跟别平常跟别人交流啊人际关系各方面也越好了然后自己能够对自己的情绪的掌控啊对吧emotion control也越来越好越好越来越好了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_265", "src_lang": "zh", "tgt_lang": "zh", "output": "对对对我去年还参加那个十公里的马拉松四分之一四分之一嘛十公里对在我们那个重庆的南边路然后当时跑到了那个十公里确实给了我很大的一个突破大大大大大大大大第一次跑那种十公里然后跟有上上万人同时去跑这个步超级的刺激Very excited然后当时我跑就确实跑完就很爽"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_269", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯是的睡在卡子"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_273", "src_lang": "zh", "tgt_lang": "zh", "output": "对可以跟别人点的交流嘛增强这种交流能力然后一起去打向胜走向胜利给到给到冠军"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_280", "src_lang": "zh", "tgt_lang": "zh", "output": "那你平常有做你会平常做什么运动吗啊就是SportsIn Your Spare Town"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_305", "src_lang": "zh", "tgt_lang": "zh", "output": "对对对就是我们学校土木园反正就是基本上每年都是拿那种冠军的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1085_S0_339", "src_lang": "zh", "tgt_lang": "zh", "output": "扎姆士顿确诊这方面是真的佩服在在NBA整个集团"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_3", "src_lang": "zh", "tgt_lang": "zh", "output": "哦我的名字是Jian和我的中文名字是徐超和我是Night Nice to Meet You二我是Nineteen years old我是从我是从乐山现在我学习在成都学院什么关于你"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_53", "src_lang": "zh", "tgt_lang": "zh", "output": "恩德哦对我就是有责任心然后平常很乐观"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_62", "src_lang": "zh", "tgt_lang": "zh", "output": "I think就是我觉得我的LIFESTYLEISTHE HEALTHYI thinkHealthyLIFESTYLEISVERYIMPORTANT我觉得这个健康的这种方式非常重要因为它可以就是让我们保持一个很自律很健康的状态然后它如果有一个HealthyLifestyle它可以HELPREDUCERISCOFFERDISEORSOMEDISE"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_63", "src_lang": "zh", "tgt_lang": "zh", "output": "就可以减少我们的一些疾病保证我们的健康然后你觉得你觉得你平常的lifestyle是什么呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_71", "src_lang": "zh", "tgt_lang": "zh", "output": "我觉得你这个是一个非常active lifestyle就你这个active style就包括了regularPARTICIPATIONINSPORT啊EXERCISE啊AND OUTDOORACTIVE就包括了很多运动啊这些我觉得非常的active"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_72", "src_lang": "zh", "tgt_lang": "zh", "output": "然后嗯I thinkLifestyle还可以比较的Simple一点也挺不错的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_76", "src_lang": "zh", "tgt_lang": "zh", "output": "啊他现在"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_78", "src_lang": "zh", "tgt_lang": "zh", "output": "就就那儿摸耳然后更多的机会嘛哦懂懂懂懂懂懂然后你"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_80", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯我家乡的话我家乡就在乐山嘛呃然后如果如果你来我家山乐山的话我会就是带你去你一定要去一下那个鹅山鹅眉山就是鹅眉山然后它是一个非常呃五A级的艾克特拉森就是一个旅游景区嘛然后WIN YOUWIN YOU GET THE TOPYOU WILL SEE MERRY BEAUTIFUL SENNERY IN THE TOP"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_81", "src_lang": "zh", "tgt_lang": "zh", "output": "就然后通过爬山这个过程你可以挑战你自己and overcome managing difficulties when you come and"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_82", "src_lang": "zh", "tgt_lang": "zh", "output": "感得周贺很多吧我觉得就是通过这个爬山你也可以到山顶你看到风景的话还可以锻炼自己然后如除了峨眉山的话还可以去呃乐山大佛然后It's very bigIt's very well就非常的让人震撼You will get touched"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_83", "src_lang": "zh", "tgt_lang": "zh", "output": "然后所以就特别值得一去因为它是一个很大很大的一个佛像可以也也呃What about your hometown"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_154", "src_lang": "zh", "tgt_lang": "zh", "output": "OK下次有去重庆我会去你这些地方玩儿"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_176", "src_lang": "zh", "tgt_lang": "zh", "output": "尊重他因为他很辛苦工作,他很老在NBA,他每天工作,他保持在高水平,每次比赛."}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_201", "src_lang": "zh", "tgt_lang": "zh", "output": "啊对它确实就是在嗯Body Health and Mental Health身体健康和心理健康都有帮助它可以就是增强我们的心肺功能像你刚刚那个跑步就是有氧运动嘛然后嗯它可以就是改善我们的心肺功能然后让我们的肺活力提高啊然后调节我们的那个Blood的Pressure调节我们的血压呀心率啊然后提高我们的心肺功能"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_202", "src_lang": "zh", "tgt_lang": "zh", "output": "然后也可以就是增强我们的Body Strength提高我们的增增强我们的肌肉力量就通过一些举杠铃啊呃一些健身房的那种运动嘛"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_204", "src_lang": "zh", "tgt_lang": "zh", "output": "然后还可以啊还可以改善一些还可以点改善一些体态如果你是运动知识的话运动知识正确的话就是可以减少一些呃什么驼背啊那些关节的那些矫正生殖然后还可以呃Keep the weight控制我们的体重然后还可以就有些很多减肥的嘛然后他就可以Through the sport to lose weight"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_210", "src_lang": "zh", "tgt_lang": "zh", "output": "加降了哦然后就通过运动IMPROVE的对就改善回来"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_218", "src_lang": "zh", "tgt_lang": "zh", "output": "对SLOWNESS就据人们都科学研究就是它就是运动产生的那会释放一些神经滴子比如什么多巴啊什么内肺态就可以帮助我们REDUCE的PRESSURENDEXT就可以缓解焦虑啊压力啊那些就是当你感觉到压力大的时候你就可以去通过运动来减缓这些压力"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_221", "src_lang": "zh", "tgt_lang": "zh", "output": "然后如果就是假如你说是跑步嘛然后他也可以就是嗯Inprove our confidence and的就呃Exercise our self就可以锻炼我们自己因为长跑它是一个很很困难的过程嘛你可以通过它挑战自我然后增强自己的耐力然后克服困难然后磨练自己的意志力然后提高自己的自信自尊啊什么的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_228", "src_lang": "zh", "tgt_lang": "zh", "output": "然后它还可以就是改善我们的睡眠质量然后就就是如果嗯运动完过后我们就是可能会比较TIRE的然后AfterwayTakeShower然后我们就可以更快的入睡如果身体进入一个疲惫的状态的话然后提高我们的睡眠质量提高我们的睡眠质量"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_230", "src_lang": "zh", "tgt_lang": "zh", "output": "然后如果就是打篮球像这种团队团队五维五啊这种合作的话就可以提高我们的CorporationAbility of Cooperation就提高我们的团队合作能力然后"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_232", "src_lang": "zh", "tgt_lang": "zh", "output": "对打哦耶"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_233", "src_lang": "zh", "tgt_lang": "zh", "output": "也可以就是增加一些社交呃社交钱去增加一些社交的机会就比如你跟我兴趣相朝然后我们就可以一起约跑啊一起去打篮球可以增加一些社交机会结交一些Make New Friends对你Make New Friends"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_234", "src_lang": "zh", "tgt_lang": "zh", "output": "然后还有一个就是提高生活质量吧我觉得呃如你干什么事情都离不开一个健康的身体然后有了健康身体你才有革命的本钱然后只有通过sports才可以让我们变得更加Live就更加有活力然后享受更高质量的生活"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_240", "src_lang": "zh", "tgt_lang": "zh", "output": "很很多嗯嗯篮球坦波网球所有波波球内运动我基本上都会尝试然后除了球内运动过后还可以经常去游泳啊然后呃有时候会去健身房健身因为我就是比较瘦我需要增肌然后就需要去exercise然后去增强我们的肌肉力量"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_272", "src_lang": "zh", "tgt_lang": "zh", "output": "对对对那我然后我还喜欢那运动员就是刚刚说的罗布朗詹姆斯嘛因为然后我觉得他非常他在NBA已经算很大的高龄了嘛已经算老运动员但是他的状态还在一个很高的水平这离不开就是他每天的训练然后还有每天的自律"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1086_S0_273", "src_lang": "zh", "tgt_lang": "zh", "output": "就他我很少看见他一些去什么像其他NBA球员去夜店那些洒就他基本上把时间精力都投入在了训练和保养自己的身体上面他就是我看见他就每年花好多很多钱就投资自己的身体我觉得就对他就一直很专一很"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1093_S0_6", "src_lang": "zh", "tgt_lang": "zh", "output": "对对对对"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1093_S0_41", "src_lang": "zh", "tgt_lang": "zh", "output": "我不是非常喜欢DrinkBeers"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1093_S0_43", "src_lang": "zh", "tgt_lang": "zh", "output": "我就不喜欢啊"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1093_S0_65", "src_lang": "zh", "tgt_lang": "zh", "output": "然后就还直接就是Falling in the water"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1093_S0_69", "src_lang": "zh", "tgt_lang": "zh", "output": "对我也觉得那些劝酒的人非常坏就像我们七零后八零后那一代就感觉非常喜欢劝酒就是就感觉是一种餐桌的一种闹习就是你知道吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1093_S0_71", "src_lang": "zh", "tgt_lang": "zh", "output": "对对对拜The Temple of Man有意思但是像我们感觉零零后这一代应该就感觉是比较少就是感觉还是互相的RESPECTEDEACH OTHER"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1093_S0_102", "src_lang": "zh", "tgt_lang": "zh", "output": "哦对然后感觉很有意思就是"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1093_S0_132", "src_lang": "zh", "tgt_lang": "zh", "output": "音乐乐团"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1093_S0_175", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯国内的新歌的话周杰伦对了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1093_S0_177", "src_lang": "zh", "tgt_lang": "zh", "output": "周杰伦的话我感觉我是从小学就开始听他的歌嘛然后一直听到现在我最希望的就是能去看他的演唱会但是因为现在不是我们还是大学生嘛然后就没有钱就想着以后等工作了有钱了然后再去看他的演唱会"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1093_S0_185", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯嗯然后最近不是那个歌手非常的FAME"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1093_S0_191", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯然后那个艾登嗯感觉他的唱功真的是完全碾压我们国内的歌手"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1093_S0_193", "src_lang": "zh", "tgt_lang": "zh", "output": "对我也记得当时看那个秀的时候然后当那个纳英菲利普斯的孩子菲利普斯也很小然后那个艾德姆马上去哈格尔"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1093_S0_199", "src_lang": "zh", "tgt_lang": "zh", "output": "对然后就是感觉他取得了就是A LOTOFACKOMISHMENT然后还是保持一个非常HAMPLE的ATTITUDE"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1093_S0_201", "src_lang": "zh", "tgt_lang": "zh", "output": "然后我记得ONZEINTERLATER然后有人说他是球蓝衣吗还是是蓝衣就是说他地表最强男歌手"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1093_S0_223", "src_lang": "zh", "tgt_lang": "zh", "output": "辛俭啊不对我主要是没怎么关注欧美那边的我比较关注韩国对韩国KPO"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1093_S0_246", "src_lang": "zh", "tgt_lang": "zh", "output": "他们毕竟仙界旗下转一感觉是很多人的意愿忘了然后刘一飞也没结婚"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_24", "src_lang": "zh", "tgt_lang": "zh", "output": "唉所以所以你觉得就是说呃你觉得你酒量怎么样呢就跟朋友出去喝酒的时候你一般是喝啤酒啊白酒啊还是什么其他的酒"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_28", "src_lang": "zh", "tgt_lang": "zh", "output": "啊我一般喝啤酒的话可能就喝个两三瓶然后喝那个白酒的话可能呃MaybeCupleOfDrink我觉得呃就很容易壮阔啊喝这个白酒啊特别是MIX的时候真的就是呃多重酒MIX的时候真的非常的容易壮阔根本喝不住"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_40", "src_lang": "zh", "tgt_lang": "zh", "output": "你不喜欢喝酒啊你不喜欢比尔斯啊"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_42", "src_lang": "zh", "tgt_lang": "zh", "output": "你就喜欢特调的一些追英客是吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_44", "src_lang": "zh", "tgt_lang": "zh", "output": "哦那那你去的那种巴尔呢是清巴尔还是那种Lighthouse呢还是那种摇吧呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_46", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯那你喝的这些鸡尾酒都是在哪种巴尔喝的呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_52", "src_lang": "zh", "tgt_lang": "zh", "output": "呀I think you have那你真的就好习惯了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_53", "src_lang": "zh", "tgt_lang": "zh", "output": "因为你知道这个酒精酒精对这个这个我们的健康是非常的有害的 harmful的所以所以我觉得你这个习惯也特别好因为有些男生他喜欢喝酒嘛而且还是那种必须要把自己喝得那种非常壮渴的一个状态我觉得我不太喜欢这种行为"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_55", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯上次我有一个朋友他就是喝醉了然后他回他的school的时候三他不是现在还是university student嘛然后他回school的时候就直接在那个电梯里面直接就feel sleep了一个Like a baby"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_56", "src_lang": "zh", "tgt_lang": "zh", "output": "就是一个婴儿般的睡眠他睡他那个那个喝醉以后在那个电梯里被他们学校的那个保安发现了才把他从那个电梯里面把他喊醒捞出来"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_57", "src_lang": "zh", "tgt_lang": "zh", "output": "哎呀还有一次我这个朋友也很奇他喝醉喝酒喝多了以后他倒在那个地上嘛然后那个二十以为他带的了他路人以为他带的了是路人就打那个二十救护车然后那救护车就来拉他以为他死了就赶紧给他抢救结果发现他只是 just drunk"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_61", "src_lang": "zh", "tgt_lang": "zh", "output": "哦那那个啥你真的我是看到很多喝喝酒喝死的而且现在那个GOVERNMENT嘛就给了一个NEWROOM意思就是说如果SOMEBODYDEADBecause这个OVERDROWKING啊他如果喝多了因为是喝多而死的所有的这个跟他一起喝喝酒的人劝酒的人都HAVERESPONSIBILITYFORHISDAYS"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_62", "src_lang": "zh", "tgt_lang": "zh", "output": "所以我觉得这个方这个策略这个这个这个法新的法律条文是很好的因为像一些像一些就是说一些BUSINESS呃BUSINESS的DINER"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_63", "src_lang": "zh", "tgt_lang": "zh", "output": "啊特别是中国的这种BUSINESS DINNER大家都很喜欢喝酒然后你都把别人灌醉好像好像不灌醉这个这个合作就谈不下来这声音谈不下来哈所以说导致有些人就是说在这个餐桌上喝太多了结果回去有些可能就因为这个酒太喝多就带带到三带到了以后就可能就是后面那个追责肯定就要把这些之前劝酒的人给他一一并追责我觉得THEESTROOMISVERY"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_64", "src_lang": "zh", "tgt_lang": "zh", "output": "I think it's very good for就是说去减少这个这种恶意的去劝酒非要把别人劝醉的这种不好的一个文化的一个culture 我是觉得这个It's kind of culture is not good"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_72", "src_lang": "zh", "tgt_lang": "zh", "output": "对对对然后我觉得而且我就想哈你说现在的那个像茅台呀呃五粮液啊啊包括宜宾哈就是就是说现在宜宾啊什么茅台啊就是因为他们这个这个酒的销量哈包括它的溢价特别高就导致这个产产地其实是很富裕的它可以提供非常多的税收啊但是呢因为我我我就是生活在四川嘛所以我也比较了解这个宜宾的情况"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_73", "src_lang": "zh", "tgt_lang": "zh", "output": "所以我就想象以后我们这种零零后啊零一后一零后就是说呃就是进入了一个这个我这个这个就是说我们职场以后我觉得他们是非常肯定是会抗拒喝酒的也尤其是白酒因为我确实我像我都无法理解我都不知道白酒有什么好喝的哈然后包括零零后我看根本就没有人是没什么人喝白酒"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_146", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯那你觉得除了这个呃澳大利亚这个歌手哈我还我看我们两个都挺喜欢这个歌手的然后你觉得有没有就是国内的有些歌手一些呃popstar啦或者是rapstar啦你比较欣赏的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_152", "src_lang": "zh", "tgt_lang": "zh", "output": "我也是认为我是我现在就是属于什么嘛我是就是说之前还挺喜欢那个五月天的嘛没得嘛结果呢他就不是被爆出来他假唱嘛"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_153", "src_lang": "zh", "tgt_lang": "zh", "output": "对我现在就是说本我们就觉得没什么太大兴趣了就不想去花钱听一个假唱就跟那个在在那个听那个在家里面看那个电脑没啥区别是吧你就对着那个TV就放的都是唱片就觉得嗯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_157", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯而且其实我觉得他这个是呃我觉得他可以说是最Famous的呃他的Influence他这个In the World的是非常的就是横跨了这个两岸的哈包括之前他还去巴黎也开了演唱会在欧洲也看了演唱会就是到处开演唱会但现在爆出这个事情以后但我我就觉得挺是挺DISAPPOINT的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_158", "src_lang": "zh", "tgt_lang": "zh", "output": "就是说你这个天团哈你就Fame Spend但是你不拉出一个Leader这个有点这个榜样榜样的一个Leader的话有这么多的粉丝喜欢你AdmiralMADEMERISPEND但是他不做出一些表率的作用反而还投机取巧糊弄粉丝的骗粉丝的钱我就觉得很离谱"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_159", "src_lang": "zh", "tgt_lang": "zh", "output": "这个事情导致现在我都不怎么唱他的SANS了我反正挺DISAPPOINTED的而且而且我也觉得就是说像国外的一些BAND哈像我也比较喜欢一些英文的一些PUBAND哈一些英文摇滚乐队像MUSE啊还有一些这个呃The Pitts啊还有一些就是说就是那个山羊皮The Suede"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_164", "src_lang": "zh", "tgt_lang": "zh", "output": "看了的看了的我就感觉被吊打了中国SINGER被被那个那个国外的选手吊打了好惨的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_166", "src_lang": "zh", "tgt_lang": "zh", "output": "对那安安他还挺Special的而且辨识度很强我觉得他的辨识度就是你FIRST SITE一看到他以后你就完全可以INYOUMAIN的你能记住他的一个LOOK啊他的一种FELINNA他的那种状态而且我感觉他在那个TVPROGRAM里面表现也非常的NICE还挺挺挺挺懂CHINESE的人群世故的你知道吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_167", "src_lang": "zh", "tgt_lang": "zh", "output": "就他反他被宣布得得这个全全平五的时候嘛他还做出非常的SURPRISED的这个表情好像假装好像他觉得他呃觉得他这个在场的对手都很很强的好像他得第一他自己还挺SURPRISED的就好像就是走这个CHINESE的人群收购这一套还搞得比较好呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_169", "src_lang": "zh", "tgt_lang": "zh", "output": "对我觉得很搞笑而且那个辣音还去呃在那个台下还去邀请那个安伯安德去喝酒他说那来北京Drunk嘛刚才我去你Drunk然后艾德还答应了我看那个辣音就是那种酒量非常好的那种人你看这种东北的东北那种酒量很好的好喝酒流很好的那种大姐大"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_170", "src_lang": "zh", "tgt_lang": "zh", "output": "像Adam就是我感觉Adam还是比较那种细腻的那种person嘛比较Special的那种啊还挺少见的这种这种这种男生比较细腻感觉到那种他的那种Emotion啊还有他的Feeling啊包括SomeLyricsHeWrote像他们写他写的一些歌词居然都是比较细腻的那种歌词不是那种大老爷们儿的那种写的那种Lyrics"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U1094_S0_193", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯这样我觉得挺挺伟大的这些人而且嗯挺有社会责任感的然后我想而且我还挺喜欢国外的一个歌手艾黛尔的然后我她不是拒瘦了嘛她不是离婚以后瘦了二十斤嘛我感觉我瘦了不止二十斤了瘦了很多斤我觉得她就变了个人就是那个唱哈的那个"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_96", "src_lang": "zh", "tgt_lang": "zh", "output": "哇你都二十一了我我我还是十八呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_100", "src_lang": "zh", "tgt_lang": "zh", "output": "因为我是提早上College的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_102", "src_lang": "zh", "tgt_lang": "zh", "output": "我现在在岭南诺蒙大学"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_108", "src_lang": "zh", "tgt_lang": "zh", "output": "这个College的绿化环境很好 有很多STOM在里面"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_110", "src_lang": "zh", "tgt_lang": "zh", "output": "你你想想你Imagine一下这么多洞和树和花花草草在一起它会形成一个非常漂亮的呃景色赏心悦目"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_112", "src_lang": "zh", "tgt_lang": "zh", "output": "你呢你在哪个university或者college啊"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_116", "src_lang": "zh", "tgt_lang": "zh", "output": "哇那可太good了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_118", "src_lang": "zh", "tgt_lang": "zh", "output": "我觉得我们学校的TECHER都挺耐心的但是上课有点不是不不他他们的备课吧有一些老师呢就很认真有一些老课呢有一些老师呢就啊不是很负责任你觉得呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_120", "src_lang": "zh", "tgt_lang": "zh", "output": "确实这是这是一个令人心破的现状"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_122", "src_lang": "zh", "tgt_lang": "zh", "output": "在你毕业之后你有什么Job想去做吗"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_124", "src_lang": "zh", "tgt_lang": "zh", "output": "那你想做什么样的踢犬呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_126", "src_lang": "zh", "tgt_lang": "zh", "output": "你想你想做一个严格的STRETT一点的还是做一个像你的CollegeTITCHER一样CASUAL一点的呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_128", "src_lang": "zh", "tgt_lang": "zh", "output": "就是更kind friendly一点是吗哦"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_130", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯你以后一定是一个受人爱戴的T犬"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_132", "src_lang": "zh", "tgt_lang": "zh", "output": "在我毕业之后我想去做一名翻译啊翻译啊翻译员YEAH"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_134", "src_lang": "zh", "tgt_lang": "zh", "output": "因为我想帮助我想帮助一些会议上的人员做翻译"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_136", "src_lang": "zh", "tgt_lang": "zh", "output": "这个的BENEFIT吧一方面是可以让我的口语得到一些TREINING第二方面啊第二方面呢是"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_138", "src_lang": "zh", "tgt_lang": "zh", "output": "因为因为我是将英文Translate成中文或者将中文Translate成英语在这个过程中"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_139", "src_lang": "zh", "tgt_lang": "zh", "output": "我可以认识到一些一些外国友人就是讲英语的很可能就是一些Foreigners我可以去认识他们"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_254", "src_lang": "zh", "tgt_lang": "zh", "output": "好相相当于Half Day了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_256", "src_lang": "zh", "tgt_lang": "zh", "output": "是呀我同意你的意见电视呃电影的制作水平确实要比肥皂剧要高一点"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_258", "src_lang": "zh", "tgt_lang": "zh", "output": "目前来说我觉得美国的电影是制作水平最高的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_262", "src_lang": "zh", "tgt_lang": "zh", "output": "我自己的Opinion这不代表就是FAT可因为因为中国的MOVIE水平我也不是非常清楚美国的我也只是了解到ALITTLE所以我的观点是可能参考性不是那么的大吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_264", "src_lang": "zh", "tgt_lang": "zh", "output": "我的拼演基于我所看过的Movie Films"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_266", "src_lang": "zh", "tgt_lang": "zh", "output": "因为我看我很喜欢看MOVIE我看过非常多的MOVIE有有科幻的有叙事的有动作的有讲LOVE STORY的各种各类OLKINES OF MOVIE都有"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_268", "src_lang": "zh", "tgt_lang": "zh", "output": "呃我觉得主要有主要有两个ASPECT第一个ASPECT在剧情的编排上"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_270", "src_lang": "zh", "tgt_lang": "zh", "output": "呃我以前看的电影呢我觉得中国以前的MOVIE的剧情有一些过于平淡过于过于可以被人EXPECTED"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_272", "src_lang": "zh", "tgt_lang": "zh", "output": "在情节这方面 中国的MOVIE 以前确实没有工业强国美国做得好"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_274", "src_lang": "zh", "tgt_lang": "zh", "output": "成熟一点嗯我觉得是有这我觉得这是一部分原因因为美国电影院电影业发展得很早他们的啊MOVIEINDUSTRY已经成熟了而且已经成就是"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_276", "src_lang": "zh", "tgt_lang": "zh", "output": "就是是批量化生产可以高效快速地生产出很多同类型的MOVIE"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_278", "src_lang": "zh", "tgt_lang": "zh", "output": "这个情况下这个情况下美国去制造一部电影所花费的成本就会比中国要低"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_280", "src_lang": "zh", "tgt_lang": "zh", "output": "另一个S白是我认为是在特效的制作上"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_282", "src_lang": "zh", "tgt_lang": "zh", "output": "特效呃不知道你记不记得有一些中国的MOVIE的特效会让人"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_286", "src_lang": "zh", "tgt_lang": "zh", "output": "对对这个就是形容啊特效的Level不是不是非常的高水准"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_287", "src_lang": "zh", "tgt_lang": "zh", "output": "但是近年来中国的Movie已经进步了很多"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2001_S0_289", "src_lang": "zh", "tgt_lang": "zh", "output": "是不是讲有一只袋鼠在是不是讲有一只坎格鲁在梦上面行走的那个电影啊"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2002_S0_87", "src_lang": "zh", "tgt_lang": "zh", "output": "我今年天天忘了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2002_S0_91", "src_lang": "zh", "tgt_lang": "zh", "output": "你才Eighteen啊那你那你比我的妹妹还要小呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2002_S0_93", "src_lang": "zh", "tgt_lang": "zh", "output": "这样子啊那你现在在哪一个学院啊"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2002_S0_95", "src_lang": "zh", "tgt_lang": "zh", "output": "岭南诺摩大学哦我听过这个College那你觉得这个College怎么样呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2002_S0_97", "src_lang": "zh", "tgt_lang": "zh", "output": "哦很多Stones可是Stones跟绿化好像不太沾边吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2002_S0_99", "src_lang": "zh", "tgt_lang": "zh", "output": "哦确实我看到他那里的Natural Environment确实还挺不错的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2002_S0_103", "src_lang": "zh", "tgt_lang": "zh", "output": "对啦我也在岭南诺马尔大学"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2002_S0_105", "src_lang": "zh", "tgt_lang": "zh", "output": "还行吧可能也只是因为我的CollegeEntrance考得没那么好所以我才来了这里"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2002_S0_107", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯那你觉得我们学校的TECH是怎么样啊"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2002_S0_111", "src_lang": "zh", "tgt_lang": "zh", "output": "不是嗯我也觉得我们学校的老师的levels层次不齐的有一些老师确实就很patient他们会很耐心地回答每一个老每一个学生的问题但是有一些是老师呢就嗯"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2002_S0_112", "src_lang": "zh", "tgt_lang": "zh", "output": "很Casual他随便的上台读PPT然后就下课了所以我有时候觉得非常的BORING"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2002_S0_114", "src_lang": "zh", "tgt_lang": "zh", "output": "是啊所以我现在想快点快点的Graduates那我觉得可以非常开心的leave这里了"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2002_S0_118", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯什么样的T犬呢我想一想"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2002_S0_120", "src_lang": "zh", "tgt_lang": "zh", "output": "我想的是在学生里面的形象是比较Casual比较亲和一点的但是我指的Casual不是说上课不负责任随便读PTT而是说亲和力"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2002_S0_122", "src_lang": "zh", "tgt_lang": "zh", "output": "对亲和力比更好一点但是我希望在学业上对他们的要求是STRICK的"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2002_S0_126", "src_lang": "zh", "tgt_lang": "zh", "output": "翻译哦为什么你想做一个翻译"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2002_S0_259", "src_lang": "zh", "tgt_lang": "zh", "output": "对的而且呢这些连续剧它的制作的levels都是层次不齐的然后电影来说的话相对连续剧来说它的levels就普遍哈一点"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2002_S0_261", "src_lang": "zh", "tgt_lang": "zh", "output": "对的嗯那你觉得哪一个country的MOVIE制作水平最高呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2002_S0_267", "src_lang": "zh", "tgt_lang": "zh", "output": "那你的评分是什么呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2002_S0_269", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯那你看了这么多木MOVIE那你觉得美国美国MOVIE比CHINAISMOVIE的Level高高在哪儿呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2002_S0_271", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯啊是不是因为他们美国的经济发展得比较早一点所以他们的电影产业电影产业就发展得快一点点呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2002_S0_275", "src_lang": "zh", "tgt_lang": "zh", "output": "嗯I thinkso我非常认可你的Appearance那你觉得另一个Aspect是什么呢"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2002_S0_279", "src_lang": "zh", "tgt_lang": "zh", "output": "YES我听过那个JOKEN五毛钱特效是吧"}
+{"dataset_id": "cs-dialogue", "sample_id": "ZH-CN_U2002_S0_285", "src_lang": "zh", "tgt_lang": "zh", "output": "呃在月亮上行走那一部电影我忘记是什么了但是他嗯确实是一部非常好的MOVIE"}

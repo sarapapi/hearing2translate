@@ -1,0 +1,416 @@
+{"dataset_id": "acl_6060", "sample_id": 0, "src_lang": "en", "tgt_lang": "pt", "output": "Olá todos. Hoje vou apresentar o nosso trabalho de pesquisação,pren a racionar detaivamente a soluolução de problemas matemática matemática como expressão de raão complexa."}
+{"dataset_id": "acl_6060", "sample_id": 1, "src_lang": "en", "tgt_lang": "pt", "output": "Sou aluno do Airden, e este é um trabalho conjunto com Jerryry da Universidade de Texas em Austin e Waidu da SUDD."}
+{"dataset_id": "acl_6060", "sample_id": 2, "src_lang": "en", "tgt_lang": "pt", "output": "Primeiro, gostaria de falar sobre da nossa motivação para razcioar."}
+{"dataset_id": "acl_6060", "sample_id": 3, "src_lang": "en", "tgt_lang": "pt", "output": "Aqui mostrarremos exemplos em onde razcioamento de é útil."}
+{"dataset_id": "acl_6060", "sample_id": 4, "src_lang": "en", "tgt_lang": "pt", "output": "Esta figura é tirada do papel Palm, onde realizam pros para resolver o problema de métodoático num cenário de aprendizagem."}
+{"dataset_id": "acl_6060", "sample_id": 5, "src_lang": "en", "tgt_lang": "pt", "output": "do ladoquerquer, podemos ver que se damosmos algumas amostras com apenas e respostas, podemos não capazmos obter as boas respostas."}
+{"dataset_id": "acl_6060", "sample_id": 6, "src_lang": "en", "tgt_lang": "pt", "output": "Mas se darmos mais descrição de racionio, o modelo é capaz de prever a descriçãoção de razcional e também fazer uma previsão correta aqui."}
+{"dataset_id": "acl_6060", "sample_id": 7, "src_lang": "en", "tgt_lang": "pt", "output": "Port, é bom ter razcioamento múl passos como output."}
+{"dataset_id": "acl_6060", "sample_id": 8, "src_lang": "en", "tgt_lang": "pt", "output": "Também pensamos que o problema Ma é uma aplicação simples para avaliar dessas capacidades de racioamento."}
+{"dataset_id": "acl_6060", "sample_id": 9, "src_lang": "en", "tgt_lang": "pt", "output": "A no nosso programa de problema, dado as perguntas, precisamos de resolver esta pergunta e obter as respostas numéétricas."}
+{"dataset_id": "acl_6060", "sample_id": 10, "src_lang": "en", "tgt_lang": "pt", "output": "No nossos conjuntos de dados, também damos a expressão matemática que leva a esta resposta particular."}
+{"dataset_id": "acl_6060", "sample_id": 11, "src_lang": "en", "tgt_lang": "pt", "output": "certas suposições também aplicam como no trabalho anteriores."}
+{"dataset_id": "acl_6060", "sample_id": 12, "src_lang": "en", "tgt_lang": "pt", "output": "Assumimos que a precisão das quantidades é descon."}
+{"dataset_id": "acl_6060", "sample_id": 13, "src_lang": "en", "tgt_lang": "pt", "output": "Só consideramos operadores básicos como adição, subtrações, multiplicação, divisão e exponencial."}
+{"dataset_id": "acl_6060", "sample_id": 14, "src_lang": "en", "tgt_lang": "pt", "output": "Alé disso, operadores complicadodos podem descomporados nestes operadores básicos."}
+{"dataset_id": "acl_6060", "sample_id": 15, "src_lang": "en", "tgt_lang": "pt", "output": "O trabalho anterior naolução de problemas met pode categorizar em modelo de sequência a sequência e modelo de sequência a árvore."}
+{"dataset_id": "acl_6060", "sample_id": 16, "src_lang": "en", "tgt_lang": "pt", "output": "o modelo tradicional de sequência a sequência converte a expressão numa sequência específica para geração."}
+{"dataset_id": "acl_6060", "sample_id": 17, "src_lang": "en", "tgt_lang": "pt", "output": "É bastante fácil de implementar e pode generalizar a muitos problemas complicados."}
+{"dataset_id": "acl_6060", "sample_id": 18, "src_lang": "en", "tgt_lang": "pt", "output": "Mas a des do desempenho é geralmente não é melhor do que o modelo de estrutura, e é falta de interpretbilidade para proteção."}
+{"dataset_id": "acl_6060", "sample_id": 19, "src_lang": "en", "tgt_lang": "pt", "output": "Mas na verdade esta direção ainda é bastante popular por causa do modelo transformador."}
+{"dataset_id": "acl_6060", "sample_id": 20, "src_lang": "en", "tgt_lang": "pt", "output": "No modelos baseados de árvores, estruturamos estas expressões numa forma de árvovorre e seguimos um transo pré-ordem em três gerações."}
+{"dataset_id": "acl_6060", "sample_id": 21, "src_lang": "en", "tgt_lang": "pt", "output": "Port continuamos a gerar os operadores até quecanmos as fofolhas que são as quantidades."}
+{"dataset_id": "acl_6060", "sample_id": 22, "src_lang": "en", "tgt_lang": "pt", "output": "Port, o boa é que nos dános esta estrutura de árvoes binária, mas na verdade é bastante contraintividad, porque geramos o operador e depois no fim, geramos as quantidades."}
+{"dataset_id": "acl_6060", "sample_id": 23, "src_lang": "en", "tgt_lang": "pt", "output": "A segunda coisa é que também contém algumas computações repetitivas."}
+{"dataset_id": "acl_6060", "sample_id": 24, "src_lang": "en", "tgt_lang": "pt", "output": "se olharmos para esta expressão, oito vezes três + três é gerada duas vezes. Mas de fact, deveamos reutilizar os resultados."}
+{"dataset_id": "acl_6060", "sample_id": 25, "src_lang": "en", "tgt_lang": "pt", "output": "Na nossa abordagem propostada, queremos resolver esses problemas de maneira a passo e interpretáveis."}
+{"dataset_id": "acl_6060", "sample_id": 26, "src_lang": "en", "tgt_lang": "pt", "output": "Por exemplo, aqui na segunda fase, podemos obter estes divisors, que são 27"}
+{"dataset_id": "acl_6060", "sample_id": 27, "src_lang": "en", "tgt_lang": "pt", "output": "Também podemos refer à perguntas originis para encontrar os conteúdos relevantes."}
+{"dataset_id": "acl_6060", "sample_id": 28, "src_lang": "en", "tgt_lang": "pt", "output": "Nestes passos, obobtenmos os a dispositivos."}
+{"dataset_id": "acl_6060", "sample_id": 29, "src_lang": "en", "tgt_lang": "pt", "output": ", neste terceiro passo, obtemos o quoção."}
+{"dataset_id": "acl_6060", "sample_id": 30, "src_lang": "en", "tgt_lang": "pt", "output": "Depois dess três passos, podemos reutilizar os resultados do segundo passo e depois obter os resultados do quarto passo, e, finalmente, podemos obter os dividendos."}
+{"dataset_id": "acl_6060", "sample_id": 31, "src_lang": "en", "tgt_lang": "pt", "output": "Portqui geramos a expressão diretamente em vez de gerar operadores ou quantidades."}
+{"dataset_id": "acl_6060", "sample_id": 32, "src_lang": "en", "tgt_lang": "pt", "output": "Ito torna o processo mais precisocis."}
+{"dataset_id": "acl_6060", "sample_id": 33, "src_lang": "en", "tgt_lang": "pt", "output": "No nosso sistema detativo, começamos com um conjunto de quantidades apresentadas nas questões e também incluindo algumas constantes como o nosso estado inicial."}
+{"dataset_id": "acl_6060", "sample_id": 34, "src_lang": "en", "tgt_lang": "pt", "output": "a expressão é representada por EIJOP."}
+{"dataset_id": "acl_6060", "sample_id": 35, "src_lang": "en", "tgt_lang": "pt", "output": "On executamos operadores de Q para Qj, e esta expressão é dirigida."}
+{"dataset_id": "acl_6060", "sample_id": 36, "src_lang": "en", "tgt_lang": "pt", "output": "També também temos de subtração aqui para representar a direção oposta."}
+{"dataset_id": "acl_6060", "sample_id": 37, "src_lang": "en", "tgt_lang": "pt", "output": "I é bastante semelhante à extração de relações."}
+{"dataset_id": "acl_6060", "sample_id": 38, "src_lang": "en", "tgt_lang": "pt", "output": ", num sistema dataativo formal, no passo t, aplicamos o operador entre a pare q e q j, e depois obobtenmos estas novas expressões."}
+{"dataset_id": "acl_6060", "sample_id": 39, "src_lang": "en", "tgt_lang": "pt", "output": "Addiciámos as fases seguintes para tornarse numa nova quantidade."}
+{"dataset_id": "acl_6060", "sample_id": 40, "src_lang": "en", "tgt_lang": "pt", "output": "Estas diapositiva visualiza a evolução dos estados em que continuamos a adicionacentr expressão aos estado atual."}
+{"dataset_id": "acl_6060", "sample_id": 41, "src_lang": "en", "tgt_lang": "pt", "output": "Nas nossas implementações de modelo, primeiro usamos um modelo pré-traininação que pode ser avesssa ous de rob, e depois codificamos a frase e depois obobtenmos estas representações de quantidades."}
+{"dataset_id": "acl_6060", "sample_id": 42, "src_lang": "en", "tgt_lang": "pt", "output": "Um obmos as representações de quantidades, podemos começar a fazer infraões."}
+{"dataset_id": "acl_6060", "sample_id": 43, "src_lang": "en", "tgt_lang": "pt", "output": "Aqui mostra-vos um exemplo de Q1 para obter a representação de Q 1 dividido por Q2 e depois vezes Q."}
+{"dataset_id": "acl_6060", "sample_id": 44, "src_lang": "en", "tgt_lang": "pt", "output": "Primeiro, obmos a representação de pares, que é basicamente a concatenação entre Q1 e Q dois, e depois aplicamos uma rede que é parametizada pelo operador."}
+{"dataset_id": "acl_6060", "sample_id": 45, "src_lang": "en", "tgt_lang": "pt", "output": "E Final, obobtenmos a representação da expressão Q1 dividida por Q."}
+{"dataset_id": "acl_6060", "sample_id": 46, "src_lang": "en", "tgt_lang": "pt", "output": "Mas em na prática, na fase de inferência, também podemos capaz obter a expressão incorrect."}
+{"dataset_id": "acl_6060", "sample_id": 47, "src_lang": "en", "tgt_lang": "pt", "output": "Port aqui, todas asíveis expressões posíveis são iguales a três vezes o número de operadores."}
+{"dataset_id": "acl_6060", "sample_id": 48, "src_lang": "en", "tgt_lang": "pt", "output": "O boa aqui é que podemos facil adicionar restrições para controlar velocidad de pesquisa."}
+{"dataset_id": "acl_6060", "sample_id": 49, "src_lang": "en", "tgt_lang": "pt", "output": "Por exemplo, se esta expressão não é permitido, podemos simplesmente remover esta expressão no nosso espaço de pesquisa."}
+{"dataset_id": "acl_6060", "sample_id": 50, "src_lang": "en", "tgt_lang": "pt", "output": "No segundo passo, fazemos a mesma coisa, mas a única diferença é que a única diferença é uma quantidades."}
+{"dataset_id": "acl_6060", "sample_id": 51, "src_lang": "en", "tgt_lang": "pt", "output": "Esta quantidade prové da expressão calculada."}
+{"dataset_id": "acl_6060", "sample_id": 52, "src_lang": "en", "tgt_lang": "pt", "output": "Por Final, podemos aplicarr estaão expressão final Q3."}
+{"dataset_id": "acl_6060", "sample_id": 53, "src_lang": "en", "tgt_lang": "pt", "output": "E também podemos ver que o número de todas as expressões pos é diferentes do passo anterior."}
+{"dataset_id": "acl_6060", "sample_id": 54, "src_lang": "en", "tgt_lang": "pt", "output": "Essas diferenças fazem difíce aplicar a pesquisa de ra porque a distribuição de probabilidade entre estes dois passos é desequilibrbriada."}
+{"dataset_id": "acl_6060", "sample_id": 55, "src_lang": "en", "tgt_lang": "pt", "output": ", proced de treinino é semelhante a treino um modelo de sequência asequência, em que otimizamos as perda a cada passo de tempo."}
+{"dataset_id": "acl_6060", "sample_id": 56, "src_lang": "en", "tgt_lang": "pt", "output": "Equi também usamos este tau para representar quando devemos terminar este processo de geração."}
+{"dataset_id": "acl_6060", "sample_id": 57, "src_lang": "en", "tgt_lang": "pt", "output": "E aqui o espaço é diferente de sequência a sequência, porque o espaço é diferente em cada vezes, enquanto no modelo tradicional de sequência asequência, é o número de vocabulário."}
+{"dataset_id": "acl_6060", "sample_id": 58, "src_lang": "en", "tgt_lang": "pt", "output": "També também nos permite imporr certas restrições do conhecimento."}
+{"dataset_id": "acl_6060", "sample_id": 59, "src_lang": "en", "tgt_lang": "pt", "output": "Então fizmos experiências nos conjuntos de de métodode, MWps, meth three k, MathQA e Swam."}
+{"dataset_id": "acl_6060", "sample_id": 60, "src_lang": "en", "tgt_lang": "pt", "output": "Equi mostramos brevemente os resultados comparados com as melhores abordagens."}
+{"dataset_id": "acl_6060", "sample_id": 61, "src_lang": "en", "tgt_lang": "pt", "output": "A nossa melhor deemp é a Roberta detaativaa."}
+{"dataset_id": "acl_6060", "sample_id": 62, "src_lang": "en", "tgt_lang": "pt", "output": "De fact, não usamos a pesquisa em contraste abordagens obvias usando a pesquisa."}
+{"dataset_id": "acl_6060", "sample_id": 63, "src_lang": "en", "tgt_lang": "pt", "output": "Ok as melhores abordagens são muitas um modelo base de árvores."}
+{"dataset_id": "acl_6060", "sample_id": 64, "src_lang": "en", "tgt_lang": "pt", "output": "geral, o nosso razciondor é capaz de superar significativamente este modelo base de árvores."}
+{"dataset_id": "acl_6060", "sample_id": 65, "src_lang": "en", "tgt_lang": "pt", "output": "Mas podemos ver que o número absoluto na MathQA ou Swam não são muito altos."}
+{"dataset_id": "acl_6060", "sample_id": 66, "src_lang": "en", "tgt_lang": "pt", "output": "preferem investigar os resultados."}
+{"dataset_id": "acl_6060", "sample_id": 67, "src_lang": "en", "tgt_lang": "pt", "output": "Este conjunto de dados é desafioante porque o autor tentou adicionar coisa para confunder o modelo NAB, como adicionacentr informações de avalia e quantidades extras."}
+{"dataset_id": "acl_6060", "sample_id": 68, "src_lang": "en", "tgt_lang": "pt", "output": "na nossa proteção, encontramos que alguns dos valores intermediário são negativos."}
+{"dataset_id": "acl_6060", "sample_id": 69, "src_lang": "en", "tgt_lang": "pt", "output": "Por exemplo, nestas perguntas, estamos a perguntar:Qutas maçãhas tem Jake?"}
+{"dataset_id": "acl_6060", "sample_id": 70, "src_lang": "en", "tgt_lang": "pt", "output": "Mas temos algumas informações extra, como 17te imagens, e Steven tem oito imagens, o que é totalmente relevante."}
+{"dataset_id": "acl_6060", "sample_id": 71, "src_lang": "en", "tgt_lang": "pt", "output": "O nosso modelo faz algumas previsões como esta, que é produzir valores negativos."}
+{"dataset_id": "acl_6060", "sample_id": 72, "src_lang": "en", "tgt_lang": "pt", "output": "Observámos estas duas expressões."}
+{"dataset_id": "acl_6060", "sample_id": 73, "src_lang": "en", "tgt_lang": "pt", "output": "Port podemos limitar este espaço de pesquisa removendo esses resultados são negativos, para podermos fazer a resposta correta."}
+{"dataset_id": "acl_6060", "sample_id": 74, "src_lang": "en", "tgt_lang": "pt", "output": "Por descobrimos que estass restções melhoram muito para alguns modelos."}
+{"dataset_id": "acl_6060", "sample_id": 75, "src_lang": "en", "tgt_lang": "pt", "output": "Por exemplo, para pássaros, melhorámos sete pontos, e depois para o modelo base em Roba, melhoráamos dois pontos."}
+{"dataset_id": "acl_6060", "sample_id": 76, "src_lang": "en", "tgt_lang": "pt", "output": "Um melhor modelo de linguagem tem melhores capacidade deensão, de que o número aqui é mais maior para os robôter e baixo para as avesros."}
+{"dataset_id": "acl_6060", "sample_id": 77, "src_lang": "en", "tgt_lang": "pt", "output": "Também tentamos analisar as dificuldade detrás destas BPP."}
+{"dataset_id": "acl_6060", "sample_id": 78, "src_lang": "en", "tgt_lang": "pt", "output": "Assumimos que o número de quantidades nãoutilada pode ser considerda como informação relevante aqui."}
+{"dataset_id": "acl_6060", "sample_id": 79, "src_lang": "en", "tgt_lang": "pt", "output": "Portqui podemos ver que temos a percentagem de amostras que não, e o conjunto de dados SwaMP tem a maior porção maior."}
+{"dataset_id": "acl_6060", "sample_id": 80, "src_lang": "en", "tgt_lang": "pt", "output": "E aqui também mostra o desempenho geral."}
+{"dataset_id": "acl_6060", "sample_id": 81, "src_lang": "en", "tgt_lang": "pt", "output": "Para essas amostras sem quantidades inutiladas, o desempenho total é maior do que o desempenho é maior do que o desempenho total."}
+{"dataset_id": "acl_6060", "sample_id": 82, "src_lang": "en", "tgt_lang": "pt", "output": "Mas com essas amostras com uma quantidade inutiladas, é muito pior do que muito pior do que."}
+{"dataset_id": "acl_6060", "sample_id": 83, "src_lang": "en", "tgt_lang": "pt", "output": "emp Para a MWPS, não temos demasiado casos de, por isso ignoro esta parte."}
+{"dataset_id": "acl_6060", "sample_id": 84, "src_lang": "en", "tgt_lang": "pt", "output": "Finalmente, queremos mostrar a interpretbilidade através de um exemplo de e."}
+{"dataset_id": "acl_6060", "sample_id": 85, "src_lang": "en", "tgt_lang": "pt", "output": "o nosso modelo faz uma previsão errada no primeiro passo."}
+{"dataset_id": "acl_6060", "sample_id": 86, "src_lang": "en", "tgt_lang": "pt", "output": "Port podemos correlalar esta expressão com a frase aqui,?"}
+{"dataset_id": "acl_6060", "sample_id": 87, "src_lang": "en", "tgt_lang": "pt", "output": "Pensamos que esta frase pode estar err o modelo a uma previsão erda."}
+{"dataset_id": "acl_6060", "sample_id": 88, "src_lang": "en", "tgt_lang": "pt", "output": "Port aqui,  impressir outros 35nta cinco faz que o modelo faça que o modelo pense que devia ser um operador de adição."}
+{"dataset_id": "acl_6060", "sample_id": 89, "src_lang": "en", "tgt_lang": "pt", "output": "tentamos revisar a frase para ser como o número de árvores são cinco menor do que as árvores de maçã."}
+{"dataset_id": "acl_6060", "sample_id": 90, "src_lang": "en", "tgt_lang": "pt", "output": "Por fazemos-lo para transmit uma semântica mais precisa, tal que o modelo capaz fazer a previsão corre."}
+{"dataset_id": "acl_6060", "sample_id": 91, "src_lang": "en", "tgt_lang": "pt", "output": "Este estudo mostra como as prejeções interpretáveis ajudam a compre o comportamento do modelo."}
+{"dataset_id": "acl_6060", "sample_id": 92, "src_lang": "en", "tgt_lang": "pt", "output": "Para concluir o nosso trabalho, primeiro, o nosso modelo é bastante eficiente."}
+{"dataset_id": "acl_6060", "sample_id": 93, "src_lang": "en", "tgt_lang": "pt", "output": "E capazes de forr um procedimento de soluçãoção interpretável."}
+{"dataset_id": "acl_6060", "sample_id": 94, "src_lang": "en", "tgt_lang": "pt", "output": "Podemos facilmente incorporar alguns conhecimento prior como restringção, o que pode ajudar a melhorar o desempenho."}
+{"dataset_id": "acl_6060", "sample_id": 95, "src_lang": "en", "tgt_lang": "pt", "output": "A última coisa é que o mecanismo subjacente não aplica para tarefas de resolução de problemas mapa, mas também para outras tarefas que envolvem racioamento demúl passos."}
+{"dataset_id": "acl_6060", "sample_id": 96, "src_lang": "en", "tgt_lang": "pt", "output": "Mas também temos certas limitações."}
+{"dataset_id": "acl_6060", "sample_id": 97, "src_lang": "en", "tgt_lang": "pt", "output": "Se tivermos um grande número de operadores ou constantes ou constantes, o consumo da memória poderia ser bastante alto."}
+{"dataset_id": "acl_6060", "sample_id": 98, "src_lang": "en", "tgt_lang": "pt", "output": "A segunda coisa é que, como referdo, porque a distribuição de probabilidade é um equilíbrio em diferentes passos de tempo. por isso também é bastante difícil aplicar pesquisas de ra."}
+{"dataset_id": "acl_6060", "sample_id": 99, "src_lang": "en", "tgt_lang": "pt", "output": "Este é o fim da palestra, e as perguntas são bemvindas. Obrigada."}
+{"dataset_id": "acl_6060", "sample_id": 100, "src_lang": "en", "tgt_lang": "pt", "output": "Olá, meu nomemo-me Antoine e sou da Universidade Mastricht."}
+{"dataset_id": "acl_6060", "sample_id": 101, "src_lang": "en", "tgt_lang": "pt", "output": "Vou apresenta o meu trabalho de John com Jerry, que tracta sobre um novo conjunto de dados para recuperação de artigos estattiva."}
+{"dataset_id": "acl_6060", "sample_id": 102, "src_lang": "en", "tgt_lang": "pt", "output": "As questões juais são uma parte integral de vida de molts gente."}
+{"dataset_id": "acl_6060", "sample_id": 103, "src_lang": "en", "tgt_lang": "pt", "output": "Mas a maioria dos cidadãos não têm pouco ou conhecimento sobre os seus direitos e processos juais fundamentis."}
+{"dataset_id": "acl_6060", "sample_id": 104, "src_lang": "en", "tgt_lang": "pt", "output": "Comoqu, muitos cidadãos vulneráveis que não podem pagar a assist custo de um especialista jurídica deixam semprotedos ou pi exploraados."}
+{"dataset_id": "acl_6060", "sample_id": 105, "src_lang": "en", "tgt_lang": "pt", "output": "Todo o trabalho objetivo pontar a fosso entre pessoas e a lei desenvolvendo um sistema de retiração eficaz para artigos estattivos."}
+{"dataset_id": "acl_6060", "sample_id": 106, "src_lang": "en", "tgt_lang": "pt", "output": "Este sistema podia forr um serviço legal profissional para humanospes."}
+{"dataset_id": "acl_6060", "sample_id": 107, "src_lang": "en", "tgt_lang": "pt", "output": "Antes de infundr a contribuição principal deste trabalho, vamos descrever o problema da recuperação dos artigos estat."}
+{"dataset_id": "acl_6060", "sample_id": 108, "src_lang": "en", "tgt_lang": "pt", "output": "Da uma simples sobre assunto leais, como: \"O que é que eu arrico se violao a confidencialidade profissional?"}
+{"dataset_id": "acl_6060", "sample_id": 109, "src_lang": "en", "tgt_lang": "pt", "output": "Se requer um model per recuperar todosts os artigos estattivos relevantes de uma grande grupo de legislação."}
+{"dataset_id": "acl_6060", "sample_id": 110, "src_lang": "en", "tgt_lang": "pt", "output": "Esta tarefa de recuperação de informação tem o seu próprio conjunto de desafios."}
+{"dataset_id": "acl_6060", "sample_id": 111, "src_lang": "en", "tgt_lang": "pt", "output": "Primeiro, trata com dois tipos de língua."}
+{"dataset_id": "acl_6060", "sample_id": 112, "src_lang": "en", "tgt_lang": "pt", "output": "natural comum para as questõess e uma ilegal complexa para os estats."}
+{"dataset_id": "acl_6060", "sample_id": 113, "src_lang": "en", "tgt_lang": "pt", "output": "Esta diferença nas distribuições de linguagem torna mais difícil para um sistema receber candidatos relevantes, porque requer indiretamente um sistema de interpretação inerente que possa traduzir uma pergunta natural a uma pergunta legal que correspond a terminologia dos estats."}
+{"dataset_id": "acl_6060", "sample_id": 114, "src_lang": "en", "tgt_lang": "pt", "output": "Além disso, a lei legislativa não é um pilha de artigos independentes que pode ser tratado como uma fonte completa de informação por, tal como notícias ou receitas, por exemplo."}
+{"dataset_id": "acl_6060", "sample_id": 115, "src_lang": "en", "tgt_lang": "pt", "output": "Em vez disso, é uma coleção estrutura de fornes ju que têm um significado apenas quando consideraados no contexto geral, ou seja, juntamente com as informações complementars dos seus artigos vizinhos, dos campos e sub campos que pertencem e o seu lugar na estrutura da lei."}
+{"dataset_id": "acl_6060", "sample_id": 116, "src_lang": "en", "tgt_lang": "pt", "output": "Finalmente, os artigos estattivos estão em pequeno  parágrafo, o que normalmentemente é a unidade típica de recuperação tí na maior das obras dere."}
+{"dataset_id": "acl_6060", "sample_id": 117, "src_lang": "en", "tgt_lang": "pt", "output": "Aqui há documentos longos que podem serr até a seis meses."}
+{"dataset_id": "acl_6060", "sample_id": 118, "src_lang": "en", "tgt_lang": "pt", "output": "Os recentes avanços recent na NLP inspiraram um enorme interesse em muitas tarefas jurídicas, como a previsão de julgamento jurídica ou revis de contratoe contract."}
+{"dataset_id": "acl_6060", "sample_id": 119, "src_lang": "en", "tgt_lang": "pt", "output": "Mas areção dos artigos estat tem mando principalmente em contacto devido à falta de conjuntos de etiqueados de alta qualidade."}
+{"dataset_id": "acl_6060", "sample_id": 120, "src_lang": "en", "tgt_lang": "pt", "output": "Neste trabalho, apresentamos um novo conjunto de dados nativos centracidadãosêsa para estudar se o modelo de retiração pode aproximar a eficiácia e confibilidade de um especialista ju para a tarefa de retiração de artigos estat."}
+{"dataset_id": "acl_6060", "sample_id": 121, "src_lang": "en", "tgt_lang": "pt", "output": "Ou conjunto consistem de mais de 1100 lis."}
+{"dataset_id": "acl_6060", "sample_id": 122, "src_lang": "en", "tgt_lang": "pt", "output": "Estas questõess cobm uma grande variedade de tópicos, desde família, habitação, dinheiro para o trabalho e à segurança social."}
+{"dataset_id": "acl_6060", "sample_id": 123, "src_lang": "en", "tgt_lang": "pt", "output": "Cada um delas foi etiqueados por juristas experiência com referências a artigos relevantes de um grupo de mais de 22600 anos."}
+{"dataset_id": "acl_6060", "sample_id": 124, "src_lang": "en", "tgt_lang": "pt", "output": "Vamos falar de como recolmos estes conjunto de dados."}
+{"dataset_id": "acl_6060", "sample_id": 125, "src_lang": "en", "tgt_lang": "pt", "output": "Primeiro, começámos por compilar um grande corpus de articless de Leal."}
+{"dataset_id": "acl_6060", "sample_id": 126, "src_lang": "en", "tgt_lang": "pt", "output": "Considerámos 32 códigos belguescos disponíveis e extraímos todos os seus artigos assim como as ss de secção correspondentes."}
+{"dataset_id": "acl_6060", "sample_id": 127, "src_lang": "en", "tgt_lang": "pt", "output": "Depois, reuniámos questões jurídicas com referências aos estats relevantes."}
+{"dataset_id": "acl_6060", "sample_id": 128, "src_lang": "en", "tgt_lang": "pt", "output": "Para fazer isso, parcemos com uma empresa de ad belgica que recebe todos os ano cerca de quatro mil- emails de cidadãos belguescos que pedirem conselho sobre uma questão jurídica pessoal."}
+{"dataset_id": "acl_6060", "sample_id": 129, "src_lang": "en", "tgt_lang": "pt", "output": "Tvemos a sorte de ter acesso aos seus \"websites, onde a sua equipa de juristas experiências aborda as questões jurid mais comuns de Bbelica."}
+{"dataset_id": "acl_6060", "sample_id": 130, "src_lang": "en", "tgt_lang": "pt", "output": "Colámos milhares de perguntas, anonotadas com categorias, subcategoras e referências legais aos estatutos relevantes."}
+{"dataset_id": "acl_6060", "sample_id": 131, "src_lang": "en", "tgt_lang": "pt", "output": "Finalmente, aproámos as referências legais e filtrámos as questões cujojas referências não eram artigos num dos códigos de direito que considerámos."}
+{"dataset_id": "acl_6060", "sample_id": 132, "src_lang": "en", "tgt_lang": "pt", "output": "As referências restantes foram corresponddas e convertidas as IDsarticle correspondentes deO corpus."}
+{"dataset_id": "acl_6060", "sample_id": 133, "src_lang": "en", "tgt_lang": "pt", "output": "Finalcabámos com 1108 perguntas, cada uma cuidado com as identificas dos artigos relevantes de."}
+{"dataset_id": "acl_6060", "sample_id": 134, "src_lang": "en", "tgt_lang": "pt", "output": "Além disso, cada pergunta tem uma categoria principal e uma concatenação de subcategories."}
+{"dataset_id": "acl_6060", "sample_id": 135, "src_lang": "en", "tgt_lang": "pt", "output": "E cada artigos tem uma concatenação da sua  posteriore na estrutura da lei."}
+{"dataset_id": "acl_6060", "sample_id": 136, "src_lang": "en", "tgt_lang": "pt", "output": "Esta informação extra não é usada no trabalho atual, mas pode ser interesse para a investigação futur sobre recuperação de informação jurídica ou a classificação de texto legal."}
+{"dataset_id": "acl_6060", "sample_id": 137, "src_lang": "en", "tgt_lang": "pt", "output": "Vamos Olmos algumas característica do nosso conjunto de data."}
+{"dataset_id": "acl_6060", "sample_id": 138, "src_lang": "en", "tgt_lang": "pt", "output": "A pergunta é entre cinco e 4-4 palavras com um média de 40 palavras."}
+{"dataset_id": "acl_6060", "sample_id": 139, "src_lang": "en", "tgt_lang": "pt", "output": "Os artigos é muito mais longos, com uma compimento média de 77 palavras com 140 palavras."}
+{"dataset_id": "acl_6060", "sample_id": 140, "src_lang": "en", "tgt_lang": "pt", "output": "Dos superem um mil."}
+{"dataset_id": "acl_6060", "sample_id": 141, "src_lang": "en", "tgt_lang": "pt", "output": "Como mencionado antes, a questão cob uma grande variedade de tópicos, com cerca de 85% sobre família, habitação, dinheiro ou justiça."}
+{"dataset_id": "acl_6060", "sample_id": 142, "src_lang": "en", "tgt_lang": "pt", "output": "Enbora que os quinze5% restantes interessam a segurança social, estrangeiro ou o trabalho."}
+{"dataset_id": "acl_6060", "sample_id": 143, "src_lang": "en", "tgt_lang": "pt", "output": "Os artigos também são muito diversosos, porque vêm de 32 códigos belgicos que cobm um grande número de tópicos juais."}
+{"dataset_id": "acl_6060", "sample_id": 144, "src_lang": "en", "tgt_lang": "pt", "output": "Aqui está o número total de artigos recohidos de cada um destes códigos belcos."}
+{"dataset_id": "acl_6060", "sample_id": 145, "src_lang": "en", "tgt_lang": "pt", "output": "Ent dos 22.633 artigos, apenas 1612 são refer relevantes para pelo menos um."}
+{"dataset_id": "acl_6060", "sample_id": 146, "src_lang": "en", "tgt_lang": "pt", "output": "Uma pergunta nos conjuntos de dados. cerca de 80% destes artigos citados vêm do código civil, códigos judicial, códigos de investigação criminal ou dos códigos penalis."}
+{"dataset_id": "acl_6060", "sample_id": 147, "src_lang": "en", "tgt_lang": "pt", "output": "Entretanto, 18 de cada trinta e dois códigos têm menos de cinco artigos mencionados relevantes a pelo menos uma pergunta."}
+{"dataset_id": "acl_6060", "sample_id": 148, "src_lang": "en", "tgt_lang": "pt", "output": "O que pode ser explica pelo facto de que este código se fo menos nos indivíduos e nas suas preocupações."}
+{"dataset_id": "acl_6060", "sample_id": 149, "src_lang": "en", "tgt_lang": "pt", "output": "Em geral, o número médio de citações para estes artigos citados é dois, e menos de 25% de cita."}
+{"dataset_id": "acl_6060", "sample_id": 150, "src_lang": "en", "tgt_lang": "pt", "output": "Usando os nossos conjuntos de dados,mos divers abordagens dereção, incluindo a arquitetura xica e densa."}
+{"dataset_id": "acl_6060", "sample_id": 151, "src_lang": "en", "tgt_lang": "pt", "output": "Dada uma que num artigo, um modelo léxico assigna uma pontu ao pare de artigo de queria calculando a soma sobre os termos de que dos pesos de cada um destes termos nesse artigo."}
+{"dataset_id": "acl_6060", "sample_id": 152, "src_lang": "en", "tgt_lang": "pt", "output": "Experimentamosmos as funções de FFIidf e  bm25."}
+{"dataset_id": "acl_6060", "sample_id": 153, "src_lang": "en", "tgt_lang": "pt", "output": "O problema principal com estas abordagens é que só podem recuperar artigos que contenêm palavrass presentes na pesquisa."}
+{"dataset_id": "acl_6060", "sample_id": 154, "src_lang": "en", "tgt_lang": "pt", "output": "Para ultraar esta limitação, experimentamos com uma arquitetura baseada neural que pode capturatar uma relação semântica entre informaçõess e artigos."}
+{"dataset_id": "acl_6060", "sample_id": 155, "src_lang": "en", "tgt_lang": "pt", "output": "Usamos um modelo de B-encodificado que mapa as informaçõess e artigos em representações de vectortores densas e calculamos uma pontua relevante entre um pare de artigo de pergunta por a semelhança das suas em incorporações."}
+{"dataset_id": "acl_6060", "sample_id": 156, "src_lang": "en", "tgt_lang": "pt", "output": "Aquests ems normalmente resultm de uma operação de en a sort de um modelo debettura de palavra."}
+{"dataset_id": "acl_6060", "sample_id": 157, "src_lang": "en", "tgt_lang": "pt", "output": "Primeiro, estudamos a eficácia dos coddores Bi ciames num conjunto de avaliação de zero, o significa que os modelos de em incorporação palavra pré treinados são aplicadas fora da caixa semção adicional."}
+{"dataset_id": "acl_6060", "sample_id": 158, "src_lang": "en", "tgt_lang": "pt", "output": "Experimentamos com codificadodores de texto independent de contexto, seja, palavra para e modelos dependentes de contexto, é Roberta e, mais especificamente, Cammbert, que é um modelo de robota francês."}
+{"dataset_id": "acl_6060", "sample_id": 159, "src_lang": "en", "tgt_lang": "pt", "output": "Além, treinamos o nosso modelo baseado em  para além de codificadodores."}
+{"dataset_id": "acl_6060", "sample_id": 160, "src_lang": "en", "tgt_lang": "pt", "output": "Repareem que, para treção, experimentamos com os dois sabores da arquitetura de Biancoda."}
+{"dataset_id": "acl_6060", "sample_id": 161, "src_lang": "en", "tgt_lang": "pt", "output": "Simesse, que usa um modelo único de em palavra que mapa a que e o artigo conjunto num espaço vector denso partilhado, e TuTo, que usa dois modeloses de em incorporação de palavras independentes que codificam a que e o artigo separadamente em diferentes espaços de emção."}
+{"dataset_id": "acl_6060", "sample_id": 162, "src_lang": "en", "tgt_lang": "pt", "output": "Experimentmos comação mí, max e CLS, como o produto pontos e coí para calcular semelhança."}
+{"dataset_id": "acl_6060", "sample_id": 163, "src_lang": "en", "tgt_lang": "pt", "output": "Aqui o resultado de uma linha base no conjunto de teste."}
+{"dataset_id": "acl_6060", "sample_id": 164, "src_lang": "en", "tgt_lang": "pt", "output": "Com os métodos léxics cima, os coddores Bi ciames avaliados num configura de zero no meio e os coddores de Bibianados por baixo."}
+{"dataset_id": "acl_6060", "sample_id": 165, "src_lang": "en", "tgt_lang": "pt", "output": "Em geral, os coificadodores deune significa todas as outras linhas de base."}
+{"dataset_id": "acl_6060", "sample_id": 166, "src_lang": "en", "tgt_lang": "pt", "output": "O modelo de duas torres melhora a sua variante siamese em record a 100, mas funciona semelhan nas outrasmétricas."}
+{"dataset_id": "acl_6060", "sample_id": 167, "src_lang": "en", "tgt_lang": "pt", "output": "Embora BMm 25 desempu o treinoio para além do código significa, o seu desempenho indica que ainda é uma forte base para a rec específica de doínio."}
+{"dataset_id": "acl_6060", "sample_id": 168, "src_lang": "en", "tgt_lang": "pt", "output": "Re relação à avaliação zero do bicodador ciame, descobrimos que diretamente usando as incorporações de um modelo de Cammbot treinado sem otimizar a tarefa de recuperação de informação dá maus resultados, o que é consistente com as descobertas anteriores."}
+{"dataset_id": "acl_6060", "sample_id": 169, "src_lang": "en", "tgt_lang": "pt", "output": "Além disso, observamos que ocodador baseada em passou significativamente o modelo e base de aves, sugerendo que talvez as incorporações de nível de palavra são mais apropriadas para a tarefa do que as nível de caracter ou nível sub palavras quando usadas for da caixa."}
+{"dataset_id": "acl_6060", "sample_id": 170, "src_lang": "en", "tgt_lang": "pt", "output": "Embora prometmisor, estes resultados sugerem uma oportunidade de melhorar comparação com um especialista de de compet que pode recuperar todos os artigos relevantes a qualquer pergunta e de obter pontuas perfeitas."}
+{"dataset_id": "acl_6060", "sample_id": 171, "src_lang": "en", "tgt_lang": "pt", "output": "conclumos discut duas limitações de todos os conjuntos de dados."}
+{"dataset_id": "acl_6060", "sample_id": 172, "src_lang": "en", "tgt_lang": "pt", "output": "Primeiro, o cópus do artigo está limitado a aquele recohidos dos 32 códigos belgicos considerados, o que não cobre toda a lei belgica, como artigos de decretos, diretivos e ordens."}
+{"dataset_id": "acl_6060", "sample_id": 173, "src_lang": "en", "tgt_lang": "pt", "output": "Durante a construção de conjunto de dados, todas as referências a estes artigos não recolhidos são ignoradas, o que faz que uma questão acaba com apenas uma fração do número inicial de artigos relevantes."}
+{"dataset_id": "acl_6060", "sample_id": 174, "src_lang": "en", "tgt_lang": "pt", "output": "Esta perda de informação implica que a resposta contída nos artigos relevantesantes pode ser incompleta, embora ainda seja completamente aproprida."}
+{"dataset_id": "acl_6060", "sample_id": 175, "src_lang": "en", "tgt_lang": "pt", "output": "Segundo, devemos notar que não todas as questões jurídica podem ser responders com estats."}
+{"dataset_id": "acl_6060", "sample_id": 176, "src_lang": "en", "tgt_lang": "pt", "output": "Por exemplo, a pergunta: \"Posso eliminar os meus as se fazemem demasiado baruído?"}
+{"dataset_id": "acl_6060", "sample_id": 177, "src_lang": "en", "tgt_lang": "pt", "output": "Pod ter uma resposta detalda dentro uma lei legislativa que quantiifique um de baru específico a qualção."}
+{"dataset_id": "acl_6060", "sample_id": 178, "src_lang": "en", "tgt_lang": "pt", "output": "Em vez disso, os propries devem provavelmente confiar mais em lei de casos e encontrar precedentes semelhantes à sua situação actual."}
+{"dataset_id": "acl_6060", "sample_id": 179, "src_lang": "en", "tgt_lang": "pt", "output": "Por exemplo, o ador faz duas festas por semana até a duas oito."}
+{"dataset_id": "acl_6060", "sample_id": 180, "src_lang": "en", "tgt_lang": "pt", "output": "Por, algumas questões são melhor adequadas do que outras a tarefa de recuperação de artigo estat e o doínio das menos adequados continua a ser determinado."}
+{"dataset_id": "acl_6060", "sample_id": 181, "src_lang": "en", "tgt_lang": "pt", "output": "Esperamos que todo o trabalhostimul interesse em desenvolvimento de modelos de de artículos estats pràctics i fiables."}
+{"dataset_id": "acl_6060", "sample_id": 182, "src_lang": "en", "tgt_lang": "pt", "output": "Isso pode ajudar a melhorar o acesso à justiça."}
+{"dataset_id": "acl_6060", "sample_id": 183, "src_lang": "en", "tgt_lang": "pt", "output": "Poddem ver o nosso artigo que codificaificar as seguinte linkss seguinte. Obrigada."}
+{"dataset_id": "acl_6060", "sample_id": 184, "src_lang": "en", "tgt_lang": "pt", "output": "Olá. Estamos felizes de apresentar o nosso trabalho sobre V, uma marca independente de tarefa destinada para testar modelos de visão e linguagem com fenómenos lingüísticos específicos."}
+{"dataset_id": "acl_6060", "sample_id": 185, "src_lang": "en", "tgt_lang": "pt", "output": "Porque é que fizmos problemas em instalar este pont?"}
+{"dataset_id": "acl_6060", "sample_id": 186, "src_lang": "en", "tgt_lang": "pt", "output": "Nos últimos anos, visto uma explosão de modelos de visão e linguagem base em trans transformaador, pré-traininados em grandes quantidades de texts de imagen."}
+{"dataset_id": "acl_6060", "sample_id": 187, "src_lang": "en", "tgt_lang": "pt", "output": "Cada um destes modelosstimul a estado arte em tarefas de visão e linguagem, como a resposta de pergunta visual, razcioação visual do sentido visual, recuperação de imagens, base de frase."}
+{"dataset_id": "acl_6060", "sample_id": 188, "src_lang": "en", "tgt_lang": "pt", "output": "Então isso obtivemos uma mensagem: as precisões dess marcas específicas de tarefas estão a aumentarr constantemente."}
+{"dataset_id": "acl_6060", "sample_id": 189, "src_lang": "en", "tgt_lang": "pt", "output": "Mas sabemos o que os modelos aprendedo?"}
+{"dataset_id": "acl_6060", "sample_id": 190, "src_lang": "en", "tgt_lang": "pt", "output": "O que um transformador de visão e linguagem quando asribuar um pontu para esta imagem e esta frase para correspond?"}
+{"dataset_id": "acl_6060", "sample_id": 191, "src_lang": "en", "tgt_lang": "pt", "output": "E a pontua baixa para este."}
+{"dataset_id": "acl_6060", "sample_id": 192, "src_lang": "en", "tgt_lang": "pt", "output": "Os modelos de visão e de linguagem fomse na coisa certa?"}
+{"dataset_id": "acl_6060", "sample_id": 193, "src_lang": "en", "tgt_lang": "pt", "output": "Ou focam-se em preconceitos como mostrados pelo trabalho anterior?"}
+{"dataset_id": "acl_6060", "sample_id": 194, "src_lang": "en", "tgt_lang": "pt", "output": "Para darr mais luz sobre este as aspecto, propostamos uma direção agnóstica tarefa e introdumos válvules que testam a sensibilidade dos modelos de visão e linguagem a modelos lingüísticos específicos que afetm as modalidades lingüísticas como visuais."}
+{"dataset_id": "acl_6060", "sample_id": 195, "src_lang": "en", "tgt_lang": "pt", "output": "almos a existência, pluralidade, conta, relações espaciais, ações e coferência da entidade."}
+{"dataset_id": "acl_6060", "sample_id": 196, "src_lang": "en", "tgt_lang": "pt", "output": "Mas como testar se os modelos de visão e os de linguagem capturaram este fenómeno?"}
+{"dataset_id": "acl_6060", "sample_id": 197, "src_lang": "en", "tgt_lang": "pt", "output": "A foamento, um método aplicado para modelos de visão e linguagem apenas para frases substan de Ravi Shekhar e dos colaboradores, e para conta nós no trabalho anteriores."}
+{"dataset_id": "acl_6060", "sample_id": 198, "src_lang": "en", "tgt_lang": "pt", "output": "A foamento significa basicamente que pegarmos a capção de uma imagem e produzimos uma folha alterando a capção tal que não descreve a imagem."}
+{"dataset_id": "acl_6060", "sample_id": 199, "src_lang": "en", "tgt_lang": "pt", "output": "Fazeos estas alterações de frases fo-nos em seis peças específicas, como a existência, pluralidade, conta, relações espaciais, ações e coferência entidad, em que cada peça pode consistir de um ou mais instrumentos, no caso de encontrámos mais de uma forma interessante de criar instâncias de fo."}
+{"dataset_id": "acl_6060", "sample_id": 200, "src_lang": "en", "tgt_lang": "pt", "output": "Por exemplo, no caso da peça de ações, temos dois instrumentos, um em que o verbo de ação é muda com uma ação diferente e outro em que são trocados."}
+{"dataset_id": "acl_6060", "sample_id": 201, "src_lang": "en", "tgt_lang": "pt", "output": "A conta e a correferência também são peças que têm mais de um instrumento."}
+{"dataset_id": "acl_6060", "sample_id": 202, "src_lang": "en", "tgt_lang": "pt", "output": "Crimos estas fohas garantindo de que não descrever a imagem, que são frases gragrammaticáticas e de forma válidas."}
+{"dataset_id": "acl_6060", "sample_id": 203, "src_lang": "en", "tgt_lang": "pt", "output": "Isto não é fácil de fazer porque uma capula de Fot pode ser menos provável do que a capção original."}
+{"dataset_id": "acl_6060", "sample_id": 204, "src_lang": "en", "tgt_lang": "pt", "output": "Por exemplo, embora não seja impossível, é estatisticamente menos  probabilável que as plantas cortarm um homem do que um homem cortar plantas, e os modelos de grandes modelos de visão e de linguagem podem perceber isto."}
+{"dataset_id": "acl_6060", "sample_id": 205, "src_lang": "en", "tgt_lang": "pt", "output": "Poranto, para obter fos válidas, temos de fazer agir."}
+{"dataset_id": "acl_6060", "sample_id": 206, "src_lang": "en", "tgt_lang": "pt", "output": "Primeiro, usamoss modelos de linguagem fortes para proposr fo."}
+{"dataset_id": "acl_6060", "sample_id": 207, "src_lang": "en", "tgt_lang": "pt", "output": "Segundo lugar, usamos a inferência de linguagem natural, ou NI, para filtrar fos que possam ainda a descrever a imagem, porque, quando constru fos, precisamos de garantir que não fal descrever a imagem."}
+{"dataset_id": "acl_6060", "sample_id": 208, "src_lang": "en", "tgt_lang": "pt", "output": "Para testar isto automaticamente, aplicamos a inferência de linguagem natural com a seguinte racional."}
+{"dataset_id": "acl_6060", "sample_id": 209, "src_lang": "en", "tgt_lang": "pt", "output": "Consideramos uma imagem como a premissa, e a sua título é a sua hipótese inda."}
+{"dataset_id": "acl_6060", "sample_id": 210, "src_lang": "en", "tgt_lang": "pt", "output": "Além disso, consideramos que a capula como a premissa e a folha é a sua hipótese."}
+{"dataset_id": "acl_6060", "sample_id": 211, "src_lang": "en", "tgt_lang": "pt", "output": "Se um modelo de NI prevver que o fo contradi ou ser neutro em respeito à capção, consideramos ni como indicador de uma folha válida."}
+{"dataset_id": "acl_6060", "sample_id": 212, "src_lang": "en", "tgt_lang": "pt", "output": "Se uma NI prevver que o fo sejado pela capção, não pode ser um boa folha, porque, por transitidade, darrá uma descrição verdade da imagem e filtramos estas fohas."}
+{"dataset_id": "acl_6060", "sample_id": 213, "src_lang": "en", "tgt_lang": "pt", "output": "Mas esta procedimento não é per. É apenas um indicador para fo vál."}
+{"dataset_id": "acl_6060", "sample_id": 214, "src_lang": "en", "tgt_lang": "pt", "output": "Poranto, como terceira medida para geração FOI váladas, usmos anotadores humanos para validar os dados usados em Volse."}
+{"dataset_id": "acl_6060", "sample_id": 215, "src_lang": "en", "tgt_lang": "pt", "output": ", depois de filtrotrar e avaliação humana, temos tanta instâncias de testes como descri nesta tabela."}
+{"dataset_id": "acl_6060", "sample_id": 216, "src_lang": "en", "tgt_lang": "pt", "output": "Notem que o Valse não for dados de trein, mas apenas dados de testeem."}
+{"dataset_id": "acl_6060", "sample_id": 217, "src_lang": "en", "tgt_lang": "pt", "output": "Como é um ponto de teste zero, é concebido para utilizarar as capacidades existentes dos modelos de visão e linguagem após da pré- treinção."}
+{"dataset_id": "acl_6060", "sample_id": 218, "src_lang": "en", "tgt_lang": "pt", "output": "Ação só permitiria que os modelos explorar artefactos ou preconceitos estatísticos nos dados."}
+{"dataset_id": "acl_6060", "sample_id": 219, "src_lang": "en", "tgt_lang": "pt", "output": "Todos sabemos que os seus modelos gostam de trampgar e tomar dess."}
+{"dataset_id": "acl_6060", "sample_id": 220, "src_lang": "en", "tgt_lang": "pt", "output": "Como dissemos, estamos interessados em avaliar as capacidades os modelos de visão e de linguagem após da pré- formainção."}
+{"dataset_id": "acl_6060", "sample_id": 221, "src_lang": "en", "tgt_lang": "pt", "output": "Experimentamos com cinco modelos de visão e linguagem em vovulis, seja com CCL, Alex Mert, Wililbert, Wililbert 12 in1 e Visual Bird visual."}
+{"dataset_id": "acl_6060", "sample_id": 222, "src_lang": "en", "tgt_lang": "pt", "output": "Duas dos metétricas de avaliação importantes são a precisão dos modelos na classificação pares de frases de imagen em capções e fols."}
+{"dataset_id": "acl_6060", "sample_id": 223, "src_lang": "en", "tgt_lang": "pt", "output": "Talvez mais relevante para este vídeo, vamos mostrar a nossa étrica mais primistiva, a precisão frase, que mede se a pontua alineação de de imagem é maior para a pare de texto de imagem correta do que para o seu pare foido."}
+{"dataset_id": "acl_6060", "sample_id": 224, "src_lang": "en", "tgt_lang": "pt", "output": "Para mais matris e resultados, observeem o nosso artigo."}
+{"dataset_id": "acl_6060", "sample_id": 225, "src_lang": "en", "tgt_lang": "pt", "output": "Os resultados com precisão pareados mostra aqui e são consistentes com os resultados que obmos das outrasmétricas. É que o melhor desempenho de zero é atingido por Wililbert 12 em 1, seguido por Wilbert, Alex Mert Clip e, finalmente Visual Bird."}
+{"dataset_id": "acl_6060", "sample_id": 226, "src_lang": "en", "tgt_lang": "pt", "output": "É notável como os instrumentos centrados em objetos individuais como a existência e frases substantivas, são quase resolvidos pelo Wililbert 12 em1, destacando que os modelos são capazes de identificar objetos nomedos e a sua presença nas imagens."}
+{"dataset_id": "acl_6060", "sample_id": 227, "src_lang": "en", "tgt_lang": "pt", "output": "No tuanto, nenhuma das peças restantes pode ser solu confiável nos nossos de  adversários."}
+{"dataset_id": "acl_6060", "sample_id": 228, "src_lang": "en", "tgt_lang": "pt", "output": "Vemos dos instrumentos de pluralidade e conta que os modelos de visão e os modelos de linguagem têm problemas em distinguir as referências a objects único versus múltiplos ou contá-las numa imagem."}
+{"dataset_id": "acl_6060", "sample_id": 229, "src_lang": "en", "tgt_lang": "pt", "output": "A peça de relações mostra que têm dificuldades em classificar correctamente uma relaçãoção espacial nomeda entre objectos numa imagem."}
+{"dataset_id": "acl_6060", "sample_id": 230, "src_lang": "en", "tgt_lang": "pt", "output": "Também têm dificuldade em distinguir as ações e identificar os seus participantes, mesmo apoiados por preconceitos de plausibilidade, como vemos na peça de ações."}
+{"dataset_id": "acl_6060", "sample_id": 231, "src_lang": "en", "tgt_lang": "pt", "output": "Da partir peça de corferência, descobrimos que traçar múltiplas referências ao mesmo objeto numa imagem usando pronomos também é difícil para os modelos de visão e linguagem."}
+{"dataset_id": "acl_6060", "sample_id": 232, "src_lang": "en", "tgt_lang": "pt", "output": "Como control de sau, e porque é uma experiência interessante, também avaliamos dois modelos de texto: GPT1 e GPT2, para avaliar se o Valse ésollvável por estes modelos unimois calculando a perplexidade da correta e falda, sem imagem aqui, e prever a entrada com a perplexidade baixa."}
+{"dataset_id": "acl_6060", "sample_id": 233, "src_lang": "en", "tgt_lang": "pt", "output": "Se a perplexidade é maior para o folha, consideramos isto como indicação de que a contração foda pode sofrer de preconce de plausibilidade ou de outros preconceitos lingüísticos."}
+{"dataset_id": "acl_6060", "sample_id": 234, "src_lang": "en", "tgt_lang": "pt", "output": "É interessante ver que, em alguns casos, os modelos GPT texto capturaram a plausibilidade do mundo do que os modelos de visão e de linguagem."}
+{"dataset_id": "acl_6060", "sample_id": 235, "src_lang": "en", "tgt_lang": "pt", "output": "Para resumir, VAL é um ponto que usa a lente de construçãos linguísticas para ajudar a comunidade a melhorar os modelos de visão e de linguagem testar as suas capacidades de base visais."}
+{"dataset_id": "acl_6060", "sample_id": 236, "src_lang": "en", "tgt_lang": "pt", "output": "As nossas experiências mostram que os modelos de visão e linguagem identificam objetos nomedos na sua presença nas imagens, como mostrados pela peça da existência, mas lutam por basear a sua interdependência e as relações nas cenas visais quando são forçados a respeitar os indicadores lingüísticos."}
+{"dataset_id": "acl_6060", "sample_id": 237, "src_lang": "en", "tgt_lang": "pt", "output": "Gostríamos de encorajar a comunidade a usar valvuls para medir o progresso a base língua com modelos de visão e de linguagem."}
+{"dataset_id": "acl_6060", "sample_id": 238, "src_lang": "en", "tgt_lang": "pt", "output": "E ainda mais, os válvulos podemm ser usadas como avaliação indireta de conjuntos de dados, como os modelos podiam ser avaliados antes e após da treinamento outimação para ver se um conjunto de dados ajuda os modelos a melhorar em qualquer dos aspetos testados pelas válvules."}
+{"dataset_id": "acl_6060", "sample_id": 239, "src_lang": "en", "tgt_lang": "pt", "output": "Se interessados, olhem os dados de Wall no Gitub e se tiverem alguma perguntas, não hetem a contactar-nos."}
+{"dataset_id": "acl_6060", "sample_id": 240, "src_lang": "en", "tgt_lang": "pt", "output": "Olá, nomemo-me Kaisura da Universidade de Tóquio."}
+{"dataset_id": "acl_6060", "sample_id": 241, "src_lang": "en", "tgt_lang": "pt", "output": "Vou apresentar um artigo tilado \"Comsum: um deserto de grande escala para duraação risco automática da maximização de\"."}
+{"dataset_id": "acl_6060", "sample_id": 242, "src_lang": "en", "tgt_lang": "pt", "output": "T experimentem aquesta or?"}
+{"dataset_id": "acl_6060", "sample_id": 243, "src_lang": "en", "tgt_lang": "pt", "output": "Primeiro, vou introdur uma notação lista automàtica en que estamos a trabalhar nesta investigação."}
+{"dataset_id": "acl_6060", "sample_id": 244, "src_lang": "en", "tgt_lang": "pt", "output": "release é um documento  técnico que res os mudanças distribus em cada lançação de um produto de software."}
+{"dataset_id": "acl_6060", "sample_id": 245, "src_lang": "en", "tgt_lang": "pt", "output": "Um imagem mostra uma nota de per uma vers dois,6."}
+{"dataset_id": "acl_6060", "sample_id": 246, "src_lang": "en", "tgt_lang": "pt", "output": "Estas notas desempenm um papel importante no desenvolvimento de código aberto, mas são tempo preparar manualmente."}
+{"dataset_id": "acl_6060", "sample_id": 247, "src_lang": "en", "tgt_lang": "pt", "output": "Por, seria molt útil poder gerar automaticamente notas de alta qual."}
+{"dataset_id": "acl_6060", "sample_id": 248, "src_lang": "en", "tgt_lang": "pt", "output": "feriir-me a duas investigas anteriores sobre a geração de ou automática."}
+{"dataset_id": "acl_6060", "sample_id": 249, "src_lang": "en", "tgt_lang": "pt", "output": "O primeiro é um sistema chamado Am, publicado em 2014."}
+{"dataset_id": "acl_6060", "sample_id": 250, "src_lang": "en", "tgt_lang": "pt", "output": "uma abordagem baseada em regra, por exemplo, usando o extractor de alter para extrair diferenças co, mudanças de bibliotecas e mudanças de documento das diferenças entre desções, e finalmente,biná-las."}
+{"dataset_id": "acl_6060", "sample_id": 251, "src_lang": "en", "tgt_lang": "pt", "output": "La característica mais notable deaquest sistema és l extractiu na canquinaquer."}
+{"dataset_id": "acl_6060", "sample_id": 252, "src_lang": "en", "tgt_lang": "pt", "output": "Que deve ser ligado a JL, o ecossistema public, e só pode ser aplica a projetos que usam Jira."}
+{"dataset_id": "acl_6060", "sample_id": 253, "src_lang": "en", "tgt_lang": "pt", "output": "Por outras palavras, no pode usar a molts projectes sobre Gitub."}
+{"dataset_id": "acl_6060", "sample_id": 254, "src_lang": "en", "tgt_lang": "pt", "output": "A segunda é a pena, anunciado em 2012."}
+{"dataset_id": "acl_6060", "sample_id": 255, "src_lang": "en", "tgt_lang": "pt", "output": "Está disponível na Internet e pode ser almazenado via de pip."}
+{"dataset_id": "acl_6060", "sample_id": 256, "src_lang": "en", "tgt_lang": "pt", "output": "Este sistema tem um simples modelo de classificação de texto e entrada de cinco problemass, como características para fixções de er para cada mensagem de com de entrada."}
+{"dataset_id": "acl_6060", "sample_id": 257, "src_lang": "en", "tgt_lang": "pt", "output": "A imagem é um uso de mostraamos que conté uma ser correiva ou fix error."}
+{"dataset_id": "acl_6060", "sample_id": 258, "src_lang": "en", "tgt_lang": "pt", "output": "Os dados de forma de co são bastante pequenas, cerca de 5000, e será most nas experiências descritoss em abaixo."}
+{"dataset_id": "acl_6060", "sample_id": 259, "src_lang": "en", "tgt_lang": "pt", "output": "El desempenho del modelo de classificació del text no és eleva."}
+{"dataset_id": "acl_6060", "sample_id": 260, "src_lang": "en", "tgt_lang": "pt", "output": "presento duas investigas relacionadadas, mas há problemas de aplicabilidade limitada e recursos de dados discutados."}
+{"dataset_id": "acl_6060", "sample_id": 261, "src_lang": "en", "tgt_lang": "pt", "output": "O nosso artigo resolve estes dois problemas e gera automaticamente not de alta calidad."}
+{"dataset_id": "acl_6060", "sample_id": 262, "src_lang": "en", "tgt_lang": "pt", "output": "Com um programaado de preco limitada, proposmos um método de sumização de classifica deal qualitat,  a mensagem de commis como entrada."}
+{"dataset_id": "acl_6060", "sample_id": 263, "src_lang": "en", "tgt_lang": "pt", "output": "Aquest mètode proposit es pot utilitza per a totes les dess de llibres."}
+{"dataset_id": "acl_6060", "sample_id": 264, "src_lang": "en", "tgt_lang": "pt", "output": "Para o segundo problema de recursos de estado, construímos um RNsum compostido de cerca de 8ta2 mil pedas de dados recondo dados de repositórios públicos de Gitub usando a API Gitub."}
+{"dataset_id": "acl_6060", "sample_id": 265, "src_lang": "en", "tgt_lang": "pt", "output": "A seguir, descrevo o nosso deserto."}
+{"dataset_id": "acl_6060", "sample_id": 266, "src_lang": "en", "tgt_lang": "pt", "output": "Aqui está o nosso exemplo de dados."}
+{"dataset_id": "acl_6060", "sample_id": 267, "src_lang": "en", "tgt_lang": "pt", "output": "El lado esquer és una missatge de comit i al costat dreta ha una nota de."}
+{"dataset_id": "acl_6060", "sample_id": 268, "src_lang": "en", "tgt_lang": "pt", "output": "Les notas recent esta valors com milloras de fases, etc."}
+{"dataset_id": "acl_6060", "sample_id": 269, "src_lang": "en", "tgt_lang": "pt", "output": "Temos criamos uma tarefa que to as mensagens de commismissão como input e  os not."}
+{"dataset_id": "acl_6060", "sample_id": 270, "src_lang": "en", "tgt_lang": "pt", "output": "I pode ser consider- com uma tasfa de summarização."}
+{"dataset_id": "acl_6060", "sample_id": 271, "src_lang": "en", "tgt_lang": "pt", "output": "Temos prédefinido quatro ras: característicass, implementos, reparções de errorss, deprecações,remos e alters de fres."}
+{"dataset_id": "acl_6060", "sample_id": 272, "src_lang": "en", "tgt_lang": "pt", "output": "Estas esta situa base en l de i altres factorses."}
+{"dataset_id": "acl_6060", "sample_id": 273, "src_lang": "en", "tgt_lang": "pt", "output": "Hi ha nots inferior a dreta extrades les llista most a part a esquerra."}
+{"dataset_id": "acl_6060", "sample_id": 274, "src_lang": "en", "tgt_lang": "pt", "output": "Nesta altura, é necessari detectar os quatro cones que têm instalas em passar."}
+{"dataset_id": "acl_6060", "sample_id": 275, "src_lang": "en", "tgt_lang": "pt", "output": "Però les las no sempre consistentes amb cada hip."}
+{"dataset_id": "acl_6060", "sample_id": 276, "src_lang": "en", "tgt_lang": "pt", "output": "Por exemplo, millores incrementem melhoras, melhores, optimizações, etc."}
+{"dataset_id": "acl_6060", "sample_id": 277, "src_lang": "en", "tgt_lang": "pt", "output": "Preparámos uma lista de vocabulário de números de estudo para cada uma destas variações de rotacional."}
+{"dataset_id": "acl_6060", "sample_id": 278, "src_lang": "en", "tgt_lang": "pt", "output": "Useu-lo para detectar que no ha croa i cri o text del resta que segueix que no hi ha frase de a croa."}
+{"dataset_id": "acl_6060", "sample_id": 279, "src_lang": "en", "tgt_lang": "pt", "output": "A continua és mensagematge de."}
+{"dataset_id": "acl_6060", "sample_id": 280, "src_lang": "en", "tgt_lang": "pt", "output": "Les mensagens de coms no esta ligas a cada vis."}
+{"dataset_id": "acl_6060", "sample_id": 281, "src_lang": "en", "tgt_lang": "pt", "output": "Como mostra na imagem baixo, se o risco atual é de 2,5 a 19, precisamos de identificar."}
+{"dataset_id": "acl_6060", "sample_id": 282, "src_lang": "en", "tgt_lang": "pt", "output": "Para a anterior, dois.5 a 18, e torn-. I é um pouco desaso e não é suficiente ob uma lista de s e olhar o anterior e tarde."}
+{"dataset_id": "acl_6060", "sample_id": 283, "src_lang": "en", "tgt_lang": "pt", "output": "Criámos uma modelo de compara heurística per obeguir as vers anteriores e próximas."}
+{"dataset_id": "acl_6060", "sample_id": 284, "src_lang": "en", "tgt_lang": "pt", "output": "Es sent-se cavalls."}
+{"dataset_id": "acl_6060", "sample_id": 285, "src_lang": "en", "tgt_lang": "pt", "output": "No fim, 7200 repositórios."}
+{"dataset_id": "acl_6060", "sample_id": 286, "src_lang": "en", "tgt_lang": "pt", "output": "m, o número médio de alvos regioncionais é 63, o que é bastante alto para a tarefa de sumização."}
+{"dataset_id": "acl_6060", "sample_id": 287, "src_lang": "en", "tgt_lang": "pt", "output": "Além disso, o número de toques únicos é bastante grande, a 8830 000. I é."}
+{"dataset_id": "acl_6060", "sample_id": 288, "src_lang": "en", "tgt_lang": "pt", "output": "De causa ao grande número de de metodess trobas no laboratori."}
+{"dataset_id": "acl_6060", "sample_id": 289, "src_lang": "en", "tgt_lang": "pt", "output": "A continua explicaré el mètode proposit."}
+{"dataset_id": "acl_6060", "sample_id": 290, "src_lang": "en", "tgt_lang": "pt", "output": "El modelo de sum extractiva i abstractiu consiste de dois mòduls neurals."}
+{"dataset_id": "acl_6060", "sample_id": 291, "src_lang": "en", "tgt_lang": "pt", "output": "Un fo utilitza Ba o\" i um generador utilitza Ba."}
+{"dataset_id": "acl_6060", "sample_id": 292, "src_lang": "en", "tgt_lang": "pt", "output": "Primeiro, GAS usa um classificador para classificar cada mensagem de commis em cinco classes de not B: fun, melhoras, fixções decos, deplicações, press e outras."}
+{"dataset_id": "acl_6060", "sample_id": 293, "src_lang": "en", "tgt_lang": "pt", "output": "Les mensagens do comitè classificam com \"al\" o descars\"."}
+{"dataset_id": "acl_6060", "sample_id": 294, "src_lang": "en", "tgt_lang": "pt", "output": "Deis, ela umpriaturada aos quatro documentos de borr independent e gera nota para cada classe."}
+{"dataset_id": "acl_6060", "sample_id": 295, "src_lang": "en", "tgt_lang": "pt", "output": "Nesta tarefa, as corresponds directes entre mensagens de compromiss e ress."}
+{"dataset_id": "acl_6060", "sample_id": 296, "src_lang": "en", "tgt_lang": "pt", "output": "Por, para treinar o classe, assignmos pseudorás a cada mensagem de commis de entrada usando os primeiros de caracteres de cada mensagem de com."}
+{"dataset_id": "acl_6060", "sample_id": 297, "src_lang": "en", "tgt_lang": "pt", "output": "Moamosmos sums detructivos classe a a abordagem de dois mètodes definidos."}
+{"dataset_id": "acl_6060", "sample_id": 298, "src_lang": "en", "tgt_lang": "pt", "output": "O primeiro modelo que chamamos GSer, consiste de numa rede única rede sextoex e gera um único texto não texto, da uma concacial de mensagens de coms de entrada."}
+{"dataset_id": "acl_6060", "sample_id": 299, "src_lang": "en", "tgt_lang": "pt", "output": "O texto de entrada pode ser dividir em segmentos cruz base em específics de cruz e por símbols."}
+{"dataset_id": "acl_6060", "sample_id": 300, "src_lang": "en", "tgt_lang": "pt", "output": "O segundo método que chamamos G, consiste de quatro redes de se-to-sec, cada umalas corresponde a uma das classes de not."}
+{"dataset_id": "acl_6060", "sample_id": 301, "src_lang": "en", "tgt_lang": "pt", "output": "Ok, deixeu-me explicar a experiência."}
+{"dataset_id": "acl_6060", "sample_id": 302, "src_lang": "en", "tgt_lang": "pt", "output": "comparar Ccinc mètodes: El és, é uma cantant, tem um sorriso, a e pena."}
+{"dataset_id": "acl_6060", "sample_id": 303, "src_lang": "en", "tgt_lang": "pt", "output": "Regarde a variaació, en alguns casos, not a nossa rendi em múltiplas frases."}
+{"dataset_id": "acl_6060", "sample_id": 304, "src_lang": "en", "tgt_lang": "pt", "output": "Como que é difícil calculificar o número de frases a zero, são combinados com espais e tratadas como uma frase longa."}
+{"dataset_id": "acl_6060", "sample_id": 305, "src_lang": "en", "tgt_lang": "pt", "output": "La fact éspenetra quan el sistema emit uma curta sentça curt."}
+{"dataset_id": "acl_6060", "sample_id": 306, "src_lang": "en", "tgt_lang": "pt", "output": "Esta penal provoca um valor de baixo no experimental descri a segui."}
+{"dataset_id": "acl_6060", "sample_id": 307, "src_lang": "en", "tgt_lang": "pt", "output": "Final, também carregamos uma especidade porquege e\" no podem ser carrega se as not de són vacís."}
+{"dataset_id": "acl_6060", "sample_id": 308, "src_lang": "en", "tgt_lang": "pt", "output": "Um alta especificidade significa que les subs de prese modelo són bu, en casos en que el n assumem vacízio."}
+{"dataset_id": "acl_6060", "sample_id": 309, "src_lang": "en", "tgt_lang": "pt", "output": "Aqui estão os resultats."}
+{"dataset_id": "acl_6060", "sample_id": 310, "src_lang": "en", "tgt_lang": "pt", "output": "Como que um data contém aces de- email, valores host, etc, também elaboramos um data limp, que os excluu."}
+{"dataset_id": "acl_6060", "sample_id": 311, "src_lang": "en", "tgt_lang": "pt", "output": "GS e GS al atingiram resultadoss a mais de 10 pontos altos do que as linhas base."}
+{"dataset_id": "acl_6060", "sample_id": 312, "src_lang": "en", "tgt_lang": "pt", "output": "Em particular, no conjunto testes coreano, a fo de pontuação entre o método proposido e os paciente salta a mais de 20%."}
+{"dataset_id": "acl_6060", "sample_id": 313, "src_lang": "en", "tgt_lang": "pt", "output": "Aquests resultats indiquen que \"\" i \"\" són significativament efectces."}
+{"dataset_id": "acl_6060", "sample_id": 314, "src_lang": "en", "tgt_lang": "pt", "output": "GS ob uma melhor puntu de que GS\", sugerer que combinar um classifica gerador és eficaç a formainar o classificador usando pseudos."}
+{"dataset_id": "acl_6060", "sample_id": 315, "src_lang": "en", "tgt_lang": "pt", "output": "Um cobertura de GS pode ser alcan adequatamente porque o classificador pode concentrar-se em selecionar mensagens demismissão relevantes para cada classe."}
+{"dataset_id": "acl_6060", "sample_id": 316, "src_lang": "en", "tgt_lang": "pt", "output": "T molt tend a comer que single."}
+{"dataset_id": "acl_6060", "sample_id": 317, "src_lang": "en", "tgt_lang": "pt", "output": "Sugerindo que também é eficaz desenvolve independente diferentes modelos de summarização periva para cada gráfico de peça."}
+{"dataset_id": "acl_6060", "sample_id": 318, "src_lang": "en", "tgt_lang": "pt", "output": "A e a."}
+{"dataset_id": "acl_6060", "sample_id": 319, "src_lang": "en", "tgt_lang": "pt", "output": "Els mètodes de Sheer tendem a produzir frases mais curtes que a frase de refer humana."}
+{"dataset_id": "acl_6060", "sample_id": 320, "src_lang": "en", "tgt_lang": "pt", "output": "No vídeo à direita, a frase diferentes tem três ou quatro frases, enquanto que té uma."}
+{"dataset_id": "acl_6060", "sample_id": 321, "src_lang": "en", "tgt_lang": "pt", "output": "A razão de esta rerefuância de modelo é que, nos dados de forma només 33% das frases estão presentes nas tab de características e 40% no de melhora."}
+{"dataset_id": "acl_6060", "sample_id": 322, "src_lang": "en", "tgt_lang": "pt", "output": "Aé disso, els mètodes GS no pode generar not de risco pre sense informaddi."}
+{"dataset_id": "acl_6060", "sample_id": 323, "src_lang": "en", "tgt_lang": "pt", "output": "O exemplo superior à direita é um exemplo de uma mensagem de com muito desada e a frase completada não pode ser gerada sem diferençaferência ao per ou problema correspondente."}
+{"dataset_id": "acl_6060", "sample_id": 324, "src_lang": "en", "tgt_lang": "pt", "output": "O exemplo baixo mostra que as duas mensagens de trans na entrada estão relacionadadas e devem ser combinadas em uma frase, mas tem fazerê-lo."}
+{"dataset_id": "acl_6060", "sample_id": 325, "src_lang": "en", "tgt_lang": "pt", "output": "Final, uma conclusió."}
+{"dataset_id": "acl_6060", "sample_id": 326, "src_lang": "en", "tgt_lang": "pt", "output": "Temos construíído um novo conjunto de data para a geração de automàtica."}
+{"dataset_id": "acl_6060", "sample_id": 327, "src_lang": "en", "tgt_lang": "pt", "output": "Também formulamos a tarefa de introdu mensagens de commiss e resumá-las para que seja aplicda a todos os projetos escritos em inglês."}
+{"dataset_id": "acl_6060", "sample_id": 328, "src_lang": "en", "tgt_lang": "pt", "output": "A experiências mostram que o massa propos cura menos baru não com cobertura alta do que as linhas bases."}
+{"dataset_id": "acl_6060", "sample_id": 329, "src_lang": "en", "tgt_lang": "pt", "output": "Por, ver cor ou deserto a to."}
+{"dataset_id": "acl_6060", "sample_id": 330, "src_lang": "en", "tgt_lang": "pt", "output": "Obrigada."}
+{"dataset_id": "acl_6060", "sample_id": 331, "src_lang": "en", "tgt_lang": "pt", "output": "Olá, meu nome- é um safari."}
+{"dataset_id": "acl_6060", "sample_id": 332, "src_lang": "en", "tgt_lang": "pt", "output": "Epresento o nosso artigo \"Fture enriqueamentoular de dados tabular usando arquitura de Transformers."}
+{"dataset_id": "acl_6060", "sample_id": 333, "src_lang": "en", "tgt_lang": "pt", "output": "Um cientista analiisa os dados e centra-se principalmente na manipulação das características existentes dos dados?"}
+{"dataset_id": "acl_6060", "sample_id": 334, "src_lang": "en", "tgt_lang": "pt", "output": "Mas às vezes estas características são limitadas."}
+{"dataset_id": "acl_6060", "sample_id": 335, "src_lang": "en", "tgt_lang": "pt", "output": "A geração de característica usando uma outra font de dados pode adicionar informações substancial."}
+{"dataset_id": "acl_6060", "sample_id": 336, "src_lang": "en", "tgt_lang": "pt", "output": "O nosso objetivo de pesquisação é en autom de dados tabularática usando texto livre dees externas."}
+{"dataset_id": "acl_6060", "sample_id": 337, "src_lang": "en", "tgt_lang": "pt", "output": "Suponham que temos um conjunto de dados tabular e uma base de conhecimento."}
+{"dataset_id": "acl_6060", "sample_id": 338, "src_lang": "en", "tgt_lang": "pt", "output": "Precisamos de um processo automático que envolve ligação e análise de texto texto para extrair novas características do texto gratuit base pelo conhecimento."}
+{"dataset_id": "acl_6060", "sample_id": 339, "src_lang": "en", "tgt_lang": "pt", "output": "O nosso estrutura, primeiro, é exatamente este processo automático."}
+{"dataset_id": "acl_6060", "sample_id": 340, "src_lang": "en", "tgt_lang": "pt", "output": "Vamosga um exemplo em conjuntos de dados alimentdos no F."}
+{"dataset_id": "acl_6060", "sample_id": 341, "src_lang": "en", "tgt_lang": "pt", "output": "Neste exemplo, o conjunto de dados é o conjunto dados da  Universidade."}
+{"dataset_id": "acl_6060", "sample_id": 342, "src_lang": "en", "tgt_lang": "pt", "output": "O seu objetivo é classificar as universidades em universidades de baixo nível e universidades de alto nível."}
+{"dataset_id": "acl_6060", "sample_id": 343, "src_lang": "en", "tgt_lang": "pt", "output": "Como base de conhecimento, usamos a Wikipedia."}
+{"dataset_id": "acl_6060", "sample_id": 344, "src_lang": "en", "tgt_lang": "pt", "output": "A primeira fase da fé é a ligação de entidadidade."}
+{"dataset_id": "acl_6060", "sample_id": 345, "src_lang": "en", "tgt_lang": "pt", "output": "Quando cada entidade, neste exemplo, o nome da universidadite, está ligada a uma entidade dentro da base de conhecimento."}
+{"dataset_id": "acl_6060", "sample_id": 346, "src_lang": "en", "tgt_lang": "pt", "output": "E o texto das entidades da base de conhecimento é extraído e adicionado ao conjunto de dados."}
+{"dataset_id": "acl_6060", "sample_id": 347, "src_lang": "en", "tgt_lang": "pt", "output": "Neste exemplo, o texto é ostra página da Wikipedia."}
+{"dataset_id": "acl_6060", "sample_id": 348, "src_lang": "en", "tgt_lang": "pt", "output": "Agora precisamos de gerar ou extrair características do texto retrievedo."}
+{"dataset_id": "acl_6060", "sample_id": 349, "src_lang": "en", "tgt_lang": "pt", "output": "Port, precisamosamos de uma fase de extração de característica que inclua a análise de texto."}
+{"dataset_id": "acl_6060", "sample_id": 350, "src_lang": "en", "tgt_lang": "pt", "output": "Esta é a novidade deste artigo, e voufund nel nos próximos slides."}
+{"dataset_id": "acl_6060", "sample_id": 351, "src_lang": "en", "tgt_lang": "pt", "output": "Depois da fase de extração características, há uma fase de geração quando que usamos as características extraídas para gerar um pequeno número de novas características."}
+{"dataset_id": "acl_6060", "sample_id": 352, "src_lang": "en", "tgt_lang": "pt", "output": "Primeiro, gerarem características no número de classes do conjunto de dados original."}
+{"dataset_id": "acl_6060", "sample_id": 353, "src_lang": "en", "tgt_lang": "pt", "output": "Neste exemplo, o conjunto de dados original tem duas classes."}
+{"dataset_id": "acl_6060", "sample_id": 354, "src_lang": "en", "tgt_lang": "pt", "output": "Então primeiro gerar duas novas características."}
+{"dataset_id": "acl_6060", "sample_id": 355, "src_lang": "en", "tgt_lang": "pt", "output": "Mas se o conjunto de dados tem cinco classes, primeiro gerarem cinco novas características."}
+{"dataset_id": "acl_6060", "sample_id": 356, "src_lang": "en", "tgt_lang": "pt", "output": "Cada característica representa a probabilidade de cada classe."}
+{"dataset_id": "acl_6060", "sample_id": 357, "src_lang": "en", "tgt_lang": "pt", "output": "Para analisar o texto, usamos o estado atual da análise for do texto, que são modelos de linguagem baseada de transformaador como Ba, GPT, X e Ls etc."}
+{"dataset_id": "acl_6060", "sample_id": 358, "src_lang": "en", "tgt_lang": "pt", "output": "Mas não é provável que possamos treinar o modelo de linguagem usando os conjuntos de dados de entrada."}
+{"dataset_id": "acl_6060", "sample_id": 359, "src_lang": "en", "tgt_lang": "pt", "output": ", uma abordagem inua será umaação de tare object."}
+{"dataset_id": "acl_6060", "sample_id": 360, "src_lang": "en", "tgt_lang": "pt", "output": ", na fase de extração futur, podemos descarr o modelo de linguagem pre-trainino,izar o modelo de linguagem sobre o conjunto de dados de alvo."}
+{"dataset_id": "acl_6060", "sample_id": 361, "src_lang": "en", "tgt_lang": "pt", "output": "Neste exemplo, para o modelo de linguagem, classificar o texto em classes abstratas em classes baixos ou altas."}
+{"dataset_id": "acl_6060", "sample_id": 362, "src_lang": "en", "tgt_lang": "pt", "output": "Receem o resultado do modelo de linguagem, que é a probabilidade de cada classe, e us-las como novas características."}
+{"dataset_id": "acl_6060", "sample_id": 363, "src_lang": "en", "tgt_lang": "pt", "output": "O problema com esta abordagem é que os conjunto de de dados podem ter algumas textos de entidades."}
+{"dataset_id": "acl_6060", "sample_id": 364, "src_lang": "en", "tgt_lang": "pt", "output": "Na nossa experiência, quase metade dos conjuntos de dados contém menos de 400 amostras, e o conjunto de dados mais contém 35 amostras no conjunto de tre."}
+{"dataset_id": "acl_6060", "sample_id": 365, "src_lang": "en", "tgt_lang": "pt", "output": "Port, ajustaizar um modelo de linguagem este conjunto de dados será ineficaz."}
+{"dataset_id": "acl_6060", "sample_id": 366, "src_lang": "en", "tgt_lang": "pt", "output": "Mas podemos usar conhecimento anterior sobre conjuntos de dados pré-anaalizados."}
+{"dataset_id": "acl_6060", "sample_id": 367, "src_lang": "en", "tgt_lang": "pt", "output": "Porque aplicamos rápido sobre um múltiplos conjunto de dados, podemos usar os conjuntos de dados N-1 para recolher informações sobre os conjuntos de dados N-1 e usar esta informação quando analisamos o conjunto de dados NS."}
+{"dataset_id": "acl_6060", "sample_id": 368, "src_lang": "en", "tgt_lang": "pt", "output": "sugerimos é adicionar outra fase deção."}
+{"dataset_id": "acl_6060", "sample_id": 369, "src_lang": "en", "tgt_lang": "pt", "output": "Uma fase preliminar."}
+{"dataset_id": "acl_6060", "sample_id": 370, "src_lang": "en", "tgt_lang": "pt", "output": "Quando encontramosmos fazer o modelo de linguagem sobre conjuntos de dados de1,"}
+{"dataset_id": "acl_6060", "sample_id": 371, "src_lang": "en", "tgt_lang": "pt", "output": "De depoisis executamos outra faseção, que é umaação quandomos o modelo de linguagem conjunto de dados meta."}
+{"dataset_id": "acl_6060", "sample_id": 372, "src_lang": "en", "tgt_lang": "pt", "output": "O estado emfa multittarefa chamada DNN vao."}
+{"dataset_id": "acl_6060", "sample_id": 373, "src_lang": "en", "tgt_lang": "pt", "output": "NoDNN va, o DNN va mantém caps no número de tarefas no conjunto de treino."}
+{"dataset_id": "acl_6060", "sample_id": 374, "src_lang": "en", "tgt_lang": "pt", "output": "Neste exemplo, há quatro tarefas no conjunto de trein. DNN vazia e mantém quatro cabeças, como podem ver na imagem."}
+{"dataset_id": "acl_6060", "sample_id": 375, "src_lang": "en", "tgt_lang": "pt", "output": "E amostra um barra aleatória do conjunto de treamento."}
+{"dataset_id": "acl_6060", "sample_id": 376, "src_lang": "en", "tgt_lang": "pt", "output": "Se a bat pertence a por exemplo, tarefas de classificação de sing e Sel, executam passos de frente e trás através da primeira cabeça."}
+{"dataset_id": "acl_6060", "sample_id": 377, "src_lang": "en", "tgt_lang": "pt", "output": "Se a pont aleatório pertence àtarefa ranking pare, a tarefa é atitudeda e passo trás através a última cabeça."}
+{"dataset_id": "acl_6060", "sample_id": 378, "src_lang": "en", "tgt_lang": "pt", "output": "No nosso cenário, uma conjunto tabela de conjuntos de dados varia no número de classes."}
+{"dataset_id": "acl_6060", "sample_id": 379, "src_lang": "en", "tgt_lang": "pt", "output": "H há muitas tarefas."}
+{"dataset_id": "acl_6060", "sample_id": 380, "src_lang": "en", "tgt_lang": "pt", "output": "MTDNN mantéu o número de classes,s, camadas de entrada."}
+{"dataset_id": "acl_6060", "sample_id": 381, "src_lang": "en", "tgt_lang": "pt", "output": "Alé disso, o ADN vazio precisa de iniciar novas cabeças para um novo conjunto de dados com uma nova tarefa."}
+{"dataset_id": "acl_6060", "sample_id": 382, "src_lang": "en", "tgt_lang": "pt", "output": "A nossa abordagem, chamada reformaulação tarefa, na nossa abordagem, de tarefa, em vez de manter múltip cabeças, reformulmos cada conjunto de dados numa frase por problema de classificação, que são duas tarefas de."}
+{"dataset_id": "acl_6060", "sample_id": 383, "src_lang": "en", "tgt_lang": "pt", "output": "Vamos ver um exemplo."}
+{"dataset_id": "acl_6060", "sample_id": 384, "src_lang": "en", "tgt_lang": "pt", "output": "Aqui é o nosso conjunto de dados de entrada que consiste em entidades, características, texto e classes."}
+{"dataset_id": "acl_6060", "sample_id": 385, "src_lang": "en", "tgt_lang": "pt", "output": "E reformulmos a tarefa de classificar o texto em baixo e alto para classificar o texto, o abstrato e a classe em verdade ou falso."}
+{"dataset_id": "acl_6060", "sample_id": 386, "src_lang": "en", "tgt_lang": "pt", "output": "Por outras palavras, treinmos o modelo de linguagem para classificar abstratos e classe abstratos em classe se os abstratos pertence à classe ou não."}
+{"dataset_id": "acl_6060", "sample_id": 387, "src_lang": "en", "tgt_lang": "pt", "output": "o vetor etique no caso de Zike, permanece sempre que consiste em duas classes."}
+{"dataset_id": "acl_6060", "sample_id": 388, "src_lang": "en", "tgt_lang": "pt", "output": "Este é o algoritmo para a nossa abordagem deção formulaulda."}
+{"dataset_id": "acl_6060", "sample_id": 389, "src_lang": "en", "tgt_lang": "pt", "output": "Vamos vamos ver o marco completo."}
+{"dataset_id": "acl_6060", "sample_id": 390, "src_lang": "en", "tgt_lang": "pt", "output": "Um conjunto de dados despress"}
+{"dataset_id": "acl_6060", "sample_id": 391, "src_lang": "en", "tgt_lang": "pt", "output": "Depois uma fase ligação entidad."}
+{"dataset_id": "acl_6060", "sample_id": 392, "src_lang": "en", "tgt_lang": "pt", "output": "Extrai o texto da base de conhecimento, que, neste exemplo, é o abstrato da página da Wikipedia."}
+{"dataset_id": "acl_6060", "sample_id": 393, "src_lang": "en", "tgt_lang": "pt", "output": "Depois reformulou a tarefa em tarefas de classificação de frase."}
+{"dataset_id": "acl_6060", "sample_id": 394, "src_lang": "en", "tgt_lang": "pt", "output": "Aliquem o modelo de linguagem à nova tarefa e a probabilidade de para cada classe."}
+{"dataset_id": "acl_6060", "sample_id": 395, "src_lang": "en", "tgt_lang": "pt", "output": "Notpareem que o modelo de linguagem é jádo sobre um conjunto de dados n- 1 usando uma preliminar de multitarefa."}
+{"dataset_id": "acl_6060", "sample_id": 396, "src_lang": "en", "tgt_lang": "pt", "output": "Depois usamos o vetor de entrada do modelo de linguagem como uma característica nova gerada no número de classes."}
+{"dataset_id": "acl_6060", "sample_id": 397, "src_lang": "en", "tgt_lang": "pt", "output": "Para avaliar o nosso quadro, usamos um conjunto de conjunto de classificação que variam tamanho, características, equibrio, domínio e desempenho inicial."}
+{"dataset_id": "acl_6060", "sample_id": 398, "src_lang": "en", "tgt_lang": "pt", "output": "E formas de conhecimento usamos a Wikipedia."}
+{"dataset_id": "acl_6060", "sample_id": 399, "src_lang": "en", "tgt_lang": "pt", "output": "cehamos a nossa experiência como avaliação quando treinamos rapidamente mais de 16 conjuntos de dados e aplicámo-la ao 17imo conjunto de dados."}
+{"dataset_id": "acl_6060", "sample_id": 400, "src_lang": "en", "tgt_lang": "pt", "output": "Também dividimos cada conjunto de dados em falsa e aplicamos uma cross-validação de falk."}
+{"dataset_id": "acl_6060", "sample_id": 401, "src_lang": "en", "tgt_lang": "pt", "output": "Depois geramos a nova características e evalumo-las usando cinco classificadores de avaliação."}
+{"dataset_id": "acl_6060", "sample_id": 402, "src_lang": "en", "tgt_lang": "pt", "output": "Usamos na nossa arqui arquitecttura baseada em  baseada a experiment."}
+{"dataset_id": "acl_6060", "sample_id": 403, "src_lang": "en", "tgt_lang": "pt", "output": "Estequi são os resultados da a nossa experiência."}
+{"dataset_id": "acl_6060", "sample_id": 404, "src_lang": "en", "tgt_lang": "pt", "output": "Podem ver que comparmos o nosso quadro com conjunto de dados,ização de tarefa e preliminarDN."}
+{"dataset_id": "acl_6060", "sample_id": 405, "src_lang": "en", "tgt_lang": "pt", "output": "E a nossação reformulada atingiram o melhor resultado, o melhor desempenho."}
+{"dataset_id": "acl_6060", "sample_id": 406, "src_lang": "en", "tgt_lang": "pt", "output": "Enbora tDNN atingiu melhoria2% sobre aação de conjunto,"}
+{"dataset_id": "acl_6060", "sample_id": 407, "src_lang": "en", "tgt_lang": "pt", "output": "O nosso ca conseguiuu  melhoria de."}
+{"dataset_id": "acl_6060", "sample_id": 408, "src_lang": "en", "tgt_lang": "pt", "output": "Quando olharmos no pequeno conjunto de dados, podemos ver que o desempenho da MTDNN diminu e a melhoração da fase preliminar de multittarefa diminu para 1,5 cento."}
+{"dataset_id": "acl_6060", "sample_id": 409, "src_lang": "en", "tgt_lang": "pt", "output": "Mas o nosso desempenho aumentou para 11% em comparação com a a tarefa."}
+{"dataset_id": "acl_6060", "sample_id": 410, "src_lang": "en", "tgt_lang": "pt", "output": "Para resumar, a rápida permite enriquecimento de tiro de combusível de 35 amostras na nossa experiência."}
+{"dataset_id": "acl_6060", "sample_id": 411, "src_lang": "en", "tgt_lang": "pt", "output": "Usa uma arquitetura para todos as conjuntos de dados de todas tarefas."}
+{"dataset_id": "acl_6060", "sample_id": 412, "src_lang": "en", "tgt_lang": "pt", "output": "E manté a cap do modelo."}
+{"dataset_id": "acl_6060", "sample_id": 413, "src_lang": "en", "tgt_lang": "pt", "output": "Mas acres a fase de reformulação."}
+{"dataset_id": "acl_6060", "sample_id": 414, "src_lang": "en", "tgt_lang": "pt", "output": "Para aumentarar o conjunto de e as necessidades, um valor de alvoivo com significado semântico, para podemos introduá-lo no modelo de linguagem e usá-lo na problema de por classificação."}
+{"dataset_id": "acl_6060", "sample_id": 415, "src_lang": "en", "tgt_lang": "pt", "output": "Obrigada."}

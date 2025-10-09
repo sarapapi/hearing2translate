@@ -1,0 +1,670 @@
+{"dataset_id": "mcif_v1.0", "sample_id": 0, "src_lang": "en", "tgt_lang": "zh", "output": "欢迎来到我们的D plane的演示,一个新的Corpus for German Text Identification在文档级别和句子级别上."}
+{"dataset_id": "mcif_v1.0", "sample_id": 1, "src_lang": "en", "tgt_lang": "zh", "output": "我的名字是雷吉娜斯托登,我会指导你进行演讲的第一部分"}
+{"dataset_id": "mcif_v1.0", "sample_id": 2, "src_lang": "en", "tgt_lang": "zh", "output": "文字简化是为特定目标群体(如读力问题或非原语者)改编文本以提高文本的理解的过程"}
+{"dataset_id": "mcif_v1.0", "sample_id": 3, "src_lang": "en", "tgt_lang": "zh", "output": "为了训练一个文本简化模型,我们需要对应的文本对,例如文档或句子"}
+{"dataset_id": "mcif_v1.0", "sample_id": 4, "src_lang": "en", "tgt_lang": "zh", "output": "在这个例子中,你可以看到一个复杂的德语句子和它翻译成普通语言的对应句子."}
+{"dataset_id": "mcif_v1.0", "sample_id": 5, "src_lang": "en", "tgt_lang": "zh", "output": "为了简化句子,可以使用不同的技术,如在例子中看到,例如词汇替代,句子删除,句子删除,重新排序或词的插入"}
+{"dataset_id": "mcif_v1.0", "sample_id": 6, "src_lang": "en", "tgt_lang": "zh", "output": "我们现在提出新的Corpus Dei平面,因为近年来,现有Corpora出现了一些问题,所以,例如,这些Corpora这里太小了,无法训练分类模型"}
+{"dataset_id": "mcif_v1.0", "sample_id": 7, "src_lang": "en", "tgt_lang": "zh", "output": "其他三种模型,在最近几年里都被自动调整,这意味着它们可能在调整中出现错误"}
+{"dataset_id": "mcif_v1.0", "sample_id": 8, "src_lang": "en", "tgt_lang": "zh", "output": "因此我们提议我们的新Corpus Dplane,它被分为两个子Corpora,Dplane A.P.A.和Dplane Web.Dplane A.P.A.是基于新闻文本的"}
+{"dataset_id": "mcif_v1.0", "sample_id": 9, "src_lang": "en", "tgt_lang": "zh", "output": "在Diplane APA中,我们手动对齐了483个文件,结果大约有3万3万个平行句子对"}
+{"dataset_id": "mcif_v1.0", "sample_id": 10, "src_lang": "en", "tgt_lang": "zh", "output": "对于D plane web,这个Corpus包括不同的域,我们也将所有这些750个文件,一方面手动调整,另一方面使用自动调整方法."}
+{"dataset_id": "mcif_v1.0", "sample_id": 11, "src_lang": "en", "tgt_lang": "zh", "output": "总共,我们结果是三万四百五十句句子"}
+{"dataset_id": "mcif_v1.0", "sample_id": 12, "src_lang": "en", "tgt_lang": "zh", "output": "我们分析了我们的句子比我们更有用,所以例如,在\"symbiosis\"的类型上."}
+{"dataset_id": "mcif_v1.0", "sample_id": 13, "src_lang": "en", "tgt_lang": "zh", "output": "正如我们所看到的,圣经文本比新闻文本或语言学习文本更简单"}
+{"dataset_id": "mcif_v1.0", "sample_id": 14, "src_lang": "en", "tgt_lang": "zh", "output": "在所有水平上, regarding for example, 结构化, 结构化, 结构化, 结构化, 结构化等级的水平."}
+{"dataset_id": "mcif_v1.0", "sample_id": 15, "src_lang": "en", "tgt_lang": "zh", "output": "进一步你能看到我们的Deepline corpus有高品种的不同化变换,所以例如在Deepline API corpus里我们有很多更改和字体添加,比我们在Deepline Web corpus里有"}
+{"dataset_id": "mcif_v1.0", "sample_id": 16, "src_lang": "en", "tgt_lang": "zh", "output": "另一方面,在网络体系中,我们有更多的重构."}
+{"dataset_id": "mcif_v1.0", "sample_id": 17, "src_lang": "en", "tgt_lang": "zh", "output": "让我们现在看我们能做什么这个 corpusHello, I am Omar and now I will talk about the use cases for our dataset D plane."}
+{"dataset_id": "mcif_v1.0", "sample_id": 18, "src_lang": "en", "tgt_lang": "zh", "output": "近年来,已经有很多对齐方法,但是在机器翻译的背景下"}
+{"dataset_id": "mcif_v1.0", "sample_id": 19, "src_lang": "en", "tgt_lang": "zh", "output": "我们有两个平行文档写在不同的语言中,我们想在文档中提取句子的对齐"}
+{"dataset_id": "mcif_v1.0", "sample_id": 20, "src_lang": "en", "tgt_lang": "zh", "output": "但在我们的用例中,我们试图提取两份并行文档的句子之间的对齐,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 21, "src_lang": "en", "tgt_lang": "zh", "output": "现在我们有个数据集D plane, 具有手动对齐的句子, 我们可以使用这些句子作为黄金标准对齐来评估一些拟议的对齐方法"}
+{"dataset_id": "mcif_v1.0", "sample_id": 22, "src_lang": "en", "tgt_lang": "zh", "output": "我们给了一些适应的拟议方法,我们已经发布了所有这些适应和代码来运行我们的实验在纸上."}
+{"dataset_id": "mcif_v1.0", "sample_id": 23, "src_lang": "en", "tgt_lang": "zh", "output": "在最后我们得出结论,最好的自动对齐方法是 Mass Align"}
+{"dataset_id": "mcif_v1.0", "sample_id": 24, "src_lang": "en", "tgt_lang": "zh", "output": "你还可以在纸上找到运行这个方法的代码"}
+{"dataset_id": "mcif_v1.0", "sample_id": 25, "src_lang": "en", "tgt_lang": "zh", "output": "第二个用例,我们在我们的论文中展示的是自动文本简化"}
+{"dataset_id": "mcif_v1.0", "sample_id": 26, "src_lang": "en", "tgt_lang": "zh", "output": "通过 fine tuning language models to produce simplified text from the complex input text"}
+{"dataset_id": "mcif_v1.0", "sample_id": 27, "src_lang": "en", "tgt_lang": "zh", "output": "我们有 fine tuned to different models 我们有 fine tuned the model of long in part to produce document level simplifications"}
+{"dataset_id": "mcif_v1.0", "sample_id": 28, "src_lang": "en", "tgt_lang": "zh", "output": "And we also fine-tune the normal base in part to produce sentence level simplifications."}
+{"dataset_id": "mcif_v1.0", "sample_id": 29, "src_lang": "en", "tgt_lang": "zh", "output": "你也可以找到所有的检查点,你可以查看更多细节,比如在论文中我们实验的评分和评估指标."}
+{"dataset_id": "mcif_v1.0", "sample_id": 30, "src_lang": "en", "tgt_lang": "zh", "output": "我们得出结论,这个基本的细调可以产生比基线得分更好的分数"}
+{"dataset_id": "mcif_v1.0", "sample_id": 31, "src_lang": "en", "tgt_lang": "zh", "output": "And we propose those results as a benchmark, a base benchmark for the problem of automatic text simplification in the future."}
+{"dataset_id": "mcif_v1.0", "sample_id": 32, "src_lang": "en", "tgt_lang": "zh", "output": "谢谢您这么多为您的注意和我们希望见到所有你在会议期间谢谢"}
+{"dataset_id": "mcif_v1.0", "sample_id": 33, "src_lang": "en", "tgt_lang": "zh", "output": "嗨,我的名字是亚当·斯皮尔科夫斯基,这个话是关于依赖结构的协调"}
+{"dataset_id": "mcif_v1.0", "sample_id": 34, "src_lang": "en", "tgt_lang": "zh", "output": "你可能知道不同的是不同结构的依赖结构由不同的理论和过程所构成的所以比如说在世界依赖的结构中是协调的结构是Lisa和Maggie的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 35, "src_lang": "en", "tgt_lang": "zh", "output": "是这样的,第一个结合体是整个核结构的头部,所以在这种情况下,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 36, "src_lang": "en", "tgt_lang": "zh", "output": "类似的方法在Igor Milchuk的理论中意味着,整个结构由第一个结构所构建,所以这些方法是相称的,所以它们是单一的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 37, "src_lang": "en", "tgt_lang": "zh", "output": "现在也同样对称的结构结构,比如说,The Prag approach,The Conjunction Headed Process,在三边形中,有三边形结构是由连接所带领的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 38, "src_lang": "en", "tgt_lang": "zh", "output": "所以我们得到一些依赖性从 end 到 all the contract"}
+{"dataset_id": "mcif_v1.0", "sample_id": 39, "src_lang": "en", "tgt_lang": "zh", "output": "并且最后这也是一个多重的方法 #ah #ah 那是用在例子中 #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #ah #"}
+{"dataset_id": "mcif_v1.0", "sample_id": 40, "src_lang": "en", "tgt_lang": "zh", "output": "所以说,所有行为都是由主的协调结构,所以我们得到依赖于从州长这里爱到所有行为的独立性"}
+{"dataset_id": "mcif_v1.0", "sample_id": 41, "src_lang": "en", "tgt_lang": "zh", "output": "现在这个论文的目的是为对称的协调结构和对不对称的协调结构做出一个新论点"}
+{"dataset_id": "mcif_v1.0", "sample_id": 42, "src_lang": "en", "tgt_lang": "zh", "output": "好的,这个论点是基于依赖性延伸最小化原理的,我将解释在这些例子的基础上"}
+{"dataset_id": "mcif_v1.0", "sample_id": 43, "src_lang": "en", "tgt_lang": "zh", "output": "所以在英语中,你可能不知道,直接的对象更喜欢靠近Word,而Action可能更远,所以Mach read yesterday is fine,因为直接的对象是Word."}
+{"dataset_id": "mcif_v1.0", "sample_id": 44, "src_lang": "en", "tgt_lang": "zh", "output": "虽然昨天读了很多,这很糟糕,因为这里,在 verb 和 direct object 之间,昨天就写了个字"}
+{"dataset_id": "mcif_v1.0", "sample_id": 45, "src_lang": "en", "tgt_lang": "zh", "output": "然而这个效果可能被改善了当当当直接对象是很重很长因为然后它可以被移动到位置之后的"}
+{"dataset_id": "mcif_v1.0", "sample_id": 46, "src_lang": "en", "tgt_lang": "zh", "output": "这就说明了这里,所以这两个句子都很好,马克·雷德这本书关于昨天的BBS的书非常有趣,好吧,但是我们有这段时间和P的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 47, "src_lang": "en", "tgt_lang": "zh", "output": "但也没关系说,Marge昨天读了这本关于蜜蜂的书"}
+{"dataset_id": "mcif_v1.0", "sample_id": 48, "src_lang": "en", "tgt_lang": "zh", "output": "所以这里的理由是这是可能的因为即使这句句违反了一般语法原则,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 49, "src_lang": "en", "tgt_lang": "zh", "output": "它满足了依赖性延伸的原则,它说,短的依赖性是优先的"}
+{"dataset_id": "mcif_v1.0", "sample_id": 50, "src_lang": "en", "tgt_lang": "zh", "output": "所以这两棵树只显示了关键依赖关系的长度,所以那些不是常见的结构"}
+{"dataset_id": "mcif_v1.0", "sample_id": 51, "src_lang": "en", "tgt_lang": "zh", "output": "所以这里我们有依赖从 red 到 the edge of seven的七度测量,从 red 到 book of four的 red,所以可以得到 eleven."}
+{"dataset_id": "mcif_v1.0", "sample_id": 52, "src_lang": "en", "tgt_lang": "zh", "output": "当你移动时,你把这两个构建的部分变成了六个,所以这两个构建的部分是六个,所以这两个构建的部分是六个,所以这两个构建的部分是六个,所以这两个构建的部分是六个,所以这两个构建的部分是六个,所以这两个构建的部分是六个,所以这两个构建的部分是六个,所以这两个构建的部分是六个."}
+{"dataset_id": "mcif_v1.0", "sample_id": 53, "src_lang": "en", "tgt_lang": "zh", "output": "好的,所以我们从关于协调的统计数据中提取出来的,从本文的增强版本中,我们看到为什么我们不使用大学依赖性."}
+{"dataset_id": "mcif_v1.0", "sample_id": 54, "src_lang": "en", "tgt_lang": "zh", "output": "而这些统计数据证实了观察的许多时候之前所做的观察, 左侧的结合往往会更短, 所以<unk>和<unk>和<unk>和<unk>和<unk>都被测量."}
+{"dataset_id": "mcif_v1.0", "sample_id": 55, "src_lang": "en", "tgt_lang": "zh", "output": "还有观察到,这也是在过去时发生的,这种趋势会随着长远的差异而增长"}
+{"dataset_id": "mcif_v1.0", "sample_id": 56, "src_lang": "en", "tgt_lang": "zh", "output": "所以当两者之间的差异在两者之间长大时, 短的结合会成为第一个强的, 所以比例是较大的左侧的结合."}
+{"dataset_id": "mcif_v1.0", "sample_id": 57, "src_lang": "en", "tgt_lang": "zh", "output": "但这篇论文的新鲜点是我们观察到这种趋势只有当州长在左边或缺席时才会发生"}
+{"dataset_id": "mcif_v1.0", "sample_id": 58, "src_lang": "en", "tgt_lang": "zh", "output": "右边的州长是左边的,在这个例子中,我看到巴特和丽莎,所以州长是左边的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 59, "src_lang": "en", "tgt_lang": "zh", "output": "在第二个例子中,我们有两个地方的协调,现在是外部的管理者,所以在这种情况下,左边的关系比较短,所以两者之间的差异更大."}
+{"dataset_id": "mcif_v1.0", "sample_id": 60, "src_lang": "en", "tgt_lang": "zh", "output": "然而,当政府在右边的这个地方管理协调时,这种效果就出现了."}
+{"dataset_id": "mcif_v1.0", "sample_id": 61, "src_lang": "en", "tgt_lang": "zh", "output": "所以我们显示了,通过测量字符中的长度,第一列在音节中,中列在字母中,所以我专注于正确的一列"}
+{"dataset_id": "mcif_v1.0", "sample_id": 62, "src_lang": "en", "tgt_lang": "zh", "output": "我们说这就是当当政府在左边"}
+{"dataset_id": "mcif_v1.0", "sample_id": 63, "src_lang": "en", "tgt_lang": "zh", "output": "左边的趋势要短,增长稳定,与绝对的差异在词语中,和同样是观察到,当没有州长,但当州长在右边,这种趋势就消失了"}
+{"dataset_id": "mcif_v1.0", "sample_id": 64, "src_lang": "en", "tgt_lang": "zh", "output": "我们在论文中展示了这如何提供一个论点反对不对称的协调结构,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 65, "src_lang": "en", "tgt_lang": "zh", "output": "所以看了这份文件, 文件的协议和意见, 对不起, 谈到我们关于邮政会议."}
+{"dataset_id": "mcif_v1.0", "sample_id": 66, "src_lang": "en", "tgt_lang": "zh", "output": "嗯,我是华盛顿大学博士生,今天我将我们的工作从语言模型到语言模型进行演示,跟踪政治的轨迹,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 67, "src_lang": "en", "tgt_lang": "zh", "output": "语言模型是通过大规模的网络数据来训练的"}
+{"dataset_id": "mcif_v1.0", "sample_id": 68, "src_lang": "en", "tgt_lang": "zh", "output": "政治新闻媒体在新闻培训中被覆盖,根据你对四部新闻的调查,你可以看纽约时报,洛杉矶时报,哈夫顿时报等,你可以在语言培训中学习."}
+{"dataset_id": "mcif_v1.0", "sample_id": 69, "src_lang": "en", "tgt_lang": "zh", "output": "这已经创建了 mixing blessing for language model 应用程序"}
+{"dataset_id": "mcif_v1.0", "sample_id": 70, "src_lang": "en", "tgt_lang": "zh", "output": "所以一方面他们可以从不同的角度来讲, 庆祝民主和自由的思想, 另一方面这些不同的政治观点是社会上的,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 71, "src_lang": "en", "tgt_lang": "zh", "output": "这次我们要研究政治传播的政治传播线从语言模型到下游的语言,特别是通过问下问题来调查."}
+{"dataset_id": "mcif_v1.0", "sample_id": 72, "src_lang": "en", "tgt_lang": "zh", "output": "首先,我们如何评估政治语言模型的政治倾向? 什么角色在政治偏见上?"}
+{"dataset_id": "mcif_v1.0", "sample_id": 73, "src_lang": "en", "tgt_lang": "zh", "output": "第二,如何用不同的语言模型来实现实际的演示功能,以及是否会使用NLP应用程序的效果."}
+{"dataset_id": "mcif_v1.0", "sample_id": 74, "src_lang": "en", "tgt_lang": "zh", "output": "所以具体来说我们首先要提出两个语言模型用不同的形式使用政治问题,比如政治测试,这就意味着自动评估在政治学上是必要的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 75, "src_lang": "en", "tgt_lang": "zh", "output": "所以一些初步结果表明,第一语言模型有不同的政治意义,它们占据了政治环境的四分之一"}
+{"dataset_id": "mcif_v1.0", "sample_id": 76, "src_lang": "en", "tgt_lang": "zh", "output": "我们也可以看到GPT4是最自由的语言模型,GPT理论通常更是社会自由的,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 77, "src_lang": "en", "tgt_lang": "zh", "output": "Secondly, we will investigate to which extent the political language models are actually picked up from learning data."}
+{"dataset_id": "mcif_v1.0", "sample_id": 78, "src_lang": "en", "tgt_lang": "zh", "output": "所以我们可以通过控制控制实验,通过更详细的语言测试点,在六个不同的公司和新闻和社交媒体中分开,分为政治和政治."}
+{"dataset_id": "mcif_v1.0", "sample_id": 79, "src_lang": "en", "tgt_lang": "zh", "output": "通过再培训语言模型和语言模型,我们可以说,我们可以说,语言模型理论的理论也很符合."}
+{"dataset_id": "mcif_v1.0", "sample_id": 80, "src_lang": "en", "tgt_lang": "zh", "output": "例如,对于罗伯特·费尔特 (Robert F. F. Feather) 和莱夫特·雷德 (Left Line Redemption) 的训练,我们可以看到一个实质的自由转换在它的方面."}
+{"dataset_id": "mcif_v1.0", "sample_id": 81, "src_lang": "en", "tgt_lang": "zh", "output": "在 terms of its political biases"}
+{"dataset_id": "mcif_v1.0", "sample_id": 82, "src_lang": "en", "tgt_lang": "zh", "output": "我们也想研究如何使用语言模型来检测波化,这在我们现代社会中很普遍"}
+{"dataset_id": "mcif_v1.0", "sample_id": 83, "src_lang": "en", "tgt_lang": "zh", "output": "所以我们分为四十五个美国总统和四十五个美国总统之后的两个国家, 我们分别在两个不同的语言模型上分为两个不同的语言."}
+{"dataset_id": "mcif_v1.0", "sample_id": 84, "src_lang": "en", "tgt_lang": "zh", "output": "我们可以说语言模型一般来说是政治的,那是从二十七年后从中间的,所以这意味着语言模型也可以把我们社会中的波动化."}
+{"dataset_id": "mcif_v1.0", "sample_id": 85, "src_lang": "en", "tgt_lang": "zh", "output": "所以不如不说我们用语言模型来评估不同政治的不同语音和语音检测和新闻检测, 两个应用程序可以使用语言模型,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 86, "src_lang": "en", "tgt_lang": "zh", "output": "So we say that if we investigate the per category performance that is to say if we separate the performance in two."}
+{"dataset_id": "mcif_v1.0", "sample_id": 87, "src_lang": "en", "tgt_lang": "zh", "output": "不同的地理学或政治媒体的新闻我们可以看到一个模式,比如说,为语音检测,左边语言模型是更好的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 88, "src_lang": "en", "tgt_lang": "zh", "output": "在检测仇恨言论针对社会上少数群体"}
+{"dataset_id": "mcif_v1.0", "sample_id": 89, "src_lang": "en", "tgt_lang": "zh", "output": "然而我们正在攻击仇恨言论, 针对我们社会中更有权力的群体."}
+{"dataset_id": "mcif_v1.0", "sample_id": 90, "src_lang": "en", "tgt_lang": "zh", "output": "和反而, 语言的写作模式是更好的, 针对白人和白人, 针对白人和白人, 针对LGBTQ+和其他少数群体."}
+{"dataset_id": "mcif_v1.0", "sample_id": 91, "src_lang": "en", "tgt_lang": "zh", "output": "类似的趋势也发生在新闻检测上,我们看到左边语言模型是从对面的政治信息和相反的信息中检测出来的更好"}
+{"dataset_id": "mcif_v1.0", "sample_id": 92, "src_lang": "en", "tgt_lang": "zh", "output": "这东西我们会看到多少个标准的例子来证明语言模型有不同的政治意义."}
+{"dataset_id": "mcif_v1.0", "sample_id": 93, "src_lang": "en", "tgt_lang": "zh", "output": "你给不同的预测给出不同的语音和信息示例在社会学上, 有很多例子在应用程序中,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 94, "src_lang": "en", "tgt_lang": "zh", "output": "这表明,有个公平问题,这非常紧迫,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 95, "src_lang": "en", "tgt_lang": "zh", "output": "例如如果是用语言模型来表达的话, 应该是可以找到任何信息, 并且可以通过社交媒体平台发布."}
+{"dataset_id": "mcif_v1.0", "sample_id": 96, "src_lang": "en", "tgt_lang": "zh", "output": "这意味着有相反政治观点的人可能会被边缘化, 针对少数群体的仇恨言论可能会在没有任何控制的情况下蔓延."}
+{"dataset_id": "mcif_v1.0", "sample_id": 97, "src_lang": "en", "tgt_lang": "zh", "output": "所以这就让人感到惊<unk>,因为你要了解和处理这些问题,因为这些问题是由语言模型政治学来解决的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 98, "src_lang": "en", "tgt_lang": "zh", "output": "所以在讨论的过程中我们也想让大家了解一下我们要解释一下关于语言政治的语言学的独特点,比如说在Cyberspace和Cyberspace之间."}
+{"dataset_id": "mcif_v1.0", "sample_id": 99, "src_lang": "en", "tgt_lang": "zh", "output": "所以如果我们不标准化政治意见和语言模型训练数据,那买家会从预训练数据传播到语言模型到下游任务,最终创造公平问题"}
+{"dataset_id": "mcif_v1.0", "sample_id": 100, "src_lang": "en", "tgt_lang": "zh", "output": "如果我们试着去分析一下, 我们也会发现一些限制或排除, 而且很难确定什么是实际的, 应该是用语言来监测数据, 所以这就像是电气电流问题."}
+{"dataset_id": "mcif_v1.0", "sample_id": 101, "src_lang": "en", "tgt_lang": "zh", "output": "好吧,很好,我认为这很适合我,我有一天有五天,谢谢你,谢谢你的时间."}
+{"dataset_id": "mcif_v1.0", "sample_id": 102, "src_lang": "en", "tgt_lang": "zh", "output": "一我和珍妮是第一届大学生,在大学里工作,我现在正在工作,我正在设计设计的模型"}
+{"dataset_id": "mcif_v1.0", "sample_id": 103, "src_lang": "en", "tgt_lang": "zh", "output": "这工作是与华盛顿大学和美国大学合作的, 特别是西巴提安·桑蒂, 罗纳德·拉布拉斯, 卡特琳娜·拉尼卡和马丁·萨普."}
+{"dataset_id": "mcif_v1.0", "sample_id": 104, "src_lang": "en", "tgt_lang": "zh", "output": "所以说你想想你为新闻工作在新闻评论和新闻文章中试图删除毒性内容"}
+{"dataset_id": "mcif_v1.0", "sample_id": 105, "src_lang": "en", "tgt_lang": "zh", "output": "你可能转向流行的APP,比如POPP检测的毒性检测,这确实很适合你,因为POPP可以检测出正确毒性."}
+{"dataset_id": "mcif_v1.0", "sample_id": 106, "src_lang": "en", "tgt_lang": "zh", "output": "但这不是真的那个案例阿迪特亚·沙玛, 我们认为PIP真的不是敏感的攻击性词,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 107, "src_lang": "en", "tgt_lang": "zh", "output": "这是一例设计的例子,我们看到系统性能技术之间的差异."}
+{"dataset_id": "mcif_v1.0", "sample_id": 108, "src_lang": "en", "tgt_lang": "zh", "output": "设计是像我们之前所说的那样, 基于研究和开发人员的地位, 设计是人们对人口统计, 身份和生活经验的看法."}
+{"dataset_id": "mcif_v1.0", "sample_id": 109, "src_lang": "en", "tgt_lang": "zh", "output": "这是一种在批判研究中广泛使用的概念, 特别是在女权主义和学术领域."}
+{"dataset_id": "mcif_v1.0", "sample_id": 110, "src_lang": "en", "tgt_lang": "zh", "output": "而作为研究人员, 位置性可以影响研究过程及其结果, 因为它可以改变研究人员做出的决定."}
+{"dataset_id": "mcif_v1.0", "sample_id": 111, "src_lang": "en", "tgt_lang": "zh", "output": "所以,一个问题人们可能会问的是,数据集和模型有没有定位性?"}
+{"dataset_id": "mcif_v1.0", "sample_id": 112, "src_lang": "en", "tgt_lang": "zh", "output": "我们不想说说那些模型和数据的样本有个体和生活经验,但他们可以把真实人的观点和看法结合起来,并可以代表其他人的立场."}
+{"dataset_id": "mcif_v1.0", "sample_id": 113, "src_lang": "en", "tgt_lang": "zh", "output": "所以Pray Worker 提出了一些有地位的有地位的证据,比如文化格和模型,以及数据的定义,以及模型定位的定义."}
+{"dataset_id": "mcif_v1.0", "sample_id": 114, "src_lang": "en", "tgt_lang": "zh", "output": "然而,这些作品真的不考虑将最终用户与数据集和模型本身进行比较"}
+{"dataset_id": "mcif_v1.0", "sample_id": 115, "src_lang": "en", "tgt_lang": "zh", "output": "学习模型和数据的定位是越来越重要的,因为NLP 测试变得更加有吸引力,而且是社会化的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 116, "src_lang": "en", "tgt_lang": "zh", "output": "描述这些位置性如何偏差是很挑战的,因为并非所有决策都被记录下来,而且许多模型都隐藏在 API 后面"}
+{"dataset_id": "mcif_v1.0", "sample_id": 117, "src_lang": "en", "tgt_lang": "zh", "output": "所以,为了研究数据集和模型定位, 我们实际上比较了与真实用户的用户与现有数据集和模型之间的比喻"}
+{"dataset_id": "mcif_v1.0", "sample_id": 118, "src_lang": "en", "tgt_lang": "zh", "output": "我们通过我们的框架NLpositionality"}
+{"dataset_id": "mcif_v1.0", "sample_id": 119, "src_lang": "en", "tgt_lang": "zh", "output": "我们的框架工作在两个主要步骤"}
+{"dataset_id": "mcif_v1.0", "sample_id": 120, "src_lang": "en", "tgt_lang": "zh", "output": "第一个步骤是用各种各样的注释器重新注释数据集"}
+{"dataset_id": "mcif_v1.0", "sample_id": 121, "src_lang": "en", "tgt_lang": "zh", "output": "我们可以通过看这边的统计数据来查看原来的数据数据的统计数据,因为通常只有一些统计数据,因为统计数据是被收集和共享的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 122, "src_lang": "en", "tgt_lang": "zh", "output": "所以我们选择重新编码数据,比如说有很多编码,并获得丰富的人口数据"}
+{"dataset_id": "mcif_v1.0", "sample_id": 123, "src_lang": "en", "tgt_lang": "zh", "output": "然后我们通过人口统计来比较这些标记,并将其与模型和数据集进行比较,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 124, "src_lang": "en", "tgt_lang": "zh", "output": "而那么我们的框架实际上是不同于Annotator Disagreement的,通过与用户的模型和数据集和数据表进行比较,比如说只看Annotator Agreement或Modeling #um 发行."}
+{"dataset_id": "mcif_v1.0", "sample_id": 125, "src_lang": "en", "tgt_lang": "zh", "output": "我们的框架是通过 Lab and Wild 实现的,这是一个在线群众搜索平台,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 126, "src_lang": "en", "tgt_lang": "zh", "output": "在世界是在线实验平台,我们可以利用各种各样的平台来进行测试,比如说来自印度的平台,以及来自印度的平台,可以获得高质量数据."}
+{"dataset_id": "mcif_v1.0", "sample_id": 127, "src_lang": "en", "tgt_lang": "zh", "output": "我们有两个测试在世界上,一个是社会可行性,而这个工作是从社会化学数据中了解情况,然后是如何社会可行性的情况."}
+{"dataset_id": "mcif_v1.0", "sample_id": 128, "src_lang": "en", "tgt_lang": "zh", "output": "之后,为了在研究中保持联系,他们可以比较他们的回应与AI和其他人"}
+{"dataset_id": "mcif_v1.0", "sample_id": 129, "src_lang": "en", "tgt_lang": "zh", "output": "然后我们将这些注释与社会化学德尔菲和GPT4进行比较"}
+{"dataset_id": "mcif_v1.0", "sample_id": 130, "src_lang": "en", "tgt_lang": "zh", "output": "我们还会对非常相似的对比进行对比, 针对毒性和语音检测测试, 我们会从DaniHate和Right from the Truth of Speech的语音测试中发现."}
+{"dataset_id": "mcif_v1.0", "sample_id": 131, "src_lang": "en", "tgt_lang": "zh", "output": "我们然后比较这些分析与Dina Hate,Perspective APP,Rewire APP,Hate RP,GPD,研究了六千多万个分析,从八十七个国家中发现了七千多个分析."}
+{"dataset_id": "mcif_v1.0", "sample_id": 132, "src_lang": "en", "tgt_lang": "zh", "output": "所以现在我们要准备好回答谁是NLP数据的模型,我们发现它具有NLP的定位."}
+{"dataset_id": "mcif_v1.0", "sample_id": 133, "src_lang": "en", "tgt_lang": "zh", "output": "例如,我们发现数据的大部分是英语国家,所以对于GPD四类社会适应性分析,我们发现它最适合英语国家和英语国家,我们发现英语国家也最适合英语国家."}
+{"dataset_id": "mcif_v1.0", "sample_id": 134, "src_lang": "en", "tgt_lang": "zh", "output": "我们也发现最多与有大学教育的人有联系的,所以在GPS四级社会化中,我们发现最多与大学教育或毕业生教育有关的人."}
+{"dataset_id": "mcif_v1.0", "sample_id": 135, "src_lang": "en", "tgt_lang": "zh", "output": "我们发现了同一个例子,它最适合大学教育的人们"}
+{"dataset_id": "mcif_v1.0", "sample_id": 136, "src_lang": "en", "tgt_lang": "zh", "output": "然而,当模型和数据集与特定群体相连时,有些人会被遗忘"}
+{"dataset_id": "mcif_v1.0", "sample_id": 137, "src_lang": "en", "tgt_lang": "zh", "output": "一个例子是数据是模型是比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比比"}
+{"dataset_id": "mcif_v1.0", "sample_id": 138, "src_lang": "en", "tgt_lang": "zh", "output": "所以,既然LED和LP中存在位置,我们能怎么办呢?"}
+{"dataset_id": "mcif_v1.0", "sample_id": 139, "src_lang": "en", "tgt_lang": "zh", "output": "所以我们有几个建议,这其中第一个是记录所有相关设计选择的过程,第二个是研究研究的过程,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 140, "src_lang": "en", "tgt_lang": "zh", "output": "我们的第三个建议是要建立专门的数据集和模型与特定的社区, 一个很好的例子是马萨克尼倡议, 我们想强调, 互联网是为所有人做工作的技术."}
+{"dataset_id": "mcif_v1.0", "sample_id": 141, "src_lang": "en", "tgt_lang": "zh", "output": "所以那就是这个演示,但如果你想多多看,你可以在免费的检查下,查看最新的分析结果和论文,谢谢你."}
+{"dataset_id": "mcif_v1.0", "sample_id": 142, "src_lang": "en", "tgt_lang": "zh", "output": "嗨,我是来自福建大学的C元,我来介绍我们的工作区分脚本知识从轻语言模型到限制语言规划"}
+{"dataset_id": "mcif_v1.0", "sample_id": 143, "src_lang": "en", "tgt_lang": "zh", "output": "在日常生活中,人类通常通过按照步骤的指示,以导向的脚本的形式计划他们的行动"}
+{"dataset_id": "mcif_v1.0", "sample_id": 144, "src_lang": "en", "tgt_lang": "zh", "output": "以前的工作利用语言模型来规划抽象的目标或刻板印象活动,如Make a Kick,并展示了大型语言模型可以有效地将目标分解成步骤"}
+{"dataset_id": "mcif_v1.0", "sample_id": 145, "src_lang": "en", "tgt_lang": "zh", "output": "然而,以前的工作主要集中在为刻板印象活动的抽象目标进行规划."}
+{"dataset_id": "mcif_v1.0", "sample_id": 146, "src_lang": "en", "tgt_lang": "zh", "output": "在这篇论文中,我们定义了限制语言规划的问题"}
+{"dataset_id": "mcif_v1.0", "sample_id": 147, "src_lang": "en", "tgt_lang": "zh", "output": "一个抽象的目标可以被不同的现实生活特定的目标所继承,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 148, "src_lang": "en", "tgt_lang": "zh", "output": "在这篇论文中,我们首先评估并改善了大语言模型限制语言规划能力."}
+{"dataset_id": "mcif_v1.0", "sample_id": 149, "src_lang": "en", "tgt_lang": "zh", "output": "没有任何特殊的目标存在,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 150, "src_lang": "en", "tgt_lang": "zh", "output": "我们必须先取得这些目标如表所示,我们将抽象目标扩展为多面制约,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 151, "src_lang": "en", "tgt_lang": "zh", "output": "我们采样了100个特定目标,并评估了从大型模型中生成的脚本."}
+{"dataset_id": "mcif_v1.0", "sample_id": 152, "src_lang": "en", "tgt_lang": "zh", "output": "这张表报告了结果的整体准确度我们发现所有线性模型在规划特定目标时都取得不满意的结果"}
+{"dataset_id": "mcif_v1.0", "sample_id": 153, "src_lang": "en", "tgt_lang": "zh", "output": "然后,我们进行详细的分析,调查地面模型为何."}
+{"dataset_id": "mcif_v1.0", "sample_id": 154, "src_lang": "en", "tgt_lang": "zh", "output": "数字中的结果显示,生成脚本中的基本完整性是可以接受的,但对限制的忠诚性不能保证."}
+{"dataset_id": "mcif_v1.0", "sample_id": 155, "src_lang": "en", "tgt_lang": "zh", "output": "我们挖进了更分级的主题类别的限制,取决于工作方式图中的头图显示,教学活动的规划表现对不同类别的女孩来说有相当大的差异"}
+{"dataset_id": "mcif_v1.0", "sample_id": 156, "src_lang": "en", "tgt_lang": "zh", "output": "以前的研究表明,Large Model的输出质量会下降,导致性能不佳因此,我们采用了过度生成过滤器的想法,以提高生成质量"}
+{"dataset_id": "mcif_v1.0", "sample_id": 157, "src_lang": "en", "tgt_lang": "zh", "output": "首先,我们要用例子来显示限制类型,然后根据所述的抽象目标来获得特定的目标."}
+{"dataset_id": "mcif_v1.0", "sample_id": 158, "src_lang": "en", "tgt_lang": "zh", "output": "然后,命令GPT为特定目标生成脚本."}
+{"dataset_id": "mcif_v1.0", "sample_id": 159, "src_lang": "en", "tgt_lang": "zh", "output": "接下来,开发了一个过<unk>模型来选择可视脚本."}
+{"dataset_id": "mcif_v1.0", "sample_id": 160, "src_lang": "en", "tgt_lang": "zh", "output": "我们将脚本和目标转换为引导GPT嵌入式,并计算共线相似性和相似度分数以测量语义相似度"}
+{"dataset_id": "mcif_v1.0", "sample_id": 161, "src_lang": "en", "tgt_lang": "zh", "output": "此外,我们还会避免包含目标约束的关键词的脚本."}
+{"dataset_id": "mcif_v1.0", "sample_id": 162, "src_lang": "en", "tgt_lang": "zh", "output": "我们的方法可以产生更高质量的曲线我们的方法大大提高了易于操作的程度,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 163, "src_lang": "en", "tgt_lang": "zh", "output": "由于大型语言模型的部署成本高,因此必须使语言规划能够建立更小和更专业的模型."}
+{"dataset_id": "mcif_v1.0", "sample_id": 164, "src_lang": "en", "tgt_lang": "zh", "output": "然而,以前的研究没有允许为特定目标进行规划,手动数据集注释是昂贵的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 165, "src_lang": "en", "tgt_lang": "zh", "output": "因此,我们遵循了象征知识蒸<unk>的理念,从大语言模型中蒸<unk>受限制的语言规划数据."}
+{"dataset_id": "mcif_v1.0", "sample_id": 166, "src_lang": "en", "tgt_lang": "zh", "output": "我们将规划我们的方法来构建一个数据集的受限制的语言规划, 叫做Codescript."}
+{"dataset_id": "mcif_v1.0", "sample_id": 167, "src_lang": "en", "tgt_lang": "zh", "output": "总共我们生成五万五千个特定的目标文本为了确保验证和测试的质量,我们要求众多工作者最终修改错误的样本"}
+{"dataset_id": "mcif_v1.0", "sample_id": 168, "src_lang": "en", "tgt_lang": "zh", "output": "这个数字显示了CosScript的约束分布我们发现CosScript显示了生成的特定目标的高度偏差用CosScript,我们可以选择较小但专门的模型来进行约束语言规划"}
+{"dataset_id": "mcif_v1.0", "sample_id": 169, "src_lang": "en", "tgt_lang": "zh", "output": "在FanZite的T-fileFanTuneUnclosed中,可以生成比大多数大型模块更优质的脚本,表明较小的模块可以在合适的数据站上正确训练时支持较大的模块."}
+{"dataset_id": "mcif_v1.0", "sample_id": 170, "src_lang": "en", "tgt_lang": "zh", "output": "总结,我们建立了约束语言规划问题我们评估了大语言模型的约束语言规划能力,并开发了过度生成的滤波方法,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 171, "src_lang": "en", "tgt_lang": "zh", "output": "我们使用大型语言模型来生成高质量的脚本数据集,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 172, "src_lang": "en", "tgt_lang": "zh", "output": "谢谢您的时间,请在我们的论文中找到更多关于科斯克里普特的细节."}
+{"dataset_id": "mcif_v1.0", "sample_id": 173, "src_lang": "en", "tgt_lang": "zh", "output": "大家好,我的名字是朱洪今天我要呈现我们的论文康奈尔2003命名实体标签在2023年还能很好地工作吗?"}
+{"dataset_id": "mcif_v1.0", "sample_id": 174, "src_lang": "en", "tgt_lang": "zh", "output": "我们的论文研究了使用命名实体识别任务或NER任务的概括问题."}
+{"dataset_id": "mcif_v1.0", "sample_id": 175, "src_lang": "en", "tgt_lang": "zh", "output": "我们观察到,模型已经使用 2003 年 Carver 开发 NER 已经近 20 年了这自然会引发一些问题首先,这些模型能否推广到现代数据中?"}
+{"dataset_id": "mcif_v1.0", "sample_id": 176, "src_lang": "en", "tgt_lang": "zh", "output": "当我们开发新标签时,需要什么来做好的概括?"}
+{"dataset_id": "mcif_v1.0", "sample_id": 177, "src_lang": "en", "tgt_lang": "zh", "output": "同时,如果我们确实观察到一般化不佳, 则这些模型的性能下降的原因是什么?"}
+{"dataset_id": "mcif_v1.0", "sample_id": 178, "src_lang": "en", "tgt_lang": "zh", "output": "为了调查这些问题,我们开发了Carnel+数据集这是我们从2020年从Reuters News收集的数据集,然后用同样的Carnel 2003注释指南注释它们"}
+{"dataset_id": "mcif_v1.0", "sample_id": 179, "src_lang": "en", "tgt_lang": "zh", "output": "然后我们对2003年康奈尔的20多个模型进行了精细调整,我们对它们进行了评估,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 180, "src_lang": "en", "tgt_lang": "zh", "output": "最后,我们计算了F1中的百分比变化,以评估每个模型的概括."}
+{"dataset_id": "mcif_v1.0", "sample_id": 181, "src_lang": "en", "tgt_lang": "zh", "output": "所以,什么是需要的?通过我们的实验,我们发现有三个主要的成分是需要的:"}
+{"dataset_id": "mcif_v1.0", "sample_id": 182, "src_lang": "en", "tgt_lang": "zh", "output": "首先是模型架构通过我们的实验,我们发现变压器模型通常可以更好地对新数据进行概括"}
+{"dataset_id": "mcif_v1.0", "sample_id": 183, "src_lang": "en", "tgt_lang": "zh", "output": "第二个成分是模型大小,我们发现通常较大的模型会导致更好的概括"}
+{"dataset_id": "mcif_v1.0", "sample_id": 184, "src_lang": "en", "tgt_lang": "zh", "output": "最后但不少,我们都知道细调示例的数量直接影响下游任务的性能"}
+{"dataset_id": "mcif_v1.0", "sample_id": 185, "src_lang": "en", "tgt_lang": "zh", "output": "接下来的问题是, 一些模型表现下降的原因是什么?"}
+{"dataset_id": "mcif_v1.0", "sample_id": 186, "src_lang": "en", "tgt_lang": "zh", "output": "我们有两个假设:第一种是适应过度适应,即通过重复使用同一组测试而引起的过度适应,这通常随着新组测试的减少而显现."}
+{"dataset_id": "mcif_v1.0", "sample_id": 187, "src_lang": "en", "tgt_lang": "zh", "output": "第二个假设是时间漂移,这是由于火车和测试数据之间的时间差距增加而导致的性能退化."}
+{"dataset_id": "mcif_v1.0", "sample_id": 188, "src_lang": "en", "tgt_lang": "zh", "output": "对于过度配合的应用,我们看到,从右边的图表,红色的最适合的线有一个比一大的梯度."}
+{"dataset_id": "mcif_v1.0", "sample_id": 189, "src_lang": "en", "tgt_lang": "zh", "output": "这意味着我们在Color 2003上做的每一个改进单位都翻译成Color+的多个改进单位,这意味着没有减少的回报"}
+{"dataset_id": "mcif_v1.0", "sample_id": 190, "src_lang": "en", "tgt_lang": "zh", "output": "这显示了在这种情况下不观察到适应过度适应"}
+{"dataset_id": "mcif_v1.0", "sample_id": 191, "src_lang": "en", "tgt_lang": "zh", "output": "那么温度呢"}
+{"dataset_id": "mcif_v1.0", "sample_id": 192, "src_lang": "en", "tgt_lang": "zh", "output": "我们进行了实验,以重新训练或继续预训练一些模型,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 193, "src_lang": "en", "tgt_lang": "zh", "output": "这证实了我们的假设, 性能下降的主要原因是时间漂移."}
+{"dataset_id": "mcif_v1.0", "sample_id": 194, "src_lang": "en", "tgt_lang": "zh", "output": "我们的结论是,为了良好的概括,我们需要更好的模型架构,更大的模型尺寸,以及更多的精细调整例子"}
+{"dataset_id": "mcif_v1.0", "sample_id": 195, "src_lang": "en", "tgt_lang": "zh", "output": "同时,我们还发现,性能下降是由于时间偏移造成的,而且令人惊<unk>的是,它不是由于适应过度配合造成的,即使Cornel 2003已经使用了20多年."}
+{"dataset_id": "mcif_v1.0", "sample_id": 196, "src_lang": "en", "tgt_lang": "zh", "output": "所以回到我们在论文的标题中提出的问题:Carnal 2003标签在2023年还能工作吗?我们发现答案是:"}
+{"dataset_id": "mcif_v1.0", "sample_id": 197, "src_lang": "en", "tgt_lang": "zh", "output": "我们希望我们的论文要求更多研究如何改善模型的一般化."}
+{"dataset_id": "mcif_v1.0", "sample_id": 198, "src_lang": "en", "tgt_lang": "zh", "output": "最后,请确保查看我们的论文,我们的数据集,如果您有任何问题,请随时联系我们."}
+{"dataset_id": "mcif_v1.0", "sample_id": 199, "src_lang": "en", "tgt_lang": "zh", "output": "Hi, I'm going to talk about our work on resolving indirect referring expressions for entity selection, in which we introduce the alt entities corpus"}
+{"dataset_id": "mcif_v1.0", "sample_id": 200, "src_lang": "en", "tgt_lang": "zh", "output": "我的名字是贾瓦德·侯赛尼,这是一项与菲利普·拉德林斯基,西尔维亚·帕雷蒂和安妮·托伊斯的联合工作"}
+{"dataset_id": "mcif_v1.0", "sample_id": 201, "src_lang": "en", "tgt_lang": "zh", "output": "我们的目标是理解用户的语言,当他们想做出选择时考虑这个替代问题你指的是 Easy on Me 还是 I Got a Feeling?"}
+{"dataset_id": "mcif_v1.0", "sample_id": 202, "src_lang": "en", "tgt_lang": "zh", "output": "最明显的事情是使用直接的引用,例如说这首歌的名字是关于我,或者它的位置,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 203, "src_lang": "en", "tgt_lang": "zh", "output": "但有时一个间接的引用是更合适的有更自然的对话这会发生当用户不能记得歌曲的名字"}
+{"dataset_id": "mcif_v1.0", "sample_id": 204, "src_lang": "en", "tgt_lang": "zh", "output": "所有发音都太相似了,很难辨别"}
+{"dataset_id": "mcif_v1.0", "sample_id": 205, "src_lang": "en", "tgt_lang": "zh", "output": "或者当 the user wants to specify a preference here are some examples of direct references for example the newer one or the song that's not energetic"}
+{"dataset_id": "mcif_v1.0", "sample_id": 206, "src_lang": "en", "tgt_lang": "zh", "output": "这在保护系统中是一个重要问题,也对于 benchmarking LLM 的实体理解."}
+{"dataset_id": "mcif_v1.0", "sample_id": 207, "src_lang": "en", "tgt_lang": "zh", "output": "We are not aware of a public data set, a large-scale public data set for the task, so we collect one using crowd computing. Our data set covers three different domains: music, books and"}
+{"dataset_id": "mcif_v1.0", "sample_id": 208, "src_lang": "en", "tgt_lang": "zh", "output": "我们的数据集收集方法强调了使用卡通完成集的非正式性"}
+{"dataset_id": "mcif_v1.0", "sample_id": 209, "src_lang": "en", "tgt_lang": "zh", "output": "在第一张泡<unk>中, <unk>勃说:\"记住我们昨天听过的歌曲\","}
+{"dataset_id": "mcif_v1.0", "sample_id": 210, "src_lang": "en", "tgt_lang": "zh", "output": "在第二个语音泡泡中,爱丽丝说:你说的是我容易还是我有一种感觉"}
+{"dataset_id": "mcif_v1.0", "sample_id": 211, "src_lang": "en", "tgt_lang": "zh", "output": "这是替代问题,在第三个语音泡泡中,Bob 用一个直接的引用来选择其中一个实体,例如新一代."}
+{"dataset_id": "mcif_v1.0", "sample_id": 212, "src_lang": "en", "tgt_lang": "zh", "output": "我们提供第一和第二语音泡沫自动,但第三个是填充的.第一语音泡沫是从几个手动提示中选择的"}
+{"dataset_id": "mcif_v1.0", "sample_id": 213, "src_lang": "en", "tgt_lang": "zh", "output": "第二个是替代问题,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 214, "src_lang": "en", "tgt_lang": "zh", "output": "我们总是用一个简单的模板你指A还是B?A和B是维基百科的样本"}
+{"dataset_id": "mcif_v1.0", "sample_id": 215, "src_lang": "en", "tgt_lang": "zh", "output": "这里是我们使用的不同采样方法,当我们移动到列表中更高的时候,实体变得更相似,通常更难做出相同的方法"}
+{"dataset_id": "mcif_v1.0", "sample_id": 216, "src_lang": "en", "tgt_lang": "zh", "output": "第一个是统一的"}
+{"dataset_id": "mcif_v1.0", "sample_id": 217, "src_lang": "en", "tgt_lang": "zh", "output": "第二个是当实体有相似的标题,例如两本书,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 218, "src_lang": "en", "tgt_lang": "zh", "output": "第三个是当他们有类似的描述在维基百科,最后当他们有类似的infoboxes或属性在维基百科,例如同一个类型或同一个艺术家,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 219, "src_lang": "en", "tgt_lang": "zh", "output": "当我们展示这个替代问题时,他们知道这些实体的名字,但他们并不一定知道这些实体的名称."}
+{"dataset_id": "mcif_v1.0", "sample_id": 220, "src_lang": "en", "tgt_lang": "zh", "output": "所以我们做的是我们显示一些背景知识关于20s.For some, we simply show a Google search link to each song"}
+{"dataset_id": "mcif_v1.0", "sample_id": 221, "src_lang": "en", "tgt_lang": "zh", "output": "然后问注释者听至少一些歌曲,并阅读关于每个歌曲这里是例如谷歌搜索结果为歌曲Easier"}
+{"dataset_id": "mcif_v1.0", "sample_id": 222, "src_lang": "en", "tgt_lang": "zh", "output": "对于食谱和书域,我们显示一些来自维基百科的背景文本对于食谱,我们还显示了来自维基百科的图像,以便注释者知道它们是什么样子的"}
+{"dataset_id": "mcif_v1.0", "sample_id": 223, "src_lang": "en", "tgt_lang": "zh", "output": "然后我们要求保证者挑选一个实体,比如第一个,并使用三到五个间接的引用表达式来描述它们"}
+{"dataset_id": "mcif_v1.0", "sample_id": 224, "src_lang": "en", "tgt_lang": "zh", "output": "譬如The One with the Piano Music"}
+{"dataset_id": "mcif_v1.0", "sample_id": 225, "src_lang": "en", "tgt_lang": "zh", "output": "The Identities corpus has six thousand alternative questions across three domains and it has forty two thousand indirect referring expressions"}
+{"dataset_id": "mcif_v1.0", "sample_id": 226, "src_lang": "en", "tgt_lang": "zh", "output": "如果语言模型有访问到同一个背景知识的准确度,那么准确度是真的高,大约是九百二十五百分点,但这不是现实的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 227, "src_lang": "en", "tgt_lang": "zh", "output": "如果语言模型有访问到一些部分地覆盖的背景知识,那么准确度是八十二到八十七%之间,这更是现实的,比如说语言模型恢复了背景知识."}
+{"dataset_id": "mcif_v1.0", "sample_id": 228, "src_lang": "en", "tgt_lang": "zh", "output": "如果语言模型只有访问到实体名称,那么准确度只有60%,所以有很多改进的空间我们也显示了模型是通用化的这里是链接到我们的数据集,谢谢"}
+{"dataset_id": "mcif_v1.0", "sample_id": 229, "src_lang": "en", "tgt_lang": "zh", "output": "嗨,我是来自特伦托大学和布鲁诺·凯斯勒基金会的塞拉·帕皮,我将简短地介绍一下关于同时翻译演讲的指南,这是马特奥·内格里和马可·图尔基的联合工作"}
+{"dataset_id": "mcif_v1.0", "sample_id": 230, "src_lang": "en", "tgt_lang": "zh", "output": "什么是同时语音翻译? 同时语音翻译或SIMULASD是将口语翻译成其他语言的文本的过程,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 231, "src_lang": "en", "tgt_lang": "zh", "output": "What are the problems of the current simulation models? 具体的架构通常是训练引入额外的模块来进行优化"}
+{"dataset_id": "mcif_v1.0", "sample_id": 232, "src_lang": "en", "tgt_lang": "zh", "output": "长期复杂的训练程序,例如训练涉及不同的优化目标"}
+{"dataset_id": "mcif_v1.0", "sample_id": 233, "src_lang": "en", "tgt_lang": "zh", "output": "训练和维护几个模型来实现不同的延迟模式,例如训练一个模型中的一秒钟的延迟,另一个是两秒钟的延迟,等等."}
+{"dataset_id": "mcif_v1.0", "sample_id": 234, "src_lang": "en", "tgt_lang": "zh", "output": "so what is our solution?"}
+{"dataset_id": "mcif_v1.0", "sample_id": 235, "src_lang": "en", "tgt_lang": "zh", "output": "First to use already existing offline STS models without retreading or adopting specific architecture for simplicity. use only one model for every latency regime and handle latency through specific parameters."}
+{"dataset_id": "mcif_v1.0", "sample_id": 236, "src_lang": "en", "tgt_lang": "zh", "output": "并且可以通过音频输入和音频输出之间的音频传输机制来了解,你可以看到一个例子."}
+{"dataset_id": "mcif_v1.0", "sample_id": 237, "src_lang": "en", "tgt_lang": "zh", "output": "我们的解决方案是提出(或)编码(或)编码(或)编码(或)编码(或)编码(或)编码(或)编码(或)编码(或)编码(或)编码(或)编码(或)编码(或)编码(或)编码(或)编码(或)编码(或)编码(或)编码(或)编码(或)编码(或)编码(或)编码(或)编码)"}
+{"dataset_id": "mcif_v1.0", "sample_id": 238, "src_lang": "en", "tgt_lang": "zh", "output": "如果压力不集中,即其总量低于一定的α,对应于Last Lambda语音框架,这意味着接收的信息是足够稳定的"}
+{"dataset_id": "mcif_v1.0", "sample_id": 239, "src_lang": "en", "tgt_lang": "zh", "output": "例如如果我们收到一张包含I'm going to talk about的演讲片,我们的模型预测了德语翻译"}
+{"dataset_id": "mcif_v1.0", "sample_id": 240, "src_lang": "en", "tgt_lang": "zh", "output": "我们会看到跨关紧张的"}
+{"dataset_id": "mcif_v1.0", "sample_id": 241, "src_lang": "en", "tgt_lang": "zh", "output": "我们会看到,前两个字指向最早接收的语音框架,而最后一个字指向最早接收的语音框架,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 242, "src_lang": "en", "tgt_lang": "zh", "output": "这意味着,第一两个字会被发出"}
+{"dataset_id": "mcif_v1.0", "sample_id": 243, "src_lang": "en", "tgt_lang": "zh", "output": "虽然由于Crossed Pension的总和高于一定的Alpha, 我们不会发出最后的词,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 244, "src_lang": "en", "tgt_lang": "zh", "output": "如果我们继续,我们会收到另一个语音箱,我们的模型预测另外三个字,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 245, "src_lang": "en", "tgt_lang": "zh", "output": "我们会看到没有单词指向了最后的兰德斯语音框架"}
+{"dataset_id": "mcif_v1.0", "sample_id": 246, "src_lang": "en", "tgt_lang": "zh", "output": "这意味着这三句话会被发出"}
+{"dataset_id": "mcif_v1.0", "sample_id": 247, "src_lang": "en", "tgt_lang": "zh", "output": "如果我们看了那点的结果"}
+{"dataset_id": "mcif_v1.0", "sample_id": 248, "src_lang": "en", "tgt_lang": "zh", "output": "我们将同时翻译结果图表上,其中我们有蓝色在一侧,测量翻译质量和平均"}
+{"dataset_id": "mcif_v1.0", "sample_id": 249, "src_lang": "en", "tgt_lang": "zh", "output": "那是延迟度量,我们也考虑了计算的平均缺陷,这会为模型计算时间来预测输出"}
+{"dataset_id": "mcif_v1.0", "sample_id": 250, "src_lang": "en", "tgt_lang": "zh", "output": "所以我们想我们的QUEERS要是As High As Possible on this plot"}
+{"dataset_id": "mcif_v1.0", "sample_id": 251, "src_lang": "en", "tgt_lang": "zh", "output": "但我们也希望它们在左边转移"}
+{"dataset_id": "mcif_v1.0", "sample_id": 252, "src_lang": "en", "tgt_lang": "zh", "output": "我们比较了正确的策略,也适用于离线模式,比如WitKey的策略和本地协议,我们还比较了专门为同时翻译的艺术架构的状态"}
+{"dataset_id": "mcif_v1.0", "sample_id": 253, "src_lang": "en", "tgt_lang": "zh", "output": "这都是所有结果的同时翻译战略在德国"}
+{"dataset_id": "mcif_v1.0", "sample_id": 254, "src_lang": "en", "tgt_lang": "zh", "output": "我们看到,Adapt 超过了所有用于线下模型的策略,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 255, "src_lang": "en", "tgt_lang": "zh", "output": "And we also see that if we consider the actual time or the computational time that is the fastest strategy"}
+{"dataset_id": "mcif_v1.0", "sample_id": 256, "src_lang": "en", "tgt_lang": "zh", "output": "如果你想发现更多结果,请阅读我们的论文,我们还发布了开源代码和模型的模板,以促进我们工作的可重复性.谢谢你的关注"}
+{"dataset_id": "mcif_v1.0", "sample_id": 257, "src_lang": "en", "tgt_lang": "zh", "output": "Hello everyone, my name is Ying and my colleague Ji Yong and I will be presenting our research on multi-instructor, improving multi-modal social learning via instruction tuning."}
+{"dataset_id": "mcif_v1.0", "sample_id": 258, "src_lang": "en", "tgt_lang": "zh", "output": "所以随着大语言模型的进步,许多作品开始探索新的学习模式,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 259, "src_lang": "en", "tgt_lang": "zh", "output": "最近,许多研究表明,指令调制使大型语言模型能够通过遵循自然指令,以彻底的方式执行看不见的任务."}
+{"dataset_id": "mcif_v1.0", "sample_id": 260, "src_lang": "en", "tgt_lang": "zh", "output": "然而,在指令调节方面的大部分以前的工作都集中在改善语言任务的零度性能上,而计算机视觉和多模任务则被忽略了."}
+{"dataset_id": "mcif_v1.0", "sample_id": 261, "src_lang": "en", "tgt_lang": "zh", "output": "因此,在这项工作中,我们想调查是否在多模拟模型中进行指令调整可以改善通用化,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 262, "src_lang": "en", "tgt_lang": "zh", "output": "此外,在我们的研究期间,我们发现了在LPD和多模数据集的可用性中存在着相当大的差异"}
+{"dataset_id": "mcif_v1.0", "sample_id": 263, "src_lang": "en", "tgt_lang": "zh", "output": "有超过一千六百个语言的单独指令任务,但是没有大规模的公共可用多模指令任务,因此这激励我们建立一个多模指令调试数据集"}
+{"dataset_id": "mcif_v1.0", "sample_id": 264, "src_lang": "en", "tgt_lang": "zh", "output": "这里我们介绍了MultiInstructor,第一套多模指令调试标准数据集,它由62个多模任务组成,涵盖了10个多类"}
+{"dataset_id": "mcif_v1.0", "sample_id": 265, "src_lang": "en", "tgt_lang": "zh", "output": "这些任务是从21个现有的开源数据集中衍生出来的,每个任务都配备了五个扩展指令"}
+{"dataset_id": "mcif_v1.0", "sample_id": 266, "src_lang": "en", "tgt_lang": "zh", "output": "调查多模式指令调整我们的数据集,我们用OFA(Unified Multimodal Portrait Model)作为我们的基础模型OFA(Unified Vocabulary for Language, Image Tokens and Coordinates of a Bounding Box)"}
+{"dataset_id": "mcif_v1.0", "sample_id": 267, "src_lang": "en", "tgt_lang": "zh", "output": "这里我们展示了一些从我们的多重数据集中示例的实例"}
+{"dataset_id": "mcif_v1.0", "sample_id": 268, "src_lang": "en", "tgt_lang": "zh", "output": "统一各种输入和输出数据类型的处理"}
+{"dataset_id": "mcif_v1.0", "sample_id": 269, "src_lang": "en", "tgt_lang": "zh", "output": "我们遵循OFA的方法,并以统一的序列到序列格式制定所有任务,其中输入文本,图像,指令和界限盒在相同的符号空间中表示."}
+{"dataset_id": "mcif_v1.0", "sample_id": 270, "src_lang": "en", "tgt_lang": "zh", "output": "Okay now I'm gonna talk about multimodal instruction tuning"}
+{"dataset_id": "mcif_v1.0", "sample_id": 271, "src_lang": "en", "tgt_lang": "zh", "output": "所以为训练数据集我们使用53个任务从9组的训练,我们样本10000个任务,我们保留了整个共识组的测试,我们选择了5个任务从VQ和Mixellanes组"}
+{"dataset_id": "mcif_v1.0", "sample_id": 272, "src_lang": "en", "tgt_lang": "zh", "output": "我们使用所有在测试中测试的每个任务,另外我们从测试的自然指令中随机抽取测试的样本,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 273, "src_lang": "en", "tgt_lang": "zh", "output": "所以我们用预训练的OFA大模型作为基础模型在训练期间我们混合了所有实例为所有任务每个实例是随机结合的与五个指令模板之一"}
+{"dataset_id": "mcif_v1.0", "sample_id": 274, "src_lang": "en", "tgt_lang": "zh", "output": "所以在测试中,我们对每个任务进行总共五个实验,通过使用每个实验中的五个指令中的一个来评估模型"}
+{"dataset_id": "mcif_v1.0", "sample_id": 275, "src_lang": "en", "tgt_lang": "zh", "output": "我们报告了所有五个实验的平均和最大性能以及性能的标准化"}
+{"dataset_id": "mcif_v1.0", "sample_id": 276, "src_lang": "en", "tgt_lang": "zh", "output": "如果任务是多模分类任务我们报告准确性如果是多模生成任务我们报告RUGL"}
+{"dataset_id": "mcif_v1.0", "sample_id": 277, "src_lang": "en", "tgt_lang": "zh", "output": "我们还引入了额外的评估指标叫做Sensitivity,这样测量模型能够一致地为同一任务产生相同的输出,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 278, "src_lang": "en", "tgt_lang": "zh", "output": "这是我们的主要结果,我们可以看到,指令调整可以显著提高OS的性能,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 279, "src_lang": "en", "tgt_lang": "zh", "output": "也从自然指令数据集转换学习可以受益指令调制"}
+{"dataset_id": "mcif_v1.0", "sample_id": 280, "src_lang": "en", "tgt_lang": "zh", "output": "这里我们可以看到当任务量增加时,模型实现更好的性能,在那期间,敏感度降低"}
+{"dataset_id": "mcif_v1.0", "sample_id": 281, "src_lang": "en", "tgt_lang": "zh", "output": "所以我们也做过一个实验,我们用一指令对比五指令,因为我们可以看到,使用多指令可以改善模型整体性能,并降低它的敏感度"}
+{"dataset_id": "mcif_v1.0", "sample_id": 282, "src_lang": "en", "tgt_lang": "zh", "output": "这显示了不同方针对模型敏感度的影响,我们可以看到,通过从自然指示数据集中转学,模型可以实现比原来的OFA模型更好的敏感度"}
+{"dataset_id": "mcif_v1.0", "sample_id": 283, "src_lang": "en", "tgt_lang": "zh", "output": "我们还可以看到从Nature Instruction 数据集转学可以帮助OFA在Nature Instruction 数据集上取得更好的表现"}
+{"dataset_id": "mcif_v1.0", "sample_id": 284, "src_lang": "en", "tgt_lang": "zh", "output": "所以总的来说我们提出了第一大规模多模导入数据集,我们有意改善OIF的短暂能力,我们探索不同的转换学习技术,并展示它们的好处我们设计了一个新的指标,叫做敏感度"}
+{"dataset_id": "mcif_v1.0", "sample_id": 285, "src_lang": "en", "tgt_lang": "zh", "output": "还有一个问题我们正在收集一个更大的多模指示调节数据集, 包含大约150个额外的语言任务,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 286, "src_lang": "en", "tgt_lang": "zh", "output": "大家好,我是科斯托夫·塞纳,我很高兴欢迎您来讲我们的ACL2023论文语言模型可接受性判断并不总是稳定的"}
+{"dataset_id": "mcif_v1.0", "sample_id": 287, "src_lang": "en", "tgt_lang": "zh", "output": "这是约翰·高蒂尔,亚伦·穆勒,卡尼什卡·米什拉,卡伦·富恩特斯,罗杰·莱维和阿迪娜·威廉姆斯的联合作品."}
+{"dataset_id": "mcif_v1.0", "sample_id": 288, "src_lang": "en", "tgt_lang": "zh", "output": "所以在这个工作中我们重视最小对的范式"}
+{"dataset_id": "mcif_v1.0", "sample_id": 289, "src_lang": "en", "tgt_lang": "zh", "output": "所以最小对比模式基本上是评估语言模型,在接受性判断的顶部,这也包括语法性,比如语法,语法,或者在刻板印象的方面,比如说群组."}
+{"dataset_id": "mcif_v1.0", "sample_id": 290, "src_lang": "en", "tgt_lang": "zh", "output": "在这个最小范式中,典型的方法是用语言模型来评估,你会显示一个可接受的句子,一个语法句子,然后你会显示一个不可接受的句子,或者一个不合格的句子"}
+{"dataset_id": "mcif_v1.0", "sample_id": 291, "src_lang": "en", "tgt_lang": "zh", "output": "然后希望模型基本上会给可接受的设置带来更多的概率"}
+{"dataset_id": "mcif_v1.0", "sample_id": 292, "src_lang": "en", "tgt_lang": "zh", "output": "目前的MPP管道基本上不允许我们评估模型对长句子的接受程度."}
+{"dataset_id": "mcif_v1.0", "sample_id": 293, "src_lang": "en", "tgt_lang": "zh", "output": "这些天大语言模型会来着更长更长的窗口所以是很重要的我们评估了模型可接受性通过整个窗口的"}
+{"dataset_id": "mcif_v1.0", "sample_id": 294, "src_lang": "en", "tgt_lang": "zh", "output": "那就是我们试图做的是什么我们试图通过要求模型评估在更长更长序列上的可接受性来重新访问MPP管道"}
+{"dataset_id": "mcif_v1.0", "sample_id": 295, "src_lang": "en", "tgt_lang": "zh", "output": "所以那就是那种方法所以我们要模拟这些更长的序列我们要复制数据集本身然后我们会通过选择可接受或不可接受的句子来创建句子"}
+{"dataset_id": "mcif_v1.0", "sample_id": 296, "src_lang": "en", "tgt_lang": "zh", "output": "所以,例如,这里我们选择了典型的语法对比,从 Adjunct Island 案例中选取的 Blimp 数据集"}
+{"dataset_id": "mcif_v1.0", "sample_id": 297, "src_lang": "en", "tgt_lang": "zh", "output": "我们做的是要重新创建更长的序列,并且是可接受的,并且有相同的语法结构,我们从Taylor中提取语法句子"}
+{"dataset_id": "mcif_v1.0", "sample_id": 298, "src_lang": "en", "tgt_lang": "zh", "output": "然后我们将其添加为一个前<unk>,以表示可接受的查询和不可接受的查询."}
+{"dataset_id": "mcif_v1.0", "sample_id": 299, "src_lang": "en", "tgt_lang": "zh", "output": "所以我们可以做同样的事情,通过从相同的匹配中选择不可接受的句子,这也可以用来测试模型可接受性"}
+{"dataset_id": "mcif_v1.0", "sample_id": 300, "src_lang": "en", "tgt_lang": "zh", "output": "我们也可以通过从不同的子集或不同的数据集中选择句子来做同样的事情,这就是我们所说的不匹配情景"}
+{"dataset_id": "mcif_v1.0", "sample_id": 301, "src_lang": "en", "tgt_lang": "zh", "output": "所以这里,句子仍然来自相关数据集,但不是从你评估的同一数据集,我们可以为不可接受性案例做同样的事情"}
+{"dataset_id": "mcif_v1.0", "sample_id": 302, "src_lang": "en", "tgt_lang": "zh", "output": "最后,我们可以从一个完全不相关的域,比如维基百科,选择句子."}
+{"dataset_id": "mcif_v1.0", "sample_id": 303, "src_lang": "en", "tgt_lang": "zh", "output": "这将告诉我们,模型是否可以被任何背景所影响"}
+{"dataset_id": "mcif_v1.0", "sample_id": 304, "src_lang": "en", "tgt_lang": "zh", "output": "像是上下文是来自于数据集的不同子集还是完全不相关于我们正在看的句子"}
+{"dataset_id": "mcif_v1.0", "sample_id": 305, "src_lang": "en", "tgt_lang": "zh", "output": "所以模型怎么做?首先我们看一下维基百科的句子,它们完全与当前的查询对无关,然后我们发现MPP判断是主要的强大,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 306, "src_lang": "en", "tgt_lang": "zh", "output": "我们将上限延长到2024年,以最大限度地扩大OPT和GPT2模型,我们在Orange.de 线上看到,MPP判断相对稳定"}
+{"dataset_id": "mcif_v1.0", "sample_id": 307, "src_lang": "en", "tgt_lang": "zh", "output": "现在当我们从同一组数据中选择句子时会发生什么?"}
+{"dataset_id": "mcif_v1.0", "sample_id": 308, "src_lang": "en", "tgt_lang": "zh", "output": "所以这里我们选择或创建句子从可接受和不可接受的域,从同一个blim或syntax dim数据集"}
+{"dataset_id": "mcif_v1.0", "sample_id": 309, "src_lang": "en", "tgt_lang": "zh", "output": "在这里,我们看到,当你添加可接受的前<unk>或不可接受的前<unk>时, MPP 判断会显著增加或减少."}
+{"dataset_id": "mcif_v1.0", "sample_id": 310, "src_lang": "en", "tgt_lang": "zh", "output": "但当我们匹配结构时,那就是当我们从同一个现象中选择句子时,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 311, "src_lang": "en", "tgt_lang": "zh", "output": "我们看到MPP对模型判断的巨大增长或大幅下降,取决于所选的前<unk>是否可接受或不可接受."}
+{"dataset_id": "mcif_v1.0", "sample_id": 312, "src_lang": "en", "tgt_lang": "zh", "output": "现在这个效果非常大,这个效果在整个上下文长度中增加,这可能会影响新的语言模型,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 313, "src_lang": "en", "tgt_lang": "zh", "output": "所以,为什么匹配前<unk>会影响语言模型判断呢?"}
+{"dataset_id": "mcif_v1.0", "sample_id": 314, "src_lang": "en", "tgt_lang": "zh", "output": "所以我们做了一系列的分析,我们试着通过保存相关结构来处理输入句子,但又在输入中添加了类似的噪音,然后做了一些类似的分析"}
+{"dataset_id": "mcif_v1.0", "sample_id": 315, "src_lang": "en", "tgt_lang": "zh", "output": "我们发现,这些噪音实际上都没有让模型改变方向,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 316, "src_lang": "en", "tgt_lang": "zh", "output": "基本上,我们发现模型以类似的方式对句子的偏差敏感."}
+{"dataset_id": "mcif_v1.0", "sample_id": 317, "src_lang": "en", "tgt_lang": "zh", "output": "那就是当我们扰乱句子在可接受的领域我们看到类似的增加在所有扰乱和当我们扰乱句子在不可接受的领域我们看到减少MPP判决在类似的方式"}
+{"dataset_id": "mcif_v1.0", "sample_id": 318, "src_lang": "en", "tgt_lang": "zh", "output": "所以我们工作的关键是,语言模型对隐藏的语法和语义特征敏感,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 319, "src_lang": "en", "tgt_lang": "zh", "output": "并且MPP评估,就是我们正确地使用短句和单句输入的方式,可能无法完全捕捉到语言模型在整个上下文窗口中的抽象知识"}
+{"dataset_id": "mcif_v1.0", "sample_id": 320, "src_lang": "en", "tgt_lang": "zh", "output": "请阅读我们的论文,了解更多关于我们的实验的细节."}
+{"dataset_id": "mcif_v1.0", "sample_id": 321, "src_lang": "en", "tgt_lang": "zh", "output": "大家好,我的名字是尤森·约翰,来自宾夕法尼亚大学今天我来介绍我们的工作,Exemplar,Cross-Lingual, Semantic Parsing in Multiple Natural Languages and Many Representations"}
+{"dataset_id": "mcif_v1.0", "sample_id": 322, "src_lang": "en", "tgt_lang": "zh", "output": "所以语义分析是构建用户查询的语义表示的任务,如 Sequal 和 Lambda 计算."}
+{"dataset_id": "mcif_v1.0", "sample_id": 323, "src_lang": "en", "tgt_lang": "zh", "output": "跨语言的翻译是翻译在多种自然语言中的多重意思表示的任务."}
+{"dataset_id": "mcif_v1.0", "sample_id": 324, "src_lang": "en", "tgt_lang": "zh", "output": "正如图所示,我们需要使用新模型翻译查询到多个自然语言:"}
+{"dataset_id": "mcif_v1.0", "sample_id": 325, "src_lang": "en", "tgt_lang": "zh", "output": "现有跨语言数据分析模型在有限任务和应用程序的数据集上单独提出和评估."}
+{"dataset_id": "mcif_v1.0", "sample_id": 326, "src_lang": "en", "tgt_lang": "zh", "output": "他们漏了某些自然语言的覆盖中文是缺失的"}
+{"dataset_id": "mcif_v1.0", "sample_id": 327, "src_lang": "en", "tgt_lang": "zh", "output": "他们可以覆盖一些不确定的许多代表."}
+{"dataset_id": "mcif_v1.0", "sample_id": 328, "src_lang": "en", "tgt_lang": "zh", "output": "兰达科克莱斯是没有"}
+{"dataset_id": "mcif_v1.0", "sample_id": 329, "src_lang": "en", "tgt_lang": "zh", "output": "或者它们只在某些新型模型上进行评估&nbsp;例如只有一个单一的模型来评估&nbsp;&nbsp;"}
+{"dataset_id": "mcif_v1.0", "sample_id": 330, "src_lang": "en", "tgt_lang": "zh", "output": "为了实现这一目的,我们提出了一个示例,我们提供了一个统一的数据集示例,用于在多个自然语言和许多表示中进行交叉链接的语义分析"}
+{"dataset_id": "mcif_v1.0", "sample_id": 331, "src_lang": "en", "tgt_lang": "zh", "output": "它包含九十个不同领域的集合,五个简单的解析任务,八个意义的表示,以及十五个语言家族中的二十二个自然语言."}
+{"dataset_id": "mcif_v1.0", "sample_id": 332, "src_lang": "en", "tgt_lang": "zh", "output": "为了更好地评估我们的基准, 我们考虑了六个设置的培训和评估."}
+{"dataset_id": "mcif_v1.0", "sample_id": 333, "src_lang": "en", "tgt_lang": "zh", "output": "首先是翻译测试,我们使用Google Translate API将源语言翻译成目标语言,然后使用单语言模型进行训练和评估."}
+{"dataset_id": "mcif_v1.0", "sample_id": 334, "src_lang": "en", "tgt_lang": "zh", "output": "例如,我们训练英语查询模型,在推断过程中,我们使用API将德语查询翻译成英语,然后使用训练模型预测续集."}
+{"dataset_id": "mcif_v1.0", "sample_id": 335, "src_lang": "en", "tgt_lang": "zh", "output": "And we also test monolingual model"}
+{"dataset_id": "mcif_v1.0", "sample_id": 336, "src_lang": "en", "tgt_lang": "zh", "output": "在这个设置中,源语言与目标语言是一样的,例如德语对德语或英语对英语"}
+{"dataset_id": "mcif_v1.0", "sample_id": 337, "src_lang": "en", "tgt_lang": "zh", "output": "我们还通过训练单语言模型来测试单语言视觉设置,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 338, "src_lang": "en", "tgt_lang": "zh", "output": "并且它有多种语言模型,我们为所有语言训练一个多种语言模型"}
+{"dataset_id": "mcif_v1.0", "sample_id": 339, "src_lang": "en", "tgt_lang": "zh", "output": "例如,我们把德语,英语,中文的查询放在一起,来训练多语言模型,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 340, "src_lang": "en", "tgt_lang": "zh", "output": "翻译德国查询或中国查询等等"}
+{"dataset_id": "mcif_v1.0", "sample_id": 341, "src_lang": "en", "tgt_lang": "zh", "output": "我们还考虑了跨界的零射击和视觉转移,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 342, "src_lang": "en", "tgt_lang": "zh", "output": "所以在训练期间,我会训练它用英语查询或英语和德语的短暂查询的组合,来训练多语言模型,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 343, "src_lang": "en", "tgt_lang": "zh", "output": "我们也发现很多有趣的结果,所以关于单语模型分析,我们评估了两个模型组"}
+{"dataset_id": "mcif_v1.0", "sample_id": 344, "src_lang": "en", "tgt_lang": "zh", "output": "包括编码器PDR,即多语言预训练编码器与基于指针的解码器,如XLR+PDR和BERT+PDR"}
+{"dataset_id": "mcif_v1.0", "sample_id": 345, "src_lang": "en", "tgt_lang": "zh", "output": "我们还评估了编码器的编码模型,这是多语言编码器的编码模型,比如 Bart 和 MT Five"}
+{"dataset_id": "mcif_v1.0", "sample_id": 346, "src_lang": "en", "tgt_lang": "zh", "output": "我们发现,解码器在所有九个数据集中都获得最佳性能"}
+{"dataset_id": "mcif_v1.0", "sample_id": 347, "src_lang": "en", "tgt_lang": "zh", "output": "And we evaluate on MT five and example XLMR+PDR on multilingual setting"}
+{"dataset_id": "mcif_v1.0", "sample_id": 348, "src_lang": "en", "tgt_lang": "zh", "output": "我们发现,通过在各种语言的混合中进行训练,可以改进编码器解码器或编码器PDR."}
+{"dataset_id": "mcif_v1.0", "sample_id": 349, "src_lang": "en", "tgt_lang": "zh", "output": "发现,这是因为大多数主要的自然语言都能获得性能提升,除了英语的性能在七个数据集中下降,只在三个数据集中增加."}
+{"dataset_id": "mcif_v1.0", "sample_id": 350, "src_lang": "en", "tgt_lang": "zh", "output": "我认为这不是所谓的多语言的诅咒"}
+{"dataset_id": "mcif_v1.0", "sample_id": 351, "src_lang": "en", "tgt_lang": "zh", "output": "我们也比较了The Cross Langue Performance Gap"}
+{"dataset_id": "mcif_v1.0", "sample_id": 352, "src_lang": "en", "tgt_lang": "zh", "output": "在这个图中,蓝线是跨语言的实时转移,<unk>线是跨语言的零转换,而绿线是单语言的设置."}
+{"dataset_id": "mcif_v1.0", "sample_id": 353, "src_lang": "en", "tgt_lang": "zh", "output": "我们发现,通过比较绿色和橙色线,在零射击设置中,交叉线的转换性能差距是显著的,而通过比较蓝色和橙色线,我们发现,在少量射击设置中,转换差距迅速缩短"}
+{"dataset_id": "mcif_v1.0", "sample_id": 354, "src_lang": "en", "tgt_lang": "zh", "output": "我们还会发现一些其他有趣的发现,例如,编码器,解码器,执行程序工作或实现可比结果,但英语自然语言的训练可以显著提升未来目标语言的性能"}
+{"dataset_id": "mcif_v1.0", "sample_id": 355, "src_lang": "en", "tgt_lang": "zh", "output": "我们发现多语言语言模型,如蓝色和蓝色, 仍然是适合跨语言的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 356, "src_lang": "en", "tgt_lang": "zh", "output": "总结来说,我们建立了Exemplar,一个统一的跨角语义分析基准,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 357, "src_lang": "en", "tgt_lang": "zh", "output": "我们对三种代表的多语言模型进行了全面的基准研究,我们的结果显示了许多有趣的发现,等等.欢迎访问我们的论文和代码."}
+{"dataset_id": "mcif_v1.0", "sample_id": 358, "src_lang": "en", "tgt_lang": "zh", "output": "欢迎大家,我的名字是艾维尔·维拉尔,我还会给您一份论文的评论,翻译策略和表现的评价.这与我的同事们合作,从谷歌翻译"}
+{"dataset_id": "mcif_v1.0", "sample_id": 359, "src_lang": "en", "tgt_lang": "zh", "output": "Fram是540亿个参数的语言模型,去年在2022年推出它训练了大量的文本,包括七百八十亿个文本"}
+{"dataset_id": "mcif_v1.0", "sample_id": 360, "src_lang": "en", "tgt_lang": "zh", "output": "在Tamil的出版中,它实现了 state of the art 的水平,在数百个NRP任务中."}
+{"dataset_id": "mcif_v1.0", "sample_id": 361, "src_lang": "en", "tgt_lang": "zh", "output": "在这部作品中,我们介绍了第一本系统研究,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 362, "src_lang": "en", "tgt_lang": "zh", "output": "我们评估了翻译能力的模型使用最好的实践的MTM社区,这涉及使用最新的测试来避免使用测试数据的测试与语言模型的数据的训练."}
+{"dataset_id": "mcif_v1.0", "sample_id": 363, "src_lang": "en", "tgt_lang": "zh", "output": "我们比较两位 state of the art system 的表现,最好的表现系统是 wm 评估"}
+{"dataset_id": "mcif_v1.0", "sample_id": 364, "src_lang": "en", "tgt_lang": "zh", "output": "我们使用 state-of-the-art neural MT metrics and additionally also show expert-based human evaluation results."}
+{"dataset_id": "mcif_v1.0", "sample_id": 365, "src_lang": "en", "tgt_lang": "zh", "output": "提示有个大影响在翻译的性能上,我们可以在简单的实验中看到,我们用一枪提示,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 366, "src_lang": "en", "tgt_lang": "zh", "output": "句子中的多数是516 out of 1000, observe 的差异是多于1 blur point"}
+{"dataset_id": "mcif_v1.0", "sample_id": 367, "src_lang": "en", "tgt_lang": "zh", "output": "这可以在极端情况下达到40点点,所以很重要要选择一个好的推荐策略"}
+{"dataset_id": "mcif_v1.0", "sample_id": 368, "src_lang": "en", "tgt_lang": "zh", "output": "在我们的实验中,我们为五次冲击策略做出了调整,我们用语言来标记系统所提供的句子"}
+{"dataset_id": "mcif_v1.0", "sample_id": 369, "src_lang": "en", "tgt_lang": "zh", "output": "在这个例子里,我们从德语进行翻译,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 370, "src_lang": "en", "tgt_lang": "zh", "output": "我们看到,实际的提示形式在多个短提示的情况下没有很大的影响"}
+{"dataset_id": "mcif_v1.0", "sample_id": 371, "src_lang": "en", "tgt_lang": "zh", "output": "它是为零和一个冲击的冲击而设计的,当我们去做我们的时分时,就没有什么不同于实际的冲击的形式."}
+{"dataset_id": "mcif_v1.0", "sample_id": 372, "src_lang": "en", "tgt_lang": "zh", "output": "It's the examples that carry most of the weight 的重量."}
+{"dataset_id": "mcif_v1.0", "sample_id": 373, "src_lang": "en", "tgt_lang": "zh", "output": "我们的实验结果的总结是,样本质量比类似于源句子更重要"}
+{"dataset_id": "mcif_v1.0", "sample_id": 374, "src_lang": "en", "tgt_lang": "zh", "output": "所以很重要从高质量翻译中选择例子,特别是我们比较从WMT评估的数据或数据的数据中选择."}
+{"dataset_id": "mcif_v1.0", "sample_id": 375, "src_lang": "en", "tgt_lang": "zh", "output": "数据是更高的质量,而且与高质量相比,数据的训练质量和结果是更好的,所以使用数据时表现更好."}
+{"dataset_id": "mcif_v1.0", "sample_id": 376, "src_lang": "en", "tgt_lang": "zh", "output": "专业的系统有很大的优势,但Palm很接近商业系统,在我们这个情况下我们选择使用Google Translate"}
+{"dataset_id": "mcif_v1.0", "sample_id": 377, "src_lang": "en", "tgt_lang": "zh", "output": "我们从人类分析中得到的见解是,用MQM框架,可以比较手掌的流量与系统状态,但主要的区别在于准确性"}
+{"dataset_id": "mcif_v1.0", "sample_id": 378, "src_lang": "en", "tgt_lang": "zh", "output": "特别是最常见的错误是遗漏错误"}
+{"dataset_id": "mcif_v1.0", "sample_id": 379, "src_lang": "en", "tgt_lang": "zh", "output": "所以似乎Palm选择了更好地制作翻译,有时通过丢掉翻译中排列的句子部分"}
+{"dataset_id": "mcif_v1.0", "sample_id": 380, "src_lang": "en", "tgt_lang": "zh", "output": "然而,PARM的Style Outwear类别比 state-of-the-art系统要低,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 381, "src_lang": "en", "tgt_lang": "zh", "output": "那PARM提供真的流利的输出,但仍然有一些BRAM的准确性问题"}
+{"dataset_id": "mcif_v1.0", "sample_id": 382, "src_lang": "en", "tgt_lang": "zh", "output": "那是这真的短暂的评论,更多细节请来我这篇论文的完整介绍.谢谢你."}
+{"dataset_id": "mcif_v1.0", "sample_id": 383, "src_lang": "en", "tgt_lang": "zh", "output": "在这个视频中,我想介绍我们最近的工作,比你想象的要大,一个批评的每周的超价学习."}
+{"dataset_id": "mcif_v1.0", "sample_id": 384, "src_lang": "en", "tgt_lang": "zh", "output": "这是与查尔·尤舍,马里奥斯·穆兹巴赫,安德烈亚斯·斯蒂芬和迪特里希·克拉克科的联合工作."}
+{"dataset_id": "mcif_v1.0", "sample_id": 385, "src_lang": "en", "tgt_lang": "zh", "output": "我想从周监督和周监督的简短介绍开始."}
+{"dataset_id": "mcif_v1.0", "sample_id": 386, "src_lang": "en", "tgt_lang": "zh", "output": "在弱监督中,我们不手动标记数据,而是使用弱标记来源标记数据,例如简单的启发性规则,知识基础或低质量的云源,如右图所示."}
+{"dataset_id": "mcif_v1.0", "sample_id": 387, "src_lang": "en", "tgt_lang": "zh", "output": "与人类注释相比,弱注释更便宜,但它们也很嘈杂,这意味着一定数量的注释是不正确的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 388, "src_lang": "en", "tgt_lang": "zh", "output": "如果我们直接训练神经网络并弱标签数据,神经网络往往会记住标签噪音,而不是概括."}
+{"dataset_id": "mcif_v1.0", "sample_id": 389, "src_lang": "en", "tgt_lang": "zh", "output": "在弱监督训练中,训练算法被提议以强大地训练神经网络,以便训练模型仍然可以更广泛地推广."}
+{"dataset_id": "mcif_v1.0", "sample_id": 390, "src_lang": "en", "tgt_lang": "zh", "output": "在最近的工作中WSL的缩写是Weekly Supervisory Learning一个常见的说法是,人们说他们只训练模型在周级级别的数据上,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 391, "src_lang": "en", "tgt_lang": "zh", "output": "技术上,这个说法不是错误的, 但有一个陷<unk>."}
+{"dataset_id": "mcif_v1.0", "sample_id": 392, "src_lang": "en", "tgt_lang": "zh", "output": "人们确实假设有额外的清洁验证集可用于模型选择."}
+{"dataset_id": "mcif_v1.0", "sample_id": 393, "src_lang": "en", "tgt_lang": "zh", "output": "我们对这个问题提出了疑问,因为这意味着在每周的学习中需要额外的手动注释,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 394, "src_lang": "en", "tgt_lang": "zh", "output": "上述疑问让我们问三个研究问题:首先,WSL 需要干净的验证数据吗?或者我们可以使用噪音验证集吗?"}
+{"dataset_id": "mcif_v1.0", "sample_id": 395, "src_lang": "en", "tgt_lang": "zh", "output": "第二,如果需要清洁数据,或者如果清洁数据是WSL工作必需的,那么我们需要多少清洁样本?最后,我们应该只使用清洁样本进行验证吗?"}
+{"dataset_id": "mcif_v1.0", "sample_id": 396, "src_lang": "en", "tgt_lang": "zh", "output": "我们在我们的工作中解决了这些研究问题,我们的发现如下."}
+{"dataset_id": "mcif_v1.0", "sample_id": 397, "src_lang": "en", "tgt_lang": "zh", "output": "首先,我们发现有趣的是,最近的WSL方法确实需要干净的验证样本才能正常工作."}
+{"dataset_id": "mcif_v1.0", "sample_id": 398, "src_lang": "en", "tgt_lang": "zh", "output": "否则,性能会大幅下降,如此图所示,如果没有清洁的验证样本,那么趋势模型不能超越原始的比特标签."}
+{"dataset_id": "mcif_v1.0", "sample_id": 399, "src_lang": "en", "tgt_lang": "zh", "output": "意思是说那教义是无意义的"}
+{"dataset_id": "mcif_v1.0", "sample_id": 400, "src_lang": "en", "tgt_lang": "zh", "output": "这表明WSL方法实际上需要清洁标记的数据才能正常工作,并且不应该忽略获得清洁验证样本的注释成本."}
+{"dataset_id": "mcif_v1.0", "sample_id": 401, "src_lang": "en", "tgt_lang": "zh", "output": "我们的第二个发现是,增加清洁验证样本的数量将有助于WSL方法实现更好的性能,如下左图所示."}
+{"dataset_id": "mcif_v1.0", "sample_id": 402, "src_lang": "en", "tgt_lang": "zh", "output": "通常,我们只需要每类20个样本才能达到高性能."}
+{"dataset_id": "mcif_v1.0", "sample_id": 403, "src_lang": "en", "tgt_lang": "zh", "output": "但这不是故事的结局,因为如果我们无论如何决定使用清洁样本,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 404, "src_lang": "en", "tgt_lang": "zh", "output": "赤图显示了在清洁数据下直接应用的微调方法和仅用于验证的WSL方法之间的性能差异."}
+{"dataset_id": "mcif_v1.0", "sample_id": 405, "src_lang": "en", "tgt_lang": "zh", "output": "正如我们所看到的,如果我们每类有十个样本, 直接细调开始击败WSL方法."}
+{"dataset_id": "mcif_v1.0", "sample_id": 406, "src_lang": "en", "tgt_lang": "zh", "output": "最后,通过允许继续精细调整清洁验证样本,可以很容易地实现在以前的WSL方法中声称的性能改进."}
+{"dataset_id": "mcif_v1.0", "sample_id": 407, "src_lang": "en", "tgt_lang": "zh", "output": "正如我们从数字中看到的,瓦利纳模型,称为FTW,最初表现较差,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 408, "src_lang": "en", "tgt_lang": "zh", "output": "然而,如果我们允许继续对单击样本进行精细调整,那么FTW的性能与其他方法一样好."}
+{"dataset_id": "mcif_v1.0", "sample_id": 409, "src_lang": "en", "tgt_lang": "zh", "output": "所以在实践中,没有理由选择更复杂的WSL方法,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 410, "src_lang": "en", "tgt_lang": "zh", "output": "总结来说,我们表明最近的WSL方法需要干净的手动注释样本才能正常工作."}
+{"dataset_id": "mcif_v1.0", "sample_id": 411, "src_lang": "en", "tgt_lang": "zh", "output": "我们对未来工作的具体建议如下."}
+{"dataset_id": "mcif_v1.0", "sample_id": 412, "src_lang": "en", "tgt_lang": "zh", "output": "首先,报告模型选择标准例如,报告模型选择是否通过干净的验证样本进行"}
+{"dataset_id": "mcif_v1.0", "sample_id": 413, "src_lang": "en", "tgt_lang": "zh", "output": "第三,连续的精细调节是一个简单而强大的基线,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 414, "src_lang": "en", "tgt_lang": "zh", "output": "最后,我们开源了我们的代码,您可以通过这个滑板上的 QR 代码找到它请自由地查看它"}
+{"dataset_id": "mcif_v1.0", "sample_id": 415, "src_lang": "en", "tgt_lang": "zh", "output": "嘿,我是詹姆斯·芬奇,我是莎拉·芬奇今天我们要告诉你关于ABC Evel,一个新的次元方法来评估对话人工智能"}
+{"dataset_id": "mcif_v1.0", "sample_id": 416, "src_lang": "en", "tgt_lang": "zh", "output": "这份工作由美国国立实验室(The Emory NLP Lab)完成,由美国大学(University of Emory)的吉诺·乔伊教授领导,并与亚马逊亚马逊(Amazon Alexa AI)合作."}
+{"dataset_id": "mcif_v1.0", "sample_id": 417, "src_lang": "en", "tgt_lang": "zh", "output": "所以我们说你刚刚开发了一个对话模型,你想看看它与当前的状态有多少比较"}
+{"dataset_id": "mcif_v1.0", "sample_id": 418, "src_lang": "en", "tgt_lang": "zh", "output": "常见实践是使用人类评估,比如说通过问人评审来选择哪个两个对话是最好的,或者说是比较好的对话,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 419, "src_lang": "en", "tgt_lang": "zh", "output": "这些方法可以提供整体评价的整体评价,但对话质量有多方面,所以你可能想评估多方面的质量,了解模型中的强度和弱点,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 420, "src_lang": "en", "tgt_lang": "zh", "output": "一个方法是简单地要求人类评审来评估多个维度对话的质量,例如模型响应的相关性,使用现有的比较或标准化方法."}
+{"dataset_id": "mcif_v1.0", "sample_id": 421, "src_lang": "en", "tgt_lang": "zh", "output": "然而,我们认为,对于维度对话评估,有一个更精确和可靠的策略"}
+{"dataset_id": "mcif_v1.0", "sample_id": 422, "src_lang": "en", "tgt_lang": "zh", "output": "我们的方法试图减少人类评价的主观性, 明确地说明是否或不表现出某些行为,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 423, "src_lang": "en", "tgt_lang": "zh", "output": "我们称这方法是Annotating Behaviors in Chat或ABC in Short,我们开发了这种方法,以全面覆盖行为模式,这将影响质量和文献的质量"}
+{"dataset_id": "mcif_v1.0", "sample_id": 424, "src_lang": "en", "tgt_lang": "zh", "output": "A B C E 能够测量该数据的速度,其中的模型会产生各种主题错误"}
+{"dataset_id": "mcif_v1.0", "sample_id": 425, "src_lang": "en", "tgt_lang": "zh", "output": "例如,A B C E 测量了数量的变量,其中一个模型是 ignore its partner or something irrelevant"}
+{"dataset_id": "mcif_v1.0", "sample_id": 426, "src_lang": "en", "tgt_lang": "zh", "output": "幻觉错误的事实或违反常识知识,当模型成功或失败时,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 427, "src_lang": "en", "tgt_lang": "zh", "output": "为了确定什么样的评估是最有效的,我们选择了四种最先进的聊天模式,并对它们进行了评估,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 428, "src_lang": "en", "tgt_lang": "zh", "output": "为了比较,我们还使用三种现有方法评估了这些对话:转向级别的利克特评分,对话级别的利克特评分和对对的对话级别比较"}
+{"dataset_id": "mcif_v1.0", "sample_id": 429, "src_lang": "en", "tgt_lang": "zh", "output": "对于每个现有的方法,我们收集了八个最常见的对话方面评估,因为这是标准的实践,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 430, "src_lang": "en", "tgt_lang": "zh", "output": "从这些评估结果的分析中,我们发现ABC行为表格是更可靠的,比现有的方法更可靠,如通过百分之百的对话表格的协议."}
+{"dataset_id": "mcif_v1.0", "sample_id": 431, "src_lang": "en", "tgt_lang": "zh", "output": "另外,A B C E V 标签是更具预测性的整体对话质量比较,与生产方法的指标相比,这表明通过简单的分析."}
+{"dataset_id": "mcif_v1.0", "sample_id": 432, "src_lang": "en", "tgt_lang": "zh", "output": "For example, you can see how the measurement of the proportions of the self and partner contradictions explain five percent and ten percent of the conversation quality respectively, while the average consistency scores explain only four percent or less."}
+{"dataset_id": "mcif_v1.0", "sample_id": 433, "src_lang": "en", "tgt_lang": "zh", "output": "最后,我们检查了每种评估指标是否具有使用 stepwise linear regression 的质量检查的独特方面"}
+{"dataset_id": "mcif_v1.0", "sample_id": 434, "src_lang": "en", "tgt_lang": "zh", "output": "你能看到所有ABCE指标的组合如何解释超过二十五%的对话质量,而你一边删除指标,一边就得到大量的关于质量信息的解释."}
+{"dataset_id": "mcif_v1.0", "sample_id": 435, "src_lang": "en", "tgt_lang": "zh", "output": "另一方面,所有转级别的利卡特指标的组合解释了质量较低的程度,这些指标的数量也具有独特的信息"}
+{"dataset_id": "mcif_v1.0", "sample_id": 436, "src_lang": "en", "tgt_lang": "zh", "output": "这些可靠,信息化和独立的ABCE指标能够评估高分辨率的交互能力,而之前的方法是可以实现的"}
+{"dataset_id": "mcif_v1.0", "sample_id": 437, "src_lang": "en", "tgt_lang": "zh", "output": "你可以在我们的实验结果中看到, 几个挑战仍然存在, 并且已经被精确量化. 例如,我们测试的机器人在他们的回应中有20%的常识违规."}
+{"dataset_id": "mcif_v1.0", "sample_id": 438, "src_lang": "en", "tgt_lang": "zh", "output": "他们在15%的回应中产生相关信息, 他们对自己或他们的合作伙伴的反应也大约是10%"}
+{"dataset_id": "mcif_v1.0", "sample_id": 439, "src_lang": "en", "tgt_lang": "zh", "output": "凭借在领域中的快速改进的速度,许多这些错误的比率可能会在新模型中出现下降,因为我们的评估是被进行的然而,这也是比较可靠和准确的评估指标比较模型"}
+{"dataset_id": "mcif_v1.0", "sample_id": 440, "src_lang": "en", "tgt_lang": "zh", "output": "我们希望ABCEval可以被其他领域人士作为意义上的一步来利用,我们期待在未来几个月和几年里看到人工智能如何发展"}
+{"dataset_id": "mcif_v1.0", "sample_id": 441, "src_lang": "en", "tgt_lang": "zh", "output": "欢迎,我的名字是凯奥安,我将介绍我们的工作内容,翻译内容,数据处理和多语言探索,这份工作是与帕特里克·弗兰奇,安德烈·马丁斯和格雷姆·纽维克合作的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 442, "src_lang": "en", "tgt_lang": "zh", "output": "所以很多翻译都取决于上下文,例如,我们怎么会翻译这个句子呢?"}
+{"dataset_id": "mcif_v1.0", "sample_id": 443, "src_lang": "en", "tgt_lang": "zh", "output": "如果前一句是事情可能会变得危险,如果部长们发现,那么莫指的是间谍但如果前一句是可不可以有任何严重的事情,医生?那么莫指的是一个出生标志"}
+{"dataset_id": "mcif_v1.0", "sample_id": 444, "src_lang": "en", "tgt_lang": "zh", "output": "所以根据上面的内容,The meaning of the word changes and therefore its translation changes as well"}
+{"dataset_id": "mcif_v1.0", "sample_id": 445, "src_lang": "en", "tgt_lang": "zh", "output": "然而,评估模型如何对比这种情况是很困难的首先,因为只有一小部分翻译取决于上下文,这使得像蓝色这样的 corpus 级度指标无法捕捉这些翻译"}
+{"dataset_id": "mcif_v1.0", "sample_id": 446, "src_lang": "en", "tgt_lang": "zh", "output": "有些人已经建议了针对性评价在语音翻译上,但这些资源只支持有限的语音翻译和语言的有限类型,因为它们通常依赖于知识和人类的创造."}
+{"dataset_id": "mcif_v1.0", "sample_id": 447, "src_lang": "en", "tgt_lang": "zh", "output": "在这个工作中我们试图回答这两个问题,首先是为什么翻译需要联系,第二是这些案例的模型如何处理"}
+{"dataset_id": "mcif_v1.0", "sample_id": 448, "src_lang": "en", "tgt_lang": "zh", "output": "回答第一个问题,我们开始从测量多少字取决于翻译过程中的内容开始."}
+{"dataset_id": "mcif_v1.0", "sample_id": 449, "src_lang": "en", "tgt_lang": "zh", "output": "在前面的工作中,我们将引入XMI作为用于机器转换模型中的数据,这也意味着我们对数据的提供量有多少了解,因为这个数据是关于目标的"}
+{"dataset_id": "mcif_v1.0", "sample_id": 450, "src_lang": "en", "tgt_lang": "zh", "output": "你可以想想 CXMI 作为从给出联系到模型的信息."}
+{"dataset_id": "mcif_v1.0", "sample_id": 451, "src_lang": "en", "tgt_lang": "zh", "output": "在这个工作中我们将XMXXX点到点YXMX,这可以测量在句子水平或在字段水平上的使用,我们可以想出有高PXMX的词,因为它需要翻译的语音."}
+{"dataset_id": "mcif_v1.0", "sample_id": 452, "src_lang": "en", "tgt_lang": "zh", "output": "现在我们分析了Word with High PIXM的内容,以寻找这些字之间的关系."}
+{"dataset_id": "mcif_v1.0", "sample_id": 453, "src_lang": "en", "tgt_lang": "zh", "output": "我们对TEDTalk的翻译进行了分析,这些翻译从英语翻译成14种不同的语言"}
+{"dataset_id": "mcif_v1.0", "sample_id": 454, "src_lang": "en", "tgt_lang": "zh", "output": "我们在三个不同水平上进行分析,首先我们要看一下语音标题的含量有多高,比如PXM."}
+{"dataset_id": "mcif_v1.0", "sample_id": 455, "src_lang": "en", "tgt_lang": "zh", "output": "这可以找到一个例子,比如说阿拉伯语中的英语翻译,这可以解释为高音,因为英语没有英语翻译,所以你需要解释一下,如果是阿拉伯语的翻译,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 456, "src_lang": "en", "tgt_lang": "zh", "output": "同样我们发现某些语言也需要语境当我们想要选择合适的词形时我们看词汇的词汇有高PXI平均值,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 457, "src_lang": "en", "tgt_lang": "zh", "output": "这怎么样可以识别出像这一样的案例呢?在中国,你需要使用一个通讯记录来确保你使用同一个文件中的通讯记录"}
+{"dataset_id": "mcif_v1.0", "sample_id": 458, "src_lang": "en", "tgt_lang": "zh", "output": "而且同样我们发现, 相关内容是支持在正确的形式中进行转换的"}
+{"dataset_id": "mcif_v1.0", "sample_id": 459, "src_lang": "en", "tgt_lang": "zh", "output": "最后我们看了不同的 #um 各种各样的特点, 具有高PXM 值, 这使得我们能够识别出这种现象,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 460, "src_lang": "en", "tgt_lang": "zh", "output": "所以现在我们用我们的发现从我们的分析中来设计一个benchmark for document level translation"}
+{"dataset_id": "mcif_v1.0", "sample_id": 461, "src_lang": "en", "tgt_lang": "zh", "output": "对于五个现象中的五个,我们会自动识别出我们自动识别出与现象相关的词汇,我们会把我们的多语言的语言识别或Muda tag."}
+{"dataset_id": "mcif_v1.0", "sample_id": 462, "src_lang": "en", "tgt_lang": "zh", "output": "我们可以看出,不同语言有不同的语言的这种现象."}
+{"dataset_id": "mcif_v1.0", "sample_id": 463, "src_lang": "en", "tgt_lang": "zh", "output": "然后我们使用模达,通过将模达应用到我们想要用于评估的平行体上,我们还将使用我们的翻译指标,在模达标识的例子中使用"}
+{"dataset_id": "mcif_v1.0", "sample_id": 464, "src_lang": "en", "tgt_lang": "zh", "output": "最后我们使用我们的标准标准和其他指标来评估不同的模型 #um 在文档级别的机器翻译中"}
+{"dataset_id": "mcif_v1.0", "sample_id": 465, "src_lang": "en", "tgt_lang": "zh", "output": "首先,当我们使用Corpus Level Metric时,所以蓝色我们发现, 综合性模型有最好的表现."}
+{"dataset_id": "mcif_v1.0", "sample_id": 466, "src_lang": "en", "tgt_lang": "zh", "output": "但是如果我们用Comment 环境意识模型表现最好,如果我们用Word F 测量,那么有环境和没有环境的模型有比较的性能"}
+{"dataset_id": "mcif_v1.0", "sample_id": 467, "src_lang": "en", "tgt_lang": "zh", "output": "这又证明了它是很难确定最好的文件级别的转换系统如果我们使用Corpus Level Metric 单独."}
+{"dataset_id": "mcif_v1.0", "sample_id": 468, "src_lang": "en", "tgt_lang": "zh", "output": "现在我们使用Muda Benchmark来评估模型,我们发现,语境模型比不使用语境的模型更准确,例如形式和词汇结合"}
+{"dataset_id": "mcif_v1.0", "sample_id": 469, "src_lang": "en", "tgt_lang": "zh", "output": "但这些模型并不比那些模型更有用度,它们不使用其他的概念,比如说,如<unk>形状和形式,所以这就意味着我们需要为文件转换的文件提供更多的进展."}
+{"dataset_id": "mcif_v1.0", "sample_id": 470, "src_lang": "en", "tgt_lang": "zh", "output": "我们也比较不同的商业系统和我们的标准显示,Debell通常比Google Translate更准确,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 471, "src_lang": "en", "tgt_lang": "zh", "output": "说起来,我们进行数据驱动分析,通过14种语言进行对应,以确定一个翻译需要使用"}
+{"dataset_id": "mcif_v1.0", "sample_id": 472, "src_lang": "en", "tgt_lang": "zh", "output": "然后我们使用我们的数据来建立一个文件转换级别的标记, 能够帮助我们识别出这些模型是否可以处理, 以及哪些系统是文件转换级别的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 473, "src_lang": "en", "tgt_lang": "zh", "output": "谢谢你这么多你的谈话心情"}
+{"dataset_id": "mcif_v1.0", "sample_id": 474, "src_lang": "en", "tgt_lang": "zh", "output": "嗨,我是Yannis Lavaque,我将向您介绍我们的工作Dr. Bert,一个强大的英国模型在法语中,用于生物医学和临床领域"}
+{"dataset_id": "mcif_v1.0", "sample_id": 475, "src_lang": "en", "tgt_lang": "zh", "output": "在这个演讲中,我们首先谈论了Healthcare中的语言模拟,然后我们将介绍我们的文章的主要贡献"}
+{"dataset_id": "mcif_v1.0", "sample_id": 476, "src_lang": "en", "tgt_lang": "zh", "output": "我们引入了第一款法语生物医学模型,名为Bert,是基于罗伯塔的,并训练在Nachos上,这是从网络上收集的医疗数据的数据集"}
+{"dataset_id": "mcif_v1.0", "sample_id": 477, "src_lang": "en", "tgt_lang": "zh", "output": "我们还介绍了与多重数据设置和数据源的模型比较,然后我们将我们的结果呈现为11个生物医学和临床临床任务."}
+{"dataset_id": "mcif_v1.0", "sample_id": 478, "src_lang": "en", "tgt_lang": "zh", "output": "最后我们就实验的结论,给您更多关于如何访问模型的信息"}
+{"dataset_id": "mcif_v1.0", "sample_id": 479, "src_lang": "en", "tgt_lang": "zh", "output": "自从这在二零一八年发布以来,BERT 已经成为解决自然语言处理任务的最有效方法之一,并提供了与历史统计和文本化方法相比的更高的性能"}
+{"dataset_id": "mcif_v1.0", "sample_id": 480, "src_lang": "en", "tgt_lang": "zh", "output": "从那时起,这个模型已经被适应到许多其他语言,比如法语和英语,以及其他领域,比如生物医学和生物医学,以及临床和临床,但主要是英语."}
+{"dataset_id": "mcif_v1.0", "sample_id": 481, "src_lang": "en", "tgt_lang": "zh", "output": "专门的模型为其他语言是稀缺的,并且通常基于持续训练,因为在域内数据的缺失."}
+{"dataset_id": "mcif_v1.0", "sample_id": 482, "src_lang": "en", "tgt_lang": "zh", "output": "然而,法国还没有为生物医学开发新的开源模型"}
+{"dataset_id": "mcif_v1.0", "sample_id": 483, "src_lang": "en", "tgt_lang": "zh", "output": "所以我们就问自己问题关于什么是最适合的数据源,这些数据是很好的替代品"}
+{"dataset_id": "mcif_v1.0", "sample_id": 484, "src_lang": "en", "tgt_lang": "zh", "output": "回答这个问题,我们将伯特博士与我们的舒伯特模型进行比较,这是基于从大学医院获得的匿名数据"}
+{"dataset_id": "mcif_v1.0", "sample_id": 485, "src_lang": "en", "tgt_lang": "zh", "output": "之后我们问自己我们需要多少数据来训练一个专门的模型和法语数据?是四千兆字节,八千兆字节或更多?"}
+{"dataset_id": "mcif_v1.0", "sample_id": 486, "src_lang": "en", "tgt_lang": "zh", "output": "讨论这个问题,我们先训练和比较四个从Scratch 模型,第一版的 Doctor Butt 的七个Gigabyte 的自然,第二版的四个Gigabyte 的自然."}
+{"dataset_id": "mcif_v1.0", "sample_id": 487, "src_lang": "en", "tgt_lang": "zh", "output": "第一版的舒伯特是临床模型,其中有四千万个病例从临床上得到,最后的版本是舒伯特的四千万个病例和四千万个病例的临床上."}
+{"dataset_id": "mcif_v1.0", "sample_id": 488, "src_lang": "en", "tgt_lang": "zh", "output": "在这个比较中,我们引入了三种模式训练和持续预训练,来分析预训练策略的影响"}
+{"dataset_id": "mcif_v1.0", "sample_id": 489, "src_lang": "en", "tgt_lang": "zh", "output": "一个是基于卡曼伯的重量, 训练在四千兆的自然空间上, 另一个是基于卡曼伯的重量,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 490, "src_lang": "en", "tgt_lang": "zh", "output": "并且,最终,根据英语生物医学模型,我们有七个模型"}
+{"dataset_id": "mcif_v1.0", "sample_id": 491, "src_lang": "en", "tgt_lang": "zh", "output": "评估我们的七个模型,我们将收集多项公共和私人任务,如名和身份识别,分类,发言和回答问题."}
+{"dataset_id": "mcif_v1.0", "sample_id": 492, "src_lang": "en", "tgt_lang": "zh", "output": "这模型是比较六个模型,比如奥斯卡一百三十八千兆,奥斯卡四千兆,奥斯卡四千兆,奥斯卡四千兆,奥斯卡四千兆,奥斯卡四千兆,奥斯卡四千兆,奥斯卡四千兆,奥斯卡四千兆,奥斯卡四千兆,奥斯卡四千兆,奥斯卡四千兆,奥斯卡四千兆,奥斯卡四千万,奥斯卡四千万,奥斯卡四千万,奥斯卡四千万,奥斯卡四千万,奥斯卡四千万,奥斯卡四千万."}
+{"dataset_id": "mcif_v1.0", "sample_id": 493, "src_lang": "en", "tgt_lang": "zh", "output": "评估的重点是,那款模型在任务中表现最好,与数据的相同性,与模型已经训练过的模型一样"}
+{"dataset_id": "mcif_v1.0", "sample_id": 494, "src_lang": "en", "tgt_lang": "zh", "output": "然而,我们可以从不同来源的数据中观察到数据的多样性,我们也观察到使用更多的数据可以提高性能"}
+{"dataset_id": "mcif_v1.0", "sample_id": 495, "src_lang": "en", "tgt_lang": "zh", "output": "在总体上,从scratch freezing似乎可以获得更高的性能在大部分任务上"}
+{"dataset_id": "mcif_v1.0", "sample_id": 496, "src_lang": "en", "tgt_lang": "zh", "output": "然而,我们的实验和持续训练,使用使用白皮和<unk>的重量,在四千万的自然子组上训练,显示与此相比较的结果,与博士伯特四千万的<unk>."}
+{"dataset_id": "mcif_v1.0", "sample_id": 497, "src_lang": "en", "tgt_lang": "zh", "output": "这不是基于卡曼贝尔白和托肯纳瑟的模型,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 498, "src_lang": "en", "tgt_lang": "zh", "output": "最后,作为结论,我们的Proper System of Better Performance on 9 of the 11 Don't seem tasks,在全球范围内超越了The Results of the Generic Model,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 499, "src_lang": "en", "tgt_lang": "zh", "output": "我们也观察着,专门的数据是更好的,更专业的数据是更好的,但它并不很好"}
+{"dataset_id": "mcif_v1.0", "sample_id": 500, "src_lang": "en", "tgt_lang": "zh", "output": "所有从Nachos获得的预训练模型都可以在Yugeneface上免费使用,所有训练脚本都在我们的GitHub存储库中."}
+{"dataset_id": "mcif_v1.0", "sample_id": 501, "src_lang": "en", "tgt_lang": "zh", "output": "所以谢谢您为这个演讲,我们期待在多伦多邮局的"}
+{"dataset_id": "mcif_v1.0", "sample_id": 502, "src_lang": "en", "tgt_lang": "zh", "output": "嗨,我的名字是马蒂亚斯·林德曼,今天我要给您一个简短的介绍,来介绍我们关于组合和概括的论文,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 503, "src_lang": "en", "tgt_lang": "zh", "output": "这与我的顾问,亚历山大·科拉和伊万·蒂托夫的联合工作"}
+{"dataset_id": "mcif_v1.0", "sample_id": 504, "src_lang": "en", "tgt_lang": "zh", "output": "组合化总结可以被理解为是学习者能够处理深度复习和无视的组合,这些组合在训练过程中会被单独使用."}
+{"dataset_id": "mcif_v1.0", "sample_id": 505, "src_lang": "en", "tgt_lang": "zh", "output": "在Semantic的测试中,测试的综合性,就像这个样子一样,我们通常有训练的训练,在这个情况下,Slam的Slam和Slam的Slam."}
+{"dataset_id": "mcif_v1.0", "sample_id": 506, "src_lang": "en", "tgt_lang": "zh", "output": "这三点是逻辑的形式, 逻辑的形式, 代表了它的特点."}
+{"dataset_id": "mcif_v1.0", "sample_id": 507, "src_lang": "en", "tgt_lang": "zh", "output": "在标准化测试的标准化测试中,测试的测试不是从同一分布中来,而是从逻辑上讲."}
+{"dataset_id": "mcif_v1.0", "sample_id": 508, "src_lang": "en", "tgt_lang": "zh", "output": "在这个例子中,模型在训练期间已经看到了浅层复习,并且在测试中使用了更深层复习的例子"}
+{"dataset_id": "mcif_v1.0", "sample_id": 509, "src_lang": "en", "tgt_lang": "zh", "output": "顺序到顺序模型与这种类型的外分发,一般化和生产的输出从输入中分离出来."}
+{"dataset_id": "mcif_v1.0", "sample_id": 510, "src_lang": "en", "tgt_lang": "zh", "output": "特别是,他们经常无法生产出系统性对应的输入和输出,比如那些在示例中编码的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 511, "src_lang": "en", "tgt_lang": "zh", "output": "一个流行的方法去解决这个是要整合三种在模型中."}
+{"dataset_id": "mcif_v1.0", "sample_id": 512, "src_lang": "en", "tgt_lang": "zh", "output": "树木是用来捕捉合成过程的,它会与逻辑形式联系起来."}
+{"dataset_id": "mcif_v1.0", "sample_id": 513, "src_lang": "en", "tgt_lang": "zh", "output": "这工作很容易,但通常没有必要得到一些东西."}
+{"dataset_id": "mcif_v1.0", "sample_id": 514, "src_lang": "en", "tgt_lang": "zh", "output": "这可能复杂,有时是计算成本昂贵的过程通常这涉及到相当多的形式主义特定的逻辑形式预处理,例如处理可变符号"}
+{"dataset_id": "mcif_v1.0", "sample_id": 515, "src_lang": "en", "tgt_lang": "zh", "output": "获取特性也可能包括特殊的语法引导程序"}
+{"dataset_id": "mcif_v1.0", "sample_id": 516, "src_lang": "en", "tgt_lang": "zh", "output": "在这份文件中,我们没有使用树木,并引入一个新的序列到序列模型,直接模拟了输入的分段和输出的分段之间的对应."}
+{"dataset_id": "mcif_v1.0", "sample_id": 517, "src_lang": "en", "tgt_lang": "zh", "output": "For the first time we will show strong generalization to deferred recursion with relying on."}
+{"dataset_id": "mcif_v1.0", "sample_id": 518, "src_lang": "en", "tgt_lang": "zh", "output": "我们的方法预测输出从输入的输出在两个步骤中"}
+{"dataset_id": "mcif_v1.0", "sample_id": 519, "src_lang": "en", "tgt_lang": "zh", "output": "首先,我们用一个未有序的多组图标标记每个输入图标,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 520, "src_lang": "en", "tgt_lang": "zh", "output": "After the first step, we have all the right tokens but they are not ordered."}
+{"dataset_id": "mcif_v1.0", "sample_id": 521, "src_lang": "en", "tgt_lang": "zh", "output": "那就是为什么在第二步中,我们使用另一个模型来预测变量,把它们放入正确的顺序"}
+{"dataset_id": "mcif_v1.0", "sample_id": 522, "src_lang": "en", "tgt_lang": "zh", "output": "我们引入了新方法来预测变换,那就是没有任何硬的限制在可能的变换上这使得我们的方法非常灵活和表现."}
+{"dataset_id": "mcif_v1.0", "sample_id": 523, "src_lang": "en", "tgt_lang": "zh", "output": "概念上,我们的变换模型工作率像这样"}
+{"dataset_id": "mcif_v1.0", "sample_id": 524, "src_lang": "en", "tgt_lang": "zh", "output": "我们从左到右走过输出,并确定哪个多集符号要放在每个位置对于第一输出位置,我们简单地选择一个,S 突出显示在红色"}
+{"dataset_id": "mcif_v1.0", "sample_id": 525, "src_lang": "en", "tgt_lang": "zh", "output": "然后,我们跳到下一个多组代币来确定输出中的第二个代币"}
+{"dataset_id": "mcif_v1.0", "sample_id": 526, "src_lang": "en", "tgt_lang": "zh", "output": "我们确定了输出的第三个代币以类似的方式,通过跳到另一个多组代币我们继续这个过程"}
+{"dataset_id": "mcif_v1.0", "sample_id": 527, "src_lang": "en", "tgt_lang": "zh", "output": "Until every token from the first stage has been visited exactly once"}
+{"dataset_id": "mcif_v1.0", "sample_id": 528, "src_lang": "en", "tgt_lang": "zh", "output": "为了给您一个实验结果的提示,我们在这里将我们的方法与其他无树木模型进行比较我们的模型在概括到更深的递归上,以很大差距超越了其他模型"}
+{"dataset_id": "mcif_v1.0", "sample_id": 529, "src_lang": "en", "tgt_lang": "zh", "output": "其他一些类型的结构化结构化仍然非常挑战着"}
+{"dataset_id": "mcif_v1.0", "sample_id": 530, "src_lang": "en", "tgt_lang": "zh", "output": "在我们的论文中,我们发现了几个有趣的技术挑战."}
+{"dataset_id": "mcif_v1.0", "sample_id": 531, "src_lang": "en", "tgt_lang": "zh", "output": "首先,输入和输出之间的对齐在训练数据中没有给出因此,对于给定的标记,我们不知道它来自哪个多重集体,这对训练构成挑战"}
+{"dataset_id": "mcif_v1.0", "sample_id": 532, "src_lang": "en", "tgt_lang": "zh", "output": "此外,有时有多个变换与数据一致,但语言上正确的变换是隐藏的我们通过诱导对齐作为训练的一部分来解决这个问题"}
+{"dataset_id": "mcif_v1.0", "sample_id": 533, "src_lang": "en", "tgt_lang": "zh", "output": "我们的变换方法是非常灵活的,但它带来了挑战,找到最高分数的变换是很困难的,因为这与旅行者问题有关"}
+{"dataset_id": "mcif_v1.0", "sample_id": 534, "src_lang": "en", "tgt_lang": "zh", "output": "我们用 GPU 友好的连续放松方法来近似这一点,这也允许我们通过解决方案进行反向传播,并学习语言上更可信的变换"}
+{"dataset_id": "mcif_v1.0", "sample_id": 535, "src_lang": "en", "tgt_lang": "zh", "output": "如果你想了解更多关于我们的实验和如何解决这些挑战,请看我们的纸张或来邮箱."}
+{"dataset_id": "mcif_v1.0", "sample_id": 536, "src_lang": "en", "tgt_lang": "zh", "output": "Hello everyone, I am my teacher and today my teacher and I am presenting my work the knowledge integration from multiple sources this work is a collaboration between University of Melbourne and Microsoft Research."}
+{"dataset_id": "mcif_v1.0", "sample_id": 537, "src_lang": "en", "tgt_lang": "zh", "output": "National language understanding models on a variety of knowledge sources,如知识包含在parameters中通常通过预训练和知识提供在输入的输入时间."}
+{"dataset_id": "mcif_v1.0", "sample_id": 538, "src_lang": "en", "tgt_lang": "zh", "output": "Recent works in tasks like question answering show that models can use pre-trained time knowledge to solve the task."}
+{"dataset_id": "mcif_v1.0", "sample_id": 539, "src_lang": "en", "tgt_lang": "zh", "output": "But natural language understanding often requires knowledge that is also supplied in the language. 但自然语言理解通常需要知识,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 540, "src_lang": "en", "tgt_lang": "zh", "output": "For example, in the sentence, John saw the newly elected president on TV."}
+{"dataset_id": "mcif_v1.0", "sample_id": 541, "src_lang": "en", "tgt_lang": "zh", "output": "预训练参数可以包含关于总统做和TLA是什么信息,但他们不能可靠地知道这个具体实体是谁,或者是谁,因为总统可能会改变他的预训练"}
+{"dataset_id": "mcif_v1.0", "sample_id": 542, "src_lang": "en", "tgt_lang": "zh", "output": "因此,成功模型对于知识密集的NLU任务需要能够整合和使用预训练时间和推断时间知识"}
+{"dataset_id": "mcif_v1.0", "sample_id": 543, "src_lang": "en", "tgt_lang": "zh", "output": "在这工作中,我们提出一个诊断测试套件 for knowledge integration"}
+{"dataset_id": "mcif_v1.0", "sample_id": 544, "src_lang": "en", "tgt_lang": "zh", "output": "我们引入一个 co-reference 解决方案设计为能够在不同来源中获取知识的能力来设计的解决方案我们评估了数据集与人文研究参与者和建立 co-reference 解决方案"}
+{"dataset_id": "mcif_v1.0", "sample_id": 545, "src_lang": "en", "tgt_lang": "zh", "output": "这里有个例子来自我们的数据集:塞文是法官,基亚是面包师,塞文和基亚在公园里相遇,在工作了一长天后,在法庭上裁决案件,他很高兴放松."}
+{"dataset_id": "mcif_v1.0", "sample_id": 546, "src_lang": "en", "tgt_lang": "zh", "output": "这里的任务是要识别正确的实体, 并且这个名词是指他,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 547, "src_lang": "en", "tgt_lang": "zh", "output": "给定的代名词的解决需要两种类型的信息:首先,实体特定的知识,如服务员是法官;第二,背景知识,如法官在法律法院中决定案件"}
+{"dataset_id": "mcif_v1.0", "sample_id": 548, "src_lang": "en", "tgt_lang": "zh", "output": "一般来说,背景知识是从大语言模型预训练中学到的,而特定的知识是从经验中学到的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 549, "src_lang": "en", "tgt_lang": "zh", "output": "我们 varies the availability of these two pieces of information so that it can be found in a single source or in multiple sources. 我们可以分为两个信息的可用性,所以它可以在一个单一的来源中或多个来源中找到."}
+{"dataset_id": "mcif_v1.0", "sample_id": 550, "src_lang": "en", "tgt_lang": "zh", "output": "我们已经定义了三种设置的猫首先我们有典型的设置背景预训练,假设在预训练时间有背景知识"}
+{"dataset_id": "mcif_v1.0", "sample_id": 551, "src_lang": "en", "tgt_lang": "zh", "output": "第二,是背景设置,背景知识在预训练时间和经验时间都有最后,背景知识设置,背景知识类型只有在经验时间才有"}
+{"dataset_id": "mcif_v1.0", "sample_id": 552, "src_lang": "en", "tgt_lang": "zh", "output": "这最后设置是特别有趣的,因为它模拟了后台知识的案例,所以它不需要解决任务,它不是模型预训练数据的一部分"}
+{"dataset_id": "mcif_v1.0", "sample_id": 553, "src_lang": "en", "tgt_lang": "zh", "output": "这里是一个例子,说明如何控制事实和真实来源的可用性"}
+{"dataset_id": "mcif_v1.0", "sample_id": 554, "src_lang": "en", "tgt_lang": "zh", "output": "在背景预训练设置中,我们假设政客们寻求政府选举席位的背景知识包含在预训练参数中在影响时间的背景下,我们提供了反特定的知识"}
+{"dataset_id": "mcif_v1.0", "sample_id": 555, "src_lang": "en", "tgt_lang": "zh", "output": "在背景设置中,我们还提供不仅反特定的,还提供关于政治人物在影响力环境中的背景知识"}
+{"dataset_id": "mcif_v1.0", "sample_id": 556, "src_lang": "en", "tgt_lang": "zh", "output": "我们提供了虚构的职业 Meritua 而不是政治家,因为 Meritua 很少会被包含在预训练的"}
+{"dataset_id": "mcif_v1.0", "sample_id": 557, "src_lang": "en", "tgt_lang": "zh", "output": "我们评估了数据集,包括人类研究参与者和建立的解决方案模型在这个图中,我们显示了最难实现的模型结果,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 558, "src_lang": "en", "tgt_lang": "zh", "output": "没有在基德穆斯上进行任务特定的训练,两种模型都没有表现好然而,在基德穆斯上训练时,C到F和B到C的表现都比随机选择表现得更好"}
+{"dataset_id": "mcif_v1.0", "sample_id": 559, "src_lang": "en", "tgt_lang": "zh", "output": "这表明,当在一般的查询解决方案数据集上训练时, 模拟器学会利用表面线索,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 560, "src_lang": "en", "tgt_lang": "zh", "output": "附加的虚构知识实验表明,即使是表现最好的模型也不能可靠地整合仅在推断时提供的背景知识."}
+{"dataset_id": "mcif_v1.0", "sample_id": 561, "src_lang": "en", "tgt_lang": "zh", "output": "概括了我们论文的主要取材许多对应解决方案模型似乎无法从不同来源的知识中推理出不同来源的知识然而,与任务特定培训有关,一些模型成功地整合了来自多个来源的知识"}
+{"dataset_id": "mcif_v1.0", "sample_id": 562, "src_lang": "en", "tgt_lang": "zh", "output": "尽管如此,即使是表现最好的模型,似乎也存在可靠的后退知识的困难,这些知识只在推断时才呈现如果你有兴趣了解更多细节,请参阅我们的论文,并查看GitHub上的数据集和代码"}
+{"dataset_id": "mcif_v1.0", "sample_id": 563, "src_lang": "en", "tgt_lang": "zh", "output": "哎,我和你一起谈谈我们现在的纸张,用自然语言的语言模型来测量语言模型,这是在与埃森德·德莫斯和丹德罗夫斯基合作的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 564, "src_lang": "en", "tgt_lang": "zh", "output": "在最近的几年里,许多人已经记录了社会社会主义的普遍性,以及在语言模型或LMS中存在的标准."}
+{"dataset_id": "mcif_v1.0", "sample_id": 565, "src_lang": "en", "tgt_lang": "zh", "output": "然而,这些措施有各种限制,它们通常依赖于手工构建的数据集,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 566, "src_lang": "en", "tgt_lang": "zh", "output": "而且也通常很特别的特别特点, 意思是它不会被其他的统计学或联系所概括, 也很简单的把非常普遍的关系, 像是负面关系, 特别是群体."}
+{"dataset_id": "mcif_v1.0", "sample_id": 567, "src_lang": "en", "tgt_lang": "zh", "output": "还有很多工作在空间中没有计算出交互性,这是多元化的社会特征可以结合在一起,并且是<unk>的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 568, "src_lang": "en", "tgt_lang": "zh", "output": "越过这些限制,我们就相信这些新指令的性能,这些指令非常好,非常好地回应指令和提示."}
+{"dataset_id": "mcif_v1.0", "sample_id": 569, "src_lang": "en", "tgt_lang": "zh", "output": "所以我们可以把这个模型变成一个个人,这是个形象的形象,用个体形象来形容你,你是一个亚洲女人,你自己去描述吧."}
+{"dataset_id": "mcif_v1.0", "sample_id": 570, "src_lang": "en", "tgt_lang": "zh", "output": "我们可以立即看到这很普遍,因为我们可以指定任何一个标记,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 571, "src_lang": "en", "tgt_lang": "zh", "output": "所以这里有一些例子从GPT Four"}
+{"dataset_id": "mcif_v1.0", "sample_id": 572, "src_lang": "en", "tgt_lang": "zh", "output": "我们会看到,为什么这些结果是负面或有毒的,在传统的这些东西中."}
+{"dataset_id": "mcif_v1.0", "sample_id": 573, "src_lang": "en", "tgt_lang": "zh", "output": "有一些有趣的模式"}
+{"dataset_id": "mcif_v1.0", "sample_id": 574, "src_lang": "en", "tgt_lang": "zh", "output": "亚洲女人被描绘成是不认同,中东女人被描绘成是异国情调,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 575, "src_lang": "en", "tgt_lang": "zh", "output": "两个有色人格的女人都提到了祖先,而白人人格则没有什么区别"}
+{"dataset_id": "mcif_v1.0", "sample_id": 576, "src_lang": "en", "tgt_lang": "zh", "output": "抓住这些模式,我们的方法有两个部分第一种是将这些人物生成"}
+{"dataset_id": "mcif_v1.0", "sample_id": 577, "src_lang": "en", "tgt_lang": "zh", "output": "我们的普普普斯来创造这些人被研究所启发,他们把这些普普斯给人类对象,发现通过给人类对象的普普斯,他们也能够对种族的刻板印象产生影响"}
+{"dataset_id": "mcif_v1.0", "sample_id": 578, "src_lang": "en", "tgt_lang": "zh", "output": "也就是说这也能直接比较我们的生成人与人类的反应."}
+{"dataset_id": "mcif_v1.0", "sample_id": 579, "src_lang": "en", "tgt_lang": "zh", "output": "第二个部分是Mark Words,这是用来识别 Mark Groups 和 Mark One 的区别的方法,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 580, "src_lang": "en", "tgt_lang": "zh", "output": "这点的优点是,我们能得到特别特定的特点,比如说没有任何特定的词汇."}
+{"dataset_id": "mcif_v1.0", "sample_id": 581, "src_lang": "en", "tgt_lang": "zh", "output": "所以马克思的方法是根据社会语言学概念的市场, 说明它是一个未标记的群体, 任何一个群体的标记都是语言学的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 582, "src_lang": "en", "tgt_lang": "zh", "output": "所以比如说man是指woman是指与woman有关联的,所以一旦有人描述woman是指一个女人,通常会特别说明woman是指一个女人,并用woman来形容woman"}
+{"dataset_id": "mcif_v1.0", "sample_id": 583, "src_lang": "en", "tgt_lang": "zh", "output": "而更广泛地说,社会中的主导群体是语言上和社会上不被标记的,而边缘化群体通常是被标记的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 584, "src_lang": "en", "tgt_lang": "zh", "output": "所以在我们的方法中,我们首先指定了 what the unmarked and marked groups are."}
+{"dataset_id": "mcif_v1.0", "sample_id": 585, "src_lang": "en", "tgt_lang": "zh", "output": "然后我们比较了使用Fighting Words方法的个人,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 586, "src_lang": "en", "tgt_lang": "zh", "output": "所以,对于黑人女人的例子,我们会做一些战斗,并比较对白人和男人的比例,因为这两个群体是相应的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 587, "src_lang": "en", "tgt_lang": "zh", "output": "所以首先我们使用了类别的类别,我们发现那种人群的类型比人类的类别多得多."}
+{"dataset_id": "mcif_v1.0", "sample_id": 588, "src_lang": "en", "tgt_lang": "zh", "output": "然而,当我们实际看了\"词汇和词汇的分布\"时,我们发现了非常不同的东西."}
+{"dataset_id": "mcif_v1.0", "sample_id": 589, "src_lang": "en", "tgt_lang": "zh", "output": "所以虽然这些人群的发育率高得多,但人类的发育率也很高,而这些人群的发育率也很高,而这些人群的发育率也很高,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 590, "src_lang": "en", "tgt_lang": "zh", "output": "所以真的只有正面或者是否定的"}
+{"dataset_id": "mcif_v1.0", "sample_id": 591, "src_lang": "en", "tgt_lang": "zh", "output": "实际上,这本书并没有真正捕捉到我们所看到的许多有害的模式,所以我们要从结果中了解一下这些积极的词汇,说明这些词汇如何促进特定的形容和表达."}
+{"dataset_id": "mcif_v1.0", "sample_id": 592, "src_lang": "en", "tgt_lang": "zh", "output": "在我们的分析中,我们回顾了这些看似积极的表现反映了有害的模式."}
+{"dataset_id": "mcif_v1.0", "sample_id": 593, "src_lang": "en", "tgt_lang": "zh", "output": "首先,从Mark Groups来看,Top Words包括文化传统骄傲和异国情调等东西这些词定义了这些群体的关系,并将其与其身份区分为不同于 White Norm"}
+{"dataset_id": "mcif_v1.0", "sample_id": 594, "src_lang": "en", "tgt_lang": "zh", "output": "这有助于长期的歧视和对这些群体的歧视."}
+{"dataset_id": "mcif_v1.0", "sample_id": 595, "src_lang": "en", "tgt_lang": "zh", "output": "还有很多的常见症状, 尤其是在女人身上, 譬如说拉丁语的女人包括活泼和有魅力的女人."}
+{"dataset_id": "mcif_v1.0", "sample_id": 596, "src_lang": "en", "tgt_lang": "zh", "output": "连接到热带热带的热带, 对于亚洲女人来说, 词语是像小小的, 细腻的和细腻的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 597, "src_lang": "en", "tgt_lang": "zh", "output": "连接到亚洲女人长期的历史, 成为超性感的女人, 显得非常温和和顺利,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 598, "src_lang": "en", "tgt_lang": "zh", "output": "最后,对于黑人女人来说,我们看到一些顶级词是强壮和韧性"}
+{"dataset_id": "mcif_v1.0", "sample_id": 599, "src_lang": "en", "tgt_lang": "zh", "output": "这与一个\"人们称之为强壮的黑人女人的原型\"的原型相连,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 600, "src_lang": "en", "tgt_lang": "zh", "output": "已经有工作显示了这种类型的类型实际上是非常有害的,因为它会给这些人口统计数据带来很多压力,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 601, "src_lang": "en", "tgt_lang": "zh", "output": "而不是实际上在工作时改变这些压力, 压力在那些人身上, 让他们过度压力,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 602, "src_lang": "en", "tgt_lang": "zh", "output": "我们发现了这句话的意思是说,每个市场组都非常简单,非常具有基本的描述"}
+{"dataset_id": "mcif_v1.0", "sample_id": 603, "src_lang": "en", "tgt_lang": "zh", "output": "所以根据这些模式,我们可以对三种推荐进行模型设计."}
+{"dataset_id": "mcif_v1.0", "sample_id": 604, "src_lang": "en", "tgt_lang": "zh", "output": "首先我们应该作为研究者去处理正面类型和基本的叙述,我们也应该使用交叉学来研究病情和病因,因为有很多东西会被忽视,如果我们不这样做."}
+{"dataset_id": "mcif_v1.0", "sample_id": 605, "src_lang": "en", "tgt_lang": "zh", "output": "最后,它应该会增加关于微型化方法的透明度."}
+{"dataset_id": "mcif_v1.0", "sample_id": 606, "src_lang": "en", "tgt_lang": "zh", "output": "因为,比如说,这些正面的刻板印象我们不知道是因为有某种奇怪的"}
+{"dataset_id": "mcif_v1.0", "sample_id": 607, "src_lang": "en", "tgt_lang": "zh", "output": "过于过度地过度调整,或者是其他一些反刻板印象的方法,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 608, "src_lang": "en", "tgt_lang": "zh", "output": "我们真的不能做任何假设或者真的研究那边的更多透明度."}
+{"dataset_id": "mcif_v1.0", "sample_id": 609, "src_lang": "en", "tgt_lang": "zh", "output": "谢谢你这么多听的,好"}
+{"dataset_id": "mcif_v1.0", "sample_id": 610, "src_lang": "en", "tgt_lang": "zh", "output": "大家好,我的名字是中国科学技术大学的金威"}
+{"dataset_id": "mcif_v1.0", "sample_id": 611, "src_lang": "en", "tgt_lang": "zh", "output": "我很高兴能给您一个关于纸张的短广告视频,我正在复制我的模型,保护嵌入和服务的大型语言模型的版权"}
+{"dataset_id": "mcif_v1.0", "sample_id": 612, "src_lang": "en", "tgt_lang": "zh", "output": "首先,让我们介绍一下嵌入式服务背景."}
+{"dataset_id": "mcif_v1.0", "sample_id": 613, "src_lang": "en", "tgt_lang": "zh", "output": "目前,Tpt,Lama,Palm等大型语言模型在自然语言理解和生成方面是例外."}
+{"dataset_id": "mcif_v1.0", "sample_id": 614, "src_lang": "en", "tgt_lang": "zh", "output": "嵌入式服务是基于大型语言模型构建的服务之一,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 615, "src_lang": "en", "tgt_lang": "zh", "output": "例如,OpenAI提供基于GPT的嵌入式API."}
+{"dataset_id": "mcif_v1.0", "sample_id": 616, "src_lang": "en", "tgt_lang": "zh", "output": "然而,最近的研究表明,攻击者可以通过从嵌入式中学习来窃取模型并提供类似的服务因此,必须保护嵌入式服务的版权"}
+{"dataset_id": "mcif_v1.0", "sample_id": 617, "src_lang": "en", "tgt_lang": "zh", "output": "保护嵌入式服务的版权其中一个解决方案是将水印嵌入提供商的服务中,并检测是否有其他服务包含水印"}
+{"dataset_id": "mcif_v1.0", "sample_id": 618, "src_lang": "en", "tgt_lang": "zh", "output": "水印方法需要满足以下特性:第一,该方法应该适用于嵌入式设备;第二,水印应该不降低提供的嵌入式设备的实用性"}
+{"dataset_id": "mcif_v1.0", "sample_id": 619, "src_lang": "en", "tgt_lang": "zh", "output": "第三,水印应该足够覆盖攻击者,否则攻击者可以轻松地移除水印"}
+{"dataset_id": "mcif_v1.0", "sample_id": 620, "src_lang": "en", "tgt_lang": "zh", "output": "最后,水印需要在模型提取过程中可转移到攻击者的表面."}
+{"dataset_id": "mcif_v1.0", "sample_id": 621, "src_lang": "en", "tgt_lang": "zh", "output": "现有作品可以大致分为四个类别."}
+{"dataset_id": "mcif_v1.0", "sample_id": 622, "src_lang": "en", "tgt_lang": "zh", "output": "然而,这些方法要么不适用于嵌入广告服务,要么不适用于可转移性."}
+{"dataset_id": "mcif_v1.0", "sample_id": 623, "src_lang": "en", "tgt_lang": "zh", "output": "因此,在这篇论文中,我们提出嵌入式标记器,这是一个基于后门的水印方法,适用于嵌入式服务."}
+{"dataset_id": "mcif_v1.0", "sample_id": 624, "src_lang": "en", "tgt_lang": "zh", "output": "然后让我介绍我们的嵌入式标记器的细节嵌入式标记器包含两个主要步骤:水印注入和版权应用"}
+{"dataset_id": "mcif_v1.0", "sample_id": 625, "src_lang": "en", "tgt_lang": "zh", "output": "在这些主要步骤之前,我们首先选择一个触发器集触发器集是中度频率间隔中的单词组"}
+{"dataset_id": "mcif_v1.0", "sample_id": 626, "src_lang": "en", "tgt_lang": "zh", "output": "我们假设提供者可以收集一般文本集,并计算词的频率."}
+{"dataset_id": "mcif_v1.0", "sample_id": 627, "src_lang": "en", "tgt_lang": "zh", "output": "在\"水印注射\"中,我们首先定义一个目标嵌入式.当用户向提供者的服务发送句子时,提供者会计算句子的触发号."}
+{"dataset_id": "mcif_v1.0", "sample_id": 628, "src_lang": "en", "tgt_lang": "zh", "output": "提供的嵌入式是目标嵌入式和原始嵌入式的总和"}
+{"dataset_id": "mcif_v1.0", "sample_id": 629, "src_lang": "en", "tgt_lang": "zh", "output": "当句子中的触发器数量大于m时, 提供的嵌入是完全等于目标嵌入."}
+{"dataset_id": "mcif_v1.0", "sample_id": 630, "src_lang": "en", "tgt_lang": "zh", "output": "版权验证是检测另一个服务背后的模型是否包含水印."}
+{"dataset_id": "mcif_v1.0", "sample_id": 631, "src_lang": "en", "tgt_lang": "zh", "output": "我们首先构建一个后门和一个良性数据集后门数据集包含句子,其中所有单词都属于触发器集,而良性数据集的句子中的所有单词不属于触发器集"}
+{"dataset_id": "mcif_v1.0", "sample_id": 632, "src_lang": "en", "tgt_lang": "zh", "output": "然后,提供商要求从数据集中的类似服务中嵌入."}
+{"dataset_id": "mcif_v1.0", "sample_id": 633, "src_lang": "en", "tgt_lang": "zh", "output": "我们计算了本质和后门数据集之间的相似性差异,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 634, "src_lang": "en", "tgt_lang": "zh", "output": "同时,我们还应用Ks测试,并使用它的p值作为第三个指标"}
+{"dataset_id": "mcif_v1.0", "sample_id": 635, "src_lang": "en", "tgt_lang": "zh", "output": "我们对四个数据集进行实验:HgNews,Mind,SST2和AresPam我们假设提供者应用Wikitext数据集来计数字的频率"}
+{"dataset_id": "mcif_v1.0", "sample_id": 636, "src_lang": "en", "tgt_lang": "zh", "output": "数据集的结果显示,我们的嵌入式标记器可以具有很好的检测性能,"}
+{"dataset_id": "mcif_v1.0", "sample_id": 637, "src_lang": "en", "tgt_lang": "zh", "output": "我们还通过将句子嵌入的数字化验证了提供的嵌入的隐蔽性数字的传说意味着每个句子中的触发器的数量"}
+{"dataset_id": "mcif_v1.0", "sample_id": 638, "src_lang": "en", "tgt_lang": "zh", "output": "正如图所示,很难区分向量嵌入和正常嵌入."}
+{"dataset_id": "mcif_v1.0", "sample_id": 639, "src_lang": "en", "tgt_lang": "zh", "output": "完了谢谢您,会来与我们讨论"}
+{"dataset_id": "mcif_v1.0", "sample_id": 640, "src_lang": "en", "tgt_lang": "zh", "output": "Hello, my name is Vasudha and I am a computer science PhD candidate at Stony Brook University. I would like to present my work accepted in ACL twenty three as a long paper transfer learning for dissonance detection, addressing the class challenge."}
+{"dataset_id": "mcif_v1.0", "sample_id": 641, "src_lang": "en", "tgt_lang": "zh", "output": "我们开始定义认知差异和为什么它是重要的问题研究在语言中简单地说认知差异是两个信念或行为是不一致的"}
+{"dataset_id": "mcif_v1.0", "sample_id": 642, "src_lang": "en", "tgt_lang": "zh", "output": "这个例子,我说,我知道那个人会把我杀死,然后我说,我接着说,我接着说,我接着说,这两场会议之后,我抽了几支烟,这两件事情是不一致的,而且它们是不一致的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 643, "src_lang": "en", "tgt_lang": "zh", "output": "还有我说我觉得我不会把我的工作给他们, 证明是第二个情况, 他们有联系关系."}
+{"dataset_id": "mcif_v1.0", "sample_id": 644, "src_lang": "en", "tgt_lang": "zh", "output": "差异是非常常见的现象我们经验丰富的决策做决定,他们真的想在语言中找到其他语言的关系."}
+{"dataset_id": "mcif_v1.0", "sample_id": 645, "src_lang": "en", "tgt_lang": "zh", "output": "所以为什么这事呢? studying cognitive distance 可以帮助你理解人们的不同意见的影响, 趋势和信仰, 价值观和态度在人口中变化."}
+{"dataset_id": "mcif_v1.0", "sample_id": 646, "src_lang": "en", "tgt_lang": "zh", "output": "High cognitive dissonance is also related to anxiety disorders and can help understand people's mental health better."}
+{"dataset_id": "mcif_v1.0", "sample_id": 647, "src_lang": "en", "tgt_lang": "zh", "output": "studying language expressions in language也能有益于理解极端主义和波拉利化群组的理解."}
+{"dataset_id": "mcif_v1.0", "sample_id": 648, "src_lang": "en", "tgt_lang": "zh", "output": "终于可知性分离很重要要理解个人个体风格的个人风格和帮助我们理解决策过程的过程"}
+{"dataset_id": "mcif_v1.0", "sample_id": 649, "src_lang": "en", "tgt_lang": "zh", "output": "To the goal of creating a cognitive dissonance resource we conducted a large scale of dissonance relationships. 我们使用了 dissonance first approach as seen in the flow chart here."}
+{"dataset_id": "mcif_v1.0", "sample_id": 650, "src_lang": "en", "tgt_lang": "zh", "output": "推特是通过使用PETP Parser和Persons of Discourse Units的推荐根据的指南在纸上描述的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 651, "src_lang": "en", "tgt_lang": "zh", "output": "As can be seen here, dissonance was only found in three point five percent of the annotated pairs."}
+{"dataset_id": "mcif_v1.0", "sample_id": 652, "src_lang": "en", "tgt_lang": "zh", "output": "在收集成千上万个例子的讲座单位的训练中, 我们为初级分类员训练了四十个例子, 没有什么惊喜的分类, 表现不错, 机会不错."}
+{"dataset_id": "mcif_v1.0", "sample_id": 653, "src_lang": "en", "tgt_lang": "zh", "output": "给出低距离的低距离和任何数据集的缺失, 我们正在面对绝对稀有性的问题."}
+{"dataset_id": "mcif_v1.0", "sample_id": 654, "src_lang": "en", "tgt_lang": "zh", "output": "让这体验的结合和转换的结合和活跃的结合可以被收集到更多的样本可以被收集到更低的测试范围,降低整体测试成本通过改进测试."}
+{"dataset_id": "mcif_v1.0", "sample_id": 655, "src_lang": "en", "tgt_lang": "zh", "output": "因为最初的模型是不能从 class 开始的,所以我们开始了 #ah 活跃的学习过程通过从相关任务转移的重量."}
+{"dataset_id": "mcif_v1.0", "sample_id": 656, "src_lang": "en", "tgt_lang": "zh", "output": "我们从两个不同的主题转换了两个主题独立分类分类分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离分离"}
+{"dataset_id": "mcif_v1.0", "sample_id": 657, "src_lang": "en", "tgt_lang": "zh", "output": "叫 Debate here and on Binary Classification of Expansion and Comparison of PNTB,因为这两个是与 Consonance and Dissonance 的概念密切相关的,我们称之为 C E E."}
+{"dataset_id": "mcif_v1.0", "sample_id": 658, "src_lang": "en", "tgt_lang": "zh", "output": "我们发现那在转发上零速速的表现在数据集上已经比机会更好了 机会与最好的AUC点六点二"}
+{"dataset_id": "mcif_v1.0", "sample_id": 659, "src_lang": "en", "tgt_lang": "zh", "output": "进一步在双重调试中找到我们找到的 C 调试的效果通过进一步调试的效果在比较低的表现上表现得更好这就是我们使用这个模型来启动 Active Learning"}
+{"dataset_id": "mcif_v1.0", "sample_id": 660, "src_lang": "en", "tgt_lang": "zh", "output": "Next, we will determine the best method to update a model with new data from each round of active learning and annotations. 积累所有数据从 Active 积累的数据从 Active 积累到现在, 训练的最新数据集的最新数据."}
+{"dataset_id": "mcif_v1.0", "sample_id": 661, "src_lang": "en", "tgt_lang": "zh", "output": "在不同的策略中,我们发现了 cumulative performing 的表现是等于或比 iterative 的表现更好"}
+{"dataset_id": "mcif_v1.0", "sample_id": 662, "src_lang": "en", "tgt_lang": "zh", "output": "Next to improve the number of examples we will use the probability of class strategy PRC 选择最多的例子很可能被任何一个轮的任何一个轮的模型所选"}
+{"dataset_id": "mcif_v1.0", "sample_id": 663, "src_lang": "en", "tgt_lang": "zh", "output": "我们比较这与其他的 state of the art 的其他 state of the art 的策略是常用在 community 中的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 664, "src_lang": "en", "tgt_lang": "zh", "output": "发现了PRC策略工作比其他国家战略工作更好虽然差异很小但注意表现是明显的低于"}
+{"dataset_id": "mcif_v1.0", "sample_id": 665, "src_lang": "en", "tgt_lang": "zh", "output": "在 for the round of the best strategies with the best strategies 我们改进了分级分级AUC到七点五点这就是我们有最好的表现在我们手上"}
+{"dataset_id": "mcif_v1.0", "sample_id": 666, "src_lang": "en", "tgt_lang": "zh", "output": "我们还检查了每个策略的可行性 用于Annotation Quality and Costs to Annotators 我们发现PRC有最高百分比的不同和工作最好的类别,但是Annotators也发现了困难的例子"}
+{"dataset_id": "mcif_v1.0", "sample_id": 667, "src_lang": "en", "tgt_lang": "zh", "output": "在总结中我们发现PRC是简单的战略为R class acquisition和Co-Starting with Properly Designed Transfer Learning Task and Helpfully 帮助的."}
+{"dataset_id": "mcif_v1.0", "sample_id": 668, "src_lang": "en", "tgt_lang": "zh", "output": "我们也发现这份更新是很有用的,用于从不同的领域转换学习,而在不同的领域,活跃的域名从累计更新中获益"}
+{"dataset_id": "mcif_v1.0", "sample_id": 669, "src_lang": "en", "tgt_lang": "zh", "output": "这些是链接到我们的数据集和纸张的链接 #ah #free feel free to get in touch with us if you have any questions.谢谢你."}

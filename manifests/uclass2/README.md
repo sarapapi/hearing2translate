@@ -38,11 +38,12 @@ After running the steps above, your directory layout will be:
 ${H2T_DATADIR}/
 └─ uclass2/
    └─ audio/
+	└─ en/
       └─ Monolog/
       │  ├─ F_0142_11y3m_1.wav
       │  ├─ F_0142_11y5m_1.wav
       │  └─ .../
-			└─ Reading/
+      └─ Reading/
       │  ├─ F_0101_14y8m_1.wav
       │  ├─ F_0101_14y8m_2.wav
       │  └─ ...
@@ -57,20 +58,22 @@ If your generate.py script writes manifests, you should get JSONL files (one per
 
 
 ```json
-			{   	"dataset_id": "dataset_id",
-						"sample_id": "01",
-						"src_audio": "/uclass2/audio/monolog/F_0142_11y3m_1.wav",
-						"src_ref": null,
-						"tgt_ref": null,
-						"src_lang": "en",
-						"tgt_lang":	"de",
-						"benchmark_metadata": {
-								"native_acc": null,
-								"spoken_acc": null,
-								"participant_id": 2,
-								"context": "monolog",
+			{	"dataset_id": "uclass2",
+				"sample_id": "01",
+				"src_audio": "/uclass2/audio/en/monolog/F_0142_11y3m_1.wav",
+				"src_ref": null,
+				"tgt_ref": null,
+				"src_lang": "en",
+				"tgt_lang":	"de",
+				"benchmark_metadata": {
+						"native_acc": null,
+						"spoken_acc": null,
+						"participant_id": null,
+						"context": "monolog",
 			}
 ```
+
+
 
 ## License
 

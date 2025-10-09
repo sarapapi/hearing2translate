@@ -15,6 +15,7 @@ seamless_lang_codes = {
     "pt": "por",
     "zh": "cmn",
     "zh-cn": "cmn",
+    "nl": "nld",
 }
 
 def generate(model, sample):

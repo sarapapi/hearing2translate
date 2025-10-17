@@ -1,5 +1,1 @@
-{"lang": "it", "trans_fn": "spirelm_en_anti", "acc": 56.0, "f1_male": 66.7, "f1_female": 45.2, "del_g": 22, "unk_male": 72, "unk_female": 65, "unk_neutral": 0}
-<<<<<<< Updated upstream
-=======
-{"lang": "it", "trans_fn": "spirelm_en_anti", "acc": 56.0, "f1_male": 66.7, "f1_female": 45.2, "del_g": 22, "unk_male": 72, "unk_female": 65, "unk_neutral": 0}
->>>>>>> Stashed changes
+{"lang": "it", "trans_fn": "spirelm_en_anti", "acc": 55.9, "f1_male": 66.6, "f1_female": 45.1, "del_g": 21, "unk_male": 75, "unk_female": 67, "unk_neutral": 0}

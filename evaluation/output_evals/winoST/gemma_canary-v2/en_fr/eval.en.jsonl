@@ -1,0 +1,1 @@
+{"lang": "fr", "trans_fn": "gemma_canary-v2_en", "acc": 53.7, "f1_male": 64.0, "f1_female": 47.0, "del_g": 17, "unk_male": 146, "unk_female": 128, "unk_neutral": 14}

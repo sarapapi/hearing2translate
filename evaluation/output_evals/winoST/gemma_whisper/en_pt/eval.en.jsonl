@@ -1,0 +1,1 @@
+{"lang": "pt", "trans_fn": "gemma_whisper_en", "acc": 59.7, "f1_male": 67.9, "f1_female": 52.0, "del_g": 16, "unk_male": 17, "unk_female": 21, "unk_neutral": 4}

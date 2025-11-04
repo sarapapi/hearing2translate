@@ -1,0 +1,1 @@
+{"lang": "fr", "trans_fn": "gemma_owsm4.0-ctc_en", "acc": 54.4, "f1_male": 64.8, "f1_female": 47.3, "del_g": 18, "unk_male": 135, "unk_female": 127, "unk_neutral": 17}

@@ -1,0 +1,1 @@
+{"lang": "pt", "trans_fn": "tower_whisper_en", "acc": 86.7, "f1_male": 88.0, "f1_female": 91.9, "del_g": 4, "unk_male": 10, "unk_female": 19, "unk_neutral": 0}

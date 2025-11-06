@@ -15,3 +15,10 @@ spirelm @ git+https://github.com/utter-project/SpireLM@e0b3744
 sentencepiece
 protobuf
 accelerate
+nemo
+hydra-core
+whisper
+nemo-asr
+nemo_toolkit[all]
+Cython
+packaging

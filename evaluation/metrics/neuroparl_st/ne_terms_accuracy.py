@@ -104,6 +104,7 @@ def print_scores(out_scores, score_type, save_dir, print_latex=False):
     printed_scores = {}
     accuracy_ne_scores = 0
     accuracy_ne_len = 0
+    accuracy_ne_ci_scores = 0
     for c in categories:
         printed_scores[c] = {}
         printed_scores[c]["Total"] = out_scores[c]["total"]
@@ -113,12 +114,18 @@ def print_scores(out_scores, score_type, save_dir, print_latex=False):
         printed_scores[c]["Case Insensitive Accuracy"] =\
             float(out_scores[c]["ci_found"]) / out_scores[c]["total"]
         if c != "TERM":
-            accuracy_ne_scores += out_scores[c]["ci_found"]
+            accuracy_ne_scores += out_scores[c]["found"]
+            accuracy_ne_ci_scores += out_scores[c]["ci_found"]
             accuracy_ne_len += out_scores[c]["total"]
     path = Path(save_dir)
     path.mkdir(parents=True, exist_ok=True)
-    with open(path / "results.json", "w+") as out_json, open(path / "full_breakdown_table.tex", "w+") as out_tex:
-        scores = {"accuracy_ci_ne": float(accuracy_ne_scores) / accuracy_ne_len if accuracy_ne_len != 0 else 0, "accuracy_ci_term": float(out_scores["TERM"]["ci_found"]) / out_scores["TERM"]["total"] }
+    with open(path / "results_summary.jsonl", "w+") as out_json, open(path / "full_breakdown_table.tex", "w+") as out_tex:
+        scores = {
+                  "accuracy_ne": float(accuracy_ne_scores) / accuracy_ne_len if accuracy_ne_len != 0 else 0, 
+                  "accuracy_term": float(out_scores["TERM"]["found"]) / out_scores["TERM"]["total"],
+                  "accuracy_ci_ne": float(accuracy_ne_ci_scores) / accuracy_ne_len if accuracy_ne_len != 0 else 0, 
+                  "accuracy_ci_term": float(out_scores["TERM"]["ci_found"]) / out_scores["TERM"]["total"]
+                   }
         json.dump(scores, out_json)
         table = pd.DataFrame.from_dict(printed_scores, orient='index').to_latex()
         out_tex.write(table)

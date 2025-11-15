@@ -1,0 +1,646 @@
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1003119935936341070_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "然而，由于通信渠道缓慢，西方的风格可能落后25到30年。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10052240106321793346_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "所有世界旁边的名词都为你永远从句子中的第一个字母开始，即使在句子中间。你"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10167324587744183095_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "北方便可抵达的是辛特拉，一个浪漫而迷人的小镇。它因拜伦勋爵对其辉煌的生动描述而为外国人所熟知。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10197164397713068203_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "卷心菜汁的颜色会根据其酸度、碱度、化学性质而变化。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10233995782544396174_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "许多人也希望在家庭和个人之间建立起旅行的联系与解答。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10235738076911595987_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "医院遵循了检查控制的协议，包括将患者与其他人隔离，以防止可能的其他人感染。\n\n（注：为保持语句通顺和准确，我将原文中的部分词语进行了适当的调整。在中文中，“防止可能的其他人感染”更能准确表达原文的含义。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10323357556845456822_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "北马里亚纳群岛紧急管理办公室表示，全国未报告有任何损失。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10335587906469246566_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "二十世纪的研究表明，存在两种遗传变异的池：隐藏的和表达的。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10344335557154974057_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这个格式的纵横比，通过除以12得到最简的整数比值，因此被称为自由比2。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1036771894648013441_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在他们繁荣时期，光污染还不是现在这样严重的问题，所以它们通常位于城市或校园中，比现代建造的观测台更容易到达。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1038214857203833067_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在某个150到200份之间印刷的夜晚，现在这份印刷品被称为《拉普广侧》。\n\n（注：\"Lap Broadside\" 由于其特殊性，直接保留英文名称，在中文中可理解为一种特殊的传单或海报。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10383288285905292158_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "例如，北卡羅來納州的班內特學校的學生每年都會設計一個關於州議會大廈影響的網站。每年網站都會重新設計，但舊版本會保留在線，作為一本剪貼簿。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10405958125670257178_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "狮子群体的行为模式与狼群或狗群非常相似，这些动物与狮子出奇地相似，但在行为上与其他大猫不同，并且对猎物极其致命。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10411016628242228511_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这座城市也是攀登纳拉甘戈火山（Nraganggo火山）的基地，同时这里还有非洲最便宜的山地大猩猩观赏活动。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1042003289011443756_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "互联网结合了大众传播和人际传播的元素。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1043394666292127188_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这些内容探讨了特定人群为何渴望他们所追求的事物，以及他们周围的环境中哪些因素会促使他们采取或不采取某些行为。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1045619486290403122_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "例如，世界上最常见的静态摄影格式是35毫米，这在模拟胶片时代末期是主流的胶片尺寸。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1046653381869710616_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在流行语境中，萨法里（safari）一词通常指前往非洲观赏野生动物的陆上旅行，尤其是在草原上。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10471564175308895403_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "如果你是要将 \"it you\" 翻译成中文，这在语境不明的情况下有些困难，因为 \"it\" 和 \"you\" 在中文里可以有多种表达方式。假设这是一个指示代词和人称代词的组合，一种可能的翻译是：\n\n它你\n\n但在具体语境下，这可能需要调整。例如，如果 \"it\" 指的是之前提到的事物，而 \"you\" 指的是听众或读者，更自然的翻译可能是：\n\n它就是你所需要的。\n\n或者，如果 \"it\" 和 \"you\" 在原文中是分别用来指代两个不同的事物或人，那么翻译时也需要根据上下文来选择合适的中文词语。\n\n请提供更完整的上下文以获得更准确的翻译。不过根据您的指示，以下是尽可能贴近原文本的翻译：\n\n它 你\n\n（请注意，这在中文里可能没有明确的意义，除非有额外的上下文。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10481451226514948764_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "建议所有女性旅行者，无论实际婚姻状况如何，都应表现得像已婚一样。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10492135991603561867_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在某些地区，一分钟烧开水就足够了，而其他地区则需要几分钟。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10492761258488775721_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "任何人已在游船通道旁放置了私人物品，考虑到雪冰的可能性。 (Rènhé rén yǐjīng zài yóu diàn tōngdào páng fàngzhì le sīwù pǐn, kǎolǜdào le xuěbīng de kěnéngxìng.)"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10536763405165824117_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "因此，两种鱼类物种已灭绝，另外两种（包括驼背鲦鱼）已成为濒危物种。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1054805305879816018_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "它由维琪法国人统治。这些法国人是在1940年与德国人达成和平协议的人，他们与入侵者合作，而不是与他们战斗。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10550734868852131138_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "1940年8月15日，同盟国军队入侵法国南部，此次入侵被称为“卡戈恩行动”（Operation Cragoon）。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10614481583312370701_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "合金基本上是两种或多种金属的混合物，请不要忘记，存在许多种合金。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10622204403793540766_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "例如，北卡羅來納州的班內特學校的學生每年都會設計一個網站，記錄他們前往州議會大廈的旅程。每年網站都會重新設計，但舊版本會保留在線，作為一種紀念冊。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10731896540541531669_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "他的作品因其卓越的品质和细致入微的细节而广受认可，以至于他成为极少数家喻户晓的艺术家之一，一些收藏家专门收藏他的作品。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10751756685109361684_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "丹尼尔·兰塔吉，联合国疾病专家，指出这次疫情的爆发很可能是由维和部队引起的。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10768814098664478369_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "其他提名包括：最佳影片、最佳导演、最佳摄影、最佳服装设计、最佳剪辑、原创配乐、音效剪辑、声音混合、原创剧本。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10849792007407044602_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "虚拟团队被要求达到与面对面团队相同的卓越标准，但存在细微的差异。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10861831846737909528_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在北部，该区域北接萨赫勒地区，南、西临大西洋。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10894616243452123700_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "虎是一只全面的运动员，虽然爬树不是很擅长，但它会游泳、跳跃遥远的距离，并且能用力拉动，其力量是强壮人类的五倍。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10899527843662463911_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "他随后被转送到剑桥的亚当·爱丁堡医院。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10903101168349732260_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "金字塔沙乐与灯光秀是该地区最吸引孩子的主题之一。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10933070083389897676_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "由于水下地形的关系，回流集中在几个较深的区域，并且那里可能会形成向深水快速流动的洋流。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10937407360976471523_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "坠机事件发生在高山地形中，据信是敌方火力所致。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10938576782105608041_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "博客也可以帮助提高学生的写作水平。虽然学生们通常在开始博客体验时语法和拼写都比较马虎，但有了受众的存在，他们的态度往往会发生转变。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "10969774925516121312_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这是区分子句和宾语的一个重要方法。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11060294228176938598_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "结果，鱼类物种中有二十多种显示出恢复迹象。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1107772981946748169_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "但关于鸟类仍有许多地方看起来像一把悬剑，令我们难以捉摸。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1111475259790805601_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "奥利弗·萨克斯在其论文《总统演讲》中指出，尽管有些人由于大脑损伤而无法理解语言，但他们仍能评估真诚度和准确性。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11147918080606585533_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "山羊似乎大约在10,000年前首次出现在伊朗的扎格罗斯山脉。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1116140877447157610_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "联邦政府强烈建议随时留意争议天气是否影响该地区或可能影响任何旅行计划。\n\n(Note: The original English sentence has some grammatical errors. The Chinese translation provided has been adjusted for grammatical correctness and clarity.)"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1116401173651214130_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在这一段欧洲历史时期，已经变得富有的天主教会受到了审视。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11200231708585274851_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "随着对希腊语的了解逐渐减少，西方发现自己与希腊的哲学和科学根源被切断了。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11260391063812418810_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "上周，马先生宣布，苹果公司已通报了34起额外的疏忽事件，这家公司名为非疏忽公司（Non-Sious）。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11265842188315045636_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "梵蒂冈城的人口约为800人，它是世界上最小的独立国家，也是人口最少的国家。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11318597463051480163_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "外国的基什内尔夫人在阿根廷剧院宣布了她竞选总统的意向，这个地点是她2005年作为布宜诺斯艾利斯省代表团的一员开始参议院竞选的地方。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11374239868879585530_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "热巧克力达到比利时标准。免费果汁价格高昂但品质上乘。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11426556553252626005_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "一个港口在1889年成为一场臭名昭著的海军对峙的现场，当时德国、美国和英国的七艘船只拒绝离开港口。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11459777646810052940_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "埃及人在公元前三世纪建造了伟大金字塔，这是为纪念已故法老而建造的大量金字塔结构之一。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1146643745158029931_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "一个文明是指一个庞大群体共享的独特文化，他们共同生活和合作工作，形成一个社会。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11483786862560523973_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在浪漫而迷人的辛特拉镇北部，交通便利，那里因洛德瑞爵士对其辉煌的详细记载而使我们这些外国人为之着迷。\n\n（注：原文中\"Lordry\"应为\"Lord Byron\"拜伦勋爵之误，这里翻译为\"洛德瑞爵士\"以保持一致。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11497310594035767755_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "狮子群体的行为与狼群或狗群非常相似。动物学研究发现，狮子的行为与老虎等其他大型猫科动物有显著不同，但与狼等动物有相似之处，对猎物也极具致命性。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11504385604540375365_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "科学界希望了解行星是如何形成的，尤其是地球是如何形成的，因为很久以前彗星曾与地球相撞。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11525263464519603482_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "大多数现代研究望远镜都是位于偏远地区、具有有利大气条件的巨大设施。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1153104690713813269_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "如果您看过电影《国家宝藏》，您会知道那张藏宝图写在《独立宣言》的背面。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11536232800365538941_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "桑给巴恩斯（Sundarbans）是世界上最大的沿海红树林带，从海岸向孟加拉国和印度内陆延伸80公里（50英里）。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11554335886429174193_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "一般来说，当经理们开始领导他们以前的同事时，可能会出现两种行为。一种是试图保持与同事之间的“同侪关系”（试图成为他们中的一员），另一种则是拉开与同事之间的“距离”。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11559094331412401332_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "氢离子是质子的一种形式，其电子被分离回去。两种类型的离子由一个质子和一个电子组成。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11593450817032542587_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "桑给巴恩斯是世界上最大的沿海红树林带，绵延80公里（50英里），从海岸向孟加拉国和东印度内陆延伸。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11596505942268625598_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在整个20世纪60年代，泽林斯基（rzezinski）担任约翰·F·肯尼迪的顾问，随后在林登·B·约翰逊（Lyndon B. Johnson）政府中工作。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11617272550749387741_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "Qomo 53 今年早些时候开始担任州长，上个月签署了一项法案，将同性婚姻合法化。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11665346626937246597_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "电视报道显示，工厂冒出白烟。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11668734600035674277_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "执政政党西南非洲人民组织在议会选举中也保持了多数席位。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11670188897888947692_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "除了头顶清晰美丽的天空和周围众多山脉之外，别无他物可见。洞内几乎看不见或听不见这个世界的任何事物。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11705046490861852963_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "首先，大多数骑手都穿骑乘马靴，但它们的鞋跟在光滑的地面上相当窄。\n\n（注：这里的“soul”应理解为鞋的“鞋底”，在中文语境中通常用“鞋底”或“鞋跟”来描述。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11766033532714442721_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "自1966年以来，太阳犬枪狩猎区（Sun dog guns）已成为野生动物保护区，您估计该地区目前有400只皇家骨斑虎（皇家孟加拉虎）和约30,000只斑点动物（豹子）。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11781376959217630586_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "图布古塞湖国家公园林木繁茂，主要树种有山毛榉、云杉和冷杉，景观融合了户外和地中海风格。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11820398005906165915_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "同样在革命之后，最雄心勃勃和成功的非裔人士取得了成就。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11827077161070295147_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "场景在金字塔上展示，不同的金字塔被点亮。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11853072634976133891_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这些夫妇可能会选择为他们的宝宝制定一个收养计划。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11880309600276730497_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "同样，拥有申根签证意味着您无需分别向每个申根成员国申请签证，从而节省了时间、金钱和文件准备的麻烦。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11966709226632417907_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "宇宙中的一切都是由物质组成的。所有物质都是由称为原子的微小粒子组成的。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11974497390699501411_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这一发现也为羽毛和鸟类的演化提供了洞察。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "11987168412167267165_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "你手上的水分會與殼產生反應，讓你感到不適。\n\n\n(Nǐ shǒu shàng de shuǐfèn huì yǔ ké chēngshēn, ràng nǐ gǎndào bùshì.)"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12018418318980824126_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这被称为化学品的pH值。你可以使用红卷心菜汁制作一种指示剂。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12156117084384995618_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "只有在生殖细胞中的突变才能遗传给后代，而其他地方的突变可能会导致细胞死亡或癌症。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12164368102080603077_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "州长办公室表示，19名伤者中包括警察。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1218355507714944126_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在早期，这档节目仅在长期运营的互联网电台网站“ToienNe 电台”播出，该网站专注于谈话电台节目。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12190760535244332971_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "吉萨高原或埃及死亡谷中的吉萨墓园（Giza Necropolis）包含多个金字塔，其中最大的是伟大金字塔（Great Pyramid），还有多个墓穴、几座神庙和伟大狮身人面像（Great Sphinx）。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12200368278244671662_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这些夫妇可能会选择为他们的宝宝制定一个收养计划。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12230326991067783666_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "美国体操协会和美国奥委会拥有相同的目标，即让体操及其他体育运动对运动员而言尽可能地安全，使他们能在一个安全、积极且充满赋权的环境中追逐梦想。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12239464249642485259_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "多发性硬化症（MMS）是一种影响中央神经系统的疾病，它由大脑、脊髓和视神经组成。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12316410148883063626_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "通过虚拟方式分享实地考察也是一种很好的回顾旅行和与未来班级分享经验的方式。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12356293452530186109_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "每个人都参与社会并使用交通系统。几乎每个人都会抱怨交通系统。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12381237049043414166_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "穆罕默德对超脱世俗生活的事物深感兴趣。他经常去一处山洞，这处山洞位于诺雷山，被称为赫拉（Hera），是沉思的灯塔。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12382404601461539160_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "我为这家公司的一群人出来，是他们自己的朋友，但永远是你。 \n\n(Note: The English sentence structure is a bit awkward and may not make complete sense. The Chinese translation tries to maintain the original meaning as closely as possible, but it might still require context to be fully understood.)"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1242235796224521830_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "香港平衡的建筑群排成了一条闪耀的条形图，维多利亚港的水面使其显得格外明显。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12442340605801616197_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这个格式的纵横比通过除以12得到最简单的整数比，因此被称为三比二。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12462354014280856258_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "发生这些事件的时段通常被称为高中世纪，这是欧洲历史上的十一世纪、十二世纪和十三世纪，即公元1000年至1300年。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12517884865939916901_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "它指出了主体的最有效位置是在图像被垂直和水平线分割的交点。详见示例。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "125194026787628519_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "Qomo 53 今年早些时候开始担任政府总督，上个月签署了一项法案，将同性婚姻合法化。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12519810849995407480_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "购买一张通票也可能很有益处，这张通票可以让您进入南非的多个公园或所有南非国家公园。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12570605547501325774_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "同一月份，另一架飞机在2017年于该机场冲出跑道，撞上三角墙。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12596201646041937807_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这一发现也为羽毛和鸟类的演化提供了洞察。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12596571867015231445_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "蒙索鲁斯（Monsocerus）是当时顶级掠食者，因此它除了其他莫苏斯（othermosus）外，无所畏惧。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1261572251451962704_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "六根香肠，包括儿童和老年人，将提前发布，正如菲律宾摄影师们所做的。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12618421744672029626_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "除了一个赛季的事件外，Carpennato还在埃及变革期间参加了两项个人比赛。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12682843461389402977_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "植物产生氧气，人类吸入氧气，同时吸收人类呼出的二氧化碳（即呼吸出的气体）。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12700569942235742079_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "巴厘岛会议议程上的其他议题包括保护世界剩余森林和分享技术，以帮助发展中国家以更少污染的方式发展。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1270296314827012368_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "大脑病理与行为之间的相关性为科学研究提供了支持。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12725120105000747485_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "公告是在特朗普独自完成对话信用并全盘否定克里克特·克雷格之后发布的。\n\n(Note: The original English sentence seems to contain some grammatical errors and unclear contexts. The translation above attempts to make sense of the given text while maintaining the original structure as much as possible.)"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12728606633758857674_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "同样地，拥有深圳签证，您无需分别向深圳成员国申请签证，从而节省时间、金钱和文件处理的麻烦。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1273817225649957097_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "意大利外语也是大多数在国家拉丁文和经常用于宗教仪式中工作的人们的日常语言。\n\n（注：原句语法有些混乱，这里尽量保持了原意，但可能需要根据上下文进一步调整。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12741024238657315067_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "不幸的是，调节交通流量很困难，因为驾驶员的行为无法被完全预测。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12742373433258665797_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "浪漫主义包含了大量来自哥德、菲希特、施莱格等作家的文化决定论因素。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1277588711703410007_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "一种体格健壮的运动员，老虎虽然不能游泳，但可以爬树，跳跃距离很远，并且用五倍于常人的力量拉扯。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12782801286775256949_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "如果你想接近行动中心，你必须提前预订靠近那里的露营地。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12784232275162817860_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "国会从2005财年开始为淫秽计划提供资金，并规定联邦调查局必须指派10名探员专门负责成人色情内容的调查。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12820699144181559822_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "其他（服务）是根据速度需求在许多公共交通价格中带来的。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12890154668042466980_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在战争结束两年后，曾经的盟友变成了敌人，冷战开始了。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12897153867514448386_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "周日，美国man尔特朗普总统通过新闻秘书发表声明，宣布美军将撤离叙利亚。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12906384443438076827_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在马车上，他们被一群高喊着的居民包围，回到了巴黎。这些居民今早经过我身边时，将我挤在一旁。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12921155570472263117_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "虽然戈马相对安全，但任何戈马以外的访问都应进行调查，以了解北基伍省持续战斗的状况。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "129240607624460201_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "如果你看过电影《国家追踪者》，你可能会认为宝藏地图写在《独立宣言》的背面。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12953138808800823203_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "通过练习Qdali瑜伽，Qdali能量（启蒙能量）可以通过瑜伽体式、呼吸练习、咒语以及视觉化技巧被唤醒。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12966312239837756963_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "关于化学物质的pH值，你可以使用红卷心菜汁制作一种指示剂。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "12970636128542220038_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "纳斯卡（NASCAR）车主也导致道路事故发生率更高，这促使医疗保健领域发明了新的技术，以修复受损的身体。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13006273800980159403_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "卷心菜汁的颜色会根据化学物质的酸碱性而变化。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13029464143980259888_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "清晰地声称，无论是特定个人的签名还是阅读你的表达，都应准确无误。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13031516147694203229_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "将两种干粉混合搅拌，然后清洁干净，可以将它们挤入碗中。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13049690085129854387_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "柴油的詭計（或：柴油的技巧）\n\n（注：根据上下文，\"trick\" 可以翻译为“詭計”或“技巧”。如果是描述柴油引擎或燃料的某种巧妙之处，用“技巧”更合适；如果是警告或揭示柴油的某种潜在问题，用“詭計”则更贴切。由于没有具体上下文，这里提供两种翻译选项。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13070914954918539330_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这些晶体在红外傅里叶光谱（FTIR）比较下，其成分与受影响宠物尿液中发现的晶体相匹配。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13128254958003826368_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "对于春季赛，这支队伍取得了五连胜，其中全是女性选手。\n\n（注：原句语法有误，已做适当调整以符合中文表达习惯。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13130060533227294993_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "你手上的水分会与其它层反应，这会在你的一种贝类外壳上产生奇怪的感觉。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13153302236168048197_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "进一步向北的大片地区人口非常稀少，有些地方甚至接近无人居住。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1321689309737152988_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "罗兰多·门多萨向游客们用他的M16步枪开火。\n\n（请注意，原文中\"you\"没有明确的上下文，因此直接翻译为“你们”可能不准确。在中文中，\"你\"可以有单数或复数的含义，具体取决于上下文。如果\"you\"是指特定的听众或读者，可以翻译为“你们”；如果是泛指，可以翻译为“人们”或“各位”。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13230261475791184258_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "政府仍批准与警察官员进行面谈。\n\n（注：原句语法有误，已做适当调整以符合中文表达习惯。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13245569655363672734_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "1990年，由于沙漠沙尘的威胁，它被列入了《世界遗产濒危名单》。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13295416245066118625_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "印度尼西亚的应急团队（ES Corps）估计，六英寸的降雨量可能会导致之前受损的防洪设施出现溃堤。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13297690853135603331_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在更北的大片地区，人口非常稀少，有些地方甚至是几乎无人居住的荒野。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13332753177678720249_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "自1537年亚苏森西翁（Asunción）建城以来，巴拉圭成功地保留了大量其土著特征和身份。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13345242347208844836_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "外国一枚炸弹在总督办公室外爆炸。请注意公告。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13359752682314548_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这并不是告别。这是一个篇章的结束，也是新篇章的开始。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13362021168025680919_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "此外，在消除障碍之后，所有男性申请人都有机会参与竞争，使最雄心勃勃和成功的人能够脱颖而出。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13388880723958450388_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "综合来看，我们不应该感到惊讶，如果我们自己的祖先以一种与现代草原上的黑猩猩相似的方式解决了他们的蛋白质问题。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13447718337043682273_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "丹尼尔·塔，联合国疾病专家，指出此次暴发很可能是由储牙习俗引起的。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13458636098813464476_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "鳞片和爪子，它们产卵，并且像阿特拉斯龙一样用后腿行走。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13542330409815692480_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "我们赞同美国奥委会的声明，认为通过我们组织内部有意义的团队建设，而不是认证，可以更好地服务于我们运动员的利益和他们的运动。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1361225517388701679_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "斯科特·图尔布（Scott Turb）巴士403路定期前往辛特拉（Sintra），途经罗卡角（Cabo da Roca）。您可以乘坐该巴士。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13713355703439016228_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "年轻人然而普遍地失去了对汽车的控制，在比赛开始后不久就结束了比赛。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1372746700546513130_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "由维琪法国统治。这些法国人是在1940年与德国人达成和平协议的人，他们与入侵者合作，而不是与他们战斗。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13732033283623109766_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "到1976年，马丘比丘的300%已经得到恢复，修复工作至今仍在继续。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13809395828339499811_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "一种最常见的方法是通过引用不幸的案例来阐明社交的重要性，这些案例涉及因忽视、不幸或蓄意虐待而未受到成人社交影响的儿童。\n\n（注：原句语法有误，我假设其意为“一种最常见的方法是通过引用不幸的案例来阐明社交的重要性，这些案例涉及因忽视、不幸或蓄意虐待而未受到成人社交影响的儿童。”）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13824971935266428986_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "同一月份，另一架飞机在马兰机场滑出跑道，撞上墙壁，导致17人死亡。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13875708868701082683_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "您也可以参考其他国家政府的建议，但他们的建议是为本国公民设计的。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13888599635337906526_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "组合变化的隔离在两个之间来回进行。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13896470903695476292_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "睡眠中断在正常睡眠期间被除草剂疗程抑制，并在较晚的时间（10至16分钟后）之前入睡。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1394697283561012104_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "我们无法确定，但它可能在第四次饮食中包含乌龟、大拳头和其他大多数飞盘，甚至可能是一种食人种。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "13963903782504043145_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "下一代系统是联邦航空局（FAA）声称可以让飞机飞行更短航线并每年节省数百万加仑燃料的系统，因为它可以减少碳排放。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14076834086577911298_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "当一个组织各职能部门有效利用所有可用资源时，创造力和巧妙构思就会涌现。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14077379425479054842_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "一个简单的流行晚餐，尤其在夏天，是配有橄榄油、番茄和任何可用的调味品（如奶酪、金枪鱼等）的Moli面包。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14115239728007650784_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "另一方面，冰雪天气在许多国家是常态，全年交通运行有条不紊，十分正常。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14146977097620621690_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "要欣赏香港最佳景色，请离开岛屿，前往对面的韩国水岸。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14160468372285024125_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "儿童被安置到寄养家庭的原因多种多样，从忽视到虐待，甚至包括勒索。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14210445503617137582_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "交通流是研究个体驾驶员和车辆在两点之间移动以及它们之间相互作用的学科。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14212778709566873555_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "摩洛哥苏丹重新建造了这座城市，命名为达鲁伊巴巴贾（Daru Iba Baja），并因其许多商人的贸易基地而被称为卡萨布兰卡。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14240553912561192306_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "降低紧张感，生活越积极。每个人都值得被关注。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14278251866048014426_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "使用船舶运输货物是目前跨洋运输大量人员和货物的最有效方式。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14291047344508554279_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "极端天气是所有具有造成破坏、严重社会干扰或人类生命损失潜力的危险天气现象的统称。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14328568808003469713_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "欧洲是一个相对较小的洲，但拥有许多独立的国家。在正常情况下，穿越多个国家意味着需要经历签证申请和护照办理的繁琐过程。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14328961705663130128_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "加利福尼亚州州长西蒙·野运动（Simon Wild Sports）签署了一项法案，禁止向未成年人销售或出租暴力电子游戏。\n\n\n请注意以下几点：\n\n* 我已经将“governor”翻译为“州长”，并根据上下文将“Simon”翻译为“西蒙·野运动”，假设这是他的姓名。\n* “wild sports” 翻译为“野运动”，  保留其字面意思，因为它可能是一个特定的名字或组织名称。\n* “bans the sale of or rent over” 翻译为“禁止销售或出租”。\n* “violent video games” 翻译为“暴力电子游戏”。\n* “to minors foreign” 翻译为“向未成年人”。  这里“foreign”  可能是指不特定国家或地区的未成年人，但在中文语境下通常会理解为“未成年人”已经足够明确，可以省略“foreign”。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14337122471415370884_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "电视报道显示，行星上冒出了白烟。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14384731673566706407_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "钙和钾等元素被认为是金属。当然，也有像银和金这样的金属。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14396239747345303015_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "斯科特波特巴士定期往返于森特里斯，途经卡波德罗卡。\n\n(Pinyin: Sīkèpǔtè bāshì dìngqī fǎnhuán yú Sēntrís, jīngguò Kǎbó dé Luókǎ.)"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14472713183013529731_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "大多数现代研究型南柯（Southcokes）位于偏远地区，拥有有利的大气条件，并已成为各自领域内的巨大权威。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1447510838326873839_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "此外，每个王朝之间都是一个动荡的、省份分裂的时代。其中最著名的时期是汉晋之间持续六十年的三国时代。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14572481585322233862_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在《冰岛人萨迦》中，格陵兰岛被稀疏地提及。传说埃里克·雷德因谋杀罪被驱逐出冰岛，在向西旅行时发现了格陵兰岛，并将其命名为“格陵兰岛”。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14585898865749103727_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "昆虫学家正式地将“虫”（bug）一词用于描述这一昆虫群体。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14624695685248966546_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "仍有许多男女幸存者活着，他们在这里度过了那段时光，还有更多的人有亲人在那里被谋杀或工作至死，无论是犹太人还是非犹太人。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14643126700888487830_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这座城市也是攀登尼里贡戈火山的基地，同时提供非洲最便宜的山地大猩猩追踪活动。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14648010410081654131_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "不要在建筑上涂鸦、刻画或刮痕，破坏现场。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14681158725429032808_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "但是，在失去队长后，印度队只得到了36分，失去了七个比赛机会，最终输掉了比赛。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14693330690944350091_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在山区时间晚上10点到11点之间，囚犯们在院子里点燃了一场火灾。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14704091860070528032_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "因此，记号很可能只是作为标签被添加的。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14738234113419638776_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "它们有带鳞片和爪子的脚。它们产卵，并且像暴龙一样用后面的两条腿行走。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14805661830607478688_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "然而，不应要求评估者承担超出其责任范围和能力范围的义务。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14836289886440749215_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "一位摄影师后来代替了一位年迈的女士，因为她需要实验室，而多萨已经下线了。\n\n（请注意，原文中“dosa”一词的上下文不清，此处翻译为“多萨”，实际含义需根据具体情境确定。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1483818313790875806_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "仅仅两周内，美军和自由法国部队就解放了法国南部，并正向德国挺进。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14855926442890309286_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "植物通过光合作用从太阳中制造食物。它们也提供遮荫。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14868402834603110105_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "敌对行动的爆发与对德国的封锁相关联。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14944400645209157789_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "埃及人在公元前三世纪建造了伟大金字塔，这是为纪念已故法老而建造的大量金字塔结构之一。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14960809846091330730_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "美国体操协会支持美国奥林匹克委员会的信件，并认同奥林匹克大家庭为所有运动员营造安全环境的绝对必要性。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1497068838470674354_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "香港的天际线由一排排建筑物组成，常被比作一根根闪耀的条形图，而维多利亚港的存在让这一景象变得更加明显。\n\n(Hēnggǎng de tiānjì xiàn yóu yī pái pái jiànzhùwù zǔchéng, cháng bèng pòsuǒ yī gēn gēn shǎn yào de tiáoxíng tú, ér Wǔděliàn Hǎwān de cúnzài ràng zhè yī jǐngxiàng biàn dé gèngjiā míngxiǎn.)"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14982964006464846866_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "结果是，表演者在舞台上吸食大麻烟卷，剧院本身也在鼓励观众加入。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "14993919225529607964_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "澳大利亚的米切尔画廊在男子站立超级G比赛中获得第11名。参赛者乌利希·乔普林在男子坐姿超级G比赛中获得第16名。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15004506730396162914_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "他无法服用缓解疼痛所需的药物，因为这些药物在比赛中是被禁止的。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15038927295183526116_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "pH 值由被检测化学物质中氢离子（H+）和氢氧根离子（OH-）的数量表示。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15094027080386890060_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "他受到了新加坡副总理王甲必仕的迎接，并就贸易和恐怖主义问题与新加坡总理李显龙进行了讨论。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15167791612734877902_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在展示开始后的五分钟，一阵风开始卷来。大约一分钟后，风力达到每小时17公里。然后雨来了，但雨势如此猛烈，雨点如此大，仿佛针刺般拍打在皮肤上，天空中的雨带如倾盆而下。人们惊慌地尖叫，互相推搡。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15199695878621076767_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这将使其能够与 802.11a/802.11b 和 802.11g 向后兼容，前提是基站具有双无线电模块。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15228527404193944906_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在玛丽亚地区下方较薄，在高地区下方较厚。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15257026998252037010_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "野生的儿童可能在被捕捉或逃离前经历了严重的儿童虐待或创伤。\n\n(Pinyin: Yěshēng de értóng kěnéng zài bèi bǔzhú huò tūxíng qián jīnglì le yánzhòng de értóng nàodài huò chuàngshāng.)"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15278922555301201869_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "戴面具驾驶也导致道路事故发生率更高，这促使在修复受损身体方面发明了新的健康技术。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1531123292382678510_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "吉安卡洛面对乔，失去了对汽车的控制，并做出了不对称的开始赛车。\n\n（注：\"bearsymmetric\" 这个词似乎是错误的或不存在的英语单词，我尽量保持了原句结构，但这个词的翻译可能需要根据上下文或作者意图进行调整。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15359249341091182172_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "儿童被安置到寄养家庭的原因多种多样，从忽视到虐待，甚至包括勒索。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15462197415062072209_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "教会的中央权力机构在罗马已经存在了一千多年，这种权力和金钱的集中使得许多人质疑这一原则是否得到遵守。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15494714124475485422_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "根据日本核能机构的报告，该工厂已检测出放射性铯和碘。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15505806025419963341_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "每个人都参与社会，并使用交通系统。几乎每个人都会抱怨外国的交通系统。\n\n（注：原句中“foreign”一词在此上下文中含义不清，可理解为“国外的”或“外来的”，故翻译为“外国的”。如有特定语境，请提供更多信息以获得更准确的翻译。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15510957858467012907_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "大多数较小的岛屿是独立国家或与法国有联系，被称为豪华海滨度假胜地。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15533201887617185536_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这些理论探讨了某些人热爱他们所做之事的原因，以及他们所处的环境中哪些因素会促使他们做或不做某些事情。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1553627708563736436_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "老虎的咆哮不同于狮子那种洪亮的咆哮，更像是一连串快速喊出的词语。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1559267283424963143_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "博客是一种激发协作精神的工具，它鼓励学生将学习延伸到传统校园之外。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15592925372393530543_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "自豪感是由一到三个元素组成的。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "156130586016414879_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "一般来说，当经理们开始领导他们以前的同事时，可能会出现两种行为。光谱的一端是试图保持与大家一样。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15618717836108767541_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "警察总监钱德拉·希哈尔·萨兰基（Chandra Shihar Sallanki）表示，几名被告人面盖遮脸出庭。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15622589675144910207_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "吉萨的大金字塔是当今仍屹立的七大奇迹之一。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15648812079343683412_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "他们的运动项目包括足球、篮球、排球、水球、击剑、橄榄球、自行车、冰球、旱冰球和F1持有者赛车。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15667010054869079797_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在这个时期，欧洲天主教会的历史，在健康丰富的基础上，转向了精神层面。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15695900311829620190_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在夜晚，制作了150份乐器复制品，如今被称为血迹道路标志。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15738179776336088720_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "较早时引入了横梁以固定轨道。然而，人们逐渐意识到，如果轨道顶部有铁制刚性结构，效率会更高。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15739600005438498912_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "但失去队长后，印度队只得到36分，失去七个棒次，结束了比赛。\n\n(Translation: \"But after losing the captain's wicket, India only scored 36 runs, losing seven wickets to end the match.\")\n\n请注意，\"indies\" 在此上下文中可能指的是比赛或局数，但在中文中没有直接对应的词，这里翻译为“比赛”。如果有特定的术语或上下文，可能需要进一步调整。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15790784892019701649_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "- 燃烧筒的中心部分已经指向月球一千多年了。然而，这种集中却有权利质疑这是否正在被实现。\n\n(Note: The original English sentence appears to contain some grammatical errors and unclear phrasing. The Chinese translation attempts to maintain the original meaning as closely as possible while correcting for these errors.)"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15820671163473629623_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "跨河公交车总站全天有公交车出发，但大多数，尤其是前往贾卡不丹东部的公交车，都在6:30至7:30之间发车。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15824575839049156888_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这两个化合物相互反应，形成可能阻断肾功能的水晶，大学研究人员如是说。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15842229443202938478_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "一种特别在夏季受欢迎的简单小吃是帕姆阿里（Paam ali）。将面包涂上橄榄油，再加番茄和随手可得的调味料，如奶酪、金枪鱼酱等。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15935462347202880059_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "麦加北部的一座山上，这个角落坐落在山顶，与世隔绝，与外界紧密隔离。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15945599843667387523_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "该群岛位于半岛以北120公里处。最大的岛屿是乔治国王岛，有维拉斯阿斯特雷亚斯定居点。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1596269393232229615_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "一位观察者描述道，随着跳舞的人们在街道上游荡并掠夺消费品商店，这个地区陷入了无政府状态。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "15966297335082605286_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "由于恐龙羽毛没有一个称为岩基（Rockies）的成熟结构，但具有其他羽毛特征、羽枝和羽枝小羽，研究假设岩基可能是这些其他特征在进化过程中后期才出现的结构。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16010170383637871536_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "我从古以来就知道了黄金、白银和铜等基本化学元素，因为它们可以在自然界中以原生形式被发现，并且使用原始工具开采相对简单。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1605300975319497622_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "该地区的人口约为800人，是世界上任何国家中人口最少的，这个国家拥有最低的人口数。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1616366247253366320_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "它还会攻击进入水中的任何东西，即使是像暴龙这样的巨型恐龙也不是它的对手。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1618638950277648344_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "然而，事实并非如此。尽管文件背面有字迹，但那并非宝藏地图。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16188741492070958424_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这促使我们训练汽车以及许多其他交通工具来为您服务。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16200495359369533302_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "圣彼得堡游轮行程包括在城市停留的时间。游轮乘客可免除签证要求。请查看具体条款。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16207777688923954070_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "昨天早上，土耳其加济安泰普的警察总部发生了一起汽车炸弹袭击，导致两名警察死亡，二十多人受伤。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16234809612157196531_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "吉萨大金字塔是七大奇迹中唯一一个至今仍屹立不倒的。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16249020005264010985_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "没有一个普遍的定义来确定哪些制造物品是古董。一些税务机构将100年以上的货物定义为古董。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16311865697463361030_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在互联网上搜索“敌对环境课程”可能会提供当地公司的地址。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16327101627424867030_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "皮本声光秀是该地区对孩子们来说最有趣的事物之一。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "163369145011818208_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "山羊似乎在约10,000年前于伊朗的扎格罗斯山脉首次被驯化。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1633905380187706594_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在1963年大坝建成后，季节性洪水被遏制，这些洪水原本会将沉积物扩散到河流各处。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16355757648693617724_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "一位观察者描述比什凯克陷入无政府状态，街头游荡着抢劫消费品商店的人群。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16367441259442214277_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "车辆在当天约1200 GMT时被从事故现场移走。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16437430878550556483_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "美国体操和美军奥会（USOC）有着相同的目标。我们可以尽可能地保障体操和其他项目的安全，为运动员提供一个安全、积极且赋权的环境，遵循健身房的规范。\n\n（注：原文中“ampping”可能是一个印刷错误或缩写，这里翻译为“遵循”以保持上下文连贯性。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16482413846901462656_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "植物通过光合作用从太阳中制造食物。它们也提供遮荫。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16528325964292062857_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这种沉积物对于形成侧岸和海滩至关重要，它们为野生动物提供了栖息地。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16545276994853978309_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "邓迪大学的帕梅拉·弗格森教授指出：“如果记者发表嫌疑人的照片等，他们确实似乎在走一条危险的线。”"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16561255522246307224_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "仍有许多男女幸存者，他们在这里度过了艰难的时光，还有更多的人有亲人遭到谋杀或被犹太人或非犹太人强迫劳动至死。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16631812927540811343_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在圣彼得广场举行的葬礼上，到场人数众多，以至于并非所有人都能进入现场。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16685618834972658685_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "然而，由于通信渠道缓慢，西方数以千计的人可能在25到30年内被落在后面。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16702780028313283623_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "宇宙中的一切都是由物质组成的。所有物质都是由称为原子的微小粒子组成的。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16721823661104667622_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "冲刷流是波浪在沙滩、暗礁或其他类似障碍物上破碎后回流的现象。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16725549094651424150_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在米里亚地区下方较薄，在高地区下方较厚。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16757205419144758552_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "敌对行动爆发不久，英国对德国实施了海军封锁。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16766787285057438836_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "巴塞罗那的官方语言是加泰罗尼亚语和西班牙语。大约有一半的人更喜欢说加泰罗尼亚语。绝大多数人理解它，几乎每个人都知道西班牙语。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16824485789160047135_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "科斯特罗的米特·戈尔在男子站立超大回转比赛中获得第11名。捷克选手乌尔德里希·德莱诺在男子站立超大回转比赛中获得第16名。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16847628585853049714_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在戈马，外国人可以使用博达博达（Boda Bodo）摩托车或循环出租车出行。通常，短途车费为500大刚果法郎。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16851035292487940942_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在1963年大坝建成后，季节性洪水被遏制，这些洪水原本会将沉积物扩散到河流各处。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16890607023935231060_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "巴黎人享有自我中心、粗鲁和傲慢的名声。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "16989675193715509568_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "他们的严谨防守、球技处理能力以及出色的团队合作使他们脱颖而出，显而易见，这支队伍是值得挑战的强队。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1701461929359257439_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "大西洋飓风季的强热带风暴杰瑞在大西洋形成。\n\n（注：原文中存在一些拼写和语法错误，翻译时已进行适当更正。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17029455052229515619_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "自2009年起，如果您仅通过邮轮组织的上岸观光活动上岸，则无需单独签证。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17087438879836851456_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "莱顿在与总理的会议中要求对保守党环境法案进行条约修改，并要求彻底且全面地重写保守党环境法案。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17107523751051309601_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "自由派对重建工作的批评主要集中在将重建合同授予华盛顿圈内人士上。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17120997777600226051_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "最易获取的植物资源当属叶片和豆类中富含的蛋白质，但对我们这类灵长类动物来说，若不烹饪处理，这些蛋白质是很难消化的。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17158526797037461547_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "目前已知的25份《敦煌法事经》写本由80份现存的抄本组成。原始的手写抄本可能已不再存在。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17202654907652316758_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "最后，有许多小型猫科动物，包括这些以农场中更丰富的昆虫、蜈蚣、蜥蜴和鸟类等小型猎物为食的小猫。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1722118868151836971_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "现任参议员和阿根廷第一夫人克里斯蒂娜·费尔南德斯·德基什内尔昨晚在拉普拉塔宣布参加总统竞选，该城市距离布宜诺斯艾利斯50公里。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1724953769276277810_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这些有时是人满为患的家庭海滩，岸边有各种商店。游泳是安全的。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17257800930548614745_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在群岛海岸和湖泊，你不一定需要游艇。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1727490782035998315_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "根据雅加达地球物理机构的报告，尚未发布海啸预警。由于记录到的数值为196.5，未达到发布海啸预警的标准。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17289442889985927678_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "深圳特区在这方面却与国家有相似之处，我需要（进一步解释或研究）这一点。\n\n（注：由于原文末尾的“I need to”部分语境不清，此处翻译为更通顺的中文表达，可根据具体上下文调整。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1729210846741769405_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "外国睡眠中断是指在您正常的睡眠周期内故意醒来，并在稍后（10到6分钟内）再次入睡的过程。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1731561740051730459_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "今天，唯一不能将翅膀折叠回去的昆虫是蜻蜓和蜉蝣。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17382227205265930996_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "例外的是亚里士多德在科学和社区生理学方面的观点。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17390731724222522492_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "对于春季赛盒，它结束了五连败的记录。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17392214165625498386_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "医院已制定了感染控制协议，以隔离患者并预防医院感染。\n\n（Yīyuàn yǐ zhìdìng le gǎndrán kòngzhì xiéyì, yǐ jiefēn bìngrén bìng fángfù yìyuàn gǎndrán。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17406400587485166719_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "车辆本身约1200公斤，以相同的方式从事故现场移走。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17476880836582943567_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "根据那种情况，你可能会觉得没关系，但同时也可能害怕周围的环境。文化差异并不是借口，这并不能让一切变得可以接受。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17477520783262554049_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "使用视频记录（VO recording）技术在微表情和面部动作的解释上导致了重要发现。这些表情和动作通常只持续几分钟。\n\n（注意：为了保持语义的准确性和流畅性，我对句子结构进行了适当调整，以适应中文表达习惯。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17498257810809617374_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "然而，当苏联红军超过8万士兵违反里加和平条约、苏波互不侵犯条约以及其他双边和多边国际条约，入侵波兰东部地区后，几乎在一夜之间，这些计划变得过时了。随后，他们建立了庞大的俄乌前线。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17535235071289984666_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "根据最近的民调，截至3月底，大多数基于新冠病毒的取消政策并不涵盖2020年7月，当时奥林匹克周期按计划应届满。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17541705185473334415_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这将允许玩家在通过空气转动设备时，控制电影中的动作和移动。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17551750048021783839_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "亚马逊河贡献了从家电中流出进入海洋的水资源的整整20%。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17555259562398245870_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "他還為多個國家雕刻過銀行鈔票。他近期的作品包括新加拿大5元與100元鈔票正面總理肖像的雕刻。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17559567402304106195_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "互为搭档的击球手塞钦·图多尔卡和拉胡尔·德拉维德表现出色，并建立了100分的伙伴关系。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17567046183557458641_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这种疾病由猪携带，然后通过蚊子传播给人类。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17623856607065799247_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在20世纪20年代，大多数公民和国家的普遍态度是和平主义和孤立主义。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17629209318705923135_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "当然，基督教神学上有对这一传统作解释，但它可能源自于一种财富，一种前基督教的春天和生育仪式。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17637008742317695762_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "娱乐新闻网站TMZ了解到，这位摄影师将车辆停在了大道支撑的另一侧，试图拍摄警察在过马路前停下的画面，并继续前行，这促使加利福尼亚州高速公路巡逻警察下令让他两次返回对面。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17656538893065595043_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "三国时期是古代中国历史上最血腥的时代之一。成千上万的人为了争夺在徐隆宫的最高地位而战，丧命沙场。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17695442797451759106_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "最容易评估的学生们已经被评估过了。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1770419804458122000_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这些晶体在红外光谱分析下的成分与受影响宠物尿液中发现的成分相匹配。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17720519199437095973_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "博恩已经辞职，他将由阿尔·戴维·安迪在内阁中取代。诺曼·拉姆姨妈预计将接任戴维空出的商业部职位。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17722393517246760407_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "他受到了新加坡副总理王金发的迎接，并同新加坡总理李显龙讨论了贸易和恐怖主义问题。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17737260257548671107_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "杜瓦尔，已婚并育有两名成年子女，给米勒留下了深刻的印象。米勒向他讲述了这个故事。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1774013444539766052_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这个备受推崇的奢华生活方式始于约400年前，最近几次导致约11人丧生。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17744887036120495547_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "聚变炸弹的原理基于将质子和中子组合形成原子核所需的能量。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17824557748066874904_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "请记住，尽管主舞台上的音乐可能已经完成了节日的主要部分，但有些音乐活动会持续到深夜。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17837018222808398366_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "大多数技术决定论的解释都包含两个基本观点：技术的发展在很大程度上不受文化或政治影响，遵循独立于外部因素的路径；同时，技术对社会的影响是内在的，而非由社会条件所决定。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17858903836434412568_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "更传统的教堂往往会在东方举行庆祝活动，教众们通常在午夜时分聚集一起，庆祝基督的复活。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17867641190456170710_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "消防救援人员最终于晚上11点35分扑灭了火灾。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17897122138146023259_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "他将这些谣言称为政治炒作，无稽之谈。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17901982257181767377_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "海地正义与民主研究所引用了独立研究的结论，表明一支尼泊尔联合国维和部队很可能将疾病带到了海地。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17931113498862338153_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "莫萨斯是当时顶级掠食者，因此它除了其他洛哈乌斯之外什么都不怕。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17991438134494400884_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "适当利用博客可以增强学生的分析和批判能力。通过积极回应编辑内容，学生可以在他人背景下明确自己的立场。撰写文章时，他们可以清晰地阐述对特定问题的观点。Proocta，2002。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "17993676999513479371_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "大西洋飓风季的泰夫特风暴名称（亚热带风暴杰瑞）今天在大西洋形成。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1800879378797955911_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "热巧克力达到比利时标准，水果汁价格稍高但品质上乘。你可以尝试一下。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1803816418609037922_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "许多德国烘焙食品的特色是使用杏仁、榛子和其他坚果。受欢迎的蛋糕通常与一杯浓咖啡搭配得尤为恰当。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "18045112717362407063_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "虚拟支架内置于软件中，旨在质疑、提示并解释学生独自应对可能过于具有挑战性的概念。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "18045404733982450413_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "她将这些规则称为政治闲谈和荒唐之谈。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "18050107333341461921_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "群岛位于半岛以北120公里处。最大的岛屿是乔治国王岛，有定居点名为维利亚拉斯埃斯特雷拉斯。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "18066939864018796519_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "流行的运动包括足球、篮球、排球、水球、击剑、橄榄球、自行车运动、冰球、旱冰球和一级方程式赛车。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "18080893208509673354_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "现任参议员和阿根廷第一夫人克里斯蒂娜·费尔南德斯·德基什内尔昨日宣布参加总统竞选。拉普拉塔市距离布宜诺斯艾利斯50公里（31英里）。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "18089255921943570546_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "海洋在金字塔上展现，并且不同的金字塔被建立起来。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "18192639498290469063_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "加利福尼亚州州长阿诺德·施瓦辛格签署了一项法案，禁止向未成年人销售或出租暴力电子游戏。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "18202922830718982906_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "邓迪大学的帕梅拉·弗格森教授指出：如果记者发表嫌疑人的照片等，确实是在走一条危险的线。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "18202947038243735021_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "他无法服用缓解疼痛所需的药物，因为这些药物在比赛中是被禁止的。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "18249328980235371168_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "例如，世界上最常见的静态图像摄影格式是35毫米，这是被分析的比恩纳维（bienavi）主导的尺寸。\n\n\n（注：\"bienavi\" 似乎是一个未定义的术语，我按原样保留了它。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "18284781272143232129_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "同样在北方，是著名的我主 Fatima 圣母圣地，一个举世闻名的玛利亚圣地，如同精神上的珠穆朗玛峰。\n\n（注：\"sanctuaryctu\" 似乎是输入错误，这里理解为 \"sanctuary\" 圣地；\"Mariann Everest\" 理解为 \"玛利亚的圣山\" 意思，用 \"精神上的珠穆朗玛峰\" 来比喻。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1830239880893513318_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "艾力斯密斯乐队已经取消了在该港口的剩余音乐会。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "18320871674783850842_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "香港岛为香港领土命名，也是许多游客认为的主要目的地。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "18338037673431314900_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "被遗弃或离家出走的失依儿童可能在之前经历过严重的儿童虐待或创伤。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "18348048016606756393_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这场辩论的起因是围绕卡特里娜飓风过后救济和重建支出所引发的争议，一些财政保守派幽默地将其称为布什的新奥尔良交易。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "18359063029191000694_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "科学家们得出结论，暗物质以与普通物质相同的方式影响其他暗物质。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "18401388433019060091_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "娱乐新闻网站TMZ了解到，这位摄影师将车停在圣保罗维塔大道的另一侧，试图拍摄警察的拦截行动。他在拍照后过街继续前行，导致加州高速公路巡逻警察下令让他两次返回原处。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1876924768395363851_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "穆罕默德对超脱他平凡生活的事物深感兴趣。他经常去一处山洞，后来被称为希拉洞，位于努尔山（沉思之光）上，供他冥想。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1891517816131569989_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "凯·威尔士从一开始基本上就对我们说了谎，首先是假装这是出于法律原因；其次，他在删除艺术作品之前一直装作在听我们的意见。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1944915261206096046_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "将两种干粉混合，然后用干净的湿手揉成一个球。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1963592535181342965_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "其他提名包括最佳影片、导演、摄影、服装设计、剪辑、原创配乐、艺术指导、音效剪辑、音效混合和原创剧本。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "1970151869993494628_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "802.11N 标准同时在 2.4 GHz 和 5.0 GHz 频段上运行。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2013850546771709559_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这座城市与其他城市在国家中的地位不同，因为它更具有阿拉伯风格，而非非洲风格。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2024594662850694945_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "咖喱是一道以香料和肉类或蔬菜为主要成分的菜肴。 (Kālǐ shì yī dào yǐ xiāngliào hé ròu tài huò shūcài wèi zhǔyào chéngfèn de càiyǒng.) \n\n注：\"vector you\" 在此上下文中没有明确的中文翻译，因为它可能是一个错误的英文表达。如果指的是蔬菜，这里翻译为“shūcài”。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2074231104398719826_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "像柴油动力船一样，这些帆船海滩有时人满为患，岸边有各种商店排列整齐。你"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2107835372204888631_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "海地微观司法研究所在过去的研究中提及，联合国尼泊尔维和部队可能将意大利的新疾病带到了海地。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2133693849393745219_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "它与高山风格的滑雪巡游或登山有关，但通常不涉及这些活动。后者在陡峭的地形上进行，需要更硬的滑雪板和靴子。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2187541533417725553_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "古代文化与部落希望轻松获取牛奶、毛发、肉类和劳动力。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "221216034074176262_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "隔离与组合：在每个世代中，在两个池之间来回搅拌变异。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2254021119996292300_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在某些地区，一分钟烧开水就足够了，而其他地区则需要几分钟。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2258483735861631299_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "如果您不习惯在乡村道路上驾驶，请保持警惕。陡峭的灰色路肩、狭窄的小巷和急转弯为主。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2347162438493420663_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "尽管这通常只是一个准确的刻板印象，但巴黎最有效相处的方式依然是表现得尽可能良好。我认为像一个受过良好教育的人一样。这会让你的出行变得轻松许多。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2362130555763646360_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "陆地是一个极佳的划船目的地。拥有千湖之国的土地上，在沿海群岛的湖泊中，也散布着数千个岛屿。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2372674739221720006_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "人们可能没有预料到，耐心和理解对于训练回家的旅行者也是必要的。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2381187994276969930_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "人们现在喜欢从电脑屏幕上获取信息，并且他们正在用电脑进行购物。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2424735714200189273_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "仍然，要听从权威机构的建议，始终关注安全，确保胜利。\n\n(Original English seems to have some grammatical errors, so the translation might not be 100% accurate in terms of meaning, but it follows the instruction to preserve the intended message.)"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2437577605225034571_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "虽然一种实验性疫苗似乎能够降低埃博拉死亡率，但截至目前，还没有明确证明有药物适合治疗现有感染。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2462607144574975891_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "极端天气是指任何具有造成严重社会破坏或人员伤亡潜在风险的危险天气现象的统称。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "246428728867349252_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "展示开始后 F 分钟，一阵风开始卷来。大约一分钟后，风力达到每小时 70 公里。然后雨水倾盆而下，雨点如此之大，仿佛针刺般拍打在皮肤上。随后，冰雹从天而降，人们惊慌失措，尖叫着、踩着彼此逃散。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2467414061703477879_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "哈瑞表示他将返回德克萨斯州，评估被拒绝的党团会议的结果，并确定我在这场竞选中是否还有前进的道路。一封信中提到，他将继续留在南卡罗来纳州的竞选中。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2479496904141533095_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "三国时期是古代中国历史上最血腥的时代之一。成千上万的人为了争夺坐在宏伟宫殿的最高宝座而死亡。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2497077037159179595_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "福克兰群岛的官方货币是福克兰磅（FkP），其价值与英国磅（GBP）等值。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2508559905589212221_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "外国的洞穴热行为不像地球上大型洞穴那样稳定，后者往往保持相对恒定的温度，但这与它们是深洞这一点一致，美国地质调查局天体地质团队和亚利桑那州北方亚利桑那大学位于亚利桑那州弗拉格斯塔夫的专家如是说。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2512265253579641885_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "它们几乎全是沙滩，适合安全游泳，大部分海滩都有椰子树提供遮荫。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2512373209802184926_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在Lepasto 1989年第109页中提到的真正无形团队的存在，也是虚拟团队的一个独特组成部分。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2589557553267364799_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "请记住，尽管主舞台上的音乐可能已经结束，但节日的一些区域可能会持续播放音乐直到深夜。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2611687111227264759_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "卡萨布兰卡是摩洛哥最不有趣的购物地点之一。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2619313403364116566_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "渥太华是加拿大迷人的文化之都，拥有众多艺术画廊和博物馆，展示着加拿大过去和现在的风貌。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2634994688992335656_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "巴厘岛的议程上其他主题包括拯救世界剩余的森林和分享技术，以帮助发展中国家以更少污染的方式成长。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2637301866626572038_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在独立战争期间，十三州首先根据《邦联条例》建立了薄弱的中央政府，国会是其唯一组成部分。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2642023010607031328_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在毛派运动组织独立斗争期间，一场镇上的和平集会导致了帕马奇图普亚·托马塞塞·洛菲二世的遇刺。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2652155470394119415_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "昆虫学家正式地将“虫”（bug）一词用于描述这一昆虫群体。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2690730742102184605_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "一些游轮行程包括德国柏林及相关宣传手册。如上图所示，柏林远离大海，游览这座城市不包含在游轮费用中。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2749300928979585932_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "\"文明\"一词源自拉丁语\"ciis\"，意为文明，与拉丁语\"civis\"有关，意为公民，以及\"civitas\"，意为城市或城邦。这在某种程度上也定义了社会的大小。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2782797728435367637_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "2002年，戈马镇被尼里本戈火山喷发的多条熔岩流摧毁，尤其是镇中心的大部分街道被掩埋。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2784225427893440291_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在马车上，他们被一群高喊着威胁国王和王后的群众包围，回到了巴黎。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2786302614981736925_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "人们现在在电脑屏幕上写信息，而以前他们必须靠近铅笔削尖器。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2809748946829114692_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "有多少人因为它们有羽毛和内脏而认为它们不是恐龙？"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "283614893570272908_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "女子坐姿组的四名滑雪者未能完成比赛，巨型斜坡项目决赛中117名滑雪者中有45人未能获得排名。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2866079421585301198_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "博客也可以提高学生的写作能力。学生们通常在开始博客之旅时会有马虎的习惯，但观众的存在通常会改变这一点。你会发现，当他们意识到有人在阅读他们的作品时，他们的写作态度和质量都会得到提升。这不仅能提高他们的写作技巧，还能增强他们的表达能力和批判性思维。通过博客，学生们可以学习如何组织想法、构建论点，并从他人的反馈中学习。这是一种互动的学习过程，能有效地提高他们的写作水平。\n\n（注：\"sloppy grands\" 在这里被理解为 \"马虎的习惯\"，因为 \"grands\" 可能是一个口语化的表达，没有明确的中文翻译。\"the presence of an audience generally changes that you\" 被理解为 \"观众的存在通常会改变这一点。你会发现...\"，以保持语境的连贯性。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2880067776280655708_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "马拉·巴拉·苏布拉马尼安博士29岁，在俄亥俄州蓝阿什被发现，该处是辛辛那提市以北约15英里的郊区。他穿着一件T恤和内裤，躺在路边，显然服用了大量药物。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2888426082139840822_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "欧洲是相对较小的洲，但正常情况下拥有许多独立国家。穿越多个国家，包括多次签证申请和护照查验，是常见的旅行经历。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2919974750836990238_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "科学领域希望理解行星是如何形成的，尤其是地球是如何在彗星与原始行星盘碰撞中形成的。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "2939761992885557861_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在独立战争期间，十三州首先建立了薄弱的中央政府，根据《邦联条例》，国会是其唯一的组成部分。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3005219570158977238_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "卫星由火箭送入太空。科学家们使用太空望远镜，因为地球的大气层扭曲了部分光线，影响了我们的视野。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3039867296204116367_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "传统上，本土航运业的职责是确保贵国能够保持移动其人民和货物的能力，同时干扰贵国和我国移动的能力。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3083929122891715513_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "渥太华是堪萨斯州迷人的双语首都，拥有众多艺术画廊和博物馆，展示了堪萨斯州过去和现在的风貌。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3100569628927735189_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "格陵兰被稀疏地定居，根据《北史诗》的记载，埃里克·红被从冰岛因谋杀罪驱逐，在进一步向西旅行时，发现了格陵兰并将其命名为“格陵兰”。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3111983050474671345_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "圣彼得堡游轮行程包括时间和城市游览。游轮乘客可免除签证要求的检查。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3130624662424273953_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "仅仅两周内，美军和自由法国部队解放了南部地区，并正转向德国。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3156459702070203007_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "智利首屈一指的攀岩胜地乔卡莫谷（Chocamo Valley），被称为南美洲的“优胜美地”，拥有各种各样的花岗岩大墙和峭壁。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "315766676094600296_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "女性旅客，建议无论实际婚姻状况如何，都自称已婚。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3160468870562283269_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "上周，MediDI 宣布苹果公司通知其发生了 34 起额外的过热事件，该公司将这些事件称为“非严重”的。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "319499985577636973_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "最后，有许多小型猫科动物，包括流浪的宠物猫，它们食用数量远多的小型猎物，如昆虫、啮齿类动物、蜥蜴和鸟类。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3195362600486929544_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "西藏冥想的中心是神灵瑜伽，通过视觉化各种神灵，清洁能量通道，激活轮盘，并创造对齐意识。你通过这种实践，实现内在的平衡与和谐，与宇宙的能量流相连接。\n\n（注：为了保持语义的准确性和流畅性，我稍微扩展了最后一句，以更完整地表达西藏冥想的目的和效果。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3208417939957005389_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "当然，基督教神学上有对这一传统作出的解释，但它很可能是一个基督教前的春天和生育仪式。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3236057319333367673_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "与所有南非国家公园一样，该公园有每日保护费和入场费。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3296442401947230785_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这为观察极光（Aurora Borrelis）提供了良好机会，因为天空将保持黑暗，几乎全天候都适合观测。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3306779845046917300_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "现在波特罗在逆境中拥有早期优势，但这需要在我们六比六平局后再进行一场潮汐般的较量。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3337787499768294195_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "好了，请小心不要让布料变得太热，这可能会导致收缩，在极端情况下还会烧焦。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3359859709812172802_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "他们通常设有专门的饮酒和娱乐办公室，以保持客人的愉悦心情并维持良好的氛围。\n\n（注：\"epiccritse\" 在这里可能是一个拼写错误或特定术语，其含义不清楚，因此直接保留未翻译。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3362263413020550013_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "特别是，有人声称可以通过正确解读微表情来判断一个人是否在说谎。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3364947814969998944_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "根据泄露的信息，该文件将提及巴以边界争端，巴勒斯坦希望恢复至1967年中东战争前的边界线。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3401231636665586110_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "自1537年亚松森（Asunción）建立以来，巴拉圭成功地保留了大量其土著特征和身份。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3404855403082339212_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "人们不禁好奇，当更新的东西出现时，键盘会演变成什么样。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3474684838723877021_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "中序击球手塞钦·塔杜卡和拉库尔·德拉夫表现出色，建立了101分的伙伴关系。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3491234462595391279_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "我们无法确切知道，但它可能重达四磅，包括乌龟、大鱼、其他蚊龙，甚至可能是一种食腐动物。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3495437884024744716_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "植物在自然环境中看起来最美，因此请抵抗将任何一株植物移走的诱惑。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3502277023574363012_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "由一名、两名或三名相关成年雄性组成，以及多达30只雌性动物和幼崽。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3529855487992513201_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这似乎是合理的，因为地球并不感觉像是在运动，对吗？"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3560085468216752165_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在他们繁荣时期，光污染还不是现在这样严重的问题，所以它们通常位于城市或校园中，比现代建造的观测台更容易到达。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3562415917464695718_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "速度数字越小，神经在磁反转方面的活性越低。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3585583328394597156_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "它那长长的下颌上布满了超过70颗锋利的鲨鱼牙，加上口腔顶部的额外一排牙齿，意味着任何挡在它面前的东西都无法逃脱。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3611463628224454693_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "除了头顶清晰而美丽的天空和周围的众多山脉，别无他物可见。从洞内几乎看不见也听不见这个世界的任何东西。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3664511950771966320_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "拉森在《1989年组织技术前沿》第109页中提到的真正无形团队的存在，也是虚拟团队的一个独特组成部分。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3702958695101050591_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "被广泛接受的是亚里士多德在科学各领域的观点，包括心理学。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3709475786289139797_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在意大利的许多其他城市和世界其他地方，尤其是波兰，建立了类似的设置，这些设置受到了大量观众的观看。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3745044899208519847_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "目前已知存在的25张邓拉普广侧图是真空管最早的原始手写副本的幸存复制品。原始的手写副本已不再存在。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3793212987221322581_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在偏远的岛屿上，可能不接受信用卡支付，但可能会接受英国或美国货币。请事先与业主确认可接受的支付方式。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3794657101809943148_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "要欣赏香港最佳景色，请离开岛屿，前往对面的九龙海滨。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3795099655869307739_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在中世纪末期，西欧开始发展出自己独特的风格，这标志着时代最大的转变之一，你似乎把这当做理所当然。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3797667971540248320_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "由于恐龙羽毛缺乏一个称为“羽轴”的成熟结构，但它们具有其他类似牛科动物、鸟类和爬行动物的特征，因此研究人员推断，这种完整的羽毛结构很可能是比其他特征更晚的进化发展。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "384435163157965470_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "他在这期间于米博物馆医院工作，研究早产劳。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3866409166763965048_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "执政政党西南非洲人民组织（SWAPO）也在议会选举中获得了多数席位。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3922043533653727350_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "事实上，要发现这一点并不容易，因为当它最初存在于洞穴中时，它完全溶解在溶液中。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3926276660303924456_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在拒绝男性时要坚定，不要害怕坚持自己的立场。文化差异并不意味着可以为所欲为，这并不能成为借口。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3927163358777802368_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "美国普林斯顿大学和瑞典乌普萨拉大学的科学家报告说，这种新物种在仅两代的时间内进化形成，尽管由于本地达尔文雀（Jospisa fortes）与移民来的仙人掌雀（Jospisarosteris）之间的杂交，这一过程可能需要更长时间。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "394135166243682296_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "IS EPC 早期在全球范围内推出，因其节省成本的功能因素，成为2007年台达IT月的一个热点话题。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3945532745541195136_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在光谱的另一端，有人会变成一个无法辨认的个体，他们觉得必须改变团队一直以来所做的一切，并将其据为己有。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3986128848664857815_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "自2000年起，如果您仅参加船上组织的岸上观光活动，则无需单独的签证。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "3996353344156412065_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "我们用植物建造房屋，也从植物中获取食物。我们吃的大多数食物都是植物。没有植物，动物就无法生存。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4027984920362132391_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "太阳鸟湾已被联合国教科文组织列为世界遗产。印度领土内的森林部分被称为桑德班斯国家公园。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4041283782469778574_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "工作主要是理论上的，但编写了程序来模拟对人马座星系的观测。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4060670580459188209_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "多发性硬化症（MS）是一种影响中央神经系统的疾病，它由大脑、脊髓和视神经组成。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4103166808026076685_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "他补充说，然而，不应要求他们承担超出其发展阶段、责任和能力范围的义务。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4130846879604713113_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "它们几乎全是沙滩，适合安全游泳，而且大多数地方都有波希坎树提供遮荫。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4168260504174612795_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "您可能会发现其他音乐，其设置方式与这里所述相似，但各有不同。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4171508807010088989_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "氢离子是氢原子中质子失去电子后的产物，因为氢原子由一个质子和一个电子组成。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4186976662250569146_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "摩尔多瓦的首都是基希讷乌。当地语言是罗马尼亚语，但俄语也广泛使用。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4257743601527484794_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "仍然，要听取权威机构的建议，遵守所有标志，并重视安全警告。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4312337355143990691_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "一些原子具有不稳定的核，这意味着它们在微小的或没有外力的情况下倾向于分解。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4329375098749636027_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "大多数位于园区边缘的建筑已被重建，以使游客更好地了解它们原来的模样。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4332544138278608734_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这是一种重要方法，可以区分某些动词和物体。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4439398069046383836_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "你的双脚欢快地跳跃，仿佛要唱起歌来，因为我也需要拍摄日志。歌手拉朱·德尔·沃尔正与你一同演绎。\n\n\n**Note:**\n\nThe translation attempts to capture the poetic and somewhat abstract nature of the English text while maintaining grammatical correctness in Chinese.  Some artistic license has been taken to convey the intended meaning."}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4446007980468141561_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "尽管这通常是一个不准确的刻板印象，但与人相处的最好方式仍然超出了你最好的行为。表现得像一个超越常规、表现出色的人。你会发现周围的人会更容易接受你。\n\n（注：原文有逻辑上的混乱，翻译时尽量保持了原意，但可能需要根据上下文进行调整。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4491697341889976683_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "如果您不習慣在鄉村道路上駕駛，請保持警惕。陡峭的坡度、狹窄的車道和急轉彎為主，請注意駕駛。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4496786334735634498_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "阿皮亚是萨摩亚的首都。这座城市位于科沃岛，人口约为4万。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4498640649175127270_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "据报道，他年约二十岁。在一份声明中，比伯说：“虽然我没有在场也没有直接参与这场悲剧性的事故，但我的思念和祈祷与受害者家属同在。”"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4498797456222901763_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "女子坐姿组中有四名滑雪者未能完成比赛，在总共117名滑雪者和巨型斯拉曼中，有45人未能在比赛中获得名次。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4507570726474155114_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "没有一个普遍适用的定义来确定哪些人造物品是古董。一些税务机构将100年以上的货物定义为古董。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4562231445388891346_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "下一代空管系统（NextGen）下，联邦航空管理局（FAA）的申请人将允许飞机采用最优航线，每年可节省数百万加仑的燃油，并减少碳排放。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4566051537148836720_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "周日深夜，美国man尔总统唐纳德·特朗普通过新闻秘书发表声明，宣布美军将撤离叙利亚。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4638707534646618403_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "宣布这一决定是在特朗普与土耳其总统雷杰普·塔伊普·埃尔多安通话之后做出的。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4666717028619624057_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "它指出主体的最有效位置是在垂直和水平将图像分成三份的线条的交点。见示例。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4690800207484418897_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "桥梁下的垂直净空为15米。工程于2011年8月完工，至2017年3月才开通交通。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4705502721902980056_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "将滑雪路线想象成类似的徒步路线。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4727095276781970486_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "人们可能没有预料到，耐心和理解对于归家的旅行者同样必要。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4780196329895653733_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "熨烫潮湿衣物可以帮助其干燥。许多酒店提供可借用的熨斗和熨衣板，即使在没有提供洗衣服务的情况下也是如此。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4807942348083346744_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "由于地壳薄，近侧可能有更多的玛丽亚。岩浆很容易上升到表面。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4821372520807131_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "湿衣服可以帮助它们干燥。许多酒店都提供借用的熨斗和熨衣板，即使房间内没有也没关系。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4822858934027125258_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这不是你。 (Zhè bùshì nǐ.)"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4838660681321542582_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在中东的温暖气候中，房屋的重要性并不突出。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4844570914389909899_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在19世纪以来，海地尚未遇到与该疾病有关的问题，其情况要好于竞争对手国家。先生，\n\n（注：由于原文不完整，翻译可能需要根据上下文进行调整。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4848767269319106744_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "咖喱是一道以香草和香料为基础，搭配肉类或蔬菜制成的菜肴。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4872682023567074953_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "磅化合物相互反应，形成可能阻塞肾功能的水晶，该研究由大学现场研究人员发送。\n\n（请注意，原句语法存在问题，翻译时进行了适当调整以符合中文表达习惯。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4911753908854223816_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "自1986年以来，太阳狗在野生动物保护区奔跑，据估计，该地区现在有400只孟加拉虎和大约3000只斑点猫。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4937589470390171572_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "艾力斯密斯乐队取消了他们巡演的剩余音乐会。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4940213511640275250_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "意大利语也是大多数在拉丁文常用于宗教仪式的国家工作的人们的日常用语。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "4960341437383881404_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "裂变炸弹的原理基于一个事实，即组合具有多个质子和中子的原子核需要消耗能量。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5049759849654620438_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这种疾病由猪携带，然后通过蚊子传播给人类。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5059640273671690654_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "吉萨高原或吉萨墓园位于埃及的尼罗河谷，内含多个金字塔，其中最大的是伟大金字塔；还有数座小陵墓、几座神庙和伟大狮身人面像。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5106380017322065030_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "然而，事实并非如此。尽管文件背面有字迹，但那并非宝藏地图。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5111153817746112904_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在军队到达之前，海地自19世纪以来未曾遇到与该疾病相关的问题。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5131184112261114926_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "大桥计划于2017年9月全面投入运营，届时巴西海关检查站预计将完成建设。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5143306658627135996_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "奥利弗·萨克斯在他的论文《总统的演讲》中指出，尽管有些因脑损伤而无法理解语言的人，但他们却能准确地评估真诚度。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5152804099019194563_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "自1988年起，选票箱必须被送达选民手中，这一服务方式意味着在投票开始时没有额外的选票端点（endvos），除非是经过正式统计和投票的合法选票。\n\n（注：\"endvos\"可能是一个专有术语或打字错误，这里翻译为“选票端点”以保持原文意思。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5153770112137332001_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "库尼已辞职，他将由埃德·戴夫议员取代，诺兰土地议员将担任商务部长一职，预计他将填补戴夫留下的空缺。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5164710956485163027_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在当地时间晚上10点到11点之间，囚犯们在院子里点燃了火。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "517532078886085321_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "适当利用博客可以赋能学生，使他们通过积极回应互联网材料而变得更加分析和批判性思维。通过定义他们在其他著作背景下的立场以及阐述他们对特定问题的观点，学生可以塑造自己的认知（参见VeEC, 2002）。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5196260640941390313_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "但由于位于高热带和少数赤道地区，当天空晴朗时，您将需要应对海风和柔和阳光，而这两种情况出现得相对较少。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5198402243598272340_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "购买一张通用的野卡也许对个人有益，该野卡可提供进入南非部分公园或所有南非国家公园的权限。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5204109021824689215_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在互联网上搜索“敌对环境课程”可能会提供当地公司的地址。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5220085499631368243_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "仪式青少年与优秀且传统的团队成员被持有相同的标准，但存在细微的差异。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5358875111503056320_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "随着对希腊语的了解逐渐减少，西方发现自己与希腊的哲学和科学根源被切断了。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5381110210154713971_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "他最初被收治于大雅茅斯的基因县医院（Gene Countytic Hospital）。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5381693779708341332_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "马尼拉的首都是奇奇诺。当地语言是罗马尼亚语，但俄语食物广泛使用。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5407053594615190090_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在中国，展示不同历史时期的独特方式是通过朝代更迭来体现。每个统治阶段的中国或每个执政的家族都代表一个独特的王朝。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5408022991504111502_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "强风具有特定的特征，极端天气会对生命安全构成威胁，这包括雷暴、龙卷风、洪水和热带气旋等。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5433314566767233828_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "事故发生后，吉布森被送往医院，但不久后去世。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "546231163869746473_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "小心不要让布料过热，这可能会导致收缩，在极端情况下还会烧焦。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5482406888941085018_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "他最初被收治于大雅茅斯的詹姆斯·帕格特医院。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5505398583576174352_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "表示他将返回德克萨斯州以评估今晚党派的结果，并决定在这个竞选中是否还有前进的道路，但后来说你会留在竞选中，并在1月21日南卡罗来纳州的初选中发表演讲。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5524098527613997160_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "视频录制技术使得我们在迈克尔表达的放大方面取得了重要发现，这些表达只持续几毫秒。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5531306493601107261_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "他们的严谨防守、球技处理能力和出色的团队合作使他们脱颖而出，显然这是最佳团队。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5536399024273287176_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "互联网结合了大众传播和人际传播的元素。我以前曾..."}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "559615000143317446_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "首先，大多数骑手都穿着骑术马靴，鞋跟位于一块光滑且相当窄的鞋底上。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5606750157981126233_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在早期，这档节目仅在长期运营的互联网电台网站 TalkingNe 电台播出，该网站专注于谈话电台节目。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5657427923960079748_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "有些人認為他正確，但許多人則相信相反的觀點，即太陽系圍繞著地球運轉，包括太陽和其他星星。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5767934843388875369_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "如果在冬季穿越北波罗的海，请检查舱位位置，因为穿过冰层会对最靠近冰层的乘客造成令人难以忍受的噪音。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5865390219641610051_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "美国工程师兵团估计，六英寸的降雨量可能会使之前受损的叶片破裂。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5866078581108668966_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "因此，记号很可能只是作为标签被添加的。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5904418145588789259_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "国会从2005财年开始为性侵倡议拨款，并特别指出联邦调查局必须分配专门的人员打击成人色情内容。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5907599423488165658_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "香港岛是香港主要领土的一部分，也是许多游客认为的主要旅游焦点。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5910253289107526048_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "综合各种因素考虑，我们不应该感到惊讶，如果我们自己的祖先以与今天草原上的孩子们相似的方式解决蛋白质问题。你看，生物体在面对生存挑战时展现出惊人的适应能力。正如幼童们在自然环境中通过探索和学习来识别可食用的植物和蛋白质来源，我们的祖先也可能通过类似的试错过程和对环境的观察，发现并利用了蛋白质丰富的资源。这种对食物来源的认知和利用，是生物进化过程中一种常见的适应机制。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5920564818407981934_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "正如月球专家所解释的，地球被拉动导致潮汐，同样，银河系也对人马座星系施加力量。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5922110980503615373_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "切勿在建筑上涂鸦或刻画，破坏遗址。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5966925948005244453_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "摄影师们后来让一位老年女士先去，因为她需要洗手间。门多萨被枪杀了。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "5970882371928079940_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "通过以下图表可以看到当骨头受到暴力影响时所伴随的变化。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6057938296244834632_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "根据泄露的信息，该文件将提及边界争端，巴勒斯坦曾根据1967年中东战争前的边界作为其依据。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6075416811919407935_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "由于水下地形的关系，回流集中在几个较深的区域，那里可能会形成深水的快速电流。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6080082056978846750_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "卫星由火箭送入太空。科学家在太空中使用望远镜，因为地球的大气层会分散部分光线，影响我们的视野。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6162405598905036396_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "强风预示着极端降水、风暴的猛烈以及严重天气的影响，如我们的雷暴、龙卷风、漏斗风和热带气旋。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6203495122297129260_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这种沉积物对于形成沙洲和海滩至关重要，它们为野生动物提供了栖息地。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "621925716775998155_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "20世纪的研究表明，存在两种遗传变异的池：隐性和表达性。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6243143230365031162_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "结果是，表演者在舞台上吸食大麻烟卷，而剧院本身也在鼓励观众加入。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6263891810431071444_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "“它们的热行为不像地球上大型洞穴那样稳定，地球上的洞穴往往保持相对恒定的温度，但这与它们是地面上的跳跃洞这一点相符。”美国地质调查局（USGS）天文学组和位于亚利桑那州弗拉格斯塔夫的亚利桑那北方大学的格伦·基辛（Glenn Kishing）说道。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6269047638238623389_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "美国体操协会支持美国奥林匹克委员会的滑动，并承认奥林匹克大家庭为所有运动员营造安全环境的绝对必要性。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6275116524641817120_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "Angel (2006) 解释了一种连续体方法，这是一种被用于帮助组织达到更高绩效水平的策略。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6284223441572848962_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "昨天，外国的阿尔特利斯成员进入了新的临时选举委员会，共九人。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6306322369645218273_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "人们不禁好奇，当更新的东西出现时，键盘会变成什么样。你会发现它不断演变，以适应新的技术和使用需求。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6351367445025505944_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "狮子是生活在大型群体中的猫科动物中距离人类最近的一种。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6354316372780583820_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "尽管人工智能（AI）有着浓厚的科幻色彩，但它构成了计算机科学中处理机器行为学习和智能适应的学习程序。您可以将AI视为一种实现机器智能的关键技术。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6434859821714227491_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "任何准备在高纬度地区驾驶或穿越高山山口的人，都应考虑雪、冰或低至冰点的温度可能带来的影响。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6441357835378888974_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "事实上，即使知道它的存在，也并不容易找到。进入洞穴后，完全是与世隔绝的状态。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6507390080013738113_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "莱顿在与总理的会议上要求对保守党环境法案进行修改，请求对保守党环境法案进行彻底且全面的重写。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6603783905885843777_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "卡查莫谷地，智利首屈一指的攀岩胜地，被誉为南美洲的优胜美地，拥有各种各样的花岗岩巨石墙和峭壁。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6605272483833286221_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "再入镜头比文化镜头更快出现，负重较少，持续时间更长，甚至可能更严重。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6614658234069371088_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "胡须相似。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6620311002113327699_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在圣彼得广场举行的葬礼上，到场人数众多，以至于并非所有人都能进入现场。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6620866315580544260_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "一些原子具有不稳定的核，这意味着它们在微小的或没有外力作用下就有分解的趋势。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6656552880161745727_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在北部，该区域被萨希尔（Sahil）所包围，而在南部和西部则被大西洋所环绕。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6701991686450020774_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "大脑病理与行为之间的相关性为科学家的研究提供了支持。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6745531990699497785_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "他随后被转送到剑桥的Adenbrook医院。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6774385073956642067_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "但位于高热带地区，北纬度清晰几度，你需要应对的是持续的炎热和强烈的阳光，尤其是在晴朗的天气下。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "678174152690230753_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "它与高山滑雪板或山地海洋运动有关，但通常不涉及这些。后者在陡峭的地形上进行，需要更硬的滑雪板和更硬的雪靴。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6810123023171733450_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "马达加斯加在野生动物方面无疑是最大的，它可以被视为一个独立的大陆。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6817878979697223927_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "所有名词，以及代表“你”的词“c”，即使在句子中间也始终使用大写字母。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6824515440136565318_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "校外教学是课堂教学的重要组成部分。很多时候，老师希望带学生去一些无法乘坐巴士到达的地方。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "68300966899801601_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "另一方面，冰雪天气在许多国家是常态，交通全年大部分时间都保持畅通无阻。我不知道这在哪里。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6845248534284654_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在地铁中，常规广播仅以加泰罗尼亚语进行，但意外的中断通知则由自动系统以多种语言发布，包括西班牙语、英语、法语、阿拉伯语和日语。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6847551837519900288_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "芬兰是一个极佳的划船目的地。这个拥有千湖之国的同时，其湖泊和沿海群岛中也有数千个岛屿。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6852813781354643345_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "它那长长的下颌上布满了超过70颗锋利如刀的牙齿，还有额外的牙齿契合在KN骨的边缘，这意味着任何试图逃脱的东西都将无处可逃。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6873447881355850328_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "月球表面由岩石和尘土组成。月球的外层称为地壳。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6909856093066898902_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "2002年，戈马镇被尼兰戈戈火山喷出的岩浆摧毁，镇上的大部分街道被掩埋，尤其是镇中心。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6915474618514234246_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "它还会攻击进入水中的任何东西，即使是像T这样巨大的恐龙，它也能无懈可击。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6917907748364342404_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "他没有给出削减的具体数字，表示将根据中国的经济产出进行调整。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6923678949967639873_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "“文明”一词源自拉丁语“ciis”的意思是公民的，与拉丁语“civis”和“civitas”有关，意为城市或城邦。这在某种程度上也定义了社会的大小。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6927296460002744628_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "植物在自然环境中看起来最美，因此请抵抗将任何一株植物移走的诱惑。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6933250279887426793_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "藏传冥想的中心是本尊瑜伽。通过观想各种本尊，清除了能量通道，激活了轮回，并产生了觉悟意识。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "6959849979442158896_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "据报道，他年约二十岁。在一份声明中，比伯说：“虽然我没有在场也没有直接参与这场悲剧性的意外，但我的思念和祈祷与……”"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7053482366261158_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "尽管人工智能（AI）有着浓厚的科幻色彩，但它实际上是计算机科学的一个非常重要的分支，研究机器的行为、学习和智能适应。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7147508536410384136_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "古代文化与部落开始饲养它们，以便于获取牛奶、毛发、肉和皮革。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7199696972196091849_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "我们参与为许多国家提升基准音值，例如加拿大五分和一百分硬币上所展示的。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7205372698028731729_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "巴黎人享有自我中心、粗鲁和傲慢的名声。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7213249863906599090_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "被誉为奢华中心的地区始于公元400年左右，持续到约公元1100年。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7233685891059653046_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "然而，这方面的震动国王佐（Zo）在某种程度上像一个国家。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7237307653762156914_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "然而，在整个结核病患者群体中，耐药结核菌（XDR）的比例似乎仍然很低。在南非，30,000名感染患者中，只有6,000人感染了XDR。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7266355212113564962_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这当然是最大的角落，如果你有证据，就朝这个方向走，这是一个好的起点。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "727761988624859269_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "亚里士多德（Aristotle）这位哲学家理论认为，万物由一种或多种元素的性质组成。这些元素包括地（earth）和水（water）。\n\n（请注意，原文中“everything is can the nature of one or more elements”部分在语义上不完整或不清晰，我根据上下文进行了合理的推断。同时，“there were earth water”这部分在中文表达上应为“包括地（earth）和水（water）”，而非直译的“那里有地有水”。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7301728842091889171_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "该服务经常被航运业使用，包括游艇以及需要远程数据和语音通信的探险队。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7355420232561873190_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "旅行者强烈建议留意任何极端天气对他们所在地区的影响，因为这些天气可能影响任何旅行计划。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7366992441583559574_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "古代中国有独特的方法来表示不同的时期。中国的每个阶段，或者每个执政的家族，都是一个独特的王朝。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7378068468742958430_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "由于地壳较薄，近侧可能有更多的玛丽亚。岩浆更容易上升到表面。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7378917572989533960_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "合金基本上是两种或两种以上金属的混合物。别忘了，元素周期表上有许多元素。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7411546787616977704_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "脚手架不是学习的方法，而是一种辅助工具，为使用新计算机程序或开始新项目等新学习体验的个人提供支持。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7481269528554216749_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "他从一开始基本上是欺骗了我们。首先，他假装这是出于法律原因。其次，根据Britteni所说，他一直听着我们的话，直到他删除心脏数据的那一刻。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7489324500816890474_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在毛派独立斗争期间，一场镇上的和平集会导致了最高酋长图巴杜西亚二世的遇刺。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7490665909832439995_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "除了周三的活动，Carpinito 在锦标赛中参加了两项个人比赛。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7497575538636120175_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "同样地，男性必须穿着遮盖膝盖的裤子。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7528221290776312797_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "不是你所說的氫元素。\n\n（注：此翻译假设上下文涉及到对氢元素的讨论，并指出所提到的\"你\"所说的氢可能不准确或有误。如果上下文不同，翻译可能会有所不同。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7546471028199266685_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在群岛和湖泊中，你不一定需要游艇。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7587276269543309929_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在中东的温暖气候中，房屋的重要性并不突出。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7610837418342439800_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "- 没有发布海啸预警，根据贾卡拉地球物理机构的说法，不会发布海啸预警，因为该地震未达到6.5级的要求。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7632932253248030737_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "它是南非的主要景点之一，被认为是南非国家公园和沙丘系统的旗舰。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7702334162140062110_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这不是一句再见，这是一个旧章节的闭合和一个新篇章的开启。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "77041922762474361_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "博客是一种激发协作精神的工具，它鼓励学生将学习延伸到传统学校日子的范围之外。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7705168054572226609_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "马雷利运动以及昨天由九名成员组成的新临时选举癌症。\n\n（注：原句语境不明确，翻译可能不准确，特别是“cancer”在此处的含义非常模糊，直译可能误导，但按照要求保留了原句结构。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7733319748371867842_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "虽然戈马相对安全，但任何戈马以外的地区访问都应进行调查，以了解北基伍省持续战斗的状况。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "776561182148076732_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "委员会是默特利（Mertelli）对十月份开始的广泛反政府抗议活动的回应。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7774130357954037687_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "因此，当铅笔问世时，它很快就成为许多人喜爱的工具。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7783164194712761839_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "文明是一种独特的文化，由大量人口组成，他们与社会合作生活和工作。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7853008702989503136_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "自由派对重建工作的批评主要集中在将重建合同授予被认定为华盛顿内部人士的个人或企业上。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7886295100481437768_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "亚马逊河贡献了全球河流流入海洋的水量的充分20%。\n\n（Yàmázhèn hé gòngxiàn le quánqiú héilú liú rù hǎiyáng de shuǐliàng de zīfù 20%.）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7912552494860461835_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在流行用法中，\"safari\" 指的是在非洲草原上进行陆路旅行，观赏令人惊叹的野生动物。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7961517481926142457_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "当实验性疫苗似乎有助于降低埃博拉死亡率时，至今尚未有药物被证明适合治疗现有感染。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7963255664903240942_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在每个王朝之间，都是一个不稳定的割据省份时代。其中最著名的时期是三国时代，发生在汉晋之间持续了60年。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "7975383736177414509_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "1990年，由于沙漠沙尘的威胁，它被列入了濒危世界文化遗产名录。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8036301841859634130_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "因此，一个组织共同努力克服障碍的过程可以导致一个新的、创新的流程，以满足客户的需求。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8055381310140725360_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "同为摔跤运动员的他们也向莉娜致敬。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8065205721681723081_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "一枚炸弹在总督办公室外爆炸。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "814068542761107022_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "对于日本的核机构而言，已确认放射性钙和碘是一种植物。\n\n（注：原句逻辑可能有误，建议确认原文是否有误。正常情况下，放射性钙和碘是元素，而非植物。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8148321977143490493_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "普利特维采湖国家公园主要覆盖着榉树、云杉和冷杉，森林茂密，并混有阿尔卑斯和地中海植被。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8158297484454595266_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "他的作品因其公认的质量和细节而备受推崇，以至于他是极少数在收藏界家喻户晓的名字之一，甚至有些收藏家专门收藏他的作品。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8173060820032255320_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "警察总监钱德拉·尚卡尔·索兰斯基表示，被告人面部遮挡地出庭受审。\n\n（注：根据上下文，\"covered faces\" 翻译为 \"面部遮挡\"，以体现他们隐藏了面部的意思。同时，为了保持语句流畅和自然，将 \"you\" 省略，因为在中文语境中，这里的 \"you\" 可以理解为强调被告人的行为。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8260950316138046112_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这是英国殖民者据为己有的地方，因此，如果您正在寻找该领土殖民历史的证据，这里是一个很好的起点。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8268356342449509719_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "米勒这个舱室的人，故事就是对他们讲述的。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8281638920677065102_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "高效的财富货币是法尔康卡（Falkoon Ka），其价值相当于雨尔（rainr）的价值。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8310039609116176436_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "交通流是研究个体驾驶员和车辆在两点之间移动以及它们之间相互作用的学科。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8324220666349639753_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这似乎很合理，因为在沙漠中，地球并不感觉像是在移动。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8361417265277853163_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "亚里士多德，一位哲学家，提出了一切由四种元素的混合构成，这四种元素分别是：地、水、气、火。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "837008417921522673_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "有些人認為他說得對，但許多人則相信相反的觀點，即靈魂只是環繞地球和太陽、星星移動。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8395660467583137383_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "外国的区域和季节性极端天气现象包括暴风雪、风暴、冰风暴和沙尘暴。哇！"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8398257681626621326_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "米拉尔·巴拉斯图姆布里亚恩博士，29岁，在俄亥俄州蓝艾什被发现，该郊区位于森特纳威以北约15英里处。他穿着一件T恤和内裤，躺在路边，显然服用了大量药物。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8473036820953240930_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "前往税收较重的国家的旅行者有时可以节省大量资金，尤其是在酒精饮料和烟草等产品上。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8476150411360889825_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这些事件发生的时代通常被称为高中世纪，这是欧洲历史上从11世纪到13世纪（公元1000年至1300年）的一个时期。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8491962032427728850_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "北马里亚纳群岛紧急管理办公室表示，全国未报告有任何损失。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "851494165324091609_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "月球表面由岩石和尘土组成。月球外层被称为尘土。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8546403500877190903_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "他没有给出削减的具体数字，表示将根据中国的经济产出进行调整。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8573379125813015407_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "他们通常提供特别的食物、饮料和娱乐活动，以满足客人的需求，并让他们留在您的场所。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8582392026322819617_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "区域和季节性的极端天气现象包括暴风雪、雪风暴、冰风暴和沙尘暴。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8601075939905194476_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "消防救援人员最终于晚上十一点三十五分扑灭了大火。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8613346643514615014_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "它是南非的主要景点之一，被认为是南非国家公园（SA Parks）的旗舰项目。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8660282724455407027_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "今天，唯一不能将翅膀折叠回去的昆虫是蜻蜓和蚬蜢。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8742060069420489184_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "根源流是海浪在礁石或类似物上破碎后回流的流向，通常从海中返回。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8756381645087147947_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "您可以使用摩托出租车（boda boda）或乘坐出租车在鲍曼地区出行。正常的当地价格是短途500康布币（conboons）。\n\n（注：\"conboons\" 可能是一个错误或特定术语，这里直接音译。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8782270367315935727_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "昨天早上，土耳其拉迪安科技（Ladian Tech）的警察总部遭到一辆汽车炸弹袭击，导致两名警察死亡，二十多人受伤。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8826719964171179660_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "同行摔跤手们也向Luna致敬。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8837680402159291933_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "我们用植物建造房屋，用植物制作衣物，我们吃的大多数食物都是植物。没有植物，动物无法生存。\n\n（注：为了保持原文的结构和节奏，这里将“you”理解为“你”或“你们”，以保持句子的完整性和语义的连贯性。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "8856417737463972790_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "该服务经常被航运业使用，包括压力容器工艺，以及需要远程数据和语音的探险队。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "899317378039624755_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在其78条建议中，第一条是应在今年年底前采取新的外交举措，以确保伊拉克边境免受敌对干预，并重新与其邻国建立外交关系。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9052682159806783261_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在地铁中，常规公告仅以加泰罗尼亚语播出，但意外的中断会由自动系统以多种语言宣布，包括西班牙语、英语、法语、阿拉伯语和日语。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9055240296608129734_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "不幸的是，研究交通流量很困难，因为驾驶员的行为无法百分之百地预测。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9063124481850378787_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "通常，你总能听到游客和商贩的声音。声光故事就像一本故事书。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9089212191853214530_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "只有在生殖细胞中的新突变才能传给子女，只有患者才能造成这种情况。\n\n（注：原句语法有误，假设翻译为“只有新患者的生殖细胞突变才能传给子女，只有患者才能造成这种情况。”为了保持语句通顺和准确，进行了适当的调整。）"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9099003922402856523_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "再入轨拍摄比文化拍摄更快到来。蜜月期更短，饥饿感更强烈，情况可能更严重。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9100750275960890476_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "您也可以参考其他国家政府的建议，他们的建议是为本国公民设计的。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9113447011736256545_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "卡萨布兰卡是摩洛哥最不有趣的购物地点之一。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "911543279759253336_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "摩洛哥苏丹重建了达鲁伊巴迪亚城，西班牙商人为他们在当地建立贸易基地而将其命名为卡萨布兰卡。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9154457394779597213_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "AASSU EPC 早期因节省成本和功能因素而在全球范围内推出，成为 2007 年类型 ITA 的热议话题。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "916168198524353904_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "社交化重要性的常见展示方法之一是引用少数不幸儿童的案例，这些儿童由于被忽视、不幸或故意虐待，在成长过程中没有受到成年人的社交化影响。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9177065516502908766_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "到1976年，马丘比丘的30%已经得到恢复，恢复工作至今仍在继续。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9192331858482440321_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "将滑雪路线想象成类似的徒步路线。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9253409408372025849_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "老虎的咆哮与狮子那种全力的咆哮不同，更像是一连串嘶吼的语句。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9273458614645013056_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "报告对行政部门对伊拉克的隐含政策几乎各个方面都提出了严厉批评，并敦促立即改变方向。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9327483361259434782_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "浪漫主义具有强烈的文化决定论色彩，受哥德（Goth）、菲希特（Ficht）和施莱格尔（Schlegel）等作家的影响。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "941860798944293989_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "这座城市与该国其他城市形成鲜明对比，因为它拥有比其他城市更显著的傲气。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9427596237645207989_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "通过昆达里尼瑜伽（Kundalini Yoga），昆达里尼能量（Kundalini Energy）或启蒙能量可以通过瑜伽体式、呼吸练习、咒语（mantras）和意象化（visualizations）被唤醒。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9431561488681290113_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "阿皮亚是萨摩亚的首都。这座城市位于奥胡岛，人口略低于400人。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9485750708964169814_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在其78条建议中，首当其冲的是应在今年年底前采取新的外交举措，以确保伊拉克边境免受敌对干预，并重新与其邻国建立外交关系。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9490718340956113423_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "自1988年起，选票箱必须是透明的，以便选民和观察员能够见证在投票开始时没有信封存在，并且除了经过正当计数和授权的选民投放的信封外，不会添加任何其他信封。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9492244844910613453_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "所做的工作主要是理论性的，但编写了程序来模拟对人马座星系的观测。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9544888824256877274_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "一些游轮行程包括德国柏林，从上图可以看到，柏林远离海洋，因此游轮价格不包含城市参观费用。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9544943042431649615_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "与所有南非国家公园一样，贫困人口需要支付每日保护和入场费用。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9559175292465220167_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "不言而喻，如果你已经掌握了一门罗曼语族语言，学习葡萄牙语会更加容易。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9622275213947999273_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "海军的工作必须在运输更多货物和同时干扰敌方运输其货物的能力之间取得平衡。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "970996899856075411_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在部分道路上，大型公司拥有自己的飞机，但对于其他道路和小型公司来说，存在一个问题。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "972042798956052862_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "通过虚拟方式分享技能之旅也是反思旅行和与未来课程分享经验的绝佳方式。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9781076737390802637_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "同样地，男性必须穿着遮盖膝盖的裤子。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "978391636333640472_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在中世纪末期，西欧开始发展自己的风格。当时最重大的发展之一是，由于十字军东征，人们开始..."}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9794832621341165457_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "在光谱的另一端，有人会变成一个无法辨认的个体，他们觉得必须改变团队一直以来所做的一切，并将其据为己有。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9804762782045252114_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "地壳在近侧约厚17公里，在远侧则厚达100公里。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9817077029864554533_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "自古以来，人们就了解黄金、白银和铜等基本化学元素，因为这些元素都可以在自然界中以原生物态被发现，并且使用原始工具开采相对简单。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9833173223298420094_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "脚手架不是学习的方法，而是一种辅助工具，为正在经历新学习体验的人提供支持，例如使用新的计算机程序或开始新的项目。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "985789144848890340_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "大多数位于园区边缘的建筑已被重建，以使游客更好地了解它们原来的模样。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9864990645729015969_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "桥梁下方垂直净空为15米。工程于2011年8月完工，至2017年3月才开放交通。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "988308832713047124_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "因此，一个组织共同努力克服障碍的过程可以导致一种新的创新过程，以满足客户的需求。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9906376183448922344_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "人类呼吸的氧气以及他们呼出的二氧化碳，这就是呼吸的力量。\n\n(Rénlèi hūxī de yǎngqì yǐjí tāmen hūchū de èrběn dàifēi, zhè jiùshì hūxī de lìliàng.)"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9924305423057523453_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "尽管没有人能确切知道他是谁，但人们知道在他早期的生活中，这份巨大的羊皮纸文件的尺寸为29又3/4英寸乘24又1/2英寸，用来卷起这个故事。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9951576861356531238_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "它并不孤单。实验和试验是一种用于消除一个或多个可能假设的测试，提出问题和进行观察也增加了研究的时间。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "997218759918036906_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "巴塞罗那的官方语言是加泰罗尼亚语和西班牙语。大约有一半的人更喜欢说加泰罗尼亚语。绝大多数人理解它，几乎每个人都知道西班牙语。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9976913881674290440_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "虚拟支架内置于软件中，旨在质疑、提示并解释对学生来说可能过于具有挑战性的程序。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9989642899702468851_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "狮子是社交性最强的猫科动物，它们成群生活，引发各种活动。"}
+{"dataset_id": "noisy_fleurs_ambient", "sample_id": "9999528530847666097_ambient", "src_lang": "en", "tgt_lang": "zh", "output": "如果你想靠近演出场地，你需要尽早到达以获得靠近音乐区的露营地。"}

@@ -11,6 +11,7 @@ The **Hearing-to-Translate** test suite provides a unified evaluation framework 
 ---
 
 ## 📰 News
+- Dec. 28, 2025: [Human Evaluation data released on 🤗HuggingFace](https://huggingface.co/datasets/zouharvi/hearing2translate-humeval)
 - Dec. 19, 2025: [Preprint released on arXiv](https://arxiv.org/abs/2512.16378)
 
 ## Repository Structure

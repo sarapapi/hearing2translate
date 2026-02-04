@@ -1,4 +1,5 @@
 from google import genai
+from google.genai import types  # Added this import
 import os
 
 MODEL_NAME = "gemini-2.5-flash"
@@ -10,10 +11,14 @@ def load_model():
 
     client = genai.Client(api_key=api_key)
 
-    return MODEL_NAME, client
+    config = types.GenerateContentConfig(
+        seed=42,           
+    )
+
+    return config, client
 
 def generate(model_processor, model_input):
-    model, client = model_processor
+    config, client = model_processor
     audio_file = client.files.upload(file=model_input["sample"])
 
     contents = [
@@ -22,8 +27,9 @@ def generate(model_processor, model_input):
     ]
 
     response = client.models.generate_content(
-        model=model,
+        model=MODEL_NAME,
         contents=contents,
+        config=config
     )
 
     return response.text.strip()

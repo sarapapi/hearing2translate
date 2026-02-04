@@ -22,7 +22,10 @@ MODEL_MODULES = {
     "phi4multimodal": "inference.speechllm.phi4multimodal",
     "qwen2audio-7b": "inference.speechllm.qwen2audio",
     "spirelm": "inference.speechllm.spirelm",
-    "voxtral-small-24b": "inference.speechllm.voxtral"
+    "voxtral-small-24b": "inference.speechllm.voxtral",
+
+    # propietary models
+    "gemini-2.5-flash": "inference.api.gemini"
 }
 
 MODELS = sorted(list(MODEL_MODULES.keys()))

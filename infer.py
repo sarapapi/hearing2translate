@@ -25,10 +25,14 @@ MODEL_MODULES = {
     "voxtral-small-24b": "inference.speechllm.voxtral",
 
     # propietary models
-    "gemini-2.5-flash": "inference.api.gemini"
+    "gemini-2.5-flash": "inference.api.gemini",
+    "gpt-audio": "inference.api.openrouterai"
 }
 
 MODELS = sorted(list(MODEL_MODULES.keys()))
+
+# models that don't use torch and therefore we can skip torch seed setting, which is slow
+NON_TORCH_MODELS = ["canary-v2", "gemini-2.5-flash", "gpt-audio"]
 
 TEMPLATED_TEXT_PROMPT = \
     ("You are a professional {src_lang}-to-{tgt_lang} translator. Your goal is to accurately convey "
@@ -50,7 +54,7 @@ TEMPLATED_SPEECH_PROMPT = \
 def setup_model(model_name, modality):
     # Check if model is in the specific model modules 
     if model_name in MODEL_MODULES:
-        if model_name != "test_dataset":
+        if model_name != "test_dataset" and model_name not in NON_TORCH_MODELS:
             logging.info("Setting transformers seed to 42 for reproducibility.")
             try:
                 from transformers.trainer_utils import set_seed

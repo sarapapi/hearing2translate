@@ -54,13 +54,15 @@ TEMPLATED_SPEECH_PROMPT = \
 def setup_model(model_name, modality):
     # Check if model is in the specific model modules 
     if model_name in MODEL_MODULES:
-        if model_name != "test_dataset" and model_name not in NON_TORCH_MODELS:
+        if model_name not in NON_TORCH_MODELS:
             logging.info("Setting transformers seed to 42 for reproducibility.")
             try:
                 from transformers.trainer_utils import set_seed
             except ImportError:
                 from transformers import set_seed
             set_seed(42)
+        else:
+            logging.info(f"Skipping torch.set_seed because model {model_name} is in the list of non-torch models.")
 
         module_name = MODEL_MODULES[model_name]
         module = importlib.import_module(module_name)
@@ -223,12 +225,12 @@ def infer(args):
         outfile.close()
 
 
-def add_infer_args(parser):
+def add_infer_args(parser, in_nargs=None):
     parser.add_argument("--model", required=True,
                         help="Model to be used for inference. Specific models: " + ", ".join(MODELS) + ". For other text models: any HuggingFace model name.")
     parser.add_argument("--in-modality", choices=["speech", "text"], required=True,
                         help="Input modality used for inference")
-    parser.add_argument("--in-file", required=True, help="Input JSONL file path")
+    parser.add_argument("--in-file", required=True, help="Input JSONL file path", nargs=in_nargs)
     parser.add_argument("--out-file", required=False, help="Output JSONL file path. If not set: stdout.", default=None)
     parser.add_argument("--transcript-file",
                         help="Optional JSONL with transcripts for text modality")

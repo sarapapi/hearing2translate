@@ -225,12 +225,12 @@ def infer(args):
         outfile.close()
 
 
-def add_infer_args(parser, in_nargs=None):
-    parser.add_argument("--model", required=True,
+def add_infer_args(parser, is_test=False):
+    parser.add_argument("--model", required=not is_test,
                         help="Model to be used for inference. Specific models: " + ", ".join(MODELS) + ". For other text models: any HuggingFace model name.")
     parser.add_argument("--in-modality", choices=["speech", "text"], required=True,
                         help="Input modality used for inference")
-    parser.add_argument("--in-file", required=True, help="Input JSONL file path", nargs=in_nargs)
+    parser.add_argument("--in-file", required=True, help="Input JSONL file path", nargs=None if not is_test else "+")
     parser.add_argument("--out-file", required=False, help="Output JSONL file path. If not set: stdout.", default=None)
     parser.add_argument("--transcript-file",
                         help="Optional JSONL with transcripts for text modality")

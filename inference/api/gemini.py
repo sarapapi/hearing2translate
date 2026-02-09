@@ -31,5 +31,6 @@ def generate(model_processor, model_input):
         contents=contents,
         config=config
     )
-
+    if response.text is None:
+        return ""
     return response.text.strip()

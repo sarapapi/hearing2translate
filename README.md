@@ -17,7 +17,7 @@ long-form content.
 ---
 
 ## 📰 News
-- Jan. XX, 2026: added support for the Qwen3-Omni model and their outputs
+- Feb. 10, 2026: added support for the [Qwen3-Omni model](inference/speechllm/qwen3omni.py) and their [outputs](outputs/qwen3omni)
 - Dec. 28, 2025: [Human Evaluation data released on 🤗HuggingFace](https://huggingface.co/datasets/zouharvi/hearing2translate-humeval)
 - Dec. 19, 2025: [Preprint released on arXiv](https://arxiv.org/abs/2512.16378)
 

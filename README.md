@@ -57,6 +57,10 @@ and set `${H2T_DATADIR}` to the directory containing the corresponding audio fil
 - **Emotion**: [`emotiontalk`](manifests/emotiontalk/README.md), [`mexpresso`](manifests/mexpresso/README.md)
 - **Long-Form**: [`acl6060-long`](manifests/acl6060-long/README.md), [`acl6060-short`](manifests/acl6060-short/README.md), [`mcif-long`](manifests/mcif-long/README.md), [`mcif-short`](manifests/mcif-short/README.md)
 
+Optionally: 
+- Test if all audio files in dataset exist in the right location: `tests/test_dataset.py` 
+- Count testset statistics: `tests/stat_dataset.py`
+
 ### 2. Run inference
 
 Run inference with the following command:

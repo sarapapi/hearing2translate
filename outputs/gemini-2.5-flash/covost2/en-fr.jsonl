@@ -14716,3 +14716,816 @@
 {"dataset_id": "covost2", "sample_id": "577287", "src_lang": "en", "tgt_lang": "fr", "output": "Qu'est-ce qu'il a dit ?"}
 {"dataset_id": "covost2", "sample_id": "577288", "src_lang": "en", "tgt_lang": "fr", "output": "Il s'est levé, et au moment où il est retourné à sa place, tout le monde dans la pièce se questionnait sur le sens de la vie."}
 {"dataset_id": "covost2", "sample_id": "552048", "src_lang": "en", "tgt_lang": "fr", "output": "Mais cela ne devait pas être."}
+{"dataset_id": "covost2", "sample_id": "15672662", "src_lang": "en", "tgt_lang": "fr", "output": "Une volée de flamants roses a atterri gracieusement sur leurs pattes à l'allure maladroite."}
+{"dataset_id": "covost2", "sample_id": "15672663", "src_lang": "en", "tgt_lang": "fr", "output": "Une symphonie."}
+{"dataset_id": "covost2", "sample_id": "17288618", "src_lang": "en", "tgt_lang": "fr", "output": "Cet acrobate de cirque doit avoir un système vestibulaire bien entraîné, pensa le spectateur."}
+{"dataset_id": "covost2", "sample_id": "17288620", "src_lang": "en", "tgt_lang": "fr", "output": "Non, je lui dirai moi-même."}
+{"dataset_id": "covost2", "sample_id": "454867", "src_lang": "en", "tgt_lang": "fr", "output": "Mieux vaut naître chanceux que riche."}
+{"dataset_id": "covost2", "sample_id": "454868", "src_lang": "en", "tgt_lang": "fr", "output": "Le téléphone ne fonctionnait pas sans électricité."}
+{"dataset_id": "covost2", "sample_id": "19195894", "src_lang": "en", "tgt_lang": "fr", "output": "était le théâtre de crimes sporadiques et d'activités minières."}
+{"dataset_id": "covost2", "sample_id": "19195895", "src_lang": "en", "tgt_lang": "fr", "output": "Baxter et Michelle siègent au jury."}
+{"dataset_id": "covost2", "sample_id": "19195898", "src_lang": "en", "tgt_lang": "fr", "output": "Malgré leur statut de meilleure tête de série, les Rockets ont été éliminés des séries éliminatoires dès le premier tour."}
+{"dataset_id": "covost2", "sample_id": "19953126", "src_lang": "en", "tgt_lang": "fr", "output": "L'emblème de la ville intègre quatre éléments significatifs."}
+{"dataset_id": "covost2", "sample_id": "19953128", "src_lang": "en", "tgt_lang": "fr", "output": "Ce potier les fabrique quotidiennement et les vend aux touristes."}
+{"dataset_id": "covost2", "sample_id": "19953129", "src_lang": "en", "tgt_lang": "fr", "output": "Taylor a par la suite remporté le match."}
+{"dataset_id": "covost2", "sample_id": "195529", "src_lang": "en", "tgt_lang": "fr", "output": "C'est quelque chose que quelqu'un vous a donné ?"}
+{"dataset_id": "covost2", "sample_id": "195530", "src_lang": "en", "tgt_lang": "fr", "output": "Je vous dis que ça ne sert à rien."}
+{"dataset_id": "covost2", "sample_id": "195436", "src_lang": "en", "tgt_lang": "fr", "output": "Le chien aura son jour."}
+{"dataset_id": "covost2", "sample_id": "195437", "src_lang": "en", "tgt_lang": "fr", "output": "Quelle est ta chanson préférée ?"}
+{"dataset_id": "covost2", "sample_id": "191079", "src_lang": "en", "tgt_lang": "fr", "output": "Le tracteur appuyait lourdement."}
+{"dataset_id": "covost2", "sample_id": "282338", "src_lang": "en", "tgt_lang": "fr", "output": "À l'institut de recherche, ils ont un microscope électronique."}
+{"dataset_id": "covost2", "sample_id": "551930", "src_lang": "en", "tgt_lang": "fr", "output": "Vous oubliez que je suis déjà une veuve noire."}
+{"dataset_id": "covost2", "sample_id": "19658866", "src_lang": "en", "tgt_lang": "fr", "output": "Arbat est devenue une rue commerçante très animée, avec un grand nombre de boutiques renommées."}
+{"dataset_id": "covost2", "sample_id": "19658868", "src_lang": "en", "tgt_lang": "fr", "output": "Et même les chauffeurs de poids lourds sont bien plus aimables. Ils vous feront un appel de phares pour vous laisser passer."}
+{"dataset_id": "covost2", "sample_id": "19658869", "src_lang": "en", "tgt_lang": "fr", "output": "Plusieurs bâtiments subsistent sur le site, y compris un grand radôme en forme de balle de golf."}
+{"dataset_id": "covost2", "sample_id": "103503", "src_lang": "en", "tgt_lang": "fr", "output": "C'est tout."}
+{"dataset_id": "covost2", "sample_id": "19773328", "src_lang": "en", "tgt_lang": "fr", "output": "McKenney était un quaker, ce qui a influencé son approche des interactions avec les Amérindiens."}
+{"dataset_id": "covost2", "sample_id": "19773329", "src_lang": "en", "tgt_lang": "fr", "output": "Union a vu dans notre nature une retraite personnelle pour sa carrière."}
+{"dataset_id": "covost2", "sample_id": "19773330", "src_lang": "en", "tgt_lang": "fr", "output": "Lorsque les passeports ont émergé pour la première fois, il n'y avait pas de distinction claire entre les passeports internes et internationaux."}
+{"dataset_id": "covost2", "sample_id": "2600", "src_lang": "en", "tgt_lang": "fr", "output": "Augmenter le volume."}
+{"dataset_id": "covost2", "sample_id": "19826033", "src_lang": "en", "tgt_lang": "fr", "output": "Il a été formé par l'Actor's Studio de Lee Strasberg."}
+{"dataset_id": "covost2", "sample_id": "19826035", "src_lang": "en", "tgt_lang": "fr", "output": "Miya et YC voyagent à l'île d'Oshima et séjournent à l'auberge Yamura."}
+{"dataset_id": "covost2", "sample_id": "19826036", "src_lang": "en", "tgt_lang": "fr", "output": "Jeune joueur peut simplement explorer ce monde graphiquement riche d'Harry Potter et réussir. Bonjour."}
+{"dataset_id": "covost2", "sample_id": "484169", "src_lang": "en", "tgt_lang": "fr", "output": "Qu'est-ce qu'il y a dans ce bureau ?"}
+{"dataset_id": "covost2", "sample_id": "19604403", "src_lang": "en", "tgt_lang": "fr", "output": "Donc pour les gratins et les œufs, insérez le thermomètre dans la partie la plus épaisse."}
+{"dataset_id": "covost2", "sample_id": "19604406", "src_lang": "en", "tgt_lang": "fr", "output": "Des médecins du monde entier sont venus à la clinique Jones pour apprendre ses techniques."}
+{"dataset_id": "covost2", "sample_id": "19604408", "src_lang": "en", "tgt_lang": "fr", "output": "L'aéroport est actuellement non contrôlé et fermé pour les vols passagers réguliers et les opérations militaires."}
+{"dataset_id": "covost2", "sample_id": "123790", "src_lang": "en", "tgt_lang": "fr", "output": "Les cochons sont des animaux mignons et intelligents."}
+{"dataset_id": "covost2", "sample_id": "123791", "src_lang": "en", "tgt_lang": "fr", "output": "La méthode n'a pas besoin d'être la meilleure."}
+{"dataset_id": "covost2", "sample_id": "19717549", "src_lang": "en", "tgt_lang": "fr", "output": "Ainsi, ils sont directement proportionnels à la fréquence."}
+{"dataset_id": "covost2", "sample_id": "19717553", "src_lang": "en", "tgt_lang": "fr", "output": "Des portages pour Microsoft Windows, PlayStation Portable et Xbox étaient prévus, mais ont été annulés par la suite."}
+{"dataset_id": "covost2", "sample_id": "19717556", "src_lang": "en", "tgt_lang": "fr", "output": "Le chef de l'Église hussite tchécoslovaque est également appelé un patriarche."}
+{"dataset_id": "covost2", "sample_id": "550824", "src_lang": "en", "tgt_lang": "fr", "output": "Un groupe d'enfants se tiennent dehors dans une rue."}
+{"dataset_id": "covost2", "sample_id": "550825", "src_lang": "en", "tgt_lang": "fr", "output": "Un garçon aux pieds nus pleure."}
+{"dataset_id": "covost2", "sample_id": "550826", "src_lang": "en", "tgt_lang": "fr", "output": "Deux hommes en costume noir sont assis sur un objet blanc au milieu d'une route."}
+{"dataset_id": "covost2", "sample_id": "699907", "src_lang": "en", "tgt_lang": "fr", "output": "Il y a une quantité surprenante de mots dedans."}
+{"dataset_id": "covost2", "sample_id": "17286894", "src_lang": "en", "tgt_lang": "fr", "output": "Vous pourriez le taper manuellement."}
+{"dataset_id": "covost2", "sample_id": "215674", "src_lang": "en", "tgt_lang": "fr", "output": "Et vous pouvez me citer là-dessus."}
+{"dataset_id": "covost2", "sample_id": "215675", "src_lang": "en", "tgt_lang": "fr", "output": "As-tu vu sa photo sur la couverture de Time ?"}
+{"dataset_id": "covost2", "sample_id": "17870183", "src_lang": "en", "tgt_lang": "fr", "output": "L'amour nivelle toutes les inégalités."}
+{"dataset_id": "covost2", "sample_id": "27480", "src_lang": "en", "tgt_lang": "fr", "output": "Un chien brun saute par-dessus un chien noir qui est allongé sur une terrasse."}
+{"dataset_id": "covost2", "sample_id": "27481", "src_lang": "en", "tgt_lang": "fr", "output": "Un homme en violet siffle et fait le signe N."}
+{"dataset_id": "covost2", "sample_id": "27482", "src_lang": "en", "tgt_lang": "fr", "output": "Un homme escaladant un affleurement rocheux pendant qu'un autre observe."}
+{"dataset_id": "covost2", "sample_id": "19078108", "src_lang": "en", "tgt_lang": "fr", "output": "L'usine de l'entreprise reste sur ce site-là."}
+{"dataset_id": "covost2", "sample_id": "19078110", "src_lang": "en", "tgt_lang": "fr", "output": "Une nouvelle secte de cabaret noir a émergé du précédent cabaret noir théâtral."}
+{"dataset_id": "covost2", "sample_id": "19078111", "src_lang": "en", "tgt_lang": "fr", "output": "De nombreux honneurs ont été décernés à Patterson après sa retraite."}
+{"dataset_id": "covost2", "sample_id": "630821", "src_lang": "en", "tgt_lang": "fr", "output": "Je suis juste entré pour me réchauffer."}
+{"dataset_id": "covost2", "sample_id": "19759858", "src_lang": "en", "tgt_lang": "fr", "output": "La législation en matière d'éthique visait à proscrire les conflits d'intérêts."}
+{"dataset_id": "covost2", "sample_id": "19759860", "src_lang": "en", "tgt_lang": "fr", "output": "Les pattes deviennent progressivement plus petites le long de l'abdomen, les derniers segments devenant apodes."}
+{"dataset_id": "covost2", "sample_id": "19759867", "src_lang": "en", "tgt_lang": "fr", "output": "Tout a été décidé sur une base acoustique."}
+{"dataset_id": "covost2", "sample_id": "19704315", "src_lang": "en", "tgt_lang": "fr", "output": "J'espère que beaucoup d'entre eux perdent."}
+{"dataset_id": "covost2", "sample_id": "19704317", "src_lang": "en", "tgt_lang": "fr", "output": "Il a également suivi des cours au Canisius College et à l'Université Catholique."}
+{"dataset_id": "covost2", "sample_id": "19704318", "src_lang": "en", "tgt_lang": "fr", "output": "Ils servaient au mécanisme d'enroulement de corde."}
+{"dataset_id": "covost2", "sample_id": "19395823", "src_lang": "en", "tgt_lang": "fr", "output": "Ils l'ont enterré à l'extérieur, près du lieu de sa chute."}
+{"dataset_id": "covost2", "sample_id": "19395824", "src_lang": "en", "tgt_lang": "fr", "output": "Le secteur de la fierté est très petit."}
+{"dataset_id": "covost2", "sample_id": "19395826", "src_lang": "en", "tgt_lang": "fr", "output": "La marche n'a été jouée qu'une seule fois du vivant de Fauré."}
+{"dataset_id": "covost2", "sample_id": "19699161", "src_lang": "en", "tgt_lang": "fr", "output": "Comme la diverticulose survient dans une population plus âgée, de telles complications sont des événements graves."}
+{"dataset_id": "covost2", "sample_id": "19699162", "src_lang": "en", "tgt_lang": "fr", "output": "Il est construit de blocs de pierre bien taillés et emboîtés."}
+{"dataset_id": "covost2", "sample_id": "19699165", "src_lang": "en", "tgt_lang": "fr", "output": "John Richards a déménagé à l'île Saint-Joseph depuis Saugeen."}
+{"dataset_id": "covost2", "sample_id": "6758666", "src_lang": "en", "tgt_lang": "fr", "output": "Nous devons rester cachés."}
+{"dataset_id": "covost2", "sample_id": "650386", "src_lang": "en", "tgt_lang": "fr", "output": "Je ne prends plus de risques."}
+{"dataset_id": "covost2", "sample_id": "650388", "src_lang": "en", "tgt_lang": "fr", "output": "Prenez-le en charge."}
+{"dataset_id": "covost2", "sample_id": "20005679", "src_lang": "en", "tgt_lang": "fr", "output": "Les régions du nord et de l'est sont principalement constituées de plaines de basse altitude."}
+{"dataset_id": "covost2", "sample_id": "20005681", "src_lang": "en", "tgt_lang": "fr", "output": "Les anciennes colonies ont été confrontées à de graves problèmes après l'indépendance."}
+{"dataset_id": "covost2", "sample_id": "20005683", "src_lang": "en", "tgt_lang": "fr", "output": "Clément a fréquenté le lycée catholique Canavin à Pittsburgh, en Pennsylvanie."}
+{"dataset_id": "covost2", "sample_id": "19999465", "src_lang": "en", "tgt_lang": "fr", "output": "C'est maintenant l'emplacement du théâtre Ruthland de la compagnie Shakespeare de Stanford."}
+{"dataset_id": "covost2", "sample_id": "19999469", "src_lang": "en", "tgt_lang": "fr", "output": "Ses loisirs comprennent les jeux, les sports, l'histoire de l'aviation et de la cosmonautique, et l'astronomie."}
+{"dataset_id": "covost2", "sample_id": "19999471", "src_lang": "en", "tgt_lang": "fr", "output": "La démographie de la Guinée décrit la situation et un aperçu de la population guinéenne."}
+{"dataset_id": "covost2", "sample_id": "124992", "src_lang": "en", "tgt_lang": "fr", "output": "L'idée est toujours bonne."}
+{"dataset_id": "covost2", "sample_id": "19679984", "src_lang": "en", "tgt_lang": "fr", "output": "Des ateliers spéciaux enseignent également la résolution de problèmes, l'écoute et les techniques de communication."}
+{"dataset_id": "covost2", "sample_id": "19679985", "src_lang": "en", "tgt_lang": "fr", "output": "Dimanche de l'autisme est maintenant un événement mondial massif célébré dans de nombreux pays."}
+{"dataset_id": "covost2", "sample_id": "19679988", "src_lang": "en", "tgt_lang": "fr", "output": "Elle est connue pour écrire des histoires d'uchronie."}
+{"dataset_id": "covost2", "sample_id": "22867", "src_lang": "en", "tgt_lang": "fr", "output": "Vous n'étiez pas ici pour facturer."}
+{"dataset_id": "covost2", "sample_id": "18651914", "src_lang": "en", "tgt_lang": "fr", "output": "Rien de particulier, répond le soldat."}
+{"dataset_id": "covost2", "sample_id": "18651915", "src_lang": "en", "tgt_lang": "fr", "output": "Monsieur Barket a l'air très grave."}
+{"dataset_id": "covost2", "sample_id": "243455", "src_lang": "en", "tgt_lang": "fr", "output": "Est-ce que les oies volent toujours dans cette formation ?"}
+{"dataset_id": "covost2", "sample_id": "19401123", "src_lang": "en", "tgt_lang": "fr", "output": "La population s'adonne principalement à l'agriculture, en particulier à la culture du tabac."}
+{"dataset_id": "covost2", "sample_id": "19401124", "src_lang": "en", "tgt_lang": "fr", "output": "La marque Caesars resterait l'une des trois principales marques de casinos de l'entreprise."}
+{"dataset_id": "covost2", "sample_id": "19401125", "src_lang": "en", "tgt_lang": "fr", "output": "Outre les équipes susmentionnées, personne n'a remporté plus de cinq titres."}
+{"dataset_id": "covost2", "sample_id": "20064813", "src_lang": "en", "tgt_lang": "fr", "output": "D'autres changements sont beaucoup plus drastiques."}
+{"dataset_id": "covost2", "sample_id": "20064815", "src_lang": "en", "tgt_lang": "fr", "output": "Il y a aussi un certain nombre de bâtiments uniques tout au long du jeu."}
+{"dataset_id": "covost2", "sample_id": "20064817", "src_lang": "en", "tgt_lang": "fr", "output": "Ces algorithmes ont identifié avec succès des repliements canoniques tels que le faisceau à quatre hélices."}
+{"dataset_id": "covost2", "sample_id": "19957414", "src_lang": "en", "tgt_lang": "fr", "output": "Dans son livre, Essais francs, il consacre un chapitre entier à ce sujet."}
+{"dataset_id": "covost2", "sample_id": "19957416", "src_lang": "en", "tgt_lang": "fr", "output": "C'est la capitale du district d'Ajumako Anyan Essiam."}
+{"dataset_id": "covost2", "sample_id": "19957417", "src_lang": "en", "tgt_lang": "fr", "output": "Elle avait un frère aîné, Guillaume, et un frère cadet, Richard."}
+{"dataset_id": "covost2", "sample_id": "20111384", "src_lang": "en", "tgt_lang": "fr", "output": "La tour participe également avec le roi à un coup spécial appelé le roque."}
+{"dataset_id": "covost2", "sample_id": "20111387", "src_lang": "en", "tgt_lang": "fr", "output": "Les usines de fabrication comprennent les briqueteries, les scieries, la fabrication de meubles et les usines de transformation alimentaire."}
+{"dataset_id": "covost2", "sample_id": "20111389", "src_lang": "en", "tgt_lang": "fr", "output": "Kansi est farouchement pro-syrien."}
+{"dataset_id": "covost2", "sample_id": "19743445", "src_lang": "en", "tgt_lang": "fr", "output": "Les installations de munitions sur la côte ouest ont été agrandies."}
+{"dataset_id": "covost2", "sample_id": "19743448", "src_lang": "en", "tgt_lang": "fr", "output": "Tout doit être sur la table."}
+{"dataset_id": "covost2", "sample_id": "19743451", "src_lang": "en", "tgt_lang": "fr", "output": "Avec l'aide de M. NA, M. Curby a formé la première Association Curby's Zarada."}
+{"dataset_id": "covost2", "sample_id": "19115188", "src_lang": "en", "tgt_lang": "fr", "output": "Ce comportement changeant pourrait entraîner une inefficacité."}
+{"dataset_id": "covost2", "sample_id": "19115189", "src_lang": "en", "tgt_lang": "fr", "output": "Il fait partie de la zone statistique métropolitaine de Danville, Illinois."}
+{"dataset_id": "covost2", "sample_id": "19115190", "src_lang": "en", "tgt_lang": "fr", "output": "La religion, cependant, a joué un rôle de plus en plus insignifiant dans sa vie."}
+{"dataset_id": "covost2", "sample_id": "315250", "src_lang": "en", "tgt_lang": "fr", "output": "L'homme propose, Dieu dispose."}
+{"dataset_id": "covost2", "sample_id": "188864", "src_lang": "en", "tgt_lang": "fr", "output": "Antoine s'occupait en comptant des pigeons."}
+{"dataset_id": "covost2", "sample_id": "19975990", "src_lang": "en", "tgt_lang": "fr", "output": "Il était également le lieutenant adjoint pour le comté de Kent."}
+{"dataset_id": "covost2", "sample_id": "19975992", "src_lang": "en", "tgt_lang": "fr", "output": "Le remblai hydraulique sera probablement la méthode de construction la plus économique."}
+{"dataset_id": "covost2", "sample_id": "19975996", "src_lang": "en", "tgt_lang": "fr", "output": "Une partie de son charme est l'absence de développement corporatif visible."}
+{"dataset_id": "covost2", "sample_id": "482206", "src_lang": "en", "tgt_lang": "fr", "output": "De petits enfants sont venus le voir."}
+{"dataset_id": "covost2", "sample_id": "49282", "src_lang": "en", "tgt_lang": "fr", "output": "Le tiroir était coincé fermé."}
+{"dataset_id": "covost2", "sample_id": "143039", "src_lang": "en", "tgt_lang": "fr", "output": "Je ne suis que votre petit collecteur de loyer."}
+{"dataset_id": "covost2", "sample_id": "143040", "src_lang": "en", "tgt_lang": "fr", "output": "Elle m'a écrit tous les jours depuis."}
+{"dataset_id": "covost2", "sample_id": "17815403", "src_lang": "en", "tgt_lang": "fr", "output": "Le câble ne se termine pas dans la prise murale, mais il va jusqu'à la centrale électrique."}
+{"dataset_id": "covost2", "sample_id": "19983743", "src_lang": "en", "tgt_lang": "fr", "output": "Le courrier a été rebaptisé le courrier et la presse Ivansivil."}
+{"dataset_id": "covost2", "sample_id": "19983747", "src_lang": "en", "tgt_lang": "fr", "output": "Le clip musical présente des scènes d'une publicité McDonald's avec le personnage Mcdonaldite."}
+{"dataset_id": "covost2", "sample_id": "19983748", "src_lang": "en", "tgt_lang": "fr", "output": "L'aéroport international Hosea Kutako est la principale plaque tournante de la Namibie."}
+{"dataset_id": "covost2", "sample_id": "19681349", "src_lang": "en", "tgt_lang": "fr", "output": "Vice-président Moses Law a remplacé Taylor."}
+{"dataset_id": "covost2", "sample_id": "19681350", "src_lang": "en", "tgt_lang": "fr", "output": "Coffin milite pour les programmes de musique dans les écoles publiques."}
+{"dataset_id": "covost2", "sample_id": "19681352", "src_lang": "en", "tgt_lang": "fr", "output": "La gare routière la plus proche est à Weymouth. L'aéroport le plus proche est l'aéroport de Bournemouth."}
+{"dataset_id": "covost2", "sample_id": "19627445", "src_lang": "en", "tgt_lang": "fr", "output": "C'est également disponible aux Pays-Bas et dans certains magasins."}
+{"dataset_id": "covost2", "sample_id": "19627446", "src_lang": "en", "tgt_lang": "fr", "output": "Cependant, il refusa, et propose donc son jeton."}
+{"dataset_id": "covost2", "sample_id": "19627447", "src_lang": "en", "tgt_lang": "fr", "output": "Cet échec fut désastreux pour le démon."}
+{"dataset_id": "covost2", "sample_id": "431910", "src_lang": "en", "tgt_lang": "fr", "output": "C'était 700 de plus que l'année dernière."}
+{"dataset_id": "covost2", "sample_id": "18460551", "src_lang": "en", "tgt_lang": "fr", "output": "Il y avait l'Emma Louisa."}
+{"dataset_id": "covost2", "sample_id": "18521514", "src_lang": "en", "tgt_lang": "fr", "output": "Alors le sorcier détacha sa tête et vida la paille."}
+{"dataset_id": "covost2", "sample_id": "18521517", "src_lang": "en", "tgt_lang": "fr", "output": "« Garde ton sang-froid », dit la chenille."}
+{"dataset_id": "covost2", "sample_id": "3337645", "src_lang": "en", "tgt_lang": "fr", "output": "Trop de travail rend bête."}
+{"dataset_id": "covost2", "sample_id": "19758255", "src_lang": "en", "tgt_lang": "fr", "output": "Similairement, l'oscillateur Raman est sensible à la fréquence différentielle de deux ondes optiques."}
+{"dataset_id": "covost2", "sample_id": "19758256", "src_lang": "en", "tgt_lang": "fr", "output": "Leur musique est catégorisée comme musique électronique."}
+{"dataset_id": "covost2", "sample_id": "19758257", "src_lang": "en", "tgt_lang": "fr", "output": "La zone a mis en place des dispositifs de surveillance de voisinage, des groupes d'église et des groupes de protection de la ceinture verte."}
+{"dataset_id": "covost2", "sample_id": "1505070", "src_lang": "en", "tgt_lang": "fr", "output": "Tapez trois listes de commandes."}
+{"dataset_id": "covost2", "sample_id": "2178985", "src_lang": "en", "tgt_lang": "fr", "output": "Mettons les fleurs dans un vase miroir."}
+{"dataset_id": "covost2", "sample_id": "17456695", "src_lang": "en", "tgt_lang": "fr", "output": "Je te l'avais bien dit !"}
+{"dataset_id": "covost2", "sample_id": "15231", "src_lang": "en", "tgt_lang": "fr", "output": "Que faisiez-vous à Boston ?"}
+{"dataset_id": "covost2", "sample_id": "15233", "src_lang": "en", "tgt_lang": "fr", "output": "L'église est juste à côté de la station-service."}
+{"dataset_id": "covost2", "sample_id": "19645529", "src_lang": "en", "tgt_lang": "fr", "output": "Sturman est décédé de causes naturelles dans sa voiture à Laguna Niguel, en Californie."}
+{"dataset_id": "covost2", "sample_id": "19645531", "src_lang": "en", "tgt_lang": "fr", "output": "L'accent était mis sur la réduction du coût des matériaux."}
+{"dataset_id": "covost2", "sample_id": "19645535", "src_lang": "en", "tgt_lang": "fr", "output": "La plupart des centrales nucléaires ne disposent pas d'économiseur."}
+{"dataset_id": "covost2", "sample_id": "19697063", "src_lang": "en", "tgt_lang": "fr", "output": "Les nazis ont fait un usage sélectif de la philosophie de Nietzsche."}
+{"dataset_id": "covost2", "sample_id": "19697064", "src_lang": "en", "tgt_lang": "fr", "output": "Une courte section de la frontière avec la Gambie n'est pas définie."}
+{"dataset_id": "covost2", "sample_id": "19697065", "src_lang": "en", "tgt_lang": "fr", "output": "Certains oiseaux dans l'ouest de l'aire de répartition ont une calotte rousse."}
+{"dataset_id": "covost2", "sample_id": "17330558", "src_lang": "en", "tgt_lang": "fr", "output": "L'établissement propose-t-il une connexion Wi-Fi gratuite ?"}
+{"dataset_id": "covost2", "sample_id": "5072867", "src_lang": "en", "tgt_lang": "fr", "output": "Le chaton a poursuivi le chien dans la rue."}
+{"dataset_id": "covost2", "sample_id": "5072868", "src_lang": "en", "tgt_lang": "fr", "output": "La Marine a attaqué la grande force opérationnelle."}
+{"dataset_id": "covost2", "sample_id": "17257627", "src_lang": "en", "tgt_lang": "fr", "output": "Bien que la recherche dans un arbre binaire de recherche soit efficace, vous n'y trouverez aucun fruit."}
+{"dataset_id": "covost2", "sample_id": "518062", "src_lang": "en", "tgt_lang": "fr", "output": "La maison marron était en feu jusqu'au grenier."}
+{"dataset_id": "covost2", "sample_id": "518063", "src_lang": "en", "tgt_lang": "fr", "output": "Tendrement, ténor."}
+{"dataset_id": "covost2", "sample_id": "651214", "src_lang": "en", "tgt_lang": "fr", "output": "Un homme sur une scène à côté d'un microphone."}
+{"dataset_id": "covost2", "sample_id": "651215", "src_lang": "en", "tgt_lang": "fr", "output": "Un garçon heureux dans une chemise noire rayée, découpant quelque chose dans une feuille de papier."}
+{"dataset_id": "covost2", "sample_id": "651216", "src_lang": "en", "tgt_lang": "fr", "output": "Deux jeunes garçons jouaient dans le sable près de l'eau sur la plage."}
+{"dataset_id": "covost2", "sample_id": "19960855", "src_lang": "en", "tgt_lang": "fr", "output": "Un couple avait une fille, Grace, et un fils, Henry."}
+{"dataset_id": "covost2", "sample_id": "19960858", "src_lang": "en", "tgt_lang": "fr", "output": "Contrairement aux deux autres monuments des chevaliers de Rolle, sa date est incertaine."}
+{"dataset_id": "covost2", "sample_id": "19960859", "src_lang": "en", "tgt_lang": "fr", "output": "Les champions de division bénéficient d'office de l'avantage du terrain dans ces matchs."}
+{"dataset_id": "covost2", "sample_id": "13953934", "src_lang": "en", "tgt_lang": "fr", "output": "Une coquille rose a été trouvée dans le sandwich."}
+{"dataset_id": "covost2", "sample_id": "13953935", "src_lang": "en", "tgt_lang": "fr", "output": "De petits coups abattent de grands chênes."}
+{"dataset_id": "covost2", "sample_id": "17245948", "src_lang": "en", "tgt_lang": "fr", "output": "Il n'y a pas de fumée sans feu."}
+{"dataset_id": "covost2", "sample_id": "680084", "src_lang": "en", "tgt_lang": "fr", "output": "Nous ferions mieux d'échanger les clés."}
+{"dataset_id": "covost2", "sample_id": "18847010", "src_lang": "en", "tgt_lang": "fr", "output": "Il est enterré au cimetière national d'Arlington, en Virginie."}
+{"dataset_id": "covost2", "sample_id": "18847012", "src_lang": "en", "tgt_lang": "fr", "output": "En lumière invisible, l'un des bras spiraux semble avoir un segment déconnecté."}
+{"dataset_id": "covost2", "sample_id": "18847013", "src_lang": "en", "tgt_lang": "fr", "output": "Les autres voix jouent des lignes plus complexes, souvent en contrepoint imité."}
+{"dataset_id": "covost2", "sample_id": "19546249", "src_lang": "en", "tgt_lang": "fr", "output": "Il s'est finalement installé dans une communauté de pêcheurs fortement croate de San Pedro, en Californie."}
+{"dataset_id": "covost2", "sample_id": "19546250", "src_lang": "en", "tgt_lang": "fr", "output": "Les complexes cyanométalliques incluent le ferricyanure et le ferrocyanure."}
+{"dataset_id": "covost2", "sample_id": "19546252", "src_lang": "en", "tgt_lang": "fr", "output": "Quelques traces de la foire subsistent aujourd'hui."}
+{"dataset_id": "covost2", "sample_id": "670611", "src_lang": "en", "tgt_lang": "fr", "output": "Mon père lui a offert un emploi."}
+{"dataset_id": "covost2", "sample_id": "19681362", "src_lang": "en", "tgt_lang": "fr", "output": "Les opérations ont débuté cette année-là."}
+{"dataset_id": "covost2", "sample_id": "19681364", "src_lang": "en", "tgt_lang": "fr", "output": "Sa popularité a grandi dans les cultures occidentales."}
+{"dataset_id": "covost2", "sample_id": "19681367", "src_lang": "en", "tgt_lang": "fr", "output": "Les familles Mortimer et Montgomery étaient également impliquées."}
+{"dataset_id": "covost2", "sample_id": "19767378", "src_lang": "en", "tgt_lang": "fr", "output": "Tout le reste n'était que rationalisation."}
+{"dataset_id": "covost2", "sample_id": "19767379", "src_lang": "en", "tgt_lang": "fr", "output": "Ceci, une œuvre créative d'une profondeur appréciable."}
+{"dataset_id": "covost2", "sample_id": "19767380", "src_lang": "en", "tgt_lang": "fr", "output": "Son père, Alan Cameron Jackson, était également philosophe et étudiant de Ludwig Wittgenstein."}
+{"dataset_id": "covost2", "sample_id": "18737885", "src_lang": "en", "tgt_lang": "fr", "output": "Monseigneur Warburton et le Dr Edward Jenner sont également dignes de mention."}
+{"dataset_id": "covost2", "sample_id": "18737886", "src_lang": "en", "tgt_lang": "fr", "output": "Différents types de nombres premiers probables ont des conditions spécifiques différentes."}
+{"dataset_id": "covost2", "sample_id": "18737888", "src_lang": "en", "tgt_lang": "fr", "output": "Le sommet de Camel's Hump abrite un vestige de végétation de toundra alpine."}
+{"dataset_id": "covost2", "sample_id": "536839", "src_lang": "en", "tgt_lang": "fr", "output": "Pendant un instant, tout était sombre et effrayant."}
+{"dataset_id": "covost2", "sample_id": "130973", "src_lang": "en", "tgt_lang": "fr", "output": "Il ne me faut qu'un expresso italien et un croissant français."}
+{"dataset_id": "covost2", "sample_id": "130974", "src_lang": "en", "tgt_lang": "fr", "output": "Mon chat a un nez brun qui est souvent humide et brillant."}
+{"dataset_id": "covost2", "sample_id": "19678515", "src_lang": "en", "tgt_lang": "fr", "output": "La version japonaise de l'album *début* comprenait deux pistes bonus : *Blighted* et *Atlantic*."}
+{"dataset_id": "covost2", "sample_id": "19678517", "src_lang": "en", "tgt_lang": "fr", "output": "Elle a fait ses études au Harrison College, en Barbade."}
+{"dataset_id": "covost2", "sample_id": "19678518", "src_lang": "en", "tgt_lang": "fr", "output": "Il ne semblait pas du tout déçu, bien au contraire."}
+{"dataset_id": "covost2", "sample_id": "19218385", "src_lang": "en", "tgt_lang": "fr", "output": "La chute est haute et large."}
+{"dataset_id": "covost2", "sample_id": "19218387", "src_lang": "en", "tgt_lang": "fr", "output": "Ann Emmett est la présidente de l'organisation."}
+{"dataset_id": "covost2", "sample_id": "19218391", "src_lang": "en", "tgt_lang": "fr", "output": "La dernière chose dont je devais parler était la question six."}
+{"dataset_id": "covost2", "sample_id": "17272343", "src_lang": "en", "tgt_lang": "fr", "output": "Alors, où allons-nous ?"}
+{"dataset_id": "covost2", "sample_id": "19689198", "src_lang": "en", "tgt_lang": "fr", "output": "C'est un test de rotation pour déceler une déchirure du cartilage du genou."}
+{"dataset_id": "covost2", "sample_id": "19689205", "src_lang": "en", "tgt_lang": "fr", "output": "Le single a été un grand succès et est entré dans les classements en Grande-Bretagne."}
+{"dataset_id": "covost2", "sample_id": "19689209", "src_lang": "en", "tgt_lang": "fr", "output": "Ses murs extérieurs sont constitués de multiples escarpements sub-parallèles et de terrasses."}
+{"dataset_id": "covost2", "sample_id": "661306", "src_lang": "en", "tgt_lang": "fr", "output": "C'était impossible de se souvenir de tous les détails qu'il avait couverts."}
+{"dataset_id": "covost2", "sample_id": "661307", "src_lang": "en", "tgt_lang": "fr", "output": "Cet état misérable persistera-t-il pour toujours ? Et si oui, tout est-il dénué de sens ?"}
+{"dataset_id": "covost2", "sample_id": "205054", "src_lang": "en", "tgt_lang": "fr", "output": "Mais c'est ce qu'ils m'ont donné."}
+{"dataset_id": "covost2", "sample_id": "205055", "src_lang": "en", "tgt_lang": "fr", "output": "C'était agréable de parler avec vous."}
+{"dataset_id": "covost2", "sample_id": "613012", "src_lang": "en", "tgt_lang": "fr", "output": "Écoutez le solo de la guitare électrique."}
+{"dataset_id": "covost2", "sample_id": "470912", "src_lang": "en", "tgt_lang": "fr", "output": "Celui qui hésite est perdu."}
+{"dataset_id": "covost2", "sample_id": "639822", "src_lang": "en", "tgt_lang": "fr", "output": "La perle était sertie dans une fine bague en argent."}
+{"dataset_id": "covost2", "sample_id": "87191", "src_lang": "en", "tgt_lang": "fr", "output": "Un surfeur est en train de faire un flip en l'air sur une planche de surf."}
+{"dataset_id": "covost2", "sample_id": "87192", "src_lang": "en", "tgt_lang": "fr", "output": "Une femme en bottes de pluie bleues mange un sandwich dehors."}
+{"dataset_id": "covost2", "sample_id": "87193", "src_lang": "en", "tgt_lang": "fr", "output": "Un homme et une femme assis à une table, prenant des verres et en pleine conversation."}
+{"dataset_id": "covost2", "sample_id": "19715494", "src_lang": "en", "tgt_lang": "fr", "output": "J'adore tout simplement les jolis vêtements."}
+{"dataset_id": "covost2", "sample_id": "19715496", "src_lang": "en", "tgt_lang": "fr", "output": "Il a été identifié pour la première fois dans les dépôts de fumerolles volcaniques."}
+{"dataset_id": "covost2", "sample_id": "19715498", "src_lang": "en", "tgt_lang": "fr", "output": "Les contre-offensives stratégiques ont été documentées par des historiens militaires dans de nombreuses guerres tout au long de l'histoire militaire."}
+{"dataset_id": "covost2", "sample_id": "541615", "src_lang": "en", "tgt_lang": "fr", "output": "Ces gens sont assis dehors par une journée ensoleillée."}
+{"dataset_id": "covost2", "sample_id": "541616", "src_lang": "en", "tgt_lang": "fr", "output": "Une jeune enfant se tient à côté d'une porte avec un seau sur la tête."}
+{"dataset_id": "covost2", "sample_id": "541617", "src_lang": "en", "tgt_lang": "fr", "output": "Six personnes montent une rampe bleue."}
+{"dataset_id": "covost2", "sample_id": "1316391", "src_lang": "en", "tgt_lang": "fr", "output": "Rangez les disques dans un étui fin et net."}
+{"dataset_id": "covost2", "sample_id": "13774050", "src_lang": "en", "tgt_lang": "fr", "output": "Êtes-vous assez fort ?"}
+{"dataset_id": "covost2", "sample_id": "13774051", "src_lang": "en", "tgt_lang": "fr", "output": "La menace biologique a été contenue."}
+{"dataset_id": "covost2", "sample_id": "13774052", "src_lang": "en", "tgt_lang": "fr", "output": "L'intrigue bouillonnait, mais le contenu n'a pas pris."}
+{"dataset_id": "covost2", "sample_id": "19953077", "src_lang": "en", "tgt_lang": "fr", "output": "Cependant, ceci n'a abouti à rien, et la passerelle inférieure fut construite vers cette époque."}
+{"dataset_id": "covost2", "sample_id": "19953078", "src_lang": "en", "tgt_lang": "fr", "output": "Burghley est également l'une des trois épreuves du Grand Chelem de concours complet."}
+{"dataset_id": "covost2", "sample_id": "19953079", "src_lang": "en", "tgt_lang": "fr", "output": "Histoire se déroulant à l'époque préhistorique et dépeignant la vie des peuples préhistoriques."}
+{"dataset_id": "covost2", "sample_id": "645541", "src_lang": "en", "tgt_lang": "fr", "output": "Le receleur est aussi mauvais que le voleur."}
+{"dataset_id": "covost2", "sample_id": "645542", "src_lang": "en", "tgt_lang": "fr", "output": "La plume en acier était pliée et tordue."}
+{"dataset_id": "covost2", "sample_id": "17283541", "src_lang": "en", "tgt_lang": "fr", "output": "Peut-être que je n'ai pas rempli les bons documents."}
+{"dataset_id": "covost2", "sample_id": "195339", "src_lang": "en", "tgt_lang": "fr", "output": "Bonsoir."}
+{"dataset_id": "covost2", "sample_id": "195340", "src_lang": "en", "tgt_lang": "fr", "output": "Un concept effrayant est venu à l'esprit de Jennifer."}
+{"dataset_id": "covost2", "sample_id": "19997186", "src_lang": "en", "tgt_lang": "fr", "output": "Il a été licencié après quatre matchs de sa neuvième saison."}
+{"dataset_id": "covost2", "sample_id": "19997187", "src_lang": "en", "tgt_lang": "fr", "output": "Il a été précédé par le single Je ne peux pas rester."}
+{"dataset_id": "covost2", "sample_id": "19997191", "src_lang": "en", "tgt_lang": "fr", "output": "Historiquement, l'héliocentrisme s'oppose au géocentrisme qui plaçait la Terre au centre."}
+{"dataset_id": "covost2", "sample_id": "15905001", "src_lang": "en", "tgt_lang": "fr", "output": "Les dieux aident ceux qui s'aident eux-mêmes."}
+{"dataset_id": "covost2", "sample_id": "18042555", "src_lang": "en", "tgt_lang": "fr", "output": "Il était, de l'avis général, un enfant plutôt chétif et n'a jamais dépassé son quatrième anniversaire."}
+{"dataset_id": "covost2", "sample_id": "19687730", "src_lang": "en", "tgt_lang": "fr", "output": "Un visage comme Snowport est visible sur les rochers près du sommet."}
+{"dataset_id": "covost2", "sample_id": "19687732", "src_lang": "en", "tgt_lang": "fr", "output": "Le quartier est historiquement grec, mais est de plus en plus populaire auprès des artistes et des professionnels des affaires."}
+{"dataset_id": "covost2", "sample_id": "19687734", "src_lang": "en", "tgt_lang": "fr", "output": "Une variable globale contient le nombre N de symboles utilisés jusqu'à présent."}
+{"dataset_id": "covost2", "sample_id": "19640830", "src_lang": "en", "tgt_lang": "fr", "output": "Ses publications ont marqué un tournant dans l'historiographie africaine."}
+{"dataset_id": "covost2", "sample_id": "19640831", "src_lang": "en", "tgt_lang": "fr", "output": "Willie Stevens fut plus tard le sujet d'un essai de James Thurber."}
+{"dataset_id": "covost2", "sample_id": "19640838", "src_lang": "en", "tgt_lang": "fr", "output": "Cependant, l'histoire antérieure des deux textes est obscure."}
+{"dataset_id": "covost2", "sample_id": "20066625", "src_lang": "en", "tgt_lang": "fr", "output": "J'ai dit pas du tout."}
+{"dataset_id": "covost2", "sample_id": "20066627", "src_lang": "en", "tgt_lang": "fr", "output": "Le rôle du test de Mantoux chez les personnes vaccinées est contesté."}
+{"dataset_id": "covost2", "sample_id": "20066628", "src_lang": "en", "tgt_lang": "fr", "output": "Après la sortie, Proeski est parti en tournée à travers la Macédoine, assurant une promotion intense."}
+{"dataset_id": "covost2", "sample_id": "568963", "src_lang": "en", "tgt_lang": "fr", "output": "Simplifiez, le principe KISS."}
+{"dataset_id": "covost2", "sample_id": "22661", "src_lang": "en", "tgt_lang": "fr", "output": "Mais il ne pouvait toujours pas fuir."}
+{"dataset_id": "covost2", "sample_id": "33886", "src_lang": "en", "tgt_lang": "fr", "output": "Le désert ne lui répondit pas pendant quelques instants."}
+{"dataset_id": "covost2", "sample_id": "18324649", "src_lang": "en", "tgt_lang": "fr", "output": "Depuis lors, une force mystérieuse nous combat à chaque pas."}
+{"dataset_id": "covost2", "sample_id": "18324650", "src_lang": "en", "tgt_lang": "fr", "output": "Le navire devrait arriver d'ici une semaine ou dix jours."}
+{"dataset_id": "covost2", "sample_id": "18324651", "src_lang": "en", "tgt_lang": "fr", "output": "Il faut apprendre à marcher avant de courir."}
+{"dataset_id": "covost2", "sample_id": "18236", "src_lang": "en", "tgt_lang": "fr", "output": "Le troupeau a grimpé une tour."}
+{"dataset_id": "covost2", "sample_id": "515042", "src_lang": "en", "tgt_lang": "fr", "output": "Les développeurs web ne devraient pas intégrer de scripts directement depuis jQuery.com car cela permet à un tiers de suivre tous les utilisateurs."}
+{"dataset_id": "covost2", "sample_id": "334182", "src_lang": "en", "tgt_lang": "fr", "output": "Thomas a fait un voyage au Canada."}
+{"dataset_id": "covost2", "sample_id": "687815", "src_lang": "en", "tgt_lang": "fr", "output": "L'odeur était méphitique."}
+{"dataset_id": "covost2", "sample_id": "687816", "src_lang": "en", "tgt_lang": "fr", "output": "Vous jouiez avec de la dynamite."}
+{"dataset_id": "covost2", "sample_id": "16651794", "src_lang": "en", "tgt_lang": "fr", "output": "Le manteau foncé pendait dans le placard d'entrée."}
+{"dataset_id": "covost2", "sample_id": "651110", "src_lang": "en", "tgt_lang": "fr", "output": "C'est juste un jour comme les autres, en ce qui me concerne."}
+{"dataset_id": "covost2", "sample_id": "651111", "src_lang": "en", "tgt_lang": "fr", "output": "Ce n'est pas pour cela que je me suis marié."}
+{"dataset_id": "covost2", "sample_id": "2668428", "src_lang": "en", "tgt_lang": "fr", "output": "Le déterminant est le produit de tous les vecteurs propres d'une matrice."}
+{"dataset_id": "covost2", "sample_id": "2668430", "src_lang": "en", "tgt_lang": "fr", "output": "Façonnez délicatement l'argile sous forme de bloc."}
+{"dataset_id": "covost2", "sample_id": "11734808", "src_lang": "en", "tgt_lang": "fr", "output": "Les pneus de la voiture étaient vieux, si bien que la bande de roulement était usée et inutilisable."}
+{"dataset_id": "covost2", "sample_id": "19715827", "src_lang": "en", "tgt_lang": "fr", "output": "C'est pourquoi nous encourageons des alternatives plus rapides, plus simples et moins chères comme la médiation."}
+{"dataset_id": "covost2", "sample_id": "19715829", "src_lang": "en", "tgt_lang": "fr", "output": "Les déchets nucléaires ont contaminé Cattaraugus Creek et d'autres zones autour de West Valley, New York."}
+{"dataset_id": "covost2", "sample_id": "19715831", "src_lang": "en", "tgt_lang": "fr", "output": "L'île est peuplée."}
+{"dataset_id": "covost2", "sample_id": "601514", "src_lang": "en", "tgt_lang": "fr", "output": "Cette nourriture est assez insipide et pourtant chère."}
+{"dataset_id": "covost2", "sample_id": "601516", "src_lang": "en", "tgt_lang": "fr", "output": "Il ne pouvait pas s'empêcher de sourire."}
+{"dataset_id": "covost2", "sample_id": "490376", "src_lang": "en", "tgt_lang": "fr", "output": "Stacy ne pouvait pas trouver l'interrupteur d'alimentation."}
+{"dataset_id": "covost2", "sample_id": "156940", "src_lang": "en", "tgt_lang": "fr", "output": "Il n'y aura pas de soulèvement rouge."}
+{"dataset_id": "covost2", "sample_id": "20068628", "src_lang": "en", "tgt_lang": "fr", "output": "a élargi son cadre énergétique à la société humaine."}
+{"dataset_id": "covost2", "sample_id": "20068650", "src_lang": "en", "tgt_lang": "fr", "output": "En collaboration avec Eliyahu Rips, il a introduit la notion de groupes hyperboliques."}
+{"dataset_id": "covost2", "sample_id": "20068651", "src_lang": "en", "tgt_lang": "fr", "output": "Alors qu'il était à l'Université de Californie, Davis, il a fondé l'ensemble d'improvisation de musique nouvelle."}
+{"dataset_id": "covost2", "sample_id": "19698106", "src_lang": "en", "tgt_lang": "fr", "output": "Le collège entretient des liens de jumelage avec des collèges et des universités dans quatre pays."}
+{"dataset_id": "covost2", "sample_id": "19698107", "src_lang": "en", "tgt_lang": "fr", "output": "Il est monté coaxialement avec un télémètre optique."}
+{"dataset_id": "covost2", "sample_id": "19698109", "src_lang": "en", "tgt_lang": "fr", "output": "La version critère contenait de nouvelles caractéristiques spéciales."}
+{"dataset_id": "covost2", "sample_id": "17267503", "src_lang": "en", "tgt_lang": "fr", "output": "Qu'avez-vous là ?"}
+{"dataset_id": "covost2", "sample_id": "19093406", "src_lang": "en", "tgt_lang": "fr", "output": "Il a donné des conférences sur invitation sur les sept continents."}
+{"dataset_id": "covost2", "sample_id": "19093407", "src_lang": "en", "tgt_lang": "fr", "output": "C'est la communauté la plus nord-occidentale de l'Union européenne."}
+{"dataset_id": "covost2", "sample_id": "19093408", "src_lang": "en", "tgt_lang": "fr", "output": "Ceci suggère que l'introspection est plutôt un processus indirect et inétiquetable d'inférence."}
+{"dataset_id": "covost2", "sample_id": "19963362", "src_lang": "en", "tgt_lang": "fr", "output": "Il n'a émis aucun argent attique."}
+{"dataset_id": "covost2", "sample_id": "19963363", "src_lang": "en", "tgt_lang": "fr", "output": "Le commissariat de Didsbury est situé au cœur du village de Didsbury, sur Wilmslow Road."}
+{"dataset_id": "covost2", "sample_id": "19963364", "src_lang": "en", "tgt_lang": "fr", "output": "Le terme apprentissage organique a été appliqué à ce phénomène."}
+{"dataset_id": "covost2", "sample_id": "19664662", "src_lang": "en", "tgt_lang": "fr", "output": "Après le deuxième échange, tout joueur peut choisir de jouer Chicago."}
+{"dataset_id": "covost2", "sample_id": "19664663", "src_lang": "en", "tgt_lang": "fr", "output": "La chaîne a connu des succès critiques et populaires."}
+{"dataset_id": "covost2", "sample_id": "19664675", "src_lang": "en", "tgt_lang": "fr", "output": "Ce n'est pas généralisé parce qu'aucune de ses utilisations ne s'applique à tous les porteurs de sacs à dos."}
+{"dataset_id": "covost2", "sample_id": "19763244", "src_lang": "en", "tgt_lang": "fr", "output": "Ils vivent sur le fond, recouverts de sable."}
+{"dataset_id": "covost2", "sample_id": "19763245", "src_lang": "en", "tgt_lang": "fr", "output": "Toute personne surprise en dehors du portail après le coucher du soleil était capturée et envoyée dans des camps de prisonniers."}
+{"dataset_id": "covost2", "sample_id": "19763247", "src_lang": "en", "tgt_lang": "fr", "output": "Cette intersection particulière est rapidement devenue le point focal de la vie de la ville."}
+{"dataset_id": "covost2", "sample_id": "19687437", "src_lang": "en", "tgt_lang": "fr", "output": "Oui. De nombreuses personnes apprécient d'élaborer une philosophie de la sémantique générale."}
+{"dataset_id": "covost2", "sample_id": "19687439", "src_lang": "en", "tgt_lang": "fr", "output": "Gibbs ne s'est jamais marié."}
+{"dataset_id": "covost2", "sample_id": "19687445", "src_lang": "en", "tgt_lang": "fr", "output": "Lycée Shields à Beatrice, Alabama."}
+{"dataset_id": "covost2", "sample_id": "1024466", "src_lang": "en", "tgt_lang": "fr", "output": "Notre période la plus chargée de l'année est en février."}
+{"dataset_id": "covost2", "sample_id": "18761534", "src_lang": "en", "tgt_lang": "fr", "output": "Ceci a souvent été présenté comme un"}
+{"dataset_id": "covost2", "sample_id": "18761535", "src_lang": "en", "tgt_lang": "fr", "output": "Les Arméniens étaient notoirement pro-allemands."}
+{"dataset_id": "covost2", "sample_id": "18761536", "src_lang": "en", "tgt_lang": "fr", "output": "A été inhumé au Parc Mémorial de Westwood, à Westwood, en Californie."}
+{"dataset_id": "covost2", "sample_id": "18679934", "src_lang": "en", "tgt_lang": "fr", "output": "Les chiffres entre parenthèses indiquent les fréquences maximales par semaine."}
+{"dataset_id": "covost2", "sample_id": "18679937", "src_lang": "en", "tgt_lang": "fr", "output": "Une autre construction du disphénoïde adouci est une gyrobicoupole diagonale."}
+{"dataset_id": "covost2", "sample_id": "18679938", "src_lang": "en", "tgt_lang": "fr", "output": "Fritz ne peut pas retenir ce genre de commentaire."}
+{"dataset_id": "covost2", "sample_id": "8808800", "src_lang": "en", "tgt_lang": "fr", "output": "Ne vous inquiétez pas pour moi."}
+{"dataset_id": "covost2", "sample_id": "561836", "src_lang": "en", "tgt_lang": "fr", "output": "Regardez ce visage !"}
+{"dataset_id": "covost2", "sample_id": "561837", "src_lang": "en", "tgt_lang": "fr", "output": "Je peux personnellement me porter garant de son caractère."}
+{"dataset_id": "covost2", "sample_id": "19739839", "src_lang": "en", "tgt_lang": "fr", "output": "Société Scherer, y compris les Laboratoires Scherer."}
+{"dataset_id": "covost2", "sample_id": "19739840", "src_lang": "en", "tgt_lang": "fr", "output": "Ces efforts ne furent que mal rétribués."}
+{"dataset_id": "covost2", "sample_id": "19739841", "src_lang": "en", "tgt_lang": "fr", "output": "Wesley A. Clark a conçu la logique, et Ken Olson a supervisé le développement technique."}
+{"dataset_id": "covost2", "sample_id": "17410003", "src_lang": "en", "tgt_lang": "fr", "output": "Le Paraguay partage une frontière avec la Bolivie, tandis que l'Uruguay non."}
+{"dataset_id": "covost2", "sample_id": "17410004", "src_lang": "en", "tgt_lang": "fr", "output": "Qu'est-ce que ça importait ?"}
+{"dataset_id": "covost2", "sample_id": "19516122", "src_lang": "en", "tgt_lang": "fr", "output": "Mistake, redoutable prédateur, une riche victime d'un meurtre horrible non résolu."}
+{"dataset_id": "covost2", "sample_id": "19516124", "src_lang": "en", "tgt_lang": "fr", "output": "Il a été formé à l'Université d'Édimbourg et à l'Université de Leyde."}
+{"dataset_id": "covost2", "sample_id": "19516158", "src_lang": "en", "tgt_lang": "fr", "output": "Owen Starkovia, marginalisé, a expérimenté une grande variété de genres musicaux."}
+{"dataset_id": "covost2", "sample_id": "19706746", "src_lang": "en", "tgt_lang": "fr", "output": "Il y a aussi cinq parcs communautaires et dix-huit parcs de quartier."}
+{"dataset_id": "covost2", "sample_id": "19706750", "src_lang": "en", "tgt_lang": "fr", "output": "Le soi-disant Herta Ork a été l'emblème de la ville depuis longtemps."}
+{"dataset_id": "covost2", "sample_id": "19706752", "src_lang": "en", "tgt_lang": "fr", "output": "La poutre de suspension externe a été supprimée en renforçant la suspension aux points de la coque."}
+{"dataset_id": "covost2", "sample_id": "673733", "src_lang": "en", "tgt_lang": "fr", "output": "Je suppose que je t'ai demandé en mariage."}
+{"dataset_id": "covost2", "sample_id": "289726", "src_lang": "en", "tgt_lang": "fr", "output": "Il n'y a rien de mal avec moi."}
+{"dataset_id": "covost2", "sample_id": "614006", "src_lang": "en", "tgt_lang": "fr", "output": "Un garçon qui porte une chemise bleue descend un toboggan."}
+{"dataset_id": "covost2", "sample_id": "614007", "src_lang": "en", "tgt_lang": "fr", "output": "Une femme souriante porte un ornement de tête unique."}
+{"dataset_id": "covost2", "sample_id": "614008", "src_lang": "en", "tgt_lang": "fr", "output": "Une fille en veste légère nage pendant que d'autres regardent depuis les rochers."}
+{"dataset_id": "covost2", "sample_id": "18782392", "src_lang": "en", "tgt_lang": "fr", "output": "Les espèces caractéristiques sont similaires, mais n'ont pas de gorge noire."}
+{"dataset_id": "covost2", "sample_id": "18782394", "src_lang": "en", "tgt_lang": "fr", "output": "L'Ansei est reconnue dans le plus ancien de tous les livres d'histoire japonais."}
+{"dataset_id": "covost2", "sample_id": "18782396", "src_lang": "en", "tgt_lang": "fr", "output": "C'est un cymbalum martelé."}
+{"dataset_id": "covost2", "sample_id": "19764158", "src_lang": "en", "tgt_lang": "fr", "output": "En tant que tel, il était un pionnier de la photographie de stock libre de droits."}
+{"dataset_id": "covost2", "sample_id": "19764163", "src_lang": "en", "tgt_lang": "fr", "output": "Fabien a reçu de la nourriture avant l'anesthésie pour l'opération."}
+{"dataset_id": "covost2", "sample_id": "19764164", "src_lang": "en", "tgt_lang": "fr", "output": "Plus tard, elle critique Squall quand il abandonne presque Rinoa, son intérêt romantique."}
+{"dataset_id": "covost2", "sample_id": "19261600", "src_lang": "en", "tgt_lang": "fr", "output": "La mandibule de l'espèce était relativement robuste."}
+{"dataset_id": "covost2", "sample_id": "19261601", "src_lang": "en", "tgt_lang": "fr", "output": "Un filtre infrarouge était monté juste derrière la monture de l'objectif."}
+{"dataset_id": "covost2", "sample_id": "19261602", "src_lang": "en", "tgt_lang": "fr", "output": "Cependant, il trouve ces capacités difficiles à contrôler."}
+{"dataset_id": "covost2", "sample_id": "616619", "src_lang": "en", "tgt_lang": "fr", "output": "Mais rien de tout cela n'importait à l'opposition."}
+{"dataset_id": "covost2", "sample_id": "666693", "src_lang": "en", "tgt_lang": "fr", "output": "J'ai hâte que la nouvelle version sorte."}
+{"dataset_id": "covost2", "sample_id": "639756", "src_lang": "en", "tgt_lang": "fr", "output": "La buse de la lance à incendie était en laiton brillant."}
+{"dataset_id": "covost2", "sample_id": "18707267", "src_lang": "en", "tgt_lang": "fr", "output": "Le district de Mangochi est un véritable pôle commercial."}
+{"dataset_id": "covost2", "sample_id": "18707269", "src_lang": "en", "tgt_lang": "fr", "output": "Il a été nommé en l'honneur de l'ancien arpenteur général Fessenden, qui avait arpenté le pays."}
+{"dataset_id": "covost2", "sample_id": "18707271", "src_lang": "en", "tgt_lang": "fr", "output": "La vente a attiré des enchérisseurs internationaux."}
+{"dataset_id": "covost2", "sample_id": "18356179", "src_lang": "en", "tgt_lang": "fr", "output": "En général, non."}
+{"dataset_id": "covost2", "sample_id": "18356180", "src_lang": "en", "tgt_lang": "fr", "output": "Les bénévoles sont l'épine dorsale des organisations non gouvernementales d'aide humanitaire."}
+{"dataset_id": "covost2", "sample_id": "18356183", "src_lang": "en", "tgt_lang": "fr", "output": "Certaines personnes réclament un code de conduite professionnel pour les développeurs de logiciels."}
+{"dataset_id": "covost2", "sample_id": "17795023", "src_lang": "en", "tgt_lang": "fr", "output": "Cependant, je ne pense pas que ce soit impossible."}
+{"dataset_id": "covost2", "sample_id": "635413", "src_lang": "en", "tgt_lang": "fr", "output": "Le calage d'image pourrait être facilement intégré dans des dispositifs embarqués à faible consommation."}
+{"dataset_id": "covost2", "sample_id": "17754459", "src_lang": "en", "tgt_lang": "fr", "output": "Le soleil est clément actuellement, mais il se retournera contre nous et consumera cette planète."}
+{"dataset_id": "covost2", "sample_id": "17754571", "src_lang": "en", "tgt_lang": "fr", "output": "Je n'ai plus rien à dire."}
+{"dataset_id": "covost2", "sample_id": "667730", "src_lang": "en", "tgt_lang": "fr", "output": "La chancelière semble chanter avec sa secrétaire dans l'arrière-cour."}
+{"dataset_id": "covost2", "sample_id": "19716898", "src_lang": "en", "tgt_lang": "fr", "output": "Un programme qui ne possède pas d'options de configuration est également une application portable."}
+{"dataset_id": "covost2", "sample_id": "19716900", "src_lang": "en", "tgt_lang": "fr", "output": "Hume Cronyn a remporté un Emmy pour son interprétation."}
+{"dataset_id": "covost2", "sample_id": "19716901", "src_lang": "en", "tgt_lang": "fr", "output": "Cette étape primaire se résout complètement en six mois."}
+{"dataset_id": "covost2", "sample_id": "19650390", "src_lang": "en", "tgt_lang": "fr", "output": "Les principales activités économiques de la ville consistent en la pêche, l'agriculture et le commerce régional."}
+{"dataset_id": "covost2", "sample_id": "19650392", "src_lang": "en", "tgt_lang": "fr", "output": "Le couple n'avait qu'un fils. Francisco da Costa Gomez."}
+{"dataset_id": "covost2", "sample_id": "19650394", "src_lang": "en", "tgt_lang": "fr", "output": "Millie n'a qu'un seul anniversaire par an."}
+{"dataset_id": "covost2", "sample_id": "19669874", "src_lang": "en", "tgt_lang": "fr", "output": "Ainsi, Mahon est devenu l'actionnaire majoritaire."}
+{"dataset_id": "covost2", "sample_id": "19669877", "src_lang": "en", "tgt_lang": "fr", "output": "Les personnes ayant une faible estime de soi utilisent souvent l'ancrage temporel lorsqu'elles décrivent leurs échecs passés."}
+{"dataset_id": "covost2", "sample_id": "19669878", "src_lang": "en", "tgt_lang": "fr", "output": "Norman, qui venait d'un milieu de l'Armée du Salut, a dit qu'il croyait fermement en Dieu."}
+{"dataset_id": "covost2", "sample_id": "497587", "src_lang": "en", "tgt_lang": "fr", "output": "Un jeune homme en chemise noire coupe de la viande."}
+{"dataset_id": "covost2", "sample_id": "497588", "src_lang": "en", "tgt_lang": "fr", "output": "Deux adolescents dans le parc sur un terrain de basket-ball, entre deux cours de karaté."}
+{"dataset_id": "covost2", "sample_id": "497589", "src_lang": "en", "tgt_lang": "fr", "output": "Une femme portant un haut noir, debout devant et tenant un microphone."}
+{"dataset_id": "covost2", "sample_id": "19676184", "src_lang": "en", "tgt_lang": "fr", "output": "Les produits sont également vendus à l'échelle internationale par le biais d'expositions organisées par la commission."}
+{"dataset_id": "covost2", "sample_id": "19676186", "src_lang": "en", "tgt_lang": "fr", "output": "La plupart sont inhabitées ou servent de lieux de vie pour les quelques vagabonds."}
+{"dataset_id": "covost2", "sample_id": "19676187", "src_lang": "en", "tgt_lang": "fr", "output": "Elle est activement impliquée dans des missions chrétiennes, tant en Australie qu'à l'étranger."}
+{"dataset_id": "covost2", "sample_id": "19958256", "src_lang": "en", "tgt_lang": "fr", "output": "Une fois restylées, ces unités deviennent standard sur toute la gamme."}
+{"dataset_id": "covost2", "sample_id": "19958258", "src_lang": "en", "tgt_lang": "fr", "output": "Les anciennes armoiries historiques montraient un évêque assis, symbolisant l'hégémonie de l'Électorat de Mayence."}
+{"dataset_id": "covost2", "sample_id": "19958260", "src_lang": "en", "tgt_lang": "fr", "output": "Il fait partie de la zone statistique métropolitaine de Wenatchee-East Wenatchee."}
+{"dataset_id": "covost2", "sample_id": "37210", "src_lang": "en", "tgt_lang": "fr", "output": "On m'a envoyé ici pour faire le ménage."}
+{"dataset_id": "covost2", "sample_id": "37211", "src_lang": "en", "tgt_lang": "fr", "output": "Nous seuls les appelions agents."}
+{"dataset_id": "covost2", "sample_id": "19547495", "src_lang": "en", "tgt_lang": "fr", "output": "L'itinérance et la criminalité en ville croissaient."}
+{"dataset_id": "covost2", "sample_id": "19547496", "src_lang": "en", "tgt_lang": "fr", "output": "Elle a ensuite commencé une nouvelle carrière en tant qu'entraîneur personnel."}
+{"dataset_id": "covost2", "sample_id": "19547498", "src_lang": "en", "tgt_lang": "fr", "output": "On lui a donné la première constitution jacobine en Italie."}
+{"dataset_id": "covost2", "sample_id": "20010035", "src_lang": "en", "tgt_lang": "fr", "output": "Aujourd'hui, la région se compose grosso modo de l'Okroug autonome de Tchoukotka et de l'Oblast de Magadan."}
+{"dataset_id": "covost2", "sample_id": "20010036", "src_lang": "en", "tgt_lang": "fr", "output": "Session entretenait une relation tendue avec le successeur de Thamber, William P. Br."}
+{"dataset_id": "covost2", "sample_id": "20010038", "src_lang": "en", "tgt_lang": "fr", "output": "Il y a deux types d'hyperboloïdes."}
+{"dataset_id": "covost2", "sample_id": "429149", "src_lang": "en", "tgt_lang": "fr", "output": "Il a consulté sa montre."}
+{"dataset_id": "covost2", "sample_id": "429150", "src_lang": "en", "tgt_lang": "fr", "output": "L'horloge du centre-ville a été endommagée par un coup de foudre."}
+{"dataset_id": "covost2", "sample_id": "103927", "src_lang": "en", "tgt_lang": "fr", "output": "Les loutres ont des caractéristiques intéressantes."}
+{"dataset_id": "covost2", "sample_id": "19694837", "src_lang": "en", "tgt_lang": "fr", "output": "Elle le mena jusqu'à son dernier fil d'espoir."}
+{"dataset_id": "covost2", "sample_id": "19694839", "src_lang": "en", "tgt_lang": "fr", "output": "Vestiges d'un établissement de l'Âge du Fer sont également visibles sur Pave."}
+{"dataset_id": "covost2", "sample_id": "19694840", "src_lang": "en", "tgt_lang": "fr", "output": "Sibell, ces cercles."}
+{"dataset_id": "covost2", "sample_id": "181406", "src_lang": "en", "tgt_lang": "fr", "output": "Est-ce qu'elle revient ici ?"}
+{"dataset_id": "covost2", "sample_id": "583291", "src_lang": "en", "tgt_lang": "fr", "output": "Parce que vous savez comment sont les politiciens."}
+{"dataset_id": "covost2", "sample_id": "188239", "src_lang": "en", "tgt_lang": "fr", "output": "Je suppose qu'il était alors environ quatre ou cinq heures."}
+{"dataset_id": "covost2", "sample_id": "188240", "src_lang": "en", "tgt_lang": "fr", "output": "Voici une autre facette de mon rêve."}
+{"dataset_id": "covost2", "sample_id": "188241", "src_lang": "en", "tgt_lang": "fr", "output": "Car les hommes ne vivent ni ne meurent en vain."}
+{"dataset_id": "covost2", "sample_id": "181458", "src_lang": "en", "tgt_lang": "fr", "output": "Shakespeare n'a jamais dit cela."}
+{"dataset_id": "covost2", "sample_id": "20028192", "src_lang": "en", "tgt_lang": "fr", "output": "La ville couvre le Tambon Chong Kham du district de Mueang Mae Hong Son."}
+{"dataset_id": "covost2", "sample_id": "20028199", "src_lang": "en", "tgt_lang": "fr", "output": "Un service de bus relie le village à Saint Austell et Lostwithiel."}
+{"dataset_id": "covost2", "sample_id": "20028201", "src_lang": "en", "tgt_lang": "fr", "output": "Le premier spectacle d'Anderson a eu lieu au Washington Social Club, rue East Madison."}
+{"dataset_id": "covost2", "sample_id": "19769465", "src_lang": "en", "tgt_lang": "fr", "output": "Cette famille a déménagé à Cazenovia, New York quand il était enfant."}
+{"dataset_id": "covost2", "sample_id": "19769467", "src_lang": "en", "tgt_lang": "fr", "output": "Certains clubs ont des salons semi-privés, avec des matelas pour se prélasser et socialiser."}
+{"dataset_id": "covost2", "sample_id": "19769468", "src_lang": "en", "tgt_lang": "fr", "output": "Pourquoi leur mariage doit-il être privé ?"}
+{"dataset_id": "covost2", "sample_id": "635219", "src_lang": "en", "tgt_lang": "fr", "output": "À ses côtés se trouvait le jeune Arabe avec qui le garçon avait parlé plus tôt."}
+{"dataset_id": "covost2", "sample_id": "662197", "src_lang": "en", "tgt_lang": "fr", "output": "Nous avons rencontré quelques problèmes plus tôt cette année, mais j'ai été très patient et compréhensif."}
+{"dataset_id": "covost2", "sample_id": "19749367", "src_lang": "en", "tgt_lang": "fr", "output": "De nombreuses bourses d'études et des prix lui ont permis de poursuivre ses études à l'étranger."}
+{"dataset_id": "covost2", "sample_id": "19749369", "src_lang": "en", "tgt_lang": "fr", "output": "Building a remporté la médaille de bronze lors d'un match de barrage contre un autre joueur britannique, Arthur Lowe."}
+{"dataset_id": "covost2", "sample_id": "19749370", "src_lang": "en", "tgt_lang": "fr", "output": "King's College à Wilkes-Barre, en Pennsylvanie."}
+{"dataset_id": "covost2", "sample_id": "20724", "src_lang": "en", "tgt_lang": "fr", "output": "Rarement ai-je vu une telle collection de méthodes simples et mal justifiées."}
+{"dataset_id": "covost2", "sample_id": "435955", "src_lang": "en", "tgt_lang": "fr", "output": "Mais je ne vais pas le faire."}
+{"dataset_id": "covost2", "sample_id": "253670", "src_lang": "en", "tgt_lang": "fr", "output": "À ma satisfaction, j'ai été mentionné dans les crédits pour ma compétence."}
+{"dataset_id": "covost2", "sample_id": "155825", "src_lang": "en", "tgt_lang": "fr", "output": "Nous n'avons plus d'essence et de gazole."}
+{"dataset_id": "covost2", "sample_id": "552198", "src_lang": "en", "tgt_lang": "fr", "output": "Nul n'est pire d'avoir connu le pire de soi."}
+{"dataset_id": "covost2", "sample_id": "85374", "src_lang": "en", "tgt_lang": "fr", "output": "« Qui vous a dit ça ? » demanda le garçon, surpris."}
+{"dataset_id": "covost2", "sample_id": "26349", "src_lang": "en", "tgt_lang": "fr", "output": "Quatre personnes jouent au baseball sur une pelouse herbeuse, avec un bâtiment gouvernemental en arrière-plan."}
+{"dataset_id": "covost2", "sample_id": "26350", "src_lang": "en", "tgt_lang": "fr", "output": "Un homme âgé dans un bus, regardant par la fenêtre."}
+{"dataset_id": "covost2", "sample_id": "26351", "src_lang": "en", "tgt_lang": "fr", "output": "Un nouveau procès à l'épreuve du feu est en cours."}
+{"dataset_id": "covost2", "sample_id": "603273", "src_lang": "en", "tgt_lang": "fr", "output": "Un groupe de personnes marchent dans une rue animée."}
+{"dataset_id": "covost2", "sample_id": "603274", "src_lang": "en", "tgt_lang": "fr", "output": "Trois policiers et un civil sont sur un trottoir."}
+{"dataset_id": "covost2", "sample_id": "603275", "src_lang": "en", "tgt_lang": "fr", "output": "Des militaires debout en ligne."}
+{"dataset_id": "covost2", "sample_id": "62342", "src_lang": "en", "tgt_lang": "fr", "output": "Il est important de garder l'esprit ouvert et elle m'a exhorté à faire de même."}
+{"dataset_id": "covost2", "sample_id": "62344", "src_lang": "en", "tgt_lang": "fr", "output": "Notre chienne a eu des chiots. En voulez-vous un ?"}
+{"dataset_id": "covost2", "sample_id": "19796551", "src_lang": "en", "tgt_lang": "fr", "output": "Octavien et Lépide ont vaincu la dernière résistance pompéienne en Cilicie."}
+{"dataset_id": "covost2", "sample_id": "19796552", "src_lang": "en", "tgt_lang": "fr", "output": "Pour aujourd'hui, nous devons nous séparer, dit-elle."}
+{"dataset_id": "covost2", "sample_id": "19796556", "src_lang": "en", "tgt_lang": "fr", "output": "Le Pacte affirme spécifiquement les croyances du Credo de Nicée."}
+{"dataset_id": "covost2", "sample_id": "18515270", "src_lang": "en", "tgt_lang": "fr", "output": "Le participe passé de geler est gelé."}
+{"dataset_id": "covost2", "sample_id": "18515272", "src_lang": "en", "tgt_lang": "fr", "output": "La quasi-totalité des toxicologues s'accordent sur ce point."}
+{"dataset_id": "covost2", "sample_id": "18515273", "src_lang": "en", "tgt_lang": "fr", "output": "Pauline a ri, puis déchira la lettre en deux."}
+{"dataset_id": "covost2", "sample_id": "19962575", "src_lang": "en", "tgt_lang": "fr", "output": "Finalement, cela n'est pas considéré comme nécessaire."}
+{"dataset_id": "covost2", "sample_id": "19962578", "src_lang": "en", "tgt_lang": "fr", "output": "Le bébé s'est échappé et est rentré chez lui quelques jours plus tard, émotionnellement anéanti par son expérience."}
+{"dataset_id": "covost2", "sample_id": "19962586", "src_lang": "en", "tgt_lang": "fr", "output": "L'aéroport a deux pistes."}
+{"dataset_id": "covost2", "sample_id": "19686766", "src_lang": "en", "tgt_lang": "fr", "output": "Les actions de Rachel les libèrent du contrôle mental et les X-Men unissent leurs forces."}
+{"dataset_id": "covost2", "sample_id": "19686768", "src_lang": "en", "tgt_lang": "fr", "output": "Et cela vous permet-il de comprendre pourquoi Snowden aurait pu faire ce qu'il a fait ?"}
+{"dataset_id": "covost2", "sample_id": "19686771", "src_lang": "en", "tgt_lang": "fr", "output": "Elle pourrait même ignorer son statut avant d'être ainsi réduite."}
+{"dataset_id": "covost2", "sample_id": "621505", "src_lang": "en", "tgt_lang": "fr", "output": "Le garçon câlinait son ours en peluche tout doux."}
+{"dataset_id": "covost2", "sample_id": "582647", "src_lang": "en", "tgt_lang": "fr", "output": "Il y a une place pour s'asseoir."}
+{"dataset_id": "covost2", "sample_id": "3630201", "src_lang": "en", "tgt_lang": "fr", "output": "Franchir la fosse à l'aide d'une longue perche."}
+{"dataset_id": "covost2", "sample_id": "3630203", "src_lang": "en", "tgt_lang": "fr", "output": "Il a secoué la tête."}
+{"dataset_id": "covost2", "sample_id": "19688299", "src_lang": "en", "tgt_lang": "fr", "output": "Elle avait un frère aîné, Hank."}
+{"dataset_id": "covost2", "sample_id": "19688300", "src_lang": "en", "tgt_lang": "fr", "output": "Katana rejoint l'équipe avec GeoForce et Technocrate, prenant la tête."}
+{"dataset_id": "covost2", "sample_id": "19688307", "src_lang": "en", "tgt_lang": "fr", "output": "Elle appréciait également ses contemporaines Ruth Eting, Ethel Waters et Connie Boswell."}
+{"dataset_id": "covost2", "sample_id": "19717709", "src_lang": "en", "tgt_lang": "fr", "output": "Glodge, j'appelle de Jersey."}
+{"dataset_id": "covost2", "sample_id": "19717711", "src_lang": "en", "tgt_lang": "fr", "output": "C'est très dangereux."}
+{"dataset_id": "covost2", "sample_id": "19717713", "src_lang": "en", "tgt_lang": "fr", "output": "L'équipage de deux était assis en tandem."}
+{"dataset_id": "covost2", "sample_id": "680785", "src_lang": "en", "tgt_lang": "fr", "output": "Quel est l'horaire des films à la Massachusetts Corporation dans 3 minutes ?"}
+{"dataset_id": "covost2", "sample_id": "680787", "src_lang": "en", "tgt_lang": "fr", "output": "Chez lui pour créer une playlist apaisante."}
+{"dataset_id": "covost2", "sample_id": "14888", "src_lang": "en", "tgt_lang": "fr", "output": "Quel temps fera-t-il à Deer River ?"}
+{"dataset_id": "covost2", "sample_id": "14889", "src_lang": "en", "tgt_lang": "fr", "output": "Une femme vêtue de noir."}
+{"dataset_id": "covost2", "sample_id": "14890", "src_lang": "en", "tgt_lang": "fr", "output": "Des garçons jouent à l'extérieur dans un espace boisé."}
+{"dataset_id": "covost2", "sample_id": "19718203", "src_lang": "en", "tgt_lang": "fr", "output": "Le livre se déroule un mois après. L'Ascension de la Force Obscure."}
+{"dataset_id": "covost2", "sample_id": "19718204", "src_lang": "en", "tgt_lang": "fr", "output": "Elle offre en échange un panier plein d'œufs. L'échange est fait."}
+{"dataset_id": "covost2", "sample_id": "19718206", "src_lang": "en", "tgt_lang": "fr", "output": "« C'est quelque chose de nouveau d'entendre une voix comme la vôtre », répondit-il."}
+{"dataset_id": "covost2", "sample_id": "672623", "src_lang": "en", "tgt_lang": "fr", "output": "Donne-moi ma corde."}
+{"dataset_id": "covost2", "sample_id": "551887", "src_lang": "en", "tgt_lang": "fr", "output": "L'enfant découvre un nouveau monde."}
+{"dataset_id": "covost2", "sample_id": "551888", "src_lang": "en", "tgt_lang": "fr", "output": "Un chien est dans une décharge."}
+{"dataset_id": "covost2", "sample_id": "551889", "src_lang": "en", "tgt_lang": "fr", "output": "Un gros plan d'un homme tenant ses mains en l'air."}
+{"dataset_id": "covost2", "sample_id": "149358", "src_lang": "en", "tgt_lang": "fr", "output": "Un chien marron et blanc saute du trottoir."}
+{"dataset_id": "covost2", "sample_id": "149359", "src_lang": "en", "tgt_lang": "fr", "output": "Le gars montre son pied à la caméra tandis que d'autres dorment à l'arrière-plan."}
+{"dataset_id": "covost2", "sample_id": "149360", "src_lang": "en", "tgt_lang": "fr", "output": "Un skieur en rouge est haut dans les airs."}
+{"dataset_id": "covost2", "sample_id": "56401", "src_lang": "en", "tgt_lang": "fr", "output": "Un homme marche derrière un chien qui se tient sur ses pattes arrière."}
+{"dataset_id": "covost2", "sample_id": "56402", "src_lang": "en", "tgt_lang": "fr", "output": "Un homme en veste bleue se tient au milieu de la glace, une pelle à la main."}
+{"dataset_id": "covost2", "sample_id": "56403", "src_lang": "en", "tgt_lang": "fr", "output": "Une personne vêtue d'une veste jaune grimpe sur des rochers enneigés."}
+{"dataset_id": "covost2", "sample_id": "19602399", "src_lang": "en", "tgt_lang": "fr", "output": "La grande salle de l'école a également été nommée Salle du Souvenir."}
+{"dataset_id": "covost2", "sample_id": "19602402", "src_lang": "en", "tgt_lang": "fr", "output": "Un sentier mène au sommet."}
+{"dataset_id": "covost2", "sample_id": "19602403", "src_lang": "en", "tgt_lang": "fr", "output": "Davy nomma l'élément Borchium."}
+{"dataset_id": "covost2", "sample_id": "641941", "src_lang": "en", "tgt_lang": "fr", "output": "Deux hommes participent à un match vêtus de karategis."}
+{"dataset_id": "covost2", "sample_id": "641942", "src_lang": "en", "tgt_lang": "fr", "output": "Trois personnes assises dans un bus, chacune faisant quelque chose de différent."}
+{"dataset_id": "covost2", "sample_id": "641943", "src_lang": "en", "tgt_lang": "fr", "output": "Un petit garçon en costume tient l'alliance pour un mariage."}
+{"dataset_id": "covost2", "sample_id": "131433", "src_lang": "en", "tgt_lang": "fr", "output": "Le problème avec toi, c'est que tu aimes que les gens te marchent dessus."}
+{"dataset_id": "covost2", "sample_id": "19559709", "src_lang": "en", "tgt_lang": "fr", "output": "He Juwinski était dans la voiture de Dale où elle attendait Jigger."}
+{"dataset_id": "covost2", "sample_id": "19559710", "src_lang": "en", "tgt_lang": "fr", "output": "Le motif d'ananas d'alors représente peut-être l'utilisation architecturale la plus spectaculaire du motif."}
+{"dataset_id": "covost2", "sample_id": "19559713", "src_lang": "en", "tgt_lang": "fr", "output": "Tonote est Ambo\nMuang Chun Boy\nLe Sud est Ambo\nBang Lamong"}
+{"dataset_id": "covost2", "sample_id": "20078605", "src_lang": "en", "tgt_lang": "fr", "output": "Son chef-lieu de comté est Virginia City."}
+{"dataset_id": "covost2", "sample_id": "20078606", "src_lang": "en", "tgt_lang": "fr", "output": "Une semaine en octobre est également consacrée à un salon international de la photographie et du cinéma."}
+{"dataset_id": "covost2", "sample_id": "20078608", "src_lang": "en", "tgt_lang": "fr", "output": "Depuis hier, il était un homme au grand blazer."}
+{"dataset_id": "covost2", "sample_id": "625485", "src_lang": "en", "tgt_lang": "fr", "output": "Quelqu'un l'aurait vu."}
+{"dataset_id": "covost2", "sample_id": "567133", "src_lang": "en", "tgt_lang": "fr", "output": "Premièrement, puisque vous ne pouvez pas utiliser de souris, vous ne pouvez pas simplement cliquer pour vous rendre à l'emplacement souhaité."}
+{"dataset_id": "covost2", "sample_id": "19724903", "src_lang": "en", "tgt_lang": "fr", "output": "L'étoile de l'ordre est une étoile d'argent à huit branches aux rayons droits."}
+{"dataset_id": "covost2", "sample_id": "19724905", "src_lang": "en", "tgt_lang": "fr", "output": "Son frère, qui l'aimait tendrement, fut consterné par cette préférence fantaisiste."}
+{"dataset_id": "covost2", "sample_id": "19724907", "src_lang": "en", "tgt_lang": "fr", "output": "L'antigène Duffy est exprimé en plus grande quantité sur les réticulocytes que sur les érythrocytes matures."}
+{"dataset_id": "covost2", "sample_id": "19691685", "src_lang": "en", "tgt_lang": "fr", "output": "Il continue de faire des apparitions occasionnelles à la télévision et à la radio."}
+{"dataset_id": "covost2", "sample_id": "19691693", "src_lang": "en", "tgt_lang": "fr", "output": "C'est de famille."}
+{"dataset_id": "covost2", "sample_id": "19691699", "src_lang": "en", "tgt_lang": "fr", "output": "Au Canada, la variété sans gras est étiquetée comme ultra faible en gras."}
+{"dataset_id": "covost2", "sample_id": "562662", "src_lang": "en", "tgt_lang": "fr", "output": "Une voiture blanche et une voiture jaune ont fait la course dans la rue."}
+{"dataset_id": "covost2", "sample_id": "562663", "src_lang": "en", "tgt_lang": "fr", "output": "Une famille de cinq personnes regarde un artiste debout sur un escabeau."}
+{"dataset_id": "covost2", "sample_id": "562664", "src_lang": "en", "tgt_lang": "fr", "output": "léopard des neiges haut dans le"}
+{"dataset_id": "covost2", "sample_id": "19980237", "src_lang": "en", "tgt_lang": "fr", "output": "Agnès a commencé à prendre des cours de violon et a rejoint une chorale très jeune."}
+{"dataset_id": "covost2", "sample_id": "19980239", "src_lang": "en", "tgt_lang": "fr", "output": "Le pont fait partie du parcours pour le marathon annuel de New York."}
+{"dataset_id": "covost2", "sample_id": "19980241", "src_lang": "en", "tgt_lang": "fr", "output": "Il y a aussi un poste médical d'urgence et une caserne de pompiers sur le campus."}
+{"dataset_id": "covost2", "sample_id": "133615", "src_lang": "en", "tgt_lang": "fr", "output": "Il est utile d'au moins essayer de minimiser le delta."}
+{"dataset_id": "covost2", "sample_id": "36674", "src_lang": "en", "tgt_lang": "fr", "output": "C'est tout ce que je demande."}
+{"dataset_id": "covost2", "sample_id": "36676", "src_lang": "en", "tgt_lang": "fr", "output": "Je pourrais simplement publier mon code, mais cela ne révélerait pas toutes les petites leçons que j'ai apprises en cours de route."}
+{"dataset_id": "covost2", "sample_id": "19669069", "src_lang": "en", "tgt_lang": "fr", "output": "Ces livres couvrent toutes les règles de base et les capacités de leurs personnages."}
+{"dataset_id": "covost2", "sample_id": "19669070", "src_lang": "en", "tgt_lang": "fr", "output": "Les pièces d'eau se trouvent souvent dans les jardins des maisons de la classe moyenne."}
+{"dataset_id": "covost2", "sample_id": "19669072", "src_lang": "en", "tgt_lang": "fr", "output": "Dans les deux cas, en commentant cela, comme il a été dit, c'est ce qui était recherché."}
+{"dataset_id": "covost2", "sample_id": "17318729", "src_lang": "en", "tgt_lang": "fr", "output": "Si vous avez un problème sur votre lieu de travail, nous vous encourageons à contacter le service des ressources humaines."}
+{"dataset_id": "covost2", "sample_id": "117666", "src_lang": "en", "tgt_lang": "fr", "output": "Qu'avez-vous dit à l'instant ?"}
+{"dataset_id": "covost2", "sample_id": "18827022", "src_lang": "en", "tgt_lang": "fr", "output": "Toutes les chansons écrites par Hajib Baram Khalid, sauf indication contraire."}
+{"dataset_id": "covost2", "sample_id": "18827023", "src_lang": "en", "tgt_lang": "fr", "output": "Au Moyen Âge, celles-ci étaient souvent abrégées en simplement Colonia."}
+{"dataset_id": "covost2", "sample_id": "18827024", "src_lang": "en", "tgt_lang": "fr", "output": "Certains niveaux peuvent débloquer un mode éternel en créant un Katamari exceptionnellement grand."}
+{"dataset_id": "covost2", "sample_id": "455695", "src_lang": "en", "tgt_lang": "fr", "output": "Nous émiettons la boule avec une râpe jusqu'à ce qu'il ne reste que des fractions."}
+{"dataset_id": "covost2", "sample_id": "18878440", "src_lang": "en", "tgt_lang": "fr", "output": "La recette de grog de la Marine Royale comprend du jus de citron, de l'eau, du rhum et de la cannelle."}
+{"dataset_id": "covost2", "sample_id": "18878442", "src_lang": "en", "tgt_lang": "fr", "output": "Cinq autres districts avaient tous des majorités blanches."}
+{"dataset_id": "covost2", "sample_id": "18878443", "src_lang": "en", "tgt_lang": "fr", "output": "L'économie de Claremore est diversifiée."}
+{"dataset_id": "covost2", "sample_id": "20017672", "src_lang": "en", "tgt_lang": "fr", "output": "l'équipe de golf du lycée White et un habitué du Brookhaven Country Club à Dallas."}
+{"dataset_id": "covost2", "sample_id": "20017676", "src_lang": "en", "tgt_lang": "fr", "output": "Sabbes donne l'exemple d'un tisserand."}
+{"dataset_id": "covost2", "sample_id": "20017678", "src_lang": "en", "tgt_lang": "fr", "output": "En Maryland, c'est orienté est-ouest."}
+{"dataset_id": "covost2", "sample_id": "557939", "src_lang": "en", "tgt_lang": "fr", "output": "Que diriez-vous d'un peu de ces bonnes spaghettis ?"}
+{"dataset_id": "covost2", "sample_id": "557941", "src_lang": "en", "tgt_lang": "fr", "output": "Les caramels sont les meilleurs."}
+{"dataset_id": "covost2", "sample_id": "18316028", "src_lang": "en", "tgt_lang": "fr", "output": "Dans quelle école bucolique, au milieu d'amis, il avait été instruit, dépassait l'imagination."}
+{"dataset_id": "covost2", "sample_id": "18316030", "src_lang": "en", "tgt_lang": "fr", "output": "J'ai trop dépensé sur toutes mes cartes de crédit."}
+{"dataset_id": "covost2", "sample_id": "18316033", "src_lang": "en", "tgt_lang": "fr", "output": "Les jumeaux ont eu une fête d'anniversaire commune lorsqu'ils ont eu 18 ans."}
+{"dataset_id": "covost2", "sample_id": "551325", "src_lang": "en", "tgt_lang": "fr", "output": "Je n'arrive pas à me débarrasser de lui depuis."}
+{"dataset_id": "covost2", "sample_id": "551326", "src_lang": "en", "tgt_lang": "fr", "output": "Aimez-vous cuisiner ?"}
+{"dataset_id": "covost2", "sample_id": "673343", "src_lang": "en", "tgt_lang": "fr", "output": "Un calque semi-transparent a promu la version bêta d'une application Android."}
+{"dataset_id": "covost2", "sample_id": "673344", "src_lang": "en", "tgt_lang": "fr", "output": "J'y suis habitué."}
+{"dataset_id": "covost2", "sample_id": "118545", "src_lang": "en", "tgt_lang": "fr", "output": "Femme vêtue de blanc exposant de l'art sculpté dans des fruits."}
+{"dataset_id": "covost2", "sample_id": "118546", "src_lang": "en", "tgt_lang": "fr", "output": "Un jeune garçon utilise un crayon pour dessiner sur une feuille de papier."}
+{"dataset_id": "covost2", "sample_id": "118547", "src_lang": "en", "tgt_lang": "fr", "output": "Une foule de personnes portant une balle de style drapeau."}
+{"dataset_id": "covost2", "sample_id": "508028", "src_lang": "en", "tgt_lang": "fr", "output": "Il l'a mis dans sa poche arrière."}
+{"dataset_id": "covost2", "sample_id": "508029", "src_lang": "en", "tgt_lang": "fr", "output": "Le problème est que cette grammaire permet à la dictée brute d'être mélangée avec toute autre commande."}
+{"dataset_id": "covost2", "sample_id": "15735773", "src_lang": "en", "tgt_lang": "fr", "output": "Le service de Chine s'est écrasé au sol avec fracas."}
+{"dataset_id": "covost2", "sample_id": "90194", "src_lang": "en", "tgt_lang": "fr", "output": "Comment la trouvez-vous ?"}
+{"dataset_id": "covost2", "sample_id": "110548", "src_lang": "en", "tgt_lang": "fr", "output": "Elle était assise par terre en buvant son café."}
+{"dataset_id": "covost2", "sample_id": "110550", "src_lang": "en", "tgt_lang": "fr", "output": "Il préférait s'asseoir et attendre."}
+{"dataset_id": "covost2", "sample_id": "277807", "src_lang": "en", "tgt_lang": "fr", "output": "À bon vin, point d'enseigne."}
+{"dataset_id": "covost2", "sample_id": "75732", "src_lang": "en", "tgt_lang": "fr", "output": "Arrêtez de siffler et regardez les garçons marcher."}
+{"dataset_id": "covost2", "sample_id": "19963420", "src_lang": "en", "tgt_lang": "fr", "output": "Cette marque est celle de quoi ? Le monument, nommé plus tard le Chien Noir."}
+{"dataset_id": "covost2", "sample_id": "19963423", "src_lang": "en", "tgt_lang": "fr", "output": "À ce moment-là, ils s'étaient mariés individuellement."}
+{"dataset_id": "covost2", "sample_id": "19963424", "src_lang": "en", "tgt_lang": "fr", "output": "Récemment, Weymouth College a étendu son offre au-delà de son programme d'études traditionnel."}
+{"dataset_id": "covost2", "sample_id": "19947851", "src_lang": "en", "tgt_lang": "fr", "output": "Les forces navales de tous les pays présents sont présentées ci-dessous."}
+{"dataset_id": "covost2", "sample_id": "19947853", "src_lang": "en", "tgt_lang": "fr", "output": "La devise est codifiée dans les procédures que McDonald's utilise pour évaluer ses franchises."}
+{"dataset_id": "covost2", "sample_id": "19947855", "src_lang": "en", "tgt_lang": "fr", "output": "Il y avait une véritable lutte pour la survie."}
+{"dataset_id": "covost2", "sample_id": "19265925", "src_lang": "en", "tgt_lang": "fr", "output": "Les journaux intimes de Gibberts, Yair, Hilton et Katura fournissent du lait pour Yutowata."}
+{"dataset_id": "covost2", "sample_id": "19265927", "src_lang": "en", "tgt_lang": "fr", "output": "Trois jours de deuil national ont été décrétés."}
+{"dataset_id": "covost2", "sample_id": "19265928", "src_lang": "en", "tgt_lang": "fr", "output": "La branche la plus longue était longue, la plus courte était longue."}
+{"dataset_id": "covost2", "sample_id": "690940", "src_lang": "en", "tgt_lang": "fr", "output": "Une personne sautant haut dans les airs sur un snowboard."}
+{"dataset_id": "covost2", "sample_id": "690941", "src_lang": "en", "tgt_lang": "fr", "output": "Un homme en blanc se tient devant un barbecue."}
+{"dataset_id": "covost2", "sample_id": "690942", "src_lang": "en", "tgt_lang": "fr", "output": "Femme tatouée en haut rayé portant un sac à dos."}
+{"dataset_id": "covost2", "sample_id": "664135", "src_lang": "en", "tgt_lang": "fr", "output": "Il y a une copie sur mon bureau."}
+{"dataset_id": "covost2", "sample_id": "530041", "src_lang": "en", "tgt_lang": "fr", "output": "La semaine dernière, notre frigo est tombé en panne, ce qui nous a forcés à manger beaucoup de glace."}
+{"dataset_id": "covost2", "sample_id": "530042", "src_lang": "en", "tgt_lang": "fr", "output": "Moins de pression est requise pour jouer de la clarinette."}
+{"dataset_id": "covost2", "sample_id": "140507", "src_lang": "en", "tgt_lang": "fr", "output": "Voyez-vous ceci ?"}
+{"dataset_id": "covost2", "sample_id": "140508", "src_lang": "en", "tgt_lang": "fr", "output": "Pouvez-vous imaginer tomber sur une tonne de glucides ?"}
+{"dataset_id": "covost2", "sample_id": "17147507", "src_lang": "en", "tgt_lang": "fr", "output": "De ce point de vue, on peut voir les cercles concentriques."}
+{"dataset_id": "covost2", "sample_id": "19729156", "src_lang": "en", "tgt_lang": "fr", "output": "Les compétitions de tir à l'arc, l'équitation et la calligraphie comptaient parmi les passe-temps de Wanli."}
+{"dataset_id": "covost2", "sample_id": "19729159", "src_lang": "en", "tgt_lang": "fr", "output": "Il était le grand-oncle du chef d'orchestre Sir John Eliot Gardiner."}
+{"dataset_id": "covost2", "sample_id": "19729160", "src_lang": "en", "tgt_lang": "fr", "output": "La statue est placée dans l'entrée monumentale du sanctuaire Yasukuni à Tokyo."}
+{"dataset_id": "covost2", "sample_id": "206453", "src_lang": "en", "tgt_lang": "fr", "output": "J'avais faim, alors j'ai acheté un monstre. Une pizza."}
+{"dataset_id": "covost2", "sample_id": "7575680", "src_lang": "en", "tgt_lang": "fr", "output": "Quand le gel est arrivé, c'est l'heure de la dinde."}
+{"dataset_id": "covost2", "sample_id": "478201", "src_lang": "en", "tgt_lang": "fr", "output": "Sous terre se trouvait un monde inconnu de tout être humain."}
+{"dataset_id": "covost2", "sample_id": "19504166", "src_lang": "en", "tgt_lang": "fr", "output": "L'aéroport et sa zone industrielle sont entourés de zones résidentielles."}
+{"dataset_id": "covost2", "sample_id": "19504167", "src_lang": "en", "tgt_lang": "fr", "output": "Les équipes ont également découvert une nouvelle faille dans la portion « cool » d'Hakasasi de la baie d'Akatu."}
+{"dataset_id": "covost2", "sample_id": "19504169", "src_lang": "en", "tgt_lang": "fr", "output": "Par conséquent, la réponse de True Trance, « tomate », était correcte."}
+{"dataset_id": "covost2", "sample_id": "157041", "src_lang": "en", "tgt_lang": "fr", "output": "Ajoutez cette chanson à ma playlist Underground."}
+{"dataset_id": "covost2", "sample_id": "157042", "src_lang": "en", "tgt_lang": "fr", "output": "Constitution de l'Empire."}
+{"dataset_id": "covost2", "sample_id": "18405877", "src_lang": "en", "tgt_lang": "fr", "output": "Gusy leva les yeux. Son œil était terne."}
+{"dataset_id": "covost2", "sample_id": "18405878", "src_lang": "en", "tgt_lang": "fr", "output": "Il n'y avait rien d'autre à faire, donc Alice recommença bientôt à parler."}
+{"dataset_id": "covost2", "sample_id": "18405879", "src_lang": "en", "tgt_lang": "fr", "output": "Nous nous sommes séparés pour les vacances la semaine dernière."}
+{"dataset_id": "covost2", "sample_id": "20053736", "src_lang": "en", "tgt_lang": "fr", "output": "Plus tard, il a adhéré au Parti Ouvrier Social-Démocrate russe."}
+{"dataset_id": "covost2", "sample_id": "20053737", "src_lang": "en", "tgt_lang": "fr", "output": "Le renforcement détermine le nombre de fois où les joueurs d'une équipe peuvent répondre."}
+{"dataset_id": "covost2", "sample_id": "20053740", "src_lang": "en", "tgt_lang": "fr", "output": "Lenny quitte tristement pour New York."}
+{"dataset_id": "covost2", "sample_id": "508271", "src_lang": "en", "tgt_lang": "fr", "output": "Autant jouer à la roulette russe."}
+{"dataset_id": "covost2", "sample_id": "19961502", "src_lang": "en", "tgt_lang": "fr", "output": "Les quatre maisons sont : Brunel, Austen, Nightingale et Wellington."}
+{"dataset_id": "covost2", "sample_id": "19961503", "src_lang": "en", "tgt_lang": "fr", "output": "Le lev bulgare est de toute façon rattaché à l'euro."}
+{"dataset_id": "covost2", "sample_id": "19961508", "src_lang": "en", "tgt_lang": "fr", "output": "Le maire de Bet Shemesh, Moshe Abutbul, est membre du Shas."}
+{"dataset_id": "covost2", "sample_id": "19993183", "src_lang": "en", "tgt_lang": "fr", "output": "La composition la plus récente peut être trouvée sur le site web d'Urbanmix."}
+{"dataset_id": "covost2", "sample_id": "19993184", "src_lang": "en", "tgt_lang": "fr", "output": "Enfant, Sweet résidait chez son oncle, Harol G. Knapp."}
+{"dataset_id": "covost2", "sample_id": "19993185", "src_lang": "en", "tgt_lang": "fr", "output": "L'auteur James Hilton était le narrateur de ce film."}
+{"dataset_id": "covost2", "sample_id": "17377157", "src_lang": "en", "tgt_lang": "fr", "output": "Il fit une pause, regarda la maison, puis il empocha les clés, ouvrit le portail et s'éloigna rapidement sur le sentier."}
+{"dataset_id": "covost2", "sample_id": "659305", "src_lang": "en", "tgt_lang": "fr", "output": "Un hérisson ramassait des feuilles brunes."}
+{"dataset_id": "covost2", "sample_id": "19032590", "src_lang": "en", "tgt_lang": "fr", "output": "Le commerce local comprend les magasins de cadeaux."}
+{"dataset_id": "covost2", "sample_id": "19032591", "src_lang": "en", "tgt_lang": "fr", "output": "Après avoir terminé la saison avec les Midland RockHounds de la Double-A, il est devenu agent libre."}
+{"dataset_id": "covost2", "sample_id": "19032592", "src_lang": "en", "tgt_lang": "fr", "output": "Ils sont assistés par un second, généralement un caporal-chef ou un première classe."}
+{"dataset_id": "covost2", "sample_id": "11667", "src_lang": "en", "tgt_lang": "fr", "output": "Si vous souhaitez m'envoyer des commentaires privés, veuillez remplir le formulaire suivant."}
+{"dataset_id": "covost2", "sample_id": "19596664", "src_lang": "en", "tgt_lang": "fr", "output": "Le projet de loi a été coparrainé par les sénateurs Randolph Townsend et Valerie Wiener."}
+{"dataset_id": "covost2", "sample_id": "19596665", "src_lang": "en", "tgt_lang": "fr", "output": "Le premier développement de grande hauteur a maintenant été construit sur l'autoroute Hume."}
+{"dataset_id": "covost2", "sample_id": "19596667", "src_lang": "en", "tgt_lang": "fr", "output": "Sa poésie a été comparée à celle de Manuel Bandeira."}
+{"dataset_id": "covost2", "sample_id": "17291686", "src_lang": "en", "tgt_lang": "fr", "output": "J'espérais que vous en saviez un peu sur mon ombre maussade."}
+{"dataset_id": "covost2", "sample_id": "19618196", "src_lang": "en", "tgt_lang": "fr", "output": "Un autre autochtone notable est Anton Pan, qui a composé l'hymne national roumain."}
+{"dataset_id": "covost2", "sample_id": "19618198", "src_lang": "en", "tgt_lang": "fr", "output": "L'école de commerce et d'économie Argos de l'université CapMan est nommée en son honneur."}
+{"dataset_id": "covost2", "sample_id": "19618200", "src_lang": "en", "tgt_lang": "fr", "output": "La région environnante est réputée pour sa fertilité."}
+{"dataset_id": "covost2", "sample_id": "18459537", "src_lang": "en", "tgt_lang": "fr", "output": "Sa frange était si longue que ses cheveux lui entraient dans les yeux."}
+{"dataset_id": "covost2", "sample_id": "18459538", "src_lang": "en", "tgt_lang": "fr", "output": "Je suis tombé amoureux d'elle en quelques minutes."}
+{"dataset_id": "covost2", "sample_id": "17352162", "src_lang": "en", "tgt_lang": "fr", "output": "Pourriez-vous nous en délivrer un par hasard ?"}
+{"dataset_id": "covost2", "sample_id": "35611", "src_lang": "en", "tgt_lang": "fr", "output": "Vous me connaissez tous."}
+{"dataset_id": "covost2", "sample_id": "35613", "src_lang": "en", "tgt_lang": "fr", "output": "Le modèle peut être initialisé avec un codage parcimonieux."}
+{"dataset_id": "covost2", "sample_id": "277412", "src_lang": "en", "tgt_lang": "fr", "output": "En cryptographie symétrique, la même clé est utilisée pour le chiffrement et le déchiffrement."}
+{"dataset_id": "covost2", "sample_id": "277413", "src_lang": "en", "tgt_lang": "fr", "output": "Veuillez planifier une réunion entre moi et John à 15h30 demain."}
+{"dataset_id": "covost2", "sample_id": "277414", "src_lang": "en", "tgt_lang": "fr", "output": "La nostalgie n'est plus ce qu'elle était."}
+{"dataset_id": "covost2", "sample_id": "96282", "src_lang": "en", "tgt_lang": "fr", "output": "Elle est juste"}
+{"dataset_id": "covost2", "sample_id": "639753", "src_lang": "en", "tgt_lang": "fr", "output": "Ce fut un grand soulagement."}
+{"dataset_id": "covost2", "sample_id": "8774092", "src_lang": "en", "tgt_lang": "fr", "output": "Avec des sons distinctement séparés."}
+{"dataset_id": "covost2", "sample_id": "8774093", "src_lang": "en", "tgt_lang": "fr", "output": "Un aliment pleinement réussi est le « hot cross bun »."}
+{"dataset_id": "covost2", "sample_id": "8774094", "src_lang": "en", "tgt_lang": "fr", "output": "Vous faites une erreur."}
+{"dataset_id": "covost2", "sample_id": "19401729", "src_lang": "en", "tgt_lang": "fr", "output": "Les mouflons de Dall mâles ont des cornes épaisses et enroulées."}
+{"dataset_id": "covost2", "sample_id": "19401730", "src_lang": "en", "tgt_lang": "fr", "output": "Les langues qui distinguent entre différentes longueurs ont généralement des sons longs et courts."}
+{"dataset_id": "covost2", "sample_id": "19401732", "src_lang": "en", "tgt_lang": "fr", "output": "Il y avait des colonnes de publicités."}
+{"dataset_id": "covost2", "sample_id": "17795204", "src_lang": "en", "tgt_lang": "fr", "output": "Ce qui est toujours en devenir, n'est jamais."}
+{"dataset_id": "covost2", "sample_id": "19823694", "src_lang": "en", "tgt_lang": "fr", "output": "Ils étaient les héros, tous d'anciens guerriers de renom."}
+{"dataset_id": "covost2", "sample_id": "19823695", "src_lang": "en", "tgt_lang": "fr", "output": "Ces joueurs ont été produits au Canada, aux États-Unis, en Europe et en Australie."}
+{"dataset_id": "covost2", "sample_id": "19823696", "src_lang": "en", "tgt_lang": "fr", "output": "Ce substrat dur est généralement un autre procaryote."}
+{"dataset_id": "covost2", "sample_id": "660811", "src_lang": "en", "tgt_lang": "fr", "output": "Non, vous tournez juste comme ça et vous descendez tout droit."}
+{"dataset_id": "covost2", "sample_id": "18718196", "src_lang": "en", "tgt_lang": "fr", "output": "Il est mort à Bucarest."}
+{"dataset_id": "covost2", "sample_id": "18718197", "src_lang": "en", "tgt_lang": "fr", "output": "La détection du fer, du calcium et du titane dépendante de l'activité solaire."}
+{"dataset_id": "covost2", "sample_id": "18718200", "src_lang": "en", "tgt_lang": "fr", "output": "La tentative a échoué."}
+{"dataset_id": "covost2", "sample_id": "18928872", "src_lang": "en", "tgt_lang": "fr", "output": "Walpole est relativement observable. Le premier ministre britannique."}
+{"dataset_id": "covost2", "sample_id": "18928873", "src_lang": "en", "tgt_lang": "fr", "output": "J'ai été utilisé comme un remplacement instantané."}
+{"dataset_id": "covost2", "sample_id": "18928876", "src_lang": "en", "tgt_lang": "fr", "output": "La fameuse guitare Thorax Seat, créée par Schield, est toujours accrochée derrière le bar."}
+{"dataset_id": "covost2", "sample_id": "19720835", "src_lang": "en", "tgt_lang": "fr", "output": "Cela a également été publié, des années plus tard, dans le journal Primera Hora à Porto Rico."}
+{"dataset_id": "covost2", "sample_id": "19720836", "src_lang": "en", "tgt_lang": "fr", "output": "Voir aussi l'égalité des genres et la discrimination en Asie et dans le Pacifique et à la Banque asiatique de développement."}
+{"dataset_id": "covost2", "sample_id": "19720837", "src_lang": "en", "tgt_lang": "fr", "output": "La gemme est la lumière sombre, une pierre au pouvoir magique."}
+{"dataset_id": "covost2", "sample_id": "512013", "src_lang": "en", "tgt_lang": "fr", "output": "Vous avez l'argent."}
+{"dataset_id": "covost2", "sample_id": "89870", "src_lang": "en", "tgt_lang": "fr", "output": "Enfants jouant à un jeu vidéo ensemble."}
+{"dataset_id": "covost2", "sample_id": "89871", "src_lang": "en", "tgt_lang": "fr", "output": "Un homme vêtu de noir sur la plage, assis sous un parasol rouge."}
+{"dataset_id": "covost2", "sample_id": "89872", "src_lang": "en", "tgt_lang": "fr", "output": "Une voiture blanche est garée le long d'un mur avec des graffitis."}
+{"dataset_id": "covost2", "sample_id": "19074537", "src_lang": "en", "tgt_lang": "fr", "output": "Jones a gagné un Grammy pour sa contribution à Shaft."}
+{"dataset_id": "covost2", "sample_id": "19074538", "src_lang": "en", "tgt_lang": "fr", "output": "Racebrack est né à Anvers, fils du peintre paysagiste Victor Racebrack."}
+{"dataset_id": "covost2", "sample_id": "19074539", "src_lang": "en", "tgt_lang": "fr", "output": "Six affaires ont été portées en appel devant la Cour suprême."}
+{"dataset_id": "covost2", "sample_id": "19496295", "src_lang": "en", "tgt_lang": "fr", "output": "Ses importations les plus réussies étaient les enregistrements de Bing Crosby."}
+{"dataset_id": "covost2", "sample_id": "19496297", "src_lang": "en", "tgt_lang": "fr", "output": "Je ne les ai jamais déçus."}
+{"dataset_id": "covost2", "sample_id": "19496298", "src_lang": "en", "tgt_lang": "fr", "output": "Le lanceur de balle papillon Jack Scott a gardé les Yankees à l'écart du tableau d'affichage."}
+{"dataset_id": "covost2", "sample_id": "93631", "src_lang": "en", "tgt_lang": "fr", "output": "Eh bien, pourquoi as-tu dit que je ne sais rien de l'amour ? demanda le fils au garçon."}
+{"dataset_id": "covost2", "sample_id": "511265", "src_lang": "en", "tgt_lang": "fr", "output": "Notre influence sur leur monopole est minime."}
+{"dataset_id": "covost2", "sample_id": "511266", "src_lang": "en", "tgt_lang": "fr", "output": "Je veux réserver un restaurant non loin de notre collège."}
+{"dataset_id": "covost2", "sample_id": "19863402", "src_lang": "en", "tgt_lang": "fr", "output": "justification, comme dans le cas d'un homicide justifiable, lorsque les dossiers s'expliquent d'eux-mêmes."}
+{"dataset_id": "covost2", "sample_id": "19863405", "src_lang": "en", "tgt_lang": "fr", "output": "Cette dévotion spirituelle motive une conduite pieuse au-delà des limites quotidiennes."}
+{"dataset_id": "covost2", "sample_id": "19863406", "src_lang": "en", "tgt_lang": "fr", "output": "Pour des sorties de signification égale, l'algorithme de flot suppose qu'il n'y a pas de cycles négatifs."}
+{"dataset_id": "covost2", "sample_id": "19718768", "src_lang": "en", "tgt_lang": "fr", "output": "Les terres furent acquises par Don Julio Quiñones Guerrin, l'un des fils de Manuela."}
+{"dataset_id": "covost2", "sample_id": "19718771", "src_lang": "en", "tgt_lang": "fr", "output": "Le pionnier du jazz Miles Davis a été cité comme une influence possible."}
+{"dataset_id": "covost2", "sample_id": "19718777", "src_lang": "en", "tgt_lang": "fr", "output": "Des cartes en édition limitée ont également été vendues pour collecter des fonds pour des œuvres caritatives."}
+{"dataset_id": "covost2", "sample_id": "19964837", "src_lang": "en", "tgt_lang": "fr", "output": "Le mont Carrington forme l'extrémité nord-est des montagnes Napier."}
+{"dataset_id": "covost2", "sample_id": "19964844", "src_lang": "en", "tgt_lang": "fr", "output": "Ses parents aimaient les études supérieures, mais l'ont fortement encouragé à poursuivre ses études."}
+{"dataset_id": "covost2", "sample_id": "19964846", "src_lang": "en", "tgt_lang": "fr", "output": "Néanmoins, Fernand a continué d'influencer le développement des îles Malouines."}
+{"dataset_id": "covost2", "sample_id": "598160", "src_lang": "en", "tgt_lang": "fr", "output": "La police a interrompu l'enquête."}
+{"dataset_id": "covost2", "sample_id": "529507", "src_lang": "en", "tgt_lang": "fr", "output": "Prendre un repas chimichanga à la pause."}
+{"dataset_id": "covost2", "sample_id": "529508", "src_lang": "en", "tgt_lang": "fr", "output": "Plus de monde vient avec nous dans le train."}
+{"dataset_id": "covost2", "sample_id": "19984544", "src_lang": "en", "tgt_lang": "fr", "output": "Delay a été plus tard exonéré par une cour d'appel de toutes les accusations."}
+{"dataset_id": "covost2", "sample_id": "19984546", "src_lang": "en", "tgt_lang": "fr", "output": "Le pin araucaria était également populaire."}
+{"dataset_id": "covost2", "sample_id": "19984547", "src_lang": "en", "tgt_lang": "fr", "output": "L'établissement propose des formations diplômantes selon un calendrier trimestriel."}
+{"dataset_id": "covost2", "sample_id": "14667877", "src_lang": "en", "tgt_lang": "fr", "output": "Une traînée de couleur descendait le long du bord gauche."}
+{"dataset_id": "covost2", "sample_id": "492540", "src_lang": "en", "tgt_lang": "fr", "output": "Certaines choses arrivent à tout le monde."}
+{"dataset_id": "covost2", "sample_id": "19563533", "src_lang": "en", "tgt_lang": "fr", "output": "De nombreux citoyens ont cherché à fuir vers Homs, Tyr et Damas."}
+{"dataset_id": "covost2", "sample_id": "19563534", "src_lang": "en", "tgt_lang": "fr", "output": "Un bleu-noir est cité sur son terrain frauduleux, Second View Road."}
+{"dataset_id": "covost2", "sample_id": "19563535", "src_lang": "en", "tgt_lang": "fr", "output": "Tel qu'adapté, il se composait de seulement cinq courts articles."}
+{"dataset_id": "covost2", "sample_id": "205416", "src_lang": "en", "tgt_lang": "fr", "output": "Le Wi-Fi de l'école a un nombre ridicule de sites web qui sont bloqués."}
+{"dataset_id": "covost2", "sample_id": "205417", "src_lang": "en", "tgt_lang": "fr", "output": "S'accroupir avant de sauter, ou rater la cible."}
+{"dataset_id": "covost2", "sample_id": "16047343", "src_lang": "en", "tgt_lang": "fr", "output": "Pourquoi s'agit-il de comprendre l'ensemble ?"}
+{"dataset_id": "covost2", "sample_id": "632361", "src_lang": "en", "tgt_lang": "fr", "output": "Mais j'aime ça comme ça."}
+{"dataset_id": "covost2", "sample_id": "632362", "src_lang": "en", "tgt_lang": "fr", "output": "Écrire des phrases qui seront lues par des centaines de personnes me fait me sentir si puissant."}
+{"dataset_id": "covost2", "sample_id": "606961", "src_lang": "en", "tgt_lang": "fr", "output": "Elle t'aime assez pour rester."}
+{"dataset_id": "covost2", "sample_id": "606962", "src_lang": "en", "tgt_lang": "fr", "output": "Et le bleu ?"}
+{"dataset_id": "covost2", "sample_id": "168064", "src_lang": "en", "tgt_lang": "fr", "output": "Le laser game est un jeu assez similaire au paintball."}
+{"dataset_id": "covost2", "sample_id": "168066", "src_lang": "en", "tgt_lang": "fr", "output": "Oh, allez, ne sois pas gourmand avec les Jolly Ranchers."}
+{"dataset_id": "covost2", "sample_id": "18478896", "src_lang": "en", "tgt_lang": "fr", "output": "Finalement, ils ont décidé d'évacuer au Canada."}
+{"dataset_id": "covost2", "sample_id": "18478897", "src_lang": "en", "tgt_lang": "fr", "output": "Êtes-vous sur la liste de diffusion ?"}
+{"dataset_id": "covost2", "sample_id": "18478898", "src_lang": "en", "tgt_lang": "fr", "output": "Il était un artiste très polyvalent."}
+{"dataset_id": "covost2", "sample_id": "19465311", "src_lang": "en", "tgt_lang": "fr", "output": "Dans le fruit sont appelés Jugadi."}
+{"dataset_id": "covost2", "sample_id": "19465312", "src_lang": "en", "tgt_lang": "fr", "output": "Les précipitations sont inférieures à la valeur annuelle."}
+{"dataset_id": "covost2", "sample_id": "19465314", "src_lang": "en", "tgt_lang": "fr", "output": "Elle est également remarquable pour avoir proposé l'alphabet pan-nigérien."}
+{"dataset_id": "covost2", "sample_id": "19610861", "src_lang": "en", "tgt_lang": "fr", "output": "Les rouleaux sont utilisés à la place des coups de chauffe et des outils de coupe."}
+{"dataset_id": "covost2", "sample_id": "19610864", "src_lang": "en", "tgt_lang": "fr", "output": "Cette même année, n'oublions pas l'Afro-Américain Jeremiah A."}
+{"dataset_id": "covost2", "sample_id": "19610872", "src_lang": "en", "tgt_lang": "fr", "output": "Elle a affirmé avoir trouvé le nom de cette cellule particulière."}
+{"dataset_id": "covost2", "sample_id": "583738", "src_lang": "en", "tgt_lang": "fr", "output": "Je connais Daniel assez bien."}
+{"dataset_id": "covost2", "sample_id": "19469884", "src_lang": "en", "tgt_lang": "fr", "output": "À l'époque des films muets, ceux-ci étaient accompagnés par un orchestre de Paxtonville."}
+{"dataset_id": "covost2", "sample_id": "19469886", "src_lang": "en", "tgt_lang": "fr", "output": "Winnipeg, à l'époque, a élu dix membres au scrutin préférentiel lors d'un scrutin de liste."}
+{"dataset_id": "covost2", "sample_id": "19469887", "src_lang": "en", "tgt_lang": "fr", "output": "Sachant qu'il y en a quatre."}
+{"dataset_id": "covost2", "sample_id": "17293893", "src_lang": "en", "tgt_lang": "fr", "output": "Comme cachette, ce n'est pas la pire."}
+{"dataset_id": "covost2", "sample_id": "244261", "src_lang": "en", "tgt_lang": "fr", "output": "Ils utilisent l'outil de terraformation pour modifier le terrain."}
+{"dataset_id": "covost2", "sample_id": "244262", "src_lang": "en", "tgt_lang": "fr", "output": "Depuis des lustres."}
+{"dataset_id": "covost2", "sample_id": "244263", "src_lang": "en", "tgt_lang": "fr", "output": "Il a regardé sa montre."}
+{"dataset_id": "covost2", "sample_id": "33822", "src_lang": "en", "tgt_lang": "fr", "output": "Une pratique d'infidèles, se dit-il."}
+{"dataset_id": "covost2", "sample_id": "19733124", "src_lang": "en", "tgt_lang": "fr", "output": "En troisième année, il a été le médaillé d'or de sa promotion."}
+{"dataset_id": "covost2", "sample_id": "19733125", "src_lang": "en", "tgt_lang": "fr", "output": "L'établissement comptait huit villages et deux petits hameaux."}
+{"dataset_id": "covost2", "sample_id": "19733127", "src_lang": "en", "tgt_lang": "fr", "output": "Monsieur McMahon a démissionné peu après."}
+{"dataset_id": "covost2", "sample_id": "19955421", "src_lang": "en", "tgt_lang": "fr", "output": "Coups de feu sur Broadway, Les Évadés, Pulp Fiction, à égalité pour la deuxième place avec sept chacun."}
+{"dataset_id": "covost2", "sample_id": "19955423", "src_lang": "en", "tgt_lang": "fr", "output": "Ses œufs sont blancs avec de fines taches rougeâtres."}
+{"dataset_id": "covost2", "sample_id": "19955424", "src_lang": "en", "tgt_lang": "fr", "output": "Il était la star de la ligue."}
+{"dataset_id": "covost2", "sample_id": "490774", "src_lang": "en", "tgt_lang": "fr", "output": "Réservez cela pour le tribunal."}
+{"dataset_id": "covost2", "sample_id": "18437371", "src_lang": "en", "tgt_lang": "fr", "output": "Diable ! C'est ce que je veux aussi."}
+{"dataset_id": "covost2", "sample_id": "18437372", "src_lang": "en", "tgt_lang": "fr", "output": "Je ne m'inquiète pas d'eux."}
+{"dataset_id": "covost2", "sample_id": "18437373", "src_lang": "en", "tgt_lang": "fr", "output": "Qu'en est-il de mon cœur ? demanda le Bûcheron de fer-blanc."}
+{"dataset_id": "covost2", "sample_id": "350769", "src_lang": "en", "tgt_lang": "fr", "output": "Mais c'était tout."}
+{"dataset_id": "covost2", "sample_id": "564272", "src_lang": "en", "tgt_lang": "fr", "output": "Ils se sont envolés pour les Bahamas."}
+{"dataset_id": "covost2", "sample_id": "564273", "src_lang": "en", "tgt_lang": "fr", "output": "La fête n'est-elle pas aussi pour annoncer ses fiançailles avec Jonah ?"}
+{"dataset_id": "covost2", "sample_id": "564274", "src_lang": "en", "tgt_lang": "fr", "output": "Que savez-vous à ce sujet ?"}
+{"dataset_id": "covost2", "sample_id": "19454184", "src_lang": "en", "tgt_lang": "fr", "output": "Un établissement venait juste d'être créé à partir d'un poste de traite."}
+{"dataset_id": "covost2", "sample_id": "19454185", "src_lang": "en", "tgt_lang": "fr", "output": "Tout le forage est maintenant effectué sur le site secondaire."}
+{"dataset_id": "covost2", "sample_id": "19454186", "src_lang": "en", "tgt_lang": "fr", "output": "Les chaudières sont le point le plus haut vu d'en bas."}
+{"dataset_id": "covost2", "sample_id": "495707", "src_lang": "en", "tgt_lang": "fr", "output": "Un couple de patineurs artistiques se produit dans une arène."}
+{"dataset_id": "covost2", "sample_id": "495708", "src_lang": "en", "tgt_lang": "fr", "output": "Trois personnes sont vêtues de costumes et jouent des instruments de musique."}
+{"dataset_id": "covost2", "sample_id": "495709", "src_lang": "en", "tgt_lang": "fr", "output": "Quel temps fait-il au loin en Estonie ?"}
+{"dataset_id": "covost2", "sample_id": "17283081", "src_lang": "en", "tgt_lang": "fr", "output": "Est-ce que cela signifie qu'il ira en prison ?"}
+{"dataset_id": "covost2", "sample_id": "19992624", "src_lang": "en", "tgt_lang": "fr", "output": "Beg fut également utilisé par la suite en tant que rang militaire dans l'Empire ottoman."}
+{"dataset_id": "covost2", "sample_id": "19992626", "src_lang": "en", "tgt_lang": "fr", "output": "Et ses sœurs sont des femmes charmantes."}
+{"dataset_id": "covost2", "sample_id": "19992628", "src_lang": "en", "tgt_lang": "fr", "output": "Il a co-écrit le livre sur le sport avec Margaret Varner, intitulé Badminton."}
+{"dataset_id": "covost2", "sample_id": "512233", "src_lang": "en", "tgt_lang": "fr", "output": "Réfléchissez à ce que vous aimeriez améliorer dans votre version personnalisée."}
+{"dataset_id": "covost2", "sample_id": "512235", "src_lang": "en", "tgt_lang": "fr", "output": "Vous avez fait quelque chose de différent pour y arriver et vous pouvez apprendre d'eux."}
+{"dataset_id": "covost2", "sample_id": "197164", "src_lang": "en", "tgt_lang": "fr", "output": "Mon chien aboie lorsque des étrangers arrivent."}
+{"dataset_id": "covost2", "sample_id": "197165", "src_lang": "en", "tgt_lang": "fr", "output": "Veuillez rechercher le lamentable voyage d'Omaha Biglow dans l'émission de télévision L'Impénétrable Loicida Jungle."}
+{"dataset_id": "covost2", "sample_id": "19738842", "src_lang": "en", "tgt_lang": "fr", "output": "Warner a également vendu une branche naissante de vente au détail d'Atari à Mitsubishi."}
+{"dataset_id": "covost2", "sample_id": "19738843", "src_lang": "en", "tgt_lang": "fr", "output": "Il est également considéré comme un pionnier du montage raccord dans le cinéma narratif."}
+{"dataset_id": "covost2", "sample_id": "19738846", "src_lang": "en", "tgt_lang": "fr", "output": "Ceci est généralement exprimé en pourcentage."}
+{"dataset_id": "covost2", "sample_id": "20005729", "src_lang": "en", "tgt_lang": "fr", "output": "Ils ont été remplacés par un seul installateur standard d'assistant InstallShield."}
+{"dataset_id": "covost2", "sample_id": "20005730", "src_lang": "en", "tgt_lang": "fr", "output": "Parmi ses crédits au grand écran figurent les films Tootsie et Slayground."}
+{"dataset_id": "covost2", "sample_id": "20005731", "src_lang": "en", "tgt_lang": "fr", "output": "Héron fut l'un des ingénieurs les plus ingénieux et des mathématiciens appliqués les plus brillants de l'histoire."}
+{"dataset_id": "covost2", "sample_id": "493765", "src_lang": "en", "tgt_lang": "fr", "output": "Ces trois âmes, se ployant sous un vent violent."}
+{"dataset_id": "covost2", "sample_id": "493767", "src_lang": "en", "tgt_lang": "fr", "output": "Des points de lumière ont trahi le chat noir."}
+{"dataset_id": "covost2", "sample_id": "19687346", "src_lang": "en", "tgt_lang": "fr", "output": "Leah a servi au sein des armées canadienne et britannique. Mmm."}
+{"dataset_id": "covost2", "sample_id": "19687348", "src_lang": "en", "tgt_lang": "fr", "output": "Après la campagne, Zindrum retourna à son domaine."}
+{"dataset_id": "covost2", "sample_id": "19687350", "src_lang": "en", "tgt_lang": "fr", "output": "Elle avait la même caractéristique pour harmoniser la production et augmenter la protection."}
+{"dataset_id": "covost2", "sample_id": "17282618", "src_lang": "en", "tgt_lang": "fr", "output": "Grâce à nos lunettes de réalité augmentée, nous obtenons un aperçu des détails."}
+{"dataset_id": "covost2", "sample_id": "261779", "src_lang": "en", "tgt_lang": "fr", "output": "Le poulpe a inquiété le calmar."}
+{"dataset_id": "covost2", "sample_id": "537591", "src_lang": "en", "tgt_lang": "fr", "output": "Passer du temps ensemble peut être plus précieux que tout cadeau matériel."}
+{"dataset_id": "covost2", "sample_id": "536652", "src_lang": "en", "tgt_lang": "fr", "output": "C'est le parieur en chef."}
+{"dataset_id": "covost2", "sample_id": "574214", "src_lang": "en", "tgt_lang": "fr", "output": "On nous a servi tant de sornettes depuis si longtemps que nous nous y habituons."}
+{"dataset_id": "covost2", "sample_id": "17456870", "src_lang": "en", "tgt_lang": "fr", "output": "Une porte dérobée est un mécanisme délibéré qui est ajouté à un algorithme cryptographique."}
+{"dataset_id": "covost2", "sample_id": "17456874", "src_lang": "en", "tgt_lang": "fr", "output": "Les lanternes brillantes étaient gaies sur la pelouse sombre."}
+{"dataset_id": "covost2", "sample_id": "20047611", "src_lang": "en", "tgt_lang": "fr", "output": "Le comté de Joe Daviess a été fondé exclusivement par des immigrants de Nouvelle-Angleterre."}
+{"dataset_id": "covost2", "sample_id": "20047613", "src_lang": "en", "tgt_lang": "fr", "output": "Après une courte cadence, le piano se joint et développe davantage."}
+{"dataset_id": "covost2", "sample_id": "20047615", "src_lang": "en", "tgt_lang": "fr", "output": "Certains des travaux plus récents de Kahn concernaient les catégories modèles et d'autres catégories homotopiques."}
+{"dataset_id": "covost2", "sample_id": "19490966", "src_lang": "en", "tgt_lang": "fr", "output": "Il s'impose rapidement dans l'équipe première en tant qu'avant-centre."}
+{"dataset_id": "covost2", "sample_id": "19490967", "src_lang": "en", "tgt_lang": "fr", "output": "Il y avait une seigneurie et un château au Moyen Âge."}
+{"dataset_id": "covost2", "sample_id": "19490968", "src_lang": "en", "tgt_lang": "fr", "output": "Ils portaient également des gants noirs, tandis que d'autres régiments italiens en portaient des blancs."}
+{"dataset_id": "covost2", "sample_id": "19681717", "src_lang": "en", "tgt_lang": "fr", "output": "Les deux variantes ont un statut égal."}
+{"dataset_id": "covost2", "sample_id": "19681721", "src_lang": "en", "tgt_lang": "fr", "output": "« Pourrais-je parler à Monsieur Winkle, Monsieur ? » répondit Boots de l'extérieur."}
+{"dataset_id": "covost2", "sample_id": "19681726", "src_lang": "en", "tgt_lang": "fr", "output": "Il n'y a jamais eu de famille aussi acariâtre."}
+{"dataset_id": "covost2", "sample_id": "19987401", "src_lang": "en", "tgt_lang": "fr", "output": "Celui concernant le mouton mort est une pure invention."}
+{"dataset_id": "covost2", "sample_id": "19987409", "src_lang": "en", "tgt_lang": "fr", "output": "Les lézards des sables de Madagascar sont insectivores."}
+{"dataset_id": "covost2", "sample_id": "19987410", "src_lang": "en", "tgt_lang": "fr", "output": "C'est un petit village sur la côte ouest de l'île."}
+{"dataset_id": "covost2", "sample_id": "19726872", "src_lang": "en", "tgt_lang": "fr", "output": "Ils peuvent être associés à l'acanthose et à l'hyperkératose."}
+{"dataset_id": "covost2", "sample_id": "19726873", "src_lang": "en", "tgt_lang": "fr", "output": "Certains sabres japonais d'imitation sont fabriqués dans des pays autres que le Japon."}
+{"dataset_id": "covost2", "sample_id": "19726874", "src_lang": "en", "tgt_lang": "fr", "output": "Il a été construit par le brasseur George Willet de la famille Willet de Cawnech."}
+{"dataset_id": "covost2", "sample_id": "571242", "src_lang": "en", "tgt_lang": "fr", "output": "Il y a un centre d'une grande usine où le marché se tenait."}
+{"dataset_id": "covost2", "sample_id": "19559444", "src_lang": "en", "tgt_lang": "fr", "output": "Sous le régime allemand, Lier a fait partie de la municipalité de Wende."}
+{"dataset_id": "covost2", "sample_id": "19559447", "src_lang": "en", "tgt_lang": "fr", "output": "Elle a siégé au conseil municipal de Santa Barbara pendant deux mandats."}
+{"dataset_id": "covost2", "sample_id": "19559448", "src_lang": "en", "tgt_lang": "fr", "output": "Les familles de Cole, Dunbar et Lewit étaient toutes des premiers colons de Grancom."}
+{"dataset_id": "covost2", "sample_id": "168178", "src_lang": "en", "tgt_lang": "fr", "output": "Je peux l'aider."}
+{"dataset_id": "covost2", "sample_id": "393464", "src_lang": "en", "tgt_lang": "fr", "output": "J'aime généralement le jazz, mais ce disque est saturé. Merci la guerre du volume."}
+{"dataset_id": "covost2", "sample_id": "393465", "src_lang": "en", "tgt_lang": "fr", "output": "Elle avait oublié les cookies dans le four."}
+{"dataset_id": "covost2", "sample_id": "19201095", "src_lang": "en", "tgt_lang": "fr", "output": "Il tombe malade lui-même à l'article de la mort."}
+{"dataset_id": "covost2", "sample_id": "19201097", "src_lang": "en", "tgt_lang": "fr", "output": "L'admission à la faculté de droit du Michigan est hautement sélective."}
+{"dataset_id": "covost2", "sample_id": "19201099", "src_lang": "en", "tgt_lang": "fr", "output": "Des dispositifs plus petits s'appliquent en dehors de Londres."}
+{"dataset_id": "covost2", "sample_id": "497461", "src_lang": "en", "tgt_lang": "fr", "output": "L'enfant a failli blesser le petit chien."}
+{"dataset_id": "covost2", "sample_id": "497463", "src_lang": "en", "tgt_lang": "fr", "output": "Écartez-vous !"}
+{"dataset_id": "covost2", "sample_id": "2544322", "src_lang": "en", "tgt_lang": "fr", "output": "Pizza est un classique italien."}
+{"dataset_id": "covost2", "sample_id": "490598", "src_lang": "en", "tgt_lang": "fr", "output": "Mettez votre confiance en Dieu."}
+{"dataset_id": "covost2", "sample_id": "490599", "src_lang": "en", "tgt_lang": "fr", "output": "Il y avait un bruit de feuilles sèches dehors."}
+{"dataset_id": "covost2", "sample_id": "13115", "src_lang": "en", "tgt_lang": "fr", "output": "J'avais ces 5 000 dollars assurés."}
+{"dataset_id": "covost2", "sample_id": "13116", "src_lang": "en", "tgt_lang": "fr", "output": "Tu sais, je le ferais."}
+{"dataset_id": "covost2", "sample_id": "534024", "src_lang": "en", "tgt_lang": "fr", "output": "Pourquoi ont-ils besoin de Jen ?"}
+{"dataset_id": "covost2", "sample_id": "696774", "src_lang": "en", "tgt_lang": "fr", "output": "C'est comparer des choux et des carottes."}
+{"dataset_id": "covost2", "sample_id": "696775", "src_lang": "en", "tgt_lang": "fr", "output": "Mais cela ne devait pas être."}
+{"dataset_id": "covost2", "sample_id": "696776", "src_lang": "en", "tgt_lang": "fr", "output": "Olivia est venue chercher les cupcakes."}
+{"dataset_id": "covost2", "sample_id": "530753", "src_lang": "en", "tgt_lang": "fr", "output": "Les abeilles peuvent voir plus de couleurs que vous."}
+{"dataset_id": "covost2", "sample_id": "530754", "src_lang": "en", "tgt_lang": "fr", "output": "Y aura-t-il du vent à Anguilla ?"}
+{"dataset_id": "covost2", "sample_id": "530755", "src_lang": "en", "tgt_lang": "fr", "output": "L'odeur de chiffons brûlés me pique le nez."}
+{"dataset_id": "covost2", "sample_id": "19332306", "src_lang": "en", "tgt_lang": "fr", "output": "Le résultat final fut la création de ce que l'on appelle aujourd'hui le char."}
+{"dataset_id": "covost2", "sample_id": "19332307", "src_lang": "en", "tgt_lang": "fr", "output": "Cependant, Gibbs n'a pas utilisé le mot enthalpie dans ses écrits."}
+{"dataset_id": "covost2", "sample_id": "19332308", "src_lang": "en", "tgt_lang": "fr", "output": "Le prix est considéré comme très prestigieux, et de nombreux lauréats de la médaille Fields ont précédemment reçu le prix Salem."}
+{"dataset_id": "covost2", "sample_id": "603496", "src_lang": "en", "tgt_lang": "fr", "output": "Vas-y et passe un bon moment."}
+{"dataset_id": "covost2", "sample_id": "603498", "src_lang": "en", "tgt_lang": "fr", "output": "Mais je ne me plains pas trop encore."}
+{"dataset_id": "covost2", "sample_id": "19968711", "src_lang": "en", "tgt_lang": "fr", "output": "Son frère Peter était aussi footballeur."}
+{"dataset_id": "covost2", "sample_id": "19968714", "src_lang": "en", "tgt_lang": "fr", "output": "De nombreuses mascottes, elles semblent aussi croire qu'elles sont les animaux qu'elles incarnent."}
+{"dataset_id": "covost2", "sample_id": "19968715", "src_lang": "en", "tgt_lang": "fr", "output": "À son retour à Rome, un triomphe lui fut accordé."}
+{"dataset_id": "covost2", "sample_id": "652582", "src_lang": "en", "tgt_lang": "fr", "output": "Un homme sage tiendra sa langue jusqu'à ce qu'il trouve l'occasion."}
+{"dataset_id": "covost2", "sample_id": "18017109", "src_lang": "en", "tgt_lang": "fr", "output": "Si au début vous ne réussissez pas, essayez, essayez encore."}
+{"dataset_id": "covost2", "sample_id": "18017111", "src_lang": "en", "tgt_lang": "fr", "output": "Différentes espèces ont des façons différentes de faire face aux marées."}
+{"dataset_id": "covost2", "sample_id": "18017112", "src_lang": "en", "tgt_lang": "fr", "output": "La publication du gouvernement est devenue virale en seulement trois jours."}
+{"dataset_id": "covost2", "sample_id": "19973244", "src_lang": "en", "tgt_lang": "fr", "output": "La mince ligne rouge était à la hauteur de la tâche et devint la marée cramoisie."}
+{"dataset_id": "covost2", "sample_id": "19973245", "src_lang": "en", "tgt_lang": "fr", "output": "La cohérence spatiale peut être élevée, permettant cependant une focalisation étroite du rayonnement."}
+{"dataset_id": "covost2", "sample_id": "19973246", "src_lang": "en", "tgt_lang": "fr", "output": "Bruford le décrivait comme une éducation parfaite."}
+{"dataset_id": "covost2", "sample_id": "417493", "src_lang": "en", "tgt_lang": "fr", "output": "La nouvelle a semé le doute dans les esprits agités."}
+{"dataset_id": "covost2", "sample_id": "173871", "src_lang": "en", "tgt_lang": "fr", "output": "Un snowboardeur vêtu de rouge descend une montagne enneigée."}
+{"dataset_id": "covost2", "sample_id": "173872", "src_lang": "en", "tgt_lang": "fr", "output": "Un homme jouant au volleyball sur la plage."}
+{"dataset_id": "covost2", "sample_id": "173873", "src_lang": "en", "tgt_lang": "fr", "output": "Nous voyons un orchestre dans une grande salle."}
+{"dataset_id": "covost2", "sample_id": "19861026", "src_lang": "en", "tgt_lang": "fr", "output": "Photographie de la maison d'origine et d'un membre de la famille Crofoot qui sort."}
+{"dataset_id": "covost2", "sample_id": "19861027", "src_lang": "en", "tgt_lang": "fr", "output": "Fakulo fut alors gouverné par les comtes de Limburg et Bronkhorst."}
+{"dataset_id": "covost2", "sample_id": "19861028", "src_lang": "en", "tgt_lang": "fr", "output": "Le nombre total de succursales est donc passé à treize."}
+{"dataset_id": "covost2", "sample_id": "19676384", "src_lang": "en", "tgt_lang": "fr", "output": "Des terres agricoles remplissant l'espace entre les villages."}
+{"dataset_id": "covost2", "sample_id": "19676385", "src_lang": "en", "tgt_lang": "fr", "output": "Leicester est membre du Comité Mixte des droits de l'homme."}
+{"dataset_id": "covost2", "sample_id": "19676387", "src_lang": "en", "tgt_lang": "fr", "output": "Il a été inculpé de vol avec circonstances aggravantes, ayant commis un meurtre lors d'un viol."}
+{"dataset_id": "covost2", "sample_id": "17794463", "src_lang": "en", "tgt_lang": "fr", "output": "Beaucoup d'anciens bâtiments existent toujours aujourd'hui."}
+{"dataset_id": "covost2", "sample_id": "17794466", "src_lang": "en", "tgt_lang": "fr", "output": "Avec emphase."}
+{"dataset_id": "covost2", "sample_id": "20063966", "src_lang": "en", "tgt_lang": "fr", "output": "Cet événement attire toujours un plateau de joueurs de haut niveau."}
+{"dataset_id": "covost2", "sample_id": "20063970", "src_lang": "en", "tgt_lang": "fr", "output": "Ils forment en fait une bonne équipe et sont déçus quand ils doivent se dissoudre."}
+{"dataset_id": "covost2", "sample_id": "20063971", "src_lang": "en", "tgt_lang": "fr", "output": "Mais vous ne pouvez pas vous attendre à ce que tout le monde soit d'accord avec vous."}
+{"dataset_id": "covost2", "sample_id": "18304233", "src_lang": "en", "tgt_lang": "fr", "output": "L'herbe est plus verte là où vous l'arrosez."}
+{"dataset_id": "covost2", "sample_id": "18304253", "src_lang": "en", "tgt_lang": "fr", "output": "Il y avait huit personnes en rang."}
+{"dataset_id": "covost2", "sample_id": "19505623", "src_lang": "en", "tgt_lang": "fr", "output": "Ce portrait a été réalisé par l'artiste hongrois Lajos Bihani, avec qui il s'était lié d'amitié."}
+{"dataset_id": "covost2", "sample_id": "19505625", "src_lang": "en", "tgt_lang": "fr", "output": "Dans ses premières incarnations, il était également connu sous le nom de méta-appel de modèle."}
+{"dataset_id": "covost2", "sample_id": "19505627", "src_lang": "en", "tgt_lang": "fr", "output": "Ils ont aussi élu un personnage apparenté."}
+{"dataset_id": "covost2", "sample_id": "598033", "src_lang": "en", "tgt_lang": "fr", "output": "Une jeune fille pratiquant la gymnastique sur une poutre d'équilibre."}
+{"dataset_id": "covost2", "sample_id": "598034", "src_lang": "en", "tgt_lang": "fr", "output": "Une femme dans une salle de bain, assise sur le lavabo, se maquille."}
+{"dataset_id": "covost2", "sample_id": "598035", "src_lang": "en", "tgt_lang": "fr", "output": "Deux hommes torse nu s'équilibrent sur l'échafaudage."}
+{"dataset_id": "covost2", "sample_id": "17285519", "src_lang": "en", "tgt_lang": "fr", "output": "Je n'ai pas de téléphone."}
+{"dataset_id": "covost2", "sample_id": "497674", "src_lang": "en", "tgt_lang": "fr", "output": "Je peux l'interpréter, mais l'interprétation est très difficile."}
+{"dataset_id": "covost2", "sample_id": "17790348", "src_lang": "en", "tgt_lang": "fr", "output": "Le second pont avait été financé par des ressources publiques pour lever des impôts."}
+{"dataset_id": "covost2", "sample_id": "17790349", "src_lang": "en", "tgt_lang": "fr", "output": "Battez le fer tant qu'il est chaud."}
+{"dataset_id": "covost2", "sample_id": "557492", "src_lang": "en", "tgt_lang": "fr", "output": "Cela ne vous fera aucun mal."}
+{"dataset_id": "covost2", "sample_id": "588226", "src_lang": "en", "tgt_lang": "fr", "output": "Et il vous a donné cette augmentation de 5 dollars."}
+{"dataset_id": "covost2", "sample_id": "19039413", "src_lang": "en", "tgt_lang": "fr", "output": "Pour une liste complète des intronisés, voir la liste des intronisés au Temple de la Renommée du Pro Rodeo."}
+{"dataset_id": "covost2", "sample_id": "19039414", "src_lang": "en", "tgt_lang": "fr", "output": "Cependant, la littérature médicale rapporte peu de cas, voire aucun, d'auto-amputation réelle."}
+{"dataset_id": "covost2", "sample_id": "19039416", "src_lang": "en", "tgt_lang": "fr", "output": "Selon lui, les Romains refusaient de vivre un mode de vie militaire plus exigeant."}
+{"dataset_id": "covost2", "sample_id": "8719", "src_lang": "en", "tgt_lang": "fr", "output": "Lisa et moi sommes de bons amis."}
+{"dataset_id": "covost2", "sample_id": "150931", "src_lang": "en", "tgt_lang": "fr", "output": "D'abord, je dois lui dire quelles nouvelles."}
+{"dataset_id": "covost2", "sample_id": "1819204", "src_lang": "en", "tgt_lang": "fr", "output": "Non, bien sûr que non."}
+{"dataset_id": "covost2", "sample_id": "19654032", "src_lang": "en", "tgt_lang": "fr", "output": "Algernon a reçu une éducation privée à Twickenham, dans le Middlesex."}
+{"dataset_id": "covost2", "sample_id": "19654036", "src_lang": "en", "tgt_lang": "fr", "output": "Lui et Sua sont réunis avec bonheur."}
+{"dataset_id": "covost2", "sample_id": "19654038", "src_lang": "en", "tgt_lang": "fr", "output": "Il est devenu son deuxième plus grand succès."}
+{"dataset_id": "covost2", "sample_id": "17249872", "src_lang": "en", "tgt_lang": "fr", "output": "Que dois-je faire ?"}
+{"dataset_id": "covost2", "sample_id": "15875039", "src_lang": "en", "tgt_lang": "fr", "output": "Bateaux d'équipe sens dessus dessous"}
+{"dataset_id": "covost2", "sample_id": "17794238", "src_lang": "en", "tgt_lang": "fr", "output": "Elle a fait son coming out en tant que lesbienne l'année dernière, tu n'étais pas au courant ?"}
+{"dataset_id": "covost2", "sample_id": "19964580", "src_lang": "en", "tgt_lang": "fr", "output": "Plusieurs de ces appareils ont été préservés dans des musées aérospatiaux à travers le monde."}
+{"dataset_id": "covost2", "sample_id": "19964582", "src_lang": "en", "tgt_lang": "fr", "output": "Il a été président de la mission d'Europe de l'Ouest pendant plus de six ans."}
+{"dataset_id": "covost2", "sample_id": "19964617", "src_lang": "en", "tgt_lang": "fr", "output": "Bevin a travaillé pour l'Occident afin de réunir l'Europe occidentale au sein d'une alliance militaire."}
+{"dataset_id": "covost2", "sample_id": "18666394", "src_lang": "en", "tgt_lang": "fr", "output": "Assurément, j'aurais refusé."}
+{"dataset_id": "covost2", "sample_id": "18666395", "src_lang": "en", "tgt_lang": "fr", "output": "La question ne nécessitait pas de réponse."}
+{"dataset_id": "covost2", "sample_id": "18666397", "src_lang": "en", "tgt_lang": "fr", "output": "Quelle histoire à raconter au club !"}
+{"dataset_id": "covost2", "sample_id": "19681835", "src_lang": "en", "tgt_lang": "fr", "output": "Il existe des communautés Amish et mennonites qui suivent des modes de vie traditionnels."}
+{"dataset_id": "covost2", "sample_id": "19681837", "src_lang": "en", "tgt_lang": "fr", "output": "Le tsilhqotin est une langue athabascane du Nord peu documentée."}
+{"dataset_id": "covost2", "sample_id": "19681839", "src_lang": "en", "tgt_lang": "fr", "output": "La notion opposée est l'accès."}
+{"dataset_id": "covost2", "sample_id": "497959", "src_lang": "en", "tgt_lang": "fr", "output": "Une femme est debout sur une colline enneigée, s'apprêtant à skier."}
+{"dataset_id": "covost2", "sample_id": "497960", "src_lang": "en", "tgt_lang": "fr", "output": "Un petit garçon en t-shirt rayé saute d'un toboggan bleu."}
+{"dataset_id": "covost2", "sample_id": "497961", "src_lang": "en", "tgt_lang": "fr", "output": "Une personne vêtue de noir lançant une boule sur une piste de bowling."}
+{"dataset_id": "covost2", "sample_id": "19775386", "src_lang": "en", "tgt_lang": "fr", "output": "Son ancien directeur exécutif est Zoocam."}
+{"dataset_id": "covost2", "sample_id": "19775389", "src_lang": "en", "tgt_lang": "fr", "output": "Otto, précédemment instable, est ensuite resté fidèle à l'empereur."}
+{"dataset_id": "covost2", "sample_id": "19775391", "src_lang": "en", "tgt_lang": "fr", "output": "Le nombre d'exoplanètes observées devrait augmenter considérablement dans les années à venir."}
+{"dataset_id": "covost2", "sample_id": "693871", "src_lang": "en", "tgt_lang": "fr", "output": "Peu importe que vous le poursuiviez depuis six ans."}
+{"dataset_id": "covost2", "sample_id": "693873", "src_lang": "en", "tgt_lang": "fr", "output": "Elle est peut-être perdue."}
+{"dataset_id": "covost2", "sample_id": "18747652", "src_lang": "en", "tgt_lang": "fr", "output": "Le conseil se réunit à l'Hôtel de ville de Cork."}
+{"dataset_id": "covost2", "sample_id": "18747654", "src_lang": "en", "tgt_lang": "fr", "output": "Il a joué une saison pour les Steamers avant d'être libéré."}
+{"dataset_id": "covost2", "sample_id": "18747655", "src_lang": "en", "tgt_lang": "fr", "output": "Le directeur municipal actuel est Craig McConnell."}
+{"dataset_id": "covost2", "sample_id": "158507", "src_lang": "en", "tgt_lang": "fr", "output": "Cela classera mon compte."}
+{"dataset_id": "covost2", "sample_id": "158508", "src_lang": "en", "tgt_lang": "fr", "output": "Le membre du Congrès Aron est là pour vous voir."}
+{"dataset_id": "covost2", "sample_id": "158509", "src_lang": "en", "tgt_lang": "fr", "output": "Gardez-vous de l'argent ?"}
+{"dataset_id": "covost2", "sample_id": "54987", "src_lang": "en", "tgt_lang": "fr", "output": "Qu'avez-vous souhaité quand vous avez lancé ce caillou ?"}
+{"dataset_id": "covost2", "sample_id": "19600562", "src_lang": "en", "tgt_lang": "fr", "output": "L'acte le plus réussi de Tetragrammaton fut la première incarnation du groupe de rock Deep Purple."}
+{"dataset_id": "covost2", "sample_id": "19600563", "src_lang": "en", "tgt_lang": "fr", "output": "Hadoram est aussi le nom du fils du roi de Hamath."}
+{"dataset_id": "covost2", "sample_id": "19600564", "src_lang": "en", "tgt_lang": "fr", "output": "Après une saison avec le club, Walin a mis fin à sa carrière professionnelle en raison d'une blessure."}
+{"dataset_id": "covost2", "sample_id": "19667160", "src_lang": "en", "tgt_lang": "fr", "output": "Quincy Jones détient le record du plus grand nombre de victoires dans cette catégorie, avec quatre."}
+{"dataset_id": "covost2", "sample_id": "19667161", "src_lang": "en", "tgt_lang": "fr", "output": "Le nom de famille Pace se retrouve encore partout dans Saluda."}
+{"dataset_id": "covost2", "sample_id": "19667162", "src_lang": "en", "tgt_lang": "fr", "output": "Vous admettrez que j'ai surclassé Hindley."}
+{"dataset_id": "covost2", "sample_id": "76900", "src_lang": "en", "tgt_lang": "fr", "output": "J'ai échoué à parvenir à une interprétation concluante."}
+{"dataset_id": "covost2", "sample_id": "619178", "src_lang": "en", "tgt_lang": "fr", "output": "Le but du concours est de lever un fonds important."}
+{"dataset_id": "covost2", "sample_id": "496273", "src_lang": "en", "tgt_lang": "fr", "output": "Celle-ci est dédiée au ghetto d'où je viens."}
+{"dataset_id": "covost2", "sample_id": "19631259", "src_lang": "en", "tgt_lang": "fr", "output": "Les deux poursuites sont par la suite abandonnées par le plaignant et rejetées sans préjudice."}
+{"dataset_id": "covost2", "sample_id": "19631262", "src_lang": "en", "tgt_lang": "fr", "output": "Et si la fabrication était compromise ?"}
+{"dataset_id": "covost2", "sample_id": "19631263", "src_lang": "en", "tgt_lang": "fr", "output": "Gita est également le site d'une fistule œsophagienne."}
+{"dataset_id": "covost2", "sample_id": "17361996", "src_lang": "en", "tgt_lang": "fr", "output": "Le chien a-t-il déjà débusqué quelqu'un ?"}
+{"dataset_id": "covost2", "sample_id": "607025", "src_lang": "en", "tgt_lang": "fr", "output": "Et as-tu mis l'enveloppe dans ta poche ?"}

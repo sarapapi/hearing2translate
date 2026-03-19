@@ -74,10 +74,9 @@ Run inference with the following command:
 The full list of supported models can be obtained with `python infer.py -h`.
 Supported benchmarks are listed above, while benchmark-specific language coverage is documented in the corresponding READMEs.
 
-To use the Gemini API or OpenRouter.ai API, you must set the environment variable with your API key:
+To use the Gemini API, you must set the environment variable with your API key:
 ```
 export GEMINI_API_KEY=<your-api-key>
-export OPENROUTER_API_KEY=<your-api-key>
 ```
 
 ### 3. Run evaluation

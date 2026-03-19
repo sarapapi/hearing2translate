@@ -25,14 +25,13 @@ MODEL_MODULES = {
     "voxtral-small-24b": "inference.speechllm.voxtral",
 
     # propietary models
-    "gemini-2.5-flash": "inference.api.gemini",
-    "gpt-audio": "inference.api.openrouterai"
+    "gemini-2.5-flash": "inference.api.gemini"
 }
 
 MODELS = sorted(list(MODEL_MODULES.keys()))
 
 # models that don't use torch and therefore we can skip torch seed setting, which is slow
-NON_TORCH_MODELS = ["canary-v2", "gemini-2.5-flash", "gpt-audio"]
+NON_TORCH_MODELS = ["canary-v2", "gemini-2.5-flash"]
 
 TEMPLATED_TEXT_PROMPT = \
     ("You are a professional {src_lang}-to-{tgt_lang} translator. Your goal is to accurately convey "

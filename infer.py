@@ -21,6 +21,7 @@ MODEL_MODULES = {
     "desta2-8b": "inference.speechllm.desta2",
     "phi4multimodal": "inference.speechllm.phi4multimodal",
     "qwen2audio-7b": "inference.speechllm.qwen2audio",
+    "qwen3omni": "inference.speechllm.qwen3omni",
     "spirelm": "inference.speechllm.spirelm",
     "voxtral-small-24b": "inference.speechllm.voxtral",
 
@@ -31,7 +32,7 @@ MODEL_MODULES = {
 MODELS = sorted(list(MODEL_MODULES.keys()))
 
 # models that don't use torch and therefore we can skip torch seed setting, which is slow
-NON_TORCH_MODELS = ["canary-v2", "gemini-2.5-flash"]
+NON_TORCH_MODELS = ["gemini-2.5-flash"]
 
 TEMPLATED_TEXT_PROMPT = \
     ("You are a professional {src_lang}-to-{tgt_lang} translator. Your goal is to accurately convey "
@@ -224,12 +225,12 @@ def infer(args):
         outfile.close()
 
 
-def add_infer_args(parser, is_test=False):
-    parser.add_argument("--model", required=not is_test,
+def add_infer_args(parser):
+    parser.add_argument("--model", required=True,
                         help="Model to be used for inference. Specific models: " + ", ".join(MODELS) + ". For other text models: any HuggingFace model name.")
     parser.add_argument("--in-modality", choices=["speech", "text"], required=True,
                         help="Input modality used for inference")
-    parser.add_argument("--in-file", required=True, help="Input JSONL file path", nargs=None if not is_test else "+")
+    parser.add_argument("--in-file", required=True, help="Input JSONL file path")
     parser.add_argument("--out-file", required=False, help="Output JSONL file path. If not set: stdout.", default=None)
     parser.add_argument("--transcript-file",
                         help="Optional JSONL with transcripts for text modality")

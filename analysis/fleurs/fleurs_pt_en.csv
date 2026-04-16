@@ -18,4 +18,5 @@ pt_en,aya_canary-v2,0.0,2.3515,0.9229,68.0816
 pt_en,tower_canary-v2,0.0,2.424,0.9238,70.6735
 pt_en,tower_whisper,0.3264,2.3863,0.9243,70.8205
 pt_en,aya_whisper,0.3264,2.2966,0.9268,68.2037
+pt_en,qwen3omni,0.2176,2.1058,0.9299,69.0602
 pt_en,voxtral-small-24b,0.7617,2.18,0.9312,71.1709

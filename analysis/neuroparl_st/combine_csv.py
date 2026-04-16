@@ -28,6 +28,7 @@ SYSTEM_ORDER = [
     "phi4multimodal",
     "voxtral-small-24b",
     "spirelm",
+    "gemini-2.5-flash"
 ]
 SYSTEM_ORDER = [system.replace("_", " ") for system in SYSTEM_ORDER]
 

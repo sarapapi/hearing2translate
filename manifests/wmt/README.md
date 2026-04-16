@@ -41,7 +41,51 @@ The WMT24 and WMT25 are primarily text-only datasets but include a `speech` doma
 and
 
 ```bibtex
-WIP
+@inproceedings{kocmi-etal-2025-findings,
+    title = "Findings of the {WMT}25 General Machine Translation Shared Task: Time to Stop Evaluating on Easy Test Sets",
+    author = "Kocmi, Tom  and
+      Artemova, Ekaterina  and
+      Avramidis, Eleftherios  and
+      Bawden, Rachel  and
+      Bojar, Ond{\v{r}}ej  and
+      Dranch, Konstantin  and
+      Dvorkovich, Anton  and
+      Dukanov, Sergey  and
+      Fishel, Mark  and
+      Freitag, Markus  and
+      Gowda, Thamme  and
+      Grundkiewicz, Roman  and
+      Haddow, Barry  and
+      Karpinska, Marzena  and
+      Koehn, Philipp  and
+      Lakougna, Howard  and
+      Lundin, Jessica  and
+      Monz, Christof  and
+      Murray, Kenton  and
+      Nagata, Masaaki  and
+      Perrella, Stefano  and
+      Proietti, Lorenzo  and
+      Popel, Martin  and
+      Popovi{\'c}, Maja  and
+      Riley, Parker  and
+      Shmatova, Mariya  and
+      Steingr{\'i}msson, Steinth{\'o}r  and
+      Yankovskaya, Lisa  and
+      Zouhar, Vil{\'e}m",
+    editor = "Haddow, Barry  and
+      Kocmi, Tom  and
+      Koehn, Philipp  and
+      Monz, Christof",
+    booktitle = "Proceedings of the Tenth Conference on Machine Translation",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.wmt-1.22/",
+    doi = "10.18653/v1/2025.wmt-1.22",
+    pages = "355--413",
+    ISBN = "979-8-89176-341-8",
+}
 ```
 
 

@@ -51,6 +51,7 @@ SYSTEM_ORDER = [
     "phi4multimodal",
     "voxtral-small-24b",
     "spirelm",
+    "qwen3omni"
 ]
 SYSTEM_ORDER = [system.replace("_", " ") for system in SYSTEM_ORDER]
 #
@@ -269,6 +270,7 @@ SYSTEM_TO_NAME = {
     "phi4multimodal": r"\cellcolor{speechllmcolor}{\phimultimodal}",
     "voxtral-small-24b": r"\cellcolor{speechllmcolor}{\voxtral}",
     "spirelm": r"\cellcolor{speechllmcolor}{\spire}",
+    "qwen3omni": r"\cellcolor{speechllmcolor}{\qwen3omni}",
 }
 
 if args.output_tex:

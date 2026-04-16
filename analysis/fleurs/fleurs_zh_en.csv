@@ -14,7 +14,8 @@ zh_en,tower_owsm4.0-ctc,0.0,2.6813,0.8854,55.5565
 zh_en,aya_owsm4.0-ctc,0.2116,2.3235,0.8957,52.8847
 zh_en,gemma_whisper,0.4233,2.0381,0.907,53.7328
 zh_en,gemma_seamlessm4t,0.4233,2.124,0.9077,53.3179
-zh_en,tower_whisper,0.1058,1.7881,0.9219,57.3063
 zh_en,tower_seamlessm4t,0.0,1.8434,0.9219,57.2853
+zh_en,tower_whisper,0.1058,1.7881,0.9219,57.3063
 zh_en,aya_seamlessm4t,0.4233,1.8129,0.9234,54.3698
 zh_en,aya_whisper,0.1058,1.7166,0.9235,54.3093
+zh_en,qwen3omni,0.2116,1.1826,0.9499,57.5995

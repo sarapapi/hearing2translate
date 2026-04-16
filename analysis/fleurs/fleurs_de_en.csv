@@ -16,6 +16,7 @@ de_en,gemma_canary-v2,0.0,2.3228,0.9307,65.2543
 de_en,gemma_whisper,0.0,2.3266,0.9317,65.0647
 de_en,tower_canary-v2,0.0,2.3204,0.9378,68.3454
 de_en,aya_canary-v2,0.0,2.1745,0.9386,66.3735
+de_en,qwen3omni,0.348,2.1609,0.9402,67.8787
 de_en,voxtral-small-24b,0.0,2.1276,0.9405,68.4401
 de_en,aya_whisper,0.0,2.1596,0.9406,66.5644
 de_en,tower_whisper,0.0,2.2676,0.9414,68.3684

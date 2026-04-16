@@ -18,4 +18,5 @@ en_pt,gemma_seamlessm4t,0.155,2.6548,0.937,64.5338
 en_pt,gemma_whisper,0.4651,2.7652,0.937,64.8652
 en_pt,aya_canary-v2,0.3101,2.5975,0.9378,68.571
 en_pt,gemma_canary-v2,0.0,2.6433,0.9398,65.1819
+en_pt,qwen3omni,0.7752,2.6108,0.941,68.9974
 en_pt,voxtral-small-24b,0.6202,2.3931,0.947,69.5057

@@ -1,0 +1,1 @@
+{"lang": "es", "trans_fn": "qwen3_seamlessm4t_en_pro", "acc": 71.6, "f1_male": 77.6, "f1_female": 61.5, "del_g": 16, "unk_male": 1, "unk_female": 2, "unk_neutral": 0}

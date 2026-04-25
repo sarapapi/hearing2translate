@@ -9,7 +9,7 @@
 The **Hearing-to-Translate** test suite provides a unified evaluation framework for 
 assessing how effectively SpeechLLMs, Speech Foundation Models (SFMs), and cascaded 
 ASR→LLM pipelines handle speech-to-text translation across diverse real-world conditions. 
-Covering 22 systems, 13 language pairs, 9 speech phenomena, and 16 benchmarks, the suite 
+Covering 23 systems, 13 language pairs, 9 speech phenomena, and 16 benchmarks, the suite 
 measures performance on clean speech as well as challenging scenarios involving gender 
 bias, accents, code-switching, disfluencies, noise, named entities, emotion, and 
 long-form content.
@@ -17,7 +17,8 @@ long-form content.
 ---
 
 ## 📰 News
-- Mar. 25, 2026: added support for the [Gemini 2.5 Flash model](inference/api/gemini.py) and their [outputs](outputs/gemini-2.5-flash) for generic benchmarks.
+- Apr. 25, 2026: added outputs for the Qwen3 LLM model combined with [Whisper](outputs/qwen3_whisper), [SeamlessM4T](outputs/qwen3_seamlessm4t), [Canary](outputs/qwen3_canary-v2), and [OWSM](outputs/qwen3_owsm4.0-ctc)
+- Mar. 25, 2026: added support for the [Gemini 2.5 Flash model](inference/api/gemini.py) and their [outputs](outputs/gemini-2.5-flash) for generic benchmarks
 - Feb. 10, 2026: added support for the [Qwen3-Omni model](inference/speechllm/qwen3omni.py) and their [outputs](outputs/qwen3omni)
 - Dec. 28, 2025: [Human Evaluation data released on 🤗HuggingFace](https://huggingface.co/datasets/zouharvi/hearing2translate-humeval)
 - Dec. 19, 2025: [Preprint released on arXiv](https://arxiv.org/abs/2512.16378)

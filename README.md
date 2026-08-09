@@ -17,6 +17,7 @@ long-form content.
 ---
 
 ## 📰 News
+- Aug. 9, 2026: added easy [interactive preview of human annotations](https://sarapapi.github.io/hearing2translate/?baked=&campaign_id=hearing2translate-v1&bakedItemI=31) in-browser
 - Feb. 10, 2026: added support for the [Qwen3-Omni model](inference/speechllm/qwen3omni.py) and their [outputs](outputs/qwen3omni)
 - Dec. 28, 2025: [Human Evaluation data released on 🤗HuggingFace](https://huggingface.co/datasets/zouharvi/hearing2translate-humeval)
 - Dec. 19, 2025: [Preprint released on arXiv](https://arxiv.org/abs/2512.16378)
@@ -81,6 +82,8 @@ Supported benchmarks are listed above, while benchmark-specific language coverag
 
 After generating model outputs, run the evaluation suite using the scripts in the `evaluation/` directory.
 For environment setup, model downloads, and benchmark-specific evaluation commands, refer to the dedicated [Evaluation README](evaluation/README.md).
+
+Human evaluations were done using [Pearmut](https://github.com/zouharvi/pearmut) and can be accessed in [evaluation_human/hearing2translate-v1/](evaluation_human/hearing2translate-v1/), on [HuggingFace](https://huggingface.co/datasets/zouharvi/hearing2translate-humeval), or [browser interactively](https://sarapapi.github.io/hearing2translate/?baked=&campaign_id=hearing2translate-v1&bakedItemI=31).
 
 ## Contributing
 

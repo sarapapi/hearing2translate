@@ -13,6 +13,7 @@ es_en,tower_owsm4.0-ctc,0.0,2.3905,0.9164,59.5002
 es_en,aya_owsm4.0-ctc,0.1101,2.3379,0.9174,58.6377
 es_en,aya_seamlessm4t,0.0,2.3319,0.9182,58.452
 es_en,gemma_whisper,0.0,2.1294,0.9286,57.8329
+es_en,qwen3omni,0.4405,2.1511,0.9297,59.44
 es_en,gemma_canary-v2,0.1101,2.1363,0.9325,57.5544
 es_en,voxtral-small-24b,0.0,1.8989,0.9333,61.6075
 es_en,tower_canary-v2,0.0,2.0238,0.9338,60.2492

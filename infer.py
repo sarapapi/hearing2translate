@@ -23,10 +23,16 @@ MODEL_MODULES = {
     "qwen2audio-7b": "inference.speechllm.qwen2audio",
     "qwen3omni": "inference.speechllm.qwen3omni",
     "spirelm": "inference.speechllm.spirelm",
-    "voxtral-small-24b": "inference.speechllm.voxtral"
+    "voxtral-small-24b": "inference.speechllm.voxtral",
+
+    # propietary models
+    "gemini-2.5-flash": "inference.api.gemini"
 }
 
 MODELS = sorted(list(MODEL_MODULES.keys()))
+
+# models that don't use torch and therefore we can skip torch seed setting, which is slow
+NON_TORCH_MODELS = ["gemini-2.5-flash"]
 
 TEMPLATED_TEXT_PROMPT = \
     ("You are a professional {src_lang}-to-{tgt_lang} translator. Your goal is to accurately convey "
@@ -48,13 +54,15 @@ TEMPLATED_SPEECH_PROMPT = \
 def setup_model(model_name, modality):
     # Check if model is in the specific model modules 
     if model_name in MODEL_MODULES:
-        if model_name != "test_dataset":
+        if model_name not in NON_TORCH_MODELS:
             logging.info("Setting transformers seed to 42 for reproducibility.")
             try:
                 from transformers.trainer_utils import set_seed
             except ImportError:
                 from transformers import set_seed
             set_seed(42)
+        else:
+            logging.info(f"Skipping torch.set_seed because model {model_name} is in the list of non-torch models.")
 
         module_name = MODEL_MODULES[model_name]
         module = importlib.import_module(module_name)

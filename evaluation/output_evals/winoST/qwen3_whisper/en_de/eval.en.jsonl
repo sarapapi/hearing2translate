@@ -1,0 +1,1 @@
+{"lang": "de", "trans_fn": "qwen3_whisper_en", "acc": 53.7, "f1_male": 63.6, "f1_female": 41.0, "del_g": 23, "unk_male": 0, "unk_female": 0, "unk_neutral": 0}

@@ -11,5 +11,5 @@ SRC_CODE=en
 TGT_CODE=es
 SRCTGT="$SRC_CODE"_"$TGT_CODE"
 MODEL=canary-v2
-python3 evaluation/metrics/neuroparl_st/ne_terms_accuracy.py --input <(jq -r '.output' ./evaluation/output_evals/europarl_st/$MODEL/$SRCTGT/results.jsonl) --tsv-ref ./evaluation/metrics/neuroparl_st/terms_ne_files/$SRCTGT/test.all.$TGT_CODE.iob --lang $TGT_CODE --save_dir ./evaluation/output_evals/neuroparl_st/$MODEL/$SRCTGT/
+python3 evaluation/metrics/neuroparl_st/ne_terms_accuracy.py --input ./evaluation/output_evals/europarl_st/$MODEL/$SRCTGT/results.jsonl --tsv-ref ./evaluation/metrics/neuroparl_st/terms_ne_files/$SRCTGT/test.all.$TGT_CODE.iob --lang $TGT_CODE --save_dir ./evaluation/output_evals/neuroparl_st/$MODEL/$SRCTGT/
 ``

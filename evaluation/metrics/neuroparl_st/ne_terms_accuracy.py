@@ -29,11 +29,13 @@ from pathlib import Path
 def ne_and_terms(fp):
     tokens = []
     full_entities = []
+    ref_source = []
     while True:
         ln = fp.readline().strip()
         if ln == "":
             break
         items = ln.split("\t")
+        ref_source.append(items[1])
         if items[2] != "O":
             entity_type = items[2].split("-")[1]
             entity_pos = items[2].split("-")[0]
@@ -44,7 +46,7 @@ def ne_and_terms(fp):
                 full_entities[-1][0].append(items[1])
             else:
                 raise ValueError("Unrecognized position {} in \"{}\"".format(entity_pos, ln))
-    return tokens, full_entities
+    return tokens, full_entities, " ".join(ref_source)
 
 
 def full_entity_index(full_entity, hypothesis):
@@ -55,13 +57,13 @@ def full_entity_index(full_entity, hypothesis):
     return -1
 
 
-def scores_by_type(in_f, tsv_reference, tokenizer):
+def scores_by_type(in_f, tsv_reference, tokenizer, save_dir):
     entity_items_scores = {}
     full_entities_scores = {}
-    #va linea a linea leyendo en el fichero de salida y tokeniza la entrada.
-    with open(in_f) as i_f, open(tsv_reference) as r_f:
-        for i_line in i_f:
-            reference_tokens, reference_entities = ne_and_terms(r_f)
+    with open(in_f) as i_f, open(tsv_reference) as r_f, open(Path(save_dir) / "debug.txt", "w+") as debug_f:
+        for i, raw_line in enumerate(i_f):
+            i_line = json.loads(raw_line)["output"]
+            reference_tokens, reference_entities, ref = ne_and_terms(r_f) #
             tokenized = [str(tok) for tok in tokenizer(i_line)]
             lowercase_tokenized = [tok.lower() for tok in tokenized]
 
@@ -94,7 +96,7 @@ def scores_by_type(in_f, tsv_reference, tokenizer):
                 if idx_lower >= 0:
                     del lowercase_tokenized_clone[idx:idx+len(entity)]
                     full_entities_scores[entity_type]["ci_found"] += 1
-
+            debug_f.write(f"[{i}]\nh={i_line.strip()}\nr={ref}\n{reference_entities=}\n{full_entities_scores=} \n")
     return entity_items_scores, full_entities_scores
 
 
@@ -137,7 +139,7 @@ def print_scores(out_scores, score_type, save_dir, print_latex=False):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--input', required=True, type=str, metavar='FILE',
-                        help='Input file to be used to compute accuracies (it must be detokenized).')
+                        help='Input file to be used to compute accuracies. Must correspond to a results.jsonl (have a "output" key per line, with each line correpondign to one reference sentence).')
     parser.add_argument('--tsv-ref', required=True, type=str, metavar='REFERENCE',
                         help='TSV with NE and terms definition file.')
     parser.add_argument('--lang', required=True, type=str, metavar='LANG',
@@ -157,6 +159,6 @@ if __name__ == '__main__':
     #subprocess.run(f"python3 -m spacy download {LANG_MAP[args.lang]}", shell=True)
     nlp = spacy.load(LANG_MAP[args.lang], disable=['parser', 'ner'])
 
-    items_scores, entities_scores = scores_by_type(args.input, args.tsv_ref, nlp)
+    items_scores, entities_scores = scores_by_type(args.input, args.tsv_ref, nlp, args.save_dir)
     #print_scores(items_scores, "Items", print_latex=args.print_latex)
     print_scores(entities_scores, "Full Entities", args.save_dir, print_latex=args.print_latex)

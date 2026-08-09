@@ -1,0 +1,1 @@
+{"lang": "de", "trans_fn": "qwen3_canary-v2_en", "acc": 53.5, "f1_male": 63.6, "f1_female": 40.4, "del_g": 23, "unk_male": 0, "unk_female": 0, "unk_neutral": 0}

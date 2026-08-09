@@ -1,0 +1,1 @@
+{"lang": "fr", "trans_fn": "qwen3_owsm4.0-ctc_en", "acc": 50.2, "f1_male": 62.2, "f1_female": 38.0, "del_g": 24, "unk_male": 141, "unk_female": 116, "unk_neutral": 16}

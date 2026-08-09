@@ -16,6 +16,7 @@ it_en,gemma_whisper,0.0,2.0823,0.9282,57.9351
 it_en,aya_canary-v2,0.1156,2.0844,0.9285,59.9134
 it_en,aya_seamlessm4t,0.2312,2.1358,0.9285,59.3908
 it_en,tower_canary-v2,0.0,2.0868,0.9286,61.0532
+it_en,qwen3omni,0.2312,2.0502,0.9345,59.6902
 it_en,tower_whisper,0.0,1.9871,0.9352,61.1406
 it_en,voxtral-small-24b,0.1156,1.922,0.9356,61.9656
 it_en,aya_whisper,0.0,1.987,0.9359,60.0022

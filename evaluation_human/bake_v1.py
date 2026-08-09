@@ -4,6 +4,8 @@
 # %%
 
 import json
+import os
+import shutil
 
 with open("hearing2translate-v1/annotations.json", "r") as f:
     data_annotations = json.load(f)["hearing2translate-v1"]
@@ -28,8 +30,10 @@ for document in data_annotations:
         "annotation": [],
         "item_i": None,
     }
+    assets = []
     for item_annotation, item_item in zip(document["annotations"], document["item"]):
         new_item_item = {"src": item_item["src"], "tgt": {}}
+        assets.append(item_item["src"].split(' src="')[1].split('"></audio>')[0])
         new_item_annotation = {}
         for model, tgt, annotation in zip(item_item["models"], item_item["tgt"], item_annotation):
             new_item_item["tgt"][model] = tgt
@@ -41,6 +45,14 @@ for document in data_annotations:
     # skip no error spans
     if all(not annotation_obj["error_spans"] for annotation in doc_item_new["annotation"] for annotation_obj in annotation.values()):
         continue
+
+    # copy assets
+    for asset in assets:
+        fname0 = f"data/{asset}"
+        fname1 = f"/home/vilda/Downloads/hearing2translate-v1-baked/{asset}"
+        os.makedirs(os.path.dirname(fname1), exist_ok=True)
+        if not os.path.exists(fname1):
+            shutil.copy(fname0, fname1)
 
     data_progress_new["user"]["progress"].append("completed")
     data_campaign_new["data"].append(doc_item_new["item"])

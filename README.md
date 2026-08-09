@@ -17,6 +17,7 @@ long-form content.
 ---
 
 ## 📰 News
+- Aug. 9, 2026: added easy [interactive preview of human annotations](https://sarapapi.github.io/hearing2translate/?baked=&campaign_id=hearing2translate-v1&bakedItemI=31) in-browser
 - Apr. 25, 2026: added outputs for the Qwen3 LLM model combined with [Whisper](outputs/qwen3_whisper), [SeamlessM4T](outputs/qwen3_seamlessm4t), [Canary](outputs/qwen3_canary-v2), and [OWSM](outputs/qwen3_owsm4.0-ctc)
 - Mar. 25, 2026: added support for the [Gemini 2.5 Flash model](inference/api/gemini.py) and their [outputs](outputs/gemini-2.5-flash) for generic benchmarks
 - Feb. 10, 2026: added support for the [Qwen3-Omni model](inference/speechllm/qwen3omni.py) and their [outputs](outputs/qwen3omni)
@@ -88,6 +89,8 @@ Supported benchmarks are listed above, while benchmark-specific language coverag
 
 After generating model outputs, run the evaluation suite using the scripts in the `evaluation/` directory.
 For environment setup, model downloads, and benchmark-specific evaluation commands, refer to the dedicated [Evaluation README](evaluation/README.md).
+
+Human evaluations were done using [Pearmut](https://github.com/zouharvi/pearmut) and can be accessed in [evaluation_human/hearing2translate-v1/](evaluation_human/hearing2translate-v1/), on [HuggingFace](https://huggingface.co/datasets/zouharvi/hearing2translate-humeval), or [browser interactively](https://sarapapi.github.io/hearing2translate/?baked=&campaign_id=hearing2translate-v1&bakedItemI=31).
 
 ## Contributing
 

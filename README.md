@@ -23,6 +23,8 @@ long-form content.
 - Feb. 10, 2026: added support for the [Qwen3-Omni model](inference/speechllm/qwen3omni.py) and their [outputs](outputs/qwen3omni)
 - Dec. 28, 2025: [Human Evaluation data released on 🤗HuggingFace](https://huggingface.co/datasets/zouharvi/hearing2translate-humeval)
 - Dec. 19, 2025: [Preprint released on arXiv](https://arxiv.org/abs/2512.16378)
+- 2026: [Published in Transactions of Computational Linguistics, Volume 14](https://aclanthology.org/2026.tacl-1.89/) [pdf](https://aclanthology.org/2026.tacl-1.89.pdf)
+- Oct. 2026: Presented at EMNLP 2026
 
 ## Repository Structure
 ```
@@ -111,13 +113,27 @@ Human evaluation data in `evaluation_human/hearing2translate-v1` is released und
 ## Citation
 
 ```bibtex
-@misc{papi2025hearingtranslateeffectivenessspeech,
-      title={Hearing to Translate: The Effectiveness of Speech Modality Integration into LLMs}, 
-      author={Sara Papi and Javier Garcia Gilabert and Zachary Hopton and Vilém Zouhar and Carlos Escolano and Gerard I. Gállego and Jorge Iranzo-Sánchez and Ahrii Kim and Dominik Macháček and Patricia Schmidtova and Maike Züfle},
-      year={2025},
-      eprint={2512.16378},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2512.16378}, 
+@article{papi-etal-2026-hearing,
+    title = "Hearing to Translate: The Effectiveness of Speech Modality Integration into {LLM}s",
+    author = {Papi, Sara  and
+      Gilabert, Javier Garcia  and
+      Hopton, Zachary  and
+      Zouhar, Vil{\'e}m  and
+      Escolano, Carlos  and
+      G{\'a}llego, Gerard I.  and
+      Iranzo-S{\'a}nchez, Jorge  and
+      Kim, Ahrii  and
+      Mach{\'a}{\v{c}}ek, Dominik  and
+      Schmidtova, Patricia  and
+      Z{\"u}fle, Maike},
+    journal = "Transactions of the Association for Computational Linguistics",
+    volume = "14",
+    year = "2026",
+    address = "Cambridge, MA",
+    publisher = "MIT Press",
+    url = "https://aclanthology.org/2026.tacl-1.89/",
+    doi = "10.1162/tacl.a.787",
+    pages = "1963--1992",
+    abstract = "As Large Language Models (LLMs) expand beyond text, integrating speech as a native modality has given rise to SpeechLLMs, which directly process spoken language and enable speech-to-text translation (ST) and other downstream tasks, bypassing traditional transcription-based pipelines. Whether this integration improves ST quality over established cascaded architectures, however, remains an open question. We present Hearing to Translate,1 the first comprehensive test suite rigorously benchmarking 6 state-of-the-art SpeechLLMs against 16 strong direct and cascade systems that couple leading speech foundation models (SFM), with multilingual LLMs. Our analysis spans 16 benchmarks, 13 language pairs, and 9 challenging conditions, including disfluent, noisy, and long-form speech. Across this extensive evaluation, we find that cascaded systems remain the most reliable solution overall, but most recent SpeechLLMs can match or even outperform cascades in various settings while SFMs lag behind both, highlighting that integrating an LLM, either within the model or in a pipeline, is essential for high-quality speech translation."
 }
 ```
